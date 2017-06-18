@@ -1059,6 +1059,17 @@ COPY_EXISTING ~spin718.spl~ ~override~ //End Slayer Change
     resist_dispel = 2 //No dispel/bypass
     STR_VAR resource = berserk
   END
+  PATCH_IF GAME_IS ~bg2ee eet~ BEGIN
+    PATCH_FOR_EACH res_slay IN slayer2 slayer3 slayer4 BEGIN
+      LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+        INT_VAR opcode = 321 //Remove effects by resource
+	    target = 1 //Self
+	    parameter2 = 2 //Timed effects only
+	    resist_dispel = 3 //Dispel/Bypass resistance
+	    STR_VAR resource = EVALUATE_BUFFER ~%res_slay%~
+	  END
+	END
+  END
 BUT_ONLY
 
 COPY_EXISTING ~spin823.spl~ ~override~ //Slayer Change
