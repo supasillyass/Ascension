@@ -16,10 +16,10 @@ REPLACE FINSOL01
 
   IF ~NumTimesTalkedToGT(0)~ THEN 4
     SAY #67817
-    IF ~OR(2) !InParty("Imoen2") StateCheck("Imoen2",4032) Global("BalthazarFights","GLOBAL",0) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO 5
-    IF ~InParty("Imoen2")   !StateCheck("Imoen2",4032) Global("BalthazarFights","GLOBAL",0) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO 6
-    IF ~OR(2) !InParty("Imoen2") StateCheck("Imoen2",4032) Global("BalthazarFights","GLOBAL",1) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO a34
-    IF ~InParty("Imoen2") !StateCheck("Imoen2",4032) Global("BalthazarFights","GLOBAL",1) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO a35
+    IF ~OR(2) !InParty("Imoen2") Dead("Imoen2") Global("BalthazarFights","GLOBAL",0) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO 5
+    IF ~InParty("Imoen2")   !Dead("Imoen2") Global("BalthazarFights","GLOBAL",0) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO 6
+    IF ~OR(2) !InParty("Imoen2") Dead("Imoen2") Global("BalthazarFights","GLOBAL",1) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO a34
+    IF ~InParty("Imoen2") !Dead("Imoen2") Global("BalthazarFights","GLOBAL",1) !Global("BodhiFights","GLOBAL",1)~ THEN GOTO a35
     IF ~Global("BodhiFights","GLOBAL",1)~ THEN EXTERN FINBODH a37
   END
 
@@ -67,8 +67,8 @@ END
 
 IF ~False()~ THEN BEGIN a38
   SAY @584
-  IF ~InParty("Imoen2") !StateCheck("Imoen2",4032)~ THEN GOTO a39
-  IF ~OR(2) !InParty("Imoen2") StateCheck("Imoen2",4032)~ THEN GOTO 5
+  IF ~InParty("Imoen2") !Dead("Imoen2")~ THEN GOTO a39
+  IF ~OR(2) !InParty("Imoen2") Dead("Imoen2")~ THEN GOTO 5
 END
 
 IF ~~ THEN a39

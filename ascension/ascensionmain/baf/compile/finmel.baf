@@ -695,7 +695,7 @@ END
 
 IF
   LevelLT("finilla",12)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   See("finilla")  // finilla
 THEN
   RESPONSE #100
@@ -705,7 +705,7 @@ END
 
 IF
   LevelLT("finyaga",12)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
   See("finyaga")  // finyaga
 THEN
   RESPONSE #100
@@ -715,7 +715,7 @@ END
 
 IF
   LevelLT("finabaz",20)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   See("finabaz")  // finabaz
 THEN
   RESPONSE #100
@@ -725,7 +725,7 @@ END
 
 IF
   LevelLT("finsend",20)  // finsend
-  !StateCheck("finsend",4032)  // finsend
+  !Dead("finsend")  // finsend
   See("finsend")  // finsend
 THEN
   RESPONSE #100
@@ -735,7 +735,7 @@ END
 
 IF
   LevelLT("finbalth",20)  // finbalth
-  !StateCheck("finbalth",4032)  // finbalth
+  !Dead("finbalth")  // finbalth
   See("finbalth")  // finbalth
 THEN
   RESPONSE #100
@@ -985,7 +985,7 @@ END
 IF
   Global("BalthazarFights","GLOBAL",1)
   Range("balth2",10)  // balth2
-  !StateCheck("balth2",4032)  // balth2
+  !Dead("balth2")  // balth2
   See("balth2")  // balth2
   False()
 THEN
@@ -1004,7 +1004,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   OR(4)
     !GlobalTimerNotExpired("TimeStop","LOCALS")

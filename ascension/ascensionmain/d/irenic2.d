@@ -10,12 +10,12 @@ END
 
 IF ~Global("FinalFight","AR6200",2)~ THEN a1
   SAY @440
-  IF ~InParty("Sarevok") !StateCheck("Sarevok",4032) !StateCheck("Sarevok",STATE_SLEEPING) !StateCheck("Sarevok",STATE_STUNNED) !StateCheck("Sarevok",STATE_SILENCED)~ THEN EXTERN SAREV25J a27
-  + ~OR(5) !InParty("Sarevok") StateCheck("Sarevok",4032) StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @441 + a3
-  + ~OR(5) !InParty("Sarevok") StateCheck("Sarevok",4032) StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @442 + a4
-  + ~OR(5) !InParty("Sarevok") StateCheck("Sarevok",4032) StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @443 + a5
-  + ~OR(5) !InParty("Sarevok") StateCheck("Sarevok",4032) StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @444 + a6
-  + ~OR(5) !InParty("Sarevok") StateCheck("Sarevok",4032) StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @445 + a7
+  IF ~InParty("Sarevok") !Dead("sarevok") !StateCheck("Sarevok",STATE_SLEEPING) !StateCheck("Sarevok",STATE_STUNNED) !StateCheck("Sarevok",STATE_SILENCED)~ THEN EXTERN SAREV25J a27
+  + ~OR(5) !InParty("Sarevok") Dead("sarevok") StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @441 + a3
+  + ~OR(5) !InParty("Sarevok") Dead("sarevok") StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @442 + a4
+  + ~OR(5) !InParty("Sarevok") Dead("sarevok") StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @443 + a5
+  + ~OR(5) !InParty("Sarevok") Dead("sarevok") StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @444 + a6
+  + ~OR(5) !InParty("Sarevok") Dead("sarevok") StateCheck("Sarevok",STATE_SLEEPING) StateCheck("Sarevok",STATE_STUNNED) StateCheck("Sarevok",STATE_SILENCED)~ + @445 + a7
 END
 
 IF ~~ THEN a3

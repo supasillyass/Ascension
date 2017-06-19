@@ -115,7 +115,7 @@ IF
   !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
   !StateCheck(LastSeenBy(Myself),STATE_PANIC)
   !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
-  !StateCheck(LastSeenBy(Myself),4032)
+  !StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
 THEN
   RESPONSE #50
     SetGlobalTimer("Spell","LOCALS",6)
@@ -142,7 +142,7 @@ IF
   !StateCheck(SixthNearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(SixthNearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(SixthNearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(SixthNearestEnemyOf(Myself),4032)
+  !StateCheck(SixthNearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(SixthNearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -166,7 +166,7 @@ IF
   !StateCheck(FifthNearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(FifthNearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(FifthNearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(FifthNearestEnemyOf(Myself),4032)
+  !StateCheck(FifthNearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(FifthNearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -190,7 +190,7 @@ IF
   !StateCheck(FourthNearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(FourthNearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(FourthNearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(FourthNearestEnemyOf(Myself),4032)
+  !StateCheck(FourthNearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(FourthNearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -214,7 +214,7 @@ IF
   !StateCheck(ThirdNearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(ThirdNearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(ThirdNearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(ThirdNearestEnemyOf(Myself),4032)
+  !StateCheck(ThirdNearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(ThirdNearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -238,7 +238,7 @@ IF
   !StateCheck(SecondNearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(SecondNearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(SecondNearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(SecondNearestEnemyOf(Myself),4032)
+  !StateCheck(SecondNearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(SecondNearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -262,7 +262,7 @@ IF
   !StateCheck(NearestEnemyOf(Myself),STATE_STUNNED)
   !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
-  !StateCheck(NearestEnemyOf(Myself),4032)
+  !StateCheck(NearestEnemyOf(Myself),STATE_REALLY_DEAD)
   See(NearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -321,7 +321,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
@@ -393,7 +393,7 @@ END
 IF
   Allegiance(Myself,GOODCUTOFF)
   Range(LastAttackerOf(Player1),15)
-  !StateCheck(LastAttackerOf(Player1),4032)
+  !StateCheck(LastAttackerOf(Player1),STATE_REALLY_DEAD)
   !StateCheck(LastAttackerOf(Player1),STATE_PANIC)
   !StateCheck(LastAttackerOf(Player1),STATE_STUNNED)
   !StateCheck(LastAttackerOf(Player1),STATE_HELPLESS)

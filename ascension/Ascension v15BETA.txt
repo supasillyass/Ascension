@@ -20,6 +20,14 @@ I also want to stress that all of the work done was geared towards producing a r
 CHANGELOG/CREDITS
 I felt it easiest to describe who did what and also display what's changed by using this method:
 
+19.06.2017 (badungu)
+- Fixed some Dead Triggers
+- Cosmetic changes
+- Updated to WeiDU v241
+
+18.06.2017 (badungu)
+- Included Slayerfix for Enhanced Edition
+
 05.12.2016 (agb1)
 - Resolved installation issues when installing on non-Enhanced Edition BG2:ToB or BGT-WeiDU (BG2 Fixpack is now a prerequisite for non-EE installations; BG2 Fixpack should NOT be installed for EE)
 

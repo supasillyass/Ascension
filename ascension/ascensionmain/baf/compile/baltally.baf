@@ -471,7 +471,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
@@ -517,7 +517,7 @@ END
 IF
   Range(Player1,15)
   Range(LastTargetedBy(Player1),15)
-  !StateCheck(LastTargetedBy(Player1),4032)
+  !StateCheck(LastTargetedBy(Player1),STATE_REALLY_DEAD)
   See(LastTargetedBy(Player1))
   False()
 THEN
@@ -679,7 +679,7 @@ END
 
 IF
   OR(2)
-  StateCheck(LastSeenBy(Myself),4032)
+  StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
   !See([ANYONE])
 THEN
   RESPONSE #100

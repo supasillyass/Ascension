@@ -178,7 +178,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
@@ -195,9 +195,9 @@ END
 
 IF
   HPPercentLT("finabaz",50)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   Range(LastTargetedBy("finabaz"),15)  // finabaz
-  !StateCheck(LastTargetedBy("finabaz"),4032)  // finabaz
+  !StateCheck(LastTargetedBy("finabaz"),STATE_REALLY_DEAD)  // finabaz
   !StateCheck(LastTargetedBy("finabaz"),STATE_STUNNED)  // finabaz
   !StateCheck(LastTargetedBy("finabaz"),STATE_SLEEPING)  // finabaz
   !StateCheck(LastTargetedBy("finabaz"),STATE_HELPLESS)  // finabaz
@@ -213,9 +213,9 @@ END
 
 IF
   HPPercentLT("finilla",50)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   Range(LastTargetedBy("finilla"),15)  // finilla
-  !StateCheck(LastTargetedBy("finilla"),4032)  // finilla
+  !StateCheck(LastTargetedBy("finilla"),STATE_REALLY_DEAD)  // finilla
   !StateCheck(LastTargetedBy("finilla"),STATE_STUNNED)  // finilla
   !StateCheck(LastTargetedBy("finilla"),STATE_SLEEPING)  // finilla
   !StateCheck(LastTargetedBy("finilla"),STATE_HELPLESS)  // finilla
@@ -231,9 +231,9 @@ END
 
 IF
   HPPercentLT("finsend",50)  // finsend
-  !StateCheck("finsend",4032)  // finsend
+  !Dead("finsend")  // finsend
   Range(LastTargetedBy("finsend"),15)  // finsend
-  !StateCheck(LastTargetedBy("finsend"),4032)  // finsend
+  !StateCheck(LastTargetedBy("finsend"),STATE_REALLY_DEAD)  // finsend
   !StateCheck(LastTargetedBy("finsend"),STATE_STUNNED)  // finsend
   !StateCheck(LastTargetedBy("finsend"),STATE_SLEEPING)  // finsend
   !StateCheck(LastTargetedBy("finsend"),STATE_HELPLESS)  // finsend

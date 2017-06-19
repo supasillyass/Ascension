@@ -45,8 +45,8 @@ END
 
 IF ~~ THEN a22
   SAY @49
-  IF ~InPartyAllowDead("Sarevok") !StateCheck("Sarevok",4032)~ THEN GOTO a23
-  IF ~OR(2) !InPartyAllowDead("Sarevok") StateCheck("Sarevok",4032)~ THEN GOTO a25
+  IF ~InPartyAllowDead("Sarevok") !Dead("Sarevok")~ THEN GOTO a23
+  IF ~OR(2) !InPartyAllowDead("Sarevok") Dead("Sarevok")~ THEN GOTO a25
 END
 
 IF ~~ THEN a23

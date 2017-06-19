@@ -10,7 +10,7 @@ END
 IF
   !Allegiance(Myself,ENEMY)
   OR(2)
-    StateCheck("balth2",4032)
+    Dead("balth2")
     Global("BalthazarFights","GLOBAL",0)
   Global("MelStillImmortal","AR6200",2)
   Delay(6)

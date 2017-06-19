@@ -83,10 +83,10 @@ END
 
 IF ~False()~ THEN a18 
   SAY @608
-  IF ~InPartyAllowDead("Imoen2") !StateCheck("Imoen2",4032)~ THEN GOTO a19
-  IF ~InPartyAllowDead("Imoen2") StateCheck("Imoen2",4032)~ THEN GOTO a20
-  IF ~!InPartyAllowDead("Imoen2") !StateCheck("Imoen2",4032)~ THEN GOTO a21
-  IF ~!InPartyAllowDead("Imoen2") StateCheck("Imoen2",4032)~ THEN GOTO a22
+  IF ~InPartyAllowDead("Imoen2") !Dead("Imoen2")~ THEN GOTO a19
+  IF ~InPartyAllowDead("Imoen2") Dead("Imoen2")~ THEN GOTO a20
+  IF ~!InPartyAllowDead("Imoen2") !Dead("Imoen2")~ THEN GOTO a21
+  IF ~!InPartyAllowDead("Imoen2") Dead("Imoen2")~ THEN GOTO a22
 END
 
 IF ~~ THEN a19 
@@ -143,22 +143,22 @@ END
 
 IF ~~ THEN a29 
   SAY @617
-  IF ~Global("BalthazarFights","GLOBAL",1) !StateCheck("balth2",4032) !StateCheck("balth2",STATE_SLEEPING) !StateCheck("balth2",STATE_STUNNED)~ THEN EXTERN BALTH2 a6
-  + ~Global("BalthazarFights","GLOBAL",1) OR(3) StateCheck("balth2",4032) StateCheck("balth2",STATE_SLEEPING) StateCheck("balth2",STATE_STUNNED)~ + @618 + a30
+  IF ~Global("BalthazarFights","GLOBAL",1) !Dead("balth2") !StateCheck("balth2",STATE_SLEEPING) !StateCheck("balth2",STATE_STUNNED)~ THEN EXTERN BALTH2 a6
+  + ~Global("BalthazarFights","GLOBAL",1) OR(3) Dead("balth2") StateCheck("balth2",STATE_SLEEPING) StateCheck("balth2",STATE_STUNNED)~ + @618 + a30
 END
 
 IF ~~ THEN a30
   SAY @619
-  IF ~StateCheck("sarevok",4032)~ THEN GOTO a32
-  IF ~InPartyAllowDead("sarevok") !StateCheck("sarevok",4032)~ THEN GOTO a33
-  IF ~!InPartyAllowDead("sarevok") !StateCheck("sarevok",4032) OR(2) DifficultyGT(2) Global("BalthazarFights","GLOBAL",1)~ THEN GOTO a34
-  IF ~!InPartyAllowDead("sarevok") !StateCheck("sarevok",4032) DifficultyLT(3) OR(2) Global("BalthazarFights","GLOBAL",0) Difficulty(1)~ THEN GOTO a32
+  IF ~Dead("sarevok")~ THEN GOTO a32
+  IF ~InPartyAllowDead("sarevok") !Dead("sarevok")~ THEN GOTO a33
+  IF ~!InPartyAllowDead("sarevok") !Dead("sarevok") OR(2) DifficultyGT(2) Global("BalthazarFights","GLOBAL",1)~ THEN GOTO a34
+  IF ~!InPartyAllowDead("sarevok") !Dead("sarevok") DifficultyLT(3) OR(2) Global("BalthazarFights","GLOBAL",0) Difficulty(1)~ THEN GOTO a32
 END
 
 IF ~~ THEN a31
   SAY @620
-  IF ~Global("BalthazarFights","GLOBAL",1) !StateCheck("balth2",4032) !StateCheck("balth2",STATE_SLEEPING) !StateCheck("balth2",STATE_STUNNED)~ THEN EXTERN BALTH2 a6
-  + ~OR(4) StateCheck("balth2",4032) StateCheck("balth2",STATE_SLEEPING) StateCheck("balth2",STATE_STUNNED) Global("BalthazarFights","GLOBAL",0)~ + @618 + a30
+  IF ~Global("BalthazarFights","GLOBAL",1) !Dead("balth2") !StateCheck("balth2",STATE_SLEEPING) !StateCheck("balth2",STATE_STUNNED)~ THEN EXTERN BALTH2 a6
+  + ~OR(4) Dead("balth2") StateCheck("balth2",STATE_SLEEPING) StateCheck("balth2",STATE_STUNNED) Global("BalthazarFights","GLOBAL",0)~ + @618 + a30
 END
 
 IF ~~ THEN a32
