@@ -341,7 +341,7 @@ IF
     GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("TimeStop","LOCALS")
   OR(4)
-    StateCheck("balth2",4032)  // balth2
+    Dead("balth2")  // balth2
     !CheckStatGT("balth2",0,SCRIPTINGSTATE3)  // balth2
     HPPercentLT(Myself,75)
     Global("FinalFight","AR6200",8)
@@ -568,7 +568,7 @@ IF
   OR(2)
     LevelLT("finilla",12)  // finilla
     HPPercentLT("finilla",50)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   HasItem("SDScrl2",Myself)  // SDScrl2
 THEN
   RESPONSE #100
@@ -591,7 +591,7 @@ IF
   OR(2)
     LevelLT("finabaz",20)  // finabaz
     HPPercentLT("finabaz",50)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   HasItem("SDScrl2",Myself)  // SDScrl2
 THEN
   RESPONSE #100
@@ -614,7 +614,7 @@ IF
   OR(2)
     LevelLT("finyaga",15)  // finyaga
     HPPercentLT("finyaga",50)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
   HasItem("SDScrl2",Myself)  // SDScrl2
 THEN
   RESPONSE #100
@@ -629,12 +629,12 @@ END
 
 IF
   OR(6)
-    StateCheck("finilla",4032)  // finilla
-    StateCheck("finabaz",4032)  // finabaz
-    StateCheck("finyaga",4032)  // finyaga
-    StateCheck("finbalth",4032)  // finbalth
-    StateCheck("fingrom",4032)  // fingrom
-    StateCheck("finsarev",4032)  // finsarev
+    Dead("finilla")  // finilla
+    Dead("finabaz")  // finabaz
+    Dead("finyaga")  // finyaga
+    Dead("finbalth")  // finbalth
+    Dead("fingrom")  // fingrom
+    Dead("finsarev")  // finsarev
   Global("IMPRISON","GLOBAL",1)
   HasItem("SDScrl3",Myself)  // SDScrl3
   !GlobalTimerNotExpired("Spell","LOCALS")
@@ -733,7 +733,7 @@ IF
   See("finyaga")  // finyaga
   HPPercentLT("finyaga",50)  // finyaga
   HPPercentGT("finyaga",20)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -760,7 +760,7 @@ IF
   See("finabaz")  // finabaz
   HPPercentLT("finabaz",50)  // finabaz
   HPPercentGT("finabaz",20)  // finabaz
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -787,7 +787,7 @@ IF
   See("finilla")  // finilla
   HPPercentLT("finilla",50)  // finilla
   HPPercentGT("finilla",20)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -814,7 +814,7 @@ IF
   See("finyaga")  // finyaga
   HPPercentLT("finyaga",50)  // finyaga
   HPPercentGT("finyaga",20)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -841,7 +841,7 @@ IF
   See("finabaz")  // finabaz
   HPPercentLT("finabaz",50)  // finabaz
   HPPercentGT("finabaz",20)  // finabaz
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -868,7 +868,7 @@ IF
   See("finilla")  // finilla
   HPPercentLT("finilla",50)  // finilla
   HPPercentGT("finilla",20)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
@@ -900,7 +900,7 @@ IF
   Global("CloseCombat","LOCALS",0)
   See("finyaga")  // finyaga
   !HPPercentLT("finyaga",35)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
   HaveSpell(CLERIC_CURE_DISEASE)
 THEN
   RESPONSE #100
@@ -919,7 +919,7 @@ IF
   Global("CloseCombat","LOCALS",0)
   See("finabaz")  // finabaz
   !HPPercentLT("finabaz",35)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   HaveSpell(CLERIC_CURE_DISEASE)
 THEN
   RESPONSE #100
@@ -938,7 +938,7 @@ IF
   Global("CloseCombat","LOCALS",0)
   See("finilla")  // finilla
   !HPPercentLT("finilla",35)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   HaveSpell(CLERIC_CURE_DISEASE)
 THEN
   RESPONSE #100
@@ -957,7 +957,7 @@ IF
   Global("CloseCombat","LOCALS",0)
   See("finbalth")  // finbalth
   !HPPercentLT("finbalth",35)  // finbalth
-  !StateCheck("finbalth",4032)  // finbalth
+  !Dead("finbalth")  // finbalth
   HaveSpell(CLERIC_CURE_DISEASE)
 THEN
   RESPONSE #100
@@ -971,7 +971,7 @@ IF
     GlobalTimerNotExpired("Alacrity","LOCALS")
     !GlobalTimerNotExpired("SpellCast","LOCALS")
   !Range("finyaga",15)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
   OR(3)
     Global("safe","LOCALS",1)
     CheckStatGT(Myself,2,STONESKINS)
@@ -996,7 +996,7 @@ IF
     GlobalTimerNotExpired("Alacrity","LOCALS")
     !GlobalTimerNotExpired("SpellCast","LOCALS")
   !Range("finabaz",15)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   OR(3)
     Global("safe","LOCALS",1)
     CheckStatGT(Myself,2,STONESKINS)
@@ -1021,7 +1021,7 @@ IF
     GlobalTimerNotExpired("Alacrity","LOCALS")
     !GlobalTimerNotExpired("SpellCast","LOCALS")
   !Range("finilla",15)  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   OR(3)
     Global("safe","LOCALS",1)
     CheckStatGT(Myself,2,STONESKINS)
@@ -1062,7 +1062,7 @@ END
 IF
   StateCheck("finilla",STATE_NORMAL)  // finilla
   See("finilla")  // finilla
-  !StateCheck("finilla",4032)  // finilla
+  !Dead("finilla")  // finilla
   HaveSpell(CLERIC_FREE_ACTION)
   OR(2)
     GlobalTimerNotExpired("Alacrity","LOCALS")
@@ -1079,7 +1079,7 @@ IF
   Global("BalthazarFights","GLOBAL",0)
   StateCheck("finbalth",STATE_NORMAL)  // finbalth
   See("finbalth")  // finbalth
-  !StateCheck("finbalth",4032)  // finbalth
+  !Dead("finbalth")  // finbalth
   HaveSpell(CLERIC_FREE_ACTION)
   OR(2)
     GlobalTimerNotExpired("Alacrity","LOCALS")
@@ -1095,7 +1095,7 @@ END
 IF
   StateCheck("finabaz",STATE_NORMAL)  // finabaz
   See("finabaz")  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   HaveSpell(CLERIC_FREE_ACTION)
   OR(2)
     GlobalTimerNotExpired("Alacrity","LOCALS")
@@ -1275,7 +1275,7 @@ IF
   !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
   !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
   !StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
-  !StateCheck(LastSeenBy(Myself),4032)
+  !StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
   !Range(LastSeenBy(Myself),10)
   OR(2)
     GlobalTimerNotExpired("Alacrity","LOCALS")
@@ -1681,9 +1681,9 @@ END
 
 IF
   HPPercentLT("finyaga",50)  // finyaga
-  !StateCheck("finyaga",4032)  // finyaga
+  !Dead("finyaga")  // finyaga
   Range(LastTargetedBy("finyaga"),20)  // finyaga
-  !StateCheck(LastTargetedBy(Myself),4032)
+  !StateCheck(LastTargetedBy(Myself),STATE_REALLY_DEAD)
   !StateCheck(LastTargetedBy("finyaga"),STATE_STUNNED)  // finyaga
   !StateCheck(LastTargetedBy("finyaga"),STATE_SLEEPING)  // finyaga
   !StateCheck(LastTargetedBy("finyaga"),STATE_HELPLESS)  // finyaga
@@ -1698,9 +1698,9 @@ END
 
 IF
   HPPercentLT("finabaz",50)  // finabaz
-  !StateCheck("finabaz",4032)  // finabaz
+  !Dead("finabaz")  // finabaz
   Range(LastTargetedBy("finabaz"),20)  // finabaz
-  !StateCheck(LastTargetedBy(Myself),4032)
+  !StateCheck(LastTargetedBy(Myself),STATE_REALLY_DEAD)
   !StateCheck(LastTargetedBy("finabaz"),STATE_STUNNED)  // finabaz
   !StateCheck(LastTargetedBy("finabaz"),STATE_SLEEPING)  // finabaz
   !StateCheck(LastTargetedBy("finabaz"),STATE_HELPLESS)  // finabaz
@@ -1780,7 +1780,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)

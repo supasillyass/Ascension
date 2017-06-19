@@ -11,7 +11,7 @@ END
 IF
   HPPercentLT(Myself,15)
   HPGT(Myself,1)
-  !StateCheck(Myself,4032)
+  !StateCheck(Myself,STATE_REALLY_DEAD)
   Range(NearestEnemyOf(Myself),10)
   HPPercentGT(NearestEnemyOf(Myself),25)
   Global("GateAway","LOCALS",0)

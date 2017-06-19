@@ -1,5 +1,4 @@
 //This code is almost entirely from the Cuv/Turumbar/Miloch build.
-INCLUDE ~ascension/lib/always.tpa~
 
 // Replace original Monks with Ascension's Adherents
 COPY_EXISTING ~CUT242A.bcs~ ~override~

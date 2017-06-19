@@ -272,7 +272,7 @@ THEN
 END
 
 IF
-  !StateCheck(LastTargetedBy("balth"),4032)
+  !StateCheck(LastTargetedBy("balth"),STATE_REALLY_DEAD)
   Range(LastTargetedBy("balth"),15)  // ~Balthazar~
   RandomNum(2,1)
   See(LastTargetedBy("balth"))  // ~Balthazar~

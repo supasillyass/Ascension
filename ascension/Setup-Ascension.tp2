@@ -9,9 +9,9 @@ BACKUP ~ascension/backup~
 //AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv, WhiteAgnus, JediMindTrix"
 AUTHOR "Active Caretaker: please contact JediMindTrix on the Beamdog forums, or on the open discussion forums at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
 
-VERSION ~v1.51 BETA BWP 20161205~
+VERSION ~v1.51 BETA BWP 20170519~
 
-AUTO_TRA ~ascension/tra/autotra/%s~
+AUTO_TRA ~ascension/tra/autotra/%s~//%~
 
 ALWAYS
   INCLUDE ~ascension/lib/always.tpa~ //library with functions and macros common to all components

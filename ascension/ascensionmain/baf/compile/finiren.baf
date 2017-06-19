@@ -3,7 +3,7 @@ IF                                        //All enemies are dead, Imoen resolved
   Global("JMT#WV1","AR6200",2)            //Current first wave count
   OR(2)
   Global("BalthazarFights","GLOBAL",0)    //Balthazar did not fight with you
-  StateCheck("balth2",15)                 //Balthazar died
+  Dead("balth2")                          //Balthazar died
   OR(2)
   Global("ImoenBackToHuman","GLOBAL",2)   //Imoen Survived
   Global("JMT#IMD","AR6200",1)            //Imoen's dead!
@@ -97,7 +97,7 @@ IF
   OR(2)
     Specifics(Myself,2001)
     Gender(Myself,ILLUSIONARY)
-  StateCheck("finiren",4032)  // finiren
+  Dead("finiren")  // finiren
   Global("TimeToGo","LOCALS",0)
 THEN
   RESPONSE #100

@@ -165,16 +165,16 @@ END
 IF
   Global("IMPRISON","GLOBAL",1)
   OR(6)
-    StateCheck("finilla",4032)  // finilla
-    StateCheck("finsend",4032)
-    StateCheck("finyaga",4032)  // finyaga
-    StateCheck("finbalth",4032)  // finbalth
-    StateCheck("fingrom",4032)  // fingrom
-    StateCheck("finsarev",4032)  // finsarev
+    Dead("finilla")  // finilla
+    Dead("finsend")
+    Dead("finyaga")  // finyaga
+    Dead("finbalth")  // finbalth
+    Dead("fingrom")  // fingrom
+    Dead("finsarev")  // finsarev
   HasItem("SDScrl3",Myself)  // SDScrl3
   OR(2)
     !HasItem("SDScrl3","finsend")  // SDScrl3
-    StateCheck("finsend",4032)
+    Dead("finsend")
   !GlobalTimerNotExpired("Spell","LOCALS")
 THEN
   RESPONSE #100
@@ -542,7 +542,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
@@ -629,9 +629,9 @@ END
 
 IF
   HPPercentLT("finsend",50)
-  !StateCheck("finsend",4032)
+  !Dead("finsend")
   Range(LastTargetedBy("finsend"),20)
-  !StateCheck(LastTargetedBy("finsend"),4032)
+  !StateCheck(LastTargetedBy("finsend"),STATE_REALLY_DEAD)
   !StateCheck(LastTargetedBy("finsend"),STATE_STUNNED)
   !StateCheck(LastTargetedBy("finsend"),STATE_SLEEPING)
   !StateCheck(LastTargetedBy("finsend"),STATE_HELPLESS)

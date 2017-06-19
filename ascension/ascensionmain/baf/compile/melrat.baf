@@ -1,5 +1,5 @@
 IF
-  StateCheck("finmel01",4032)  // ~Melissan~
+  Dead("finmel01")  // ~Melissan~
 THEN
   RESPONSE #100
     DestroySelf()

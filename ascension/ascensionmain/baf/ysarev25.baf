@@ -38,7 +38,7 @@ END
 IF
   InParty(Myself)
   See(Player1)
-  StateCheck("gromnir",4032) // Gromnir Il-Khan
+  Dead("gromnir") // Gromnir Il-Khan
   Global("ExpBSarevok10","GLOBAL",1)
   Global("ForceTalk2","LOCALS",0)
 THEN

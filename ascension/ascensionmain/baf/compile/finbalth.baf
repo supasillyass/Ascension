@@ -497,7 +497,7 @@ END
 
 IF
   Range(LastAttackerOf(Myself),8)
-  !StateCheck(LastAttackerOf(Myself),4032)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
   Global("CloseCombat","LOCALS",1)
   !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
   !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
@@ -518,7 +518,7 @@ IF
   Allegiance(Myself,ALLY)
   HPPercentGT(Myself,50)
   Range(LastAttackerOf(Player1),15)
-  !StateCheck(LastAttackerOf(Player1),4032)
+  !StateCheck(LastAttackerOf(Player1),STATE_REALLY_DEAD)
   !StateCheck(LastAttackerOf(Player1),STATE_PANIC)
   !StateCheck(LastAttackerOf(Player1),STATE_STUNNED)
   !StateCheck(LastAttackerOf(Player1),STATE_HELPLESS)

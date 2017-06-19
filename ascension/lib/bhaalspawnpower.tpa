@@ -1,5 +1,3 @@
-INCLUDE ~ascension/lib/always.tpa~
-
 //Script Extension
 EXTEND_TOP ~ar4500.bcs~ ~ascension/bhlspwnpwr/ar4500.baf~
 
