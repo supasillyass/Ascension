@@ -31,43 +31,43 @@ END
 ///////////////////////////////////////////////////////////////////////
 LANGUAGE ~American English~    
          ~american~ 
-         ~ascension/tra/autotra/american/ascension.tra~
+         ~ascension/tra/american/setup.tra~
 
 LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
          ~german~ 
-         ~ascension/tra/autotra/german/ascension.tra~
+         ~ascension/tra/german/setup.tra~
 
 LANGUAGE ~Francais (traduction de Ly Meng)~
          ~french~ 
-         ~ascension/tra/autotra/french/ascension.tra~
+         ~ascension/tra/french/setup.tra~
 
 LANGUAGE ~Traducción al Español (hecha por Clan REO)~ 
          ~spanish~
-         ~ascension/tra/autotra/spanish/ascension.tra~
+         ~ascension/tra/spanish/setup.tra~
 
 LANGUAGE ~Chinese Translation (by kalabaka)~ 
          ~chinese~
-         ~ascension/tra/autotra/chinese/ascension.tra~
+         ~ascension/tra/chinese/setup.tra~
 
 LANGUAGE ~Traditional Chinese Translation (by kalabaka)~ 
          ~chinese~
-         ~ascension/tra/autotra/Traditional Chinese/ascension.tra~
+         ~ascension/tra/Traditional Chinese/setup.tra~
 
 LANGUAGE ~Polski je;zyk (Przet?umaczony przez Damian Staniszewski)~ 
          ~polski~
-         ~ascension/tra/autotra/polski/ascension.tra~
+         ~ascension/tra/polski/setup.tra~
 
 LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~ 
          ~russian~
-         ~ascension/tra/autotra/russian/ascension.tra~
+         ~ascension/tra/russian/setup.tra~
 
 LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~ 
          ~czech~
-         ~ascension/tra/autotra/czech/ascension.tra~
+         ~ascension/tra/czech/setup.tra~
 
 LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~ 
          ~italian~
-         ~ascension/tra/autotra/italian/ascension.tra~
+         ~ascension/tra/italian/setup.tra~
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
@@ -211,7 +211,7 @@ COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnes.flag~ //Creates install "flag"
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
 
-LOAD_TRA ~ascension/tra/autotra/american/shawnesepilogues.tra~
+LOAD_TRA ~ascension/tra/american/shawnesepilogues.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepilogues.tbl~ END
 
@@ -234,7 +234,7 @@ EXTEND_TOP ~ar6200.bcs~ ~ascension/shawnesEE/baf/eAR6200.baf~
 
 COPY ~ascension/shawnesEE/2da~ ~override~
 
-LOAD_TRA ~ascension/tra/autotra/american/shawnesEEepilogues.tra~
+LOAD_TRA ~ascension/tra/american/shawnesEEepilogues.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepiloguesEE.tbl~ END
 
