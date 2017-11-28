@@ -1,18 +1,4 @@
 /////////////////////////////////////////////////////////////////////////
-// Setup Options
-/////////////////////////////////////////////////////////////////////////
-@1     = ~Ascensión Core (necesita ToB)~
-@2     = ~
-No puedo encontrar [Data/25Dialog.bif], lo cual me lleva a creer que no tienes la expansión Throne of Bhaal instalada. Debes tener ToB instalado para poder instalar el mod Ascensión.
-
-Si lo habeis instalado y estais recibiendo este mensaje de error, por favor contactad con el encargado del modulo.~
-@3     = ~Abazigal mas resistente (opcional, requiere ToB)~ 
-@4     = ~Demogorgon original mas resistente (opcional, requiere ToB)~
-@5     = ~Gromnir mas resistente (opcional, requiere ToB)~ 
-@6     = ~Illasera mas resistente (opcional, requiere ToB)~
-@7     = ~Yaga-Shura mas resistente (opcional, requiere ToB)~
-
-/////////////////////////////////////////////////////////////////////////
 // Creatures
 /////////////////////////////////////////////////////////////////////////
 @500   = ~Babau~

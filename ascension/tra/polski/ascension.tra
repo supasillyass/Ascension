@@ -1,27 +1,7 @@
 /////////////////////////////////////////////////////////////////////////
-// Opcje Instalacyjne
-/////////////////////////////////////////////////////////////////////////
-@1 = ~Ascension Core (wymaga ToB)~
-
-@2 = ~
-Nie mozna znalezc [Data/25Dialog.bif], wedle czego mozna wywnioskowac,
-ze nie ma zainstalowanego dodatku Tron Bhaala. Musisz zainstalowac go
-zanim rozpoczniesz instalacje tego moda. 
-
-Jesli masz go zainstalowanego, a mimo to otrzymujesz ten komunikat to
-skontaktuj sie z autorem moda.~
-
-@3 = ~Mocniejszy Abazigal (opcjonalne, wymaga ToB)~
-@4 = ~Oryginalnie Mocniejszy Demogorgon (opcjonalne, wymaga ToB)~
-@5 = ~Mocniejszy Gromnir (opcjonalne, wymaga ToB)~
-@6 = ~Mocniejsza Illasera (opcjonalne, wymaga ToB)~
-@7 = ~Mocniejszy Yaga-Shura (opcjonalne, wymaga ToB)~
-
-/////////////////////////////////////////////////////////////////////////
 // Stworzenia
 /////////////////////////////////////////////////////////////////////////
 @500 = ~Babau~
-
 
 /////////////////////////////////////////////////////////////////////////
 // Czary

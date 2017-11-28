@@ -1,27 +1,7 @@
 /////////////////////////////////////////////////////////////////////////
-// Volby nastavení
-/////////////////////////////////////////////////////////////////////////
-@1 = ~Ascension Core (vyzaduje datadisk ToB)~
-
-@2 = ~
-Nemuzu najit soubor [Data/25Dialog.bif], pravdepodobne nemate 
-nainstalovany datadisk Throne of Bhaal.  Pro instalaci modu Ascension 
-je tento datadisk vyzadovan.
-
-Pokud jej presto mate nainstalovany a zobrazila se vam tato chyba, 
-kontaktujte prosim spravce modulu.~
-
-@3 = ~Silnejsi Abazigal (volitelne, vyzaduje datadisk ToB)~
-@4 = ~Puvodni silnejsi Demogorgon (volitelne, vyzaduje datadisk ToB)~
-@5 = ~Silnejsi Gromnir (volitelne, vyzaduje datadisk ToB)~
-@6 = ~Silnejsi Illasera (volitelne, vyzaduje datadisk ToB)~
-@7 = ~Silnejsi Yaga-Shura (volitelne, vyzaduje datadisk ToB)~
-
-/////////////////////////////////////////////////////////////////////////
 // Příšery
 /////////////////////////////////////////////////////////////////////////
 @500 = ~Babau~
-
 
 /////////////////////////////////////////////////////////////////////////
 // Kouzla

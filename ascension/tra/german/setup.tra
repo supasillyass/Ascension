@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////
+// Setup Options
+/////////////////////////////////////////////////////////////////////////
+
+@1 = ~Ascension Core (ben”tigt TdB)~
+
+@2 = ~
+Die Datei [Data/25Dialog.bif] wurde nicht gefunden. Das könnte unter 
+anderem daran liegen, dass die Erweiterung "Thron des Bhaal" nicht 
+installiert wurde. Um die Erweiterung "Ascension" installieren zu 
+können, muss "Thron des Bhaal" installiert sein.
+
+Falls "Thron des Bhaal" installiert sein sollte und trotzdem diese 
+Fehlermeldung erscheint, so wendet Euch bitte an Westley Weimer, 
+der die Konvertierung von Ascension ins WeiDU-Format 
+durchgeführt hat.~
+
+@3 = ~Verbesserter Abazigal (optional, ben”tigt TdB)~
+@4 = ~Original Demogorgon (optional, ben”tigt TdB)~
+@5 = ~Verbesserter Gromnir (optional, ben”tigt TdB)~
+@6 = ~Verbesserte Illasera (optional, ben”tigt TdB)~
+@7 = ~Verbesserter Yaga-Shura (optional, ben”tigt TdB)~
