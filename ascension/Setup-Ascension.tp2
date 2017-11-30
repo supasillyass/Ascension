@@ -234,7 +234,7 @@ EXTEND_TOP ~ar6200.bcs~ ~ascension/shawnesEE/baf/eAR6200.baf~
 
 COPY ~ascension/shawnesEE/2da~ ~override~
 
-LOAD_TRA ~ascension/tra/american/shawnesEEepilogues.tra~
+LOAD_TRA ~ascension/tra/american/shawnesepilogues_ee.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepiloguesEE.tbl~ END
 
