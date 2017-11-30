@@ -15,91 +15,91 @@ msgstr ""
 
 #: ascension.tra:500
 msgid "Babau"
-msgstr ""
+msgstr "Бабау"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr ""
+msgstr "Превратить в мышь"
 
 #: ascension.tra:1006
 msgid "Shockwave"
-msgstr ""
+msgstr "Ударная волна"
 
 #: ascension.tra:1007
 msgid "Lightning Aura"
-msgstr ""
+msgstr "Аура молний"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
-msgstr ""
+msgstr "Телекинез"
 
 #: ascension.tra:1012
 msgid "Flip Resistances"
-msgstr ""
+msgstr "Изменение Сопротивления"
 
 #: ascension.tra:1013
 msgid "Control Demon"
-msgstr ""
+msgstr "Управление демоном"
 
 #: ascension.tra:1014
 msgid "Focus"
-msgstr ""
+msgstr "Фокусировка"
 
 #: ascension.tra:1016
 msgid "Divine Mantle"
-msgstr ""
+msgstr "Божественная накидка"
 
 #: ascension.tra:1017
 msgid "Draw Power"
-msgstr ""
+msgstr "Увеличение Силы"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr ""
+msgstr "Божественный магический щит"
 
 #: ascension.tra:1019
 msgid "Command Demon"
-msgstr ""
+msgstr "Власть над демоном"
 
 #: ascension.tra:1020
 msgid "Banish"
-msgstr ""
+msgstr "Изгнание"
 
 #: ascension.tra:1022
 msgid "Unleash"
-msgstr ""
+msgstr "Освобождение"
 
 #: ascension.tra:1024
 msgid "Feedback"
-msgstr ""
+msgstr "Обратная связь"
 
 #: ascension.tra:1025
 msgid "Divine Restoration"
-msgstr ""
+msgstr "Божественное востановление"
 
 #: ascension.tra:1026
 msgid "Divine Cleansing"
-msgstr ""
+msgstr "Божественное искупление "
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr ""
+msgstr "Аура парализации"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
-msgstr ""
+msgstr "Лавовая бомба"
 
 #: ascension.tra:1031
 msgid "Symbol Slow"
-msgstr ""
+msgstr "Символ Замедлить"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
-msgstr ""
+msgstr "Превратиться в Губителя"
 
 #: ascension.tra:1038
 msgid "Melissan: Command the Minions of the Abyss"
-msgstr ""
+msgstr "Мелисса: Власть над любимцами Ада"
 
 #: ascension.tra:2000
 msgid ""
@@ -116,6 +116,18 @@ msgid ""
 "\n"
 "When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group.  Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points.  Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Массовое исцеление (Некромантия)\n"
+"Расстояние: поле зрения\n"
+"Длительность: постоянно\n"
+"Время чтения: 1\n"
+"Зона действия: в радиусе 30 футов\n"
+"Спасбросок: нет\n"
+"\n"
+"При использовании данной способности Потомок Баала должен ясно видеть своих спутников и сфокусировать заклинание на всей группе. По его завершении все члены группы в радиусе 30 футов от заклинателя исцеляются на 2D8 + 2/уровень пунктов здоровья. Остальные ухудшения состояния, такие как усталость, яд, болезнь, слепота и глухота, также излечиваются."
 
 #: ascension.tra:2001
 msgid ""
@@ -132,6 +144,18 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate.  This regeneration will heal any wounds and even regenerate lost limbs.  The creature affected will regain 3 hit points per second.  The effect lasts for 1 round per every 2 levels of the caster or until dispelled.  For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Регенерация (Некромантия)\n"
+"Расстояние: касание\n"
+"Длительность: 1 раунд / 2 уровня\n"
+"Время чтения: 7\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Данная способность позволяет Потомку Баала наделить одно существо способностью к регенерации. Регенерация излечивает любые раны и даже восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня восстановит 18 пунктов здоровья за раунд в течение 7 раундов."
 
 #: ascension.tra:2002
 msgid ""
@@ -148,6 +172,18 @@ msgid ""
 "\n"
 "The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period.  When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster.  A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Призыв Силы Крови (Взывание)\n"
+"Расстояние: 0\n"
+"Длительность: 1 ход (60 секунд)\n"
+"Время чтения: 1\n"
+"Зона действия: заклинатель\n"
+"Спасбросок: нет\n"
+"\n"
+"Потомок Баала призывает силу своей крови, чтобы увеличить на короткий период свои физические возможности. После того, как <PRO_HESHE> сделает это, <PRO_HISHER> Сила, Телосложение и Ловкость увеличиваются на 1 пункт за каждые 3 уровня заклинателя. Например, персонаж 3-го уровня увеличит свои характеристики на 1, а персонаж 12-го уровня - на 4."
 
 #: ascension.tra:2003
 msgid ""
@@ -170,6 +206,24 @@ msgid ""
 "17-21st level:  8d8  +  6/round, slow for 24 seconds, save at -4\n"
 "25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets"
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Темная инфекция (Некромантия)\n"
+"Расстояние: 20 футов\n"
+"Длительность: 1 ход (60 секунд)\n"
+"Время чтения: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: отмена\n"
+"\n"
+"Используя данную способность, Потомок Баала насылает темную силу своего породителя на жертву, отравляя проваливших спасбросок от смерти. Эффекты зависят от уровня заклинателя и подробно описаны ниже:\n"
+"7-9 уровень: 2D8+2 за раунд, замедление на 12 секунд, спасбросок -2\n"
+"10-12 уровень: 3D8 + 3/уровень, замедление на 12 секунд, спасбросок -2\n"
+"13-14 уровень: 4D8+4 за раунд, замедление на 12 секунд, спасбросок -2\n"
+"15-16 уровень: 6D8+5 за раунд, замедление на 24 секунды, спасбросок -2\n"
+"17-21 уровень: 8D8+6 за раунд, замедление на 24 секунды, спасбросок -4\n"
+"25 уровень: 8D8+6 за раунд, замедление на 36 секунд, спасбросок -4, поражает группу целей"
 
 #: ascension.tra:2004
 msgid ""
@@ -177,6 +231,9 @@ msgid ""
 "\n"
 "<CHARNAME> has gained permanent negative plane protection (i.e., <CHARNAME> cannot be level-drained) and 5% magic resistance."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретены постоянная защита от воздействия Негативного Плана (иммунитет к истощению уровней) и улучшение сопротивления магии на 5%."
 
 #: ascension.tra:2005
 msgid ""
@@ -198,6 +255,23 @@ msgid ""
 "25th: 5 rounds, 10 hp extra damage, 10 hp healed\n"
 "30th: 6 rounds, 12 hp extra damage, 12 hp healed"
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Рука убийства (Некромантия)\n"
+"Расстояние: заклинатель\n"
+"Длительность: 1 раунд / 5 уровней\n"
+"Время чтения: 1\n"
+"Спасбросок: нет\n"
+"\n"
+"Когда Потомок Баала использует данную способность, <PRO_HESHE> немедленно наносит жертве дополнительные повреждения при каждом ударе любым видом оружия (кулаком, мечом и т.д.), при этом <PRO_HISHER> темная сила идет сквозь оружие, поражает жертву и использует этот урон для восстановления <PRO_HISHER> здоровья. \n"
+"Эффект зависит от уровня заклинателя и подробно описан ниже:\n"
+"10 уровень: 2 раунда, 4 пункта дополнительного урона, 4 пункта лечения\n"
+"15 уровень: 3 раунда, 6 пунктов дополнительного урона, 6 пунктов лечения\n"
+"20 уровень: 4 раунда, 8 пунктов дополнительного урона, 8 пунктов лечения\n"
+"25 уровень: 5 раундов, 10 пунктов дополнительного урона, 10 пунктов лечения\n"
+"30 уровень: 6 раундов, 12 пунктов дополнительного урона, 12 пунктов лечения"
 
 #: ascension.tra:2006
 msgid ""
@@ -214,6 +288,18 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life.  However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретена особая способность, используемая один раз в день:\n"
+"\n"
+"Воскрешение (Некромантия) \n"
+"Расстояние: касание\n"
+"Длительность: постоянно\n"
+"Время чтения: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Эта способность дает Потомку Баала возможность возврата к жизни членов <PRO_HISHER> группы. При этом, данная способность полностью исцеляет персонаж, делая его готовым к дальнейшим действиям."
 
 #: ascension.tra:2007
 msgid ""
@@ -221,10 +307,13 @@ msgid ""
 "\n"
 "<CHARNAME> has gained 25% resistance to physical damage (i.e., slashing, piercing, crushing and missile damage)."
 msgstr ""
+"Силы Потомка Баала\n"
+"\n"
+"Приобретено постоянное улучшение на 25% сопротивления физическому урону (т.е. урону от рубящего, колющего, крушащего и метательного оружия)."
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
-msgstr ""
+msgstr "Меч хаоса +4"
 
 #: ascension.tra:3001
 msgid ""
@@ -255,22 +344,50 @@ msgid ""
 "Druid\n"
 "non-Chaotic aligned"
 msgstr ""
+"Меч хаоса Саревока\n"
+"Клинок Саревока, брата <CHARNAME>, используемый в их битве в далеком Балдурс Гейте. Победа была на стороне <CHARNAME>, Саревок уничтожен и Побережье Мечей спасено от войны. Сейчас Саревок присоединился к <CHARNAME> и получил свой клинок обратно. Саревок охарактеризовал это оружие как Приносящий смерть и восстановил часть его былой мощи. Правда, лишившись силы потомка Баала, Саревок не смог востановить все былую силу этого клинка. Но, все же, это великое оружие, и такое, предупреждает Саревок, которое трудно использовать тем, кто не является Приносящим смерть, если вообще они смогут его использовать.\n"
+"\n"
+"ПАРАМЕТРЫ:\n"
+"\n"
+"Способности: каждое попадание вытягивает от одного до пяти единиц жизни из цели и передает их владельцу. Свыше максимума носителя здоровье не будет увеличиваться.\n"
+"\n"
+"Клинок так же увеличивает +10% сопротивление магии, пока используется.\n"
+"\n"
+"Урон: 1D10 +4\n"
+"THAC0: +4 улучшение \n"
+"Вид урона: рубящий\n"
+"Вес: 10\n"
+"Показатель скорости: 8\n"
+"Специализация: двуручный меч\n"
+"Тип: двуручное\n"
+"Требует: 14 силы, 18 сложения\n"
+"Не используется:\n"
+"Священниками\n"
+"Магами\n"
+"Паладинами\n"
+"Рейджерами\n"
+"Друидами\n"
+"не хаотическими характерами"
 
 #: ascension.tra:3002
 msgid "Sendai's Potion"
-msgstr ""
+msgstr "Зелье Сендай"
 
 #: ascension.tra:3003
 msgid ""
 "Sendai's Potion\n"
 "Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it."
 msgstr ""
+"Зелье Сендай\n"
+"Похоже, Сендай сама изготовила это зелье. Это - невероятно сильное снадобье лечения, способное полностью восстановить все здоровье любого, кто используют его."
 
 #: ascension.tra:82729
 msgid ""
 "Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time.  She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves.  She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer.  Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant.  Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear.  Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home.  Her destiny was her own, and she would seek it on her own terms.\n"
 "What eventually become of Viconia is unknown.  Her greatest legend is also the most unlikely, although its persistence gives it some credit.  It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow.  Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister.  Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again.  Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever.  Viconia was never reported seen again."
 msgstr ""
+"После расставания с <CHARNAME>, Викония странствовала в течение долгого времени. Она постоянно встречалась с невежеством и ненавистью тех, кто знал ее сородичей, но Викония теперь была решительно настроена доказать, что она избавилась от наследия темных эльфов. Она прошла глубочайшие области Ада и сражалась бок о бок с <CHARNAME>, но поскольку <PRO_HESHE> теперь среди Богов... то ей снова придется скрывать свое лицо от жителей поверхности. Даже когда Шар, ее богиня темноты и разрушения, полностью отреклась от нее, Викония не отступилась. Рассказывают, что она побывала во многих землях... иногда бывая их спасителем, но всегда неблагодарно гонимая подозрением и страхом. Викония всегда путешествовала, избегая компании попутчиков и искателей приключений, и так и не находила что-нибудь, что она действительно могла назвать своим домом. Свою собственную судьбу она выбирала своими собственными действиями.\n"
+"Что произошло с Виконией потом, неизвестно. Самая большая легенда о ней достаточно маловероятна, хотя ее постоянное повторение внушает к ней некоторое доверие. Рассказывают, что Викония спасла эльфов Санданесаллара от заговора Зентарим, отважно сражаясь против агентов организации... и, в конце концов, заслонила собой Королеву Эллесайм от смертельной стрелы. После выздоровления Викония обнаружила, что ее самопожертвование побудило эльфов Санданесаллара наконец-то принять ее и простить ей ее темно-эльфийское происхождение. Королева Эллесайм даровала Виконии самые высокие почести Селдарин, первой дроу, из тех, кто когда-либо удостаивался этого, и даже пригласила Виконию найти свой дом на Дереве Жизни. Викония очевидно была тронута этим поступком... и сказала, что она обдумает предложение Королевы, а пока она просто низко поклонилась Эллесайм и тихо навсегда оставила Санданесаллар. Про Виконию никто больше никто никогда не слышал."
 
 #: ascension.tra:82732
 msgid ""
@@ -305,6 +422,34 @@ msgid ""
 "go on to forge a legend that would rival that of his father.  That, however,"
 " is a different story...   "
 msgstr ""
+"Викония и <CHARNAME> продолжали путешествовать в течение нескольких лет, и "
+"получили немалую известность после того, как сыграли центральные роли в двух"
+" войнах, потрясших Побережье Мечей. Через некоторое время репутация "
+"<CHARNAME> в Королевствах значительно выросла , а его темная спутница всегда"
+" была на его стороне. В конечном счете, Викония забеременела от <CHARNAME>, "
+"что послужило толчком к многочисленным спорам и разногласиям между ними, и "
+"даже закончилось их краткосрочным расставанием. Рождение сына от <CHARNAME>,"
+" однако, навсегда изменило Виконию. Она возвратилась к <CHARNAME> и убедила "
+"его поселиться во Вратах Балдура, посвящая себя воспитанию их сына и, обучая"
+" его пути дроу, также как и пути <PRO_RACE>, и восхищаясь силой мальчика, "
+"которую он уже тогда демонстрировал. Но хотя она и радовалась уму в глазах "
+"своего сына, ей было не суждено увидеть, как он вырастет. Викония была "
+"могущественной жрицей и почти невосприимчива к обычным ядам, но не к яду "
+"Паучьей Королевы, которая не отреклась от мести. Викония была отравлена "
+"прислужником богини Лоллт, а <CHARNAME> был в отчаянии, поскольку даже "
+"наиболее мощное волшебство было неэффективным в лечении его жены. Неизвестны"
+" последние слова Виконии, которые она прошептала <CHARNAME>, прежде чем "
+"смерть забрала ее... но рассказывают что <CHARNAME> обнимал тело своей "
+"темной подруги и плакал, и весь город так же плакал вместе с ним, чувствуя "
+"потерю чего-то драгоценного, о чем они не догадывались, когда это имели. В "
+"отчаянии <CHARNAME> оставил Врата Балдура и воспитывал своего сына в тайне. "
+"Одни рассказывают, что он начал крестовый поход против дроу в Андердарке, "
+"другие утверждают, что он стал героем в далеких северных странах... А "
+"некоторые с уверенностью говорят, что <CHARNAME> сражался с Лоллт в самой "
+"Преисподней... но все согласны в том, что сын Баала навсегда изменился из-за"
+" своей любви к дроу. Что касается его сына, обученного двумя наиболее "
+"могущественными личностями в Королевствах, то он создал легенду, которая "
+"соперничает с легендой его отца. Но это уже совсем другая история..."
 
 #: ascension.tra:82728
 msgid ""
@@ -332,6 +477,29 @@ msgid ""
 "is unknown and shrouded in rumor... but it is said that even the great "
 "Spider Queen does not rest easily any more."
 msgstr ""
+"Викония путешествовала совсем не долго после расставания с <CHARNAME>, и со "
+"временем основала культ, посвященный Шар в одном из районов величественного "
+"города Ватердип. В конце концов, один из ее последователей восстал против "
+"нее, и разъяренная Викония собственноручно уничтожила весь культ. Шар не "
+"простила Виконии это прегрешение и лишила ее особых способностей. Викония "
+"упрямо отказывалась каяться, и вместо этого покинула Ватердип, чтобы "
+"странствовать по Королевствам. По всем рассказам темная эльфийка стала "
+"известной загадочной и могущественной личностью... и хотя было известно, что"
+" она больше не поклонялась Шар, тем не менее, ее жреческая сила была очень "
+"велика. Кому теперь поклонялась темная леди, она держала в строжайшей тайне."
+" Рассказывают, что она подняла армию против Ваасана, короля ведьм, пытаясь "
+"свергнуть его с трона в его Королевстве, и только после ряда неудач победила"
+" в этой войне. Викония предотвратила попытку занять Калимпорт рыцарями "
+"Щита... только для того, чтобы через несколько дней самой захватить город и "
+"установить там такое господство ужаса и жестокости, о котором даже по "
+"прошествии многих лет говорят дрожащим голосом. Викония покинула Калимпорт, "
+"и по слухам вернулась в Андердарк, откуда она и появилась. Возвращение ее "
+"восприняли без восторга, но поскольку Викония стала сильнейшей среди дроу, "
+"что даже Лоллт затаилась. Пройдя оба мира, Викония доказала свое "
+"превосходство. Она сделала бы дроу сильными, принимая во внимание их слабое "
+"теперешнее состояние. Что в итоге произошло с Виконией, неизвестно и окутано"
+" тайной... но как говорят, даже великая Паучья Королева не может больше "
+"спокойно спать."
 
 #: ascension.tra:82727
 msgid ""
@@ -357,6 +525,26 @@ msgid ""
 "thankful that <CHARNAME> had entered his life and forever wish his old "
 "friend well."
 msgstr ""
+"После расставания с <CHARNAME>, Валигар еще несколько лет продолжал "
+"путешествовать по лесам на севере Фаеруна и стал своим в окрестностях "
+"Ватердипа. Позже он вернулся в Аскатлу в свое имение и удалился к тихой, "
+"спокойной жизни, к которой все время стремился. Под давлением поклонников из"
+" местного дворянства он принимает мантию Главного Инспектора и "
+"обязательства, которых он никогда не желал, но принял с готовностью "
+"сразиться с возрастающей коррупцией в внутри города. Много лет, Валигар "
+"разбирался со всеми преступниками или работорговцами, которые посмели "
+"вступить в черту города. Валигар был бесстрашен, сделал из городского "
+"гарнизона такую силу, что даже наиболее самонадеянный вор должен был уважать"
+" его. Валигар и Теневые Воры сталкивались много раз, и, в конечном счете, "
+"было достигнуто взаимное уважение... хотя многие считали это еще одной "
+"победой рейнджера. Удивляясь себе самому, Валигар в итоге восстановил доброе"
+" имя Кортала в Аскатле и даже женился. Его единственный сын, гордость его "
+"жизни, внимал урокам его отца. Валигар наблюдал, как он становится главой "
+"Волшебников в Рясах и проводит самые значительные реформы, наполняя жизнь "
+"Валигара гордостью за него. Вспоминая того человека, каким он был в то "
+"время, когда скрывался в лесах Амна, Валигар остается благодарным <CHARNAME>"
+" за перемены в своей жизни и всегда желает своему старому другу всего "
+"наилучшего."
 
 #: ascension.tra:82726
 msgid ""
@@ -364,6 +552,9 @@ msgid ""
 "The first victims of his terrible army fell easily, and Sarevok's power grew.  The warrior was maddened, however, to find that the victories gave him no thrill.  The power tasted as ashes, though Sarevok tried many times to drive himself into a frenzy of delight at his achievements.  In the end, his throne grew heavy, and it was with dread acceptance that he greeted the arrival of the inevitable heroes to displace him not a year after his return.\n"
 "Sarevok fled into the night, abandoning Baldur's Gate and his dreams of power both.  He became a man haunted by his second chance, hunted by a former life that never was and a possible life that never could be.  Without a destiny and or a true soul of his own, he wandered the Realms... sometimes he brought terror and sometimes he brought nothing but his tired heart, and before long he was gone forever.  Some say that he found his purpose in the great desert, forging a kingdom to last an age.  Some say he traveled to the planes, launching a campaign against the great Mount Celestia.  The truth is unknown, though the tales still persist."
 msgstr ""
+"Когда пути повторно рожденного Саревока и <CHARNAME> разошлись, он продемонстрировал, как хороши его обещания. Он возвратился в земли, которые знал раньше, обладая гораздо большей силой, чем прежде. Старые враги были испуганы его возвращением, и вскоре Саревок установил во Вратах Балдура такое господство террора, что спустя несколько месяцев полностью подчинил город. Сопротивление было сокрушено и само имя Саревока воодушевляло его армию на победу. И хотя у него не было божественной силы его отца, у него было достаточно земной силы, чтобы насытить свой аппетит. Саревок получал удовольствие оттого, что само его имя стало эпитетом жестокости на языке каждого гражданина Побережья Меча.\n"
+"Первые жертвы его ужасной армии были легко уничтожены, и власть Саревока возрастала. Однако сам воин был взбешен оттого, что эти победы не принесли ему никаких острых ощущений. Несмотря на то, что Саревок много раз пытался ввести себя в состояние безумного восхищения от своих побед, вся эта власть ощущалась скорее как прах. В конце концов, этот трон стал тяготить его, и он даже обрадовался появлению героев, пожелавших сместить его всего через год после его возвращения.\n"
+"Саревок сбежал в ночь, отказавшись и от Врат Балдура и от своих мечтаний о могуществе. Он превратился в человека, который мучительно разыскивал свой второй шанс, охотился за прежней жизнью, которой никогда не было, и возможной жизнью, которой никогда не могло быть. Без судьбы и своей собственной подлинной души он блуждал по Королевствам... иногда он нес с собой страх, а иногда только свое усталое сердце, и вскоре он ушел навсегда. Некоторые говорят, что он нашел свою цель в великой пустыне, основав там королевство. Другие утверждают, что он предпринял путешествие на планы, начав поход против великой Маунт Целестиа. Истина неизвестна, хотя рассказы все еще продолжаются."
 
 #: ascension.tra:82725
 msgid ""
@@ -384,12 +575,32 @@ msgid ""
 "own life.  In truth, he journeyed to Kara-Tur to bury his one true love, the"
 " warrior Tamoko.   He never returned, though the stories endure."
 msgstr ""
+"После того, как он был оживлен <CHARNAME>, Саревок провел много лет, блуждая"
+" по Забытым Королевствам, и редко надолго оставаясь на одном месте. В "
+"Бердаске он, по слухам, разгромил армию вторгнувшихся орков, "
+"продемонстрировав такую устрашающую силу и ярость, что запуганные местные "
+"жители не знали, кого бояться больше... только для того, чтобы спокойно "
+"исчезнуть, не дожидаясь награды. В Вестгейт он прибыл как завоеватель, "
+"жестоко навязывая городу свою волю, только для того, чтобы таинственно "
+"исчезнуть несколькими месяцами позже, оставив своих собственных "
+"обескураженных приверженцев на милосердие разозленных толп. Он действовал, "
+"как человек, который не знает себя, и все рассказы сходятся в одном - что "
+"Саревок мучался из-за души, балансирующей между жизнью и смертью, никогда не"
+" достигая ни того, ни другого. Те немногие, кто знали Саревока лучше всего, "
+"говорили, что измученный воин сначала проклянет <CHARNAME> за "
+"предоставленный ему второй шанс... а затем будет благодарить <PRO_HIMHER>. В"
+" конечном счете, он исчез из Королевств, говорили, что он штурмует Бездну "
+"или покончил жизнь самоубийством. На самом деле он уехал в Кара-Тур, чтобы "
+"похоронить свою единственную любовь, воина Тамоко. Он не вернулся назад, "
+"хотя рассказы о нем все продолжались."
 
 #: ascension.tra:82724
 msgid ""
 "Nalia grew quite powerful after her association with <CHARNAME>.  Initially she traveled, slaking her thirst for magical lore by associating with some of the greatest wizards across the Realms.  She sought to use her great power to bring justice to the land, but over time found that if her time with <CHARNAME> had taught her anything, it is that such power must be tempered with wisdom or it is useless.  She could strike out at evil as she wished... it did not always help the needy, as she thought it would, and after a year of travel she remembered that there was a far better way that she could be of service to her people.\n"
 "Nalia returned to Amn and her family home of de'Arnise Hold.  She found it in the control of none other than Isaea Roenal, but she was no longer the wayward child that he expected, and single-handedly brought him to justice for his indiscretions.  She declared herself the inheritor of her father's ducal title, and for once there was no argument from the local nobility.  They snubbed her and her magic, and initially rejoiced when the Cowled Wizards sought to remove her from power.  Nalia demonstrated to them all that she was no-one to trifle with, however, and the Cowled Wizards learned to fear her name.  Over time Nalia became a beloved ruler, respected archmage, and eventually earned a seat on the Amnish Council of Six itself.  The nobility grew to rely on Nalia's leadership, and she would become a prominent figure in Amn for many years, constantly fighting for the good of the common folk and making many frustrated enemies among the nobility and Cowled Wizards both.  Nalia would die many years later, surrounded by a loving family... her last words would be to thank <CHARNAME> for so long ago showing her the true path she needed to walk."
 msgstr ""
+"Налия стала достаточно сильной после своих странствий с <CHARNAME>. Поначалу она путешествовала, удовлетворяя свою жажду магических знаний, и познакомилась с некоторыми из самых могучих волшебников в Королевствах. Она стремилась использовать свою великую силу для установления справедливости на земле, но вскоре обнаружила, что если время, проведенное вместе с <CHARNAME>, и научило ее чему-нибудь, так это то, что такая сила должна быть уравновешена мудростью, или все это бесполезно. Она могла и желала бороться со злом... но это не всегда помогало нуждающимся так, как она хотела, и после года путешествий она подумала, что есть значительно лучший путь, на котором она могла бы быть полезной своим людям.\n"
+"Налия возвратилась в Амн, в свою фамильную Крепость де'Арнис. К своему удивлению, она обнаружила, что в ней распоряжается ни кто иной, как Изайя Роенал, но она больше не была капризным ребенком, как он ожидал, и собственноручно привлекла его к суду за его неблаговидный поступок. Она объявила себя наследницей герцогского титула своего ее отца, однако местная знать считала это не достаточным аргументом. Они пренебрежительно относились к ней и ее магии, и поначалу радовались, когда Волшебники в Рясах пытались лишить ее силы. Однако Налия продемонстрировала им всем, что с ней не стоит шутить, и Волшебники в Рясах научились со страхом произносить ее имя. Со временем Налия стала любимым правителем, уважаемым архимагом, и, в конечном счете, заслужила для себя место в Совете Шести Амна. Налия стала видной фигурой в Амне, на протяжении множества лет неустанно сражавшейся за лучшую долю для простого народа, и нажила много врагов среди противодействующего ей дворянства и Волшебников в Рясах. Когда Налия умирала по прошествии многих лет в окружении любящей семьи... в своих последних словах она благодарила <CHARNAME> за указанный много лет тому назад правильный путь, в котором она так нуждалась."
 
 #: ascension.tra:82723
 msgid ""
@@ -416,6 +627,29 @@ msgid ""
 "She had never settled down and had no children, but her legacy was one that "
 "would go on to inspire her people for generations to come."
 msgstr ""
+"Опасности, с которыми сталкивалась Маззи Фентан, путешествуя с <CHARNAME>, "
+"не смогли ничего поделать с ее жаждой приключений. На самом деле, вскоре "
+"после событий в Тетире, она сформировала группу Рыцарей Фентан, доблестных "
+"героев, рассказы о которых ходили по всем Королевствам. Маззи всегда "
+"вспоминала имя <CHARNAME>, призывая своих товарищей к доблести, или когда "
+"они боролись против сомнений и искушения. Из всех, кого Маззи когда-либо "
+"знала, не было никого более великого, чем <CHARNAME>, и рыцарь-полурослик "
+"чувствовала, что это было ее обязанностью попробовать соответствовать "
+"наследию ее старого друга. Рыцари Фентан сражались с троллями, чтобы спасти "
+"города, которым они угрожали, повернули вспять волну орков, чтобы сохранить "
+"древние леса, и встретились с бесчинствующим драконом в его логове, чтобы "
+"сделать мир лучше. Легенды о них были больше, чем их жизни, особенно о "
+"Маззи, про нее было сказано, что если бы доблесть измерялась дюймами, в ней "
+"было бы двадцать футов. Хорошо известно, что венцом среди достижений Маззи "
+"стал день, когда она была посвящена в почетные паладины в великом зале "
+"Сияющего Сердца. Когда престарелый Прелат возлагал на ее плечи высшие знаки "
+"отличия Ордена, у Маззи, первого полурослика и вообще первого не человека, "
+"получившего их, по лицу текли умиротворенные слезы гордости. Говорят, что "
+"Маззи смотрела в толпу в течение всей этой церемонии, и из всех лиц старых "
+"друзей, которые она могла видеть, ей больше всего хотелось увидеть "
+"<CHARNAME>. Несмотря на весь риск, которому она подвергалась, Маззи мирно "
+"умерла в пожилом возрасте. Она так и не обзавелась семьей и не имела детей, "
+"но ее наследие продолжает вдохновлять людей на протяжении поколений."
 
 #: ascension.tra:82722
 msgid ""
@@ -443,18 +677,45 @@ msgid ""
 "being in the Realms, he would grow to forge a destiny of his own to rival "
 "his father's.  That, however, is another tale..."
 msgstr ""
+"Годы, прошедшие после окончания саги о Порождении Баала, были милосердны по "
+"отношению к Джахейре. Разумеется, они не всегда были мирными, но ее "
+"отношения с <CHARNAME> выдержали их все. Это был несокрушимый союз, и хотя "
+"долг искателя приключений мог разделить их на несколько лет, они всегда "
+"возвращались друг к другу. Ее друзья удивлялись тому, какой спокойной "
+"выглядела Джахейра, особенно учитывая ее первоначальное отвращение, но она "
+"лишь улыбалась, когда вспоминала о тех первых осторожных днях. В конце "
+"концов, она и <CHARNAME> прошли через ад и вернулись обратно, и сами боги не"
+" смогли разлучить их, так что могли сделать простые месяцы и мили? Джахейра "
+"заняла высокое положение в иерархии Арфистов, всегда являясь голосом "
+"мудрости и здравого смысла в этой организации. У нее была слава великой "
+"героини и миротворца, поэтому никто не удивлялся, когда она предпринимала "
+"длительные путешествия вместе с <CHARNAME> в какие-нибудь удаленные земли "
+"Королевств. Эту пару встречали в Невервинтере, Рашемоне, великих южных "
+"степях и даже в джунглях Чалта. В конечном счете, Джахейра покинула Арфистов"
+" из-за небольших разногласий в одной из дискуссий, и посвятила себя "
+"воспитанию родившегося у них с <CHARNAME> сына. <CHARNAME> часто навещал их,"
+" искренне радуясь своему отцовству... но его тяга к перемене мест раз за "
+"разом звала его в дорогу. Джахейра не всегда была рядом с <CHARNAME>, и не "
+"всегда разделяла его победы и достижения, но в действительности никогда не "
+"разлучалась с ним. А что же сын <CHARNAME>? Воспитанный двумя из наиболее "
+"сильных лиц Королевств, он прошел по пути собственной судьбы, способной "
+"соперничать с судьбой его отца. Это, впрочем, совсем другая история..."
 
 #: ascension.tra:82721
 msgid ""
 "The events of the Bhaalspawn saga affected Jaheira deeply.  It was her duty to protect the greater balance of things, but in the years to come she found an increased portion of that fight occurring within her own mind. Witness to great change while in <CHARNAME>'s company, she had become acutely aware of how fleeting life was, and how the loss of those she held dear ate away at her thoughts.  In time she would be known as a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not.  Jaheira operated quietly, appearing when needed and moving on when not.  Many called out to her for leadership, but always Jaheira would deny that she was capable of such and say that there was somewhere else that needed her aid more.  She remained distant and guarded, never staying long in any one place.  It is said that she crossed the Forgotten Realms thrice over, always wandering and always searching... until finally she began to wonder what it was, in truth, that she was searching for.\n"
 "What happened to Jaheira later in life is not well-known.  Some say that Elminster eventually came to her and convinced her to take her place amongst the greatest commanders of the mysterious Harpers.  Some say that she fell in battle against a great lich that threatened to defile the northern forests.  Some also say that she went in search of <CHARNAME>, traveling to lands far beyond our own.  Whatever happened to her, Jaheira never did return to either the Sword Coast or Tethyr ever again."
 msgstr ""
+"События саги о Порождении Баала глубоко подействовали на Джахейру. Ее долгом было защищать великий баланс вещей, но в последующие годы она обнаружила, что ее собственный разум является частью этой великой борьбы. Пребывая в компании с <CHARNAME>, она стала очевидцем огромных перемен, и постоянные мысли о том, как мимолетна жизнь, и как тяжела потеря тех, кто были ей дороги, поглощали все ее сознание. В те времена она была известна, как неутомимый защитник баланса, которая иногда действовала совместно с Арфистами, а иногда и самостоятельно. Джахэйра действовала без спешки, появляясь, когда это было необходимо, и, удаляясь, когда эта необходимость проходила. Многие призывали ее стать лидером, но Джахейра всегда отказывалась, утверждая, что она не способна на это, и говорила, что где-нибудь еще есть те, которые больше нуждаются в ее помощи. Она оставалась сдержанной и бдительной, никогда подолгу не задерживаясь на одном месте. Говорят, что она в своих поисках и скитаниях трижды пересекла Забытые Королевства... пока наконец ее не начал мучить вопрос, что же она на самом деле искала.\n"
+"Неизвестно, что случилось с Джахейрой впоследствии. Некоторые говорят, что в конце концов ее разыскал Элминстер, и убедил занять место среди самых высокопоставленных командующих таинственных Арфистов. Некоторые утверждают, что она пала в сражении против великого лича, который угрожал осквернить северные леса. Другие говорят, что она отправилась в путешествие по дальним странам, на поиски <CHARNAME>. Независимо от того, что с ней случилось, Джахейра никогда больше не возвратилась ни на Побережье Меча, ни в Тетир."
 
 #: ascension.tra:82731
 msgid ""
 "And what of Imoen, the eternal child?  She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken.  She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>.  She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes.  Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps.  Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
 "Many are the tales of the archmage that Imoen became.  She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed.  Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend.  She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months.  The exact truth of the tale is unknown... though it's certainly not  unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented.  Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\".  At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme.  It seems that some people, thankfully, will never change."
 msgstr ""
+"А что же Имоен, вечное дитя? За время своих путешествий с <CHARNAME> она прошла через множество испытаний, которые она отказывалась обсуждать в последующей жизни, но ее дух никогда не был сломлен. Она покинула своих компаньонов, чтобы искать свою собственную судьбу, перестав быть тенью ее <PRO_BROTHERSISTER>. Она ненадолго возвратилась в Кэнделкип, чья библиотека представляла огромную ценность для ее магических навыков. Здесь она могла вспомнить более простые времена с <CHARNAME> и Горионом, и чувствовала радость оттого, что она последовала по стопам ее приемного отца. Несмотря на уговоры остаться, Имоен, в конечном счете, решила, что нынешний Кэнделкип был намного меньше того, что она помнила, и покинула его в поисках приключений.\n"
+"Существует множество рассказов об архимаге, которым стала Имоен. На протяжении ее жизни у нее было много других имен, некоторые из них таинственные и знаменательные, в то время как другие странные и необычные, учитывая ту силу, которой обладала эта великая женщина. Любой, кто знал Имоен в юности, немедленно узнает ее несмотря на любое имя, поскольку... ни возраст, ни мудрость не могли замаскировать озорное мерцание в ее глазах или готовность с улыбкой поприветствовать друга. Она стала наперсницей Кхелбена Арунсона \"Черный Посох\" и ее часто связывали с рассказом о том, как она залезла в карман великого мудреца Эльминстера, и затем на протяжении четырех месяцев исполняла главную роль в его забавном магическом преследовании по всему Фаеруну. Неизвестно, насколько правдив этот рассказ... хотя это конечно достаточно похоже на Имоен, чтобы подстрекать старого чудаковатого старикашку не быть таким закостенелым, и ее более поздняя дружба с Эльминстером хорошо известна. Еще более поздние рассказы говорят, что Имоен основала гильдию воров, которая действовала на всех дорогах к Невервинтеру, соперничая с Теневыми Ворами и Зентаримом, и даже дралась на дуэли с драконом, потому что (так гласит история) \"он был груб\". Насколько известно, время от времени Имоен вспоминала о своем старом друге <CHARNAME>, и печально улыбалась... и затем ею немедленно овладевала следующая озорная мысль, которая толкала ее на очередные махинации. Похоже, что некоторые люди, к счастью, никогда не меняются."
 
 #: ascension.tra:82720
 msgid ""
@@ -480,6 +741,27 @@ msgid ""
 "pleased to finally settle down for once --- until the next misunderstanding "
 "occurred, of course."
 msgstr ""
+"Хаер'Далис, путешествуя с <CHARNAME> получил неплохое представление о "
+"Королевствах, и когда они расстались, он пожелал увидеть больше. Он посетил "
+"такие разнообразные места, как Уотердип, Невервинтер и Тэй, распространяя "
+"баллады о своих приключениях с <CHARNAME>... и так или иначе всегда "
+"умудрялся оказаться посреди множества авантюр, как это было и прежде. В "
+"конечном счете, Хаер'Далис впутывался в те или иные неприятности, и снова "
+"оказывался на дороге. Несмотря на то, что это ему нравилось, бард все же "
+"признавался себе, что он лишь изредка понимает некоторые из особенностей "
+"этих Первичных, и очень хотел бы вспомнить великолепие планов. Однажды, он "
+"оказал дружескую поддержку блуждающей женщине Камбиону и с удовольствием "
+"возвратился вместе с нею в Пропасть... только для того, чтобы "
+"непреднамеренно положить конец восстанию на нескольких кругах ада. Позже "
+"тифлинг был весьма удивлен, когда слышал истории о том, что он вынудил "
+"великого Граа'зта сесть за стол переговоров, это слишком неуклюжее положение"
+" для столь великого повелителя демонов... хотя Хаер'Далис никогда не "
+"опровергал правдивость рассказа. В течение некоторого времени Хаер'Далис был"
+" наиболее преследуемой личностью посреди планов... но ярость его врагов не "
+"могла помешать его тяге к перемене мест, и он, в конечном счете, вернулся в "
+"город Сигил, выйдя невредимым из этих передряг. Там он воссоединился со "
+"своей возлюбленной Раелис и ее театральной труппой, и был рад наконец-то "
+"устроиться и осесть - до следующего недоразумения, разумеется."
 
 #: ascension.tra:82718
 msgid ""
@@ -509,6 +791,31 @@ msgid ""
 "reminder that even the most flawed amongst us may eventually find their "
 "balance."
 msgstr ""
+"Кернд оставил жизнь искателя приключений, чтобы возвратиться в свою рощу в "
+"Тетире, и исполнить обещание взять на себя ответственность за воспитание "
+"своего сына, Ахсдала, поскольку он полагал, что это его отцовский долг. "
+"Кернд вскоре стал Великим Друидом и был известен во всех Королевствах, не "
+"только поддерживая баланс в своей роще, но и защищая святость жизни во всех "
+"Королевствах и во всех народах. Однако по прошествии некоторого времени "
+"Кернд обнаружил, к своему великому сожалению, что исполняя свои обязанности,"
+" он забыл про свои обещания по отношению к Ахсдалу. Его сын оставил рощу, и "
+"вскоре Кернд узнал, что Ахсдал стал злым и извращенным волшебником, "
+"командовавшим войсками, которые угрожали Побережью Меча. Решив, что он один "
+"должен нести это бремя, Кернд торжественно отрекся от титула Великого Друида"
+" и отправился на розыски своего сына. Он участвовал во многих сражениях с "
+"войсками своего сына, используя силы природы с великой свирепостью, которая "
+"расценивалась как легендарная всеми, кто видел это. Кернд, в конце концов, "
+"столкнулся с самим Ахсдалом где-то глубоко в Лесу Тетира, и сделал последнее"
+" усилие, чтобы убедить его свернуть со своего злого пути. Ахсдал отказался, "
+"и Кернд вступил со своим единственным сыном в длительное и ужасное сражение,"
+" в котором оба они, в конечном счете, погибли. Из последних сил Кернд "
+"прополз по земле, чтобы сжать мертвую руку Ахсдала, и слезы текли по его "
+"лицу, поскольку он просил прощения у своего сына. Дух Кернда вошел в великий"
+" дуб в внутри леса, и полагают, что этот бессмертный дуб все еще стоит, и "
+"что вокруг него выросла роща невиданной красоты, которая является домом "
+"редчайшему из волшебных существ Королевств. Каждую осень великий дуб и роща "
+"вокруг него становятся кроваво-красными, как напоминание о том, что даже "
+"наиболее испорченные среди нас могут, в конечном счете, найти свой баланс."
 
 #: ascension.tra:82717
 msgid ""
@@ -533,6 +840,27 @@ msgid ""
 "Realms, forge a legend to rival that of her mother's.  That, however, is "
 "another story completely..."
 msgstr ""
+"Аномен и <CHARNAME> продолжали жизнь искателей приключений, пока они не "
+"стали известны как герои, почти всюду, куда они приходили. Было множество "
+"возвышенных рассказов про Светлого Рыцаря и его чрезвычайной преданности "
+"своей великой леди. Происхождение <CHARNAME>, как ужасного Порождения Баала "
+"было забыто навсегда, поскольку новые дела затмили старые, и наследие, "
+"которое было создано, далеко превосходило что-либо, предоставленное "
+"благочестивой кровью. Их достижения были настолько плодотворными, что дата "
+"их свадьбы постоянно откладывалась из-за того, что надвигался очередной "
+"кризис или то один, то другой настаивал на том, чтобы расследовать очередное"
+" приключение. Наконец, дата устроила их обоих, и <CHARNAME> и ее любимый "
+"сочетались браком в самом пышном и торжественном событии, на котором "
+"собрались благородные люди и герои со всего Фаэруна. Эта пара повлияла на "
+"жизни многих, и эти люди пришли посмотреть, как сам Элминстер объединит этих"
+" двоих в величайшей церемонии, которую только видел город Врата Балдура. "
+"Аномен и <CHARNAME> удалились от общественной жизни вскоре после рождения "
+"своей дочери, однако, если правы легенды, их приключения никогда по-"
+"настоящему не заканчивались. Аномен, высоко поднявшийся в иерархии своей "
+"церкви, и <CHARNAME> продолжали быть центром странных событий на протяжении "
+"всей жизни. Также, впрочем, как и их дочь, воспитанная двумя из самых "
+"великих героев в Королевствах, создала легенду, способную конкурировать с "
+"легендой ее матери. Это, однако, совсем другая история..."
 
 #: ascension.tra:82716
 msgid ""
@@ -559,6 +887,30 @@ msgid ""
 " be regarded as a hero, inspiring the creation of a protective order of "
 "knights in his name.  A new order for a new land."
 msgstr ""
+"В конечном счете, пути Аномена с его компаньонами разошлись, и Аномен вошел "
+"в иерархию церкви Хелма, через какое-то время дослужившись до звания "
+"Высокого Наблюдателя. Однако он оставался беспокойным и неудовлетворенным, "
+"вспоминая дни своих приключений с <CHARNAME>... Аномен никогда не "
+"чувствовал, что церковь была его истинным домом, хотя многие его друзья "
+"думали иначе. Он оставался в этом положении в течение года, пока наконец он "
+"больше не смог переносить все это. Он оставил активные служебные обязанности"
+" в своей церкви, и, какое-то время блуждал как миссионер по Новым Землям "
+"Мазтики. Аномен оставался обеспокоенной душой, не находившей себе "
+"удовлетворения несмотря на то, что его мастерство принесло ему великое "
+"уважение новых друзей, с которыми он встретился. Когда мощный злой священник"
+" Ямаш вызвал орду демонов, чтобы уничтожить на Мазтике всю жизнь, Аномен "
+"наконец-то нашел свою цель. Ему одному принадлежит заслуга в организации "
+"объединенной армии из остатков солдат разбитых войск Амна и местных жителей,"
+" которая противостояла темному священнику. В великом сражении, которое "
+"вскоре последовало, Аномен, как было явно замечено всеми, стремился лично "
+"вступить в бой против самого Ямаша. Рядом с ним не было <CHARNAME> или "
+"других компаньонов: он один противостоял потоку зла, и на этот раз он не "
+"нуждался в помощи. В последний раз его видели, когда он со слезами радости "
+"на глазах вступил в бой с Ямашем и, воззвав к Хелму, вызвал мощную "
+"ослепительную вспышку. Когда все развеялось, не было ни священника, ни "
+"Аномена. Сражение было выиграно, и Мазтика была спасена. Аномен был "
+"увековечен как великий герой, вдохновивший своим подвигом создание Ордена "
+"рыцарей-защитников, и носящий его имя. Новый Орден для Новой Земли."
 
 #: ascension.tra:82715
 msgid ""
@@ -582,6 +934,25 @@ msgid ""
 "<CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, "
 "their own destiny would be a tale to rival their father's..."
 msgstr ""
+"Аэри и <CHARNAME> были неразлучны на протяжении многих лет, продолжая жизнь "
+"искателей приключений. Из-за интереса Аэри к путешествиям, эта пара повидала"
+" многие места Фаеруна. Их маленький сын всегда был с ними, вызывая у "
+"<CHARNAME> улыбку своим наивным удивлением чудесам мира. В конечном счете, "
+"пара оставила приключения, и впоследствии у них родилась красивая дочь, "
+"которая стала второй радостью в их жизни. Лишь изредка внешние причины "
+"заставляли <CHARNAME> и Аэри обратить их великую мощь против зла этого мира,"
+" хотя рассказы об этих сражениях станут легендарными. В последующие годы они"
+" совершили только одно большое последнее путешествие, так как Аэри все еще "
+"страдала оттого, что ей пришлось пережить в рабстве и от потери своих "
+"крыльев. Она вместе с <CHARNAME> искали Авариэль из Фаэния-Дайл, крылатых "
+"эльфов, у которых она была украдена много лет тому назад. Они нашли не "
+"только ее народ, но и любящих родителей, которые потратили годы на поиски "
+"потерянного ребенка. Теперь, без тайны или смущения, омрачавшего их жизни, "
+"здесь, среди облаков, Аэри и <CHARNAME> наконец-то поженились. Как говорят, "
+"их союз был благословлен Аэрдри Фаэния и Баэрваном Диким Странником. Что "
+"касается детей <CHARNAME> и Аэри, воспитанных двумя из наиболее мощных "
+"героев Королевств, их собственная судьба была бы рассказом, способным "
+"конкурировать с легендой их отца..."
 
 #: ascension.tra:82714
 msgid ""
@@ -607,6 +978,28 @@ msgid ""
 "She sincerely hoped her friend had been fortunate enough to find the peace "
 "that she had... for without <CHARNAME>, it would never have been possible."
 msgstr ""
+"Аэри продолжала жизнь искателя приключений после расставания с группой "
+"<CHARNAME>, часто путешествуя с большой компанией, но иногда и "
+"самостоятельно использовала свою значительную силу для борьбы против рабства"
+" в Королевствах. Ее сострадание, однако, все больше заражало ее местью; "
+"местью за все, что ей пришлось пережить в цепях. Она могла бы и вовсе "
+"потерять себя в своей мести, если бы ей не улыбнулась удача. Рассказывают, "
+"что Аэри, преисполненная справедливой ярости, единолично разрушила анклав "
+"рабовладельцев в северных холмах Кормира. К своему удивлению она нашла там "
+"группу эльфов Авариэль, которых держали в плену, и быстро освободила их, и "
+"была в свою очередь приглашена возвратиться в ее давно потерянный дом "
+"Фаэния-Дайл. Она многое узнала, когда оказалась там. Наиболее важное из "
+"того, что она узнала, это то, что она больше не была одной из Авариэль, и "
+"перестала тосковать по крыльям, которые она потеряла. Фаэния-Дайл больше не "
+"был ее домом, и поэтому со смешанными чувствами она распрощалась с ним. "
+"Говорят, что Аэри, в конечном счете, стала великой жрицей в Андерстоуне, "
+"деревне карликов, о которой ей иногда рассказывал ее наставник, Куайл. Это "
+"была ее подлинное семейство, и именно среди его жителей она, наконец нашла "
+"счастье и семью, которую она всегда очень хотела иметь. Также рассказывают, "
+"что Аэри каждую ночь, глядя на звездное небо, молилась о своем старом друге,"
+" <CHARNAME>. Она искренне надеялась, что ее друг был достаточно удачлив, "
+"чтобы найти мир, который она хотела обрести... но без <CHARNAME> это никогда"
+" не будет возможно."
 
 #: ascension.tra:82760
 msgid ""
@@ -626,6 +1019,21 @@ msgid ""
 " to give a final thanks for the peace he had found and to see for himself "
 "the humble beginnings of a legend."
 msgstr ""
+"После возвращения в Амкетран Балтазар начал осуществлять перемены к лучшему."
+" С помощью своего друга и родственника он понял подлинное значение слова "
+"\"Добро\". В нем всегда было живо чувство вины - как напоминание о том, "
+"чтобы никогда больше не сделать те же самые ошибки. Остатки преступных "
+"элементов были быстро изгнаны из его города, и это привлекло новых "
+"поселенцев и торговцев. За несколько лет Амкетран превратился в процветающий"
+" город и культурный центр всего региона, славящийся своим миролюбием и "
+"состраданием. Балтазар был также центральной фигурой в создании Монашеской "
+"Охраны; отборной группы Паладинов и Монахов, которые принесли присягу "
+"защищать простой народ от тирании в любой ее форме. Эти дела быстро принесли"
+" ему уважение и доверие его людей. Рассказывают, что в преклонном возрасте "
+"Балтазар отошел от дел, и его часто видели пристально смотрящим на ночное "
+"небо и вспоминающим <CHARNAME>. Позже Балтазар навсегда оставил Амкетран, и "
+"отправился как паломник в Кэндлкип... чтобы отдать дань уважения месту, где "
+"началась легенда, за тот мир, который он нашел для себя."
 
 #: ascension.tra:82785
 msgid ""
@@ -650,17 +1058,39 @@ msgid ""
 "destined to be the victor, even as a stake pierced the still black heart of "
 "Bodhi, one who was as damned in life as she was in death."
 msgstr ""
+"Бодхи испытала богоподобную мощь, получив частицу души <CHARNAME>. Со "
+"временем, когда последние остатки этого дара исчезли, она начала страстно "
+"желать достигнуть таких высот снова, и это перешло в ожесточенную ненависть,"
+" поскольку стало ее навязчивой идеей. Люди по всему Побережью Меча пребывали"
+" в страхе из-за того, что Бодхи купалась в их крови, утоляя свою жажду хаоса"
+" и смерти. Жители боялись покидать свои поселения, опасаясь, что ночь "
+"застигнет их в пути. Ее имя стало символом ужаса, и все попытки храмов "
+"выследить ее, были напрасными. Многие могущественные священники были найдены"
+" обескровленными, со следами мучительной агонии на их мертвенно-бледных "
+"лицах. Через какое-то время Бодхи снова почувствовала на себе леденящую "
+"хватку проклятия. Отчаяние, смешанное со страхом, раздирало на части саму ее"
+" сущность. Желание хаоса исчезло, и она боролась только за то, чтобы выжить "
+"еще раз. Честолюбие, которое некогда побудило ее шептать на ухо ее брату "
+"мечты о силе, теперь звало ее в место, которое она когда-то давно называла "
+"домом, Салданесселар. И при входе в город ее встретила Эллисайм. Эти врата "
+"стали местом последнего танца Бодхи. Желание мести сжигало их обоих, и это "
+"был зов крови. Мощь Дерева Жизни привела Бодхи сюда, а память о Джонелете "
+"взывала к Эллисайм. Эти двое были охвачены желанием мести, но победитель был"
+" предопределен, и в черное сердце Бодхи, проклятой как при жизни, так и "
+"после смерти, вонзился деревянный кол."
 
 #: balth.tra:1060
 msgid ""
 "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I "
 "was not the only member of the Five who plotted the downfall of the others."
 msgstr ""
+"Я бы хотел иметь возможность взять реванш за эту уловку, <CHARNAME>. Но, "
+"похоже, я был не единственным из Пятерых, кто замышлял падение остальных."
 
 #: balth.tra:1072
 msgid ""
 "You won't be the first to try and kill me... and probably not the last!"
-msgstr ""
+msgstr "Ты не первый, кто хочет убить меня... и, возможно, не последний!"
 
 #: balth.tra:1074
 msgid ""
@@ -668,6 +1098,9 @@ msgid ""
 "against evil is without question.  Your fight against the taint of our evil "
 "father is worthy of praise."
 msgstr ""
+"Это правда. Ты хороший <PRO_RACE>, <CHARNAME>, и твоя позиция против зла не "
+"вызывает сомнения. Твое сопротивление наследию нашего злого отца выше всех "
+"похвал."
 
 #: balth.tra:1075
 msgid ""
@@ -676,6 +1109,10 @@ msgid ""
 "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
 "has done so much to fight true evil."
 msgstr ""
+"Я не чувствую врожденной божественности в тебе, <CHARNAME>... хотя твои "
+"поступки везде приветствуются и не заслуживают упреков. Это... интересно то,"
+" что у тебя, того кому нужно сопротивляться наследию нашего отца внутри "
+"себя, получилось сделать так много в борьбе с настоящим злом."
 
 #: balth.tra:1076
 msgid ""
@@ -683,6 +1120,9 @@ msgid ""
 "above reproach.  I sense only a soul that struggles with our father's taint,"
 " that struggles to find the good path where none exists."
 msgstr ""
+"Я вижу добро в тебе, <CHARNAME>, но твои поступки едва достойны похвалы. Я "
+"чувствую только душу, которая сопротивляется наследию нашего отца и пытается"
+" найти путь добра, но еще не нашла."
 
 #: balth.tra:1077
 msgid ""
@@ -690,6 +1130,9 @@ msgid ""
 "deeds above reproach.  I sense only a soul struggling against the taint of "
 "<PRO_HISHER> father, much like mine own."
 msgstr ""
+"Я не чувствую врожденной божественности в тебе, <CHARNAME>. Я не думаю, что "
+"твои поступки достойны похвалы. Я чувствую только душу, что сопротивляется "
+"наследию своего отца, похожую на мою."
 
 #: balth.tra:1078
 msgid ""
@@ -698,6 +1141,10 @@ msgid ""
 "its efforts to exert chaos upon my life.  I have mastered it... but only "
 "barely.  Too well I know what it is capable of."
 msgstr ""
+"Как раз я идеальный судья, <CHARNAME>. У меня внутри такое же наследие "
+"нашего отца. Я тоже чувствовал его жажду крови, его попытку столкнуть мою "
+"жизнь в хаос. Я овладел им... но только едва. Слишком хорошо я знаю, на что "
+"оно способно."
 
 #: balth.tra:1079
 msgid ""
@@ -707,6 +1154,10 @@ msgid ""
 "well what the taint in our soul is capable of.  Only barely do I keep it "
 "mastered."
 msgstr ""
+"Естественно. Наше наследие не принесет нам мира, не так ли, <CHARNAME>? Мы "
+"сражаемся из-за самозащиты и все равно убиваем, все равно приносим "
+"разрушения. Стоит нам пожелать, мы можем снять ответственность, но я слишком"
+" хорошо знаю, на что способно это наследие. Я с трудом управляю им."
 
 #: balth.tra:1080
 msgid ""
@@ -714,6 +1165,9 @@ msgid ""
 " know too well the thirst for death that comes with the taint of our sire.  "
 "I have mastered it, but only barely... I pity those who are a slave to it."
 msgstr ""
+"Я не ожидал другого ответа от <PRO_BROTHERSISTER>, моей крови. Я слишком "
+"хорошо знаю жажду смерти, которая присущая наследию нашего родителя. Я "
+"подчинил его, но не полностью... Я жалею тех, кто стал его рабом."
 
 #: balth.tra:1081
 msgid ""
@@ -721,6 +1175,9 @@ msgid ""
 "depraved existence exists to fight against evil in this world, then you "
 "expect far too much."
 msgstr ""
+"Не смеши меня, <CHARNAME>. Если ты ждешь, что я поверю, что твое извращенное"
+" существо живет для борьбы против зла в этом мире, ты хочешь слишком "
+"многого."
 
 #: balth.tra:1082
 msgid ""
@@ -729,30 +1186,39 @@ msgid ""
 "it... but each and every Bhaalspawn has a seed within them that has sprung "
 "forth a fruit laden with blood and murder.  Do you deny this?"
 msgstr ""
+"Но не зависимо от наших желаний, судьбы наши уже написаны для нас, "
+"<CHARNAME>. Кто-то может бежать от судьбы или отвергать ее, пока другие "
+"стыдятся ее... но внутри всех порождений Баала зреют семена, которые несут "
+"за собой в качестве плодов реки крови и убийств. Ты отвергаешь это?"
 
 #: balth.tra:1083
 msgid "Are you implying that you are somehow different, Balthazar?"
-msgstr ""
+msgstr "Ты подразумеваешь, что ты особенный, Балтазар?"
 
 #: balth.tra:1084
 msgid "I have only ever acted when it was necessary, in self-defense."
-msgstr ""
+msgstr "Я действовал только в силу необходимости, в целях самозащиты."
 
 #: balth.tra:1085
 msgid ""
 "You would make us out to be victims of circumstance rather than masters of "
 "our own destiny."
 msgstr ""
+"Ты бы предпочел видеть нас скорее жертвами обстоятельств, чем властелинами "
+"собственных судеб?"
 
 #: balth.tra:1086
 msgid "I deny nothing.  Death comes for all who stand in my way."
 msgstr ""
+"Мне нечего отрицать. Смерть придет за всеми, кто встанет на моем пути."
 
 #: balth.tra:1087
 msgid ""
 "I am death incarnate, fool!  Not some weak fool wrapped in denial like "
 "yourself!"
 msgstr ""
+"Я воплощение смерти, глупец! А не какой нибудь слабый придурок вроде тебя, "
+"принявший отречение!"
 
 #: balth.tra:1088
 msgid ""
@@ -763,6 +1229,11 @@ msgid ""
 "wishes, has it not?  Do you deny that you bring violence and destruction "
 "wherever you go, <CHARNAME>?"
 msgstr ""
+"Я сомневаюсь, что ты понимаешь о чем я говорю. Наследие в тебе сильно... "
+"сильнее, чем любое другое наследие нашего отца, что я видел. Ты видел сны, "
+"потребности, не так ли? Хаос, который вошел в твою жизнь и стал твоей "
+"судьбой, не считается с твоими желаниями, не так ли? <CHARNAME>, ты "
+"отрицаешь, что приносишь ярость и разрушение повсюду, где проходишь?"
 
 #: balth.tra:1089
 msgid ""
@@ -770,6 +1241,9 @@ msgid ""
 "fight against the evil that Bhaal's legacy brings to this world.  I have "
 "faced the evil within me and I have mastered it."
 msgstr ""
+"Я не такой, как ты. Я живу для борьбы с хаосом своего наследия, со злом, что"
+" наследство Баала принесло в этот мир. Я встал на пути зла в себе и победил "
+"его."
 
 #: balth.tra:1090
 msgid ""
@@ -777,6 +1251,9 @@ msgid ""
 "see a larger purpose behind it... I seek to end the possibility of Bhaal's "
 "return forever, and to wipe his taint from the land."
 msgstr ""
+"Нет. Я тоже принес свою долю смерти и разрушения в эти земли. Но я преследую"
+" великую цель... Я ищу путь навеки убрать возможность возвращения Баала, "
+"стереть его наследие с этой земли."
 
 #: balth.tra:1091
 msgid ""
@@ -785,6 +1262,9 @@ msgid ""
 "holds for all of FaerÃ»n.  I will not allow this.  I have dedicated my life "
 "to preventing it."
 msgstr ""
+"Я овладел силой в себе и держу зло под контролем, но я также хорошо знаю... "
+"если не лучше... что большинство моих братьев представляют угрозу для всего "
+"Фаеруна. Я не позволю это. Я посвятил свою жизнь предотвращению этого."
 
 #: balth.tra:1092
 msgid ""
@@ -794,39 +1274,50 @@ msgid ""
 "would have become of us?  I regret what I must do, yet I know it must be "
 "done."
 msgstr ""
+"Если бы мы встретились при других обстоятельствах, <CHARNAME>... Я бы сел и "
+"сравнил пути, что привели нас сюда. Если бы мы не были судьбой обречены "
+"нести это наследие в наших душах, что бы стало с нами? Я сожалею о том, что "
+"должен сделать, но также знаю, что это должно быть сделано."
 
 #: balth.tra:1093
 msgid ""
 "And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
 " her plans?"
 msgstr ""
+"Что тогда случиться с Мелиссой? Она свободна, чтобы воскресить Баала и "
+"воплотить свои планы?"
 
 #: balth.tra:1094
 msgid ""
 "You don't have to do this, Balthazar.  We don't have to fight each other."
 msgstr ""
+"Ты не должен этого делать, Балтазар. Мы не должны драться друг с другом."
 
 #: balth.tra:1095
 msgid ""
 "You don't honestly see yourself as the force of righteousness in all this, "
 "do you?"
-msgstr ""
+msgstr "Ты ведь не видишь себя силой праведности во всем этом, не так ли?"
 
 #: balth.tra:1096
 msgid "Enough talk, then.  Let's get this over with."
-msgstr ""
+msgstr "Хватит разговоров. Давай закончим с этим."
 
 #: balth.tra:1097
 msgid ""
 "Of course not.  It is she that holds the key to Bhaal's resurrection.  After"
 " you are dead, she too must be destroyed."
 msgstr ""
+"Конечно нет. Ключи к воскрешению Баала у нее. После твоей смерти и она будет"
+" уничтожена."
 
 #: balth.tra:1098
 msgid ""
 "Then we should fight her together!  How do you know she still can't summon "
 "Bhaal... everything you've fought for will be for nothing!"
 msgstr ""
+"Тогда мы должны драться с ней вместе! Откуда ты знаешь, что она еще не может"
+" призвать Баала... все, ради чего ты сражался, станет ничем!"
 
 #: balth.tra:1099
 msgid ""
@@ -834,6 +1325,9 @@ msgid ""
 "that maybe you've been helping her all along, that she's been playing you "
 "like a harp?"
 msgstr ""
+"Ты собираешься остановить ее в одиночку? Тебе не приходило в голову, что, "
+"быть может, ты все время только помогал ей, что она играет на тебе, как на "
+"волынке?"
 
 #: balth.tra:1100
 msgid ""
@@ -841,6 +1335,9 @@ msgid ""
 "Once you have all that power and it's yours alone... you think you're going "
 "to resist that?"
 msgstr ""
+"Еще одна смерть добавится к твоему списку? И что будет потом, когда ты "
+"убьешь ее? У тебя будет вся сила, у тебя одного... ты действительно "
+"откажешься от нее?"
 
 #: balth.tra:1101
 msgid ""
@@ -848,6 +1345,9 @@ msgid ""
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
 "making the peasants miserable."
 msgstr ""
+"Почему ты думаешь, что убьешь ее? Только мне удалось победить всех детей "
+"Баала... в то время как ты отсиживался в крепости, делая жителей "
+"несчастными."
 
 #: balth.tra:1102
 msgid ""
@@ -855,14 +1355,17 @@ msgid ""
 "see some more evil once Melissan is dead, too?  You'd probably make a "
 "promising Lord of Murder, you know..."
 msgstr ""
+"Мне казалось, что ты убьешь себя после моей смерти. Ты уверен, что не "
+"увидишь большего зла после смерти Мелиссы? Наверное ты станешь "
+"многообещающим Лордом Убийств, ты знаешь..."
 
 #: balth.tra:1103
 msgid "Forget it.  This is pointless.  Let's just get this over with."
-msgstr ""
+msgstr "Забудь. Нет смысла. Давай только пройдем через это."
 
 #: balth.tra:1104
 msgid "Fight her together?"
-msgstr ""
+msgstr "Сражаться вместе против нее?"
 
 #: balth.tra:1105
 msgid ""
@@ -870,6 +1373,8 @@ msgid ""
 "be weakened... you could end my life there and everything I have been "
 "working towards will be for nothing."
 msgstr ""
+"Нет. Как я могу доверять тебе? Если мы уничтожим Мелиссу, я ослабну... и ты "
+"прикончишь меня. Все, к чему я стремился, станет ничем."
 
 #: balth.tra:1106
 msgid ""
@@ -877,10 +1382,15 @@ msgid ""
 "  We must... end this, <CHARNAME>.  I wish this to be over with, one way or "
 "the other."
 msgstr ""
+"Я думал, что когда этот миг настанет, я четко увижу свое предназначение. Мы "
+"должны... закончить, <CHARNAME>. Я хочу, что бы с этим было покончено, так "
+"или иначе."
 
 #: balth.tra:1107
 msgid "Alright, Balthazar.  If that's what you want... let's end this now."
 msgstr ""
+"Хорошо, Балтазар. Если это все, чего ты хотел, давай покончим со всем "
+"сейчас."
 
 #: balth.tra:1108
 msgid ""
@@ -888,31 +1398,38 @@ msgid ""
 " you.  My heart tells me that you must be killed, but I am not sure if I "
 "should listen to it.  What... what would you have me do?"
 msgstr ""
+"Я в растерянности, <CHARNAME>. У меня нет хорошего ответа для тебя. Мое "
+"сердце говорит, что тебя надо убить, но я не уверен, что его стоит слушать. "
+"Что... что ты посоветуешь мне делать?"
 
 #: balth.tra:1109
 msgid ""
 "Join me, Balthazar.  Let us fight Melissan together, instead of doing what "
 "she wants us to."
 msgstr ""
+"Присоединяйся, Балтазар. Давай сражаться с Мелиссой вместе, вместо того, "
+"чтобы подчиняться ей."
 
 #: balth.tra:1110
 msgid "I don't know, Balthazar.  But I don't want to fight you."
-msgstr ""
+msgstr "Не знаю, Балтазар. Но я не хочу с тобой сражаться."
 
 #: balth.tra:1111
 msgid ""
 "Let us fight, then, if it must be.  Let me give you some peace at last."
-msgstr ""
+msgstr "Давай драться, раз уж так. Я напоследок подарю тебе покой."
 
 #: balth.tra:1112
 msgid ""
 "You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
 "have an appointment with god-hood."
 msgstr ""
+"Ты еще более слабый, чем кажешься, глупец. Давай закончим сейчас? Меня уже "
+"ждет могущество богов."
 
 #: balth.tra:1113
 msgid "Yes... you are right."
-msgstr ""
+msgstr "Да... ты прав."
 
 #: balth.tra:1114
 msgid ""
@@ -920,6 +1437,9 @@ msgid ""
 "<PRO_MANWOMAN>.  Perhaps even worthy of turning Bhaal's dark taint and "
 "making something better of it.  I do not know.  But I will take that chance."
 msgstr ""
+"Хорошо, <CHARNAME>. Я присоединюсь к тебе. Ты достойный <PRO_RACE>. "
+"Возможно, удивительно наблюдать переход наследия Баала на сторону добра. Не "
+"знаю. Но я использую этот шанс."
 
 #: balth.tra:1115
 msgid ""
@@ -928,10 +1448,14 @@ msgid ""
 " to hold out against us both.  I have preparations to make, <CHARNAME>.  Go "
 "to the Throne of Bhaal.  When the time comes, I will be there."
 msgstr ""
+"Пусть Мелисса трепещет, когда увидит нас вместе, и мы повергнем ее, чего она"
+" и заслуживает. Даже если восстанет лично Баал, он не выстоит против нас "
+"обоих. Мне надо приготовиться, <CHARNAME>. Иди к Трону Баала. Когда придет "
+"время, я буду там."
 
 #: balth.tra:1116
 msgid "I cannot, <CHARNAME>."
-msgstr ""
+msgstr "Не могу, <CHARNAME>."
 
 #: balth.tra:1117
 msgid ""
@@ -943,21 +1467,29 @@ msgid ""
 "that taint.  Do not take it, <CHARNAME>...even a god can be tempted, you "
 "must realize that.  Promise me you will turn it away."
 msgstr ""
+"Ты должен принять битву с Мелиссой. Твоя судьба увидеть конец наследия "
+"Баала. Но ты должен пообещать мне, <CHARNAME>... ты должен пообещать мне, "
+"что не поддашься искушению. Когда ты сразишь Мелиссу, и сила станет "
+"доступной для тебя, ты должен отвернуться от нее... ты видишь свое "
+"напряжение сейчас, только с одной крупицей наследия. Не принимай его, "
+"<CHARNAME>... даже бог может соблазниться, пойми это. Пообещай мне."
 
 #: balth.tra:1118
 msgid ""
 "If I am given the option, Balthazar... I will refuse the taint.  I swear it."
-msgstr ""
+msgstr "Если у меня будет выбор, Балтазар... Клянусь, я откажусь от наследия."
 
 #: balth.tra:1119
 msgid ""
 "No.  I will swear nothing of the kind.  Great good could come out of that "
 "power, you don't know otherwise any better than I."
 msgstr ""
+"Нет. Я не поклянусь. Великое добро может прийти с этой силой, ты не знаешь в"
+" остальном никого лучше меня."
 
 #: balth.tra:1120
 msgid "Forget it!  I'll do no such thing!"
-msgstr ""
+msgstr "Забудь! Я такого не сделаю!"
 
 #: balth.tra:1121
 msgid ""
@@ -965,12 +1497,16 @@ msgid ""
 "  May the gods forgive me.  May you... may you forgive me, "
 "<PRO_BROTHERSISTER>..."
 msgstr ""
+"Теперь я удовлетворен. Сущность нашего родителя закончиться на мне... и "
+"тебе. Пусть боги простят нас. Прости меня, <PRO_BROTHERSISTER>..."
 
 #: balth.tra:1122
 msgid ""
 "Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
 "this would be otherwise."
 msgstr ""
+"Мы должны сразиться. Прости, <PRO_BROTHERSISTER>. Я надеялся, что все будет "
+"иначе."
 
 #: balth.tra:1123
 msgid ""
@@ -979,16 +1515,21 @@ msgid ""
 "brought you, yet I cannot believe that you would turn it aside.  I... I am "
 "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgstr ""
+"Я не верю, что ты отвергнешь эту силу, когда ее предложат. Ты знаешь, что "
+"приносит даже одна крупица наследия в тебе, но я все равно не верю, что ты "
+"сможешь. Прости, <PRO_BROTHERSISTER>... у меня нет выбора."
 
 #: balth.tra:1124
 msgid "So be it.  Come, my pupils... may the gods help us all."
-msgstr ""
+msgstr "Пусть будет так. Идемте, мои ученики... пусть боги помогут нам всем."
 
 #: balth.tra:1125
 msgid ""
 "No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
 "may the gods have pity on us all."
 msgstr ""
+"Нет. Дальнейшие разговоры нецелесообразны. Давай покончим с этим, "
+"<CHARNAME>... пусть боги сжалятся над нами."
 
 #: balth.tra:1126
 msgid ""
@@ -996,6 +1537,9 @@ msgid ""
 "battle?  What if I was weakened, in the end... you might find yourself... "
 "tempted.  How could I trust you?"
 msgstr ""
+"Возможно в том, что ты говоришь, есть смысл. Но что будет, если я погибну в "
+"сражении? Что, если ослабну, в конце... ты окажешься... перед искушением. "
+"Могу ли я доверять тебе?"
 
 #: balth.tra:1128
 msgid ""
@@ -1003,6 +1547,8 @@ msgid ""
 "used everyone else!  I didn't trust her and she even got me to do what she "
 "wanted!"
 msgstr ""
+"Не знаю, как объяснить это точно, но она использовала тебя! И всех "
+"остальных! Я не доверяю ей, и она не заставит меня делать то, что нужно ей!"
 
 #: balth.tra:1129
 msgid ""
@@ -1010,6 +1556,9 @@ msgid ""
 "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
 "and there was nothing I could do to stop it!"
 msgstr ""
+"Подумай про это, Балтазар! Ты действительно думаешь, что она не знала твоих "
+"планов? Ты думаешь, что застанешь ее врасплох? Даже мне было известно, что "
+"будет, только ничего нельзя было сделать, что бы остановить это!"
 
 #: balth.tra:1130
 msgid ""
@@ -1017,12 +1566,18 @@ msgid ""
 "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
 "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgstr ""
+"Она использовала тебя для избавления от других потомков Баала, это очевидно."
+" Подумай об этом! Она знала все то, о чем ты планировал. Она хотела смерти "
+"всех потомков Баала... и она хочет нашего сражения! Она *хочет*, чтобы это "
+"случилось!!"
 
 #: balth.tra:1131
 msgid ""
 "Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
 "as I knew hers.  This changes nothing."
 msgstr ""
+"Конечно, она использовала меня, <CHARNAME>. И без сомнения знала мои планы, "
+"также как я знаю ее. Это ничего не меняет."
 
 #: balth.tra:1132
 msgid ""
@@ -1030,16 +1585,21 @@ msgid ""
 "fail.  Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
 msgstr ""
+"Ты... может быть это и так, <CHARNAME>. Но это не означает, что мой план "
+"потерпит крах. Мелисса недооценивает меня, я уверен в этом... также, как она"
+" недооценивает и тебя."
 
 #: balth.tra:1133
 msgid ""
 "I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
 "Still... this does not mean my plan is doomed to failure.  Or is it?"
 msgstr ""
+"Я... возможно это и так, <CHARNAME>. Я вижу мудрость в твоих словах. Все "
+"еще... это не означает, что мой план потерпит крах. Или нет?"
 
 #: balth.tra:1134
 msgid "I must resist it.  I will.  I have no choice."
-msgstr ""
+msgstr "Я должен противостоять этому. Я буду. У меня нет выбора."
 
 #: balth.tra:1135
 msgid ""
@@ -1047,6 +1607,9 @@ msgid ""
 "soul, you have struggled against it just as I have.  What makes me more "
 "worthy...?  No, I must not question myself!  Not now!"
 msgstr ""
+"Но... в тебе также заметна большая сила воли. Несмотря на наследие в своей "
+"душе, борьба против него шла также, как и у меня. Что делает меня более "
+"достойным...? Нет, я не должен сомневаться в себе! Не сейчас!"
 
 #: balth.tra:1136
 msgid ""
@@ -1054,6 +1617,9 @@ msgid ""
 "<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
 "you to the Throne would be to give up everything I have believed in."
 msgstr ""
+"Ты не лучший вариант для сопротивления такому искушению, <CHARNAME>. Я "
+"доверяю себе гораздо больше, чем смог бы доверять тебе. Чтобы отпустить тебя"
+" к Трону надо отказаться от всего, во что я верил."
 
 #: balth.tra:1137
 msgid ""
@@ -1062,6 +1628,9 @@ msgid ""
 "Might will bring you no peace... this I know.  And this is why I must be the"
 " last."
 msgstr ""
+"Сила ничто, <CHARNAME>. Ты со своей мощью можешь победить меня, и ты можешь "
+"победить даже Мелиссу. Но ты никогда не сможешь победить себя. Мощь не даст "
+"тебе мира... это я знаю. И это - то, почему я должен стать последним."
 
 #: balth.tra:1138
 msgid ""
@@ -1070,10 +1639,14 @@ msgid ""
 "others, of myself and my own immortal soul.  It will be enough that Bhaal's "
 "legacy is destroyed, there is no temptation beyond that."
 msgstr ""
+"Я устал от сражений и битв, <CHARNAME>. Я утомлен мукой, которую я выношу, "
+"ставя великое добро выше благосостояния других, самого себя и своей "
+"собственной бессмертной души. Будет достаточно, что наследство Баала "
+"разрушено, нет никакого искушения кроме этого."
 
 #: balth.tra:1139
 msgid "But I do.  It is my destiny.  What other choice have I?"
-msgstr ""
+msgstr "Но я это сделаю. Это - моя судьба. Разве есть другой выбор для меня?"
 
 #: balth.tra:1140
 msgid ""
@@ -1081,6 +1654,9 @@ msgid ""
 "prophecy!  I have fought against it ever since I found out about my heritage"
 " and I will *not* give up!"
 msgstr ""
+"Всегда есть выбор, Балтазар. Не будь рабом пророчества Алаундо! Мне пришлось"
+" бороться с этим с тех пор, как стало известно о моем наследии, и я *не* "
+"сдамся!"
 
 #: balth.tra:1141
 msgid ""
@@ -1088,30 +1664,41 @@ msgid ""
 "Balthazar!  It also means we can stop the prophecy from becoming true, I "
 "know this!"
 msgstr ""
+"Пророчество Алаундо не подразумевает, что потомки Баала должны быть "
+"разрушителями, Балтазар! Это также означает, что мы можем остановить "
+"пророчество от исполнения. Я знаю это!"
 
 #: balth.tra:1142
 msgid ""
 "You can walk away.  You can do what's right, Balthazar, what you know to be "
 "right instead of what you've resigned yourself to."
 msgstr ""
+"Ты можешь уйти. Ты можешь делать то, что считаешь верным, Балтазар, что ты "
+"думаешь должно быть верным, вместо того, чтобы примириться с собой."
 
 #: balth.tra:1143
 msgid ""
 "You are walking a path that you don't need to, Balthazar.  You see yourself "
 "as evil, but it doesn't have to be that way."
 msgstr ""
+"Ты следуешь пути, который тебе не нужен, Балтазар. Вы видишь себя как зло, "
+"но это не тот путь, который должен быть."
 
 #: balth.tra:1144
 msgid ""
 "I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
 "  We can work together!"
 msgstr ""
+"Я <PRO_BROTHERSISTER> тебе, Балтазар. Позволь нам бороться с тем, что "
+"неизбежно! Мы можем работать вместе!"
 
 #: balth.tra:1145
 msgid ""
 "Forget it.  There's no point in discussing this with you, is there?  Let's "
 "get this over with."
 msgstr ""
+"Забудь это. Нет никакого смысла обсуждать это с тобой, не так ли? Давай "
+"сделаем это."
 
 #: balth.tra:1146
 msgid ""
@@ -1119,6 +1706,9 @@ msgid ""
 " to your will, how you are the center of it all... how is it that I did not "
 "see this before?"
 msgstr ""
+"Ты говоришь убедительно, <CHARNAME>. Я могу почувствовать судьбу, "
+"изменяющуюся по твоему желанию, что ты - центр всего этого... как "
+"получилось, что я не увидел это раньше?"
 
 #: balth.tra:1147
 msgid ""
@@ -1126,6 +1716,8 @@ msgid ""
 "them.  You have fought against destiny, yet I see it in you even the more as"
 " you speak."
 msgstr ""
+"Но правда такова - твои слова звучат фальшиво для меня. Я не верю им. Ты "
+"борешься против судьбы. Я вижу в тебе даже больше, чем ты говоришь."
 
 #: balth.tra:1148
 msgid ""
@@ -1133,16 +1725,21 @@ msgid ""
 "and see how rigidly I have held myself to my destiny... and I feel hollow.  "
 "But I... cannot believe that this has been for nothing."
 msgstr ""
+"Возможно... возможно кое-что есть в твоих словах. Я смотрю внутрь себя и "
+"вижу, как твердо я вел себя к своей судьбе... и я чувствую пустоту. Но я... "
+"не могу поверить, что это было напрасно."
 
 #: balth.tra:1149
 msgid "What do you mean?  How do you know this?"
-msgstr ""
+msgstr "Что ты имеешь ввиду? Откуда ты это знаешь?"
 
 #: balth.tra:1150
 msgid ""
 "It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
 " sounds, but it's true!"
 msgstr ""
+"Это сказал мне Солар, представитель пророчества! Это... о, я знаю, как это "
+"звучит, но это правда!"
 
 #: balth.tra:1151
 msgid ""
@@ -1150,6 +1747,9 @@ msgid ""
 "beings that have sought me out to prepare me.  Alaundo's prophecy does not "
 "necessarily mean what you think it does, Balthazar."
 msgstr ""
+"Мне рассказали много вещей представители пророчества Алаундо... высшие "
+"существа, которые разыскали меня, чтобы подготовить меня. Пророчество "
+"Алаундо не обязательно означает то, что ты думаешь сделать, Балтазар."
 
 #: balth.tra:1152
 msgid ""
@@ -1158,12 +1758,19 @@ msgid ""
 "matter how we assume it to be.  Think about it and you'll know it to be "
 "true, Balthazar... everything has more than one side."
 msgstr ""
+"Солар был моим наставником с самого начала, руководил мной и готовил меня к "
+"тому, что должно произойти. Пророчество не такое простое, как ты думаешь - "
+"оно будет, независимо от того, как мы предполагаем оно может быть. Подумай "
+"об этом и ты узнаешь истину, Балтазар... у каждой вещи есть обратная "
+"сторона."
 
 #: balth.tra:1153
 msgid ""
 "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>.  "
 "And my path remains clear."
 msgstr ""
+"У меня нет посредника с небес, чтобы растолковывать мне мою судьбу, "
+"<CHARNAME>. И мой путь останется прежним."
 
 #: balth.tra:1154
 msgid ""
@@ -1171,18 +1778,25 @@ msgid ""
 "it seems that my destiny may differ from yours.  I have no heavenly "
 "guidance.  Perhaps my path has been made for me, yet."
 msgstr ""
+"Ты заставляешь меня сомневаться, <CHARNAME>, но это становится интересно. "
+"Все же... кажется, что моя судьба может быть отличной от твоей. У меня нет "
+"небесного руководства. Надеюсь все же, мой путь был сделан для меня."
 
 #: balth.tra:1155
 msgid ""
 "What you say is incredible, and yet... it does make sense.  Have I prepared "
 "myself for all this time in error?  How could this be?"
 msgstr ""
+"То, что ты говоришь, невероятно, и все же... это имеет смысл. Я готовил себя"
+" все это время не правильно? Как это могло быть?"
 
 #: balth.tra:1156
 msgid ""
 "An appealing notion, to walk away.  Would that I could do so.  Would that "
 "any of us could have done so."
 msgstr ""
+"Любопытная точка зрения, чтобы уйти. Возможно, я мог бы сделать так. "
+"Возможно, каждый из нас мог бы сделать так."
 
 #: balth.tra:1157
 msgid ""
@@ -1190,6 +1804,9 @@ msgid ""
 " are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>.  "
 "Perhaps there is hope... or perhaps I am only deluding myself."
 msgstr ""
+"Но возможно я примирюсь с собой на пути, который не такой, каким он кажется."
+" Ты... не то, что я ожидал для последнего из потомков Баала, <CHARNAME>. "
+"Возможно есть надежда... или возможно я только ввожу себя в заблуждение."
 
 #: balth.tra:1158
 msgid ""
@@ -1197,6 +1814,9 @@ msgid ""
 " option available to me or any of us, no matter how appealing you may make "
 "it seem."
 msgstr ""
+"Но это точка зрения глупца, <CHARNAME>, но я совсем не дурак. Нет такого "
+"выбора, доступного мне или другому из нас, независимо от того, как "
+"привлекательно ты пытаешься это показать."
 
 #: balth.tra:1159
 msgid ""
@@ -1206,6 +1826,12 @@ msgid ""
 "greater good... I cannot forget!  I will not forgive myself and I will *not*"
 " allow others to be afflicted with the taint I possess!"
 msgstr ""
+"Нет! Ты не слышал ничего из сказанного! Это *есть* тот путь, потому что нет "
+"никакого выбора для нас! Ты хотел сделать так, чтобы мы забыли про все "
+"убийства, которые совершили своими собственными руками, всю "
+"несправедливость, которую сделали от имени великого добра... я не могу "
+"забыть! Я не прощу себя и *не* позволю другим быть пораженным наследием, "
+"которым обладаю!"
 
 #: balth.tra:1160
 msgid ""
@@ -1213,6 +1839,9 @@ msgid ""
 "siblings that we cannot work together.  You know as well as I what the "
 "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgstr ""
+"У тебя высокое обаяние, <CHARNAME>... но потому что мы - родственники, мы не"
+" можем работать вместе. Ты также как и я знаешь, что сущность не остановится"
+" до тех пор, пока наши судьбы не исполнятся."
 
 #: balth.tra:1161
 msgid ""
@@ -1221,6 +1850,10 @@ msgid ""
 "destruction of the true evil that threatens FaerÃ»n.  There is no other path"
 " for me."
 msgstr ""
+"Я ничего не хочу утверждать о тебе, <CHARNAME>, но ты есть тем, кем был "
+"рожден. Я могу верить только себе и держаться пути добра, который приведет к"
+" разрушению истинного зла, угрожающего Фаеруну. Для меня нет никакого "
+"другого пути."
 
 #: balth.tra:1162
 msgid ""
@@ -1229,6 +1862,10 @@ msgid ""
 "the innocent at the slightest provocation!  And all for nothing!  You call "
 "these the actions of a good man?"
 msgstr ""
+"Посмотри на страдания, который ты причинил Амкетрану! Монахи терроризируют "
+"невинных по твоей команде! Ты нанимаешь бездушных наемников, которые "
+"вырезают невинных из-за малейшего недовольства! И все в пустую! Ты называешь"
+" это действиями хорошего человека?"
 
 #: balth.tra:1163
 msgid ""
@@ -1237,12 +1874,18 @@ msgid ""
 "without your scheming.  It was your choice to join the Five in their reign "
 "of destruction, so live up to it!"
 msgstr ""
+"Действительно добрый человек с самого начала противостоял бы Мелиссе. Ты "
+"говоришь, что хотел выяснить об этой Пятерке, кем они были... и все же они "
+"все побеждены без твоего участия. Это был твой выбор присоединиться к "
+"Пятерке в их господстве разрушения, так соответствуй этому!"
 
 #: balth.tra:1164
 msgid ""
 "You make no judgement upon me?  Don't make me laugh!  Inevitability is only "
 "the newest excuse for yet one more murder!  You would make our father proud!"
 msgstr ""
+"Ты ничего не утверждаешь обо мне? Не смеши меня! Неизбежность - только новое"
+" оправдание за еще одно убийство! Наш отец гордился бы тобой!"
 
 #: balth.tra:1165
 msgid ""
@@ -1251,10 +1894,14 @@ msgid ""
 "against evil?  Do you know destiny so well that you can say for certain "
 "where it leads for someone else, never mind yourself?"
 msgstr ""
+"А что, если это также и мой путь, Балтазар? Ты говоришь, что не судишь меня,"
+" и все же держишь себя как единственного человека, кто может сражаться "
+"против зла? Ты знаешь судьбу настолько хорошо, что можешь сказать наверняка,"
+" где это произойдет и с кем, не говоря уж о себе?"
 
 #: balth.tra:1166
 msgid "Then let's get this over with.  I'm tired of talking."
-msgstr ""
+msgstr "Тогда давай покончим с этим. Я утомлен разговором."
 
 #: balth.tra:1167
 msgid ""
@@ -1266,6 +1913,13 @@ msgid ""
 "goodness of a man, does it not?  I... I am ashamed, <CHARNAME>.  I sought..."
 " only to do what was best for us all."
 msgstr ""
+"Это... это правда. Я уделял мало внимания к действиям моим людей, но я... я "
+"знал то, что они делали. Я считаю это большой жертвой, необходимой для "
+"сохранения тайны, достижение моей конечной цели, которую они из-за своего "
+"невежества не знают, но которая принесет им в конце большую пользу. Но... "
+"то, как мы обходимся с наиболее беспомощными из наших братьев в худшие "
+"времена, те помечены добродетелем, не так ли? Я... я стыжусь, <CHARNAME>. Я "
+"искал... только, чтобы сделать это наилучшим способом для нас всех."
 
 #: balth.tra:1168
 msgid ""
@@ -1273,6 +1927,9 @@ msgid ""
 "in no small part, my own.  But who is to say that things might not have been"
 " different?  Who are *you* to say that things might have been different?"
 msgstr ""
+"Ты выяснил, кто была эта Пятерка через интриги Мелиссы... и в какой-то "
+"степени, через меня. Но кто говорит, что обстоятельства не могли быть "
+"разными? Кто *ты*, чтобы говорить, что обстоятельства могли быть разными?"
 
 #: balth.tra:1169
 msgid ""
@@ -1281,6 +1938,9 @@ msgid ""
 "does 'necessity' cross into the realm of evil?  I... I am ashamed, "
 "<CHARNAME>."
 msgstr ""
+"Но... это правда, тем не менее. Я выбрал легкий путь, и сделал много, что "
+"принесло вред другим во имя необходимости. Но когда 'потребность' переходит "
+"в царство зла? Я... я стыжусь, <CHARNAME>."
 
 #: balth.tra:1170
 msgid ""
@@ -1288,6 +1948,9 @@ msgid ""
 "be a necessary goal... but neither should you.  You have blundered about, "
 "causing more harm by your negligence than I ever could by my plotting."
 msgstr ""
+"Я не стою здесь, гордясь своими достижениями, но я вижу необходимую цель... "
+"И ты при этом не должен ошибаться, причиняя больше вреда своей небрежностью,"
+" чем я когда-либо своими заговорами."
 
 #: balth.tra:1171
 msgid ""
@@ -1296,6 +1959,10 @@ msgid ""
 "Destroyed, all of it!  I cry out to Ao the Overfather that such evil must "
 "not be allowed to live in the hearts of mortals, and I *will* be heard!"
 msgstr ""
+"Я *не* горжусь! Я пожертвовал своей полноценной жизнью, людьми этого "
+"поселения, всем, что у меня есть, чтобы увидеть падение зла! Его полное "
+"уничтожение! Я взвываю к Ао - Творцу мира, что такому злу нельзя позволять "
+"жить в сердцах смертных, и меня *обязательно* услышат!"
 
 #: balth.tra:1172
 msgid ""
@@ -1303,6 +1970,9 @@ msgid ""
 "<CHARNAME>.  I know only that if our power was to grow, if your power was to"
 " grow, that so would the temptation."
 msgstr ""
+"Я... знают только то, что наследие искушает нас изнутри, <CHARNAME>. Я знаю "
+"только, что, если бы наша сила выросла, если бы твоя сила выросла, это и "
+"было бы искушением."
 
 #: balth.tra:1173
 msgid ""
@@ -1312,6 +1982,11 @@ msgid ""
 "that our treatment of the least of our brethren is the true judge of a man's"
 " soul?  I... I am ashamed."
 msgstr ""
+"Но... ты успешно сопротивляешься искушению. Более успешно, чем я. Я "
+"сделал... во имя добра сделал много из того, о чем я сожалею. Мои люди "
+"страдают, потому что я раньше ставил свою конечную цель выше всего или... но"
+" не истина, что наша трактовка меньших наших братьев является ли истинным "
+"судьей человеческой души? Я... я стыжусь."
 
 #: balth.tra:1174
 msgid ""
@@ -1319,12 +1994,18 @@ msgid ""
 "heart then you would have me believe.  I must walk my own path, "
 "<CHARNAME>...and you must walk yours."
 msgstr ""
+"И несмотря на то, что ты утверждаешь, я думаю, что наследие глубоко проникло"
+" в твое сердце, и твои слова не заставили меня поверить им. Я должен "
+"следовать своим собственным путем, <CHARNAME>... а ты своим собственным."
 
 #: balth.tra:1175
 msgid ""
 "Very well.  Come, my students... my teachings are ended.  We make our last "
 "stand now for what is right.  May the gods have pity on us all."
 msgstr ""
+"Так и будет. Идемте, мои ученики... обучение окончено. Мы сейчас сделаем "
+"нашу последнюю остановку для того, чтобы быть правым. Пусть боги сжалятся "
+"над нами."
 
 #: balth.tra:1176
 msgid ""
@@ -1334,6 +2015,11 @@ msgid ""
 "<PRO_MANWOMAN> such as yourself without the taint on your soul, I think.  "
 "But now I have little choice."
 msgstr ""
+"Даже если не судьба привела нас в это место, я сомневаюсь, что "
+"обстоятельства были бы другими. Возможно, если бы в тебе не было наследия "
+"нашего родителя, обстоятельства сложились бы по-другому. Я думаю, что с "
+"удовольствием встретил бы <PRO_MANWOMAN> вроде тебя без наследия в своей "
+"душе. Но сейчас у меня небольшой выбор."
 
 #: balth.tra:1177
 msgid ""
@@ -1342,6 +2028,11 @@ msgid ""
 "Candlekeep... would I not find some who would claim such innocence for "
 "themselves?  Who died merely because they were caught in your wake?"
 msgstr ""
+"Вероятно твое заявление о невиновности подразумевает что-то вроде "
+"разрушенного Сарадуша? Я должен не сомневаться также и в недавних "
+"разрушениях Аскатлы, Врат Балдура, Кэндлкип... вероятно я не найду других, "
+"кто требовали бы такой невиновности для себя? Кто умер просто потому, что "
+"они оказались у тебя на пути?"
 
 #: balth.tra:1178
 msgid ""
@@ -1351,6 +2042,11 @@ msgid ""
 "presence.  Would you allow such carnage to continue?  Have we not spared the"
 " entire land from agony by the slaying of our siblings?"
 msgstr ""
+"Ты считаешь, что другие из нас чем-то отличаются? Посчитай их, <CHARNAME>, и"
+" подумай о множестве потомков Баала, которые существовали и принесли "
+"страдание другим, если не желанием, то хотя бы своим присутствием. Ты можешь"
+" позволить такой резне продолжаться? Разве мы не избавили бы эту землю от "
+"агонии убийством наших родных братьев и сестер?"
 
 #: balth.tra:1179
 msgid ""
@@ -1358,6 +2054,9 @@ msgid ""
 "foreseen long ago by Alaundo?  You believe it by choice alone that you ended"
 " up here, in this place?"
 msgstr ""
+"Ты полагаешь, что можешь быть творцом своей судьбы, не так ли? Судьбы, давно"
+" предсказанной Алаундо? Ты веришь этому единственному выбору, который "
+"произойдет здесь, в этом месте?"
 
 #: balth.tra:1180
 msgid ""
@@ -1365,6 +2064,9 @@ msgid ""
 "taken since leaving Candlekeep, the journey has ended here as it was always "
 "meant to.  Destiny masters us... we do not master it."
 msgstr ""
+"Ты ошибаешься в выбранном пути, мой друг. Неважно, какие дороги вели тебя "
+"после отъезда из Кэндлкипа, приключение закончится здесь, как и "
+"предсказывалось. Не мы творцы нашей Судьбы... не мы..."
 
 #: balth.tra:1181
 msgid ""
@@ -1373,6 +2075,10 @@ msgid ""
 "have struggled against it.  I am glad you see this... it will make things "
 "much easier."
 msgstr ""
+"Конечно, были ли они преградой, которую надо преодолеть или просто "
+"свидетели, пересекающие твой путь. Моя собственная жизнь была немного "
+"другой, независимо от того, какие методы борьбы мы выбираем. Меня радует, "
+"что ты видишь это... это делает ситуацию намного проще."
 
 #: balth.tra:1182
 msgid ""
@@ -1381,23 +2087,33 @@ msgid ""
 "victorious, it is true, but the fact that you embrace the taint within you "
 "makes my own path that much the clearer."
 msgstr ""
+"Ты говоришь подобно Яга-Шуре, гиганту в самомнении, также как в теле. Все же"
+" он пал, когда настало время его судьбы. Мощь твоей крови может сделать тебя"
+" победителем, это правда, но тот факт, что ты принимаешь наследие внутри "
+"себя, делает мой собственный путь значительно более ясным."
 
 #: balth2.tra:1002
 msgid ""
 "<CHARNAME> does not stand alone, Melissan.  It is time that this is ended."
 msgstr ""
+"Мелисса, <CHARNAME> здесь не в одиночестве. Пришло время, когда все "
+"закончится."
 
 #: balth2.tra:1003
 msgid ""
 "I see well enough now, priestess.  Speak clever wit if you wish, you cannot "
 "hope to defeat us."
 msgstr ""
+"Я понимаю теперь достаточно хорошо, жрица. Можешь язвить сколько захочешь, "
+"но не надейся победить нас."
 
 #: balth2.tra:1004
 msgid ""
 "To return the essence to our father.  And great bloodshed in his name to "
 "call him forth.  And I never believed it."
 msgstr ""
+"Для возвращения сущности нашему отцу. И во имя его это великое "
+"кровопролитие, чтобы вернуть его. И я никогда не верил этому."
 
 #: balth2.tra:1005
 msgid ""
@@ -1405,6 +2121,9 @@ msgid ""
 "is invulnerable to harm... and I doubt she will come out of it willingly to "
 "face us."
 msgstr ""
+"Мы должны быть осторожны сейчас, <CHARNAME>. Внутри того потока энергии "
+"Мелисса неуязвима к повреждениям... и я сомневаюсь, что она охотно покинет "
+"его, чтобы встать перед нами."
 
 #: balth2.tra:1006
 msgid ""
@@ -1413,6 +2132,10 @@ msgid ""
 "three were cut off from her stream, Melissan might be forced to deal with us"
 " rather than soak up even more power."
 msgstr ""
+"Я думаю, что водоемы сущности, которые примыкают к Трону, кто-то из нас, кто"
+" имеет связь с сущностью наследника Баала, мог бы направить в другую "
+"сторону. Если бы все три были отрезаны от ее потока, Мелисса была бы "
+"вынуждена сразиться с нами, чтобы получить еще большее мощи."
 
 #: balth2.tra:1007
 msgid ""
@@ -1420,6 +2143,9 @@ msgid ""
 "way to continue that I can think of.  Short of standing here and watching "
 "her become a goddess, that is."
 msgstr ""
+"Она, без сомнения, защитила водоемы каким-либо способом..., но это "
+"единственный способ, который я смог придумать. Не стоять же нам здесь и "
+"наблюдать, как она становиться богиней."
 
 #: balth2.tra:1008
 msgid ""
@@ -1427,14 +2153,19 @@ msgid ""
 "for yourself and not spread it amongst such servants.  It will prove your "
 "doom."
 msgstr ""
+"Ты - дура, Мелисса. Ты должна была сохранить божественную энергию внутри "
+"себя и не разбрасывать ее среди своих прислужников. Это приблизит твою "
+"погибель."
 
 #: balth2.tra:1009
 msgid "You... you are so beautiful.  I... had no idea..."
-msgstr ""
+msgstr "Вы... вы так прекрасны. Я... понятия не имел..."
 
 #: balth2.tra:1010
 msgid "Choose?  You mean... I may rid myself of the taint on my soul forever?"
 msgstr ""
+"Выбор? Вы подразумеваете..., что я могу самостоятельно избавиться от пятна "
+"на моей душе, навсегда?"
 
 #: balth2.tra:1011
 msgid ""
@@ -1442,6 +2173,9 @@ msgid ""
 "gladly, and with all my heart.  To walk the earth without that dark burden "
 "twisting my soul... I... I cannot even imagine..."
 msgstr ""
+"Нет ничего, что я бы жаждал больше. Я с удовольствием стану смертным, я "
+"желаю этого всем своим сердцем. Идти по земле без этого темного бремени, "
+"будоражившее мою душу... Я... я даже не могу представить..."
 
 #: balth2.tra:1012
 msgid ""
@@ -1451,6 +2185,11 @@ msgid ""
 "with that stain upon my soul and perhaps even been Melissan's puppet "
 "forever."
 msgstr ""
+"Я не смогу достойно отблагодарить вас, <CHARNAME>, за подарок, который вы "
+"дали мне. Я раньше думал, что сделал все возможное, борясь за то, что было "
+"добром..., до тех пор, когда вы показали мне, как я ошибался. Без вас, я "
+"умер бы с тем пятном на моей душе и возможно стал бы даже марионеткой "
+"Мелиссы."
 
 #: balth2.tra:1013
 msgid ""
@@ -1459,6 +2198,10 @@ msgid ""
 "<PRO_MANWOMAN> such as yourself towards evil.  Perhaps you would overcome "
 "that taint and be a good god, I cannot say."
 msgstr ""
+"Я не могу знать, что вы сейчас думаете о решении, которое вам предстоит "
+"принять. Но при этом я предполагаю с уверенностью, что пятно не привело бы "
+"<PRO_MANWOMAN> вроде вас к самому злу. Возможно вы преодолеете то наследие и"
+" станете добрым Богом, я не знаю."
 
 #: balth2.tra:1014
 msgid ""
@@ -1467,6 +2210,10 @@ msgid ""
 "wishes to become a god?  Sarevok?  Irenicus?  Melissan?  Even if your "
 "intentions are good, what of an eternity being chained to such power?"
 msgstr ""
+"Я только прошу, чтобы вы проследили, как пятно Баала влияла на вашу жизнь к "
+"данному моменту. Вы действительно желаете получить все это? Кто из людей так"
+" хочет стать богом? Саревок? Иреникус? Мелисса? Даже если у тебя благие "
+"намерения - что это за вечность связанная с такой силой?"
 
 #: balth2.tra:1015
 msgid ""
@@ -1474,6 +2221,9 @@ msgid ""
 " you consider the life you might have led, the mortal life, had the taint "
 "never visited itself upon you back at Candlekeep.  I look forward to my own."
 msgstr ""
+"Это ваш выбор. Вы знаете себя лучше, чем я. Я еще раз просто прошу, чтобы вы"
+" пересмотрели жизнь, смертную жизнь, которую вы могли бы провести, не узнав "
+"про пятно там, в Кэндлкипе. Я же ожидаю свою собственную судьбу."
 
 #: balth2.tra:1016
 msgid ""
@@ -1481,6 +2231,9 @@ msgid ""
 "forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
 " <PRO_BROTHERSISTER>."
 msgstr ""
+"И так - это сделано. Я полагаю, что вы сделали правильный выбор. Я надеюсь "
+"снова встретить вас на Фаеруне, <CHARNAME>... <PRO_BROTHERSISTER> из крови и"
+" плоти."
 
 #: balth2.tra:1017
 msgid ""
@@ -1489,12 +2242,19 @@ msgid ""
 "When I look up at the heavens and see the brightest star in the sky, I shall"
 " think of you and offer a prayer."
 msgstr ""
+"Значит вы выбрали путь, лишенный путешествий, <CHARNAME>. Я не могу сказать,"
+" что я завидую вам. Я надеюсь, что мощь принесет вам то, что вы желаете и "
+"ожидаете, мой друг. Когда я посмотрю на небо и увижу самую яркую звезду на "
+"нем, я буду думать и молиться о вас."
 
 #: balth2.tra:1018
 msgid ""
 "Melissan keeps restoring her immortal energies at the fount!  There must be "
 "a way to weaken her further, or we will never defeat her!"
 msgstr ""
+"Мелисса продолжает восстанавливать свои бессмертные энергии в источнике! "
+"Должен же быть способ ослабить ее в дальнейшем, или мы никогда не сможем "
+"победить ее!"
 
 #: ee.tra:3001
 msgid ""
@@ -1535,6 +2295,8 @@ msgid ""
 "Ahhh... my dear brother calls me at last, does he?  I knew you would not be "
 "able to live without my assistance for long."
 msgstr ""
+"Аххх... дорогой мой братец, наконец-то позвал меня? Я знала, что ты не "
+"сможешь долго обходиться без моей помощи."
 
 #: finbodh.tra:34
 msgid ""
@@ -1542,6 +2304,9 @@ msgid ""
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr ""
+"(хихиканье) Как вам нравится возлагать вину на меня в своих собственных "
+"неудачах. Бедный, бедный Иреникус... всегда так очень, очень близко к своей "
+"цели и все же всегда так очень, очень далеко."
 
 #: finbodh.tra:35
 msgid ""
@@ -1550,51 +2315,67 @@ msgid ""
 "hope you are as... healthy... as I remember.  Shall we continue our merry "
 "dance?"
 msgstr ""
+"Конечно вижу. Как восхитительно призвать меня снова на твою маленькую игру с"
+" потомком Баала, дорогой брат. И как же вы, <CHARNAME>? Я надеюсь, вы "
+"сейчас... здоровы... насколько я помню. Продолжим наш очаровательный танец?"
 
 #: finbodh.tra:36
 msgid ""
 "Still trapped in servitude to Irenicus?  Do you have no will of your own, "
 "Bodhi?"
 msgstr ""
+"Все еще находитесь в порабощении у Иреникуса? Не можете все решать сама, "
+"Бодхи?"
 
 #: finbodh.tra:37
 msgid ""
 "Why don't you go jump on a stake and spare us both the tedium of battle?"
 msgstr ""
+"Почему бы тебе самой не прыгнуть на кол и избавить нас обоих от скучного "
+"сражения?"
 
 #: finbodh.tra:38
 msgid ""
 "Best hike up your skirts and run, Bodhi.  The time when I found vampires "
 "remotely threatening is long past!"
 msgstr ""
+"Подхвати юбку и беги, Бодхи. Время, когда вампиры пугали меня, давно прошло!"
 
 #: finbodh.tra:39
 msgid ""
 "Do I have to suffer your prattle again?  I shall stamp out your evil "
 "presence once and for all!"
 msgstr ""
+"Мне опять нужно слушать твой лепет? Я уничтожу твое злое присутствие раз и "
+"навсегда!"
 
 #: finbodh.tra:41
 msgid ""
 "Oh Child of Bhaal, so serious and grim!  Do you not enjoy that our paths "
 "have crossed again?  Does your blood not rejoice?"
 msgstr ""
+"О, ребенок Баала, так серьезно и мрачно! Вы не рады, что наши дорожки вновь "
+"пересеклись? Ваша кровь не вскипает?"
 
 #: finbodh.tra:42
 msgid ""
 "You are weak, Bodhi, while the blood of a god flows within me.  I shall "
 "enjoy your death... again."
 msgstr ""
+"Ты слаба, Бодхи, в то время как кровь бога течет внутри меня. Я буду "
+"наслаждаться твоей смертью... опять."
 
 #: finbodh.tra:43
 msgid "Enough of this!  You will fall before me, undead thing."
-msgstr ""
+msgstr "Теперь достаточно! Ты упадешь передо мной, полумертвая сущность."
 
 #: finbodh.tra:44
 msgid ""
 "You have nothing to gain from this fight.  Will you sacrifice yourself out "
 "of sibling loyalty?  Do not make that mistake again."
 msgstr ""
+"Вы ничего не получите из этой борьбы. Вы жертвуете собой из-за лояльности к "
+"родному брату? Не делайте опять ту же ошибку."
 
 #: finbodh.tra:45
 msgid ""
@@ -1602,12 +2383,17 @@ msgid ""
 "prepared to fight me to the death, but you don't need to die at his side.  "
 "There is no need for you to die at all."
 msgstr ""
+"Оставайтесь в стороне Бодхи. Ваш брат ослеплен жаждой мести. Он готов "
+"сражаться со мной до смерти, но вам нет необходимости умирать вместе с ним. "
+"Вообще нет никакой необходимости вам умирать."
 
 #: finbodh.tra:46
 msgid ""
 "You may be strong, <CHARNAME>, but you are indeed a fool to think us weak.  "
 "I shall take your soul for my own, I swear it!"
 msgstr ""
+"Может быть вы сильны, <CHARNAME>, но вы глупы, если думаете, что мы слабые. "
+"Я возьму вашу душу для себя, я клянусь в этом!"
 
 #: finbodh.tra:47
 msgid ""
@@ -1616,18 +2402,27 @@ msgid ""
 "<PRO_HESHE> that shall give me what I need.  I look forward to bathing in "
 "your blood, dear brother... a suitable reward for your utter failure."
 msgstr ""
+"У тебя был свой шанс, брат. Но твои планы потерпели крах, и насколько я "
+"помню, это привело к моей смерти. Нет, ты слаб, а <CHARNAME> нет и именно "
+"<PRO_HESHE> сможет дать мне то, в чем я нуждаюсь. Я желаю искупаться в твоей"
+" крови, дорогой брат... подходящая награда для твоей абсолютной неудачи."
 
 #: finbodh.tra:48
 msgid ""
 "Oh Child of Bhaal, you do bore me so with your talk.  Come to me and embrace"
 " death as I have.  Let the dance begin again!"
 msgstr ""
+"О, ребенок Баала, вы хотите докучать мне своими разговорами. Иди ко мне и "
+"прими смерть, которую я принесу. И пусть танец НАЧИНЕТСЯ опять!"
 
 #: finbodh.tra:49
 msgid ""
 "Indeed, I have no intention of dying at all.   I fight with my brother "
 "because I have no choice....or would you offer me one now?"
 msgstr ""
+"Действительно, у меня нет желания умирать, навсегда. Я нахожусь со своим "
+"братом, потому что у меня нет никакого выбора... или вы теперь предложите "
+"мне другой выбор?"
 
 #: finbodh.tra:50
 msgid ""
@@ -1635,12 +2430,18 @@ msgid ""
 "raise others from the abyss; one who opposed you, no less!  How intriguing."
 "  Perhaps I do not need to taste your blood..."
 msgstr ""
+"Мой брат верит, что может предложить мне вашу душу, все же я думаю, что вы "
+"также можете поднять другие из пропасти; кого-то из тех, кто противостоял "
+"вам - не меньше! Как интригующе. Возможно, мне не нужно проливать вашу "
+"кровь..."
 
 #: finbodh.tra:51
 msgid ""
 "I would make you an offer <CHARNAME>.  Promise me a piece of your soul and I"
 " shall fight as a sister to you."
 msgstr ""
+"Я сделаю вам предложение <CHARNAME>. Обещайте мне часть своей души и я буду "
+"бороться как ваша сестра."
 
 #: finbodh.tra:52
 msgid ""
@@ -1648,6 +2449,9 @@ msgid ""
 "Imoen once again, but she seems....indisposed.  Yet perhaps there is another"
 " way..."
 msgstr ""
+"Мне необходима душа, <CHARNAME>, вы это знаете. Я могу взять ее еще раз из "
+"молодой Имоен, но она кажется.... нездоровой. Все же, надеюсь, есть другой "
+"путь..."
 
 #: finbodh.tra:53
 msgid ""
@@ -1655,18 +2459,25 @@ msgid ""
 " one, but since I must return, I shall not pass up a chance to feast on such"
 " a fine morsel."
 msgstr ""
+"Я обречена, не зависимо от того, буду я сражаться или нет. Мое пребывание в "
+"Бездне не из приятных, но раз мне придется туда вернуться, я не упущу шанса "
+"попробовать такой лакомый кусочек."
 
 #: finbodh.tra:54
 msgid ""
 "I have power beyond your brother's.  Join with me and I shall grant the "
 "reward he shall not live to bestow; a soul."
 msgstr ""
+"У меня сила выше твоего брата. Присоединяйся ко мне и я дам тебе награду, "
+"которую он не сможет дать никогда - душу."
 
 #: finbodh.tra:55
 msgid ""
 "I have changed since our last encounter, Bodhi.  I am above you and your "
 "pitiful games.  They bore me and I shall put an end to them!"
 msgstr ""
+"Многое изменилось с нашего последнего столкновения, Бодхи. Я выше вас и "
+"ваших жалких игр. Мы оба выросли из них, и я положу им конец!"
 
 #: finbodh.tra:56
 msgid ""
@@ -1674,12 +2485,19 @@ msgid ""
 "  How many deaths has your brother granted me?  Do you truly believe you can"
 " win?  Take the portion of soul I offer and live again."
 msgstr ""
+"Так много слов от твоего брата, Бодхи, все же действия значат больше слов. "
+"Сколько возможностей было у вашего брата убить меня? Ты действительно "
+"полагаешь, что вы сможете победить? Возьми часть души, которую я предлагаю, "
+"и будь живой снова."
 
 #: finbodh.tra:57
 msgid ""
 "Such a delicious offer you make... though I must wonder if you are telling "
 "the truth.  Are my chances of survival really any better with you...?"
 msgstr ""
+"Такое восхитительное предложение ты делаешь... хотя я должна удивиться, если"
+" ты говоришь правду. Будет ли эта возможность мне выжить с вами "
+"действительно лучше других...?"
 
 #: finbodh.tra:58
 msgid ""
@@ -1687,18 +2505,26 @@ msgid ""
 "stolen your wit.  Such a shame for one with the divine essence.  It will "
 "almost be a mercy to end your existence."
 msgstr ""
+"Итак <CHARNAME>, темное существо, что спало внутри тебя, также украло твое "
+"остроумие. Такой позор для божественной сущности. Это будет почти "
+"милосердием завершить твое существование."
 
 #: finbodh.tra:59
 msgid ""
 "An opportunity to feast on the blood of a God, and yet you think I will "
 "stand aside?  (chuckle)  You know me no better than my dear brother here."
 msgstr ""
+"Удобный случай присоединиться к пиру на крови Бога, и все же ты думаешь, что"
+" я останусь стоять в стороне? (хихиканье) Ты знаешь меня не лучше, чем мой "
+"дорогой брат."
 
 #: finbodh.tra:60
 msgid ""
 "Nor would I care to.  Soon enough you will return to the torment you "
 "deserve."
 msgstr ""
+"Меня это не очень волнует. Очень скоро ты вернешься к тем мукам, которые ты "
+"заслуживаешь."
 
 #: finbodh.tra:61
 msgid ""
@@ -1707,12 +2533,18 @@ msgid ""
 "<PRO_HIMHER>self, dear brother, or did you implant it in <PRO_HIMHER> in one"
 " of your more bizarre experiments?"
 msgstr ""
+"Так, так, так... если ребенок Баала не восхитителен, то с прекрасным "
+"чувством юмора. У <CHARNAME> это было изначально, дорогой брат, или это ты "
+"добавил в одном из своих причудливых экспериментов?"
 
 #: finbodh.tra:62
 msgid ""
 "I see you are now more Slayer than <PRO_MANWOMAN>.  How dull.  You provided "
 "such small amusement last time, I doubt that this will be different."
 msgstr ""
+"Как вижу, ты теперь больше Убийца, чем <PRO_MANWOMAN>. Как печально. Ты "
+"доставишь в последний раз лишь небольшое развлечение, и я сомневаюсь, что "
+"будет по-другому."
 
 #: finbodh.tra:63
 msgid ""
@@ -1720,6 +2552,9 @@ msgid ""
 "again.  I am content to fight by my brother and revel in your blood and that"
 " of those that follow at your heel."
 msgstr ""
+"Нет, <CHARNAME>. Печально, но я не думаю, что мы предназначены работать "
+"вместе опять. Я буду сражаться вместе со своим братом и упиваться твоей "
+"кровью и тех, кто на твоей стороне."
 
 #: finbodh.tra:64
 msgid ""
@@ -1727,6 +2562,9 @@ msgid ""
 " not be fooled so easily.  I know you to be ever so desperate to do 'good' "
 "and this would not bode well for me.  No, this ends here."
 msgstr ""
+"О, Ребенок Баала, в какую игру ты играешь. Ты думаешь обмануть меня, но меня"
+" не так-то легко одурачить. Я вижу, что ты очень стараешься задобрить меня, "
+"и это плохое предзнаменование. Нет, это закончиться здесь."
 
 #: finbodh.tra:65
 msgid ""
@@ -1734,34 +2572,47 @@ msgid ""
 " your soul, yet you would offer it willingly?  Promise me a piece of your "
 "essence and I will join you... for now."
 msgstr ""
+"О, Ребенок Баала, в какую игру ты играешь. Я должна сражаться с моим "
+"'дорогим' братом за твою душу, это ты мне предлагаешь? Обещай мне часть "
+"своей сущности и я присоединюсь к тебе... пока что."
 
 #: finbodh.tra:66
 msgid ""
 "I swear to you Bodhi, fight by my side, kill my enemies, and you shall have "
 "the soul you desire."
 msgstr ""
+"Я клянусь тебе Бодхи, сражайся на моей стороне, убьем моих врагов, и ты "
+"получишь душу, которую жаждешь."
 
 #: finbodh.tra:67
 msgid ""
 "You have my word Bodhi that when this is done, you shall have a piece of my "
 "essence."
 msgstr ""
+"Я даю тебе слово Бодхи, что когда все будет сделано, ты получишь часть моей "
+"сущности."
 
 #: finbodh.tra:68
 msgid ""
 "Actually Bodhi, I have changed my mind.  I enjoy watching you die too much, "
 "to pass up an opportunity to see it again."
 msgstr ""
+"На самом деле, мое мнение изменилось, Бодхи. Мне нравится наблюдать, как ты "
+"умираешь. И я не упущу возможность увидеть это снова."
 
 #: finbodh.tra:69
 msgid "Bodhi, when this is over, I swear that you will be fittingly rewarded."
 msgstr ""
+"Бодхи, когда все будет закончено, я клянусь, что ты будешь соответственно "
+"вознаграждена."
 
 #: finbodh.tra:70
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you.  Now to finalize matters..."
 msgstr ""
+"Молю, чтобы вы выполнили свое обещание и не отказались от него даже, если "
+"оно было бы... неприятно для вас. И напоследок еще кое-что..."
 
 #: finbodh.tra:71
 msgid ""
@@ -1770,6 +2621,10 @@ msgid ""
 "hollow than my brother's.  Far better to rip your soul from your living "
 "breast than beg for it at your side."
 msgstr ""
+"Нет, <CHARNAME>. Печально, но я не думаю, что мы предназначены работать "
+"вместе опять. Несмотря на привлекательность твоего предложения, твои слова "
+"наполнены пустотой больше, чем моего брата. Гораздо лучше вырвать твою душу "
+"из твоей живой груди, чем служить для этого на твоей стороне."
 
 #: finbodh.tra:72
 msgid ""
@@ -1777,6 +2632,9 @@ msgid ""
 " creature.  Both my brother and this... Melissan, lie dead.  Your hunt has "
 "been delightfully successful, <CHARNAME>."
 msgstr ""
+"Я требую удовлетворения до того, как Ребенок Баала сделает свой выбор, "
+"существо. И мой брат и эта... Мелисса, лежат мертвыми. Твое преследование "
+"было очень успешно, <CHARNAME>."
 
 #: finbodh.tra:73
 msgid ""
@@ -1785,30 +2643,43 @@ msgid ""
 "place.  Give me what I want so I may leave... we need not meet each other "
 "again, unless you wish it."
 msgstr ""
+"Но не забудь про наш уговор. Я с нетерпением жду той части твоей души, что "
+"была мне обещана. Я наслаждалась нашим танцем, Ребенок Баала, но я уже "
+"утомилась здесь находиться. Дай мне то, что я хочу, что бы я могла покинуть "
+"вас... мы не должны снова встретиться друг с другом, пока ты не пожелаешь "
+"этого."
 
 #: finbodh.tra:74
 msgid ""
 "It was a pleasure to have you fight by my side, Bodhi.  You have earned this"
 " reward."
 msgstr ""
+"Это было восхитительно, что ты была на моей стороне, Бодхи. Ты заработала "
+"свою награду."
 
 #: finbodh.tra:75
 msgid ""
 "You shall have nothing.  Your use to me is at an end.  I shall enjoy sending"
 " you screaming back into the abyss."
 msgstr ""
+"Ты ни чего не должна получить. Твоя польза для меня подошла к концу. Я с "
+"наслаждением отправлю тебя визгливую назад в бездну."
 
 #: finbodh.tra:76
 msgid ""
 "Hmmm, I could kill you... no, I have better things to do.  Take these scraps"
 " of my essence and depart."
 msgstr ""
+"Хммм, мне следовало бы убить тебя... хотя нет, лучше не стоит этого делать. "
+"Забирай эти остатки моей сущности и уходи."
 
 #: finbodh.tra:77
 msgid ""
 "No Bodhi, I think I will keep all of my soul.  You will fall back into the "
 "abyss.  Give Bhaal my regards."
 msgstr ""
+"Нет Бодхи, я думаю сохранить всю свою душу целиком. Ты вернешься назад в "
+"бездну. Передай Баалу привет от меня."
 
 #: finbodh.tra:78
 msgid ""
@@ -1816,34 +2687,45 @@ msgid ""
 "abyss.  I shall rip every shred of that soul from your body!  Let the dance "
 "end here!"
 msgstr ""
+"Предательство! Ты пытаешься предать меня, Ребенок Баала? Я отказываюсь "
+"возвращаться в бездну. Я вырву все клочки обещанной мне души из твоего тела!"
+" Танец закончится здесь!"
 
 #: finbodh.tra:79
 msgid ""
 "This is my realm, Bodhi.  I control everything here.  It is time for you to "
 "join your brother."
 msgstr ""
+"Это мое царство, Бодхи. Я здесь всем управляю. Настало время тебе "
+"присоединиться к своему брату."
 
 #: finbodh.tra:80
 msgid ""
 "Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
 "it."
 msgstr ""
+"Хватит разговоров! Танец подошел к концу, Бодхи, так же как и твоя участь в "
+"нем."
 
 #: finbodh.tra:81
 msgid "Die!  Witness my power, insect!"
-msgstr ""
+msgstr "Умри! В доказательство моей силы, насекомое!"
 
 #: finbodh.tra:82
 msgid ""
 "Oh Bodhi, you should have begged.  I would have liked to see that.  Too late"
 " now."
 msgstr ""
+"О Бодхи, ты должна была умолять. Мне бы это понравилось. Теперь слишком "
+"поздно."
 
 #: finbodh.tra:83
 msgid ""
 "So you have betrayed me, <CHARNAME>.  It would seem that working together "
 "was never our true calling."
 msgstr ""
+"Ты предаешь меня, <CHARNAME>. Получается, что работать вместе никогда не "
+"было твоим истинный желанием."
 
 #: finbodh.tra:84
 msgid ""
@@ -1851,6 +2733,9 @@ msgid ""
 "carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
 "divine!"
 msgstr ""
+"Аххххх, такое чувство. Я чувствую поток жизни через меня! Такой подарок вы "
+"принесли, ребенок Баала... такая мощь... такая сила. О, это просто "
+"божественно!"
 
 #: finbodh.tra:85
 msgid ""
@@ -1858,6 +2743,9 @@ msgid ""
 "and I intend to enjoy it.  Perhaps the wizards of Spellhold still wish to "
 "play?"
 msgstr ""
+"Какое же ты неблагодарное существо, <CHARNAME>. Однако, у меня еще есть "
+"жизнь и я намереваюсь насладиться этим. Возможно, волшебники Спеллхолда все "
+"еще желают поиграть?"
 
 #: finbodh.tra:86
 msgid ""
@@ -1865,6 +2753,9 @@ msgid ""
 "shall enjoy carrying this piece of you with me.  Perhaps we shall meet "
 "again, you and I..."
 msgstr ""
+"Хорошо, ребенок Баала, кажется, время пребывания вместе подходит к концу. Я "
+"буду наслаждаться, унося эту частицу вас в себе. Надеюсь, мы встретимся "
+"снова, вы и я..."
 
 #: finbodh.tra:87
 msgid ""
@@ -1873,6 +2764,10 @@ msgid ""
 " my dear brother will be content with merely withering me with his own "
 "delightfully evil glare."
 msgstr ""
+"Так, так, <CHARNAME>... не нужно так смотреть на меня. Крошечная часть вашей"
+" души дала бы мне все, что мне надо и даже больше. Решайте скорее, поскольку"
+" я сомневаюсь, что мой дорогой брат будет удовлетворен простым испепеляющим "
+"меня своим собственным чарующе злым и полным огня взглядом."
 
 #: finbodh.tra:88
 msgid ""
@@ -1880,12 +2775,17 @@ msgid ""
 " no idea.  I shall be pleased to know that you both die again just as you "
 "lived: without a single redeeming or worthwhile quality."
 msgstr ""
+"Я понятия не имею, почему ты предположила, что мне интересна твоя "
+"преданность, Бодхи. Мне будет достаточно знать, что ты снова умрешь с ним "
+"как и жила раньше... без единой подкупающей или стоящей черты."
 
 #: finbodh.tra:89
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you.  Now to finalize matters...."
 msgstr ""
+"Молю, чтобы вы выполнили свое обещание и не отказались от него даже, если "
+"оно было бы... неприятно для вас. И напоследок еще кое-что..."
 
 #: finbodh.tra:90
 msgid ""
@@ -1893,6 +2793,10 @@ msgid ""
 "ring more hollow than my brother's.  Far better to rip your soul from your "
 "living breast than beg for it at your side."
 msgstr ""
+"Нет, <CHARNAME>. Несмотря на привлекательность твоего предложения, твои "
+"слова наполнены пустотой больше, чем слова моего брата. Гораздо лучше "
+"вырвать твою душу из твоей живой груди, чем служить для этого на твоей "
+"стороне."
 
 #: finbodh.tra:91
 msgid ""
@@ -1919,16 +2823,20 @@ msgid ""
 "You don't have all the essence of Bhaal... not by far.  And I rule here, as "
 "well... you know that."
 msgstr ""
+"Ты владеешь не всеми сущностями Баала... не всеми. И я правлю здесь... ты "
+"знаешь это."
 
 #: finmel01.tra:592
 msgid ""
 "You should have remained true to Bhaal, Melissan.  Only he could have saved "
 "you now."
 msgstr ""
+"Лучше бы ты оставалась верна Баалу, Мелисса. Теперь только он смог бы тебя "
+"спасти!"
 
 #: finmel01.tra:594
 msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
-msgstr ""
+msgstr "Да, понимаю, у каждого есть мечта. Сумащедшая."
 
 #: finmel01.tra:597
 msgctxt "FINMEL25"
@@ -1938,6 +2846,11 @@ msgid ""
 "keep you busy.  Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
 "dares to oppose while I take what is mine!"
 msgstr ""
+"Баа! Я не стану тратить время попусту на тебя. Мне еще нужно поглотить "
+"сущности порождений Баала...и на этом плане больше чем достаточно энергии, "
+"чтобы занять тебя. Иреникус... Имоен... покажите <CHARNAME> <PRO_HESHE> "
+"силу, которой он осмелился противостоять, пока я возьму то, что принадлежит "
+"мне!"
 
 #: finmel01.tra:604
 msgid ""
@@ -1946,6 +2859,10 @@ msgid ""
 "leave a trail of felled opponents littered about even here in the Abyss.  "
 "Such as this one I found, discarded..."
 msgstr ""
+"Ты не верить в мою силу, но я могу многое. В прошлом тебе приходилось "
+"сражаться и побеждать ужасных противников. Почему... ты оставляешь след "
+"побежденных противников, даже здесь в Аду. Как например, этот, найденный, "
+"отверженный..."
 
 #: finmel01.tra:605
 msgid ""
@@ -1955,6 +2872,11 @@ msgid ""
 "Unlikely as that was, considering the pathetic monk could barely see the "
 "forest for the trees."
 msgstr ""
+"Правда. Такой проницательности я от тебя не ожидала, <CHARNAME>. И очень "
+"умно с твоей стороны лишить меня сущности Балтазара... хотя, по правде "
+"говоря, я тайно надеялась на него победу над тобой. Напрасно было "
+"рассчитывать на этого жалостливого монаха, не способного увидеть деревья в "
+"лесу."
 
 #: finmel01.tra:606
 msgid ""
@@ -1963,6 +2885,10 @@ msgid ""
 "actually believe you have a hope in opposing me, in seizing the Throne for "
 "yourself.  Such delusions."
 msgstr ""
+"Я разочаровалась в тебе, <CHARNAME>. Столько пустых угроз, столько силы. "
+"Столько мощи и мудрости, запертой в такую хрупкую форму. Полагаю, что ты все"
+" еще веришь, что можешь противостоять мне, и захватить Трон для себя? Какое "
+"заблуждение."
 
 #: finmel01.tra:607
 msgid ""
@@ -1971,12 +2897,19 @@ msgid ""
 "you, <CHARNAME>.  After all... I believe you did share a soul, once, no?  "
 "Say hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
+"Иреникус, я полагаю, тебя призвали не случайно. Так легко было вызвать тебя "
+"из Ада, оставленного там совсем недавно не без <PRO_HISHER> помощи: и такого"
+" ценного источника информации для тебя, <CHARNAME>. После всего ... я "
+"полагаю, что ты когда-то объединял ваши души, нет? Поздоровайся с "
+"<CHARNAME>, Иреникус."
 
 #: finmel01.tra:608
 msgid ""
 "Of course, if you truly desire a demonstration of my influence over the "
 "essence, that can be provided as well."
 msgstr ""
+"Конечно, если ты действительно желаешь увидеть демонстрацию моего влияния на"
+" сущность, я могу это продемонстрировать сейчас."
 
 #: finmel01.tra:609
 msgid ""
@@ -1984,24 +2917,34 @@ msgid ""
 "here... and yet here you are.  Let's see just how much of my power is "
 "contained in your young little soul, hmm?"
 msgstr ""
+"Давай, Имоен. Я управляю сущностью внутри тебя. Ты не должна быть здесь..., "
+"и все же ты здесь. Давай посмотрим, как сильна моя власть над твоей юной "
+"маленькой душой, хмммм?"
 
 #: finmel01.tra:610
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you?  But her "
 "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgstr ""
+"Кажется, ты не взял сюда свою дорогую маленькую Имоен, не так ли? Но ее "
+"сущностью достаточно легко управлять. Давай посмотрим, что она скажет, не "
+"так ли?"
 
 #: finmel01.tra:611
 msgid ""
 "You don't have to go anywhere, little one.  I'm not calling you, after "
 "all... I'm merely coaxing forth your essence."
 msgstr ""
+"Тебе вовсе не нужно никуда идти, совсем чуть-чуть. Я не вызываю тебя, после "
+"всего... я просто продолжаю задабривать твою сущность."
 
 #: finmel01.tra:612
 msgid ""
 "There, there, Imoen.  I command the essence within you.  Let's see just how "
 "much of my power you have within you, yes?"
 msgstr ""
+"Вот, вот, Имоен. Я управляю сущностью внутри тебя. Давай посмотрим как "
+"сильна моя власть над тобой, да?"
 
 #: finmel01.tra:613
 msgid ""
@@ -2009,6 +2952,9 @@ msgid ""
 "<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
+"Аххх, Балтазар тоже здесь. Это было ловко лишить меня его сущности, "
+"<CHARNAME>. Балтазар, ты все еще ослеплен своей преданностью судьбе? Или уже"
+" отказался от своей веры в нее?"
 
 #: finmel01.tra:614
 msgid ""
@@ -2017,6 +2963,10 @@ msgid ""
 "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
 "all the other spawn of Bhaal was *for*?"
 msgstr ""
+"О, нет? Возможно ты не понимаешь. Это... это место, здесь, и есть Источник. "
+"Это - то, куда сущности всех детей Баала возвращаются, когда они умирают, "
+"как бы далеко это не было. Ты никогда не задавался вопросом, дорогой "
+"Балтазар, ДЛЯ чего все эти убийства отпрысков Баала?"
 
 #: finmel01.tra:615
 msgid ""
@@ -2025,6 +2975,10 @@ msgid ""
 "away and drank heartily of their power.  The Source, the Throne, all are "
 "mine... and god-hood is but one simple step away."
 msgstr ""
+"И даже независимо от вашего желания, вы помогли мне. Баал может быть, "
+"действительно... где-нибудь. Но не здесь. Здесь я захватила все эти сущности"
+" и наполнилась их мощью. Источник, Трон, все это мое... и к могуществу бога "
+"- всего лишь один маленький шаг."
 
 #: finmel01.tra:616
 msgid ""
@@ -2032,6 +2986,9 @@ msgid ""
 "And I prefer them far better this way... completely servile, obeying every "
 "order without question."
 msgstr ""
+"Я собираюсь возродить их так или иначе, чтобы они служили в роли моих "
+"побеждающих аватаров. И я предложу им гораздо лучший путь... полностью "
+"рабский - повиноваться каждому моему приказу без колебаний."
 
 #: finmel01.tra:617
 msgid ""
@@ -2040,38 +2997,53 @@ msgid ""
 "me to no end to know that he was right about me all along... and yet it made"
 " no difference.  You murdered him still, as I knew you would."
 msgstr ""
+"И так как тебе удалось уговорить Балтазара примкнуть к тебе, я решила "
+"позволить себе восхитительную иронию, воссоздав бедного жалкого Громира. Это"
+" доставляет мне бесконечное наслаждение - знать, что он был возле меня все "
+"время.... и до сих пор это не имеет значения. Он уже погиб от твоей руки "
+"раньше и я знала, что так будет."
 
 #: finmel01.tra:618
 msgid ""
 "You should have kept your energies to yourself, Melissan.  Spending them on "
 "re-creating the Five will cost you... and cost you dearly."
 msgstr ""
+"Ты должны была сохранить энергию внутри себя, Мелисса. Трата ее на "
+"восстановление Пятерки будет стоить тебе... и стоить будет дорого."
 
 #: finmel01.tra:619
 msgid ""
 "Perhaps.  But already I am immortal, which means I cannot be killed even by "
 "you.  And there is still more of your father's essence for me to take."
 msgstr ""
+"Возможно. Но я уже бессмертна, и это означает, что даже вы не можете убить "
+"меня. К тому же есть все еще большое количество сущности вашего отца, "
+"которое я могу взять."
 
 #: finmel01.tra:620
 msgid ""
 "They provided a considerable challenge for you individually, <CHARNAME>.  I "
 "wonder how you will fare against them all?"
 msgstr ""
+"Каждый из них отдельно были для тебя значительным испытанием, <CHARNAME>. "
+"Интересно, сможешь ты выстоять против них всех одновременно?"
 
 #: finmel01.tra:621
 msgid "So come, <CHARNAME>...kill your siblings once again.  If you can."
 msgstr ""
+"Итак, начнем, <CHARNAME>... убей своих родных братьев еще раз. Если сможешь."
 
 #: finmel01.tra:622
 msgid "There is enough essence, in fact, even for you... Sarevok."
-msgstr ""
+msgstr "Фактически есть достаточно сущности даже для тебя... Саревок."
 
 #: finmel01.tra:623
 msgid ""
 "But... we don't have all your siblings accounted for just quite yet, do we?"
 "  Haven't you forgotten someone?"
 msgstr ""
+"Но... не все твои родные братья могут быть собраны здесь, не так ли? Неужели"
+" кто-то забыт?"
 
 #: finmel01.tra:624
 msgid ""
@@ -2079,12 +3051,17 @@ msgid ""
 "still stands.  Join me now, abandon this pathetic whelp, and take your place"
 " at my side."
 msgstr ""
+"О, что мы говорим, Саревок. Я уже однажды делала тебе предложение и то "
+"предложение все еще в силе. Присоединяйся сейчас ко мне, откажись от этого "
+"жалкого щенка и займи свое место на моей стороне."
 
 #: finmel01.tra:625
 msgid ""
 "The geas the fool placed on your heart is nothing.  I could easily remove "
 "it.  In fact, I do so now.  There... act as you will."
 msgstr ""
+"Заклятье, помещенное в ваше сердце ничто. Я могу без проблем убрать его. "
+"Фактически, я уже делаю это. Сейчас... что ты выбираешь."
 
 #: finmel01.tra:626
 msgid ""
@@ -2093,18 +3070,26 @@ msgid ""
 "the return of the Bhaalspawn essence you lost.  Come, Sarevok... be the "
 "demon you once were.  Serve me."
 msgstr ""
+"Возможно. Но ты - великий воин... и мог бы быть прекрасным генералом, чтобы "
+"руководить моими земными армиями. Сила, богатство, преклонение... все, что "
+"пожелаешь. И включая возвращение силы потомка Баала, которую ты потерял. И "
+"так, Саревок... стань демоном, каким однажды был. И служи мне."
 
 #: finmel01.tra:627
 msgid ""
 "Then fight for me you shall!  And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgstr ""
+"Тогда ты будешь сражаться за меня! И твоей первой жертвой будет "
+"<PRO_BROTHERSISTER>, и пусть возмездие свершится."
 
 #: finmel01.tra:628
 msgid ""
 "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
 " shall be the end of you both!"
 msgstr ""
+"Тогда умри вместе с <CHARNAME>, если это - твое желание! Пятерка положит вам"
+" конец, обоим!"
 
 #: finmel01.tra:629
 msgid ""
@@ -2112,12 +3097,17 @@ msgid ""
 "fight against <CHARNAME> and I will return the power you lost, the power you"
 " crave so much.  I will make you the man you once were."
 msgstr ""
+"Я вызвала тебя сюда, Саревок. И даю тебе второй шанс. Присоединяйся ко мне в"
+" борьбе против <CHARNAME>, и я верну силу, которую ты потерял, силу, к "
+"которой ты так долго стремился. И верну тебе человеческую жизнь, как раньше."
 
 #: finmel01.tra:630
 msgid ""
 "What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
 "lost too much power!  You shall pay for this!!"
 msgstr ""
+"Что--? Смертный! Нет, это не может быть! Я опять была близка к смерти!! Я "
+"потеряла слишком много силы!! Ты заплатишь за это!!"
 
 #: finsarev.tra:26
 msgid ""
@@ -2125,28 +3115,33 @@ msgid ""
 "resigned myself to not being a part of this little play.  Who brought me "
 "here?  And why am I in my old armor?"
 msgstr ""
+"Кто--? Мелисса. И <CHARNAME>. Не может быть. Думаете, я смирился с тем, что "
+"не буду частью этой маленькой игры. Кто вызвал меня сюда? И почему - я в "
+"моей старой броне?"
 
 #: finsarev.tra:27
 msgid "Fight <CHARNAME>?  Aye... I will do that."
-msgstr ""
+msgstr "Биться с <CHARNAME>? Да... я сделаю это."
 
 #: finsarev.tra:28
 msgid "So you die again, as well.  It's all good."
-msgstr ""
+msgstr "Значит ты умрешь снова, непременно. И это хорошо."
 
 #: finsarev.tra:29
 msgid "You're a fool, Sarevok, if you think you'll make any difference."
-msgstr ""
+msgstr "Ты дурак, Саревок, если думаешь, что это что-нибудь изменит."
 
 #: finsarev.tra:30
 msgid "You're willing to become Melissan's servant, now?  I'm disappointed."
-msgstr ""
+msgstr "Ты теперь хочешь стать прислужником Мелиссы? Ты меня разочаровываешь."
 
 #: finsarev.tra:31
 msgid ""
 "Then you'll die.  I gave you life again, and I can take it away... for the "
 "third time."
 msgstr ""
+"Тогда ты умрешь. Только благодаря мне ты снова живешь, но я могу забрать "
+"твою жизнь... в третий раз."
 
 #: finsarev.tra:32
 msgid ""
@@ -2154,6 +3149,10 @@ msgid ""
 " sit in your shadow and taste the bile in my heart while you take what was "
 "once rightfully mine.  Better to fight for Melissan than suffer that."
 msgstr ""
+"Это правда. Я могу опять умереть от твоей руки, <CHARNAME>. Но это лучше, "
+"чем находиться за твоей спиной и захлебываться желчью, в то время как ты "
+"берешь все, что однажды законно принадлежало мне. Лучше бороться вместе с "
+"Мелиссой, чем переносить это."
 
 #: finsol01.tra:580
 msgid ""
@@ -2161,6 +3160,10 @@ msgid ""
 "your side.  His portion of the essence is less than your own, but still "
 "significant.  His choice must also be made."
 msgstr ""
+"Только один из порождений мертвого бога еще жив... родной брат, который "
+"сражался на вашей стороне. Его часть сущности хоть и меньше вашей "
+"собственной, но все равно довольно велика. Его выбор тоже должен быть "
+"сделан."
 
 #: finsol01.tra:581
 msgid ""
@@ -2168,6 +3171,8 @@ msgid ""
 "fought by your side.  Their essences are less than your own, but their "
 "decision no less important."
 msgstr ""
+"Сперва, однако, о детях мертвого бога, которые сражались на вашей стороне. "
+"Их сущности меньше вашей собственной, но их решение не менее важно."
 
 #: finsol01.tra:582
 msgid ""
@@ -2176,6 +3181,10 @@ msgid ""
 "conclusion.  You have an opportunity that few are given.  You may choose "
 "your destiny... a choice you thought yourself forever denied."
 msgstr ""
+"Я всего лишь посланник вселенной для решения этого вопроса, Балтазар. Я "
+"наделен возможностью видеть судьбу детей Баала, доведенную до завершения. У "
+"вас есть возможность, которую дают немногим. Вы можете выбрать свою "
+"судьбу... ваш собственный выбор, навсегда."
 
 #: finsol01.tra:583
 msgid ""
@@ -2183,16 +3192,23 @@ msgid ""
 " to your elder sibling.  You may become a normal mortal, with a destiny to "
 "follow as you see fit."
 msgstr ""
+"Если это ваш выбор, то вы можете отдать часть своей божественной сущности "
+"<CHARNAME>. Вы сможете стать простым смертным, с судьбой, которою сами для "
+"себя выберете."
 
 #: finsol01.tra:584
 msgid ""
 "As you wish, Balthazar, so it is done.  Go in peace, and know that in the "
 "end you walked that narrow path which had ever eluded you."
 msgstr ""
+"Как пожелаешь, Балтазар, так и будет сделано. Ступайте с миром и знайте, что"
+" вы шли узкой тропой, которая постоянно ускользала от вас."
 
 #: finsol01.tra:585
 msgid "Now there is but one other sibling who must also make her choice."
 msgstr ""
+"Теперь осталась родная единственная сестра, которая тоже должна сделать свой"
+" выбор."
 
 #: finsol01.tra:586
 msgid ""
@@ -2202,62 +3218,78 @@ msgid ""
 "and while I would rather destroy this undead thing, it now falls on me to "
 "enforce the promise you have made."
 msgstr ""
+"Хотя меня и переполняет отвращение, вызванное этим существом, полным зла, вы"
+" должны помнить, что в этом месте присяга - это не просто пустые обещания. "
+"Вы все еще не бог... и все же я предпочел бы уничтожить эту полумертвую "
+"вещь, но меня сдерживают обещания, данные вами."
 
 #: imoen25j.tra:476 imoen25p.tra:476
 msgid ""
 "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
 "again!!"
-msgstr ""
+msgstr "Я ни куда не пойду с вами! И никто не коснется моей души! Ни за что!!"
 
 #: imoen25p.tra:470
 msgctxt "IMOEN18"
 msgid "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgstr ""
+"Нннгг! Ах, это причиняет боль! <CHARNAME>, останови ее... это... это "
+"причиняет боль!!"
 
 #: imoen25p.tra:471
 msgid "What are you doing to her?!  Stop it, I demand it!!"
-msgstr ""
+msgstr "Что ты делаешь с ней?! Прекрати, я требую этого!!"
 
 #: imoen25p.tra:472
 msgid "I'm the one you're after, Melissan!  Leave her alone!!"
-msgstr ""
+msgstr "Кто тебе больше нужен, я или она, Мелисса?! Оставь ее в покое!!"
 
 #: imoen25p.tra:473
 msgid "Pull yourself together, Imoen!  Attack!!"
-msgstr ""
+msgstr "Соберись с духом, Имоен! В атаку!!"
 
 #: imoen25p.tra:474
 msgid "So what do I care about Imoen?  Kill her, Melissan."
-msgstr ""
+msgstr "Думаешь, меня сильно волнует Имоен? Убей ее, Мелисса."
 
 #: imoen25p.tra:475
 msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
-msgstr ""
+msgstr "Чт-что... где - я? Что происходит? <CHARNAME>?"
 
 #: imoen25p.tra:477
 msgid ""
 "It... it's gone... I'm human again.  Ohhhh, now I know what you went "
 "through, <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgstr ""
+"Это... это прошло... и я снова человек. Охххх, теперь я знаю через что ты "
+"прошел, <CHARNAME>! Но я не знаю, захочу ли я когда-либо пережить это опять!"
 
 #: imoen25p.tra:478
 msgid ""
 "And I can't believe what you said, either!  'Go ahead and kill her'?  After "
 "all we've been through, that's what you say in my defense?!"
 msgstr ""
+"И я не могу поверить в то, что услышала! 'Давай, убей ее'? И это после "
+"всего, что мы прошли вместе, ты говоришь это в мою защиту?!"
 
 #: imoen25p.tra:479
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
 msgstr ""
+"Это просто была попытка убедить Мелиссу в том, чтобы она оставила тебя в "
+"покое, Имоен!"
 
 #: imoen25p.tra:480
 msgid "Get over yourself, little girl.  I never asked you to come, did I?"
 msgstr ""
+"Возьми себя в руки, маленькая девочка. Разве тебя просили, чтобы ты "
+"возвращалась?"
 
 #: imoen25p.tra:481
 msgid ""
 "We don't have time for this chat, Imoen!  This is the middle of a fight!"
 msgstr ""
+"У нас нет времени для этих разговоров, Имоен! Ведь сейчас только середина "
+"битвы!"
 
 #: imoen25p.tra:482
 msgid ""
@@ -2265,6 +3297,10 @@ msgid ""
 "just glad I didn't do more damage as the slayer.  I don't know how you "
 "handled it.  Thank you for... for not killing me."
 msgstr ""
+"Хорошо... наверное. Ты убеждаешь меня больше, чем она, это очевидно. Я... я "
+"только надеюсь, что я не сделала большого вреда, когда была в состоянии "
+"убийцы. Я не знаю, как тебе удалось справиться с этим. Спасибо за... за то, "
+"что я все еще жива."
 
 #: imoen25p.tra:483
 msgid ""
@@ -2272,6 +3308,9 @@ msgid ""
 "well, <CHARNAME>, and I hope I'll see you again.  Maybe back at Candlekeep, "
 "huh?  Anyway... good luck..."
 msgstr ""
+"Я... я не могу остаться здесь, к сожалению. Этот не для меня. Я желаю тебе "
+"всего хорошего, <CHARNAME>, и я надеюсь, что увижу тебя снова. Может быть "
+"снова в Кэндлкипе, хмм? Все может быть... удачи..."
 
 #: imoen25p.tra:484
 msgid ""
@@ -2279,6 +3318,10 @@ msgid ""
 "think... I think I have that power, now, same as you.  But I'll fight by "
 "your side again, if you want me to."
 msgstr ""
+"Ты хочешь, чтобы я вернулась назад, и была рядом с тобой? Я могла бы... "
+"покинуть Трон, я думаю... я думаю, что у меня теперь есть та сила, та же "
+"самая, что и у тебя. Но я буду биться на твоей стороне опять, если ты этого "
+"захочешь."
 
 #: imoen25p.tra:485
 msgid ""
@@ -2291,26 +3334,38 @@ msgid ""
 "Imoen is now able to enter the Ethereal Plane for brief periods of time.  The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well.  Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm.  During that round, she also cannot cast spells or use abilities.\n"
 "For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane.  She is still invisible, but takes half damage from all sources.  In this state, there is a small chance (10%) that she will miscast a spell.  For all three rounds, she is able to see any invisible targets."
 msgstr ""
+"Имоен выжила \n"
+"\n"
+"Имоен сумела пережить попытку Мелиссы превратить ее в неистовую форму Убийцы. Кажется, что при этом наследие Баала у Имоен получило некоторое развитие. Теперь она может не только превращаться в ту же форму Убийцы, что и я после Спеллхолда... но и переходить на эфирный план на короткие промежутки времени. \n"
+"\n"
+"Эфирный план \n"
+"------------- \n"
+"Теперь Имоен способна войти в Эфирный План на небольшие периоды времени. Эту способность можно использовать раз в минуту, при этом ее использование предотвращает Имоен от превращения в форму Убийцы в течение минуты. Имоен может остаться полностью эфирной и неподвластной силам на этом плане в течение целого раунда..., при этом она остается невидимой и полностью иммунной к вреду. В течение этого раунда она не может колдовать или использовать другие способности. \n"
+"В течение следующих двух раундов Имоен может остаться 'полупрозрачной'..., она находится частично в эфирном и частично в этом плане. Она все еще невидима, но при этом получает половину ущерба любого вида. В этом состоянии есть небольшой шанс (10 %) что читаемое ею заклинание не удастся. В течение всех трех раундов, она способна видеть любые невидимые цели."
 
 #: imoen25p.tra:486
 msgid "Sure.  Let's join up again."
-msgstr ""
+msgstr "Конечно. Давай объединимся заново."
 
 #: imoen25p.tra:487
 msgid "No... get out of here while you can, Imoen."
-msgstr ""
+msgstr "Нет.. убирайся отсюда, пока можешь, Имоен."
 
 #: imoen25p.tra:488
 msgid ""
 "I wish you well, <CHARNAME>, and I hope I'll see you again.  Maybe back at "
 "Candlekeep, huh?  Anyway... good luck..."
 msgstr ""
+"Я желаю тебе всего хорошего, <CHARNAME>, и я надеюсь, что увижу тебя снова. "
+"Может быть снова в Кэндлкипе, хмм? Все может быть... удачи..."
 
 #: imoen25p.tra:489
 msgid ""
 "Yeah, right.  You do whatever you have to, <CHARNAME>.  Me... I'm getting as"
 " far away from here as possible.  Good-bye!"
 msgstr ""
+"Да, действительно. У тебя была попытка сделать все, что можно, <CHARNAME>. "
+"Я... я ухожу отсюда и как можно дальше. Прощай!"
 
 #: imoen25p.tra:490
 msgid ""
@@ -2318,6 +3373,8 @@ msgid ""
 "have to, <CHARNAME>.  Me... I'm getting as far away from here as possible.  "
 "Good-bye!"
 msgstr ""
+"Нет, конечно нет. Не оправдывайся. У тебя была попытка сделать все, что "
+"можно, <CHARNAME>. Я... я ухожу отсюда и как можно дальше. Прощай!"
 
 #: imoen25p.tra:491
 msgid ""
@@ -2325,6 +3382,10 @@ msgid ""
 "just don't know how you handled it back in Spellhold.  Thank you for... not "
 "killing me, okay?"
 msgstr ""
+"Я... только надеюсь, что не сделала что-то очень плохое, в то время как я "
+"была... когда я... оо, я не знаю, как тебе удалось вернуться назад в "
+"нормальное состояние в Спеллхолде. Спасибо за то... что я все еще жива, "
+"хорошо?"
 
 #: imoen25p.tra:492
 msgid ""
@@ -2332,6 +3393,10 @@ msgid ""
 "Throne, I think... I think I have that power, now, same as you.  But I'll "
 "fight by your side again, if you want me to."
 msgstr ""
+"О, вот как! Ты нуждаешься во мне, хочешь вернуть меня обратно в команду? Я "
+"могла бы... покинуть Трон, я думаю... я думаю, что у меня теперь есть та "
+"сила, та же самая, что и у тебя. Но я буду биться на твоей стороне опять, "
+"если ты этого захочешь."
 
 #: imoen25p.tra:493
 msgid ""
@@ -2339,61 +3404,81 @@ msgid ""
 "could... leave the Throne, I think... I think I have that power, now, same "
 "as you.  But I'd like to see this through, same as you."
 msgstr ""
+"Я вижу, что битва все продолжается. Ты нуждаешься во мне, хочешь вернуть "
+"меня обратно в команду? Я могла бы... покинуть Трон, я думаю... я думаю, что"
+" у меня теперь есть та сила, та же самая, что и у тебя. Но я бы хотела "
+"просмотреть, чем это закончится, так же, как и ты."
 
 #: imoen25p.tra:494
 msgid ""
 "Stop distracting me in the middle of combat, already!  Get back in the "
 "party!"
-msgstr ""
+msgstr "Прекрати наконец отвлекать меня посреди битвы! Возвращайся в команду!"
 
 #: imoen25p.tra:495
 msgid ""
 "Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
 msgstr ""
+"Конечно <PRO_SIRMAAM>! (Хихиканье!) Настало время надавать кое-кому по "
+"заднице, верно?"
 
 #: irenic2.tra:435
 msgid "Indeed.  We meet once again."
-msgstr ""
+msgstr "Действительно. Мы опять встретились."
 
 #: irenic2.tra:436
 msgid ""
 "That's okay.  If Sarevok can turn up like a bad penny, then you're allowed "
 "to, as well."
 msgstr ""
+"Неплохо. Если Саревок может появляться, подобно фениксу, то почему бы и тебе"
+" этим также не воспользоваться?"
 
 #: irenic2.tra:437
 msgid ""
 "You told her how to influence me, didn't you?  And you told her I was in "
 "Suldanessalar."
 msgstr ""
+"Ты сказал ей, как управлять мной, не так ли? И ты рассказал ей, что "
+"произошло в Салданессаларе."
 
 #: irenic2.tra:438
 msgid ""
 "You're a pathetic excuse for an elf, Irenicus.  If you wish to die again, "
 "I'll happily oblige."
 msgstr ""
+"Ты - жалкое подобие эльфа, Иреникус. Если ты желаешь умереть снова, я с "
+"удовольствием это сделаю."
 
 #: irenic2.tra:439
 msgid "You're collecting my leavings, Melissan?  How very sad for you."
 msgstr ""
+"Ты собираешь поверженных мной противников, Мелисса? Как это печально для "
+"тебя."
 
 #: irenic2.tra:440
 msgid ""
 "So, <CHARNAME>...it is now just you and I, once again.  At odds in the "
 "bowels of Hell and preparing to do combat.  How very fitting."
 msgstr ""
+"Итак, <CHARNAME>... опять мы встретились - ты и я. Как в разногласиях в "
+"недрах Ада и готовясь устроить бой. Очень подходяще!"
 
 #: irenic2.tra:441
 msgid ""
 "This fight is mine, Irenicus.  While you stewed in Hell, my power has "
 "multiplied."
 msgstr ""
+"Эта битва моя, Иреникус. В то время как ты жарился в Аду, моя сила "
+"приумножилась."
 
 #: irenic2.tra:442
 msgid ""
 "You actually think you'll stop me?  It appears your delusions have survived "
 "the many beatings at my hand."
 msgstr ""
+"Ты все еще надеешься остановить меня? Кажется, что твои заблуждения "
+"сохранились, несмотря многочисленные поражения от моей руки."
 
 #: irenic2.tra:443
 msgid ""
@@ -2401,16 +3486,22 @@ msgid ""
 "expect more from the great elven magician.  Ellesime would be sad to see you"
 " reduced to this."
 msgstr ""
+"Итак, ты пожелал прислуживать Мелиссе маленьким лакеем? От великого "
+"эльфийского волшебника следовало ожидать большего. Эллисайм была бы "
+"опечалена, если бы увидела, как низко ты опустился."
 
 #: irenic2.tra:444
 msgid ""
 "Don't you ever tire of that bravado?  Haven't you received enough spankings "
 "upon my knee?"
 msgstr ""
+"Разве тебя не утомляют эти пустые хвастливые слова? Неужели ты не достаточно"
+" получил пинков от меня?"
 
 #: irenic2.tra:445
 msgid "You won't stop me, Irenicus.  Nobody can.  My destiny is at hand."
 msgstr ""
+"Ты не остановишь меня, Иреникус. Никто не сможет. Моя судьба в моих руках."
 
 #: irenic2.tra:446
 msgid ""
@@ -2419,6 +3510,10 @@ msgid ""
 "life.  Thanks to Melissan, I still have time to snuff out your divine "
 "ascencion personally. We will be even!"
 msgstr ""
+"Похоже, что ты находишься во власти своих низменных предвкушений, но даже я "
+"учусь на своих ошибках. Здесь мне нечего терять, даже свою жизнь. Благодаря "
+"Мелиссе, у меня опять появилась возможность раздавить твое божественное "
+"восхождение лично. Поживем, увидим!"
 
 #: irenic2.tra:447
 msgid ""
@@ -2427,6 +3522,10 @@ msgid ""
 "And Melissan has given me the opportunity to personally see an end to your "
 "ascension... consider it a favor returned."
 msgstr ""
+"Вы, похоже, тем временем получили небольшой начальный и примитивный контроль"
+" над своими способностями, но и у меня есть кое-какие новшества... веришь ты"
+" или нет. И Мелисса дала мне возможность лично увидеть конец твоего "
+"вознесения... считай это проявлением любезности."
 
 #: irenic2.tra:448
 msgid ""
@@ -2435,6 +3534,10 @@ msgid ""
 "return an old favor.  One ascension for another... it rings with universal "
 "justice."
 msgstr ""
+"Не произноси ее имя, собака. Эллисайм поймет величину своего сожаления "
+"достаточно скоро. Что касается тебя... Мелисса дала мне возможность вернуть "
+"старое покровительство. Вознесение одного для другого... какое изменчивое "
+"универсальное правосудие."
 
 #: irenic2.tra:449
 msgid ""
@@ -2443,6 +3546,10 @@ msgid ""
 "fortunate that I have an opportunity, then, to repay your termination of my "
 "own ascension in kind."
 msgstr ""
+"Очень беззаботно и типично. Должно быть, надежды вселенной сильно "
+"понизились, что она позволила такому комару, как ты, зайти так далеко. "
+"Великолепно, что у меня появилась такая возможность, значит мое собственное "
+"восхождение будет оплачено твоим концом."
 
 #: irenic2.tra:450
 msgid ""
@@ -2450,6 +3557,9 @@ msgid ""
 " ascension.  How I would enjoy to repay that favor in kind and show the "
 "universe what an unworthy gnat you truly are."
 msgstr ""
+"Ах, да. Знакомые слова. Они подобны тем, что я говорил на пике своего "
+"собственного вознесения. Как я хотел бы наслаждаться оплатой той "
+"благосклонности и показывать вселенной недостойность такого комара как ты."
 
 #: irenic2.tra:451
 msgid ""
@@ -2457,6 +3567,9 @@ msgid ""
 "own Hell for eternity, it would not be a true and fitting re-union if I did "
 "not use my new power to send her an invitation."
 msgstr ""
+"Но хватит об этом. Хотя я желал бы оставить свою милую сестру гнить вечность"
+" в ее собственном Аду, было бы не правильным и не подобающим встрече, если "
+"бы я не применил свою новую силу и не послал бы ей приглашение."
 
 #: irenic2.tra:452
 msgid ""
@@ -2464,6 +3577,10 @@ msgid ""
 "of my non-existent affection.  Or do you truly think I had forgotten your "
 "whispered urgings which had led me down the path of my exile?"
 msgstr ""
+"Не преувеличивай слишком сильно свою полезность для меня, 'дорогая' "
+"сестра... и степень моей несуществующей привязанности. Или ты наверно "
+"полагаешь, что я мог забыть твои нашептывания, которые повели меня по пути "
+"моего изгнания?"
 
 #: irenic2.tra:453
 msgid ""
@@ -2472,12 +3589,19 @@ msgid ""
 "<CHARNAME>, if I can rip that soul out of you once more.  I would so delight"
 " in stealing your proud destiny a second time."
 msgstr ""
+"Хватит, сестра. Мы сделаем как Мелисса предлагает, с ее прислужниками на "
+"нашей стороне. Если захочешь, почувствуй на вкус, что такое месть! Поверь "
+"мне, <CHARNAME>, я смогу вытянуть из тебя душу еще раз. И я получу "
+"удовольствие от кражи твоей гордой судьбы во второй раз."
 
 #: irenic2.tra:454
 msgid ""
 "You over-step your bounds, as always.  I did not call you here to rejoice in"
 " your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
 msgstr ""
+"Ты как всегда преступаешь все границы. Я призвал тебя сюда не для того, "
+"чтобы выслушивать твою злобу, Бодхи. Ты не замечаешь, где мы находимся? С "
+"кем встретились?"
 
 #: irenic2.tra:455
 msgid ""
@@ -2485,6 +3609,9 @@ msgid ""
 " power here, and you hope to find succor at the feet of this fool "
 "<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
 msgstr ""
+"Ты задумала предать меня, Бодхи? Глупая девчонка. Мелисса та, у кого власть "
+"здесь, а ты надеешься найти помощь в ногах у <CHARNAME>? Оставайся со мной "
+"или умри, как и <PRO_HIMHER>!"
 
 #: irenic2.tra:456
 msgid ""
@@ -2493,10 +3620,16 @@ msgid ""
 " the power to rip the divinity from your body.  The first thing I shall feel"
 " in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
+"Итак, моя неблагодарная сестра, ты наконец-то встала на мою сторону. Я позже"
+" разберусь с твоим вероломством. Что касается тебя, <CHARNAME>, Мелисса "
+"даровала мне силы вырвать божественность из твоего тела. Первая вещь, "
+"которую я почувствую в вечности, будет удовольствие наблюдать превращение "
+"твоего трупа в прах."
 
 #: irenic2.tra:457
 msgid "I see.  So you leave me, sister, just as *she* left me."
 msgstr ""
+"Понимаю. Значит, ты оставляешь меня, сестра, так же, как *ОНА* бросила меня."
 
 #: irenic2.tra:458
 msgid ""
@@ -2505,6 +3638,10 @@ msgid ""
 "<CHARNAME>'s soul and you, *dear* sister, shall be nothing but dust beside "
 "<PRO_HIMHER>."
 msgstr ""
+"Но это не имеет значение. Мелисса дала мне достаточно мощи, и вместе с ее "
+"собственными прислужниками мы покажем ошибку твоего выбора. Я сорву "
+"божественность с души <CHARNAME> и ты, *дорогая* сестра, станешь ничем, "
+"только пылью рядом <PRO_HIMHER>."
 
 #: irenic2.tra:459
 msgid ""
@@ -2513,6 +3650,11 @@ msgid ""
 "candidate long before <CHARNAME> soundly defeated you merely for fear of "
 "losing all common sense merely by association with your pathetic soul."
 msgstr ""
+"Лучше, чем тот смехотворный дурак, чья наиболее многообещающая идея "
+"доминировать над Побережьем Мечей состояла лишь в том, чтобы 'отравить' "
+"добычу железа. Я отверг твою кандидатуру задолго до того, как ты был вполне "
+"обоснованно побежден <CHARNAME>, чтобы не потерять свой рассудок, используя "
+"твою жалкую душу для своих целей."
 
 #: irenic2.tra:460
 msgid ""
@@ -2521,18 +3663,25 @@ msgid ""
 "coat-tails it makes no difference to me... but you'll be disintegrated right"
 " along with <PRO_HIMHER>."
 msgstr ""
+"Гавкай, если хочешь, полукровка. Клыки, которые возможно и были у тебя, уже "
+"давно выдернуты. Если хочешь быть вместе с <CHARNAME>, это не имеет ни "
+"какого значения для меня... ты будешь раздавлен, как и <CHARNAME>."
 
 #: meliss01.tra:419
 msgid ""
 "Oh, please.  I saw you coming from a mile away.  I just played along because"
 " I had no choice."
 msgstr ""
+"О, пожалуйста. Я видела появления тебя задолго до этого. Я только играла, "
+"так как не было никакой разницы."
 
 #: meliss01.tra:420
 msgid ""
 "Well, your plan didn't work out quite like you thought.  Balthazar is still "
 "alive."
 msgstr ""
+"Ну, твой план не совсем выполнялся так, как ты задумала. Балтазар все еще "
+"жив."
 
 #: meliss01.tra:422
 msgctxt "MELISS23"
@@ -2541,12 +3690,18 @@ msgid ""
 "the sorry dog that you are?  Because make no mistake... one way or another, "
 "every last drop of that divine essence will be *mine*."
 msgstr ""
+"Ты смеешь стоять и смотреть на меня? Или я должна затравить тебя как жалкую "
+"собаку? Поэтому не делай ошибку... так или иначе, каждая следующая капля "
+"божественной сущности будет *МОЕЙ*."
 
 #: meliss01.tra:433
 msgid ""
 "As long as you did what you were required to and kill the Five, then I care "
 "little for what you think you know, fool."
 msgstr ""
+"Пока все происходило согласно моему плану, точно так же и расправа с членами"
+" Пятерки была моим желанием, и я все сделала так, чтобы у тебя не возникало "
+"сомнений в правильности своих действий."
 
 #: meliss01.tra:434
 msgid ""
@@ -2554,6 +3709,8 @@ msgid ""
 "surprised.  In the end, however, the essence of one or two of Bhaal's get "
 "means very little."
 msgstr ""
+"Так тебе удалось склонить Балтазара к сотрудничеству? Я удивлена. Однако, в "
+"конце концов, сущность одного или двух детей Баала решает не очень много."
 
 #: player1.tra:314
 msgid ""
@@ -2561,6 +3718,9 @@ msgid ""
 "\n"
 "It appears my ability to control the transformation to the slayer has increased.  The slayer form itself is stronger, deadlier... and I am able to maintain it for longer.  The chances of going berserk while in the form have also decreased."
 msgstr ""
+"Способности Убийцы изменились\n"
+"\n"
+"Кажется, что моя способность управлять преобразованием в убийцу увеличилась. Форма убийцы стала более сильной, более смертельной... и я могу поддерживать ее дольше. Состояние берсеркера в то же время уменьшилось."
 
 #: player1.tra:315
 msgid ""
@@ -2568,6 +3728,9 @@ msgid ""
 "\n"
 "My control over the slayer transformation continues to increase.  The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects.  Even the slayer's claws now sometimes rip through magical effects and defenses."
 msgstr ""
+"Способности Убийцы опять изменились \n"
+"\n"
+"Мой контроль над преобразованием в убийцу продолжает увеличиваться. Убийца стал невероятно иммунной к вреду и большинству волшебства, и кажется, что теперь иммунен к большинству болезней и ядов, также как к любому замедлению или ускорения. Теперь когти убийцы могут иногда прорывать волшебные эффекты и защиты."
 
 #: player1.tra:316
 msgid ""
@@ -2575,10 +3738,13 @@ msgid ""
 "\n"
 "I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the ravager... optionally.  Although incredibly powerful... the ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the ravager is difficult for me to control and may be a danger to those nearby."
 msgstr ""
+"Форма Губителя\n"
+"\n"
+"Не знаю, хорошо это или нет... но моя способность управлять своим преобразованием достигла того, что я могу теперь стать губителем... по желанию. Несмотря на то, губитель невероятно силен... он пропускает половину ущерба от большинства атак, но является иммунным к любому виду остановки..., губителем сложно управлять и он может быть опасным для окружающих."
 
 #: player1.tra:317
 msgid "I choose to turn into the ravager."
-msgstr ""
+msgstr "Я хочу стать Губителем."
 
 #: player1.tra:396
 msgid ""
@@ -2587,6 +3753,10 @@ msgid ""
 "invulnerable to harm... and growing in power every second.  She must be "
 "drawn out willingly in order to defeat her."
 msgstr ""
+"Теперь, после начала битвы, вы взвешиваете все варианты. В потоке энергии в "
+"пределах Трона, Мелисса кажется неуязвимой к повреждениям... и увеличивает "
+"свою силу каждую секунду. Ее необходимо выманить, чтобы нанести ей "
+"поражение."
 
 #: player1.tra:397
 msgid ""
@@ -2595,6 +3765,10 @@ msgid ""
 " to cut off the flow of energy to Melissan from these pools, forcing her to "
 "fight.  The pools are, however, likely to be guarded..."
 msgstr ""
+"Единственный вариант, который вы смогли придумать, касается трех 'водоемов "
+"сущностей', которые примыкают к Трону. Ваша собственная связь с сущностями "
+"могла бы позволить вам отрезать поток энергии от этих водоемов к Мелиссе, "
+"вынуждая ее сразиться. Возможно, водоемы хорошо охраняются..."
 
 #: player1.tra:398
 msgid ""
@@ -2602,6 +3776,9 @@ msgid ""
 "her immortality intact.  There must be a way to weaken her further, or you "
 "will never be able to defeat her."
 msgstr ""
+"Мелисса продолжает восстанавливать свою божественную энергию в фонтане, "
+"сохраняя свое неповрежденное бессмертие. Должен существовать способ ослабить"
+" ее еще больше, иначе вы никогда не сможете ей победить."
 
 #: ppguy02.tra:1
 msgid ""
@@ -2609,6 +3786,9 @@ msgid ""
 "power is obviously too much for you.  You do not interrupt its flow and, "
 "instead, the energy leaps out and damages you."
 msgstr ""
+"Вы погружаете свою руку в водоворот энергии в середине водоема, но его сила "
+"очевидно слишком велика для вас. Вы не прерываете его поток и, вместо этого,"
+" бросок энергии повреждает вас."
 
 #: ppguy02.tra:2
 msgid ""
@@ -2619,6 +3799,13 @@ msgid ""
 "also gained the ability to unleash the power within you as a short burst of "
 "destructive power.  The energies also restore the powers of all present."
 msgstr ""
+"Вы погружаете свою руку внутрь энергетического водоема и втягиваете сущность"
+" в себя, ослабляя тем самым Мелиссу. Неограниченная мощь быстро наполняет "
+"вас, и в то время как большая часть ее рассеивается, ваша внутренняя энергия"
+" частично пополняется. Теперь вы иммунны к смертельным заклинаниям и "
+"ворпальным эффектам, а также получили способность высвобождать энергию "
+"внутри себя в короткий взрыв разрушительной силы. Энергия дополнительно "
+"восстанавливает все существующие возможности."
 
 #: ppguy02.tra:3 ppguy02.tra:4
 msgid ""
@@ -2626,6 +3813,9 @@ msgid ""
 "\n"
 "The \"Unleash\" ability releases your inner power upon a target that is within melee range, hitting them for 10d12 magic damage (half on a successful save vs. Death) and sending them flying back and perhaps unconscious for a short period.  This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued and have a 25% miscast chance on all spells for 2 rounds.  Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds."
 msgstr ""
+"Получена новая сила: \"Высвобождение\"\n"
+"\n"
+"\"Высвобождающая\" способность направляет вашу внутреннюю энергию на цель в пределах рукопашного боя, поражая их 10d12 единиц магического повреждение (половину при успешном спасброске на Смерть) и отбрасывает их назад и возможно в бессознательном состоянии в течение короткого периода. Эту способность можно использовать однажды в тридцать секунд... и после ее использования, потомок Баала будет невероятно утомлен, и иметь 25 % ошибку чтения всех заклинаний в течение 2 раундов. Точно на величину использования божественной сущности, форма Убийцы также не доступна в течение тридцати секунд."
 
 #: ppguy02.tra:5
 msgid ""
@@ -2638,6 +3828,15 @@ msgid ""
 " immune to the spells Maze and Imprisonment.  The energies also restore the "
 "powers of all present."
 msgstr ""
+"Вы погружаете свою руку внутрь энергетического водоема и втягиваете сущность"
+" в себя, ослабляя тем самым Мелиссу. Неограниченная мощь наполняет вас, и в "
+"то время как большая часть ее рассеивается, у вас остается многие сущности "
+"Баала. В этот момент вы получили способность к телепортации сквозь "
+"пространство и возможность перехватывания контроля демонов из ада, которые "
+"находятся под управлением Мелиссы. Дополнительно к способности к "
+"телепортации, вы теперь полностью иммунные к заклинаниям Лабиринт и "
+"Заключение. Энергия дополнительно восстанавливает все существующие "
+"возможности."
 
 #: ppguy02.tra:6
 msgid ""
@@ -2649,6 +3848,13 @@ msgid ""
 "\n"
 "The Bhaalspawn may now move freely through space and the planes.  This teleportation power is useable once per round."
 msgstr ""
+"Получена новая сила: \"Контроль Демона\"\n"
+"\n"
+"Эта способность позволяет потомку Баала попытаться перехватить контроль Мелиссы над демонами и сделать их союзниками. Потомок Баала в умственном сражении в течение 1 раунда принуждает демона, в конце которого демон может стать союзником. Однако демон будет не при прямом контроле потомка Баала. Эту способность можно использовать один раз в 3 раунда.\n"
+"\n"
+"Получена новая сила: \"Дверь Измерения\"\n"
+"\n"
+"Потомок Баала теперь может свободно передвигаться сквозь пространство и планы. Телепортацией можно пользоваться раз в раунд."
 
 #: ppguy02.tra:7
 msgid ""
@@ -2660,6 +3866,14 @@ msgid ""
 "magics as Time Stop, Disintegrate and Flesh to Stone for a short period.  "
 "The energies also restore the powers of all present."
 msgstr ""
+"Вы погружаете свою руку внутрь энергетического водоема и втягиваете сущность"
+" в себя, ослабляя тем самым Мелиссу. Вы наполняетесь неограниченной силой на"
+" мгновение... и в то время как большая часть проходит через вас и "
+"рассеивается в космосе, часть ее остается в вас. Вы получили способность "
+"сосредотачивать энергию внутри себя, чтобы защитить себя от такого "
+"волшебства как Остановка Времени, Распыления и Плоть в Камень на короткий "
+"промежуток времени. Энергия дополнительно восстанавливает все существующие "
+"возможности."
 
 #: ppguy02.tra:9
 msgid ""
@@ -2667,6 +3881,9 @@ msgid ""
 "\n"
 "This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without.  For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop.  All minor spells of 1st through 3rd level will also not affect the Bhaalspawn.  This ability is useable once per minute."
 msgstr ""
+"Получена новая сила: \"Сосредоточение\"\n"
+"\n"
+"Эта способность позволяет потомку Баала сосредотачивать свою энергию внутри себя и сопротивляться внешним эффектам заклинаний. В течение 30-секунд потомок Баала становится иммунным к заклинаниям Плоть в камень, Распыление и Остановка Времени. Все низкоуровневые заклинания с 1-го по 3-ий уровни также не будут приносить ему вред. Эту способность можно использовать раз в минуту."
 
 #: ppguy02.tra:10
 msgid ""
@@ -2674,28 +3891,40 @@ msgid ""
 "to ebb.  You have only moments to prepare for what is surely the final "
 "confrontation..."
 msgstr ""
+"Последний водоем успокоился. Свет колонны энергии начал убывать. У вас есть "
+"небольшой промежуток времени, чтобы приготовиться к этому, несомненно, "
+"заключительному противостоянию..."
 
 #: ppguy02.tra:11
 msgid ""
 "Already Melissan begins to stir within the stream of divine energies.  Once "
 "the last pool is stilled, there will be very little time before she reacts."
 msgstr ""
+"Уже Мелисса начинает шевелиться внутри потока божественных энергий. Как "
+"только последний водоем успокоится, представится совсем небольшой промежуток"
+" времени, прежде чем она среагирует."
 
 #: sarev25j.tra:262
 msgid "What do you mean, wench?  We've no business, you and I."
 msgstr ""
+"Что ты имеешь в виду, распутная девка? Между тобой и мной не может быть "
+"никаких дел."
 
 #: sarev25j.tra:263
 msgid ""
 "Even if cared to consider your offer, I cannot.  <CHARNAME> has bound me "
 "with a vow."
 msgstr ""
+"Даже если я хотел бы рассмотреть твое предложение, но я не могу. Я дал "
+"клятву <CHARNAME>."
 
 #: sarev25j.tra:264
 msgid ""
 "I see.  And you believe your offer interests me?  <CHARNAME> has done well "
 "enough against you so far."
 msgstr ""
+"Понимаю. И ты полагаешь, что твое предложение заинтересует меня? <CHARNAME> "
+"мне нравится гораздо больше, чем ты."
 
 #: sarev25j.tra:265
 msgid ""
@@ -2704,6 +3933,10 @@ msgid ""
 " innards.  I desired to rule, not to serve.  And I will not serve you, "
 "wench.  My answer is no."
 msgstr ""
+"Служить тебе? Ты сделала когда-то мне предложение, как я помню. Но я твоего "
+"посыльного посадил сверху на шпиль моей башни и скормил воронам его "
+"внутренности. Я жаждал управлять, не служить. И я не буду служить тебе, "
+"распутная девка. Мой ответ - нет."
 
 #: sarev25j.tra:266
 msgid ""
@@ -2711,19 +3944,22 @@ msgid ""
 "along as a servant to the one who halted my own plans long before yours came"
 " to fruition, priestess.  Aye... I will be your general."
 msgstr ""
+"Я устал от <CHARNAME> и <PRO_HISHER> дурацких нравоучений. Я утомился "
+"служить тому, кто помешал моим собственным планам намного раньше, чем начали"
+" осуществляться твои, жрица. Да... я стану твоим генералом."
 
 #: sarev25j.tra:267
 msgid "No, Sarevok!  You traitorous bastard!"
-msgstr ""
+msgstr "Нет, Саревок! Ты ублюдочный предатель!"
 
 #: sarev25j.tra:268
 msgid "That is a mistake, Sarevok.  You'll just die along with her this way."
-msgstr ""
+msgstr "Это ошибка, Саревок. Так ты только умрешь вместе с ней."
 
 #: sarev25j.tra:269
 msgid ""
 "I expected as much.  So I get to kill you again, as well.  It's all good."
-msgstr ""
+msgstr "Этого следовало ожидать. Так что я убью тебя снова. И это хорошо."
 
 #: sarev25j.tra:270
 msgid ""
@@ -2732,6 +3968,11 @@ msgid ""
 "by the madness that once swallowed me whole.  Wallow in your delusion if you"
 " will, woman... I remember it well.  And I will not join you in it."
 msgstr ""
+"Стать демоном, которым я был когда-то? Я больше не такой человек и не желаю "
+"возвращаться к прошлому. Рядом с <CHARNAME> я понял, что живу лучше, "
+"нетронутый сумасшествием, которое когда-то поглотило меня целиком. "
+"Наслаждайся своим заблуждением, если хочешь, женщина... Я запомнил это "
+"хорошо. Но я не присоединюсь к тебе."
 
 #: sarev25j.tra:271
 msgid ""
@@ -2739,6 +3980,9 @@ msgid ""
 "Better to fight for Melissan than sit in your shadow and watch you take what"
 " was once mine."
 msgstr ""
+"Мой характер не изменился, <CHARNAME>. Да и можно ли было ожидать другого? "
+"Лучше биться вместе с Мелиссою, чем находиться в твоей тени и наблюдать, как"
+" ты берешь то, что было когда-то моим."
 
 #: sarev25j.tra:272
 msgid ""
@@ -2746,6 +3990,9 @@ msgid ""
 "was once mine.  You do not deserve power, <CHARNAME>.  Even if it means "
 "fighting for Melissan, I will do what I must."
 msgstr ""
+"Возможно. Но я не буду находиться в твоей тени и просто наблюдать, как ты "
+"берешь то, что было когда-то моим. Ты не заслуживаешь власти, <CHARNAME>. "
+"Даже если это означает биться вместе с Мелиссою, я сделаю то, что должен."
 
 #: sarev25j.tra:273
 msgid ""
@@ -2753,12 +4000,19 @@ msgid ""
 "as you take what was once mine.  You don't deserve power, <CHARNAME>, and "
 "even if it means fighting for Melissan I will do what I must."
 msgstr ""
+"Типичное хвастовство. И возможно ты даже победишь, но я не буду просто "
+"сидеть, пока ты берешь то, что было когда-то моим. Ты не заслуживаешь "
+"власти, <CHARNAME> и даже если это означает биться вместе с Мелиссою, я "
+"сделаю то, что должен."
 
 #: sarev25j.tra:274
 msgid ""
 "Blast!  The wench returns to Bhaal's essence like a coward, healing herself!"
 "  There must be a way to weaken her further, or we will never defeat her!"
 msgstr ""
+"Проклятье! Распутная девка как трус возвращается к сущностям Баала, "
+"излечивая себя! Мы должны найти способ ослабить ее, иначе мы никогда не "
+"сможем ее победить!"
 
 #: sarev25j.tra:275
 msgid ""
@@ -2767,12 +4021,18 @@ msgid ""
 " a Deathbringer's weapon and I can restore much of its power.  I would not "
 "suggest you attempt to use it yourself, now."
 msgstr ""
+"Мой меч, неужели? Я думал, что он потерян навсегда. Было бы неплохо получить"
+" его назад. Сейчас я уже потерял связь с сущностью, но это - все еще оружие "
+"Приносящее смерть, и я смог бы вернуть большую часть его прежней мощи. Я не "
+"рекомендовал бы, чтобы вы пытались его сейчас использовать собственноручно."
 
 #: sarev25j.tra:276
 msgid ""
 "You wouldn't have my armor, too, hidden about somewhere within your packs?  "
 "Hmph.  I suppose some things are too much to hope for."
 msgstr ""
+"А нет ли у вас еще и моей брони, запрятанной где-нибудь в ваших глубоких "
+"карманах? Хмф. Похоже, надеяться на такое уже слишком."
 
 #: sarev25j.tra:277
 msgid ""
@@ -2780,6 +4040,9 @@ msgid ""
 "and power from one who hounded <CHARNAME> so, and not "
 "simply...*another*...wizard."
 msgstr ""
+"Так это и есть тот Иреникус, про которого вы мне рассказывали? Я ожидал "
+"увидеть больше энергии и силы в том, кто так преследовал <CHARNAME>, а не "
+"просто... *еще одного*... волшебника."
 
 #: sarev25j.tra:278
 msgid ""
@@ -2788,10 +4051,14 @@ msgid ""
 "imagine you were too busy taking control of insane asylums and making "
 "thieves out of vampires for absolutely no reason."
 msgstr ""
+"Все же, я конечно не позволил бы <CHARNAME> сбежать от меня, если бы "
+"<PRO_HESHE> был в моей власти не один раз, а дважды. Но тогда, я "
+"представляю, что ты был слишком занят тем, что брал под свое управление "
+"убежище безумцев и делал воров из вампиров, неизвестно зачем."
 
 #: setup.tra:1
 msgid "Ascension Core (requires ToB)"
-msgstr ""
+msgstr "Восхождение (необходим ToB)"
 
 #: setup.tra:2
 msgid ""
@@ -2803,26 +4070,32 @@ msgid ""
 "If you do have it installed and you are receiving this message in error,\n"
 "please contact the module maintainer."
 msgstr ""
+"\n"
+"Не найден файл [Data/25Dialog.bif], который показывает, \n"
+"что был установлен аддон Трон Баала. Необходимо установить его\n"
+"перед исталяцией мода Восхождение.\n"
+"Если аддон установлен и получено это сообщение об ошибке\n"
+"проверьте правильность установки."
 
 #: setup.tra:3
 msgid "Tougher Abazigal (optional, requires ToB)"
-msgstr ""
+msgstr "Усиленный Абазигал (необязательный, необходим ToB)"
 
 #: setup.tra:4
 msgid "Original Tougher Demogorgon (optional, requires ToB)"
-msgstr ""
+msgstr "Первоночальный усиленный Демогоргон (необязательный, необходим ToB)"
 
 #: setup.tra:5
 msgid "Tougher Gromnir (optional, requires ToB)"
-msgstr ""
+msgstr "Усиленный Громнир (необязательный, необходим ToB)"
 
 #: setup.tra:6
 msgid "Tougher Illasera (optional, requires ToB)"
-msgstr ""
+msgstr "Усиленная Илласера (необязательный, необходим ToB)"
 
 #: setup.tra:7
 msgid "Tougher Yaga-Shura (optional, requires ToB)"
-msgstr ""
+msgstr "Усиленный Яга-Шура (необязательный, необходим ToB)"
 
 #: shawnesepilogues.tra:4001
 msgid ""
@@ -3402,6 +4675,8 @@ msgid ""
 "The one you know as Melissan was never a true member of the Five, godchild."
 "  She is no child of Bhaal."
 msgstr ""
+"Та, которая известна вам как Мелисса, никогда не была настоящим членом "
+"Пятерки, дитя бога. Она не дочь Баала."
 
 #: solar.tra:231
 msgctxt "SOLAR67"
@@ -3411,6 +4686,9 @@ msgid ""
 "godchild...  and for this, the one you know as Melissan will explain for "
 "herself."
 msgstr ""
+"Мертвый Бог, Баал, не воскрес, и наверное, никогда уже не воскреснет. Вы "
+"должны понимать, что ждет вас в конце путешествия, дитя бога.... и для этого"
+" та, которая известна вам как Мелисса, объяснит свои действия."
 
 #: solar.tra:239
 msgid ""
@@ -3418,12 +4696,16 @@ msgid ""
 "yourself, god-child.  You are to be commended.  Your journey is nearly at "
 "its end."
 msgstr ""
+"Вы сумели договориться с Балтазаром, величайшим из отпрысков Баала после "
+"вас, дитя бога. Это похвально. Ваше путешествие подходит к концу."
 
 #: solar.tra:240
 msgid ""
 "Wait... what is Balthazar's part in all this?  You knew I wouldn't fight "
 "him?"
 msgstr ""
+"Подожди... какова роль Балтазара во всем этом? Вы знали, что я не стану "
+"сражаться с ним?"
 
 #: solar.tra:241
 msgid ""
@@ -3432,27 +4714,34 @@ msgid ""
 "has returned to its source, and Melissan will seek to collect it.  This is "
 "the challenge that awaits you."
 msgstr ""
+"Вам не надо было биться с ним. Остальные из Пятерки уничтожены. Так как вы и"
+" Балтазар оба живы, не вся божественная сущность Баала вернулась к источнику"
+" и Мелисса будет стремиться собрать ее. Вот испытание, которое вас ожидает."
 
 #: solar.tra:242
 msgid "But... Melissan is part of the Five, isn't she?"
-msgstr ""
+msgstr "Но... Мелисса - часть Пятерки, разве нет?"
 
 #: solar.tra:243
 msgid ""
 "So Melissan has not collected enough of the essence, yet, to resurrect "
 "Bhaal, right?"
 msgstr ""
+"Похоже, Мелисса не собрала достаточно сущности, чтобы воскресить Баала, так?"
 
 #: solar.tra:244
 msgid ""
 "So, Melissan seeks to be the last of the Bhaalspawn.  Does she even plan on "
 "resurrecting Bhaal?"
 msgstr ""
+"Значит, Мелисса хочет быть последней из последователей Баала? Она "
+"действительно планирует его воскресить?"
 
 #: solar.tra:245
 msgid "Another challenge.  Alright, alright... let's just get this over with."
 msgstr ""
+"Еще одна проблемка... Ладно, хорошо. Давайте просто с этим разделаемся."
 
 #: solar.tra:246
 msgid "You do not yet understand.  But all shall become clear."
-msgstr ""
+msgstr "Вы еще не поняли... Но скоро все станет ясно."

@@ -15,91 +15,91 @@ msgstr ""
 
 #: ascension.tra:500
 msgid "Babau"
-msgstr ""
+msgstr "Babau"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr ""
+msgstr "Transformación en murciélago"
 
 #: ascension.tra:1006
 msgid "Shockwave"
-msgstr ""
+msgstr "Onda de choque"
 
 #: ascension.tra:1007
 msgid "Lightning Aura"
-msgstr ""
+msgstr "Aura relampagueante"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
-msgstr ""
+msgstr "Telequinesia"
 
 #: ascension.tra:1012
 msgid "Flip Resistances"
-msgstr ""
+msgstr "Invertir resistencias"
 
 #: ascension.tra:1013
 msgid "Control Demon"
-msgstr ""
+msgstr "Controlar demonio"
 
 #: ascension.tra:1014
 msgid "Focus"
-msgstr ""
+msgstr "Concentración"
 
 #: ascension.tra:1016
 msgid "Divine Mantle"
-msgstr ""
+msgstr "Manto divino"
 
 #: ascension.tra:1017
 msgid "Draw Power"
-msgstr ""
+msgstr "Drenar poder"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr ""
+msgstr "Escudo de conjuros divinos"
 
 #: ascension.tra:1019
 msgid "Command Demon"
-msgstr ""
+msgstr "Dominar demonio"
 
 #: ascension.tra:1020
 msgid "Banish"
-msgstr ""
+msgstr "Desterrar"
 
 #: ascension.tra:1022
 msgid "Unleash"
-msgstr ""
+msgstr "Liberar"
 
 #: ascension.tra:1024
 msgid "Feedback"
-msgstr ""
+msgstr "Retroacción"
 
 #: ascension.tra:1025
 msgid "Divine Restoration"
-msgstr ""
+msgstr "Restauración divina"
 
 #: ascension.tra:1026
 msgid "Divine Cleansing"
-msgstr ""
+msgstr "Purificación divina"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr ""
+msgstr "Aura de paralización"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
-msgstr ""
+msgstr "Bomba de lava"
 
 #: ascension.tra:1031
 msgid "Symbol Slow"
-msgstr ""
+msgstr "Símbolo de ralentizamiento"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
-msgstr ""
+msgstr "Transformación en el Saqueador"
 
 #: ascension.tra:1038
 msgid "Melissan: Command the Minions of the Abyss"
-msgstr ""
+msgstr "Melissan: Dominar las huestes del Abismo"
 
 #: ascension.tra:2000
 msgid ""
@@ -116,6 +116,20 @@ msgid ""
 "\n"
 "When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group.  Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points.  Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Curación en masa (Nigromancia)\n"
+"Alcance: Visión del lanzador\n"
+"Duración: Permanente \n"
+"Tiempo de lanzamiento: 1\n"
+"Área de efecto: Radio de 9 metros\n"
+"Tirada de salvación: No\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"Cuando utiliza esta aptitud, el Engendro de Bhaal debe tener en la mente los rostros de sus compañeros del grupo claramente y concentrarse en la unidad del grupo. Al finalizar, todos los miembros del grupo en un radio de 9 metros del lanzador recuperarán 2d8 + 2/nivel puntos de golpe. Otras condiciones que afecten al grupo son curadas también, como la fatiga, el veneno, la enfermedad, la ceguera y la sordera."
 
 #: ascension.tra:2001
 msgid ""
@@ -132,6 +146,20 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate.  This regeneration will heal any wounds and even regenerate lost limbs.  The creature affected will regain 3 hit points per second.  The effect lasts for 1 round per every 2 levels of the caster or until dispelled.  For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Regeneración (Nigromancia) \n"
+"Alcance: Toque\n"
+"Duración: 1 asalto/2 niveles\n"
+"Tiempo de lanzamiento: 7\n"
+"Área de efecto: Criatura objetivo\n"
+"Tirada de salvación: No\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"Esta poderosa aptitud permite al Engendro de Bhaal imbuir a una criatura con la habilidad de regenerarse. Esta regeneración curará cualquier herida e incluso regenerará extremidades perdidas. La criatura afectada recuperará 3 puntos de golpe por segundo. El efecto permanece 1 asalto por cada 2 niveles del lanzador o hasta que sea disipado. Por ejemplo, un personaje de nivel 14 regeneraría 18 puntos de golpe por asalto durante 7 asaltos."
 
 #: ascension.tra:2002
 msgid ""
@@ -148,6 +176,20 @@ msgid ""
 "\n"
 "The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period.  When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster.  A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Invocar al poder sagrado (Invocación)\n"
+"Alcance: 0\n"
+"Duración: 1 turno\n"
+"Tiempo de lanzamiento: 1\n"
+"Área de efecto: El lanzador\n"
+"Tirada de salvación: No\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"El Engendro de Bhaal llama al poder de su sangre para darle poder durante un corto período. Cuando haga esto, su fuerza, constitución y destreza serán elevadas en 1 punto por cada 3 niveles del lanzador. Un lanzador de tercer nivel elevaría sus características en 1, mientras que un lanzador de nivel 12 elevaría sus características en 4."
 
 #: ascension.tra:2003
 msgid ""
@@ -170,6 +212,26 @@ msgid ""
 "17-21st level:  8d8  +  6/round, slow for 24 seconds, save at -4\n"
 "25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets"
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Mancha oscura (Nigromancia) \n"
+"Alcance: 20 pies\n"
+"Duración: 1 turno\n"
+"Tiempo de lanzamiento: 1\n"
+"Área de efecto: 1 criatura\n"
+"Tirada de salvación: Niega efecto\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"A través de este conjuro, el Engendro de Bhaal puede expulsar la mancha de su malvado progenitor en una víctima, envenenando a aquellos que fallen su salvación contra muerte. Los efectos dependen del nivel del lanzador y son detallados a continuación:\n"
+"Niveles 7-9: 2d8 + 2/asalto, ralentizado 12 segundos, salvación a -2\n"
+"Niveles 10-12: 3d8 + 3/asalto, ralentizado 12 segundos, salvación a -2\n"
+"Niveles 13-14: 4d8 + 4/asalto, ralentizado 12 segundos, salvación a -2\n"
+"Niveles 15-16: 6d8 + 5/asalto, ralentizado 24 segundos, salvación a -2\n"
+"Niveles 17-21: 8d8 + 6/asalto, ralentizado 24 segundos, salvación a -4\n"
+"Nivel 25+: 8d8 + 6/asalto, ralentizado 36 segundos, salvación a -4, afecta a un grupo de objetivos"
 
 #: ascension.tra:2004
 msgid ""
@@ -177,6 +239,9 @@ msgid ""
 "\n"
 "<CHARNAME> has gained permanent negative plane protection (i.e., <CHARNAME> cannot be level-drained) and 5% magic resistance."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido protección permanente contra el plano negativo (p.e., a <CHARNAME> no se le pueden drenar niveles) y un 5% de resistencia mágica."
 
 #: ascension.tra:2005
 msgid ""
@@ -198,6 +263,25 @@ msgid ""
 "25th: 5 rounds, 10 hp extra damage, 10 hp healed\n"
 "30th: 6 rounds, 12 hp extra damage, 12 hp healed"
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Mano del asesinato (Nigromancia) \n"
+"Alcance: Lanzador\n"
+"Duración: 1 asalto/5 niveles\n"
+"Tiempo de lanzamiento: 1\n"
+"Tirada de salvación: No\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"Cuando el Engendro de Bhaal invoca este poder, inmediatamente inflinge un daño adicional con cada golpe a su objetivo con cualquier arma de cuerpo a cuerpo que desee (tanto puño como espada). Sus oscuras energías viajan a través de su arma atacando a su víctima... y absorbiendo ese daño.\n"
+"Los efectos varían dependiendo del nivel:\n"
+"10º: 2 asaltos, daño extra 4 pg, cura 4 pg\n"
+"15º: 3 asaltos, daño extra 6 pg, cura 6 pg \n"
+"20º: 4 asaltos, daño extra 8 pg, cura 8 pg \n"
+"25º: 5 asaltos, daño extra 10 pg, cura 10 pg \n"
+"30º: 6 asaltos, daño extra 12 pg, cura 12 pg "
 
 #: ascension.tra:2006
 msgid ""
@@ -214,6 +298,20 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life.  However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: \n"
+"\n"
+"Resurrección (Nigromancia)\n"
+"Alcance: Toque\n"
+"Duración: Permanente\n"
+"Tiempo de lanzamiento: 1\n"
+"Área de efecto: Criatura tocada\n"
+"Tirada de salvación: No\n"
+"\n"
+"DESCRIPCIÓN:\n"
+"\n"
+"Al igual que el conjuro de 5º nivel Revivir a los muertos, Resurrección devolverá a la vida a un personaje. Sin embargo, Resurrección también curará por completo al resucitado, permitiéndole estar listo para vivir nuevas aventuras."
 
 #: ascension.tra:2007
 msgid ""
@@ -221,10 +319,13 @@ msgid ""
 "\n"
 "<CHARNAME> has gained 25% resistance to physical damage (i.e., slashing, piercing, crushing and missile damage)."
 msgstr ""
+"Poderes de Engendro de Bhaal\n"
+"\n"
+"<CHARNAME> ha obtenido un 25% de resistencia al daño físico (como p.e. el daño cortante, perforante, contundente y de proyectil)."
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
-msgstr ""
+msgstr "Espada del Caos +4"
 
 #: ascension.tra:3001
 msgid ""
@@ -255,22 +356,50 @@ msgid ""
 "Druid\n"
 "non-Chaotic aligned"
 msgstr ""
+"Espada del Caos de Sarevok\n"
+"La hoja de Sarevok, el hermano de <CHARNAME>, utilizada en la batalla en la que combatieron en la lejana Puerta de Baldur. <CHARNAME> se impuso, destruyendo los planes de Sarevok y librando a la Costa de la Espada de la inminente guerra. Ahora Sarevok se ha unido a la causa de <CHARNAME> y su hoja le ha sido devuelta. Sarevok ha descrito el arma como la hoja de un portador de la muerte y ha conseguido recuperar algo del viejo poder de la espada. Sin su esencia de Engendro de Bhaal para canalizarla a través de la espada, de todas formas, no puede alcanzar el poder que una vez tuvo. Todavía, a pesar de todo, es un arma formidable... y algo que Sarevok advierte es que sería más difícil de manejar en manos de alguien que no sea un portador de la muerte, si pudiera usarla claro.\n"
+"\n"
+"CARACTERÍSTICAS:\n"
+"\n"
+"Aptitudes: cada golpe drena de uno a cinco puntos de golpe al objetivo y los transfiere al portador. Esto no curará mas allá del máximo del portador.\n"
+"\n"
+"La hoja también concede un +10% de resistencia mágica mientras sea equipada.\n"
+"\n"
+"Daño: 1d10 +4\n"
+"THAC0: +4\n"
+"Tipo de daño: cortante\n"
+"Peso: 10 lbs\n"
+"Factor de velocidad: 8\n"
+"Talento marcial: Mandoble\n"
+"Tipo: A dos manos\n"
+"Requisitos: Fuerza 14, Constitución 18\n"
+"No lo puede usar:\n"
+" Clérigo\n"
+" Mago\n"
+" Paladín\n"
+" Explorador\n"
+" Druida\n"
+" Alineamiento no caótico"
 
 #: ascension.tra:3002
 msgid "Sendai's Potion"
-msgstr ""
+msgstr "Poción de Sendai"
 
 #: ascension.tra:3003
 msgid ""
 "Sendai's Potion\n"
 "Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it."
 msgstr ""
+"Poción de Sendai\n"
+"Posiblemente un brebaje propiedad de Sendai, es una poción increíblemente potente de curación capaz de restaurar completamente los puntos de golpe de cualquiera que la use."
 
 #: ascension.tra:82729
 msgid ""
 "Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time.  She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves.  She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer.  Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant.  Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear.  Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home.  Her destiny was her own, and she would seek it on her own terms.\n"
 "What eventually become of Viconia is unknown.  Her greatest legend is also the most unlikely, although its persistence gives it some credit.  It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow.  Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister.  Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again.  Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever.  Viconia was never reported seen again."
 msgstr ""
+"Al separar su camino del de <CHARNAME>, Viconia vagó durante mucho tiempo. Ella todavía se encontró con la ignorancia y el odio de aquellos que sabían de su condición, pero Viconia estaba decidida más que nunca a separarse del legado de los elfos oscuros. Había estado en los planos más profundos del infierno y había luchado codo con codo con <CHARNAME> cuando él se convirtió en un dios... y ella no ocultaría su rostro a las tierras de la superficie durante más tiempo. Incluso cuando Shar, su diosa de la perdición y oscuridad, la abandonó completamente Viconia no se arrepintió. Los relatos sobre ella aumentaban mientras viajaba de una tierra a otra... a menudo como salvadora, solo para ser ingratamente expulsada por la sospecha y el temor. Aún así, Viconia seguía viajando, rechazando la compañía de los viajeros y aventureros y no encontrando nunca un lugar al que pudiera llamar verdaderamente hogar. Su destino era el suyo propio, y lo buscaría en sus propios términos.\n"
+"Lo que más tarde le sucediese a Viconia es desconocido. Su leyenda más grande es también la más inverosímil, aunque su persistencia le da un cierto crédito. Se dice que Viconia salvó a los elfos de Suldanessalar de una trama de los Zhentarim, luchando valientemente contra los agentes de la organización... y al final interponiéndose en el camino del dolor para salvar a la Reina Ellesime de una mortal flecha. Tras ser resucitada, Viconia se sorprendió al descubrir que este último acto había llevado a los elfos de Suldanessalar a aceptar y perdonar finalmente a su hermana drow. La Reina Ellesime otorgó los más altos honores de Seldarine a Viconia, la primera drow que era honrada de esta forma, e incluso la invitó a buscar un hogar en el Árbol de la Vida de nuevo. Viconia estaba conmovida obviamente por el gesto... y mientras consideraba la oferta de la Reina, se dice que finalmente solo hizo una profunda reverencia ante Ellesime y silenciosamente abandonó Suldanessalar para siempre. A Viconia nunca se la volvió a ver otra vez."
 
 #: ascension.tra:82732
 msgid ""
@@ -305,6 +434,39 @@ msgid ""
 "go on to forge a legend that would rival that of his father.  That, however,"
 " is a different story...   "
 msgstr ""
+"Viconia y <CHARNAME> continuaron sus carreras aventureras durante varios "
+"años, ganando una considerable fama tras haber llegado a ser los "
+"protagonistas centrales en dos guerras que estremecieron la Costa de la "
+"Espada. La posición de <CHARNAME> en los Reinos creció considerablemente en "
+"poco tiempo, con su oscura dama siempre a su lado. Con el tiempo, Viconia se"
+" quedó embarazada de <CHARNAME>, un hecho que provocó muchos roces y peleas "
+"entre la pareja, llevando enseguida a su separación. El nacimiento del hijo "
+"de <CHARNAME>, no obstante, cambiaría a Viconia para siempre. Volvería a "
+"<CHARNAME> y le convencería a establecerse finalmente en Puerta de Baldur, "
+"dedicándose completamente a criar a su hijo y a enseñarle las costumbres de "
+"los drow y las de la raza de <CHARNAME>, y maravillándose con el potencial "
+"que ya estaba mostrando el joven. Aunque ella estaba encantada con el "
+"entendimiento que mostraban los ojos de su hijo, no viviría para verlo "
+"crecer. Viconia era una poderosa sacerdotisa e inmune a los venenos comunes,"
+" pero el veneno de la venganza de la Reina Araña no era resistido fácilmente"
+" y su alcance es grande. Envenenada por una sirviente de la diosa Lolth, "
+"<CHARNAME> se enfureció ya que incluso la magia más poderosa resultó inútil "
+"para curar a su enferma esposa. Las últimas palabras de Viconia que susurró "
+"a <CHARNAME> en privado, antes de que finalmente sucumbiera, son "
+"desconocidas... pero cuentan los relatos que <CHARNAME> mantuvo el cuerpo de"
+" su oscura dama cerca de él mientras sollozaba, mientras que toda la ciudad "
+"lloraba con él, sufriendo la perdida de algo preciado que ni siquiera sabían"
+" realmente que lo tenían. El enfurecido <CHARNAME> dejó Puerta de Baldur y "
+"crió a su hijo en secreto muy lejos. Los relatos varían, algunos cuentan que"
+" comenzó una cruzada contra los drow de la Antípoda Oscura, otros aseguran "
+"que se convirtió en héroe en las alejadas tierras del norte... e incluso "
+"algunos dicen con seguridad que <CHARNAME> había declarado la guerra contra "
+"la mismísima Lolth en los abisales Laberintos de los Demonios... pero todos "
+"están de acuerdo en que el antiguo hijo de Bhaal había sido cambiado para "
+"siempre por su amor a la dama oscura. En cuanto al hijo, fue tutelado por "
+"dos de los más poderosos seres de los Reinos. Él comenzaría a forjar una "
+"leyenda que rivalizaría con la de su padre. Eso, sin embargo, es otra "
+"historia...  "
 
 #: ascension.tra:82728
 msgid ""
@@ -332,6 +494,31 @@ msgid ""
 "is unknown and shrouded in rumor... but it is said that even the great "
 "Spider Queen does not rest easily any more."
 msgstr ""
+"Viconia viajó sóla durante poco tiempo después de separar su camino del de "
+"<CHARNAME>, ya que pronto comenzó un culto dedicado a Shar en la enorme "
+"ciudad de Aguas Profundas. Uno de sus seguidores pronto se volvería contra "
+"ella, precipitando a una furiosa Viconia a matar a todo el culto. Shar no "
+"perdonó a Viconia esta ofensa y le quitó sus poderes. Viconia testarudamente"
+" rechazó expiar sus culpas, sin embargo, y en su lugar dejó Aguas Profundas "
+"para deambular por los Reinos. La elfa oscura se volvió una figura "
+"enigmática y poderosa, y los relatos sobre ella se difundían... y aunque "
+"sabía que ya no veneraba más a Shar, también sabía que sus poderes "
+"clericales eran todavía grandiosos. A quien ahora veneraba la dama oscura, "
+"de todas formas, era un secreto que sólo ella sabía. Ella levantó, según se "
+"dice, un ejército contra el Rey Brujo de Vaasa, intentando derrocar el "
+"gobierno sobre su Reino y siendo derrotada sólo tras varios fallos "
+"militares. Viconia previno un intento de los Caballeros del Escudo para "
+"tomar Calimport... solo para tomar ella el control de la ciudad unos días "
+"después e instaurar un reinado de terror y crueldad del cuál incluso se "
+"hablaba años después con estremecimiento. Viconia abandonó Calimport y, se "
+"dice, volvió a la Antípoda Osucra de la que había venido. La suya no era una"
+" vuelta afable, de todas formas, ya que Viconia se había convertido en una "
+"fuerza conquistadora entre los drow para detener incluso a Lolth. Su temple "
+"había sido probado en ambos mundos, decía Viconia, y se había probado a sí "
+"misma que era digna. Ella haría fuertes a los drow donde ahora eran débiles."
+" Lo que le sucediese después a Viconia es desconocido y está rodeado de "
+"rumores... pero se dice que incluso la gran Reina Araña no descansa "
+"fácilmente desde entonces."
 
 #: ascension.tra:82727
 msgid ""
@@ -357,6 +544,29 @@ msgid ""
 "thankful that <CHARNAME> had entered his life and forever wish his old "
 "friend well."
 msgstr ""
+"Tras separar su camino del de <CHARNAME>, Valygar continuó sus aventuras "
+"durante varios años, viajando por las tierras salvajes del norte de Faerun y"
+" siendo una visión común en el área de Aguas Profundas. Tras esto estaba "
+"contento de volver finalmente a Athkatla y dedicarse a la vida tranquila y "
+"contemplativa en la hacienda de su familia que él siempre había deseado. La "
+"presión de los admiradores entre la nobleza local le llevó a verse tomando "
+"el cargo de inspector jefe, una responsabilidad que nunca deseó pero que "
+"tomó voluntariamente para combatir a la corrupción que crecía dentro de la "
+"ciudad. Durante muchos años, Valygar era el nombre maldecido por cada "
+"criminal o esclavista que se atrevía a colocar un pie en el interior de la "
+"ciudad. Valygar fue audaz, convirtiendo a la guarnición de la ciudad en una "
+"fuerza que incluso el más confiado ladrón tenía que respetar. Valygar y los "
+"Ladrones de las Sombras se evitaron muchas veces, y con el tiempo alcanzaron"
+" un punto de respeto mutuo... Sin embargo la mayoría consideraba al "
+"explorador el vencedor incluso entonces. Sorprendiéndose incluso s sí mismo,"
+" Valygar con el tiempo restauró el buen nombre de los Corthala en Athkatla e"
+" incluso se casó. Su único hijo, el orgullo de su vida, llevó las lecciones "
+"de su padre al corazón. Valygar lo vería convertirse en la cabeza de los "
+"Magos Encapuchados y en su más grande elemento de reforma, y por una vez en "
+"su vida Valygar conocería el orgullo. Recordando al hombre que una vez había"
+" sido, huyendo de su historia a los bosques más profundos de Amn, el "
+"explorador estaría agradecido de que <CHARNAME> hubiera entrado en su vida y"
+" deseó que su viejo amigo estuviera siempre bien."
 
 #: ascension.tra:82726
 msgid ""
@@ -364,6 +574,9 @@ msgid ""
 "The first victims of his terrible army fell easily, and Sarevok's power grew.  The warrior was maddened, however, to find that the victories gave him no thrill.  The power tasted as ashes, though Sarevok tried many times to drive himself into a frenzy of delight at his achievements.  In the end, his throne grew heavy, and it was with dread acceptance that he greeted the arrival of the inevitable heroes to displace him not a year after his return.\n"
 "Sarevok fled into the night, abandoning Baldur's Gate and his dreams of power both.  He became a man haunted by his second chance, hunted by a former life that never was and a possible life that never could be.  Without a destiny and or a true soul of his own, he wandered the Realms... sometimes he brought terror and sometimes he brought nothing but his tired heart, and before long he was gone forever.  Some say that he found his purpose in the great desert, forging a kingdom to last an age.  Some say he traveled to the planes, launching a campaign against the great Mount Celestia.  The truth is unknown, though the tales still persist."
 msgstr ""
+"Desde que se separó de <CHARNAME>, el renacido Sarevok demostró tanto bien como su palabra. Volvió a las tierras que una vez conoció, mucho más poderosas de lo que habían sido antes. Los viejos enemigos se sorprendieron por sus visitas, pero nunca por mucho tiempo, y es así que unos meses mas tarde Sarevok comenzaría un reinado de terror en Puerta de Baldur el cual lo pondría completamente a cargo de la ciudad. La resistencia era destruida mientras que Sarevok comenzaba a levantar un ejército para la conquista en su propio nombre. Si no podía tener el poder divino de su padre, tendría suficiente poder terrenal para saciar su apetito. Sarevok se benefició de muchas mujeres y se satisfacía mientras su nombre se convertía en un epíteto amargo en boca de cada ciudadano de la Costa de la Espada.\n"
+"Las primeras víctimas de su terrible ejército cayeron fácilmente, y el poder de Sarevok crecía. El guerrero se desquició sin embargo, al descubrir que las victorias no le proporcionaban ninguna emoción. El poder sabía como las cenizas, aunque Sarevok intentó muchas veces enloquecer en un frenesí de placer en sus logros. Al final, su trono creció fuerte, y así agradeció con una aceptación temerosa la llegada de los inevitables héroes que le derrotaron sin haber pasado ni un año tras su regreso.\n"
+"Sarevok huyó en la noche, abandonando Puerta de Baldur y sus sueños de poder. Se convirtió en un hombre doblemente perseguido, perseguido por una vida anterior que nunca fue y por una posible vida que nunca pudo ser. Sin un destino o un alma verdaderamente suya, viajó por los Reinos... a veces trayendo el terror y otras veces no trayendo nada excepto su cansado corazón, y tras un tiempo se fue para siempre. Algunos dicen que encontró su destino en el gran desierto, forjando un reino que duraría un siglo. Algunos dicen que viajó por los planos, lanzando una campaña contra el gran Monte Celestia. La verdad se desconoce, sin embargo los relatos todavía persisten."
 
 #: ascension.tra:82725
 msgid ""
@@ -384,12 +597,32 @@ msgid ""
 "own life.  In truth, he journeyed to Kara-Tur to bury his one true love, the"
 " warrior Tamoko.   He never returned, though the stories endure."
 msgstr ""
+"En los años posteriores a su resurrección gracias a <CHARNAME>, Sarevok pasó"
+" muchos años viajando por los Reinos Olvidados, raramente quedándose mucho "
+"tiempo en un mismo sitio. En Berdusk se dice que desvió un ejército de orcos"
+" invasores, mostrando un poder y una furia tan temibles que la gente del "
+"lugar no estaba segura de a quién temer más... sólo para desaparecer "
+"silenciosamente sin esperar una recompensa. En Westgate llegó como un "
+"conquistador, haciendo cumplir brutalmente su voluntad en la ciudad solo "
+"para desvanecerse misteriosamente unos meses después, dejando a sus propios "
+"asustados hombres ante la piedad de las enojadas multitudes. Actuaba como un"
+" hombre que no se conocía a sí mismo, y todas las historias coincidían en "
+"que Sarevok era un alma torturada, equilibrada entre la vida y la muerte, y "
+"nunca alcanzando ninguna. Aquellos que conocieron lo mejor de Sarevok, que "
+"son pocos, dicen que el atormentado guerrero parecía maldecir al legendario "
+"<CHARNAME> por darle una segunda oportunidad... y después agradecérselo. Con"
+" el tiempo desapareció completamente de los Reinos, se dice que asaltó el "
+"mismo Abismo, o incluso que llevó una vida propia. En realidad viajó a Kara-"
+"Tur para enterrar a su único amor verdadero, la guerrera Tamoko. Nunca "
+"regresó, aunque las historias todavía permanecen."
 
 #: ascension.tra:82724
 msgid ""
 "Nalia grew quite powerful after her association with <CHARNAME>.  Initially she traveled, slaking her thirst for magical lore by associating with some of the greatest wizards across the Realms.  She sought to use her great power to bring justice to the land, but over time found that if her time with <CHARNAME> had taught her anything, it is that such power must be tempered with wisdom or it is useless.  She could strike out at evil as she wished... it did not always help the needy, as she thought it would, and after a year of travel she remembered that there was a far better way that she could be of service to her people.\n"
 "Nalia returned to Amn and her family home of de'Arnise Hold.  She found it in the control of none other than Isaea Roenal, but she was no longer the wayward child that he expected, and single-handedly brought him to justice for his indiscretions.  She declared herself the inheritor of her father's ducal title, and for once there was no argument from the local nobility.  They snubbed her and her magic, and initially rejoiced when the Cowled Wizards sought to remove her from power.  Nalia demonstrated to them all that she was no-one to trifle with, however, and the Cowled Wizards learned to fear her name.  Over time Nalia became a beloved ruler, respected archmage, and eventually earned a seat on the Amnish Council of Six itself.  The nobility grew to rely on Nalia's leadership, and she would become a prominent figure in Amn for many years, constantly fighting for the good of the common folk and making many frustrated enemies among the nobility and Cowled Wizards both.  Nalia would die many years later, surrounded by a loving family... her last words would be to thank <CHARNAME> for so long ago showing her the true path she needed to walk."
 msgstr ""
+"Nalia se hizo muy poderosa tras su colaboración con <CHARNAME>. En un principio ella viajaba, saciando su sed de conocimiento mágico uniéndose a los magos más grandes de un lado a otro de los Reinos. Ella pretendía utilizar su gran poder para traer la justicia a estas tierras, pero con el tiempo se dio cuenta de que si algo le había enseñado <CHARNAME> era que tal poder debe ser templado con sabiduría o sería inútil. Ella podía castigar a tanto mal como deseara... pero esto no siempre ayudaba al necesitado, como pensaba que sería, y tras un año de viaje recordó que había una mejor manera en la que se podía poner al servicio de la gente.\n"
+"Nalia regresó a Amn al hogar de su familia en la Fortaleza de'Arnise. Ella la encontró bajo el control de nada menos que Isaea Roenal, pero ella ya no era la desobediente niña que él esperaba, y con poco esfuerzo lo llevó a la justicia por sus indiscrecciones. Se declaró heredera del título ducal de su padre, y por una vez no hubo quejas de la nobleza local. Ellos rechazaban a ella y a su magia, e inicialmente se regocijaron cuando los Magos Encapuchados pensaron en quitarle su poder. Nalia les demostró a todos que no era nadie a quien tomar a la ligera después de todo, y los Magos Encapuchados aprendieron a temer su nombre. Con el tiempo Nalia se convirtió en una gobernante querida, respetada archimaga, y poco a poco se ganó un asiento en el propio Consejo Amniano de los Seis. La nobleza comenzó a confiar en el liderazgo de Nalia, y se convirtió en una sobresaliente figura en Amn durante muchos años, constantemente luchando por el bien de la gente común y haciéndose muchos enemigos frustrados entre la nobleza y los Magos Encapuchados. Nalia moriría muchos años después, rodeada por una cariñosa familia... sus últimas palabras serían agradecer a <CHARNAME> por haberle mostrado hacía tanto tiempo el verdadero camino que necesitaba recorrer."
 
 #: ascension.tra:82723
 msgid ""
@@ -416,6 +649,30 @@ msgid ""
 "She had never settled down and had no children, but her legacy was one that "
 "would go on to inspire her people for generations to come."
 msgstr ""
+"Los peligros a los que Mazzy Fentan se enfrentó junto a <CHARNAME> no la "
+"disuadieron de su ansia de aventura. De hecho, no mucho después de los "
+"sucesos en Tethyr creó los Caballeros Fentan, una decidida banda de héroes "
+"que generaron relatos de un lado a otro de los Reinos. Mazzy siempre apelaba"
+" al nombre de <CHARNAME> cuando incitaba al valor a sus camaradas, o cuando "
+"combatían a la duda y la tentación. <CHARNAME> fue la mejor persona que "
+"Mazzy hubo conocido nunca, y la caballero mediana se dio cuenta de que era "
+"su deber intentar honrar el legado de su viejo amigo. Los Caballeros Fentan "
+"combatieron contra trolls para salvar pueblos en vías de extinción, hicieron"
+" huir mareas de orcos para preservar antiguos bosques, y se enfrentaron a un"
+" pícaro dragón en su propio cubil solo por hacer del mundo un sitio mejor. "
+"Su leyenda fue más larga que su vida, especialmente para Mazzy, y se dice en"
+" ocasiones que si el valor se midiera en centímetros, ella tendría una "
+"altura de seis metros. Fue bien sabido que la coronación del logro de Mazzy "
+"fue el día en el que ella fue declarada paladina honoraria en el gran salón "
+"del Radiante Corazón. El primer mediano en serlo, y también el primer ser no"
+" humano, las calmadas lágrimas de orgullo de Mazzy se derramaban por su cara"
+" mientras el anciano Prelado imponía los más grandes honores de la Orden "
+"sobre sus hombros. Se dice que Mazzy escrutaba la multitud a menudo durante "
+"la ceremonia, y a pesar de todos los viejos amigos que habían sido capaces "
+"de acudir, el rostro que más buscaba era el de <CHARNAME>. Pese a sus "
+"riesgos, Mazzy con el tiempo llegó pacíficamente a una anciana edad madura. "
+"Ella nunca se había establecido y no tenía hijos, pero su legado fue el "
+"único en inspirar a su gente durante las generaciones venideras."
 
 #: ascension.tra:82722
 msgid ""
@@ -443,18 +700,46 @@ msgid ""
 "being in the Realms, he would grow to forge a destiny of his own to rival "
 "his father's.  That, however, is another tale..."
 msgstr ""
+"Los años siguientes a la saga de los Engendros de Bhaal fue generosa con "
+"Jaheira. No podían llamarla pacífica, pero de todas formas, su relación con "
+"<CHARNAME> lo calmaba todo. La suya era una unión inquebrantable, y mientras"
+" el deber o la aventura podía separarlos durante incluso años, siempre "
+"volvían el uno al otro. Sus amigos se maravillaban de lo segura que parecía "
+"ser Jaheira, especialmente considerando su desgana inicial, pero ella se "
+"reía cuando recordaba aquellos primeros cautelosos días. Después de todo, "
+"ella y <CHARNAME> habían estado literalmente en los infiernos y habían "
+"vuelto, y cuando ni los mismos dioses habían podido separarles, ¿qué iban a "
+"hacer unos simples meses y millas? Jaheira iba trepando hasta lo alto de los"
+" rangos de los Arpistas, siempre siendo la voz de la sabiduría y el sentido "
+"en la organización. Ella fue reconocida como una gran heroína y mediadora, "
+"sin embargo nadie se soprendió cuando se iba durante grandes intervalos de "
+"tiempo para viajar con <CHARNAME> a algún lejano lugar de los Reinos. La "
+"pareja fue vista en Noyvern, Rashemen, las grandes estepas sureñas e incluso"
+" en las junglas de Chult. Con el tiempo Jaheira abandonó los Arpistas por "
+"una disputa, desahogada por haberlo hecho y dedicándose a criar al nuevo "
+"hijo de <CHARNAME>. <CHARNAME> los visitaba a menudo, regocijándose en el "
+"gozo de la paternidad... pero siempre su ansia de viaje lo llevaba a "
+"encaminarse otra vez. Jaheira no estaba siempre con <CHARNAME> y no siempre "
+"compartía con ella sus logros y victorias, pero nunca estaría apartada de "
+"él. ¿Y el hijo de <CHARNAME>? Tutelado por dos de los seres más poderosos de"
+" los Reinos, crecería para forjar un destino propio que rivalizara con el de"
+" su padre. Eso, sin embargo, es otra historia..."
 
 #: ascension.tra:82721
 msgid ""
 "The events of the Bhaalspawn saga affected Jaheira deeply.  It was her duty to protect the greater balance of things, but in the years to come she found an increased portion of that fight occurring within her own mind. Witness to great change while in <CHARNAME>'s company, she had become acutely aware of how fleeting life was, and how the loss of those she held dear ate away at her thoughts.  In time she would be known as a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not.  Jaheira operated quietly, appearing when needed and moving on when not.  Many called out to her for leadership, but always Jaheira would deny that she was capable of such and say that there was somewhere else that needed her aid more.  She remained distant and guarded, never staying long in any one place.  It is said that she crossed the Forgotten Realms thrice over, always wandering and always searching... until finally she began to wonder what it was, in truth, that she was searching for.\n"
 "What happened to Jaheira later in life is not well-known.  Some say that Elminster eventually came to her and convinced her to take her place amongst the greatest commanders of the mysterious Harpers.  Some say that she fell in battle against a great lich that threatened to defile the northern forests.  Some also say that she went in search of <CHARNAME>, traveling to lands far beyond our own.  Whatever happened to her, Jaheira never did return to either the Sword Coast or Tethyr ever again."
 msgstr ""
+"Los sucesos de la saga de los Engendros de Bhaal afectaron profundamente a Jaheira. Era su deber proteger el gran equilibrio de las cosas, pero en los años siguientes descubrió una creciente porción de esa lucha sucediéndose en el interior de su propia mente. Testigo del gran cambio mientras estaba en compañía de <CHARNAME>, ella había estado extremadamente alerta por cómo era de corta la vida, y cómo la pérdida de aquellos que ella creía que quería se mantenía lejos de sus pensamientos. Ella sería conocida a tiempo como una incansable campeona del equilibrio, una que a veces actuaba de acuerdo con los Arpistas y otras no. Jaheira operaba silenciosamente, apareciendo cuando se la necesitaba y desplazándose cuando no. Muchos la reclamaban para que les liderara, pero Jaheira siempre negaría que fuera capaz de ello y decía que había algún otro lugar en el que necesitaban más su ayuda. Ella permanecía distante y precavida, no estableciéndose mucho tiempo en un mismo lugar. Se dice que cruzó los Reinos Olvidados tres veces, siempre viajando y siempre buscando... hasta que finalmente comenzó a imaginarse lo que era en realidad lo que estaba buscando.\n"
+"Lo que le sucediese a Jaheira más tarde no se sabe con certeza. Unos dicen que Elmínster tras un tiempo fue a ella y la convenció para que tomara un lugar entre los grandes comandantes de los misteriosos Arpistas. Algunos dicen que cayó en una batalla contra un gran lich que amenazaba con contaminar los bosques norteños. Otros también dicen que fue en busca de <CHARNAME>, viajando a tierras más lejanas de las nuestras. Sea lo que fuera lo que le pasó, Jaheira nunca volvió ni a la Costa de la Espada ni a Tethyr jamás."
 
 #: ascension.tra:82731
 msgid ""
 "And what of Imoen, the eternal child?  She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken.  She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>.  She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes.  Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps.  Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
 "Many are the tales of the archmage that Imoen became.  She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed.  Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend.  She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months.  The exact truth of the tale is unknown... though it's certainly not  unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented.  Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\".  At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme.  It seems that some people, thankfully, will never change."
 msgstr ""
+"¿Y que hay de Imoen, la eterna niña? Ella había estado pensando mucho durante sus viajes con <CHARNAME>, cosas que ella habría rechazado discutir más tarde en la vida, pero su espíritu nunca había sido roto. Ella se separó de sus compañeros para buscar su propio destino, lejos de la sombra de su hermano. Ella volvió a Candelero durante un corto tiempo, su formidable habilidad en la magia le garantizó un gran reconocimiento para sus tomos. Aquí pudo recordar tiempos más simples con <CHARNAME> y Gorion, y se alegró de haber seguido los pasos de su padre adoptivo. Aunque le pedían que se quedara, Imoen en un tiempo decidió que Candelero era mucho más pequeño de lo que recordaba y lo dejó para buscar aventuras fuera.\n"
+"Muchos son los relatos de la archimaga en la que se convirtió Imoen. Ella llevó muchos otros nombres durante su vida, algunos misteriosos y premonitivos mientras que otros eran estrafalarios y raros considerando el poder que poseía esta gran mujer. Cualquiera que hubiera conocido a Imoen en su juventud inmediatamente la reconocería a pesar de cualquier nombre, sin embargo... ninguna cantidad de años o sabiduría podía disfrazar los pícaros parpadeos en sus ojos o la amplia sonrisa lista para saludar a un amigo. Se convirtió en la confidente de Khelben \"Báculo Oscuro\" Arunsun y fue asociada con un relato que involucraba al gran Elmínster, supuestamente había hurgado el bolsillo del sabio un día y le llevó a éste a una jovial búsqueda mágica por todo Faerun durante cuatro meses. La verdad exacta del relato es desconocida... aunque ciertamente Imoen quería animar a un viejo excéntrico a que no fuera tan chapado a la antigua, y su posterior amistad con Elmínster está bien documentada. Relatos posteriores dicen que Imoen fundó una cofradía de ladrones que operaba a lo largo de Noyvern, enfrentados con los Ladrones de las Sombras y los Zhentarim e incluso se batieron en duelo con un dragón porque (según la historia) \"era un grosero\". Se sabía que a veces Imoen recordaba a su viejo amigo, <CHARNAME>, y sonreía con tristeza... e inmediatamente era poseída por un pensamiento malvadamente divertido que la hacía recapacitar en su siguiente plan. Parece que alguna gente, afortunadamente, nunca cambiará."
 
 #: ascension.tra:82720
 msgid ""
@@ -480,6 +765,28 @@ msgid ""
 "pleased to finally settle down for once --- until the next misunderstanding "
 "occurred, of course."
 msgstr ""
+"Haer'Dalis descubrió viajando con <CHARNAME> una buena introducción a los "
+"Reinos, y una vez que se separaron estaba ansioso por ver más. Visitó "
+"lugares tan variados como Aguas profundas, Noyvern, y Thay, dispersando los "
+"relatos de sus hazañas con <CHARNAME>... y acabando siempre de alguna forma "
+"en medio de tantas aventuras como había tenido una vez. Con el tiempo "
+"Haer'Dalis se encontraría inmerso en problemas locales de una u otra forma, "
+"y que le llevarían a volver a ponerse en camino otra vez. Eso era bueno para"
+" él, sin embargo el bardo admitiría que solo entendía contadas veces algunas"
+" de las peculiaridades de estos Primarios y deseaba la grandeza que "
+"recordaba de los planos. Haría amistad por casualidad con una viajera hembra"
+" Cambion y volvió con ella gustosamente al Abismo... solo para terminar "
+"involuntariamente liderando una revuelta en varias capas de los infiernos. "
+"Más tarde, el tiefling se recrearía escuchando historias de que había "
+"obligado mediante la fuerza al gran Graa'zt en la mesa de negociaciones, una"
+" posición embarazosa para un señor de los demonios tan grande... sin embargo"
+" Haer'Dalis nunca verificaría la verdad del relato. Un tiempo más tarde, "
+"Haer'Dalis ya era el hombre más perseguido de los planos... pero la ira de "
+"sus enemigos no podía competir con su ansia viajera, y al final encontró el "
+"camino de vuelta a la ciudad de Sigil, ileso a pesar de todo. Allí volvió a "
+"unirse a su querida Raelis y a su compañía teatral, encantado de "
+"establecerse finalmente de una vez --- hasta que suceda el próximo "
+"malentendido, por supuesto."
 
 #: ascension.tra:82718
 msgid ""
@@ -509,6 +816,33 @@ msgid ""
 "reminder that even the most flawed amongst us may eventually find their "
 "balance."
 msgstr ""
+"Cernd dejó la vida aventurera para volver a su arboleda en Tethyr, "
+"prometiendo ocupar su responsabilidad y criar a su hijo, Ahsdale, como creía"
+" que debería de hacer un padre. Cernd iría convirtiéndose con el tiempo en "
+"el Gran Druida haciéndose un nombre a lo largo de los reinos no solo por "
+"combatir por el equilibrio de su arboleda sino por protejer la santidad de "
+"la vida en todos los reinos y en todas las gentes. Cernd descubriría a "
+"tiempo, a su regreso, que debido a la atención a su deber había olvidado su "
+"promesa para con Ahsdale. Su hijo había dejado la arboleda mucho antes y "
+"Cernd supo que Ahsdale se había convertido en un mago malvado y retorcido a "
+"cargo de un poder que amenazaba la Costa de la Espada. Decidido a que ésta "
+"era una carga a la que tenía que enfrentarse sólo, Cernd abdicó solemnemente"
+" como Gran Druida y buscó a su hijo. Se involucró en muchas batallas contra "
+"las fuerzas de su hijo, llevando a las fuerzas de la naturaleza con una gran"
+" ferocidad que sería tratada como legendaria por todos los que la vieron. "
+"Cernd se enfrentó finalmente con Ahsdale en la profundidad del Bosque de "
+"Tethyr, e hizo un esfuerzo final para convencerle de que se alejara de ese "
+"camino. Ahsdale lo rechazó, y Cernd luchó contra su único hijo en una larga "
+"y terrible batalla que al final llevaría a ambos a sus respectivas muertes. "
+"Con su último aliento, Cernd se arrastraría por el suelo para agarrar la "
+"mano inerte de Ahsdale, con las lágrimas derramándose por su cara mientras "
+"suplicaba el perdón de su hijo. El espíritu de Cernd entraría así en un gran"
+" roble del bosque, y se cree que este inmortal roble todavía se mantiene en "
+"pie y que a su alrededor ha crecido una asombrosa arboleda de gran belleza "
+"que es el hogar de las más raras criaturas mágicas de los Reinos. Con cada "
+"otoño, el gran roble y la arboleda alrededor suyo se vuelven del mismo "
+"sombrío tono de rojo, un recordatorio de que incluso el más lleno de "
+"defectos de entre nosotros puede acabar encontrando su equilibrio."
 
 #: ascension.tra:82717
 msgid ""
@@ -533,6 +867,28 @@ msgid ""
 "Realms, forge a legend to rival that of her mother's.  That, however, is "
 "another story completely..."
 msgstr ""
+"Anomen y <CHARNAME> continuaron de aventuras hasta que fueron conocidos como"
+" héroes en casi cualquier lugar al que iban. Muchos fueron los grandes "
+"relatos del Brillante Caballero y su completa devoción a su gran dama. El "
+"pasado de <CHARNAME> como el terrible Engendro de Bhaal fue olvidado para "
+"siempre mientras nuevas hazañas sustituían a las antiguas y fue creado un "
+"legado que dejaba muy atrás cualquier cosa relacionada con su sangre divina."
+" Sus carreras eran tan prolíficas que la fecha propuesta para su boda se iba"
+" retrasando, o por impedir una crisis o por alguna lucrativa aventura que o "
+"uno u otro insistía en investigar. Finalmente se aproximó una fecha que se "
+"aproximaba a lo que <CHARNAME> y su amado habían determinado mantener, y el "
+"tan anunciado evento atrajo héroes y dignatarios de todo Faerun. La pareja "
+"había contactado con las vidas de muchos, y aquella gente llegaba en manadas"
+" a observar al propio Elmínster unir a ambos en una de las más grandes "
+"ceremonias que la ciudad de Puerta de Baldur había visto nunca. Anomen y "
+"<CHARNAME> se retiraron de la vida pública poco después del celebrado "
+"nacimiento de su hija, sin embargo si las historias son verdad, sus "
+"aventuras nunca terminaron realmente. Anomen alcanzaría lo alto de la "
+"jerarquía de su iglesia, y <CHARNAME> continuaría siendo el centro de "
+"extraños sucesos durante sus vidas. Así, también, su hija, tutelada por dos "
+"de los más grandes héroes de los Reinos, forjaría una leyenda que "
+"rivalizaría con la de su madre. Eso, sin embargo, es otra historia "
+"completamente..."
 
 #: ascension.tra:82716
 msgid ""
@@ -559,6 +915,30 @@ msgid ""
 " be regarded as a hero, inspiring the creation of a protective order of "
 "knights in his name.  A new order for a new land."
 msgstr ""
+"Tras separarse de sus compañeros, Anomen entraría en la jerarquía de la "
+"iglesia de Helm, y con el tiempo alcanzando el rango de Alto Vigía. Se quedó"
+" inquieto e insatisfecho, recordando sus días de aventuras con <CHARNAME>..."
+" y aunque muchos amigos lo necesitaban a pesar de todo, Anomen nunca sintió "
+"que la iglesia fuera su verdadero hogar. Siguió en su posición durante un "
+"año hasta que finalmente no pudo aguantar más. Dejó la responsabilidad "
+"activa en la iglesia y, durante un tiempo, recorrió la nueva tierra de "
+"Maztica como misionario. Anomen seguía siendo un alma inquieta, todavía no "
+"se contentaba incluso aunque sus gestas le proporcionaban un gran respeto "
+"por parte de los nuevos amigos que encontró. Cuando el poderoso sacerdote "
+"malvado Yamash invocó una horda de demonios en un intento de librar Maztica "
+"de toda vida, Anomen encontraría al fin su propósito. Él sólo fue el "
+"responsable de organizar a los desarrapados restos de los soldados amnianos "
+"y los locales mazticanos en un ejército unido que resistió contra el "
+"sacerdote oscuro. En la gran batalla que siguió, Anomen fue visto por todos "
+"desplomarse en combate singular contra Yamash. No tenía a <CHARNAME> ni a "
+"los otros compañeros a su lado: sólo, se levantó contra la marea del mal, y "
+"por primera vez no estaba deseándolo. Él fue visto por última vez a "
+"distancia, derramando lágrimas de emoción cuando encaraba a Yamash y "
+"gritando a Helm mientras canalizaba un cegador destello de poder. Cuando "
+"cesó, el sacerdote y Anomen se habían ido. La batalla fue ganada y Maztica "
+"salvada. Anomen tras ser respetado como un héroe, inspiraría la creación de "
+"una orden protectora de caballeros en su nombre. Una nueva orden para una "
+"nueva tierra."
 
 #: ascension.tra:82715
 msgid ""
@@ -582,6 +962,27 @@ msgid ""
 "<CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, "
 "their own destiny would be a tale to rival their father's..."
 msgstr ""
+"Aerie y <CHARNAME> demostraron ser inseparables, continuando sus aventuras "
+"durante muchos años en el futuro. El entusiasmo de Aerie por el viaje llevó "
+"a la pareja por la mayor parte de Faerun e incluso más allá. Su joven hijo "
+"fue siempre a remolque, haciendo sonreír a <CHARNAME> con sus abiertos ojos "
+"de pasmo debido a las maravillas del mundo. En un tiempo la pareja se "
+"establecería, dando nacimiento posteriormente a una hermosa hija que fue la "
+"segunda alegría de sus vidas. Solo pocas veces los problemas harían que "
+"<CHARNAME> y Aerie trajeran su gran poder para resistir contra el mal del "
+"mundo, aunque los relatos de sus batallas se convertirían en legendarios. "
+"Sus últimos años mantendrían una última gran expedición, mientras que Aerie "
+"todavía sentía tristeza de sus tiempos de esclavitud y la pérdida de sus "
+"alas. Juntos, ella y <CHARNAME> buscaron a los avariel de Faenya-Dail, los "
+"elfos alados de los que había sido secuestrada mucho tiempo atrás. Ellos "
+"descubrieron no sólo a su gente, sino a cariñosos padres que habían estando "
+"buscando durante años a su hija perdida. Aerie había encontrado finalmente a"
+" su familia. Sin ningún misterio o confusión más que nublara sus vidas, fue "
+"allí, entre las nubes, que Aerie y <CHARNAME> se casarían finalmente. Su "
+"unión, se dice, fue bendecida por la presencia de Aerdrie Faenya y Baervan "
+"el Viajero Indómito. En cuanto a los hijos de <CHARNAME> y Aerie, tutelados "
+"por dos de los más poderosos seres de los Reinos, su propio destino sería un"
+" relato que rivalizaría con el de su padre..."
 
 #: ascension.tra:82714
 msgid ""
@@ -607,6 +1008,29 @@ msgid ""
 "She sincerely hoped her friend had been fortunate enough to find the peace "
 "that she had... for without <CHARNAME>, it would never have been possible."
 msgstr ""
+"Aerie continuó sus aventuras tras años después de dejar la compañía de "
+"<CHARNAME>, a menudo viajando con un gran grupo pero a veces yendo sola para"
+" utilizar su considerable poder para luchar contra la esclavitud en los "
+"Reinos. Su compasión creció teñida por la venganza, sin embargo; venganza "
+"por lo que había sido tomado de ella cuando estaba encadenada y no podía ser"
+" restaurado. Ella pudo quizá haberse dejado llevar por su venganza "
+"completamente, si la fortuna no le hubiera sonreido. La historia dice que "
+"Aerie, repleta de una furia justiciera, destruyó un enclave esclavista en "
+"las colinas del norte de Cormyr fácilmente. Se sorprendió al encontrar un "
+"grupo de elfos avariel que habían sido mantenidos prisioneros allí y "
+"rápidamente los liberó, a cambio la invitaron a volver a su reino de Faenya-"
+"Dail perdido hace tanto. Aprendió mucho mientras estuvo allí. Y lo más "
+"importante, descubrió que ella no sería más una avariel de verdad, y dejó "
+"para siempre de pensar en las alas que había perdido. Faenya-Dail no era ya "
+"su hogar, y con una mezcla de sentimientos se despidió de él. Se dice que "
+"Aerie se convirtió al final en una alta sacerdotisa en Understone, una aldea"
+" gnoma de la que su mentor Quayle había hablado alguna vez. Él había sido su"
+" verdadera familia, y fue entre su gente que finalmente encontró la "
+"felicidad y la familia que había buscado tanto. También se dice que Aerie "
+"rezaba por su viejo amigo, <CHARNAME>, cada noche ya que las estrellas "
+"divulgaban sus rezos por el cielo. Ella esperaba sinceramente que su amigo "
+"hubiera sido suficientemente afortunado para encontrar la paz que ella "
+"tenía... ya que sin <CHARNAME>, esto nunca habría sido posible."
 
 #: ascension.tra:82760
 msgid ""
@@ -626,6 +1050,22 @@ msgid ""
 " to give a final thanks for the peace he had found and to see for himself "
 "the humble beginnings of a legend."
 msgstr ""
+"Tras su vuelta a Amkethran, Balthazar comenzó a experimentar cambios para "
+"mejor. Había aprendido bien de su amigo y hermano el significado de la "
+"palabra \"Bien\". Siempre llevó su culpa con él; un recordatorio para no "
+"cometer los mismo errores otra vez. Los elementos criminales que quedaban "
+"fueron rápidamente alejados de su puesto, lo cuál atrajo nuevos pobladores y"
+" mercaderes. Con los años, Amkethran evolucionó en una ciudad próspera y "
+"centro cultural de toda la región, reputada por su paz y compasión. "
+"Balthazar fue también parte principal de la creación de la Guardia "
+"Monástica; un grupo de élite de Paladines y Monjes que juraban proteger al "
+"pueblo de la tiranía bajo cualquier forma. Sus hazañas rápidamente le "
+"hicieron ganar el respeto y confianza de su gente. En los siguientes años de"
+" Balthazar finalizó su trabajo, y se dice que puede ser encontrado muy a "
+"menudo contemplando el cielo nocturno y recordando a <CHARNAME>. Más tarde, "
+"Balthazar dejaría Amkethran para siempre en un peregrinaje a Candelero... "
+"para dar por última vez las gracias por la paz que había encontrado y para "
+"ver por sí mismo los humildes inicios de una leyenda."
 
 #: ascension.tra:82785
 msgid ""
@@ -650,17 +1090,43 @@ msgid ""
 "destined to be the victor, even as a stake pierced the still black heart of "
 "Bodhi, one who was as damned in life as she was in death."
 msgstr ""
+"Bodhi había probado el poder divino en la forma del alma de <CHARNAME>. Al "
+"desaparecer los últimos vestigios de esto con el tiempo, comenzó a desear "
+"más, desembocando en un amargo odio mientras se convertía en su obsesión "
+"alcanzar tales cotas otra vez. La gente de arriba y abajo de la Costa de la "
+"Espada venía para descubrir con miedo cómo Bodhi se bañaba en su sangre, "
+"saciando su apetito de caos y muerte. Los pueblos comenzaron a dejar gente "
+"atada por la carretera como una ofrenda a la cosa que acechaba la noche. Su "
+"nombre se convirtió en un apodo del terror, con los templos a lo largo y "
+"ancho intentando en vano cazarla. Más adelante encontraron a un poderoso "
+"clérigo al que le había drenado la sangre, con la agonía grabada sobre sus "
+"pálidas facciones. Con el tiempo Bodhi sintió la gélida garra de la "
+"maldición que permanecía en ella. La desesperación mezclada con el temor "
+"rasgó cada fibra de su ser. El deseo por el caos se desvanecía y ella "
+"luchaba para sobrevivir una vez más. La ambición, la cual había impulsado "
+"una vez a susurrar sueños de grandeza en el oído de su hermano, ahora le "
+"traía al lugar que ella había llamado hogar tiempo atrás, Suldanessallar. "
+"Ellesime la recibió en las puertas. En las puertas en las que Bodhi bailó "
+"por última vez. La venganza ardía brillantemente en ambas, y llamaba a la "
+"sangre. El poder del Árbol de la Vida alcanzó a Bodhi, y la memoria de "
+"Joneleth clamó a Ellesime. Las dos abrazadas, y así fue la venganza que "
+"estaba destinada a ser la vencedora, incluso cuando una estaca perforaba el "
+"todavía negro corazón de Bodhi, aquella que estaba tan condenada en la vida "
+"como lo estaba en la muerte."
 
 #: balth.tra:1060
 msgid ""
 "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I "
 "was not the only member of the Five who plotted the downfall of the others."
 msgstr ""
+"Ojalá pudiera atribuirme esta estratagema, <CHARNAME>. Pero parece que no "
+"fuí el único miembro de los Cinco que planeó la caida de los otros."
 
 #: balth.tra:1072
 msgid ""
 "You won't be the first to try and kill me... and probably not the last!"
 msgstr ""
+"¡Vos no seréis el primero en intentar matarme... ni el último probablemente!"
 
 #: balth.tra:1074
 msgid ""
@@ -668,6 +1134,9 @@ msgid ""
 "against evil is without question.  Your fight against the taint of our evil "
 "father is worthy of praise."
 msgstr ""
+"Es verdad. Sois un buen hombre, <CHARNAME>, y vuestra postura contra el mal "
+"está fuera de toda duda. Vuestra lucha contra la deshonra de nuestro malvado"
+" padre es digna de elogio."
 
 #: balth.tra:1075
 msgid ""
@@ -676,6 +1145,10 @@ msgid ""
 "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
 "has done so much to fight true evil."
 msgstr ""
+"No siento la bondad innata en vos, <CHARNAME>... aunque vuestras hazañas "
+"sean proclamadas a los cuatro vientos como irreprochables. Es... interesante"
+" que alguien como vos, que debe luchar tanto contra la mancha de nuestro "
+"padre en su interior, haya hecho tanto en la lucha contra el verdadero mal."
 
 #: balth.tra:1076
 msgid ""
@@ -683,6 +1156,9 @@ msgid ""
 "above reproach.  I sense only a soul that struggles with our father's taint,"
 " that struggles to find the good path where none exists."
 msgstr ""
+"Veo la bondad que hay en vos, <CHARNAME>, pero vuestros actos apenas son "
+"irreprochables. Sólo intuyo un alma en lucha contra la mancha de nuestro "
+"padre, que pelea por encontrar el buen camino cuando no hay ninguno."
 
 #: balth.tra:1077
 msgid ""
@@ -690,6 +1166,9 @@ msgid ""
 "deeds above reproach.  I sense only a soul struggling against the taint of "
 "<PRO_HISHER> father, much like mine own."
 msgstr ""
+"No siento que haya bondad innata en vos, <CHARNAME>. No creo que vuestras "
+"hazañas sean irreprochables. Sólo siento un alma en lucha contra la mancha "
+"de su padre, como la mía."
 
 #: balth.tra:1078
 msgid ""
@@ -698,6 +1177,11 @@ msgid ""
 "its efforts to exert chaos upon my life.  I have mastered it... but only "
 "barely.  Too well I know what it is capable of."
 msgstr ""
+"De hecho, soy la persona perfecta para juzgar, <CHARNAME>. Yo, también, "
+"llevo la marca de nuestro padre dentro de mi. Yo, también, he sentido su "
+"anhelo por la sangre, sus esfuerzos por imponer el caos en mi vida. He "
+"conseguido dominarlo... pero a duras penas. Sé demasiado bien de lo que es "
+"capaz."
 
 #: balth.tra:1079
 msgid ""
@@ -707,6 +1191,11 @@ msgid ""
 "well what the taint in our soul is capable of.  Only barely do I keep it "
 "mastered."
 msgstr ""
+"Por supuesto. Nuestra lacra no nos trae paz alguna, ¿verdad, <CHARNAME>? "
+"Luchamos en defensa propia y aún así matamos, aún así traemos la "
+"destrucción. Podremos alegar falta de responsabilidad, si así lo queremos, "
+"pero sé demasiado bien de lo que es capaz la mancha de nuestra alma. A duras"
+" penas consigo dominarla."
 
 #: balth.tra:1080
 msgid ""
@@ -714,6 +1203,9 @@ msgid ""
 " know too well the thirst for death that comes with the taint of our sire.  "
 "I have mastered it, but only barely... I pity those who are a slave to it."
 msgstr ""
+"No esperaría otra cosa de un verdadero hermano mío. Conozco demasiado bien "
+"la sed de muerte que conlleva la mancha de nuestro padre. La he dominado, "
+"pero a duras penas... Compadezco a los que son esclavos de ella."
 
 #: balth.tra:1081
 msgid ""
@@ -721,6 +1213,9 @@ msgid ""
 "depraved existence exists to fight against evil in this world, then you "
 "expect far too much."
 msgstr ""
+"No me hagáis reir, <CHARNAME>. Si esperáis que me crea que vuestra depravada"
+" existencia tiene como fin la lucha contra el mal en este mundo, es que "
+"esperáis demasiado."
 
 #: balth.tra:1082
 msgid ""
@@ -729,30 +1224,39 @@ msgid ""
 "it... but each and every Bhaalspawn has a seed within them that has sprung "
 "forth a fruit laden with blood and murder.  Do you deny this?"
 msgstr ""
+"Pero nuestro destino está escrito, nos guste o no, <CHARNAME>. Algunos "
+"huirán de él o lo negarán, mientras que otros lo abrazarán... pero cada uno "
+"de los hijos de Bhaal lleva una semilla en su interior que da un fruto "
+"cargado de sangre y asesinato. ¿Acaso lo negáis?"
 
 #: balth.tra:1083
 msgid "Are you implying that you are somehow different, Balthazar?"
-msgstr ""
+msgstr "¿Estáis diciendo que vos sois de algún modo diferente, Balthazar?"
 
 #: balth.tra:1084
 msgid "I have only ever acted when it was necessary, in self-defense."
-msgstr ""
+msgstr "Sólo he actuado cuando ha sido necesario, en defensa propia."
 
 #: balth.tra:1085
 msgid ""
 "You would make us out to be victims of circumstance rather than masters of "
 "our own destiny."
 msgstr ""
+"Nos hacéis parecer víctimas de las circunstancias más que dueños de nuestro "
+"destino."
 
 #: balth.tra:1086
 msgid "I deny nothing.  Death comes for all who stand in my way."
 msgstr ""
+"No niego nada. La muerte espera a todos los que se interponen en mi camino."
 
 #: balth.tra:1087
 msgid ""
 "I am death incarnate, fool!  Not some weak fool wrapped in denial like "
 "yourself!"
 msgstr ""
+"¡Soy la muerte encarnada, insensato! ¡No un débil estúpido envuelto en una "
+"negación como vos!"
 
 #: balth.tra:1088
 msgid ""
@@ -763,6 +1267,12 @@ msgid ""
 "wishes, has it not?  Do you deny that you bring violence and destruction "
 "wherever you go, <CHARNAME>?"
 msgstr ""
+"No dudo que sabéis de lo que hablo. La mancha es fuerte en vos... más fuerte"
+" que en cualquier otro vástago de nuestro padre que haya visto. ¿Vos habéis "
+"sentido los sueños, los deseos, no es así? El caos de vuestro destino ha "
+"desgarrado vuestra vida, sin tener en cuenta vuestros deseos, ¿verdad? "
+"¿Acaso negáis que lleváis violencia y destrucción allá donde váis, "
+"<CHARNAME>?"
 
 #: balth.tra:1089
 msgid ""
@@ -770,6 +1280,9 @@ msgid ""
 "fight against the evil that Bhaal's legacy brings to this world.  I have "
 "faced the evil within me and I have mastered it."
 msgstr ""
+"No soy en absoluto como vos. Mi vida es luchar contra el caos de mi lacra, "
+"luchar contra el mal que el legado de Bhaal trae a este mundo. Me he "
+"enfrentado al mal que hay en mi y lo he dominado."
 
 #: balth.tra:1090
 msgid ""
@@ -777,6 +1290,9 @@ msgid ""
 "see a larger purpose behind it... I seek to end the possibility of Bhaal's "
 "return forever, and to wipe his taint from the land."
 msgstr ""
+"No. He traido mi parte de muerte y destrucción a esta tierra. Pero veo un "
+"propósito mayor detrás... busco acabar con la posibilidad de que Bhaal "
+"regrese para siempre, y borrar su huella de la faz de la tierra."
 
 #: balth.tra:1091
 msgid ""
@@ -785,6 +1301,9 @@ msgid ""
 "holds for all of FaerÃ»n.  I will not allow this.  I have dedicated my life "
 "to preventing it."
 msgstr ""
+"He dominado el poder que hay en mí y mantenido a raya el mal, pero sé muy "
+"bien... o incluso mejor... que la mayoría de mis hermanos la amenaza que "
+"supone para todo Faerun. No permitiré esto. He dedicado mi vida a evitarlo."
 
 #: balth.tra:1092
 msgid ""
@@ -794,39 +1313,55 @@ msgid ""
 "would have become of us?  I regret what I must do, yet I know it must be "
 "done."
 msgstr ""
+"Ojalá nos hubiéramos conocido en otras circunstancias, <CHARNAME>... Me "
+"hubiera gustado sentarme a comparar los caminos que nos han traido hasta "
+"aquí. Si no hubiéramos sido obligados por el destino a cargar con esta lacra"
+" en nuestras almas, ¿qué habría sido de nosotros? Lamento lo que debo hacer,"
+" pero sé que debe hacerse."
 
 #: balth.tra:1093
 msgid ""
 "And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
 " her plans?"
 msgstr ""
+"Y entonces, ¿qué pasa con Melissan? ¿Queda libre para levantar a Bhaal y "
+"completar sus planes?"
 
 #: balth.tra:1094
 msgid ""
 "You don't have to do this, Balthazar.  We don't have to fight each other."
 msgstr ""
+"No tenéis por qué hacer esto, Balthazar. No tenemos por qué luchar entre "
+"nosotros."
 
 #: balth.tra:1095
 msgid ""
 "You don't honestly see yourself as the force of righteousness in all this, "
 "do you?"
 msgstr ""
+"¿Vos realmente no os véis como la fuerza de la rectitud en todo esto, "
+"verdad?"
 
 #: balth.tra:1096
 msgid "Enough talk, then.  Let's get this over with."
-msgstr ""
+msgstr "Basta de charla entonces. Acabemos con esto."
 
 #: balth.tra:1097
 msgid ""
 "Of course not.  It is she that holds the key to Bhaal's resurrection.  After"
 " you are dead, she too must be destroyed."
 msgstr ""
+"Por supuesto que no. Ella es la que guarda la llave para resucitar a Bhaal. "
+"Tras vuestra muerte, ella también debe ser destruida."
 
 #: balth.tra:1098
 msgid ""
 "Then we should fight her together!  How do you know she still can't summon "
 "Bhaal... everything you've fought for will be for nothing!"
 msgstr ""
+"¡Entonces deberíamos luchar juntos contra ella! ¿Cómo sabéis que ella no "
+"puede invocar todavía a Bhaal...? ¡Todo por lo que habéis luchado habrá sido"
+" para nada!"
 
 #: balth.tra:1099
 msgid ""
@@ -834,6 +1369,9 @@ msgid ""
 "that maybe you've been helping her all along, that she's been playing you "
 "like a harp?"
 msgstr ""
+"¿Y la váis a parar vos sólo? ¿Os habéis parado a pensar que a lo mejor la "
+"habéis estado ayudando todo este tiempo, que os ha estado manejando como a "
+"una marioneta?"
 
 #: balth.tra:1100
 msgid ""
@@ -841,6 +1379,9 @@ msgid ""
 "Once you have all that power and it's yours alone... you think you're going "
 "to resist that?"
 msgstr ""
+"¿Otra muerte que añadir a vuestra cuenta? Y una vez la matéis, ¿luego qué? "
+"Una vez tengáis todo ese poder y sea sólo vuestro... ¿Creéis que váis a "
+"poder resistiros?"
 
 #: balth.tra:1101
 msgid ""
@@ -848,6 +1389,9 @@ msgid ""
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
 "making the peasants miserable."
 msgstr ""
+"¿Qúe os hace pensar que podríais matarla? Yo soy el que ha derrotado a todos"
+" los hijos de Bhaal... mientras que vos no habéis hecho nada más que "
+"esconderos en esta fortaleza amargando la vida a los campesinos."
 
 #: balth.tra:1102
 msgid ""
@@ -855,14 +1399,17 @@ msgid ""
 "see some more evil once Melissan is dead, too?  You'd probably make a "
 "promising Lord of Murder, you know..."
 msgstr ""
+"Pensaba que os mataríais tras mi muerte. ¿Seguro que no veréis también más "
+"maldad una vez Melissan haya muerto? Seguramente seríais un prometedor Señor"
+" del Asesinato, sabéis..."
 
 #: balth.tra:1103
 msgid "Forget it.  This is pointless.  Let's just get this over with."
-msgstr ""
+msgstr "Olvidadlo. Esto no tiene sentido. Acabemos con esto de una vez."
 
 #: balth.tra:1104
 msgid "Fight her together?"
-msgstr ""
+msgstr "¿Luchar juntos contra ella?"
 
 #: balth.tra:1105
 msgid ""
@@ -870,6 +1417,9 @@ msgid ""
 "be weakened... you could end my life there and everything I have been "
 "working towards will be for nothing."
 msgstr ""
+"No. ¿Cómo podría confiar en vos? ¿Qué pasaría si derrotamos a Melissan? Yo "
+"me debilitaría... podríais acabar con mi vida y todo por lo que he trabajado"
+" habría sido para nada."
 
 #: balth.tra:1106
 msgid ""
@@ -877,10 +1427,14 @@ msgid ""
 "  We must... end this, <CHARNAME>.  I wish this to be over with, one way or "
 "the other."
 msgstr ""
+"Había pensado que llegado este momento, me mantendría firme en mi propósito."
+" Debemos... acabar con esto, <CHARNAME>. Quiero que se acabe, de un modo u "
+"otro."
 
 #: balth.tra:1107
 msgid "Alright, Balthazar.  If that's what you want... let's end this now."
 msgstr ""
+"De acuerdo, Balthazar. Si eso es lo que queréis... acabemos con esto ahora."
 
 #: balth.tra:1108
 msgid ""
@@ -888,31 +1442,38 @@ msgid ""
 " you.  My heart tells me that you must be killed, but I am not sure if I "
 "should listen to it.  What... what would you have me do?"
 msgstr ""
+"No sé qué decir, <CHARNAME>. Me preguntáis, y no encuentro las respuestas "
+"adecuadas para vos. Mi corazón me dice que debéis morir, pero no estoy "
+"seguro de si debería escucharlo. ¿Qué... qué queréis que haga?"
 
 #: balth.tra:1109
 msgid ""
 "Join me, Balthazar.  Let us fight Melissan together, instead of doing what "
 "she wants us to."
 msgstr ""
+"Únete a mi, Balthazar. Luchemos juntos contra Melissan, en vez de hacer lo "
+"que quiere que hagamos."
 
 #: balth.tra:1110
 msgid "I don't know, Balthazar.  But I don't want to fight you."
-msgstr ""
+msgstr "No lo sé, Balthazar. Pero no quiero luchar contra vos."
 
 #: balth.tra:1111
 msgid ""
 "Let us fight, then, if it must be.  Let me give you some peace at last."
-msgstr ""
+msgstr "Luchemos entonces, si no hay otro remedio. Déjame daros al fin paz."
 
 #: balth.tra:1112
 msgid ""
 "You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
 "have an appointment with god-hood."
 msgstr ""
+"Sois más estúpido de lo que pensaba. Acabemos con esto ahora, ¿de acuerdo? "
+"Tengo una cita con la deidad."
 
 #: balth.tra:1113
 msgid "Yes... you are right."
-msgstr ""
+msgstr "Sí... tenéis razón."
 
 #: balth.tra:1114
 msgid ""
@@ -920,6 +1481,9 @@ msgid ""
 "<PRO_MANWOMAN>.  Perhaps even worthy of turning Bhaal's dark taint and "
 "making something better of it.  I do not know.  But I will take that chance."
 msgstr ""
+"Muy bien, <CHARNAME>. Me uniré a vos. Sois un hombre digno. Quizás incluso "
+"digno de convertir la lacra oscura de Bhaal en algo mejor. No lo sé. Pero "
+"correré el riesgo."
 
 #: balth.tra:1115
 msgid ""
@@ -928,10 +1492,14 @@ msgid ""
 " to hold out against us both.  I have preparations to make, <CHARNAME>.  Go "
 "to the Throne of Bhaal.  When the time comes, I will be there."
 msgstr ""
+"Que Melissan tiemble cuando nos vea juntos, y la derrotaremos como se "
+"merece. Aunque resucite el mismo Bhaal, no podrá contra nosotros dos. Debo "
+"hacer preparativos, <CHARNAME>. Id al Trono de Bhaal. Cuando llegue la hora,"
+" allí estaré."
 
 #: balth.tra:1116
 msgid "I cannot, <CHARNAME>."
-msgstr ""
+msgstr "No puedo, <CHARNAME>."
 
 #: balth.tra:1117
 msgid ""
@@ -943,21 +1511,30 @@ msgid ""
 "that taint.  Do not take it, <CHARNAME>...even a god can be tempted, you "
 "must realize that.  Promise me you will turn it away."
 msgstr ""
+"Debéis llevar la batalla hasta Melissan. Es vuestro destino acabar con el "
+"legado de Bhaal aquí y ahora. Pero debéis prometerme, <CHARNAME>... debéis "
+"prometerme que no caeréis en la tentación. Si vencéis a Melissan y el poder "
+"queda a vuestra disposición, debéis darle la espalda... habéis visto cómo es"
+" vuestra lucha ahora, con solo una pizca de esa mancha. No lo toméis, "
+"<CHARNAME>... hasta un dios puede sucumbir a la tentación, debéis ser "
+"consciente de ello. Prométedme que lo rechazaréis."
 
 #: balth.tra:1118
 msgid ""
 "If I am given the option, Balthazar... I will refuse the taint.  I swear it."
-msgstr ""
+msgstr "Si tengo la oportunidad, Balthazar... rechazaré el poder. Lo juro."
 
 #: balth.tra:1119
 msgid ""
 "No.  I will swear nothing of the kind.  Great good could come out of that "
 "power, you don't know otherwise any better than I."
 msgstr ""
+"No. No juraré nada parecido. Podría derivarse un gran bien de ese poder, no "
+"sabéis lo que podría pasar, no más que yo."
 
 #: balth.tra:1120
 msgid "Forget it!  I'll do no such thing!"
-msgstr ""
+msgstr "¡Olvidadlo! ¡No lo haré!"
 
 #: balth.tra:1121
 msgid ""
@@ -965,12 +1542,16 @@ msgid ""
 "  May the gods forgive me.  May you... may you forgive me, "
 "<PRO_BROTHERSISTER>..."
 msgstr ""
+"Entonces estoy satisfecho. La esencia de nuestro padre acaba conmigo... y "
+"con vos. Que los dioses me perdonen. Que vos... me perdonéis, hermano..."
 
 #: balth.tra:1122
 msgid ""
 "Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
 "this would be otherwise."
 msgstr ""
+"Entonces debemos presentar batalla. Lo... lo siento, hermano. Esperaba que "
+"esto fuera de otra manera."
 
 #: balth.tra:1123
 msgid ""
@@ -979,16 +1560,22 @@ msgid ""
 "brought you, yet I cannot believe that you would turn it aside.  I... I am "
 "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgstr ""
+"Y no puedo confiar en que rechazaréis el poder si os lo ofrecen. Habéis "
+"experimentado la lucha que tan sólo una pizca de la mancha de Bhaal os ha "
+"traido, pero aun así no puedo creer que lo rechazaríais. Lo... lo siento, "
+"hermano... pero no tengo elección."
 
 #: balth.tra:1124
 msgid "So be it.  Come, my pupils... may the gods help us all."
-msgstr ""
+msgstr "Así sea. Venid, mis pupilos... que los dioses nos ayuden a todos."
 
 #: balth.tra:1125
 msgid ""
 "No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
 "may the gods have pity on us all."
 msgstr ""
+"No. Dialogar más no tiene sentido. Acabemos con esto ahora, <CHARNAME>... y "
+"que los dioses se compadezcan de  todos nosotros."
 
 #: balth.tra:1126
 msgid ""
@@ -996,6 +1583,9 @@ msgid ""
 "battle?  What if I was weakened, in the end... you might find yourself... "
 "tempted.  How could I trust you?"
 msgstr ""
+"Tal vez lo que decís tiene mérito. Pero ¿qué pasaría si yo muero en la "
+"batalla? Si yo quedara debilitado, al final... podríais sentir... la "
+"tentación. ¿Cómo podría confiar en vos?"
 
 #: balth.tra:1128
 msgid ""
@@ -1003,6 +1593,9 @@ msgid ""
 "used everyone else!  I didn't trust her and she even got me to do what she "
 "wanted!"
 msgstr ""
+"No sé cómo explicarlo exactamente, ¡pero ella debe haberos usado! ¡Usó a "
+"todos los demás! ¡Yo no confiaba en ella y aún así consiguió que hiciera lo "
+"que ella quería!"
 
 #: balth.tra:1129
 msgid ""
@@ -1010,6 +1603,9 @@ msgid ""
 "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
 "and there was nothing I could do to stop it!"
 msgstr ""
+"¡Pensad en ello, Balthazar! ¿De verdad pensáis que ella no conocía vuestros "
+"planes? ¿Pensáis que la tomásteis por sorpresa? ¡Hasta yo lo vi venir, y no "
+"hubo nada que pudiera hacer para pararlo!"
 
 #: balth.tra:1130
 msgid ""
@@ -1017,12 +1613,18 @@ msgid ""
 "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
 "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgstr ""
+"Obviamente, ella os utilizó para deshacerse de los otros hijos de Bhaal. "
+"¡Pensadlo! Ella sabía lo que estábais planeando desde el principio. Quería a"
+" todos los hijos de Bhaal muertos... ¡Y quiere que luchemos entre nosotros! "
+"¡¡Ella *quiere* que pase esto!!"
 
 #: balth.tra:1131
 msgid ""
 "Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
 "as I knew hers.  This changes nothing."
 msgstr ""
+"Claro que me utilizó, <CHARNAME>. Y sin duda, ella conocía mis planes tan "
+"bien como yo conozco lo suyos. Eso no cambia nada."
 
 #: balth.tra:1132
 msgid ""
@@ -1030,16 +1632,22 @@ msgid ""
 "fail.  Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
 msgstr ""
+"Tal vez... tengáis razón, <CHARNAME>. Pero eso no significa que mi plan vaya"
+" a fallar. Melissan me subestima, estoy seguro de ello... de la misma manera"
+" en que os subestima a vos."
 
 #: balth.tra:1133
 msgid ""
 "I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
 "Still... this does not mean my plan is doomed to failure.  Or is it?"
 msgstr ""
+"Yo... tal vez tengáis razón, <CHARNAME>. Veo la sabiduría de vuestras "
+"palabras. Aún así... eso no quiere decir que mi plan esté condenado al "
+"fracaso. ¿O sí?"
 
 #: balth.tra:1134
 msgid "I must resist it.  I will.  I have no choice."
-msgstr ""
+msgstr "Debo resistirme. Lo haré. No tengo elección."
 
 #: balth.tra:1135
 msgid ""
@@ -1047,6 +1655,9 @@ msgid ""
 "soul, you have struggled against it just as I have.  What makes me more "
 "worthy...?  No, I must not question myself!  Not now!"
 msgstr ""
+"Pero... habéis demostrado una gran fuerza de voluntad, también. A pesar de "
+"la mancha en vuestra alma, habéis luchado contra ella como yo. ¿Qué me hace "
+"más digno...? ¡No, no debo cuestionarme a mi mismo! ¡No ahora!"
 
 #: balth.tra:1136
 msgid ""
@@ -1054,6 +1665,9 @@ msgid ""
 "<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
 "you to the Throne would be to give up everything I have believed in."
 msgstr ""
+"Ciertamente no sois un candidato mejor para resistir una tentación así, "
+"<CHARNAME>. Confiaría en mi mismo mucho más de lo que confiaría en vos. "
+"Mandaros al Trono sería renunciar a todo en lo que creo."
 
 #: balth.tra:1137
 msgid ""
@@ -1062,6 +1676,10 @@ msgid ""
 "Might will bring you no peace... this I know.  And this is why I must be the"
 " last."
 msgstr ""
+"La fuerza no es nada, <CHARNAME>. Podréis derrotarme con vuestro poder, y "
+"puede que hasta derrotéis a Melissan. Pero nunca os venceréis a vos mismo. "
+"El poder no os traerá paz... lo sé bien. Y es por eso que debo ser el "
+"último."
 
 #: balth.tra:1138
 msgid ""
@@ -1070,10 +1688,14 @@ msgid ""
 "others, of myself and my own immortal soul.  It will be enough that Bhaal's "
 "legacy is destroyed, there is no temptation beyond that."
 msgstr ""
+"Estoy cansado de las batallas que he luchado, <CHARNAME>. Estoy cansado de "
+"la angustia que he soportado, poniendo el mayor bien por encima del "
+"bienestar de otros, del mío y de mi alma inmortal. Será suficiente con "
+"destruir el legado de Bhaal, no habrá más tentaciones."
 
 #: balth.tra:1139
 msgid "But I do.  It is my destiny.  What other choice have I?"
-msgstr ""
+msgstr "Pero debo hacerlo. Es mi destino. ¿Qué opción me queda?"
 
 #: balth.tra:1140
 msgid ""
@@ -1081,6 +1703,9 @@ msgid ""
 "prophecy!  I have fought against it ever since I found out about my heritage"
 " and I will *not* give up!"
 msgstr ""
+"Siempre hay otra opción, Balthazar. ¡No seáis esclavo de la profecía de "
+"Alaundo! ¡He luchado contra ella desde que supe de mi herencia y *no* "
+"renunciaré!"
 
 #: balth.tra:1141
 msgid ""
@@ -1088,30 +1713,41 @@ msgid ""
 "Balthazar!  It also means we can stop the prophecy from becoming true, I "
 "know this!"
 msgstr ""
+"¡La profecía de Alaundo no dice que los hijos de Bhaal deban ser "
+"destructores, Balthazar! ¡También dice que podemos evitar que la profecía se"
+" haga realidad, lo sé!"
 
 #: balth.tra:1142
 msgid ""
 "You can walk away.  You can do what's right, Balthazar, what you know to be "
 "right instead of what you've resigned yourself to."
 msgstr ""
+"Podéis iros. Podéis hacer lo correcto, Balthazar, lo que vos sabéis que es "
+"correcto en lugar de a lo que os habéis resignado."
 
 #: balth.tra:1143
 msgid ""
 "You are walking a path that you don't need to, Balthazar.  You see yourself "
 "as evil, but it doesn't have to be that way."
 msgstr ""
+"Váis por un camino por el que no necesitáis ir, Balthazar. Os véis a vos "
+"mismo como maligno, pero no tiene por qué ser así."
 
 #: balth.tra:1144
 msgid ""
 "I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
 "  We can work together!"
 msgstr ""
+"Soy vuestro hermano, Balthazar. ¡Luchemos contra lo inevitable! ¡Podemos "
+"trabajar juntos!"
 
 #: balth.tra:1145
 msgid ""
 "Forget it.  There's no point in discussing this with you, is there?  Let's "
 "get this over with."
 msgstr ""
+"Olvídadlo. No tiene sentido discutir esto con vos, ¿no es así? Acabemos con "
+"esto de una vez."
 
 #: balth.tra:1146
 msgid ""
@@ -1119,6 +1755,9 @@ msgid ""
 " to your will, how you are the center of it all... how is it that I did not "
 "see this before?"
 msgstr ""
+"Impresionáis con vuestras palabras, <CHARNAME>. Puedo sentir como el destino"
+" se altera a vuestra voluntad, como eres el centro de todo... ¿Cómo no lo vi"
+" antes?"
 
 #: balth.tra:1147
 msgid ""
@@ -1126,6 +1765,9 @@ msgid ""
 "them.  You have fought against destiny, yet I see it in you even the more as"
 " you speak."
 msgstr ""
+"Pero la simple verdad es que vuestras palabras me suenan vacías. No las "
+"creo. Habéis luchado contra el destino, y aun así lo veo en vos según "
+"hablas."
 
 #: balth.tra:1148
 msgid ""
@@ -1133,16 +1775,21 @@ msgid ""
 "and see how rigidly I have held myself to my destiny... and I feel hollow.  "
 "But I... cannot believe that this has been for nothing."
 msgstr ""
+"Tal vez... tal vez haya algo de verdad en vuestras palabras. Miro dentro de "
+"mi y puedo ver cuan rígidamente me he agarrado a mi destino... y me siento "
+"vacío. Pero... no puedo creer que esto haya sido para nada."
 
 #: balth.tra:1149
 msgid "What do you mean?  How do you know this?"
-msgstr ""
+msgstr "¿Qué queréis decir? ¿Cómo lo sabéis?"
 
 #: balth.tra:1150
 msgid ""
 "It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
 " sounds, but it's true!"
 msgstr ""
+"¡Me lo dijo un Solar, un heraldo de la profecía!  ¡Es... oh, sé como suena, "
+"pero es la verdad!"
 
 #: balth.tra:1151
 msgid ""
@@ -1150,6 +1797,9 @@ msgid ""
 "beings that have sought me out to prepare me.  Alaundo's prophecy does not "
 "necessarily mean what you think it does, Balthazar."
 msgstr ""
+"Los heraldos de la profecía de Alaundo me han dicho muchas cosas... seres "
+"superiores que me han buscado para prepararme. La profecía de Alaundo no "
+"tiene por qué ser lo que vos pensáis, Balthazar."
 
 #: balth.tra:1152
 msgid ""
@@ -1158,12 +1808,18 @@ msgid ""
 "matter how we assume it to be.  Think about it and you'll know it to be "
 "true, Balthazar... everything has more than one side."
 msgstr ""
+"Un Solar ha sido mi mentor desde que todo empezó, guiándome y preparándome "
+"para lo que vendrá. La profecía no es tan simple como vos creéis, sin "
+"importar como la interpretemos. Pensad en ello y sabréis que es la verdad, "
+"Balthazar... todo tiene más de una cara."
 
 #: balth.tra:1153
 msgid ""
 "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>.  "
 "And my path remains clear."
 msgstr ""
+"Yo no tengo ningún heraldo de los cielos que me interprete mi destino, "
+"<CHARNAME>. Y mi camino sigue claro."
 
 #: balth.tra:1154
 msgid ""
@@ -1171,18 +1827,25 @@ msgid ""
 "it seems that my destiny may differ from yours.  I have no heavenly "
 "guidance.  Perhaps my path has been made for me, yet."
 msgstr ""
+"Me hacéis dudar, <CHARNAME>, y empiezo a preguntarme. Pero... parece que mi "
+"destino tal vez difiera del vuestro. No tengo un guía divino. Quizás mi "
+"camino haya sido trazado para mí."
 
 #: balth.tra:1155
 msgid ""
 "What you say is incredible, and yet... it does make sense.  Have I prepared "
 "myself for all this time in error?  How could this be?"
 msgstr ""
+"Lo que decís es increíble, y aun así... tiene sentido. ¿Me he preparado todo"
+" este tiempo de forma equivocada? ¿Cómo puede ser?"
 
 #: balth.tra:1156
 msgid ""
 "An appealing notion, to walk away.  Would that I could do so.  Would that "
 "any of us could have done so."
 msgstr ""
+"Una opción atrayente, irse. Ojalá yo pudiera hacerlo. Ojalá cualquiera de "
+"los dos pudiera hacerlo."
 
 #: balth.tra:1157
 msgid ""
@@ -1190,6 +1853,9 @@ msgid ""
 " are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>.  "
 "Perhaps there is hope... or perhaps I am only deluding myself."
 msgstr ""
+"Pero quizás me he resignado a un camino que no es lo que parece. Vos... no "
+"sois lo que esperaba como el último de los hijos de Bhaal, <CHARNAME>.  Tal "
+"vez haya esperanza... o tal vez sólo me esté engañando a mi mismo."
 
 #: balth.tra:1158
 msgid ""
@@ -1197,6 +1863,8 @@ msgid ""
 " option available to me or any of us, no matter how appealing you may make "
 "it seem."
 msgstr ""
+"Pero pensar eso es de ilusos, <CHARNAME>, y yo no lo soy. Ni vos ni ninguno "
+"de nosotros tenemos esa opción, por apetecible que lo pongáis."
 
 #: balth.tra:1159
 msgid ""
@@ -1206,6 +1874,11 @@ msgid ""
 "greater good... I cannot forget!  I will not forgive myself and I will *not*"
 " allow others to be afflicted with the taint I possess!"
 msgstr ""
+"¡No! ¡No habéis escuchado nada de lo que he dicho! ¡*Es* de esa manera "
+"porque no tenemos elección! Queréis que olvide todos los asesinatos que he "
+"cometido con mis manos, todo lo malo que he hecho en nombre del más grande "
+"de los dioses... ¡No puedo olvidar! ¡No me perdonaré y *no* permitiré que "
+"otros se contaminen con la mancha que llevo!"
 
 #: balth.tra:1160
 msgid ""
@@ -1213,6 +1886,9 @@ msgid ""
 "siblings that we cannot work together.  You know as well as I what the "
 "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgstr ""
+"Tenéis un carisma considerable, <CHARNAME>... pero precisamente porque somos"
+" hermanos no podemos trabajar juntos. Sabéis tan bien como yo lo que busca "
+"la esencia, y no quedará satisfecha hasta que culminemos nuestro destino."
 
 #: balth.tra:1161
 msgid ""
@@ -1221,6 +1897,9 @@ msgid ""
 "destruction of the true evil that threatens FaerÃ»n.  There is no other path"
 " for me."
 msgstr ""
+"No os juzgo, <CHARNAME>. Sois lo que nacísteis para ser. Sólo puedo confiar "
+"en seguir el camino del bien que me conduzca a la destrucción del verdadero "
+"mal que amenaza Faerun. No hay otro camino para mi."
 
 #: balth.tra:1162
 msgid ""
@@ -1229,6 +1908,11 @@ msgid ""
 "the innocent at the slightest provocation!  And all for nothing!  You call "
 "these the actions of a good man?"
 msgstr ""
+"¡Contemplad el sufrimiento que habéis traido a Amkethran! ¡Vuestros monjes "
+"aterrorizan a los inocentes siguiendo vuestras órdenes! ¡Contratáis a "
+"mercenarios sin escrúpulos que matan al inocente a la más mínima "
+"provocación! ¡Y todo para nada! ¿Y decís que estas son las acciones de un "
+"hombre de bien?"
 
 #: balth.tra:1163
 msgid ""
@@ -1237,12 +1921,18 @@ msgid ""
 "without your scheming.  It was your choice to join the Five in their reign "
 "of destruction, so live up to it!"
 msgstr ""
+"Un verdadero hombre de bien habría opuesto resistencia a Melissan desde el "
+"principio. Dices que queríais averiguar quienes eran los Cinco... y los "
+"derroté sin vuestras maquinaciones. Fue elección vuestra uniros a los Cinco "
+"en su reino de destrucción, ¡así que cumple con ello!"
 
 #: balth.tra:1164
 msgid ""
 "You make no judgement upon me?  Don't make me laugh!  Inevitability is only "
 "the newest excuse for yet one more murder!  You would make our father proud!"
 msgstr ""
+"¿Qué no me juzgáis? ¡No me hagáis reir! ¡La inevitabilidad solo es la última"
+" excusa para un asesinato más! ¡Nuestro padre estaría orgulloso de vos!"
 
 #: balth.tra:1165
 msgid ""
@@ -1251,10 +1941,14 @@ msgid ""
 "against evil?  Do you know destiny so well that you can say for certain "
 "where it leads for someone else, never mind yourself?"
 msgstr ""
+"¿Y qué pasa si ese es también mi camino, Balthazar? Dices que no me juzgáis,"
+" ¿pero os aferráis a una tarea como la única persona que puede luchar contra"
+" el mal? ¿Acaso conocéis tan bien el destino que podéis asegurar lo que le "
+"depara a otra persona, o a vos?"
 
 #: balth.tra:1166
 msgid "Then let's get this over with.  I'm tired of talking."
-msgstr ""
+msgstr "Entonces acabemos con esto. Estoy cansado de hablar."
 
 #: balth.tra:1167
 msgid ""
@@ -1266,6 +1960,14 @@ msgid ""
 "goodness of a man, does it not?  I... I am ashamed, <CHARNAME>.  I sought..."
 " only to do what was best for us all."
 msgstr ""
+"Es... es verdad. No presté mucha atención a las acciones de mis hombres, "
+"pero... sabía lo que estaban haciendo. Pensé que era un gran sacrificio, "
+"necesario para mantener el secreto, para alcanzar mi meta que ellos, en su "
+"ignorancia, no sabían que al final les acabaría beneficiando más. Pero... la"
+" forma en que tratamos al más desvalido de nuestros hermanos en el peor "
+"momento es lo que distingue a un hombre de bien, ¿no es así? Yo... estoy "
+"avergonzado, <CHARNAME>. Yo... sólo quería hacer lo que era mejor para "
+"todos."
 
 #: balth.tra:1168
 msgid ""
@@ -1273,6 +1975,10 @@ msgid ""
 "in no small part, my own.  But who is to say that things might not have been"
 " different?  Who are *you* to say that things might have been different?"
 msgstr ""
+"Averiguásteis quienes eran los Cinco a través de las maquinaciones de "
+"Melissan... y a través de las mías. ¿Pero quién puede decir que las cosas no"
+" podrían haber sido de otro modo? ¿Quien sois *vos* para decir que las cosas"
+" podrían haber sido diferentes?"
 
 #: balth.tra:1169
 msgid ""
@@ -1281,6 +1987,10 @@ msgid ""
 "does 'necessity' cross into the realm of evil?  I... I am ashamed, "
 "<CHARNAME>."
 msgstr ""
+"Pero... es cierto, sin embargo. He tomado el camino fácil, y he hecho muchas"
+" cosas que han hecho daño a otros en nombre de la necesidad. ¿Pero cuándo "
+"cruza la 'necesidad' la línea que separa el mal? Estoy... estoy avergonzado,"
+" <CHARNAME>."
 
 #: balth.tra:1170
 msgid ""
@@ -1288,6 +1998,10 @@ msgid ""
 "be a necessary goal... but neither should you.  You have blundered about, "
 "causing more harm by your negligence than I ever could by my plotting."
 msgstr ""
+"No estoy orgulloso de mis actos para conseguir lo que yo considero una meta "
+"necesaria... y vos tampoco deberíais estarlo. Habéis caminado a ciegas, "
+"causando más daño con vuestra negligencia de lo que yo pueda haber causado "
+"con mis maquinaciones."
 
 #: balth.tra:1171
 msgid ""
@@ -1296,6 +2010,10 @@ msgid ""
 "Destroyed, all of it!  I cry out to Ao the Overfather that such evil must "
 "not be allowed to live in the hearts of mortals, and I *will* be heard!"
 msgstr ""
+"¡*No* permitiré que os burléis de mi! ¡He sacrificado mi vida entera, a la "
+"gente de este pueblo, todo lo que tengo para ver destruido este mal! "
+"¡Destruido todo el mal! Suplico a Ao, el dios supremo, que no se permita que"
+" viva este mal en el corazón de los mortales,  ¡y *seré* escuchado!"
 
 #: balth.tra:1172
 msgid ""
@@ -1303,6 +2021,9 @@ msgid ""
 "<CHARNAME>.  I know only that if our power was to grow, if your power was to"
 " grow, that so would the temptation."
 msgstr ""
+"Yo... sólo conozco las tentaciones que nos impone la lacra, <CHARNAME>. Sólo"
+" se que si nuestro poder creciera, que si vuestro poder creciera, también lo"
+" haría la tentación."
 
 #: balth.tra:1173
 msgid ""
@@ -1312,6 +2033,12 @@ msgid ""
 "that our treatment of the least of our brethren is the true judge of a man's"
 " soul?  I... I am ashamed."
 msgstr ""
+"Pero... habéis luchado contra la tentación con éxito. Con más éxito que yo. "
+"He hecho... mucho de lo que me arrepiento, en nombre del bien. Mi gente "
+"sufre porque puse mi meta por encima de todo lo demás... ¿pero acaso no es "
+"cierto que la forma en que tratamos al más insignificante de nuestros "
+"hermanos es lo que verdaderamente juzga el alma de un hombre? Yo... estoy "
+"avergonzado."
 
 #: balth.tra:1174
 msgid ""
@@ -1319,12 +2046,17 @@ msgid ""
 "heart then you would have me believe.  I must walk my own path, "
 "<CHARNAME>...and you must walk yours."
 msgstr ""
+"Y a pesar de lo que digáis, creo que la lacra está más cerca de vuestro "
+"corazón de lo que me queréis hacer creer. Debo seguir mi camino, "
+"<CHARNAME>... y vos el vuestro."
 
 #: balth.tra:1175
 msgid ""
 "Very well.  Come, my students... my teachings are ended.  We make our last "
 "stand now for what is right.  May the gods have pity on us all."
 msgstr ""
+"Muy bien. Venid, mis alumnos... mis enseñanzas han terminado. Ahora hacemos "
+"nuestra última defensa del bien. Que los dioses se apiaden de nosotros."
 
 #: balth.tra:1176
 msgid ""
@@ -1334,6 +2066,11 @@ msgid ""
 "<PRO_MANWOMAN> such as yourself without the taint on your soul, I think.  "
 "But now I have little choice."
 msgstr ""
+"Aunque el destino no nos hubiera conducido hasta este punto, dudo mucho que "
+"las cosas hubieran sido diferentes. Tal vez si no hubiérais llevado la "
+"mancha de nuestro padre, las cosas habrían sido diferentes para vos. Me "
+"hubiera gustado conocer a un hombre como vos sin la mancha de vuestra alma, "
+"creo. Pero ahora poca elección me queda."
 
 #: balth.tra:1177
 msgid ""
@@ -1342,6 +2079,11 @@ msgid ""
 "Candlekeep... would I not find some who would claim such innocence for "
 "themselves?  Who died merely because they were caught in your wake?"
 msgstr ""
+"Ojalá que vuestras afirmaciones de inocencia significaran algo para los "
+"muertos de Saradush. Si investigara la reciente muerte de Athkatla, de la "
+"Puerta de Baldur, de Candelero... ¿no encontraría a alguien que también "
+"reivindicaría su inocencia? ¿A los que murieron solamente por cruzarse en "
+"vuestro camino?"
 
 #: balth.tra:1178
 msgid ""
@@ -1351,6 +2093,11 @@ msgid ""
 "presence.  Would you allow such carnage to continue?  Have we not spared the"
 " entire land from agony by the slaying of our siblings?"
 msgstr ""
+"¿Crees que otros de nuestra condición son diferentes? Contadlos, <CHARNAME>,"
+" y pensad en la multitud de hijos de Bhaal que han existido y han traido la "
+"desgracia a otros, si no a propósito, sólo con su presencia. ¿Permitiríais "
+"que esta matanza continuara? ¿No hemos liberado a toda la tierra de la "
+"agonía matando a nuestros hermanos?"
 
 #: balth.tra:1179
 msgid ""
@@ -1358,6 +2105,9 @@ msgid ""
 "foreseen long ago by Alaundo?  You believe it by choice alone that you ended"
 " up here, in this place?"
 msgstr ""
+"¿Os creéis dueño de vuestro destino, verdad? ¿El destino que Alaundo predijo"
+" hace tanto tiempo? ¿Creéis que acabásteis aquí, en este sitio, sólo porque "
+"vos así lo elegiste?"
 
 #: balth.tra:1180
 msgid ""
@@ -1365,6 +2115,10 @@ msgid ""
 "taken since leaving Candlekeep, the journey has ended here as it was always "
 "meant to.  Destiny masters us... we do not master it."
 msgstr ""
+"Os confundís de camino para el viaje, amigo mío. Sean cuales sean los "
+"caminos que habéis tomado desde que abandonásteis Candelero, el viaje ha "
+"terminado aquí, como estaba escrito. El destino nos controla... no lo "
+"controlamos nosotros."
 
 #: balth.tra:1181
 msgid ""
@@ -1373,6 +2127,9 @@ msgid ""
 "have struggled against it.  I am glad you see this... it will make things "
 "much easier."
 msgstr ""
+"Sí, bien fueran obstáculos que superar o simplemente gente que se cruzó en "
+"vuestro camino. Mi propia vida no ha sido muy diferente, a pesar de lo que "
+"he luchado en su contra. Me alegro de que lo veáis... facilitará las cosas."
 
 #: balth.tra:1182
 msgid ""
@@ -1381,23 +2138,31 @@ msgid ""
 "victorious, it is true, but the fact that you embrace the taint within you "
 "makes my own path that much the clearer."
 msgstr ""
+"Habláis como Yaga-Shura, un gigante en cuerpo y en ego. Pero aun así él "
+"también cayó, cuando su destino le alcanzó. El poder de vuestra sangre puede"
+" que os haga salir victorioso, es cierto, pero el hecho de que abracéis la "
+"mancha que hay en vos hace que mi camino esté mucho más claro."
 
 #: balth2.tra:1002
 msgid ""
 "<CHARNAME> does not stand alone, Melissan.  It is time that this is ended."
-msgstr ""
+msgstr "<CHARNAME> no está sólo, Melissan. Es hora de acabar con esto."
 
 #: balth2.tra:1003
 msgid ""
 "I see well enough now, priestess.  Speak clever wit if you wish, you cannot "
 "hope to defeat us."
 msgstr ""
+"Veo lo suficientemente bien ahora, sacerdotisa. Hablad usando el ingenio si "
+"queríes, pero no podéis esperar derrotarnos."
 
 #: balth2.tra:1004
 msgid ""
 "To return the essence to our father.  And great bloodshed in his name to "
 "call him forth.  And I never believed it."
 msgstr ""
+"Para devolver la esencia a nuestro padre. Y un gran derramamiento de sangre "
+"en su nombre para convocarle. Y nunca lo creí."
 
 #: balth2.tra:1005
 msgid ""
@@ -1405,6 +2170,9 @@ msgid ""
 "is invulnerable to harm... and I doubt she will come out of it willingly to "
 "face us."
 msgstr ""
+"Ahora debemos tener cuidado, <CHARNAME>. Dentro de esa corriente de energía,"
+" Melissan es inmune al daño... y dudo que vaya a salir de ella "
+"voluntariamente para enfrentarse a nosotros."
 
 #: balth2.tra:1006
 msgid ""
@@ -1413,6 +2181,11 @@ msgid ""
 "three were cut off from her stream, Melissan might be forced to deal with us"
 " rather than soak up even more power."
 msgstr ""
+"Creo que los estanques de esencia adyacentes al Trono podrían ser desviados "
+"por alguien que tenga conexión con la esencia. Un hijo de Bhaal, uno de "
+"nosotros. Si los tres pudieran ser desviados de su corriente, Melissan se "
+"vería forzada a tratar con nosotros en vez de sumergirse todavía en mayor "
+"poder."
 
 #: balth2.tra:1007
 msgid ""
@@ -1420,6 +2193,9 @@ msgid ""
 "way to continue that I can think of.  Short of standing here and watching "
 "her become a goddess, that is."
 msgstr ""
+"Ella, sin duda, tendrá los estanques vigilados de alguna manera... pero es "
+"la única manera que se me ocurre de seguir adelante. Aparte de quedarnos "
+"aquí y ver como se convierte en una diosa, claro."
 
 #: balth2.tra:1008
 msgid ""
@@ -1427,14 +2203,19 @@ msgid ""
 "for yourself and not spread it amongst such servants.  It will prove your "
 "doom."
 msgstr ""
+"Sois una estúpida, Melissan. Deberíais haber mantenido la energía divina que"
+" teníais para vos, y no distribuirla entre vuestros sirvientes. Será vuestra"
+" perdición."
 
 #: balth2.tra:1009
 msgid "You... you are so beautiful.  I... had no idea..."
-msgstr ""
+msgstr "Vos... sois tan hermosa. Yo... no tenía ni idea..."
 
 #: balth2.tra:1010
 msgid "Choose?  You mean... I may rid myself of the taint on my soul forever?"
 msgstr ""
+"¿Elegir? ¿Quieres decir... que me libraría de la mancha de mi alma para "
+"siempre?"
 
 #: balth2.tra:1011
 msgid ""
@@ -1442,6 +2223,9 @@ msgid ""
 "gladly, and with all my heart.  To walk the earth without that dark burden "
 "twisting my soul... I... I cannot even imagine..."
 msgstr ""
+"No hay nada que desee más. Elijo convertirme en mortal con todo mi corazón. "
+"Caminar por la tierra sin esa carga oscura retorciendo mi alma... no... no "
+"me lo puedo ni imaginar..."
 
 #: balth2.tra:1012
 msgid ""
@@ -1451,6 +2235,11 @@ msgid ""
 "with that stain upon my soul and perhaps even been Melissan's puppet "
 "forever."
 msgstr ""
+"No puedo daros las suficientes gracias, <CHARNAME>, por el regalo que me "
+"habéis hecho. Una vez pensé que había hecho todo lo que había podido para "
+"luchar por el bien... pero fuísteis vos el que me enseñó lo equivocado que "
+"estaba. Sin vos, habría muerto con esa mancha en mi alma y quizás habría "
+"sido la marioneta de Melissan de por vida."
 
 #: balth2.tra:1013
 msgid ""
@@ -1459,6 +2248,10 @@ msgid ""
 "<PRO_MANWOMAN> such as yourself towards evil.  Perhaps you would overcome "
 "that taint and be a good god, I cannot say."
 msgstr ""
+"No puedo pretender saber lo que estáis pensando ahora, de la decisión que "
+"debéis hacer. Ni puedo pretender saber si la mancha conduciría a un hombre "
+"como vos hacia el mal. Tal vez superaríais esa lacra y seríais un buen dios,"
+" no lo sé."
 
 #: balth2.tra:1014
 msgid ""
@@ -1467,6 +2260,11 @@ msgid ""
 "wishes to become a god?  Sarevok?  Irenicus?  Melissan?  Even if your "
 "intentions are good, what of an eternity being chained to such power?"
 msgstr ""
+"Sólo os pido que consideréis cómo la mancha de Bhaal ha afectado vuestra "
+"vida hasta este momento. ¿De verdad queréis tenerlo todo? ¿Qué clase de "
+"persona realmente desea convertirse en un dios? ¿Sarevok? ¿Irenicus? "
+"¿Melissan? Incluso si vuestras intenciones son buenas, ¿qué me decís de una "
+"eternidad encadenado a semejante poder?"
 
 #: balth2.tra:1015
 msgid ""
@@ -1474,6 +2272,10 @@ msgid ""
 " you consider the life you might have led, the mortal life, had the taint "
 "never visited itself upon you back at Candlekeep.  I look forward to my own."
 msgstr ""
+"La elección es vuestra. Os conocéis a vos mismo mejor que yo. Yo sólo os "
+"pido que consideréis la vida que podríais haber llevado, una vida mortal, si"
+" la lacra no hubiera caido sobre vos cuando estábais en Candelero. Yo tengo "
+"ganas de vivir la mía."
 
 #: balth2.tra:1016
 msgid ""
@@ -1481,6 +2283,9 @@ msgid ""
 "forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
 " <PRO_BROTHERSISTER>."
 msgstr ""
+"Ya está hecho. Creo que habéis tomado la decisión correcta. Espero que nos "
+"encontremos de nuevo en Faerun, <CHARNAME>... como mortal y verdadero "
+"hermano."
 
 #: balth2.tra:1017
 msgid ""
@@ -1489,12 +2294,18 @@ msgid ""
 "When I look up at the heavens and see the brightest star in the sky, I shall"
 " think of you and offer a prayer."
 msgstr ""
+"Así que tomáis el camino menos transitado, <CHARNAME>. No puedo decir que os"
+" envidie. Espero que el poder os traiga lo que ansiáis, amigo mío. Cuando "
+"mire el cielo y vea la estrella más brillante, pensaré en vos y rezaré una "
+"plegaria."
 
 #: balth2.tra:1018
 msgid ""
 "Melissan keeps restoring her immortal energies at the fount!  There must be "
 "a way to weaken her further, or we will never defeat her!"
 msgstr ""
+"¡Melissan sigue renovando sus energías inmortales en la fuente! ¡Debe haber "
+"una manera de debilitarla más, o nunca la derrotaremos!"
 
 #: ee.tra:3001
 msgid ""
@@ -1535,6 +2346,8 @@ msgid ""
 "Ahhh... my dear brother calls me at last, does he?  I knew you would not be "
 "able to live without my assistance for long."
 msgstr ""
+"Ahhh... ¿mi querido hermano me llama por fin, no es así? Sabía que no "
+"podríais vivir sin mi ayuda mucho tiempo."
 
 #: finbodh.tra:34
 msgid ""
@@ -1542,6 +2355,9 @@ msgid ""
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr ""
+"(chasqueo) Qué típico de vos culparme de vuestros propios fallos. Pobre. "
+"pobre Irenicus... siempre tan, tan cerca de conseguir lo que quiere pero al "
+"mismo tiempo siempre tan, tan lejos."
 
 #: finbodh.tra:35
 msgid ""
@@ -1550,51 +2366,68 @@ msgid ""
 "hope you are as... healthy... as I remember.  Shall we continue our merry "
 "dance?"
 msgstr ""
+"Ya veo. Qué encantador por vuestra parte que me dejéis participar en vuestro"
+" pequeño juego con los hijos de Bhaal de nuevo, querido hermano. ¿Y cómo "
+"estáis, <CHARNAME>? Espero que sigáis tan... saludable... como recuerdo. "
+"¿Seguimos con nuestra alegre danza?"
 
 #: finbodh.tra:36
 msgid ""
 "Still trapped in servitude to Irenicus?  Do you have no will of your own, "
 "Bodhi?"
 msgstr ""
+"¿Todavía atrapada sirviendo a Irenicus? ¿No tenéis voluntad propia, Bodhi?"
 
 #: finbodh.tra:37
 msgid ""
 "Why don't you go jump on a stake and spare us both the tedium of battle?"
 msgstr ""
+"¿Por qué no váis y saltáis sobre una estaca y nos ahorráis a los dos el "
+"tedio de la batalla?"
 
 #: finbodh.tra:38
 msgid ""
 "Best hike up your skirts and run, Bodhi.  The time when I found vampires "
 "remotely threatening is long past!"
 msgstr ""
+"Mejor recogeos las faldas y corred, Bodhi. ¡La época en que encontraba a los"
+" vampiros remotamente amenazadores se acabó hace tiempo!"
 
 #: finbodh.tra:39
 msgid ""
 "Do I have to suffer your prattle again?  I shall stamp out your evil "
 "presence once and for all!"
 msgstr ""
+"¿Otra vez tengo que aguantar vuestra cháchara? ¡Acabaré con vuestra maligna "
+"presencia de una vez por todas!"
 
 #: finbodh.tra:41
 msgid ""
 "Oh Child of Bhaal, so serious and grim!  Do you not enjoy that our paths "
 "have crossed again?  Does your blood not rejoice?"
 msgstr ""
+"¡Oh Hijo de Bhaal, tan serio y siniestro! ¿No disfrutáis de que nuestros "
+"caminos se hayan vuelto a cruzar? ¿No se alegra vuestra sangre?"
 
 #: finbodh.tra:42
 msgid ""
 "You are weak, Bodhi, while the blood of a god flows within me.  I shall "
 "enjoy your death... again."
 msgstr ""
+"Sois débil, Bodhi, mientras que la sangre de un dios fluye por mis venas. "
+"Disfrutaré de vuestra muerte... una vez más."
 
 #: finbodh.tra:43
 msgid "Enough of this!  You will fall before me, undead thing."
-msgstr ""
+msgstr "¡Basta ya! Caeréis ante mi, cosa no muerta."
 
 #: finbodh.tra:44
 msgid ""
 "You have nothing to gain from this fight.  Will you sacrifice yourself out "
 "of sibling loyalty?  Do not make that mistake again."
 msgstr ""
+"No tenéis nada que ganar con esta lucha. ¿Os sacrificaréis por amor "
+"fraternal? No volváis a cometer ese error."
 
 #: finbodh.tra:45
 msgid ""
@@ -1602,12 +2435,17 @@ msgid ""
 "prepared to fight me to the death, but you don't need to die at his side.  "
 "There is no need for you to die at all."
 msgstr ""
+"Manteneos al margen Bodhi. Vuestro hermano está cegado por sus ansias de "
+"venganza. Está preparado para luchar a muerte conmigo, pero no necesitáis "
+"morir a su lado. No tenéis por qué morir."
 
 #: finbodh.tra:46
 msgid ""
 "You may be strong, <CHARNAME>, but you are indeed a fool to think us weak.  "
 "I shall take your soul for my own, I swear it!"
 msgstr ""
+"Tal vez seáis fuerte, <CHARNAME>, pero sois un estúpido si pensáis que somos"
+" débiles. ¡Tomaré vuestra alma y la haré mía, lo juro!"
 
 #: finbodh.tra:47
 msgid ""
@@ -1616,18 +2454,27 @@ msgid ""
 "<PRO_HESHE> that shall give me what I need.  I look forward to bathing in "
 "your blood, dear brother... a suitable reward for your utter failure."
 msgstr ""
+"Tuviste vuestra oportunidad, hermano. Vuestros planes fallaron, si no "
+"recuerdo mal, y me llevaron a la muerte. No, sois eres débil y <CHARNAME> es"
+" fuerte y él es el que me dará lo que necesito. Espero con ilusión bañarme "
+"en vuestra sangre, querido hermano... una recompensa adecuada por vuestro "
+"completo fracaso."
 
 #: finbodh.tra:48
 msgid ""
 "Oh Child of Bhaal, you do bore me so with your talk.  Come to me and embrace"
 " death as I have.  Let the dance begin again!"
 msgstr ""
+"Oh Hijo de Bhaal, me aburrís con vuestra charla. Venid a mi y abrazad la "
+"muerte como yo he hecho. ¡Que el baile empiece de nuevo!"
 
 #: finbodh.tra:49
 msgid ""
 "Indeed, I have no intention of dying at all.   I fight with my brother "
 "because I have no choice....or would you offer me one now?"
 msgstr ""
+"De hecho, no tengo ninguna intención de morir.  Lucho contra mi hermano "
+"porque no tengo elección.... ¿O ahora me ofreceríais otra alternativa?"
 
 #: finbodh.tra:50
 msgid ""
@@ -1635,12 +2482,17 @@ msgid ""
 "raise others from the abyss; one who opposed you, no less!  How intriguing."
 "  Perhaps I do not need to taste your blood..."
 msgstr ""
+"Mi hermano cree que puede ofrecerme vuestra alma, pero veo que vos también "
+"podéis alzar a otros desde el abismo; ¡A uno que se te opuso, nada menos! "
+"Qué intrigante. Tal vez no necesite probar vuestra sangre..."
 
 #: finbodh.tra:51
 msgid ""
 "I would make you an offer <CHARNAME>.  Promise me a piece of your soul and I"
 " shall fight as a sister to you."
 msgstr ""
+"Os haré una oferta <CHARNAME>. Prométedme un pedazo de vuestra alma y "
+"lucharé como una hermana por vos."
 
 #: finbodh.tra:52
 msgid ""
@@ -1648,6 +2500,9 @@ msgid ""
 "Imoen once again, but she seems....indisposed.  Yet perhaps there is another"
 " way..."
 msgstr ""
+"Necesito un alma <CHARNAME>, como bien sabéis. Podría arrancarla de la joven"
+" Imoen otra vez, pero parece que ella está.... indispuesta. Aunque tal vez "
+"haya otro modo..."
 
 #: finbodh.tra:53
 msgid ""
@@ -1655,18 +2510,25 @@ msgid ""
 " one, but since I must return, I shall not pass up a chance to feast on such"
 " a fine morsel."
 msgstr ""
+"Estoy condenada luche o no. Mi estancia en el Abismo no fue agradable, pero "
+"ya que debo regresar, no dejaré pasar la oportunidad de probar tan delicioso"
+" bocado."
 
 #: finbodh.tra:54
 msgid ""
 "I have power beyond your brother's.  Join with me and I shall grant the "
 "reward he shall not live to bestow; a soul."
 msgstr ""
+"Tengo más poder que vuestro hermano. Uníos a mi y os concederé la recompensa"
+" que él no vivirá para daros; un alma."
 
 #: finbodh.tra:55
 msgid ""
 "I have changed since our last encounter, Bodhi.  I am above you and your "
 "pitiful games.  They bore me and I shall put an end to them!"
 msgstr ""
+"He cambiado desde nuestro último encuentro, Bodhi. Estoy por encima de vos y"
+" de vuestros penosos juegos. ¡Me aburren y les pondré final!"
 
 #: finbodh.tra:56
 msgid ""
@@ -1674,12 +2536,18 @@ msgid ""
 "  How many deaths has your brother granted me?  Do you truly believe you can"
 " win?  Take the portion of soul I offer and live again."
 msgstr ""
+"Tantas palabras de vuestro hermano, Bodhi, pero las acciones hablan más alto"
+" que las palabras. ¿Cuántas muertes me ha concedido vuestro hermano?  ¿De "
+"verdad pensáis que podéis ganar? Tomad la porción de alma que os ofrezco y "
+"vivid de nuevo."
 
 #: finbodh.tra:57
 msgid ""
 "Such a delicious offer you make... though I must wonder if you are telling "
 "the truth.  Are my chances of survival really any better with you...?"
 msgstr ""
+"Qué oferta tan tentadora... aunque debo preguntarme si estáis diciendo la "
+"verdad. ¿Son mis probabilidades de sobrevivir mayores con vos...?"
 
 #: finbodh.tra:58
 msgid ""
@@ -1687,18 +2555,23 @@ msgid ""
 "stolen your wit.  Such a shame for one with the divine essence.  It will "
 "almost be a mercy to end your existence."
 msgstr ""
+"Así que <CHARNAME>, la criatura de las tinieblas que vive dentro de vos "
+"también ha robado vuestra inteligencia. Qué lastima para alguien con la "
+"esencia divina. Casi será un acto de piedad acabar con vuestra existencia."
 
 #: finbodh.tra:59
 msgid ""
 "An opportunity to feast on the blood of a God, and yet you think I will "
 "stand aside?  (chuckle)  You know me no better than my dear brother here."
 msgstr ""
+"¿Una oportunidad para probar la sangre de un Dios, y pensáis que me quitaré "
+"de en medio? (chasqueo) No me conocéis mejor que mi querido hermano."
 
 #: finbodh.tra:60
 msgid ""
 "Nor would I care to.  Soon enough you will return to the torment you "
 "deserve."
-msgstr ""
+msgstr "Ni me importa. Pronto volveréis al tormento que merecéis."
 
 #: finbodh.tra:61
 msgid ""
@@ -1707,12 +2580,18 @@ msgid ""
 "<PRO_HIMHER>self, dear brother, or did you implant it in <PRO_HIMHER> in one"
 " of your more bizarre experiments?"
 msgstr ""
+"Bien, bien, bien... parece que el Hijo de Bhaal ha encontrado su sentido del"
+" humor. ¿Lo desenterró sólo él, querido hermano, o se lo implantástei en uno"
+" de vuestros extraños experimentos?"
 
 #: finbodh.tra:62
 msgid ""
 "I see you are now more Slayer than <PRO_MANWOMAN>.  How dull.  You provided "
 "such small amusement last time, I doubt that this will be different."
 msgstr ""
+"Ya veo que ahora sois más asesino que hombre. Qué aburrido. Me "
+"proporcionásteis tan escaso entretenimiento la última vez que dudo que esta "
+"vez sea diferente."
 
 #: finbodh.tra:63
 msgid ""
@@ -1720,6 +2599,9 @@ msgid ""
 "again.  I am content to fight by my brother and revel in your blood and that"
 " of those that follow at your heel."
 msgstr ""
+"No, <CHARNAME>. Desgraciadamente, no creo que estemos destinados a trabajar "
+"juntos de nuevo. Me conformo con luchar al lado de mi hermano y disfrutar "
+"con vuestra sangre y las de los que os siguen."
 
 #: finbodh.tra:64
 msgid ""
@@ -1727,6 +2609,9 @@ msgid ""
 " not be fooled so easily.  I know you to be ever so desperate to do 'good' "
 "and this would not bode well for me.  No, this ends here."
 msgstr ""
+"Oh Hijo de Bhaal, ¿a qué estáis jugando?  Pretendéis engañarme, pero no me "
+"dejaré engañar tan fácilmente. Sé que siempre estáis desesperado por hacer "
+"el 'bien' y yo no saldría de esto bien parada. No, esto se acaba aquí."
 
 #: finbodh.tra:65
 msgid ""
@@ -1734,34 +2619,46 @@ msgid ""
 " your soul, yet you would offer it willingly?  Promise me a piece of your "
 "essence and I will join you... for now."
 msgstr ""
+"Oh Hijo de Bhaal, ¿a qué estáis jugando?  Lucho con mi 'querido' hermano por"
+" vuestra alma, ¿y sin embargo la ofreceríais voluntariamente? Prométedme una"
+" porción de vuestra esencia y me uniré a vos... por el momento."
 
 #: finbodh.tra:66
 msgid ""
 "I swear to you Bodhi, fight by my side, kill my enemies, and you shall have "
 "the soul you desire."
 msgstr ""
+"Bodhi, luchad a mi lado, matad a mis enemigos, y os juro que tendréis el "
+"alma que anheláis."
 
 #: finbodh.tra:67
 msgid ""
 "You have my word Bodhi that when this is done, you shall have a piece of my "
 "essence."
 msgstr ""
+"Tenéis mi palabra Bodhi de que cuando acabe esto, tendréis una porción de mi"
+" esencia."
 
 #: finbodh.tra:68
 msgid ""
 "Actually Bodhi, I have changed my mind.  I enjoy watching you die too much, "
 "to pass up an opportunity to see it again."
 msgstr ""
+"De hecho Bodhi, he cambiado de opinión. Disfruto demasiado viendo como "
+"morís, como para dejar pasar la oportunidad de verlo otra vez."
 
 #: finbodh.tra:69
 msgid "Bodhi, when this is over, I swear that you will be fittingly rewarded."
 msgstr ""
+"Bodhi, cuando esto acabe, os juro que seréis recompensada adecuadamente."
 
 #: finbodh.tra:70
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you.  Now to finalize matters..."
 msgstr ""
+"Reza para mantener vuestra palabra, hacer lo contrario sería... desagradable"
+" para vos. Y ahora para acabar el tema..."
 
 #: finbodh.tra:71
 msgid ""
@@ -1770,6 +2667,10 @@ msgid ""
 "hollow than my brother's.  Far better to rip your soul from your living "
 "breast than beg for it at your side."
 msgstr ""
+"No, <CHARNAME>. Desgraciadamente, no creo que estemos destinados a trabajar "
+"juntos de nuevo. A pesar de vuestra tentadora oferta, vuestras palabras "
+"suenan más vacías que las de mi hermano. Prefiero arrancaros vuestra alma "
+"que suplicar por ella a vuestro lado."
 
 #: finbodh.tra:72
 msgid ""
@@ -1777,6 +2678,9 @@ msgid ""
 " creature.  Both my brother and this... Melissan, lie dead.  Your hunt has "
 "been delightfully successful, <CHARNAME>."
 msgstr ""
+"Quiero una respuesta antes de que el Hijo de Bhaal tome una decisión, "
+"criatura. Tanto mi hermano como la tal... Melissan, están muertos. Vuestra "
+"caza ha sido de lo más exitosa, <CHARNAME>."
 
 #: finbodh.tra:73
 msgid ""
@@ -1785,30 +2689,43 @@ msgid ""
 "place.  Give me what I want so I may leave... we need not meet each other "
 "again, unless you wish it."
 msgstr ""
+"Pero no olvidéis nuestro pacto. Estoy impaciente por tener la porción de "
+"vuestra alma que me prometísteis. He disfrutado con nuestro baile, Hijo de "
+"Bhaal, pero me canso de este sitio. Dadme lo que quiero para poder "
+"marcharme... no tenemos por qué vernos otra vez, a no ser que así lo "
+"deseéis."
 
 #: finbodh.tra:74
 msgid ""
 "It was a pleasure to have you fight by my side, Bodhi.  You have earned this"
 " reward."
 msgstr ""
+"Fue un placer teneros luchando a mi lado, Bodhi. Os habéis ganado la "
+"recompensa."
 
 #: finbodh.tra:75
 msgid ""
 "You shall have nothing.  Your use to me is at an end.  I shall enjoy sending"
 " you screaming back into the abyss."
 msgstr ""
+"No tendréis nada. Vuestra utilidad se ha acabado. Disfrutaré enviándoos "
+"gritando de vuelta al abismo."
 
 #: finbodh.tra:76
 msgid ""
 "Hmmm, I could kill you... no, I have better things to do.  Take these scraps"
 " of my essence and depart."
 msgstr ""
+"Hmmm, podría mataros... no, tengo cosas mejores que hacer. Tomad estas "
+"sobras de mi esencia e iros."
 
 #: finbodh.tra:77
 msgid ""
 "No Bodhi, I think I will keep all of my soul.  You will fall back into the "
 "abyss.  Give Bhaal my regards."
 msgstr ""
+"No Bodhi, creo que conservaré toda mi alma. Volveréis al abismo. Saluda a "
+"Bhaal de mi parte."
 
 #: finbodh.tra:78
 msgid ""
@@ -1816,34 +2733,45 @@ msgid ""
 "abyss.  I shall rip every shred of that soul from your body!  Let the dance "
 "end here!"
 msgstr ""
+"¡Estúpido! ¿Pensáis traicionarme, Hijo de Bhaal? Me niego a regresar al "
+"abismo. ¡Os arrancaré hasta el último vestigio de vuestra alma! ¡Que el "
+"baile se acabe aquí!"
 
 #: finbodh.tra:79
 msgid ""
 "This is my realm, Bodhi.  I control everything here.  It is time for you to "
 "join your brother."
 msgstr ""
+"Este es mi reino, Bodhi. Lo controlo todo aquí. Es hora de que os reunáis "
+"con vuestro hermano."
 
 #: finbodh.tra:80
 msgid ""
 "Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
 "it."
 msgstr ""
+"¡Basta de charla! El baile ha llegado a su fin, Bodhi, y también vuestra "
+"participación en él."
 
 #: finbodh.tra:81
 msgid "Die!  Witness my power, insect!"
-msgstr ""
+msgstr "¡Muere! ¡Sé testigo de mi poder, insecto!"
 
 #: finbodh.tra:82
 msgid ""
 "Oh Bodhi, you should have begged.  I would have liked to see that.  Too late"
 " now."
 msgstr ""
+"Oh Bodhi, deberíais haber suplicado. Me hubiera gustado verlo. Ahora ya es "
+"demasiado tarde."
 
 #: finbodh.tra:83
 msgid ""
 "So you have betrayed me, <CHARNAME>.  It would seem that working together "
 "was never our true calling."
 msgstr ""
+"Así que me habéis traicionado, <CHARNAME>. Parece que trabajar juntos no era"
+" para nosotros."
 
 #: finbodh.tra:84
 msgid ""
@@ -1851,6 +2779,9 @@ msgid ""
 "carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
 "divine!"
 msgstr ""
+"Ahhhhh, qué sensación. ¡Siento que la vida fluye por mis venas! Llevas tal "
+"regalo Hijo de Bhaal... tal poder... tal fuerza. ¡Oh esto es simplemente "
+"divino!"
 
 #: finbodh.tra:85
 msgid ""
@@ -1858,6 +2789,9 @@ msgid ""
 "and I intend to enjoy it.  Perhaps the wizards of Spellhold still wish to "
 "play?"
 msgstr ""
+"Qué hombre tan desagradecido sois. Pero aun así, tengo vida de nuevo, y "
+"pienso disfrutarla. ¿Tal vez los magos de la Prisión del Hechicero quieran "
+"jugar todavía?"
 
 #: finbodh.tra:86
 msgid ""
@@ -1865,6 +2799,9 @@ msgid ""
 "shall enjoy carrying this piece of you with me.  Perhaps we shall meet "
 "again, you and I..."
 msgstr ""
+"Bien, Hijo de Bhaal, parece que nuestro tiempo juntos se acaba. Disfrutaré "
+"llevando esta parte de vos conmigo. Tal vez nos encontremos de nuevo, vos y "
+"yo..."
 
 #: finbodh.tra:87
 msgid ""
@@ -1873,6 +2810,10 @@ msgid ""
 " my dear brother will be content with merely withering me with his own "
 "delightfully evil glare."
 msgstr ""
+"Vamos, vamos, <CHARNAME>... no hace falta que me miréis así. Una minúscula "
+"porción de vuestra alma me daría todo lo que quiero y más. Decidíos rápido, "
+"porque dudo que mi querido hermano se conforme meramente con fulminarme con "
+"su maligna mirada."
 
 #: finbodh.tra:88
 msgid ""
@@ -1880,12 +2821,17 @@ msgid ""
 " no idea.  I shall be pleased to know that you both die again just as you "
 "lived: without a single redeeming or worthwhile quality."
 msgstr ""
+"No tengo ni idea de por qué asumísteis que estaría interesado en vuestra "
+"lealtad, Bodhi. Me alegra saber que ambos morís de nuevo como vivisteis: sin"
+" una sola cualidad redentora o valiosa."
 
 #: finbodh.tra:89
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you.  Now to finalize matters...."
 msgstr ""
+"Reza para que mantengáis vuestra palabra, no hacerlo sería... desagradable "
+"para vos. Y ahora para acabar con el tema...."
 
 #: finbodh.tra:90
 msgid ""
@@ -1893,6 +2839,9 @@ msgid ""
 "ring more hollow than my brother's.  Far better to rip your soul from your "
 "living breast than beg for it at your side."
 msgstr ""
+"No, <CHARNAME>. A pesar de vuestra atractiva oferta, vuestras palabras "
+"suenan más vacías que las de mi hermano. Prefiero arrancaros vuestra alma "
+"que suplicar por ella a vuestro lado."
 
 #: finbodh.tra:91
 msgid ""
@@ -1919,16 +2868,20 @@ msgid ""
 "You don't have all the essence of Bhaal... not by far.  And I rule here, as "
 "well... you know that."
 msgstr ""
+"No poseéis toda la esencia de Bhaal... ni de lejos. Y yo estoy al mando "
+"aquí, aunque eso... ya lo sabéis."
 
 #: finmel01.tra:592
 msgid ""
 "You should have remained true to Bhaal, Melissan.  Only he could have saved "
 "you now."
 msgstr ""
+"Deberíais haber seguido fiel a Bhaal, Melissan. Sólo él os habría podido "
+"salvar ahora."
 
 #: finmel01.tra:594
 msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
-msgstr ""
+msgstr "Sí, bueno, supongo que todos tenemos un sueño. Psicópata."
 
 #: finmel01.tra:597
 msgctxt "FINMEL25"
@@ -1938,6 +2891,10 @@ msgid ""
 "keep you busy.  Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
 "dares to oppose while I take what is mine!"
 msgstr ""
+"¡Bah! No debería perder el tiempo con vos. Todavía tengo que absorber las "
+"esencias de los Hijos de Bhaal... y hay poder más que suficiente en este "
+"plano para manteneros ocupado. ¡Irenicus... Imoen... mostradle a <CHARNAME> "
+"el poder al que él amenaza oponerse mientras yo tomo lo que es mío!"
 
 #: finmel01.tra:604
 msgid ""
@@ -1946,6 +2903,10 @@ msgid ""
 "leave a trail of felled opponents littered about even here in the Abyss.  "
 "Such as this one I found, discarded..."
 msgstr ""
+"No creéis en mi poder, ya lo veo. Habéis luchado contra enemigos atroces en "
+"el pasado y siempre habéis salido vencedor. Vamos... si hasta aquí en el "
+"Abismo dejáis un reguero de oponentes caidos. Como este que encontré, "
+"desechado..."
 
 #: finmel01.tra:605
 msgid ""
@@ -1955,6 +2916,11 @@ msgid ""
 "Unlikely as that was, considering the pathetic monk could barely see the "
 "forest for the trees."
 msgstr ""
+"Cierto. Veo que os haces una idea mejor de lo que habría esperado de vos, "
+"<CHARNAME>. Y habéis sido aún más perspicaz por haberme negado la esencia de"
+" Balthazar... aunque, si os soy sincera, esperaba en el fondo que os "
+"derrotara. Aunque era improbable, considerando que a ese patético monje los "
+"árboles no le dejan ver el bosque."
 
 #: finmel01.tra:606
 msgid ""
@@ -1963,6 +2929,10 @@ msgid ""
 "actually believe you have a hope in opposing me, in seizing the Throne for "
 "yourself.  Such delusions."
 msgstr ""
+"Me habéis decepcionado, <CHARNAME>. Tanto alardeo, tanta fuerza. Tanto poder"
+" y sabiduría encerrados en un cuerpo tan frágil. De hecho, supongo que "
+"tenéis esperanzas de oponeros a mi, de conseguir el Trono para vos. Qué "
+"vanas ilusiones."
 
 #: finmel01.tra:607
 msgid ""
@@ -1971,12 +2941,19 @@ msgid ""
 "you, <CHARNAME>.  After all... I believe you did share a soul, once, no?  "
 "Say hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
+"Irenicus, creo que le llamábais. Qué fácilmente se ha pasado a nuestro lado,"
+" puesto que aquí le abandonásteis recientemente... y qué fuente inagotable "
+"de información sobre vos ha resultado ser, <CHARNAME>. Después de todo... "
+"creo que compartísteis un alma en una ocasión, ¿no es así? Saluda a nuestro "
+"querido hombre, Irenicus."
 
 #: finmel01.tra:608
 msgid ""
 "Of course, if you truly desire a demonstration of my influence over the "
 "essence, that can be provided as well."
 msgstr ""
+"Claro que si deseáis una demostración de mi influencia sobre la esencia, "
+"también os la puedo proporcionar."
 
 #: finmel01.tra:609
 msgid ""
@@ -1984,24 +2961,34 @@ msgid ""
 "here... and yet here you are.  Let's see just how much of my power is "
 "contained in your young little soul, hmm?"
 msgstr ""
+"Ven, Imoen. Yo mando en la esencia que hay en vos. No estáis preparada para "
+"estar aquí... y aún así aquí estáis. Veamos cuánto de mi poder contiene "
+"vuestra joven y pequeña alma, ¿hmm?"
 
 #: finmel01.tra:610
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you?  But her "
 "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgstr ""
+"Parece que habéis juzgado mal a vuestra querida y pequeña Imoen, ¿verdad? "
+"Pero vuestra esencia es muy fácil de manejar. Oigamos lo que tiene que "
+"decir, ¿de acuerdo?"
 
 #: finmel01.tra:611
 msgid ""
 "You don't have to go anywhere, little one.  I'm not calling you, after "
 "all... I'm merely coaxing forth your essence."
 msgstr ""
+"No tenéis que iros a ninguna parte, pequeña. No os estoy llamando, después "
+"de todo... simplemente estoy engatusando a vuestra esencia."
 
 #: finmel01.tra:612
 msgid ""
 "There, there, Imoen.  I command the essence within you.  Let's see just how "
 "much of my power you have within you, yes?"
 msgstr ""
+"Vale, vale, Imoen. Yo mando en la esencia que hay en vos. Veamos cuánto de "
+"mi poder hay en vos, ¿vale?"
 
 #: finmel01.tra:613
 msgid ""
@@ -2009,6 +2996,9 @@ msgid ""
 "<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
+"Ahhhh, Balthazar también está aquí. Qué inteligente por vuestra parte el "
+"negarme su esencia, <CHARNAME>. ¿Todavía cegado por vuestra devoción del "
+"destino, Balthazar? ¿O tan rápidamente habéis perdido la fe?"
 
 #: finmel01.tra:614
 msgid ""
@@ -2017,6 +3007,10 @@ msgid ""
 "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
 "all the other spawn of Bhaal was *for*?"
 msgstr ""
+"¿Oh no? Tal vez no lo entendéis. Este... este sitio, aquí, es la Fuente. "
+"Aquí es donde la esencia de todos los Hijos de Bhaal vuelve cuando mueren, "
+"oculta. ¿Nunca os preguntásteis, mi querido Balthazar, *para qué* había que "
+"matar a los demás Hijos de Bhaal?"
 
 #: finmel01.tra:615
 msgid ""
@@ -2025,6 +3019,10 @@ msgid ""
 "away and drank heartily of their power.  The Source, the Throne, all are "
 "mine... and god-hood is but one simple step away."
 msgstr ""
+"Y bien que no deberíais, aunque de todos modos me ayudásteis. Bhaal tal vez,"
+" de hecho, esté... en alguna parte. Pero no aquí. Aquí he encerrado todas "
+"estas esencias y he bebido sedienta de su poder. La Fuente, el Trono, son "
+"míos... y estoy a un paso de la deidad."
 
 #: finmel01.tra:616
 msgid ""
@@ -2032,6 +3030,9 @@ msgid ""
 "And I prefer them far better this way... completely servile, obeying every "
 "order without question."
 msgstr ""
+"Iba a resucitarlos de todos modos, para ser mis avatares conquistadores. Y "
+"los prefiero de esta manera... completamente serviles, obedeciendo todas las"
+" órdenes sin preguntar."
 
 #: finmel01.tra:617
 msgid ""
@@ -2040,38 +3041,51 @@ msgid ""
 "me to no end to know that he was right about me all along... and yet it made"
 " no difference.  You murdered him still, as I knew you would."
 msgstr ""
+"Y desde que reclutásteis a Balthazar, me he decidido por la deliciosa ironía"
+" de recrear al pobre y patético Gromnir también. Me alegra infinitamente "
+"saber que tenía razón sobre mi desde el principio... sin que cambiara nada. "
+"Aun así lo mataste, como sabía que haríais."
 
 #: finmel01.tra:618
 msgid ""
 "You should have kept your energies to yourself, Melissan.  Spending them on "
 "re-creating the Five will cost you... and cost you dearly."
 msgstr ""
+"Deberíais haber guardado vuestras energías para vos, Melissan. Pagaréis "
+"haberlas gastado en recrear a los Cinco... y lo pagaréis caro."
 
 #: finmel01.tra:619
 msgid ""
 "Perhaps.  But already I am immortal, which means I cannot be killed even by "
 "you.  And there is still more of your father's essence for me to take."
 msgstr ""
+"Quizás. Pero ya soy inmortal, así que ni siquiera vos puedes matarme. Y "
+"todavía queda más esencia de vuestro padre de la que adueñarme."
 
 #: finmel01.tra:620
 msgid ""
 "They provided a considerable challenge for you individually, <CHARNAME>.  I "
 "wonder how you will fare against them all?"
 msgstr ""
+"Resultaron ser un desafío considerable para ti individualmente, <CHARNAME>. "
+"Me pregunto cómo os las arreglaréis contra todos ellos."
 
 #: finmel01.tra:621
 msgid "So come, <CHARNAME>...kill your siblings once again.  If you can."
 msgstr ""
+"Así que venid, <CHARNAME>... mata a vuestros hermanos otra vez. Si podéis."
 
 #: finmel01.tra:622
 msgid "There is enough essence, in fact, even for you... Sarevok."
-msgstr ""
+msgstr "Hay esencia suficiente, de hecho, hasta para vos... Sarevok."
 
 #: finmel01.tra:623
 msgid ""
 "But... we don't have all your siblings accounted for just quite yet, do we?"
 "  Haven't you forgotten someone?"
 msgstr ""
+"Pero... ¿Pero no tenemos a todos vuestros hermanos, verdad? ¿No os habéis "
+"olvidado de alguien?"
 
 #: finmel01.tra:624
 msgid ""
@@ -2079,12 +3093,18 @@ msgid ""
 "still stands.  Join me now, abandon this pathetic whelp, and take your place"
 " at my side."
 msgstr ""
+"Oh, si que están, Sarevok. Os hice una oferta hace tiempo, y la oferta sigue"
+" en pie. Uníos a mi ahora, abandonad a este patético cachorro, y ocupad "
+"vuestro lugar a mi lado."
 
 #: finmel01.tra:625
 msgid ""
 "The geas the fool placed on your heart is nothing.  I could easily remove "
 "it.  In fact, I do so now.  There... act as you will."
 msgstr ""
+"El conjuro de obligación que ese loco os puso en el corazón no es nada. "
+"Podría quitároslo con facilidad. De hecho, voy a hacerlo ahora. Ya está... "
+"haz lo que quieras."
 
 #: finmel01.tra:626
 msgid ""
@@ -2093,18 +3113,26 @@ msgid ""
 "the return of the Bhaalspawn essence you lost.  Come, Sarevok... be the "
 "demon you once were.  Serve me."
 msgstr ""
+"Quizás. Pero sois un gran guerrero... y podríais ser un buen general para "
+"comandar mis tropas terrestres. Poder, riquezas, respeto... todo lo que "
+"deseáis.  Incluyendo la devolución de la esencia de Bhaal que perdísteis. "
+"Vamos, Sarevok... sed el demonio que fuísteis una vez. Poneos a mi servicio."
 
 #: finmel01.tra:627
 msgid ""
 "Then fight for me you shall!  And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgstr ""
+"¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestro hermano, "
+"¡qué tan merecida tiene la venganza!"
 
 #: finmel01.tra:628
 msgid ""
 "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
 " shall be the end of you both!"
 msgstr ""
+"¡Entonces morid con el estúpido de vuestro hermano, si eso es lo que "
+"queréis! ¡Los Cinco acabarán con vosotros dos!"
 
 #: finmel01.tra:629
 msgid ""
@@ -2112,12 +3140,17 @@ msgid ""
 "fight against <CHARNAME> and I will return the power you lost, the power you"
 " crave so much.  I will make you the man you once were."
 msgstr ""
+"Yo os traje aquí, Sarevok. Para daros una segunda oportunidad. Uníos a mi y "
+"luchad contra <CHARNAME> y os devolveré el poder que perdísteis, el poder "
+"que tanto ansíais. Os convertiré en el hombre que fuísteis."
 
 #: finmel01.tra:630
 msgid ""
 "What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
 "lost too much power!  You shall pay for this!!"
 msgstr ""
+"¿Cómo...? ¡ Mortal! ¡No, no puede ser! ¡¡Soy casi mortal de nuevo!! ¡¡He "
+"perdido demasiado poder!! ¡¡Pagaréis por esto!!"
 
 #: finsarev.tra:26
 msgid ""
@@ -2125,28 +3158,35 @@ msgid ""
 "resigned myself to not being a part of this little play.  Who brought me "
 "here?  And why am I in my old armor?"
 msgstr ""
+"¿Quién..? Melissan. Y <CHARNAME>, nada menos. Y pensar que me había "
+"resignado a no formar parte de este pequeño juego. ¿Quién me trajo aquí?  ¿Y"
+" por qué llevo mi vieja armadura?"
 
 #: finsarev.tra:27
 msgid "Fight <CHARNAME>?  Aye... I will do that."
-msgstr ""
+msgstr "¿Luchar contra <CHARNAME>? Sí... lo haré."
 
 #: finsarev.tra:28
 msgid "So you die again, as well.  It's all good."
-msgstr ""
+msgstr "Así que morís otra vez, también. Perfecto."
 
 #: finsarev.tra:29
 msgid "You're a fool, Sarevok, if you think you'll make any difference."
-msgstr ""
+msgstr "Sois un estúpido, Sarevok, si creéis que cambiaréis algo."
 
 #: finsarev.tra:30
 msgid "You're willing to become Melissan's servant, now?  I'm disappointed."
 msgstr ""
+"¿Ahora deseáis voluntariamente convertiros en un sirviente de Melissan? Me "
+"decepcionáis."
 
 #: finsarev.tra:31
 msgid ""
 "Then you'll die.  I gave you life again, and I can take it away... for the "
 "third time."
 msgstr ""
+"Entonces moriréis. Os di la vida de nuevo, y os la puedo quitar... por "
+"tercera vez."
 
 #: finsarev.tra:32
 msgid ""
@@ -2154,6 +3194,10 @@ msgid ""
 " sit in your shadow and taste the bile in my heart while you take what was "
 "once rightfully mine.  Better to fight for Melissan than suffer that."
 msgstr ""
+"Es verdad. Moriré a vuestras manos otra vez, <CHARNAME>. Pero mejor eso que "
+"sentarme a vuestra sombra y probar la hiel en mi corazón mientras tomáis "
+"todo lo que una vez fue mío por derecho. Prefiero luchar por Melissan que "
+"sufrir eso."
 
 #: finsol01.tra:580
 msgid ""
@@ -2161,6 +3205,10 @@ msgid ""
 "your side.  His portion of the essence is less than your own, but still "
 "significant.  His choice must also be made."
 msgstr ""
+"Solo uno de los otros hijos del dios muerto permanece... la hermana que "
+"combate a vuestro lado. Su porción de la esencia es menor de la que vos "
+"poseéis, pero a pesar de todo significante. Su elección debe efectuarse "
+"también."
 
 #: finsol01.tra:581
 msgid ""
@@ -2168,6 +3216,9 @@ msgid ""
 "fought by your side.  Their essences are less than your own, but their "
 "decision no less important."
 msgstr ""
+"Primero, sin embargo, está el asunto de la hija del dios muerto que combate "
+"a vuestro lado. Sus esencias son menores que las que vos poseéis, pero su "
+"decisión no es menos importante."
 
 #: finsol01.tra:582
 msgid ""
@@ -2176,6 +3227,10 @@ msgid ""
 "conclusion.  You have an opportunity that few are given.  You may choose "
 "your destiny... a choice you thought yourself forever denied."
 msgstr ""
+"Yo soy sólo un representante de la totalidad en este asunto, Balthazar. "
+"Estoy encargado de ver el destino de los hijos de Bhaal llegar a su "
+"conclusión. Vos tenéis una oportunidad que pocos han obtenido. Vos debéis "
+"elegir vuestro destino... una elección que siempre creísteis denegada."
 
 #: finsol01.tra:583
 msgid ""
@@ -2183,16 +3238,22 @@ msgid ""
 " to your elder sibling.  You may become a normal mortal, with a destiny to "
 "follow as you see fit."
 msgstr ""
+"Si esa es vuestra elección, debéis rendir la parte de vuestra esencia divina"
+" a vuestro hermano mayor. Podréis convertiros en un mortal normal, con un "
+"destino a seguir como el que vos dáis por cierto."
 
 #: finsol01.tra:584
 msgid ""
 "As you wish, Balthazar, so it is done.  Go in peace, and know that in the "
 "end you walked that narrow path which had ever eluded you."
 msgstr ""
+"Como queráis, Balthazar, que así sea. Id en paz, y tened por sabido, al "
+"final, que caminásteis por una angosta senda que nunca os ha evadido."
 
 #: finsol01.tra:585
 msgid "Now there is but one other sibling who must also make her choice."
 msgstr ""
+"Ahora es así, pero otro hermano también tiene que realizar su elección."
 
 #: finsol01.tra:586
 msgid ""
@@ -2202,62 +3263,73 @@ msgid ""
 "and while I would rather destroy this undead thing, it now falls on me to "
 "enforce the promise you have made."
 msgstr ""
+"Me disgusta ver que habéis traido a mi presencia a semejante criatura "
+"maligna, hijo de dios, debéis recordar que en este lugar un juramento es más"
+" importante que las palabras con las que es nombrado. Vos no sois un dios "
+"todavía... y mientras yo destruiría esta cosa no muerta. Ahora cae sobre mi "
+"el forzar la promesa que habéis hecho."
 
 #: imoen25j.tra:476 imoen25p.tra:476
 msgid ""
 "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
 "again!!"
 msgstr ""
+"¡Yo no voy a ningún lugar con vos! ¡Y nadie toca mi alma! ¡¡Nunca más!!"
 
 #: imoen25p.tra:470
 msgctxt "IMOEN18"
 msgid "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
-msgstr ""
+msgstr "¡Nnngh! ¡Ah, duele! ¡¡<CHARNAME>, paradla... me... me lastima!!"
 
 #: imoen25p.tra:471
 msgid "What are you doing to her?!  Stop it, I demand it!!"
-msgstr ""
+msgstr "¡¿Qué la estáis haciendo?! ¡¡Parad, os lo ordeno!!"
 
 #: imoen25p.tra:472
 msgid "I'm the one you're after, Melissan!  Leave her alone!!"
-msgstr ""
+msgstr "¡Yo soy lo mismo que vos seréis después, Melissan! ¡¡Dejadla sola!!"
 
 #: imoen25p.tra:473
 msgid "Pull yourself together, Imoen!  Attack!!"
-msgstr ""
+msgstr "¡Vamos juntos, Imoen! ¡¡Atacad!!"
 
 #: imoen25p.tra:474
 msgid "So what do I care about Imoen?  Kill her, Melissan."
-msgstr ""
+msgstr "¿Qué me importa Imoen? Matadla, Melissan."
 
 #: imoen25p.tra:475
 msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
-msgstr ""
+msgstr "¿Qu-qué... dónde estoy? ¿Qué ocurre? ¿<CHARNAME>?"
 
 #: imoen25p.tra:477
 msgid ""
 "It... it's gone... I'm human again.  Ohhhh, now I know what you went "
 "through, <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgstr ""
+"Esto... esto marcha... soy humana otra vez. ¡Ohhhh, ahora se por lo que "
+"pasásteis, <CHARNAME>! ¡No se si quisiera pasar de nuevo por esto!"
 
 #: imoen25p.tra:478
 msgid ""
 "And I can't believe what you said, either!  'Go ahead and kill her'?  After "
 "all we've been through, that's what you say in my defense?!"
 msgstr ""
+"¡Y no puedo creer lo que estáis diciendo! ¿'Continuad y matadla'? Después de"
+" todo lo que hemos pasado, ¡¿eso es lo que tenéis que decir en mi defensa?!"
 
 #: imoen25p.tra:479
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
-msgstr ""
+msgstr "¡Yo estaba intentando convencer a Melissan para que os dejara, Imoen!"
 
 #: imoen25p.tra:480
 msgid "Get over yourself, little girl.  I never asked you to come, did I?"
-msgstr ""
+msgstr "Superadlo, chiquilla. Nunca os pedí que viniérais, ¿No?"
 
 #: imoen25p.tra:481
 msgid ""
 "We don't have time for this chat, Imoen!  This is the middle of a fight!"
 msgstr ""
+"¡No tenemos tiempo para esta charla, Imoen! ¡Esto es el centro de una pelea!"
 
 #: imoen25p.tra:482
 msgid ""
@@ -2265,6 +3337,9 @@ msgid ""
 "just glad I didn't do more damage as the slayer.  I don't know how you "
 "handled it.  Thank you for... for not killing me."
 msgstr ""
+"Bien... lo supongo. Me habéis convencido más que a ella, obviamente. Yo... "
+"estoy ahora contenta. No puedo hacer más daño que el Asesino. No se como lo "
+"controlas. Gracias por... por no matarme."
 
 #: imoen25p.tra:483
 msgid ""
@@ -2272,6 +3347,9 @@ msgid ""
 "well, <CHARNAME>, and I hope I'll see you again.  Maybe back at Candlekeep, "
 "huh?  Anyway... good luck..."
 msgstr ""
+"No... no puedo estar aqui. Éste es un camino de salida de mi alianza. Deseo "
+"vuestro bien, <CHARNAME>, y espero volver a veros otra vez. Tal vez vuelva a"
+" Candelero, ¿huh? De todas modos... buena suerte..."
 
 #: imoen25p.tra:484
 msgid ""
@@ -2279,6 +3357,9 @@ msgid ""
 "think... I think I have that power, now, same as you.  But I'll fight by "
 "your side again, if you want me to."
 msgstr ""
+"¿Me necesitáis para volver con vos? Yo podría... dejar el Trono, creo... "
+"creo que tengo ese poder, ahora, al igual que vos. Pero volveré a pelear "
+"junto a vos de nuevo, si vos lo queréis."
 
 #: imoen25p.tra:485
 msgid ""
@@ -2291,26 +3372,38 @@ msgid ""
 "Imoen is now able to enter the Ethereal Plane for brief periods of time.  The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well.  Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm.  During that round, she also cannot cast spells or use abilities.\n"
 "For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane.  She is still invisible, but takes half damage from all sources.  In this state, there is a small chance (10%) that she will miscast a spell.  For all three rounds, she is able to see any invisible targets."
 msgstr ""
+"Imoen ha sobrevivido\n"
+"\n"
+"Imoen logró sobrevivir a la tentativa de Melissan de convertirla en una forma de frenética Asesina. Parece ser que, Imoen ha tenido sus propios pogresos en un defecto considerablemente deserrollado. Ella ahora no sólo puede convertirse en la misma forma de Asesino que yo comencé a convertirme en la Prisión del Hechicero... si no que también ha adquirido la habilidad de ser Etérea durante cortos periodos de tiempo.\n"
+"\n"
+"Etéreo\n"
+"-------------\n"
+"Imoen puede ahora entrar en el Plano Etéreo por cortos periodos de tiempo. La habilidad puede ser usada una vez por minuto, y su uso también la previene de asumir la forma del Asesino durante un minuto. Imoen puede permanecer etérea e intocable a las fuerzas de este plano durante todo un turno... durante el cual es invisible y completamente inmune al daño. Durante ese turno, ella tampoco puede lanzar conjuros o usar habilidades.\n"
+"Durante los dos turnos posteriores, Imoen puede permanecer 'en semi-fase'... ella es parcialmente en el plano etéreo y parcialmente en este plano. Es aún invisible, pero recibe la mitad de daño de cualquier origen. En este estado, hay una pequeña probabilidad (10%) de que calcule mal un conjuro. Durante tres turnos, ella puede ver objetivos invisibles."
 
 #: imoen25p.tra:486
 msgid "Sure.  Let's join up again."
-msgstr ""
+msgstr "Seguro. Dejadla unirse de nuevo."
 
 #: imoen25p.tra:487
 msgid "No... get out of here while you can, Imoen."
-msgstr ""
+msgstr "No... salid de aqui mientras podáis, Imoen."
 
 #: imoen25p.tra:488
 msgid ""
 "I wish you well, <CHARNAME>, and I hope I'll see you again.  Maybe back at "
 "Candlekeep, huh?  Anyway... good luck..."
 msgstr ""
+"Deseo vuestro bien, <CHARNAME>, y espero veros otra vez. Quizás vuelva a "
+"Candelero, ¿huh? De cualquier forma... buena suerte..."
 
 #: imoen25p.tra:489
 msgid ""
 "Yeah, right.  You do whatever you have to, <CHARNAME>.  Me... I'm getting as"
 " far away from here as possible.  Good-bye!"
 msgstr ""
+"Sí, de acuerdo. Haced lo que sea que tengáis que hacer, <CHARNAME>. Yo... me"
+" alejaré de aquí tanto como me sea posible. ¡Adiós!"
 
 #: imoen25p.tra:490
 msgid ""
@@ -2318,6 +3411,9 @@ msgid ""
 "have to, <CHARNAME>.  Me... I'm getting as far away from here as possible.  "
 "Good-bye!"
 msgstr ""
+"No, vos seguramente no. Gracias por nada, supongo. Haced lo que sea que "
+"tengáis que hacer, <CHARNAME>. Yo... me alejaré de aquí tanto como me sea "
+"posible. ¡Adios!"
 
 #: imoen25p.tra:491
 msgid ""
@@ -2325,6 +3421,9 @@ msgid ""
 "just don't know how you handled it back in Spellhold.  Thank you for... not "
 "killing me, okay?"
 msgstr ""
+"Estoy... contenta, no hice nada peor mientras estuve... cuando yo... oh, yo "
+"no se como lo manejásteis conteniéndolo en la Prisión del Hechicero. Gracias"
+" por... no matarme, ¿vale?"
 
 #: imoen25p.tra:492
 msgid ""
@@ -2332,6 +3431,9 @@ msgid ""
 "Throne, I think... I think I have that power, now, same as you.  But I'll "
 "fight by your side again, if you want me to."
 msgstr ""
+"¡Oh, asi qué es eso! ¿Me necesitáis de vuelta en el grupo? Yo podría... "
+"dejar el Trono, pienso... pienso que tengo ese poder, ahora, como vos. Pero "
+"lucharé junto a vos de nuevo, si me queréis para ello."
 
 #: imoen25p.tra:493
 msgid ""
@@ -2339,61 +3441,79 @@ msgid ""
 "could... leave the Throne, I think... I think I have that power, now, same "
 "as you.  But I'd like to see this through, same as you."
 msgstr ""
+"Veo que la batalla todavía continúa. ¿Me necesitáis de nuevo en el grupo? "
+"Podría... podría dejar el Trono, creo... creo que tengo ese poder, ahora, al"
+" igual que vos. Pero me gustaría ver esto hasta el final, como vos."
 
 #: imoen25p.tra:494
 msgid ""
 "Stop distracting me in the middle of combat, already!  Get back in the "
 "party!"
-msgstr ""
+msgstr "¡Dejad ya de distraerme en medio de la batalla! ¡Volved al grupo!"
 
 #: imoen25p.tra:495
 msgid ""
 "Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
 msgstr ""
+"¡Si señor! (risa nerviosa) ¿Es tiempo de patear el culo de alguien, cierto?"
 
 #: irenic2.tra:435
 msgid "Indeed.  We meet once again."
-msgstr ""
+msgstr "Por supuesto. Nos encontraremos otra vez."
 
 #: irenic2.tra:436
 msgid ""
 "That's okay.  If Sarevok can turn up like a bad penny, then you're allowed "
 "to, as well."
 msgstr ""
+"Está bien. Si Sarevok puede volverse como un penique sin importancia, "
+"entonces vos también tenéis permiso."
 
 #: irenic2.tra:437
 msgid ""
 "You told her how to influence me, didn't you?  And you told her I was in "
 "Suldanessalar."
 msgstr ""
+"¿Le dijísteis como dominarme, no? Y le dijísteis que yo estaba en "
+"Suldanessalar."
 
 #: irenic2.tra:438
 msgid ""
 "You're a pathetic excuse for an elf, Irenicus.  If you wish to die again, "
 "I'll happily oblige."
 msgstr ""
+"Sois una patética copia de un elfo, Irenicus. Si deseáis morir nuevamente, "
+"os lo concederé encantado."
 
 #: irenic2.tra:439
 msgid "You're collecting my leavings, Melissan?  How very sad for you."
 msgstr ""
+"¿Estáis coleccionando mis sobras, Melissan? Que triste por vuestra parte."
 
 #: irenic2.tra:440
 msgid ""
 "So, <CHARNAME>...it is now just you and I, once again.  At odds in the "
 "bowels of Hell and preparing to do combat.  How very fitting."
 msgstr ""
+"Entonces, <CHARNAME>... esto es ahora, una vez más, entre vos y yo. Peleando"
+" en las entrañas del infierno y preparándonos para el combate. Que "
+"apropiado."
 
 #: irenic2.tra:441
 msgid ""
 "This fight is mine, Irenicus.  While you stewed in Hell, my power has "
 "multiplied."
 msgstr ""
+"Váis a perder, Irenicus. Mientras vos ardíais en el infierno, mi poder se ha"
+" multiplicado."
 
 #: irenic2.tra:442
 msgid ""
 "You actually think you'll stop me?  It appears your delusions have survived "
 "the many beatings at my hand."
 msgstr ""
+"¿Realmente creéis que me pararéis? Parece que vuestras falsas ilusiones han "
+"sobrevivido a todos los golpes que habéis recibido de mi."
 
 #: irenic2.tra:443
 msgid ""
@@ -2401,16 +3521,21 @@ msgid ""
 "expect more from the great elven magician.  Ellesime would be sad to see you"
 " reduced to this."
 msgstr ""
+"¿Entonces verdaderamente estáis a gusto sirviendo como un pequeño lacayo de "
+"Melissan? Hubiera esperado más del gran mago elfo. Ellesime estaría afligida"
+" de veros reducido a esto."
 
 #: irenic2.tra:444
 msgid ""
 "Don't you ever tire of that bravado?  Haven't you received enough spankings "
 "upon my knee?"
 msgstr ""
+"¿No os cansáis nunca de fanfarronear? ¿No habéis recibido suficientes "
+"golpes?"
 
 #: irenic2.tra:445
 msgid "You won't stop me, Irenicus.  Nobody can.  My destiny is at hand."
-msgstr ""
+msgstr "No podéis pararme, Irenicus. Nadie puede. Mi destino esta cerca."
 
 #: irenic2.tra:446
 msgid ""
@@ -2419,6 +3544,10 @@ msgid ""
 "life.  Thanks to Melissan, I still have time to snuff out your divine "
 "ascencion personally. We will be even!"
 msgstr ""
+"Parece que habéis sido el beneficiario de viles expectativas, pero he "
+"aprendido de mis errores. Aqui, no tengo nada que perder, ni siquiera mi "
+"vida. Gracias a Melissan, todavia tengo tiempo de arruinar vuestra ascensión"
+" divina personalmente. ¡Estaremos igualados!"
 
 #: irenic2.tra:447
 msgid ""
@@ -2427,6 +3556,10 @@ msgid ""
 "And Melissan has given me the opportunity to personally see an end to your "
 "ascension... consider it a favor returned."
 msgstr ""
+"Debéis de haber ganado un rudimentario control sobre vuestras habilidades "
+"por ahora, pero yo también he aprendido una o dos cosas... falsas ilusiones "
+"o no. Y Melissan me ha dado la oportunidad de ver personalmente el fin de "
+"vuestra ascensión... consideradlo un favor devuelto."
 
 #: irenic2.tra:448
 msgid ""
@@ -2435,6 +3568,10 @@ msgid ""
 "return an old favor.  One ascension for another... it rings with universal "
 "justice."
 msgstr ""
+"No pronunciéis su nombre, perro. Ellesime entenderá la magnitud de su error "
+"bastante pronto. En cuanto a vos... Melissan me ha dado la oportunidad de "
+"devolveros un viejo favor. Una ascensión para otro... suena como justicia "
+"universal."
 
 #: irenic2.tra:449
 msgid ""
@@ -2443,6 +3580,10 @@ msgid ""
 "fortunate that I have an opportunity, then, to repay your termination of my "
 "own ascension in kind."
 msgstr ""
+"Qué elocuente y típico. Hasta donde deben haberse reducido las expectativas "
+"del universo para permitir a un mosquito como vos llegar tan lejos. Es una "
+"suerte que tengái la oportunidad para pagaros con creces vuestro destrozo de"
+" mi propia ascensión."
 
 #: irenic2.tra:450
 msgid ""
@@ -2450,6 +3591,9 @@ msgid ""
 " ascension.  How I would enjoy to repay that favor in kind and show the "
 "universe what an unworthy gnat you truly are."
 msgstr ""
+"Ah, si. Palabras familiares. Similares a las que dije en la cúspide de mi "
+"ascensión. Como disfrutaré al devolveros un favor de este tipo y enseñar al "
+"universo lo realmente insignificante que sois."
 
 #: irenic2.tra:451
 msgid ""
@@ -2457,6 +3601,9 @@ msgid ""
 "own Hell for eternity, it would not be a true and fitting re-union if I did "
 "not use my new power to send her an invitation."
 msgstr ""
+"Ya es suficiente. Creo que me encantaría dejar a mi hermana quemarse en su "
+"propio infierno por toda la eternidad, podría no ser una verdadera y "
+"apropiada reunión si no usara mi nuevo poder para enviarle una invitación."
 
 #: irenic2.tra:452
 msgid ""
@@ -2464,6 +3611,10 @@ msgid ""
 "of my non-existent affection.  Or do you truly think I had forgotten your "
 "whispered urgings which had led me down the path of my exile?"
 msgstr ""
+"No sobreestiméis vuestra utilidad para mi, 'querida' hermana... tampoco de "
+"la cantidad de mi inexistente afecto. ¿O verdaderamente pensáis que he "
+"olvidado vuestros susurrantes ataques que me hicieron caer al oscuro camino "
+"de mi exilio?"
 
 #: irenic2.tra:453
 msgid ""
@@ -2472,12 +3623,20 @@ msgid ""
 "<CHARNAME>, if I can rip that soul out of you once more.  I would so delight"
 " in stealing your proud destiny a second time."
 msgstr ""
+"Ya esta bien, hermana. Aceptamos la oferta de Melissan, con sus sirvientes "
+"en nuestro bando. Deleitáos, si queréis, en la venganza que ahora estamos "
+"saboreando. Veamos, <CHARNAME>, si podemos desgarrar esa alma fuera de vos "
+"una vez mas. Podría deleitarme robando vuestro grandioso destino por segunda"
+" vez."
 
 #: irenic2.tra:454
 msgid ""
 "You over-step your bounds, as always.  I did not call you here to rejoice in"
 " your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
 msgstr ""
+"Sobrepasáis vuestro límite, como siempre. No os hice venir aqui para "
+"regocijarme en vuestro veneno, Bodhi. ¿No percibís donde estamos? ¿A quién "
+"nos enfrentamos?"
 
 #: irenic2.tra:455
 msgid ""
@@ -2485,6 +3644,9 @@ msgid ""
 " power here, and you hope to find succor at the feet of this fool "
 "<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
 msgstr ""
+"¿Pensáis traicionarme, Bodhi? Muchacha estúpida. Melissan es la única que "
+"posee el poder aquí, y ¿esperáis encontrar amparo a los pies de este tonto "
+"niño? ¡Apóyadme o morid con él!"
 
 #: irenic2.tra:456
 msgid ""
@@ -2493,10 +3655,15 @@ msgid ""
 " the power to rip the divinity from your body.  The first thing I shall feel"
 " in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
+"Entonces mi desagradecida hermana, finalmente permanecéis a mi lado. Os "
+"trataré vuestra alevosía después. Y para vos, <CHARNAME>, Mellisan me ha "
+"concedido el poder de desgarrar la divinidad de vuestro cuerpo. Lo primero "
+"que sentiréis en un eon será el placer de ver vuestro cuerpo morir."
 
 #: irenic2.tra:457
 msgid "I see.  So you leave me, sister, just as *she* left me."
 msgstr ""
+"Ya veo. Entonces me abandonáis, hermana, tal y como *ella* me abandonó."
 
 #: irenic2.tra:458
 msgid ""
@@ -2505,6 +3672,9 @@ msgid ""
 "<CHARNAME>'s soul and you, *dear* sister, shall be nothing but dust beside "
 "<PRO_HIMHER>."
 msgstr ""
+"Eso no importa. Melissan me ha dado bastante poder, y sus propios sirvientes"
+" os enseñarán el error de vuestras decisiones. Robaré la divinidad del alma "
+"de <CHARNAME> y vuestra, *querida* hermana, sólo serás polvo junto a él."
 
 #: irenic2.tra:459
 msgid ""
@@ -2513,6 +3683,11 @@ msgid ""
 "candidate long before <CHARNAME> soundly defeated you merely for fear of "
 "losing all common sense merely by association with your pathetic soul."
 msgstr ""
+"Mejor que un ridículo mentecato cuya idea más prometedora para dominar la "
+"Costa de la Espada era envenenar su abastecimiento de hierro. Os descarté "
+"como un candidato mucho antes de que <CHARNAME> os derrotará firmemente, "
+"sólo por miedo a perder todo mi sentido común en una asociación con vuestra "
+"patética alma."
 
 #: irenic2.tra:460
 msgid ""
@@ -2521,18 +3696,26 @@ msgid ""
 "coat-tails it makes no difference to me... but you'll be disintegrated right"
 " along with <PRO_HIMHER>."
 msgstr ""
+"Ladra si lo deseáis, chucho. Cualquier colmillo amenazador que halláis "
+"tenido ha sido desde hace tiempo pulido. Si un marginado desea conducir el "
+"taparrabos de <CHARNAME>, no crea diferencias para mi... pero seréis "
+"desintegrado junto a él."
 
 #: meliss01.tra:419
 msgid ""
 "Oh, please.  I saw you coming from a mile away.  I just played along because"
 " I had no choice."
 msgstr ""
+"Oh, por favor. Vi vuestra llegada a kilometros de distancia. Jugué porque no"
+" tenia elección."
 
 #: meliss01.tra:420
 msgid ""
 "Well, your plan didn't work out quite like you thought.  Balthazar is still "
 "alive."
 msgstr ""
+"Bien, vuestro plan no funcionó del todo como vos pensásteis. Balthazar aun "
+"está vivo."
 
 #: meliss01.tra:422
 msgctxt "MELISS23"
@@ -2541,12 +3724,17 @@ msgid ""
 "the sorry dog that you are?  Because make no mistake... one way or another, "
 "every last drop of that divine essence will be *mine*."
 msgstr ""
+"¿Os atrevéis a venir y desafiarme allí? ¿O debería cazaros como el perro "
+"lastimoso que sois? Porque no habrá errores... un camino u otro, hasta el "
+"final de la última gota de esa divina esencia será *mía*."
 
 #: meliss01.tra:433
 msgid ""
 "As long as you did what you were required to and kill the Five, then I care "
 "little for what you think you know, fool."
 msgstr ""
+"Tanto tiempo como requeráis para desempeñar y asesinar a los Cinco, después "
+"me preocuparé un poco por lo que creéis saber, tonto."
 
 #: meliss01.tra:434
 msgid ""
@@ -2554,6 +3742,9 @@ msgid ""
 "surprised.  In the end, however, the essence of one or two of Bhaal's get "
 "means very little."
 msgstr ""
+"¿Asi que os las arreglaste para acorralar a Balthazar y hacerle cooperar con"
+" vos? Estoy sorprendida. Al final, sin embargo, la esencia de uno o dos "
+"hijos de Bhaal significa muy poco."
 
 #: player1.tra:314
 msgid ""
@@ -2561,6 +3752,9 @@ msgid ""
 "\n"
 "It appears my ability to control the transformation to the slayer has increased.  The slayer form itself is stronger, deadlier... and I am able to maintain it for longer.  The chances of going berserk while in the form have also decreased."
 msgstr ""
+"Cambios en la habilidad del Asesino\n"
+"\n"
+"Parece que mi habilidad para controlar la transformación en el asesino se ha incrementado. El asesino se transforma en un ser poderoso, mortifero... y estoy habilitado para mantenerlo asi por más tiempo. La posibilidad de entrar en furia berserker durante la transformación ha descendido."
 
 #: player1.tra:315
 msgid ""
@@ -2568,6 +3762,9 @@ msgid ""
 "\n"
 "My control over the slayer transformation continues to increase.  The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects.  Even the slayer's claws now sometimes rip through magical effects and defenses."
 msgstr ""
+"Nuevos cambios en la habilidad del Asesino\n"
+"\n"
+"Mi control sobre la transformación en el Asesino sigue incrementándose. El Asesino se ha vuelto increiblemente inmune al daño y la mayoría de efectos mágicos, y parece que ahora es inmune a la mayoría de enfermedades, venenos tanto de efecto lento o rápido. Ahora las garras del Asesino son capaces de atravesar defensas y efectos mágicos en algunas ocasiones."
 
 #: player1.tra:316
 msgid ""
@@ -2575,10 +3772,13 @@ msgid ""
 "\n"
 "I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the ravager... optionally.  Although incredibly powerful... the ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the ravager is difficult for me to control and may be a danger to those nearby."
 msgstr ""
+"El Saqueador\n"
+"\n"
+"No estoy seguro de si esto es un bueno o no... pero mi habilidad para controlar mi transformación ha progresado hasta el punto en que puedo convertirme en el Saqueador... a voluntad. Aunque es increiblemente poderoso... el Saqueador recibe la mitad de daño de la mayoría de los ataques, es inmune a cualquier tipo de immobilización o ataque contundente... el Saqueador es difícil de controlar para mi y debe de ser peligroso para aquellos que esten cerca."
 
 #: player1.tra:317
 msgid "I choose to turn into the ravager."
-msgstr ""
+msgstr "Elijo transformarme en el Saqueador."
 
 #: player1.tra:396
 msgid ""
@@ -2587,6 +3787,10 @@ msgid ""
 "invulnerable to harm... and growing in power every second.  She must be "
 "drawn out willingly in order to defeat her."
 msgstr ""
+"Con la batalla inicial ahora encima, vos consideráis vuestras opciones. En "
+"el interior de la corriente de energia del centro del Trono, Melissan parece"
+" ser invulnerable al daño... y creciendo en poder cada segundo. Debe ser "
+"atraida voluntariamente fuera del mismo para derrotarla."
 
 #: player1.tra:397
 msgid ""
@@ -2595,6 +3799,10 @@ msgid ""
 " to cut off the flow of energy to Melissan from these pools, forcing her to "
 "fight.  The pools are, however, likely to be guarded..."
 msgstr ""
+"La unica opción que podéis pensar parece ser relativa a las tres 'pilas "
+"esencia' anexas al Trono. Vuestro propio enlace a la esencia de poder os "
+"permite cortar el flujo de energía a Melissan de estas pilas, forzándola a "
+"combatir. Las pilas estarán, sin embargo, bien protegidas..."
 
 #: player1.tra:398
 msgid ""
@@ -2602,6 +3810,9 @@ msgid ""
 "her immortality intact.  There must be a way to weaken her further, or you "
 "will never be able to defeat her."
 msgstr ""
+"Melissan continúa restaurando sus energías divinas de la fuente, guardando "
+"su inmortalidad intacta. Debe haber un camino para debilitarla más aun, o "
+"nunca estaréis preparado para derrotarla."
 
 #: ppguy02.tra:1
 msgid ""
@@ -2609,6 +3820,9 @@ msgid ""
 "power is obviously too much for you.  You do not interrupt its flow and, "
 "instead, the energy leaps out and damages you."
 msgstr ""
+"Interponéis vuestra mano dentro del remolino de energía de la fuente, pero "
+"obviamente es demasiado poderoso para vos. No conseguís interrumpir su "
+"flujo, y además, se produce una descarga de energía que os hiere."
 
 #: ppguy02.tra:2
 msgid ""
@@ -2619,6 +3833,14 @@ msgid ""
 "also gained the ability to unleash the power within you as a short burst of "
 "destructive power.  The energies also restore the powers of all present."
 msgstr ""
+"Pones vuestra mano dentro de las energías de la fuente y se perfila vuestra "
+"esencia dentro de vos, desviando la energía lejos de Melissan. Cantidades "
+"ingentes de poder os llenan por completo, y mientras la mayoría se disipa, "
+"una porción se añade a vuestra energía interna. Ahora sois inmune a las "
+"muertes de caracter mágico y a los efectos vorpalinos, y también habéis "
+"ganado la habilidad de liberar el poder que esta dentro de vos durante un "
+"corto estallido de gran poder destructivo. Las energías también restauran "
+"los poderes de todos los que os rodean."
 
 #: ppguy02.tra:3 ppguy02.tra:4
 msgid ""
@@ -2626,6 +3848,9 @@ msgid ""
 "\n"
 "The \"Unleash\" ability releases your inner power upon a target that is within melee range, hitting them for 10d12 magic damage (half on a successful save vs. Death) and sending them flying back and perhaps unconscious for a short period.  This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued and have a 25% miscast chance on all spells for 2 rounds.  Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds."
 msgstr ""
+"Nuevo poder adquirido: \"Liberar\"\n"
+"\n"
+"La habilidad de \"Liberar\" os permite soltar vuestro poder interior hacia un objetivo que este dentro del rango de contacto, golpeándole con un 10d12 puntos de daño mágico (la mitad si supera una tirada de salvación contra muerte) y le envía volando en dirección contraria a vos, e incluso puede dejarlo inconsciente durante un corto periodo de tiempo. Esta habilidad sólo deberíais usarla una vez cada 30 segundos... y después de usarla los hijos de Bhaal se fatigan enormemente y tienen un 25% de errar conjuro en todos los hechizos durante 2 turnos. Debido a la cantidad de esencia divina usada, la forma del asesino no estará disponible durante treinta segundos."
 
 #: ppguy02.tra:5
 msgid ""
@@ -2638,6 +3863,15 @@ msgid ""
 " immune to the spells Maze and Imprisonment.  The energies also restore the "
 "powers of all present."
 msgstr ""
+"Pones vuestra mano dentro de las energías de la fuente y se perfila vuestra "
+"esencia dentro de vos, desviando la energía lejos de Melissan. Cantidades "
+"ingentes de poder os llenan por completo, y mientras la mayoría se disipa, "
+"os quedáis con mucha de la esencia de Bhaal. Por el momento, tenéis la "
+"habilidad de teletransportaros libremente por el espacio y luchar por el "
+"control de los demonios abisales que están bajo el control de Melissan. "
+"Parte de esta habilidad para teletransportarse significa también que ahora "
+"sois completamente inmune a los conjuros de Laberinto y encarcelamiento.  "
+"Las energías también restauran los poderes de todos los que os rodean."
 
 #: ppguy02.tra:6
 msgid ""
@@ -2649,6 +3883,13 @@ msgid ""
 "\n"
 "The Bhaalspawn may now move freely through space and the planes.  This teleportation power is useable once per round."
 msgstr ""
+"Nuevo poder adquirido: \"Controlar Demonio\"\n"
+"\n"
+"Esta habilidad permite a los hijos de Bhaal intentar arrebatar el control de un demonio de Melissan, y hacerlo aliado suyo. El hijo de Bhaal se enzarza en un combate mental durante 1 turno, al final de la cual, el demonio tiene la oportunidad de ser su aliado. Sin embargo, el demonio no esta bajo el control directo del hijo de Bhaal. Esta habilidad sólo puede ser usada cada 3 turnos.\n"
+"\n"
+"Nuevo poder adquirido: \"Puerta dimensional\"\n"
+"\n"
+"El hijo de Bhaal podrá ahora meverse libremente a través del espacio y los planos. Este poder de teletransportación sólo podrá usarse una vez por turno."
 
 #: ppguy02.tra:7
 msgid ""
@@ -2660,6 +3901,14 @@ msgid ""
 "magics as Time Stop, Disintegrate and Flesh to Stone for a short period.  "
 "The energies also restore the powers of all present."
 msgstr ""
+"Pones vuestra mano dentro de las energías de la fuente y se perfila la "
+"esencia divina en vuestro interior, desviándola de Melissan. Durante un "
+"instante estáis lleno de poder ilimitado... y mientras la mayoría de ese "
+"poder os abandona y se disipa en el cosmos, una parte del mismo permanece en"
+" vos. Habéis adquirido la habilidad de centrar energías dentro de vos para "
+"protegeros de magias como Detener el tiempo, Desintegrar y Petrificación "
+"durante un corto periodo de tiempo. Las energías también recuperan los "
+"poderes de todos los presentes."
 
 #: ppguy02.tra:9
 msgid ""
@@ -2667,6 +3916,9 @@ msgid ""
 "\n"
 "This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without.  For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop.  All minor spells of 1st through 3rd level will also not affect the Bhaalspawn.  This ability is useable once per minute."
 msgstr ""
+"Nuevo poder adquirido: \"Concentración\"\n"
+"\n"
+"Esta habilidad permite a los hijos de Bhaal centrar su energía interior en ellos para resistir los efectos de algunos hechizos. Durante 30 segundos, el hijo de Bhaal es inmune a los hechizos de Petrificación, Desintegrar y Detener el tiempo. Todos los hechizos de primer hasta tercer nivel tampoco le afectarán. Esta habilidad sólo puede ser usada una vez por minuto."
 
 #: ppguy02.tra:10
 msgid ""
@@ -2674,28 +3926,39 @@ msgid ""
 "to ebb.  You have only moments to prepare for what is surely the final "
 "confrontation..."
 msgstr ""
+"La fuente final ha sido calmada. La luz de la columna de energía ha empezado"
+" a menguar. Apenas tenéis unos momentos para prepararos para la que "
+"seguramente será la confrontación final..."
 
 #: ppguy02.tra:11
 msgid ""
 "Already Melissan begins to stir within the stream of divine energies.  Once "
 "the last pool is stilled, there will be very little time before she reacts."
 msgstr ""
+"Melissan ya empieza a revolverse dentro de la corriente de energías divinas."
+" Una vez que la fuente se calme, sólo habrá un pequeño momento antes de que "
+"ella reaccione."
 
 #: sarev25j.tra:262
 msgid "What do you mean, wench?  We've no business, you and I."
 msgstr ""
+"¿Qué queréis decir jovencita? Vos y yo no tenemos ningún trato pendiente."
 
 #: sarev25j.tra:263
 msgid ""
 "Even if cared to consider your offer, I cannot.  <CHARNAME> has bound me "
 "with a vow."
 msgstr ""
+"Incluso si tomara en consideración vuestra oferta, no aceptaré. <CHARNAME> "
+"me tiene ligado con un juramento."
 
 #: sarev25j.tra:264
 msgid ""
 "I see.  And you believe your offer interests me?  <CHARNAME> has done well "
 "enough against you so far."
 msgstr ""
+"Ya veo. ¿Y creéis que vuestra oferta me interesa? <CHARNAME> lo ha hecho "
+"bastante bien contra vos hasta ahora."
 
 #: sarev25j.tra:265
 msgid ""
@@ -2704,6 +3967,10 @@ msgid ""
 " innards.  I desired to rule, not to serve.  And I will not serve you, "
 "wench.  My answer is no."
 msgstr ""
+"¿Serviros? Ya me hicísteis esa oferta una vez, y la rechacé. Até a vuestro "
+"mensajero en lo más alto de mi torre y permití a los cuervos alimentarse con"
+" sus entrañas. Deseo gobernar, no servir. Y no os serviré a vos, jovencita. "
+"Mi respuesta es no."
 
 #: sarev25j.tra:266
 msgid ""
@@ -2711,19 +3978,25 @@ msgid ""
 "along as a servant to the one who halted my own plans long before yours came"
 " to fruition, priestess.  Aye... I will be your general."
 msgstr ""
+"Estoy cansado de la timorata moralidad de <CHARNAME> y de él .Estoy cansado "
+"de ser etiquetado como el sirviente del que desbarató mis propios planes "
+"mucho antes de que los vuestros empezaran a fraguarse, sacerdotisa. De "
+"acuerdo... seré vuestro general."
 
 #: sarev25j.tra:267
 msgid "No, Sarevok!  You traitorous bastard!"
-msgstr ""
+msgstr "¡No, Sarevok! ¡Bastardo traidor!"
 
 #: sarev25j.tra:268
 msgid "That is a mistake, Sarevok.  You'll just die along with her this way."
 msgstr ""
+"Eso es un error, Sarevok. Simplemente moriréis con ella si seguís ese "
+"camino."
 
 #: sarev25j.tra:269
 msgid ""
 "I expected as much.  So I get to kill you again, as well.  It's all good."
-msgstr ""
+msgstr "Esperaba más. Total, para teneros que matar otra vez. Perfecto."
 
 #: sarev25j.tra:270
 msgid ""
@@ -2732,6 +4005,10 @@ msgid ""
 "by the madness that once swallowed me whole.  Wallow in your delusion if you"
 " will, woman... I remember it well.  And I will not join you in it."
 msgstr ""
+"¿Volver a ser el demonio que una vez fui? No seré más ese hombre, ni quiero "
+"serlo. Si  <CHARNAME> me ha enseñado algo, es que estoy mejor sin la locura "
+"que una vez me devoró completamente. Revuolcáos en vuestro engaño si lo "
+"deseáis, mujer... yo lo recuerdo perfectamente. Y no me uniré a vos."
 
 #: sarev25j.tra:271
 msgid ""
@@ -2739,6 +4016,9 @@ msgid ""
 "Better to fight for Melissan than sit in your shadow and watch you take what"
 " was once mine."
 msgstr ""
+"Mi naturaleza no ha cambiado, <CHARNAME>. ¿De verdad esperabáis otra cosa? "
+"Mejor pelear por Melissan que sentarme a vuestra sombra para ver como tomáis"
+" lo que una vez fue mio"
 
 #: sarev25j.tra:272
 msgid ""
@@ -2746,6 +4026,9 @@ msgid ""
 "was once mine.  You do not deserve power, <CHARNAME>.  Even if it means "
 "fighting for Melissan, I will do what I must."
 msgstr ""
+"Quizás. Pero no me sentaré a vuestra sombra para ver como tomáis lo que una "
+"vez fue mio. No merecéis el poder, <CHARNAME>.  Haré lo que deba hacer, "
+"incluso si eso significa que pelearé por Melissan."
 
 #: sarev25j.tra:273
 msgid ""
@@ -2753,12 +4036,19 @@ msgid ""
 "as you take what was once mine.  You don't deserve power, <CHARNAME>, and "
 "even if it means fighting for Melissan I will do what I must."
 msgstr ""
+"Una típica fanfarronada. Y quizás incluso consigáis ganar, pero no me "
+"sentaré ociosamente a ver como tomáis lo que una vez fue mio. No merecéis el"
+" poder, <CHARNAME>, y haré lo que deba hacer, incluso si eso significa que "
+"pelearé por Melissan."
 
 #: sarev25j.tra:274
 msgid ""
 "Blast!  The wench returns to Bhaal's essence like a coward, healing herself!"
 "  There must be a way to weaken her further, or we will never defeat her!"
 msgstr ""
+"¡Maldición! ¡La muchacha vuelve a la esencia de Bhaal como una cobarde, "
+"sanándose!¡Tiene que haber alguna manera de alejarla de allí para "
+"debilitarla, o nunca podremos derrotarla!"
 
 #: sarev25j.tra:275
 msgid ""
@@ -2767,12 +4057,19 @@ msgid ""
 " a Deathbringer's weapon and I can restore much of its power.  I would not "
 "suggest you attempt to use it yourself, now."
 msgstr ""
+"¿Mi espada, no? Tenía entendido que se había perdido para siempre. Es bueno "
+"tenerla otra vez de vuelta. Aun cuando yo ya no tengo la esencia para "
+"canalizar a través de ella, sigue siendo un arma portadora de muerte y puedo"
+" restaurar buena parte de sus poderes. Yo no os sugeriría que intentárais "
+"usarla, ahora."
 
 #: sarev25j.tra:276
 msgid ""
 "You wouldn't have my armor, too, hidden about somewhere within your packs?  "
 "Hmph.  I suppose some things are too much to hope for."
 msgstr ""
+"¿No tendréis mi armadura, por casualidad, escondida en algún lugar en "
+"vuestras pertenencias? Ummm. Supongo que sería esperar demasiado."
 
 #: sarev25j.tra:277
 msgid ""
@@ -2780,6 +4077,8 @@ msgid ""
 "and power from one who hounded <CHARNAME> so, and not "
 "simply...*another*...wizard."
 msgstr ""
+"¿Este es el Irenicus del que he oído hablar? Esperaba mayor intensidad y "
+"poder del que ha perseguido a  <CHARNAME>, y no  *otro*... simple... mago."
 
 #: sarev25j.tra:278
 msgid ""
@@ -2788,10 +4087,14 @@ msgid ""
 "imagine you were too busy taking control of insane asylums and making "
 "thieves out of vampires for absolutely no reason."
 msgstr ""
+"Ciertamente yo no habría permitido a  <CHARNAME> escapar de mi, le tuve bajo"
+" mi poder no una vez, si no dos. Pero, bueno, imagino que estaba muy ocupado"
+" tomando el control del Sanatorio  y acabando con ladrones mediante vampiros"
+" sin ninguna buena razón."
 
 #: setup.tra:1
 msgid "Ascension Core (requires ToB)"
-msgstr ""
+msgstr "Ascensión Core (necesita ToB)"
 
 #: setup.tra:2
 msgid ""
@@ -2803,26 +4106,30 @@ msgid ""
 "If you do have it installed and you are receiving this message in error,\n"
 "please contact the module maintainer."
 msgstr ""
+"\n"
+"No puedo encontrar [Data/25Dialog.bif], lo cual me lleva a creer que no tienes la expansión Throne of Bhaal instalada. Debes tener ToB instalado para poder instalar el mod Ascensión.\n"
+"\n"
+"Si lo habeis instalado y estais recibiendo este mensaje de error, por favor contactad con el encargado del modulo."
 
 #: setup.tra:3
 msgid "Tougher Abazigal (optional, requires ToB)"
-msgstr ""
+msgstr "Abazigal mas resistente (opcional, requiere ToB)"
 
 #: setup.tra:4
 msgid "Original Tougher Demogorgon (optional, requires ToB)"
-msgstr ""
+msgstr "Demogorgon original mas resistente (opcional, requiere ToB)"
 
 #: setup.tra:5
 msgid "Tougher Gromnir (optional, requires ToB)"
-msgstr ""
+msgstr "Gromnir mas resistente (opcional, requiere ToB)"
 
 #: setup.tra:6
 msgid "Tougher Illasera (optional, requires ToB)"
-msgstr ""
+msgstr "Illasera mas resistente (opcional, requiere ToB)"
 
 #: setup.tra:7
 msgid "Tougher Yaga-Shura (optional, requires ToB)"
-msgstr ""
+msgstr "Yaga-Shura mas resistente (opcional, requiere ToB)"
 
 #: shawnesepilogues.tra:4001
 msgid ""
@@ -3402,6 +4709,8 @@ msgid ""
 "The one you know as Melissan was never a true member of the Five, godchild."
 "  She is no child of Bhaal."
 msgstr ""
+"La que conocéis como Melissan nunca fue una verdadera miembro de los Cinco, "
+"hijo de dios. Ella no es hija de Bhaal."
 
 #: solar.tra:231
 msgctxt "SOLAR67"
@@ -3411,6 +4720,9 @@ msgid ""
 "godchild...  and for this, the one you know as Melissan will explain for "
 "herself."
 msgstr ""
+"El dios muerto, Bhaal, no ha sido resucitado, de hecho, nunca lo será. "
+"Debéis comprender ahora lo que os espera al final de vuestro viaje, hijo de "
+"dios... y para eso, la que conocéis como Melissan os explicará."
 
 #: solar.tra:239
 msgid ""
@@ -3418,12 +4730,16 @@ msgid ""
 "yourself, god-child.  You are to be commended.  Your journey is nearly at "
 "its end."
 msgstr ""
+"Habéis convivido con Balthazar, el más grande de los hijos de Bhaal junto a "
+"vos, hijo de dios. Vuestro viaje esta cerca del fin."
 
 #: solar.tra:240
 msgid ""
 "Wait... what is Balthazar's part in all this?  You knew I wouldn't fight "
 "him?"
 msgstr ""
+"Espera... ¿cuál es la parte de Balthazar en todo esto? ¿Sabíais que no tuve "
+"que pelear con él?"
 
 #: solar.tra:241
 msgid ""
@@ -3432,27 +4748,35 @@ msgid ""
 "has returned to its source, and Melissan will seek to collect it.  This is "
 "the challenge that awaits you."
 msgstr ""
+"No necesitásteis pelear con él. El resto de los Cinco ha sido derrotado. Con"
+" Balthazar y vos vivos, no toda la esencia divina de Bhaal ha vuelto a su "
+"fuente, y Melissan la buscará para conseguirla. Este es el desafío que os "
+"espera."
 
 #: solar.tra:242
 msgid "But... Melissan is part of the Five, isn't she?"
-msgstr ""
+msgstr "Pero... ¿Melissan es parte de los Cinco, no?"
 
 #: solar.tra:243
 msgid ""
 "So Melissan has not collected enough of the essence, yet, to resurrect "
 "Bhaal, right?"
 msgstr ""
+"¿Asi que Melissan aun no ha reunido suficiente de la esencia como para "
+"resucitar a Bhaal, correcto?"
 
 #: solar.tra:244
 msgid ""
 "So, Melissan seeks to be the last of the Bhaalspawn.  Does she even plan on "
 "resurrecting Bhaal?"
 msgstr ""
+"Asi que Melissan trata de ser la última de los hijos de Bhaal. ¿Ha planeado "
+"alguna vez resucitar a Bhaal?"
 
 #: solar.tra:245
 msgid "Another challenge.  Alright, alright... let's just get this over with."
-msgstr ""
+msgstr "Otro desafío. Vale, vale... de momento quitemos esto de encima."
 
 #: solar.tra:246
 msgid "You do not yet understand.  But all shall become clear."
-msgstr ""
+msgstr "Aun no lo comprendéis. Pero todo llegará a ser más claro."
