@@ -27,7 +27,7 @@
 @1098 = ~那我們應該並肩作戰﹗你怎麼知道她現在還不能復活巴爾...你奮鬥的目標可能會因此失敗﹗~
 @1099 = ~你要獨自阻止她麼﹖你想過沒有﹖你可能一直被她玩弄于股掌之間﹖~
 @1100 = ~就算是吧﹐那你殺了她之後呢﹖一旦你獲得了全部的能量......你能抵抗得了麼﹖~
-@1101 = ~What makes you think you could kill her?  I'm the one that has defeated all the Bhaalspawn... while you were doing nothing but hiding in this fortress making the peasants miserable.~
+@1101 = ~What makes you think you could kill her? I'm the one that has defeated all the Bhaalspawn... while you were doing nothing but hiding in this fortress making the peasants miserable.~
 @1102 = ~你可能是想在我死之後自殺﹐這樣梅麗珊死後就不會有邪惡了﹖你在造就另一個謀殺之王﹗~
 @1103 = ~算了吧﹐毫無意義﹐讓我們把這件事結束吧。~
 @1104 = ~一起去對付她﹖~
@@ -38,7 +38,7 @@
 @1109 = ~加入我﹐巴爾撒扎﹐讓我們一起對付梅麗珊﹐而不是做她想讓我們做的。~
 @1110 = ~我不知道﹐巴爾撒扎﹐但我不想和你打。~
 @1111 = ~讓我們決出一個勝負吧﹐如果必要的話﹐這至少會讓你感到平靜一些。~
-@1112 = ~You're a weaker fool then I thought. Let's just end this now, shall we?  I have an appointment with god-hood.~
+@1112 = ~You're a weaker fool then I thought. Let's just end this now, shall we? I have an appointment with god-hood.~
 @1113 = ~嗯...你是對的。~
 @1114 = ~很好﹐<CHARNAME>﹐我會加入你﹐你是個值得信賴的人﹐也許把巴爾的邪惡天賦用在正確的地方比消滅它更好﹐也許吧﹐但我至少會試一試。~
 @1115 = ~讓梅麗珊顫抖吧﹐我們會讓她得到應得的下場﹐就算巴爾復活了﹐他也對付不了咱們兩人。我還有些準備工作要做﹐<CHARNAME>﹐我會在巴爾王座那裡跟你碰面。~
@@ -46,7 +46,7 @@
 @1117 = ~你必須跟梅麗珊去做最後的決戰﹐如果你認為這是你的宿命的話﹐但是答應我﹐不要被力量所誘惑﹐當你擊敗了她之後﹐一定要拒絕那種力量﹐<CHARNAME>﹐神都會為之所誘惑﹐答應我﹐不要接受。~
 @1118 = ~如果我有機會選擇的話﹐我答應你。~
 @1119 = ~不﹐我不會答應這樣的事﹐那股力量也可以成為強大的正義﹐我會比任何人做的都好。~
-@1120 = ~Forget it!  I'll do no such thing!~
+@1120 = ~Forget it! I'll do no such thing!~
 @1121 = ~那我就放心了﹐我的天賦結束了﹐希望神原諒我﹐希望你也能原諒我﹐<PRO_BROTHERSISTER>~
 @1122 = ~那我就必須殺了你﹐很...很抱歉﹐<PRO_BROTHERSISTER>﹐我希望這會有個較為愉快的結局。~
 @1123 = ~我不相信你能拒絕這股力量﹐你知道那一小部份力量都很難控制﹐我沒法相信你能拒絕﹐很抱歉﹐<PRO_BROTHERSISTER>﹐但我沒別的選擇了。~
@@ -87,12 +87,12 @@
 @1159 = ~不﹐你根本沒聽明白我說什麼﹗我們根本沒有選擇的余地﹗你想讓我忘記因我而死的那些人麼﹐那些被正義之名屠殺的人......我不可能忘記﹗我不會原諒自己﹐也不會原諒有同樣天賦的人﹗~
 @1160 = ~你的人格魅力很強﹐<CHARNAME>......但也就因為我們有著相同的天賦﹐我們不可能並肩作戰﹐你我都知道這種天賦會導致什麼﹐而且直到我們走到宿命的勁頭﹐這種天賦都不會結束。~
 @1161 = ~我沒有資格評價你﹐你要沿著你的路走下去﹐而我也要沿著我的路走下去----直至毀滅這威脅費侖的邪惡----沒有別的選擇。~
-@1162 = ~Look at the suffering you have brought to Amkethran!  Your monks terrorize the innocent at your command!  You hire soulless mercenaries that cut down the innocent at the slightest provocation!  And all for nothing!  You call these the actions of a good man?~
+@1162 = ~Look at the suffering you have brought to Amkethran! Your monks terrorize the innocent at your command! You hire soulless mercenaries that cut down the innocent at the slightest provocation! And all for nothing! You call these the actions of a good man?~
 @1163 = ~真正的善良的人應該從開始就對抗梅麗珊。你說你要找出五人組......可是我沒靠你就把他們全擊敗了。但加入五人組是你的決定﹐你也要承擔這個後果﹗~
 @1164 = ~你沒有資格評價我﹖真可笑﹗你所謂的“必然”只是屠殺的一個借口﹗你真是給我們的父親增光啊﹗~
 @1165 = ~那我的路是什麼呢﹖巴爾撒扎﹖你說你沒法評價我﹐那你為什麼認定自己就是唯一一個能對抗邪惡的人呢﹖你真的那麼了解自己的宿命麼﹖那你能知道未來要發生的事麼﹖真要知道的話﹐你有什麼可怕的呢﹖~
 @1166 = ~趕快結束吧﹐我有點累了。~
-@1167 = ~It... it is true. I paid little attention to my men's actions, but I... I knew what they were doing. I thought it a great sacridice, necessary to maintain secrecy, to attain my ultimate goal that they, in their ignorance, did not know would benefit them more in the end. But... it is how we treat the most helpless of our brethren in the worst of times that marks the goodness of a man, does it not?  I... I am ashamed, <CHARNAME>. I sought... only to do what was best for us all.~
+@1167 = ~It... it is true. I paid little attention to my men's actions, but I... I knew what they were doing. I thought it a great sacridice, necessary to maintain secrecy, to attain my ultimate goal that they, in their ignorance, did not know would benefit them more in the end. But... it is how we treat the most helpless of our brethren in the worst of times that marks the goodness of a man, does it not? I... I am ashamed, <CHARNAME>. I sought... only to do what was best for us all.~
 @1168 = ~你找出了梅麗珊計劃裡的五人組﹐而且﹐我還是其中的一員﹐但有誰能說事情不會變化﹐你有什麼資格說事情有所不同﹖~
 @1169 = ~但......沒錯﹐我選擇了一個簡單的辦法﹐而且在必須的名義下傷害了很多人。我很慚愧﹐<CHARNAME>。~
 @1170 = ~我並不認為我的所作所為值得讚揚﹐但這是我達成目標的必經之路﹐你也一樣﹐你的疏忽也對他人造成了嚴重的傷害。~
