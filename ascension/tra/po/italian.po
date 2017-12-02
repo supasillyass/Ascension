@@ -4239,7 +4239,7 @@ msgid "Restored Bhaalspawn Powers by David Gaider"
 msgstr ""
 
 #: setup.tra:5100
-msgid "Extended Epilogues for Bioware NPCs by shawne"
+msgid "Extended Epilogues for original Bioware NPCs by shawne"
 msgstr ""
 
 #: setup.tra:5110 setup.tra:5210
@@ -4247,7 +4247,7 @@ msgid "This component is currently only available in english language"
 msgstr ""
 
 #: setup.tra:5200
-msgid "Extended Epilogues for Beamdog NPCs by shawne"
+msgid "Extended Epilogues for additional Beamdog NPCs by shawne"
 msgstr ""
 
 #: setup.tra:5220
