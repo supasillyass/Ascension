@@ -1,18 +1,28 @@
 /////////////////////////////////////////////////////////////////////////
 // Setup Options
 /////////////////////////////////////////////////////////////////////////
-@1 = ~Ascension Core (requires ToB)~
 
-@2 = ~
-I cannot find [Data/25Dialog.bif], which leads me to believe that you do
-not have the Throne of Bhaal expansion installed. You must have ToB
-installed to use install the Ascension mod. 
+@1000 = ~Ascension~
+@1001 = ~You must have ToB installed to install the Ascension mod.~
+@1002 = ~Cannot install without Ascension main component.~
 
-If you do have it installed and you are receiving this message in error,
-please contact the module maintainer.~
+@3 = ~Tougher Abazigal~
+@4 = ~Tougher Demogorgon ( Original Bioware Design )~
+@5 = ~Tougher Gromnir~
+@6 = ~Tougher Illasera~
+@7 = ~Tougher Yaga-Shura~
 
-@3 = ~Tougher Abazigal (optional, requires ToB)~
-@4 = ~Original Tougher Demogorgon (optional, requires ToB)~
-@5 = ~Tougher Gromnir (optional, requires ToB)~
-@6 = ~Tougher Illasera (optional, requires ToB)~
-@7 = ~Tougher Yaga-Shura (optional, requires ToB)~
+@3010 = ~Ascension Portraits - Bodhi~
+@3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
+
+@4000 = ~Restored Bhaalspawn Powers by David Gaider~
+
+@5100 = ~Extended Epilogues for Bioware NPCs by shawne~
+@5110 = ~This component is currently only available in english language~
+
+@5200 = ~Extended Epilogues for Beamdog NPCs by shawne~
+@5210 = ~This component is currently only available in english language~
+@5220 = ~This component is only for BG2:EE or EET~
+
+@6000 = ~Install only Ascension's Epilogues~
+@6010 = ~These epilogues are included in the full Ascension!~
