@@ -4163,7 +4163,7 @@ msgid "Install only Ascension's Epilogues"
 msgstr ""
 
 #: setup.tra:6010
-msgid "These epilogues are included in the full Ascension!"
+msgid "These epilogues are included in the main Ascension component"
 msgstr ""
 
 #: shawnesepilogues.tra:4001
