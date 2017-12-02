@@ -4064,46 +4064,77 @@ msgstr ""
 "представляю, что ты был слишком занят тем, что брал под свое управление "
 "убежище безумцев и делал воров из вампиров, неизвестно зачем."
 
-#: setup.tra:1
-msgid "Ascension Core (requires ToB)"
-msgstr "Восхождение (необходим ToB)"
-
-#: setup.tra:2
-msgid ""
-"\n"
-"I cannot find [Data/25Dialog.bif], which leads me to believe that you do\n"
-"not have the Throne of Bhaal expansion installed. You must have ToB\n"
-"installed to use install the Ascension mod. \n"
-"\n"
-"If you do have it installed and you are receiving this message in error,\n"
-"please contact the module maintainer."
+#: setup.tra:1000
+msgid "Ascension"
 msgstr ""
-"\n"
-"Не найден файл [Data/25Dialog.bif], который показывает, \n"
-"что был установлен аддон Трон Баала. Необходимо установить его\n"
-"перед исталяцией мода Восхождение.\n"
-"Если аддон установлен и получено это сообщение об ошибке\n"
-"проверьте правильность установки."
+
+#: setup.tra:1001
+msgid "You must have ToB installed to install the Ascension mod."
+msgstr ""
+
+#: setup.tra:1002
+msgid "Cannot install without Ascension main component."
+msgstr ""
 
 #: setup.tra:3
-msgid "Tougher Abazigal (optional, requires ToB)"
-msgstr "Усиленный Абазигал (необязательный, необходим ToB)"
+msgid "Tougher Abazigal"
+msgstr ""
 
 #: setup.tra:4
-msgid "Original Tougher Demogorgon (optional, requires ToB)"
+#, fuzzy
+#| msgid "Original Tougher Demogorgon (optional, requires ToB)"
+msgid "Tougher Demogorgon ( Original Bioware Design )"
 msgstr "Первоночальный усиленный Демогоргон (необязательный, необходим ToB)"
 
 #: setup.tra:5
-msgid "Tougher Gromnir (optional, requires ToB)"
-msgstr "Усиленный Громнир (необязательный, необходим ToB)"
+msgid "Tougher Gromnir"
+msgstr ""
 
 #: setup.tra:6
-msgid "Tougher Illasera (optional, requires ToB)"
-msgstr "Усиленная Илласера (необязательный, необходим ToB)"
+msgid "Tougher Illasera"
+msgstr ""
 
 #: setup.tra:7
-msgid "Tougher Yaga-Shura (optional, requires ToB)"
-msgstr "Усиленный Яга-Шура (необязательный, необходим ToB)"
+msgid "Tougher Yaga-Shura"
+msgstr ""
+
+#: setup.tra:3010
+#, fuzzy
+#| msgid "Ascension Core (requires ToB)"
+msgid "Ascension Portraits - Bodhi"
+msgstr "Восхождение (необходим ToB)"
+
+#: setup.tra:3020
+msgid "Ascension Portraits - Balthazar by Cuv ( Alternate Design )"
+msgstr ""
+
+#: setup.tra:4000
+msgid "Restored Bhaalspawn Powers by David Gaider"
+msgstr ""
+
+#: setup.tra:5100
+msgid "Extended Epilogues for Bioware NPCs by shawne"
+msgstr ""
+
+#: setup.tra:5110 setup.tra:5210
+msgid "This component is currently only available in english language"
+msgstr ""
+
+#: setup.tra:5200
+msgid "Extended Epilogues for Beamdog NPCs by shawne"
+msgstr ""
+
+#: setup.tra:5220
+msgid "This component is only for BG2:EE or EET"
+msgstr ""
+
+#: setup.tra:6000
+msgid "Install only Ascension's Epilogues"
+msgstr ""
+
+#: setup.tra:6010
+msgid "These epilogues are included in the full Ascension!"
+msgstr ""
 
 #: shawnesepilogues.tra:4001
 msgid ""
@@ -4753,3 +4784,31 @@ msgstr ""
 #: solar.tra:246
 msgid "You do not yet understand.  But all shall become clear."
 msgstr "Вы еще не поняли... Но скоро все станет ясно."
+
+#~ msgid ""
+#~ "\n"
+#~ "I cannot find [Data/25Dialog.bif], which leads me to believe that you do\n"
+#~ "not have the Throne of Bhaal expansion installed. You must have ToB\n"
+#~ "installed to use install the Ascension mod. \n"
+#~ "\n"
+#~ "If you do have it installed and you are receiving this message in error,\n"
+#~ "please contact the module maintainer."
+#~ msgstr ""
+#~ "\n"
+#~ "Не найден файл [Data/25Dialog.bif], который показывает, \n"
+#~ "что был установлен аддон Трон Баала. Необходимо установить его\n"
+#~ "перед исталяцией мода Восхождение.\n"
+#~ "Если аддон установлен и получено это сообщение об ошибке\n"
+#~ "проверьте правильность установки."
+
+#~ msgid "Tougher Abazigal (optional, requires ToB)"
+#~ msgstr "Усиленный Абазигал (необязательный, необходим ToB)"
+
+#~ msgid "Tougher Gromnir (optional, requires ToB)"
+#~ msgstr "Усиленный Громнир (необязательный, необходим ToB)"
+
+#~ msgid "Tougher Illasera (optional, requires ToB)"
+#~ msgstr "Усиленная Илласера (необязательный, необходим ToB)"
+
+#~ msgid "Tougher Yaga-Shura (optional, requires ToB)"
+#~ msgstr "Усиленный Яга-Шура (необязательный, необходим ToB)"
