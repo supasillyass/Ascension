@@ -255,11 +255,11 @@ msgid ""
 "Saving Throw: Negates\n"
 "\n"
 "Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death. The effects depend upon the caster's level and are detailed below:\n"
-"7-9th level:  2d8  +  2/round, slow for 12 seconds, save at -2\n"
-"10-12th level:  3d8  + 3/round, slow for 12 seconds, save at -2\n"
-"13-14th level:  4d8  +  4/round, slow for 12 seconds, save at -2\n"
-"15-16th level:  6d8  +  5/round, slow for 24 seconds, save at -2\n"
-"17-21st level:  8d8  +  6/round, slow for 24 seconds, save at -4\n"
+"7-9th level: 2d8 + 2/round, slow for 12 seconds, save at -2\n"
+"10-12th level: 3d8 + 3/round, slow for 12 seconds, save at -2\n"
+"13-14th level: 4d8 + 4/round, slow for 12 seconds, save at -2\n"
+"15-16th level: 6d8 + 5/round, slow for 24 seconds, save at -2\n"
+"17-21st level: 8d8 + 6/round, slow for 24 seconds, save at -4\n"
 "25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets"
 msgstr ""
 "巴爾之子的新能力\n"
@@ -402,12 +402,12 @@ msgid ""
 "Equipped abilities:\n"
 "- Magic Resistance: +10%\n"
 "\n"
-"Damage:  1D10 +4\n"
+"Damage: 1D10 +4\n"
 "THAC0: +4 bonus\n"
-"Damage type:  slashing\n"
+"Damage type: slashing\n"
 "Speed Factor: 8\n"
 "Proficiency Type: Two Handed sword\n"
-"Type:  2-handed\n"
+"Type: 2-handed\n"
 "Requires: 14 Strength, 18 Constitution\n"
 "Weight: 10\n"
 "Not Usable By:\n"
@@ -486,9 +486,9 @@ msgid ""
 "some even saying with surety that <CHARNAME> had waged war against Lolth "
 "herself in the abyssal Demonweb Pits... but all agreeing that the former son"
 " of Bhaal had been changed forever by his love for the dark maiden. As for "
-"the son, tutored by two of the most potent beings in the Realms?  He would "
-"go on to forge a legend that would rival that of his father. That, however, "
-"is a different story..."
+"the son, tutored by two of the most potent beings in the Realms? He would go"
+" on to forge a legend that would rival that of his father. That, however, is"
+" a different story..."
 msgstr ""
 
 #: ascension.tra:82728
@@ -566,7 +566,7 @@ msgid ""
 "chance... and then thank <PRO_HIMHER>. Eventually he disappeared entirely "
 "from the Realms, said to have assaulted the Abyss itself or even taken his "
 "own life. In truth, he journeyed to Kara-Tur to bury his one true love, the "
-"warrior Tamoko.  He never returned, though the stories endure."
+"warrior Tamoko. He never returned, though the stories endure."
 msgstr ""
 
 #: ascension.tra:82724
@@ -612,7 +612,7 @@ msgid ""
 "when thinking back on those first cautious days. After all, she and "
 "<CHARNAME> had literally been to the hells and back, and when the gods "
 "themselves couldn't separate the two, what were simple months and miles "
-"going to do?  Jaheira raised high in the ranks of the Harpers, always the "
+"going to do? Jaheira raised high in the ranks of the Harpers, always the "
 "voice of wisdom and sense in the organization. She became renown as a great "
 "heroine and mediator, although no-one was surprised when she would leave for"
 " great spans of time to travel with <CHARNAME> to some distant corner of the"
@@ -623,8 +623,8 @@ msgid ""
 "joy of fatherhood... but always his wanderlust would take him on the road "
 "again. Jaheira was not always with <CHARNAME> and not always share in his "
 "victories and achievements, but would never be truly apart from him. And "
-"<CHARNAME>'s son?  Tutored by two of the most potent being in the Realms, he"
-" would grow to forge a destiny of his own to rival his father's. That, "
+"<CHARNAME>'s son? Tutored by two of the most potent being in the Realms, he "
+"would grow to forge a destiny of his own to rival his father's. That, "
 "however, is another tale..."
 msgstr ""
 
@@ -636,8 +636,8 @@ msgstr ""
 
 #: ascension.tra:82731
 msgid ""
-"And what of Imoen, the eternal child?  She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
-"Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months. The exact truth of the tale is unknown... though it's certainly not  unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
+"And what of Imoen, the eternal child? She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
+"Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
 msgstr ""
 
 #: ascension.tra:82720
@@ -796,9 +796,9 @@ msgid ""
 "better. He had learned well from his friend and sibling the meaning of the "
 "word \"Good\". He carried his guilt with him always; a reminder never to "
 "make the same mistakes again. The remaining criminal elements were quickly "
-"driven from his outpost, which attracted new settlers and merchants.  Over "
+"driven from his outpost, which attracted new settlers and merchants. Over "
 "the years, Amkethran grew into a thriving city and the cultural center of "
-"the entire region, renown for its peace and compassion.  Balthazar was also "
+"the entire region, renown for its peace and compassion. Balthazar was also "
 "central in the creation of the Monastic Guard; an elite group of Paladins "
 "and Monks that were sworn to protect the common folk from tyranny in any "
 "form. His deeds quickly earned him the respect and trust of his people. In "
@@ -922,7 +922,7 @@ msgstr ""
 #| "well what the taint in our soul is capable of.  Only barely do I keep it "
 #| "mastered."
 msgid ""
-"Naturally. Our taint brings us no peace, does it, <CHARNAME>?  We fight in "
+"Naturally. Our taint brings us no peace, does it, <CHARNAME>? We fight in "
 "self-defense and yet still we kill, still we bring destruction. We may claim"
 " an absence of responsibility, should we desire, but I know all too well "
 "what the taint in our soul is capable of. Only barely do I keep it mastered."
@@ -989,8 +989,12 @@ msgid "I deny nothing. Death comes for all who stand in my way."
 msgstr "我不否認﹐擋住我去路的全都得死。"
 
 #: balth.tra:1087
+#, fuzzy
+#| msgid ""
+#| "I am death incarnate, fool!  Not some weak fool wrapped in denial like "
+#| "yourself!"
 msgid ""
-"I am death incarnate, fool!  Not some weak fool wrapped in denial like "
+"I am death incarnate, fool! Not some weak fool wrapped in denial like "
 "yourself!"
 msgstr "我就是死亡的化身﹐蠢貨﹗不像你這種遮遮掩掩的偽君子﹗"
 
@@ -1006,9 +1010,9 @@ msgstr "我就是死亡的化身﹐蠢貨﹗不像你這種遮遮掩掩的偽君
 msgid ""
 "I have little doubt that you know whereof I speak. The taint is strong "
 "within you... stronger than any single other spawn of our sire that I have "
-"seen. You have felt the dreams, the urges, have you not?  The chaos that is "
+"seen. You have felt the dreams, the urges, have you not? The chaos that is "
 "your destiny has ripped wantonly through your life, regardless of your "
-"wishes, has it not?  Do you deny that you bring violence and destruction "
+"wishes, has it not? Do you deny that you bring violence and destruction "
 "wherever you go, <CHARNAME>?"
 msgstr ""
 "我有點懷疑你聽沒聽懂我說的話﹐你內心的天賦非常強......是我見過巴爾之子裡最強的一部份。你在夢境中感受到了那種慾望﹐不是麼﹖無論你願不願意﹐混亂都充斥在你的生命歷程中﹐不是麼﹖你給所到之處帶去的全都是暴力﹑毀滅﹐不是麼﹖"
@@ -1063,15 +1067,19 @@ msgid ""
 "If only we had met under other circumstances, <CHARNAME>...I would have "
 "liked to sit and compare the paths that have brought us to this point. If we"
 " had not been forced by destiny to bear this taint upon our souls, what "
-"would have become of us?  I regret what I must do, yet I know it must be "
+"would have become of us? I regret what I must do, yet I know it must be "
 "done."
 msgstr ""
 "如果我們在其他環境下見面﹐<CHARNAME>...我可能會坐下來跟你煮酒論英雄﹐如果沒有天賦的影響﹐我們會怎樣﹖我可能會後悔我所作的﹐但這必須結束﹗"
 
 #: balth.tra:1093
+#, fuzzy
+#| msgid ""
+#| "And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
+#| " her plans?"
 msgid ""
-"And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
-" her plans?"
+"And what becomes of Melissan, then? Is she free to raise Bhaal and complete "
+"her plans?"
 msgstr "梅麗珊呢﹖她會復活巴爾麼﹖"
 
 #: balth.tra:1094
@@ -1105,28 +1113,42 @@ msgid ""
 msgstr "當然不會﹐她掌握著巴爾復活的關鍵﹐你死以後﹐她也必須被摧毀。"
 
 #: balth.tra:1098
+#, fuzzy
+#| msgid ""
+#| "Then we should fight her together!  How do you know she still can't summon "
+#| "Bhaal... everything you've fought for will be for nothing!"
 msgid ""
-"Then we should fight her together!  How do you know she still can't summon "
+"Then we should fight her together! How do you know she still can't summon "
 "Bhaal... everything you've fought for will be for nothing!"
 msgstr "那我們應該並肩作戰﹗你怎麼知道她現在還不能復活巴爾...你奮鬥的目標可能會因此失敗﹗"
 
 #: balth.tra:1099
+#, fuzzy
+#| msgid ""
+#| "And you're going to stop her alone?  Have you given any thought to the fact "
+#| "that maybe you've been helping her all along, that she's been playing you "
+#| "like a harp?"
 msgid ""
-"And you're going to stop her alone?  Have you given any thought to the fact "
+"And you're going to stop her alone? Have you given any thought to the fact "
 "that maybe you've been helping her all along, that she's been playing you "
 "like a harp?"
 msgstr "你要獨自阻止她麼﹖你想過沒有﹖你可能一直被她玩弄于股掌之間﹖"
 
 #: balth.tra:1100
+#, fuzzy
+#| msgid ""
+#| "Yet another death added to your tally?  And what then, once you kill her?  "
+#| "Once you have all that power and it's yours alone... you think you're going "
+#| "to resist that?"
 msgid ""
-"Yet another death added to your tally?  And what then, once you kill her?  "
+"Yet another death added to your tally? And what then, once you kill her? "
 "Once you have all that power and it's yours alone... you think you're going "
 "to resist that?"
 msgstr "就算是吧﹐那你殺了她之後呢﹖一旦你獲得了全部的能量......你能抵抗得了麼﹖"
 
 #: balth.tra:1101
 msgid ""
-"What makes you think you could kill her?  I'm the one that has defeated all "
+"What makes you think you could kill her? I'm the one that has defeated all "
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
 "making the peasants miserable."
 msgstr ""
@@ -1139,7 +1161,7 @@ msgstr ""
 #| "promising Lord of Murder, you know..."
 msgid ""
 "I thought you were going to kill yourself after I was dead. Sure you won't "
-"see some more evil once Melissan is dead, too?  You'd probably make a "
+"see some more evil once Melissan is dead, too? You'd probably make a "
 "promising Lord of Murder, you know..."
 msgstr "你可能是想在我死之後自殺﹐這樣梅麗珊死後就不會有邪惡了﹖你在造就另一個謀殺之王﹗"
 
@@ -1161,8 +1183,8 @@ msgstr "一起去對付她﹖"
 #| "be weakened... you could end my life there and everything I have been "
 #| "working towards will be for nothing."
 msgid ""
-"No. How could I trust you?  What if we were to vanquish Melissan, I would be"
-" weakened... you could end my life there and everything I have been working "
+"No. How could I trust you? What if we were to vanquish Melissan, I would be "
+"weakened... you could end my life there and everything I have been working "
 "towards will be for nothing."
 msgstr "不﹐我沒法信任你﹐就算我們擊敗了她﹐我也會被削弱...你到時就會殺了我﹐我所作的一切也就都沒有意義了。"
 
@@ -1222,7 +1244,7 @@ msgstr "讓我們決出一個勝負吧﹐如果必要的話﹐這至少會讓你
 
 #: balth.tra:1112
 msgid ""
-"You're a weaker fool then I thought. Let's just end this now, shall we?  I "
+"You're a weaker fool then I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
 msgstr ""
 
@@ -1301,7 +1323,7 @@ msgid ""
 msgstr "不﹐我不會答應這樣的事﹐那股力量也可以成為強大的正義﹐我會比任何人做的都好。"
 
 #: balth.tra:1120
-msgid "Forget it!  I'll do no such thing!"
+msgid "Forget it! I'll do no such thing!"
 msgstr ""
 
 #: balth.tra:1121
@@ -1365,22 +1387,32 @@ msgstr "不﹐再談下去也沒什麼意義了﹐讓我們結束這件事吧﹐
 #| "tempted.  How could I trust you?"
 msgid ""
 "Perhaps what you are saying holds merit. But what if I died during the "
-"battle?  What if I was weakened, in the end... you might find yourself... "
+"battle? What if I was weakened, in the end... you might find yourself... "
 "tempted. How could I trust you?"
 msgstr "也許你說的是對的﹐但我如果在戰鬥中死了﹐或者被削弱了﹐而你又被那種力量所誘惑﹐我怎麼相信你﹖"
 
 #: balth.tra:1128
+#, fuzzy
+#| msgid ""
+#| "I don't know how to explain it, exactly, but she must have used you!  She "
+#| "used everyone else!  I didn't trust her and she even got me to do what she "
+#| "wanted!"
 msgid ""
-"I don't know how to explain it, exactly, but she must have used you!  She "
-"used everyone else!  I didn't trust her and she even got me to do what she "
+"I don't know how to explain it, exactly, but she must have used you! She "
+"used everyone else! I didn't trust her and she even got me to do what she "
 "wanted!"
 msgstr "我不知道怎麼解釋﹐但是她必然要利用你﹐她利用了每個人﹐即使我從開始就不信任她﹐她還是利用我達到了她的目的。"
 
 #: balth.tra:1129
+#, fuzzy
+#| msgid ""
+#| "Think about it, Balthazar!  You honestly think she didn't know what your "
+#| "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
+#| "and there was nothing I could do to stop it!"
 msgid ""
-"Think about it, Balthazar!  You honestly think she didn't know what your "
-"plans were?  Do you think you took her by surprise?  Even I saw it coming, "
-"and there was nothing I could do to stop it!"
+"Think about it, Balthazar! You honestly think she didn't know what your "
+"plans were? Do you think you took her by surprise? Even I saw it coming, and"
+" there was nothing I could do to stop it!"
 msgstr "仔細想想吧﹐巴爾撒扎﹗你認為她真不知道你的計劃麼﹖你認為你真能給她個驚喜麼﹖連我都想到了﹐但我卻無法阻止這件事的到來﹗"
 
 #: balth.tra:1130
@@ -1390,9 +1422,9 @@ msgstr "仔細想想吧﹐巴爾撒扎﹗你認為她真不知道你的計劃麼
 #| "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
 #| "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgid ""
-"She used you to get rid of the other Bhaalspawn, obviously. Think about it!"
-"  She knew what you were planning all along. She wanted all the Bhaalspawn "
-"dead... and she wants us to fight!  She *wants* this to happen!!"
+"She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
+"She knew what you were planning all along. She wanted all the Bhaalspawn "
+"dead... and she wants us to fight! She *wants* this to happen!!"
 msgstr "她利用你除去其他的巴爾之子﹐仔細想想﹐他了解你的計劃﹐她想殺掉所有的巴爾之子......她想讓咱們自相殘殺﹗她希望這件事情發生﹗"
 
 #: balth.tra:1131
@@ -1443,7 +1475,7 @@ msgstr "我必須抵抗它﹐我會的﹐我沒有選擇。"
 msgid ""
 "But... you have shown great willpower, as well. Despite the taint in your "
 "soul, you have struggled against it just as I have. What makes me more "
-"worthy...?  No, I must not question myself!  Not now!"
+"worthy...? No, I must not question myself! Not now!"
 msgstr "但是你已經展現了強大的意志力﹐你跟我一樣﹐一直在抵抗自己的心魔﹐那我比你強到哪兒呢﹖不﹐現在不是懷疑自己的時候﹗現在不行﹗"
 
 #: balth.tra:1136
@@ -1500,15 +1532,20 @@ msgstr "但我知道﹐這是我的宿命﹐我沒有別的選擇......"
 #| " and I will *not* give up!"
 msgid ""
 "You always have a choice, Balthazar. Don't be a slave to Alaundo's prophecy!"
-"  I have fought against it ever since I found out about my heritage and I "
+" I have fought against it ever since I found out about my heritage and I "
 "will *not* give up!"
 msgstr "你會有機會選擇的﹐巴爾撒扎﹐不要被阿蘭多的預言所支配﹗我一直在為自己而奮鬥而且從未放棄﹗"
 
 #: balth.tra:1141
+#, fuzzy
+#| msgid ""
+#| "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
+#| "Balthazar!  It also means we can stop the prophecy from becoming true, I "
+#| "know this!"
 msgid ""
 "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
-"Balthazar!  It also means we can stop the prophecy from becoming true, I "
-"know this!"
+"Balthazar! It also means we can stop the prophecy from becoming true, I know"
+" this!"
 msgstr "而且阿蘭多的預言並不意味著巴爾之子全都是毀滅的化身﹗巴爾撒扎﹐他也提到了我們有機會阻止預言的實現。"
 
 #: balth.tra:1142
@@ -1537,7 +1574,7 @@ msgstr "相反現在的你正沿著一條毫無意義的路走下去﹐巴爾撒
 #| "I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
 #| "  We can work together!"
 msgid ""
-"I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable!  "
+"I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable! "
 "We can work together!"
 msgstr "我是你的<PRO_BROTHERSISTER>﹐巴爾撒扎﹐我們應該並肩作戰﹗而不是互相殘殺﹗"
 
@@ -1547,8 +1584,8 @@ msgstr "我是你的<PRO_BROTHERSISTER>﹐巴爾撒扎﹐我們應該並肩作�
 #| "Forget it.  There's no point in discussing this with you, is there?  Let's "
 #| "get this over with."
 msgid ""
-"Forget it. There's no point in discussing this with you, is there?  Let's "
-"get this over with."
+"Forget it. There's no point in discussing this with you, is there? Let's get"
+" this over with."
 msgstr "算了吧﹐跟你談話真沒意思﹐趕快把這事解決了吧。"
 
 #: balth.tra:1146
@@ -1583,13 +1620,19 @@ msgid ""
 msgstr "也許......也許你的話有些道理﹐當我沿著信念的道路走下去時﹐感受到的只有空虛﹐但我很難相信之前所做的一切......竟然毫無意義。"
 
 #: balth.tra:1149
-msgid "What do you mean?  How do you know this?"
+#, fuzzy
+#| msgid "What do you mean?  How do you know this?"
+msgid "What do you mean? How do you know this?"
 msgstr "你怎麼知道這些的﹖"
 
 #: balth.tra:1150
+#, fuzzy
+#| msgid ""
+#| "It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
+#| " sounds, but it's true!"
 msgid ""
-"It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
-" sounds, but it's true!"
+"It was told to me by a Solar, an agent of prophecy! It... oh, I know how it "
+"sounds, but it's true!"
 msgstr "是一個神使告訴我的﹐預言的代理人﹗她......我知道這聽起來難以置信﹐但卻是真的﹗"
 
 #: balth.tra:1151
@@ -1647,7 +1690,7 @@ msgstr "你在我內心中播下了困惑的種子﹐我有些迷茫了﹐看起
 #| "myself for all this time in error?  How could this be?"
 msgid ""
 "What you say is incredible, and yet... it does make sense. Have I prepared "
-"myself for all this time in error?  How could this be?"
+"myself for all this time in error? How could this be?"
 msgstr "你的話實在是......但的確是有些道理。我從前所做的事都是錯的麼﹖這可能麼﹖"
 
 #: balth.tra:1156
@@ -1685,12 +1728,19 @@ msgid ""
 msgstr "愚蠢的想法﹐我不是傻子﹐我們種的任何人都沒有這樣的可能﹐無論你說得多好聽。"
 
 #: balth.tra:1159
+#, fuzzy
+#| msgid ""
+#| "No!  You have listened to nothing I have said!  It *is* that way because "
+#| "there is no choice for us!  You would have me forget all the murders I have "
+#| "committed with my own hands, all the wrongs I have done in the name of the "
+#| "greater good... I cannot forget!  I will not forgive myself and I will *not*"
+#| " allow others to be afflicted with the taint I possess!"
 msgid ""
-"No!  You have listened to nothing I have said!  It *is* that way because "
-"there is no choice for us!  You would have me forget all the murders I have "
+"No! You have listened to nothing I have said! It *is* that way because there"
+" is no choice for us! You would have me forget all the murders I have "
 "committed with my own hands, all the wrongs I have done in the name of the "
-"greater good... I cannot forget!  I will not forgive myself and I will *not*"
-" allow others to be afflicted with the taint I possess!"
+"greater good... I cannot forget! I will not forgive myself and I will *not* "
+"allow others to be afflicted with the taint I possess!"
 msgstr ""
 "不﹐你根本沒聽明白我說什麼﹗我們根本沒有選擇的余地﹗你想讓我忘記因我而死的那些人麼﹐那些被正義之名屠殺的人......我不可能忘記﹗我不會原諒自己﹐也不會原諒有同樣天賦的人﹗"
 
@@ -1723,9 +1773,9 @@ msgstr "我沒有資格評價你﹐你要沿著你的路走下去﹐而我也要
 
 #: balth.tra:1162
 msgid ""
-"Look at the suffering you have brought to Amkethran!  Your monks terrorize "
-"the innocent at your command!  You hire soulless mercenaries that cut down "
-"the innocent at the slightest provocation!  And all for nothing!  You call "
+"Look at the suffering you have brought to Amkethran! Your monks terrorize "
+"the innocent at your command! You hire soulless mercenaries that cut down "
+"the innocent at the slightest provocation! And all for nothing! You call "
 "these the actions of a good man?"
 msgstr ""
 
@@ -1745,17 +1795,27 @@ msgstr ""
 "真正的善良的人應該從開始就對抗梅麗珊。你說你要找出五人組......可是我沒靠你就把他們全擊敗了。但加入五人組是你的決定﹐你也要承擔這個後果﹗"
 
 #: balth.tra:1164
+#, fuzzy
+#| msgid ""
+#| "You make no judgement upon me?  Don't make me laugh!  Inevitability is only "
+#| "the newest excuse for yet one more murder!  You would make our father proud!"
 msgid ""
-"You make no judgement upon me?  Don't make me laugh!  Inevitability is only "
-"the newest excuse for yet one more murder!  You would make our father proud!"
+"You make no judgement upon me? Don't make me laugh! Inevitability is only "
+"the newest excuse for yet one more murder! You would make our father proud!"
 msgstr "你沒有資格評價我﹖真可笑﹗你所謂的“必然”只是屠殺的一個借口﹗你真是給我們的父親增光啊﹗"
 
 #: balth.tra:1165
+#, fuzzy
+#| msgid ""
+#| "And what if that is my path, too, Balthazar?  You say you don't judge me, "
+#| "and yet you hold yourself to some duty as the only person who can fight "
+#| "against evil?  Do you know destiny so well that you can say for certain "
+#| "where it leads for someone else, never mind yourself?"
 msgid ""
-"And what if that is my path, too, Balthazar?  You say you don't judge me, "
-"and yet you hold yourself to some duty as the only person who can fight "
-"against evil?  Do you know destiny so well that you can say for certain "
-"where it leads for someone else, never mind yourself?"
+"And what if that is my path, too, Balthazar? You say you don't judge me, and"
+" yet you hold yourself to some duty as the only person who can fight against"
+" evil? Do you know destiny so well that you can say for certain where it "
+"leads for someone else, never mind yourself?"
 msgstr ""
 "那我的路是什麼呢﹖巴爾撒扎﹖你說你沒法評價我﹐那你為什麼認定自己就是唯一一個能對抗邪惡的人呢﹖你真的那麼了解自己的宿命麼﹖那你能知道未來要發生的事麼﹖真要知道的話﹐你有什麼可怕的呢﹖"
 
@@ -1772,7 +1832,7 @@ msgid ""
 "maintain secrecy, to attain my ultimate goal that they, in their ignorance, "
 "did not know would benefit them more in the end. But... it is how we treat "
 "the most helpless of our brethren in the worst of times that marks the "
-"goodness of a man, does it not?  I... I am ashamed, <CHARNAME>. I sought... "
+"goodness of a man, does it not? I... I am ashamed, <CHARNAME>. I sought... "
 "only to do what was best for us all."
 msgstr ""
 
@@ -1785,7 +1845,7 @@ msgstr ""
 msgid ""
 "You found out who the Five were through Melissan's scheming... and through, "
 "in no small part, my own. But who is to say that things might not have been "
-"different?  Who are *you* to say that things might have been different?"
+"different? Who are *you* to say that things might have been different?"
 msgstr "你找出了梅麗珊計劃裡的五人組﹐而且﹐我還是其中的一員﹐但有誰能說事情不會變化﹐你有什麼資格說事情有所不同﹖"
 
 #: balth.tra:1169
@@ -1798,7 +1858,7 @@ msgstr "你找出了梅麗珊計劃裡的五人組﹐而且﹐我還是其中的
 msgid ""
 "But... it is true, nevertheless. I have taken the easy path, and have done "
 "much that has brought harm to others in the name of necessity. But when does"
-" 'necessity' cross into the realm of evil?  I... I am ashamed, <CHARNAME>."
+" 'necessity' cross into the realm of evil? I... I am ashamed, <CHARNAME>."
 msgstr "但......沒錯﹐我選擇了一個簡單的辦法﹐而且在必須的名義下傷害了很多人。我很慚愧﹐<CHARNAME>。"
 
 #: balth.tra:1170
@@ -1814,11 +1874,17 @@ msgid ""
 msgstr "我並不認為我的所作所為值得讚揚﹐但這是我達成目標的必經之路﹐你也一樣﹐你的疏忽也對他人造成了嚴重的傷害。"
 
 #: balth.tra:1171
+#, fuzzy
+#| msgid ""
+#| "I will *not* be mocked so!  I have sacrificed my entire life, the people of "
+#| "this village, everything I have in order to see this evil destroyed!  "
+#| "Destroyed, all of it!  I cry out to Ao the Overfather that such evil must "
+#| "not be allowed to live in the hearts of mortals, and I *will* be heard!"
 msgid ""
-"I will *not* be mocked so!  I have sacrificed my entire life, the people of "
-"this village, everything I have in order to see this evil destroyed!  "
-"Destroyed, all of it!  I cry out to Ao the Overfather that such evil must "
-"not be allowed to live in the hearts of mortals, and I *will* be heard!"
+"I will *not* be mocked so! I have sacrificed my entire life, the people of "
+"this village, everything I have in order to see this evil destroyed! "
+"Destroyed, all of it! I cry out to Ao the Overfather that such evil must not"
+" be allowed to live in the hearts of mortals, and I *will* be heard!"
 msgstr ""
 "我不是這麼容易被愚弄的﹗為了毀滅這個邪惡﹐我犧牲了自己的生命﹐這個鎮裡的人民﹐我所擁有的一切﹗全都被毀了﹗我向眾神之神祈禱﹐這樣的邪惡絕對不允許在人心中存留。"
 
@@ -1847,7 +1913,7 @@ msgid ""
 " I. I have... done much that I regret, in the name of good. My people suffer"
 " because I held my ultimate goal above all else... but is it not true that "
 "our treatment of the least of our brethren is the true judge of a man's "
-"soul?  I... I am ashamed."
+"soul? I... I am ashamed."
 msgstr ""
 "但......你的確成功的對抗了這種誘惑﹐比我成功的多﹐在正義之名下我幹了很多後悔的事﹐我的人民因為我的目標而受苦﹐但是我們如何對待手足同胞不正是判斷一個人心靈善惡的准繩嗎﹖我很羞愧。"
 
@@ -1901,7 +1967,7 @@ msgid ""
 "Would that your claim of innocence meant anything to the dead of Saradush. "
 "Were I to question the recent dead of Athkatla, of Baldur's Gate, of "
 "Candlekeep... would I not find some who would claim such innocence for "
-"themselves?  Who died merely because they were caught in your wake?"
+"themselves? Who died merely because they were caught in your wake?"
 msgstr ""
 "你敢說對史拉督許城的屠殺一點責任沒有麼﹐還有你在阿斯卡特拉﹐博得之門﹐燭堡殺死的人裡﹐沒有無辜的麼﹖有多少僅僅是因為打擾了你的休息而被殺的﹖"
 
@@ -1914,19 +1980,24 @@ msgstr ""
 #| "presence.  Would you allow such carnage to continue?  Have we not spared the"
 #| " entire land from agony by the slaying of our siblings?"
 msgid ""
-"Do you think that others of our kind are any different?  Count them, "
+"Do you think that others of our kind are any different? Count them, "
 "<CHARNAME>, and think of the multitudes of Bhaalspawn that existed and "
 "brought misery to others, if not by intent, then even by their very "
-"presence. Would you allow such carnage to continue?  Have we not spared the "
+"presence. Would you allow such carnage to continue? Have we not spared the "
 "entire land from agony by the slaying of our siblings?"
 msgstr ""
 "你認為其他的巴爾之子會有所區別麼﹖想想吧﹐<CHARNAME>﹐我們只能給其他人帶來不幸﹐即使不是我們的本意﹐內在的天賦也會為他人帶來死亡﹐你會允許這樣的屠殺發生麼﹖我們正在給整個大陸帶來苦惱與不幸﹗"
 
 #: balth.tra:1179
+#, fuzzy
+#| msgid ""
+#| "You believe yourself to be the master of your destiny, do you?  The destiny "
+#| "foreseen long ago by Alaundo?  You believe it by choice alone that you ended"
+#| " up here, in this place?"
 msgid ""
-"You believe yourself to be the master of your destiny, do you?  The destiny "
-"foreseen long ago by Alaundo?  You believe it by choice alone that you ended"
-" up here, in this place?"
+"You believe yourself to be the master of your destiny, do you? The destiny "
+"foreseen long ago by Alaundo? You believe it by choice alone that you ended "
+"up here, in this place?"
 msgstr "你相信能夠掌控自己的命運﹖那久遠以前阿蘭多所做的預言﹐你相信它會因你的選擇而改變麼﹖"
 
 #: balth.tra:1180
@@ -2050,7 +2121,10 @@ msgid "You... you are so beautiful. I... had no idea..."
 msgstr "你......你真美。我......我不知道。"
 
 #: balth2.tra:1010
-msgid "Choose?  You mean... I may rid myself of the taint on my soul forever?"
+#, fuzzy
+#| msgid ""
+#| "Choose?  You mean... I may rid myself of the taint on my soul forever?"
+msgid "Choose? You mean... I may rid myself of the taint on my soul forever?"
 msgstr "選擇﹖你是說......我可以永遠除去這種天賦﹖"
 
 #: balth2.tra:1011
@@ -2099,9 +2173,9 @@ msgstr "我的確不知道你在想什麼﹐現在﹐這是你的決定。這種
 #: balth2.tra:1014
 msgid ""
 "I just ask you to consider how Bhaal's taint has affected your life to this "
-"point. Do you really wish to have all of it?  What type of person actually "
-"wishes to become a god?  Sarevok?  Irenicus?  Melissan?  Even if your "
-"intentions are good, what of an eternity being chained to such power?"
+"point. Do you really wish to have all of it? What type of person actually "
+"wishes to become a god? Sarevok? Irenicus? Melissan? Even if your intentions"
+" are good, what of an eternity being chained to such power?"
 msgstr ""
 
 #: balth2.tra:1015
@@ -2143,9 +2217,13 @@ msgid ""
 msgstr "你選擇了這條路﹐<CHARNAME>。我並不羨慕你﹐我希望這些天賦能帶給你所期望的﹐朋友。當我仰望天空看到最亮的星星時﹐我會為你祈禱。﹐"
 
 #: balth2.tra:1018
+#, fuzzy
+#| msgid ""
+#| "Melissan keeps restoring her immortal energies at the fount!  There must be "
+#| "a way to weaken her further, or we will never defeat her!"
 msgid ""
-"Melissan keeps restoring her immortal energies at the fount!  There must be "
-"a way to weaken her further, or we will never defeat her!"
+"Melissan keeps restoring her immortal energies at the fount! There must be a"
+" way to weaken her further, or we will never defeat her!"
 msgstr "梅麗珊在王座中補充能量﹗必須找辦法削弱她﹐否則我們不可能擊敗她!"
 
 #: ee.tra:3001
@@ -2231,8 +2309,12 @@ msgid ""
 msgstr ""
 
 #: finbodh.tra:33
+#, fuzzy
+#| msgid ""
+#| "Ahhh... my dear brother calls me at last, does he?  I knew you would not be "
+#| "able to live without my assistance for long."
 msgid ""
-"Ahhh... my dear brother calls me at last, does he?  I knew you would not be "
+"Ahhh... my dear brother calls me at last, does he? I knew you would not be "
 "able to live without my assistance for long."
 msgstr "啊...我的寶貝弟弟最後還是叫我了,不是麼﹖我知道你沒有我的協助你是是玩轉不久的。"
 
@@ -2243,7 +2325,7 @@ msgstr "啊...我的寶貝弟弟最後還是叫我了,不是麼﹖我知道你�
 #| "Irenicus... always so very, very close to getting what he wants and yet "
 #| "always so very, very far."
 msgid ""
-"(chuckle)  How very like you to blame me for your own failings. Poor, poor "
+"(chuckle) How very like you to blame me for your own failings. Poor, poor "
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr "（咯咯）你想因此責備我麼﹖小可憐﹐總是離他想要的很近很近﹐可就是拿不到。"
@@ -2251,13 +2333,17 @@ msgstr "（咯咯）你想因此責備我麼﹖小可憐﹐總是離他想要的
 #: finbodh.tra:35
 msgid ""
 "So I see. How absolutely delicious to let me in on your little play with the"
-" Bhaalspawn again, brother dear. And how are you, <CHARNAME>?  I do so hope "
+" Bhaalspawn again, brother dear. And how are you, <CHARNAME>? I do so hope "
 "you are as... healthy... as I remember. Shall we continue our merry dance?"
 msgstr ""
 
 #: finbodh.tra:36
+#, fuzzy
+#| msgid ""
+#| "Still trapped in servitude to Irenicus?  Do you have no will of your own, "
+#| "Bodhi?"
 msgid ""
-"Still trapped in servitude to Irenicus?  Do you have no will of your own, "
+"Still trapped in servitude to Irenicus? Do you have no will of your own, "
 "Bodhi?"
 msgstr "仍然被他控制著麼﹖你就不能有點自己的主意﹖"
 
@@ -2277,15 +2363,23 @@ msgid ""
 msgstr "捲起裙子跑吧﹐很久以前我就不怕吸血鬼了﹗"
 
 #: finbodh.tra:39
+#, fuzzy
+#| msgid ""
+#| "Do I have to suffer your prattle again?  I shall stamp out your evil "
+#| "presence once and for all!"
 msgid ""
-"Do I have to suffer your prattle again?  I shall stamp out your evil "
-"presence once and for all!"
+"Do I have to suffer your prattle again? I shall stamp out your evil presence"
+" once and for all!"
 msgstr "我受不了你那幼稚的想法﹐我要徹底消滅你﹗"
 
 #: finbodh.tra:41
+#, fuzzy
+#| msgid ""
+#| "Oh Child of Bhaal, so serious and grim!  Do you not enjoy that our paths "
+#| "have crossed again?  Does your blood not rejoice?"
 msgid ""
-"Oh Child of Bhaal, so serious and grim!  Do you not enjoy that our paths "
-"have crossed again?  Does your blood not rejoice?"
+"Oh Child of Bhaal, so serious and grim! Do you not enjoy that our paths have"
+" crossed again? Does your blood not rejoice?"
 msgstr "哦﹐巴爾之子﹐別這麼冷酷好麼﹐你不覺得這是緣份麼﹖你的內心不感覺高興麼﹖"
 
 #: finbodh.tra:42
@@ -2299,13 +2393,15 @@ msgid ""
 msgstr "你太軟弱了﹐神的血液在我身體裡流淌﹐我要再一次看到你的死亡。"
 
 #: finbodh.tra:43
-msgid "Enough of this!  You will fall before me, undead thing."
+#, fuzzy
+#| msgid "Enough of this!  You will fall before me, undead thing."
+msgid "Enough of this! You will fall before me, undead thing."
 msgstr "夠了﹐你就要完了﹐混蛋東西。"
 
 #: finbodh.tra:44
 msgid ""
 "You have nothing to gain from this fight. Will you sacrifice yourself out of"
-" sibling loyalty?  Do not make that mistake again."
+" sibling loyalty? Do not make that mistake again."
 msgstr ""
 
 #: finbodh.tra:45
@@ -2350,8 +2446,8 @@ msgstr "噢﹐巴爾之子﹐跟你談話讓我感到厭倦。來擁抱死亡吧
 
 #: finbodh.tra:49
 msgid ""
-"Indeed, I have no intention of dying at all.  I fight with my brother "
-"because I have no choice....or would you offer me one now?"
+"Indeed, I have no intention of dying at all. I fight with my brother because"
+" I have no choice....or would you offer me one now?"
 msgstr ""
 
 #: finbodh.tra:50
@@ -2362,7 +2458,7 @@ msgstr ""
 #| "  Perhaps I do not need to taste your blood..."
 msgid ""
 "My brother believes he can offer me your soul, yet I see that you too can "
-"raise others from the abyss; one who opposed you, no less!  How intriguing. "
+"raise others from the abyss; one who opposed you, no less! How intriguing. "
 "Perhaps I do not need to taste your blood..."
 msgstr "我的弟弟相信他能給我靈魂﹐而我看到你也能從深淵裡復活別人﹗很有趣﹐看來我沒必要殺了你。"
 
@@ -2428,8 +2524,8 @@ msgstr "自從上次見面後我的變化很大﹐而且也厭倦了你的游戲
 #| " win?  Take the portion of soul I offer and live again."
 msgid ""
 "So much talk from your brother, Bodhi, yet actions speak louder than words. "
-"How many deaths has your brother granted me?  Do you truly believe you can "
-"win?  Take the portion of soul I offer and live again."
+"How many deaths has your brother granted me? Do you truly believe you can "
+"win? Take the portion of soul I offer and live again."
 msgstr "幹嗎要你的弟弟說這麼多話﹖怎麼不放馬過來﹖你的弟弟認為我“註定”死了多少次﹖你認為你真的能贏麼﹖拿著我給你的靈魂然後為我而戰吧。"
 
 #: finbodh.tra:57
@@ -2455,9 +2551,13 @@ msgid ""
 msgstr "唉......你的天賦削弱了你的智慧﹐真是個巴爾之子的恥辱﹐送你上路也許是件好事。"
 
 #: finbodh.tra:59
+#, fuzzy
+#| msgid ""
+#| "An opportunity to feast on the blood of a God, and yet you think I will "
+#| "stand aside?  (chuckle)  You know me no better than my dear brother here."
 msgid ""
 "An opportunity to feast on the blood of a God, and yet you think I will "
-"stand aside?  (chuckle)  You know me no better than my dear brother here."
+"stand aside? (chuckle) You know me no better than my dear brother here."
 msgstr "有機會享用巴爾之子的鮮血﹐你認為我會閃開麼﹖（咯咯）你可沒有我弟弟了解我。"
 
 #: finbodh.tra:60
@@ -2526,7 +2626,7 @@ msgstr ""
 #| "essence and I will join you... for now."
 msgid ""
 "Oh Child of Bhaal, such a game you play. I fight with my 'dear' brother for "
-"your soul, yet you would offer it willingly?  Promise me a piece of your "
+"your soul, yet you would offer it willingly? Promise me a piece of your "
 "essence and I will join you... for now."
 msgstr "哦﹐巴爾之子﹐你在玩這樣的一個游戲﹐我為了你的靈魂而來﹐現在你竟然主動把他獻出來﹖給我一部份你的靈魂﹐我就會加入你。"
 
@@ -2655,8 +2755,8 @@ msgstr "不﹐我要保留我的靈魂﹐滾回深淵去吧﹐順便幫我向巴
 #| "abyss.  I shall rip every shred of that soul from your body!  Let the dance "
 #| "end here!"
 msgid ""
-"Fool!  You think to betray me, Child of Bhaal?  I refuse to return to the "
-"abyss. I shall rip every shred of that soul from your body!  Let the dance "
+"Fool! You think to betray me, Child of Bhaal? I refuse to return to the "
+"abyss. I shall rip every shred of that soul from your body! Let the dance "
 "end here!"
 msgstr "蠢貨﹐你想背叛我﹖巴爾之子﹐我不會回去的﹐我要把你撕成碎片﹗來吧﹗"
 
@@ -2671,13 +2771,19 @@ msgid ""
 msgstr "這是我的地盤﹐我操控著一切﹐去跟你的弟弟見面吧。"
 
 #: finbodh.tra:80
+#, fuzzy
+#| msgid ""
+#| "Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
+#| "it."
 msgid ""
-"Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
+"Enough talk! The dance has come to an end, Bodhi, and so has your part in "
 "it."
 msgstr "夠了﹐結束了﹗"
 
 #: finbodh.tra:81
-msgid "Die!  Witness my power, insect!"
+#, fuzzy
+#| msgid "Die!  Witness my power, insect!"
+msgid "Die! Witness my power, insect!"
 msgstr "死吧﹐作為我力量的見證﹗"
 
 #: finbodh.tra:82
@@ -2707,9 +2813,8 @@ msgstr "你背叛了我﹐巴爾之子﹐看起來我們永遠不會真正的並
 #| "carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
 #| "divine!"
 msgid ""
-"Ahhhhh, such feeling. I feel the life flow through me!  Such a gift you "
-"carry Child of Bhaal... such power... such strength. Oh this is simply "
-"divine!"
+"Ahhhhh, such feeling. I feel the life flow through me! Such a gift you carry"
+" Child of Bhaal... such power... such strength. Oh this is simply divine!"
 msgstr "啊......這種感覺﹐我感到生命回到了我的身體﹗這種力量﹐這是神格的力量﹗"
 
 #: finbodh.tra:85
@@ -2840,7 +2945,7 @@ msgstr "嗯﹐嗯﹐我想誰都會有個夢想﹐瘋子﹗"
 #| "dares to oppose while I take what is mine!"
 msgctxt "FINMEL25"
 msgid ""
-"Bah!  I should not be wasting time on you. I still have to absorb the "
+"Bah! I should not be wasting time on you. I still have to absorb the "
 "Bhaalspawn essences... and there is more than enough power in this plane to "
 "keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
 "dares to oppose while I take what is mine!"
@@ -2903,8 +3008,8 @@ msgstr ""
 msgid ""
 "Irenicus, I believe you called him. So easily culled as my own, since you "
 "abandoned him here recently... and such a valuable source of information on "
-"you, <CHARNAME>. After all... I believe you did share a soul, once, no?  Say"
-" hello to the dear <PRO_MANWOMAN>, Irenicus."
+"you, <CHARNAME>. After all... I believe you did share a soul, once, no? Say "
+"hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
 "艾瑞尼卡斯﹐你是這麼叫他的吧﹐自從你把他放逐到這裡以後﹐我立刻收留了他......而且他提供了很多關於你的信息﹐<CHARNAME>。畢竟﹐我想你們還是分享過靈魂的吧﹖向這位可敬的<PRO_MANWOMAN>問好吧﹐艾瑞尼卡斯。"
 
@@ -2932,7 +3037,7 @@ msgstr "來吧﹐愛蒙﹐我能直接控制你身體裡的天賦﹐你並沒有
 #| "It seems you've misplaced your darling little Imoen, haven't you?  But her "
 #| "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgid ""
-"It seems you've misplaced your darling little Imoen, haven't you?  But her "
+"It seems you've misplaced your darling little Imoen, haven't you? But her "
 "essence is easy enough to command. Let's see what she has to say, shall we?"
 msgstr "看來你把她帶錯地方了﹐不是麼﹖她的天賦太容易控制了﹐來看看她想說點什麼。"
 
@@ -2964,7 +3069,7 @@ msgstr "嘿﹐愛蒙﹐我控制了你身體裡的天賦﹐讓我們看看你的
 #| "you abandoned your faith so quickly?"
 msgid ""
 "Ahhhh, Balthazar is here as well. How clever to deny me his essence, "
-"<CHARNAME>. Still blinded by your devotion to destiny, Balthazar?  Or have "
+"<CHARNAME>. Still blinded by your devotion to destiny, Balthazar? Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
 "啊......巴爾撒扎也來了。阻止我得到他的天賦的確是個很聰明的主意﹐<CHARNAME>。你怎麼不堅定于自己的信念了﹖巴爾撒扎﹐你可太容易動搖了。"
@@ -2977,7 +3082,7 @@ msgstr ""
 #| "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
 #| "all the other spawn of Bhaal was *for*?"
 msgid ""
-"Oh no?  Perhaps you do not understand. This... this place, here, is the "
+"Oh no? Perhaps you do not understand. This... this place, here, is the "
 "Source. This is where the essence of all of Bhaal's children returns when "
 "they die, hidden away. Did you never wonder, dear Balthazar, what killing "
 "all the other spawn of Bhaal was *for*?"
@@ -3066,9 +3171,13 @@ msgid "There is enough essence, in fact, even for you... Sarevok."
 msgstr "這裡有足夠的天賦﹐事實上﹐甚至包括你的......沙洛弗克。"
 
 #: finmel01.tra:623
+#, fuzzy
+#| msgid ""
+#| "But... we don't have all your siblings accounted for just quite yet, do we?"
+#| "  Haven't you forgotten someone?"
 msgid ""
-"But... we don't have all your siblings accounted for just quite yet, do we?"
-"  Haven't you forgotten someone?"
+"But... we don't have all your siblings accounted for just quite yet, do we? "
+"Haven't you forgotten someone?"
 msgstr "但我們還沒有把所有的主要當事人請來吧﹖我們是不是忘了誰呢﹖"
 
 #: finmel01.tra:624
@@ -3104,15 +3213,23 @@ msgstr ""
 "也許吧﹐但你是個強大的戰士......也會是我地面部隊的優秀指揮官。你可以得到權力﹐財富﹐尊敬......所有你想要的﹐甚至包括你曾經失去的巴爾天賦。來吧﹐沙洛弗克......變回你原來的那個惡魔吧﹐為我效勞。"
 
 #: finmel01.tra:627
+#, fuzzy
+#| msgid ""
+#| "Then fight for me you shall!  And your first victim will be the "
+#| "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgid ""
-"Then fight for me you shall!  And your first victim will be the "
+"Then fight for me you shall! And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgstr "那就為我效勞吧﹗你的第一個目標就是那個殺過你的人﹗"
 
 #: finmel01.tra:628
+#, fuzzy
+#| msgid ""
+#| "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
+#| " shall be the end of you both!"
 msgid ""
-"Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
-" shall be the end of you both!"
+"Then die with your fool <PRO_BROTHERSISTER>, if that is your wish! The Five "
+"shall be the end of you both!"
 msgstr "那就跟你的<PRO_BROTHERSISTER>一齊死吧﹐如果這是你要的﹗五人組就是你的末日﹗"
 
 #: finmel01.tra:629
@@ -3129,9 +3246,13 @@ msgstr ""
 "我把你帶到了這裡﹐並給你第二次機會。跟我一起對付<CHARNAME>﹐你就會得到你失去的力量﹐你渴求的力量﹐我會讓你成為原來的那個沙洛弗克。"
 
 #: finmel01.tra:630
+#, fuzzy
+#| msgid ""
+#| "What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
+#| "lost too much power!  You shall pay for this!!"
 msgid ""
-"What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
-"lost too much power!  You shall pay for this!!"
+"What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
+"too much power! You shall pay for this!!"
 msgstr "什麼﹖凡人﹗不﹐不可能﹗我又快變成凡人了﹗我的能量失去太多了﹗你要為此付出代價﹗"
 
 #: finsarev.tra:26
@@ -3141,13 +3262,15 @@ msgstr "什麼﹖凡人﹗不﹐不可能﹗我又快變成凡人了﹗我的能
 #| "resigned myself to not being a part of this little play.  Who brought me "
 #| "here?  And why am I in my old armor?"
 msgid ""
-"Who--?  Melissan. And <CHARNAME>, no less. And to think that I had resigned "
-"myself to not being a part of this little play. Who brought me here?  And "
-"why am I in my old armor?"
+"Who--? Melissan. And <CHARNAME>, no less. And to think that I had resigned "
+"myself to not being a part of this little play. Who brought me here? And why"
+" am I in my old armor?"
 msgstr "誰﹖梅麗珊﹐還有<CHARNAME>﹐人真齊呀﹐我原想我趕不上著最後一幕了。誰送我來的﹖我怎麼穿上了原來的盔甲﹖"
 
 #: finsarev.tra:27
-msgid "Fight <CHARNAME>?  Aye... I will do that."
+#, fuzzy
+#| msgid "Fight <CHARNAME>?  Aye... I will do that."
+msgid "Fight <CHARNAME>? Aye... I will do that."
 msgstr "跟<CHARNAME>戰鬥﹖嗯......我當然會的。"
 
 #: finsarev.tra:28
@@ -3161,7 +3284,10 @@ msgid "You're a fool, Sarevok, if you think you'll make any difference."
 msgstr "你是個笨蛋﹐沙洛弗克﹐你認為你能造成什麼區別麼﹖"
 
 #: finsarev.tra:30
-msgid "You're willing to become Melissan's servant, now?  I'm disappointed."
+#, fuzzy
+#| msgid ""
+#| "You're willing to become Melissan's servant, now?  I'm disappointed."
+msgid "You're willing to become Melissan's servant, now? I'm disappointed."
 msgstr "你要為梅麗珊賣命﹖太讓我失望了。"
 
 #: finsarev.tra:31
@@ -3268,34 +3394,51 @@ msgstr ""
 "你竟然把這樣邪惡的東西帶到了我面前﹐神之子﹐你要知道﹐無論你在這裡說了什麼﹐你都必須履行這個誓言。你還不是神呢......雖然我可以立刻摧毀這個不死生物﹐但是我必須讓你完成你的承諾。"
 
 #: imoen25j.tra:476 imoen25p.tra:476
+#, fuzzy
+#| msgid ""
+#| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
+#| "again!!"
 msgid ""
-"I'm not going anywhere with you!  And nobody's touching my soul!  Not "
-"again!!"
+"I'm not going anywhere with you! And nobody's touching my soul! Not again!!"
 msgstr "我哪兒也不去﹗我不會讓別人再碰我的靈魂了﹗"
 
 #: imoen25p.tra:470
+#, fuzzy
+#| msgctxt "IMOEN18"
+#| msgid ""
+#| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
-msgid "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
+msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!!"
 msgstr "啊﹗好痛啊﹗<CHARNAME>﹐阻止她......好痛啊﹗"
 
 #: imoen25p.tra:471
-msgid "What are you doing to her?!  Stop it, I demand it!!"
+#, fuzzy
+#| msgid "What are you doing to her?!  Stop it, I demand it!!"
+msgid "What are you doing to her?! Stop it, I demand it!!"
 msgstr "你對她做了什麼﹖趕快停下﹐我命令你﹗"
 
 #: imoen25p.tra:472
-msgid "I'm the one you're after, Melissan!  Leave her alone!!"
+#, fuzzy
+#| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
+msgid "I'm the one you're after, Melissan! Leave her alone!!"
 msgstr "我是你要對付的人﹐梅麗珊﹗離開她﹗"
 
 #: imoen25p.tra:473
-msgid "Pull yourself together, Imoen!  Attack!!"
+#, fuzzy
+#| msgid "Pull yourself together, Imoen!  Attack!!"
+msgid "Pull yourself together, Imoen! Attack!!"
 msgstr "集中注意力﹐愛蒙﹗"
 
 #: imoen25p.tra:474
-msgid "So what do I care about Imoen?  Kill her, Melissan."
+#, fuzzy
+#| msgid "So what do I care about Imoen?  Kill her, Melissan."
+msgid "So what do I care about Imoen? Kill her, Melissan."
 msgstr "你讓我怎麼對待愛蒙﹖要殺她就殺吧﹐梅麗珊。"
 
 #: imoen25p.tra:475
-msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
+#, fuzzy
+#| msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
+msgid "Wh-what... where am I? What's going on? <CHARNAME>?"
 msgstr "什麼......我在哪兒﹖發生什麼事了﹖<CHARNAME>﹖"
 
 #: imoen25p.tra:477
@@ -3305,12 +3448,16 @@ msgstr "什麼......我在哪兒﹖發生什麼事了﹖<CHARNAME>﹖"
 #| "through, <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgid ""
 "It... it's gone... I'm human again. Ohhhh, now I know what you went through,"
-" <CHARNAME>!  I don't know if I ever want to go through that again!"
+" <CHARNAME>! I don't know if I ever want to go through that again!"
 msgstr "過去了......我又是人類了。哦﹐我現在知道你的感受了﹐<CHARNAME>﹗我可不想再經歷一回﹗"
 
 #: imoen25p.tra:478
+#, fuzzy
+#| msgid ""
+#| "And I can't believe what you said, either!  'Go ahead and kill her'?  After "
+#| "all we've been through, that's what you say in my defense?!"
 msgid ""
-"And I can't believe what you said, either!  'Go ahead and kill her'?  After "
+"And I can't believe what you said, either! 'Go ahead and kill her'? After "
 "all we've been through, that's what you say in my defense?!"
 msgstr "但我簡直不相信我聽到了什麼﹗‘要殺她就殺吧’﹖我們一起走過了這麼多的路﹐你就這麼保護我﹖"
 
@@ -3326,8 +3473,11 @@ msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr "算了吧﹐小女孩﹐我可沒叫你跟我來﹐不是麼﹖"
 
 #: imoen25p.tra:481
+#, fuzzy
+#| msgid ""
+#| "We don't have time for this chat, Imoen!  This is the middle of a fight!"
 msgid ""
-"We don't have time for this chat, Imoen!  This is the middle of a fight!"
+"We don't have time for this chat, Imoen! This is the middle of a fight!"
 msgstr "我們沒時間討論這個﹐愛蒙﹐現在正在戰鬥﹗"
 
 #: imoen25p.tra:482
@@ -3351,7 +3501,7 @@ msgstr "哦......我想﹐你對我造成的影響更大﹐但我很高興我在
 msgid ""
 "I... I can't stay here, though. This is way out of my league. I wish you "
 "well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, "
-"huh?  Anyway... good luck..."
+"huh? Anyway... good luck..."
 msgstr ""
 "我不能再呆在這兒了......我要離開隊伍。祝你好運﹐<CHARNAME>﹐希望我能再見到你﹐你會回到燭堡麼﹖不過......再見......"
 
@@ -3362,7 +3512,7 @@ msgstr ""
 #| "think... I think I have that power, now, same as you.  But I'll fight by "
 #| "your side again, if you want me to."
 msgid ""
-"Do you need me to join back up with you?  I could... leave the Throne, I "
+"Do you need me to join back up with you? I could... leave the Throne, I "
 "think... I think I have that power, now, same as you. But I'll fight by your"
 " side again, if you want me to."
 msgstr "你需要我加入隊伍麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。"
@@ -3411,7 +3561,7 @@ msgstr "不......如果你能的話﹐趕快離開這裡﹐愛蒙......"
 #| "Candlekeep, huh?  Anyway... good luck..."
 msgid ""
 "I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at "
-"Candlekeep, huh?  Anyway... good luck..."
+"Candlekeep, huh? Anyway... good luck..."
 msgstr "祝你好運﹐<CHARNAME>﹐希望我能再見到你﹐你還會回到燭堡麼﹖不過......再見......"
 
 #: imoen25p.tra:489
@@ -3455,9 +3605,9 @@ msgstr "我很高興......我在......沒造成太大的傷害。哦﹐我不知
 #| "Throne, I think... I think I have that power, now, same as you.  But I'll "
 #| "fight by your side again, if you want me to."
 msgid ""
-"Oh, so it is!  Do you need me back in the party?  I could... leave the "
-"Throne, I think... I think I have that power, now, same as you. But I'll "
-"fight by your side again, if you want me to."
+"Oh, so it is! Do you need me back in the party? I could... leave the Throne,"
+" I think... I think I have that power, now, same as you. But I'll fight by "
+"your side again, if you want me to."
 msgstr "噢﹐就是吧﹐你想讓我加入麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。"
 
 #: imoen25p.tra:493
@@ -3467,20 +3617,26 @@ msgstr "噢﹐就是吧﹐你想讓我加入麼﹖我可以......離開這裡﹐
 #| "Throne, I think... I think I have that power, now, same as you.  But I'll "
 #| "fight by your side again, if you want me to."
 msgid ""
-"I see the fight's still going on. Do you need me back in the party?  I "
+"I see the fight's still going on. Do you need me back in the party? I "
 "could... leave the Throne, I think... I think I have that power, now, same "
 "as you. But I'd like to see this through, same as you."
 msgstr "噢﹐就是吧﹐你想讓我加入麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。"
 
 #: imoen25p.tra:494
+#, fuzzy
+#| msgid ""
+#| "Stop distracting me in the middle of combat, already!  Get back in the "
+#| "party!"
 msgid ""
-"Stop distracting me in the middle of combat, already!  Get back in the "
-"party!"
+"Stop distracting me in the middle of combat, already! Get back in the party!"
 msgstr "別再分散我的注意力了﹐趕快歸隊﹗"
 
 #: imoen25p.tra:495
+#, fuzzy
+#| msgid ""
+#| "Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
 msgid ""
-"Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
+"Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?"
 msgstr "是的﹐<PRO_SIRMAAM>﹗（咯咯）"
 
 #: irenic2.tra:435
@@ -3500,8 +3656,12 @@ msgid ""
 msgstr "也好﹐如果沙洛弗克都能復活﹐那你也可以。"
 
 #: irenic2.tra:437
+#, fuzzy
+#| msgid ""
+#| "You told her how to influence me, didn't you?  And you told her I was in "
+#| "Suldanessalar."
 msgid ""
-"You told her how to influence me, didn't you?  And you told her I was in "
+"You told her how to influence me, didn't you? And you told her I was in "
 "Suldanessalar."
 msgstr "你告訴她如何影響我﹖不是麼﹖你還告訴她我在索丹尼斯拉。"
 
@@ -3516,7 +3676,10 @@ msgid ""
 msgstr "作為一個精靈﹐你活的可夠慘的﹐如果需要我幫你一把﹐我會很樂意的。"
 
 #: irenic2.tra:439
-msgid "You're collecting my leavings, Melissan?  How very sad for you."
+#, fuzzy
+#| msgid ""
+#| "You're collecting my leavings, Melissan?  How very sad for you."
+msgid "You're collecting my leavings, Melissan? How very sad for you."
 msgstr "你是在收集我打過的殘渣麼﹖梅麗珊﹐你太讓我失望了。"
 
 #: irenic2.tra:440
@@ -3540,8 +3703,12 @@ msgid ""
 msgstr "我是必勝的﹐艾瑞尼卡斯﹐你在地獄裡的那段時間﹐我的力量增長了很多。"
 
 #: irenic2.tra:442
+#, fuzzy
+#| msgid ""
+#| "You actually think you'll stop me?  It appears your delusions have survived "
+#| "the many beatings at my hand."
 msgid ""
-"You actually think you'll stop me?  It appears your delusions have survived "
+"You actually think you'll stop me? It appears your delusions have survived "
 "the many beatings at my hand."
 msgstr "你真認為你能阻止我麼﹖看來你在地獄的這段時間並沒有讓你的錯覺消失。"
 
@@ -3552,14 +3719,18 @@ msgstr "你真認為你能阻止我麼﹖看來你在地獄的這段時間並沒
 #| "expect more from the great elven magician.  Ellesime would be sad to see you"
 #| " reduced to this."
 msgid ""
-"So you're actually willing to serve as Melissan's little lackey?  I would "
+"So you're actually willing to serve as Melissan's little lackey? I would "
 "expect more from the great elven magician. Ellesime would be sad to see you "
 "reduced to this."
 msgstr "你願意為梅裡珊跑龍套了﹖我原以為你很有骨氣呢﹐強大的精靈法師﹐艾麗星看到你這個樣子會難過的。"
 
 #: irenic2.tra:444
+#, fuzzy
+#| msgid ""
+#| "Don't you ever tire of that bravado?  Haven't you received enough spankings "
+#| "upon my knee?"
 msgid ""
-"Don't you ever tire of that bravado?  Haven't you received enough spankings "
+"Don't you ever tire of that bravado? Haven't you received enough spankings "
 "upon my knee?"
 msgstr "你還沒裝夠麼﹖你還沒挨夠打麼﹖"
 
@@ -3671,7 +3842,7 @@ msgstr ""
 #| " your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
 msgid ""
 "You over-step your bounds, as always. I did not call you here to rejoice in "
-"your venom, Bodhi. Do you not notice where we are?  Whom we face?"
+"your venom, Bodhi. Do you not notice where we are? Whom we face?"
 msgstr "你過線了﹐跟以前一樣﹐我叫你來不是讓你嬉皮笑臉的﹐你知道我們在哪兒麼﹖我們面對的是誰﹖"
 
 #: irenic2.tra:455
@@ -3681,9 +3852,9 @@ msgstr "你過線了﹐跟以前一樣﹐我叫你來不是讓你嬉皮笑臉的
 #| " power here, and you hope to find succor at the feet of this fool "
 #| "<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
 msgid ""
-"You think to betray me, Bodhi?  Foolish girl. Melissan is the one who holds "
+"You think to betray me, Bodhi? Foolish girl. Melissan is the one who holds "
 "power here, and you hope to find succor at the feet of this fool "
-"<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
+"<PRO_GIRLBOY>? Stand by me or die with <PRO_HIMHER>!"
 msgstr "你想背叛我﹖傻女孩﹐梅麗珊控制著這裡﹐而你想從這個傻<PRO_GIRLBOY>那裡找機會﹖這到這邊否則就跟<PRO_HIMHER>一起死﹗"
 
 #: irenic2.tra:456
@@ -3695,7 +3866,7 @@ msgstr "你想背叛我﹖傻女孩﹐梅麗珊控制著這裡﹐而你想從這
 #| " in an eon shall be pleasure as I watch your corpse turn to dust."
 msgid ""
 "So my ungrateful sister, you finally stand by my side. I shall deal with "
-"your treachery afterwards. As for you,  <CHARNAME>, Mellisan has granted me "
+"your treachery afterwards. As for you, <CHARNAME>, Mellisan has granted me "
 "the power to rip the divinity from your body. The first thing I shall feel "
 "in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
@@ -3771,10 +3942,16 @@ msgid ""
 msgstr "嗯﹐事情並沒有完全按照你的計劃進行﹐巴爾撒扎活下來了。"
 
 #: meliss01.tra:422
+#, fuzzy
+#| msgctxt "MELISS23"
+#| msgid ""
+#| "Do you dare come and face me there?  Or shall I have to hunt you down like "
+#| "the sorry dog that you are?  Because make no mistake... one way or another, "
+#| "every last drop of that divine essence will be *mine*."
 msgctxt "MELISS23"
 msgid ""
-"Do you dare come and face me there?  Or shall I have to hunt you down like "
-"the sorry dog that you are?  Because make no mistake... one way or another, "
+"Do you dare come and face me there? Or shall I have to hunt you down like "
+"the sorry dog that you are? Because make no mistake... one way or another, "
 "every last drop of that divine essence will be *mine*."
 msgstr "你敢來這裡面對我麼﹖還是你要像喪家犬一樣被我追的到處跑﹖最好小心點﹐走錯任何一步你的天賦就會是我的了。"
 
@@ -3791,7 +3968,7 @@ msgstr "直到現在我要你做的和你已經做的就是殺掉五人組﹐其
 #| "surprised.  In the end, however, the essence of one or two of Bhaal's get "
 #| "means very little."
 msgid ""
-"So you managed to corral Balthazar into co-operating with you?  I'm "
+"So you managed to corral Balthazar into co-operating with you? I'm "
 "surprised. In the end, however, the essence of one or two of Bhaal's get "
 "means very little."
 msgstr "你把巴爾撒扎說服了﹖真令人驚訝﹐不過對我來說差一個還是兩個並不重要﹗"
@@ -4012,7 +4189,9 @@ msgid ""
 msgstr "梅麗珊已經在能量柱內開始活動了﹐一旦這個能量池被吸干﹐最後的決戰就要開始了。"
 
 #: sarev25j.tra:262
-msgid "What do you mean, wench?  We've no business, you and I."
+#, fuzzy
+#| msgid "What do you mean, wench?  We've no business, you and I."
+msgid "What do you mean, wench? We've no business, you and I."
 msgstr "你什麼意思﹖婊子﹐你我之間沒有交易。"
 
 #: sarev25j.tra:263
@@ -4031,13 +4210,13 @@ msgstr "即使我想考慮你的交易﹐我也不能﹐<CHARNAME>用誓約束�
 #| "I see.  And you believe your offer interests me?  <CHARNAME> has done well "
 #| "enough against you so far."
 msgid ""
-"I see. And you believe your offer interests me?  <CHARNAME> has done well "
+"I see. And you believe your offer interests me? <CHARNAME> has done well "
 "enough against you so far."
 msgstr "我明白了﹐你認為你能激起我的興趣﹖不過迄今為止<CHARNAME>干得比你強多了。"
 
 #: sarev25j.tra:265
 msgid ""
-"Serve you?  You made me that offer once, as I recall. I strung up your "
+"Serve you? You made me that offer once, as I recall. I strung up your "
 "messenger atop the spires of my tower and allowed the crows to feed upon his"
 " innards. I desired to rule, not to serve. And I will not serve you, wench. "
 "My answer is no."
@@ -4056,7 +4235,9 @@ msgid ""
 msgstr "我厭倦了<CHARNAME>和他愚蠢的說教﹐我厭倦了為我的敵人服務﹐女祭祀。啊......我要當你的指揮官。"
 
 #: sarev25j.tra:267
-msgid "No, Sarevok!  You traitorous bastard!"
+#, fuzzy
+#| msgid "No, Sarevok!  You traitorous bastard!"
+msgid "No, Sarevok! You traitorous bastard!"
 msgstr "不﹐沙洛弗克﹗你個混蛋背叛者﹗"
 
 #: sarev25j.tra:268
@@ -4079,7 +4260,7 @@ msgstr "這正是我所希望的﹐我可以再殺你一次了﹐太好了。"
 #| "by the madness that once swallowed me whole.  Wallow in your delusion if you"
 #| " will, woman... I remember it well.  And I will not join you in it."
 msgid ""
-"Become the demon I once was?  I am no longer that man, nor do I wish to be. "
+"Become the demon I once was? I am no longer that man, nor do I wish to be. "
 "If <CHARNAME> has shown me anything, it is that I am better off untouched by"
 " the madness that once swallowed me whole. Wallow in your delusion if you "
 "will, woman... I remember it well. And I will not join you in it."
@@ -4093,7 +4274,7 @@ msgstr ""
 #| "Better to fight for Melissan than sit in your shadow and watch you take what"
 #| " was once mine."
 msgid ""
-"My nature has not changed, <CHARNAME>. Did you truly expect otherwise?  "
+"My nature has not changed, <CHARNAME>. Did you truly expect otherwise? "
 "Better to fight for Melissan than sit in your shadow and watch you take what"
 " was once mine."
 msgstr "我的本性還沒變﹐<CHARNAME>﹐你認為呢﹖為梅麗珊而戰總比待在你的陰影下看你拿走本來屬於我的東西要好。"
@@ -4125,9 +4306,13 @@ msgstr ""
 "典型的自誇﹐也許你會贏的﹐但我不會眼睜睜的看著你拿走本來屬於我的東西﹐你不配擁有這種力量﹐<CHARNAME>﹐即使這意味著為梅麗珊而戰﹐我也要這樣做。"
 
 #: sarev25j.tra:274
+#, fuzzy
+#| msgid ""
+#| "Blast!  The wench returns to Bhaal's essence like a coward, healing herself!"
+#| "  There must be a way to weaken her further, or we will never defeat her!"
 msgid ""
-"Blast!  The wench returns to Bhaal's essence like a coward, healing herself!"
-"  There must be a way to weaken her further, or we will never defeat her!"
+"Blast! The wench returns to Bhaal's essence like a coward, healing herself! "
+"There must be a way to weaken her further, or we will never defeat her!"
 msgstr "混蛋﹗這個婊子用巴爾的天賦來增強自己﹐我們必須找個辦法來削弱她﹐否則我們根本贏不了﹗"
 
 #: sarev25j.tra:275
@@ -4138,7 +4323,7 @@ msgstr "混蛋﹗這個婊子用巴爾的天賦來增強自己﹐我們必須找
 #| " a Deathbringer's weapon and I can restore much of its power.  I would not "
 #| "suggest you attempt to use it yourself, now."
 msgid ""
-"My blade, is it?  I had thought this lost forever. It is good to have it "
+"My blade, is it? I had thought this lost forever. It is good to have it "
 "back. While I no longer have the essence to channel through it, it is still "
 "a Deathbringer's weapon and I can restore much of its power. I would not "
 "suggest you attempt to use it yourself, now."
@@ -4151,14 +4336,19 @@ msgstr ""
 #| "You wouldn't have my armor, too, hidden about somewhere within your packs?  "
 #| "Hmph.  I suppose some things are too much to hope for."
 msgid ""
-"You wouldn't have my armor, too, hidden about somewhere within your packs?  "
+"You wouldn't have my armor, too, hidden about somewhere within your packs? "
 "Hmph. I suppose some things are too much to hope for."
 msgstr "你沒找到我的裝甲﹐還是把它藏在你的行李中﹖嗯﹐我可能期望太高了"
 
 #: sarev25j.tra:277
+#, fuzzy
+#| msgid ""
+#| "This is the Irenicus I have been told of?  I was expecting more intensity "
+#| "and power from one who hounded <CHARNAME> so, and not "
+#| "simply...*another*...wizard."
 msgid ""
-"This is the Irenicus I have been told of?  I was expecting more intensity "
-"and power from one who hounded <CHARNAME> so, and not "
+"This is the Irenicus I have been told of? I was expecting more intensity and"
+" power from one who hounded <CHARNAME> so, and not "
 "simply...*another*...wizard."
 msgstr "這就是傳說中的艾瑞尼卡斯﹖我原來以為追殺<CHARNAME>的人會是個強大的傢伙﹐但......卻又是個......法師。"
 
@@ -4840,9 +5030,12 @@ msgid ""
 msgstr ""
 
 #: solar.tra:240
+#, fuzzy
+#| msgid ""
+#| "Wait... what is Balthazar's part in all this?  You knew I wouldn't fight "
+#| "him?"
 msgid ""
-"Wait... what is Balthazar's part in all this?  You knew I wouldn't fight "
-"him?"
+"Wait... what is Balthazar's part in all this? You knew I wouldn't fight him?"
 msgstr "等等......巴爾撒扎在這裡扮演怎樣一個角色﹖你知道我不會殺他﹖"
 
 #: solar.tra:241
