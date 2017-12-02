@@ -4225,7 +4225,9 @@ msgid "Ascension"
 msgstr ""
 
 #: setup.tra:1001
-msgid "You must have ToB installed to install the Ascension mod."
+msgid ""
+"You must have ToB installed or use Enhanced Edition to install the Ascension"
+" mod."
 msgstr ""
 
 #: setup.tra:1002
