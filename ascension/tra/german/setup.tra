@@ -1,16 +1,18 @@
-@1 = ~Ascension Core (ben”tigt TdB)~
-@2 = ~
-Die Datei [Data/25Dialog.bif] wurde nicht gefunden. Das könnte unter 
-anderem daran liegen, dass die Erweiterung "Thron des Bhaal" nicht 
-installiert wurde. Um die Erweiterung "Ascension" installieren zu 
-können, muss "Thron des Bhaal" installiert sein.
-
-Falls "Thron des Bhaal" installiert sein sollte und trotzdem diese 
-Fehlermeldung erscheint, so wendet Euch bitte an Westley Weimer, 
-der die Konvertierung von Ascension ins WeiDU-Format 
-durchgeführt hat.~
-@3 = ~Verbesserter Abazigal (optional, ben”tigt TdB)~
+@3 = ~Tougher Abazigal~
 @4 = ~Original Demogorgon (optional, ben”tigt TdB)~
-@5 = ~Verbesserter Gromnir (optional, ben”tigt TdB)~
-@6 = ~Verbesserte Illasera (optional, ben”tigt TdB)~
-@7 = ~Verbesserter Yaga-Shura (optional, ben”tigt TdB)~
+@5 = ~Tougher Gromnir~
+@6 = ~Tougher Illasera~
+@7 = ~Tougher Yaga-Shura~
+@1000 = ~Ascension~
+@1001 = ~You must have ToB installed to install the Ascension mod.~
+@1002 = ~Cannot install without Ascension main component.~
+@3010 = ~Ascension Core (ben”tigt TdB)~
+@3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
+@4000 = ~Restored Bhaalspawn Powers by David Gaider~
+@5100 = ~Extended Epilogues for Bioware NPCs by shawne~
+@5110 = ~This component is currently only available in english language~
+@5200 = ~Extended Epilogues for Beamdog NPCs by shawne~
+@5210 = ~This component is currently only available in english language~
+@5220 = ~This component is only for BG2:EE or EET~
+@6000 = ~Install only Ascension's Epilogues~
+@6010 = ~These epilogues are included in the full Ascension!~

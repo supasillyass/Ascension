@@ -1,13 +1,18 @@
-@1 = ~Ascension Core (vyzaduje datadisk ToB)~
-@2 = ~
-Nemuzu najit soubor [Data/25Dialog.bif], pravdepodobne nemate 
-nainstalovany datadisk Throne of Bhaal.  Pro instalaci modu Ascension 
-je tento datadisk vyzadovan.
-
-Pokud jej presto mate nainstalovany a zobrazila se vam tato chyba, 
-kontaktujte prosim spravce modulu.~
-@3 = ~Silnejsi Abazigal (volitelne, vyzaduje datadisk ToB)~
+@3 = ~Tougher Abazigal~
 @4 = ~Puvodni silnejsi Demogorgon (volitelne, vyzaduje datadisk ToB)~
-@5 = ~Silnejsi Gromnir (volitelne, vyzaduje datadisk ToB)~
-@6 = ~Silnejsi Illasera (volitelne, vyzaduje datadisk ToB)~
-@7 = ~Silnejsi Yaga-Shura (volitelne, vyzaduje datadisk ToB)~
+@5 = ~Tougher Gromnir~
+@6 = ~Tougher Illasera~
+@7 = ~Tougher Yaga-Shura~
+@1000 = ~Ascension~
+@1001 = ~You must have ToB installed to install the Ascension mod.~
+@1002 = ~Cannot install without Ascension main component.~
+@3010 = ~Ascension Core (vyzaduje datadisk ToB)~
+@3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
+@4000 = ~Restored Bhaalspawn Powers by David Gaider~
+@5100 = ~Extended Epilogues for Bioware NPCs by shawne~
+@5110 = ~This component is currently only available in english language~
+@5200 = ~Extended Epilogues for Beamdog NPCs by shawne~
+@5210 = ~This component is currently only available in english language~
+@5220 = ~This component is only for BG2:EE or EET~
+@6000 = ~Install only Ascension's Epilogues~
+@6010 = ~These epilogues are included in the full Ascension!~

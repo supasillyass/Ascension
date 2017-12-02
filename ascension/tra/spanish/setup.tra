@@ -1,10 +1,18 @@
-@1 = ~Ascensión Core (necesita ToB)~
-@2 = ~
-No puedo encontrar [Data/25Dialog.bif], lo cual me lleva a creer que no tienes la expansión Throne of Bhaal instalada. Debes tener ToB instalado para poder instalar el mod Ascensión.
-
-Si lo habeis instalado y estais recibiendo este mensaje de error, por favor contactad con el encargado del modulo.~
-@3 = ~Abazigal mas resistente (opcional, requiere ToB)~
+@3 = ~Tougher Abazigal~
 @4 = ~Demogorgon original mas resistente (opcional, requiere ToB)~
-@5 = ~Gromnir mas resistente (opcional, requiere ToB)~
-@6 = ~Illasera mas resistente (opcional, requiere ToB)~
-@7 = ~Yaga-Shura mas resistente (opcional, requiere ToB)~
+@5 = ~Tougher Gromnir~
+@6 = ~Tougher Illasera~
+@7 = ~Tougher Yaga-Shura~
+@1000 = ~Ascension~
+@1001 = ~You must have ToB installed to install the Ascension mod.~
+@1002 = ~Cannot install without Ascension main component.~
+@3010 = ~Ascensión Core (necesita ToB)~
+@3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
+@4000 = ~Restored Bhaalspawn Powers by David Gaider~
+@5100 = ~Extended Epilogues for Bioware NPCs by shawne~
+@5110 = ~This component is currently only available in english language~
+@5200 = ~Extended Epilogues for Beamdog NPCs by shawne~
+@5210 = ~This component is currently only available in english language~
+@5220 = ~This component is only for BG2:EE or EET~
+@6000 = ~Install only Ascension's Epilogues~
+@6010 = ~These epilogues are included in the full Ascension!~

@@ -1,13 +1,18 @@
-@1 = ~Ascension Core (wymaga ToB)~
-@2 = ~
-Nie mozna znalezc [Data/25Dialog.bif], wedle czego mozna wywnioskowac,
-ze nie ma zainstalowanego dodatku Tron Bhaala. Musisz zainstalowac go
-zanim rozpoczniesz instalacje tego moda. 
-
-Jesli masz go zainstalowanego, a mimo to otrzymujesz ten komunikat to
-skontaktuj sie z autorem moda.~
-@3 = ~Mocniejszy Abazigal (opcjonalne, wymaga ToB)~
-@4 = ~Oryginalnie Mocniejszy Demogorgon (opcjonalne, wymaga ToB)~
-@5 = ~Mocniejszy Gromnir (opcjonalne, wymaga ToB)~
-@6 = ~Mocniejsza Illasera (opcjonalne, wymaga ToB)~
-@7 = ~Mocniejszy Yaga-Shura (opcjonalne, wymaga ToB)~
+@3 = ~Tougher Abazigal~
+@4 = ~Mocniejszy Demogorgon ( Oryginalniy zamiar Bioware )~
+@5 = ~Tougher Gromnir~
+@6 = ~Tougher Illasera~
+@7 = ~Tougher Yaga-Shura~
+@1000 = ~Ascension~
+@1001 = ~You must have ToB installed to install the Ascension mod.~
+@1002 = ~Cannot install without Ascension main component.~
+@3010 = ~Ascension Core (wymaga ToB)~
+@3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
+@4000 = ~Restored Bhaalspawn Powers by David Gaider~
+@5100 = ~Extended Epilogues for Bioware NPCs by shawne~
+@5110 = ~This component is currently only available in english language~
+@5200 = ~Extended Epilogues for Beamdog NPCs by shawne~
+@5210 = ~This component is currently only available in english language~
+@5220 = ~This component is only for BG2:EE or EET~
+@6000 = ~Install only Ascension's Epilogues~
+@6010 = ~These epilogues are included in the full Ascension!~
