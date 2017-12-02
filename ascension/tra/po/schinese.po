@@ -540,7 +540,7 @@ msgid ""
 " of Bhaal had been changed forever by his love for the dark maiden. As for "
 "the son, tutored by two of the most potent beings in the Realms?  He would "
 "go on to forge a legend that would rival that of his father. That, however, "
-"is a different story...  "
+"is a different story..."
 msgstr ""
 "维康尼亚和<CHARNAME>继续了几年他们的冒险生涯，获得了极高的声望，并以中心人物的身份参与了动摇剑湾的两次战争。<CHARNAME>在遗忘国度的声望日渐提高，而她的黑色夫人永远陪伴在他的旁边，终于维康尼亚怀上了<CHARNAME>的孩子，这件事引起他们俩人极多的争吵与冲突，最终导致了两人的短暂的分手，然而，<CHARNAME>孩子的出生，永远的改变了维康尼亚，她最后回到了<CHARNAME>身边并说服他安定在博得之门，她自己则完全投身于抚养他们的孩子，并同时以黑暗精灵和<CHARNAME>种族的方式教导他们的孩子，结果她十分惊异于孩子所展现出来的力量，尽管她对孩子惊人的理解力感到欣喜，但她没能看到孩子的长大．虽然作为一个强大的牧师维康尼亚免疫一切毒素，但是蜘蛛女王复仇的剧毒远不是她所能防范的，当<CHARNAME>得知最强大的魔法也无法治愈她的妻子时狂怒的大吼。没人知道维康尼亚弥留之际在<CHARNAME>耳边说的话，但是传说明确指出<CHARNAME>抱着他妻子的身体痛哭，忍受一种失去才知宝贵的痛苦。狂怒的<CHARNAME>离开了博得之门，以一种秘密的方式养大了他的孩子，关于这个孩子的传说非常多样，有的说他成了对抗幽暗地域的十字军，有的说他成了极远北地的英雄，甚至还有的说在<CHARNAME>的支持下，他在深渊掀起了一场直接针对Lolth的战争，但所有的传说都同意这位前巴尔之子被他的黑夫人永远的改变了。至于说这个孩子，被遗忘国度里最强有力的两个生命抚养大会怎样？他当然会铸就一个与其父亲匹敌的传奇，不过，这是另外一个故事了．．．．．．"
 
