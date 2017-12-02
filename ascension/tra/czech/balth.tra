@@ -1,4 +1,3 @@
-// BALTH pøekladový soubor
 @1060 = ~Rád bych dùvìøoval této lsti, <CHARNAME>. Ale vypadá to, že jsem nebyl jediným èlenem Pìtky, kdo plánoval zkázu ostatních.~
 @1072 = ~Nebudeš první ani poslední, kdo se mì pokouší zabít!~
 @1074 = ~To je pravda. Jsi dobrý èlovìk, <CHARNAME>. Tvùj postoj proti zlu je nezpochybnitelný.  Tvùj boj proti poskvrnì našeho zlého otce zasluhuje chválu.~
@@ -18,7 +17,7 @@
 @1088 = ~Tak trochu pochybuji, že víš, o èem mluvím. Poskvrna uvnitø tebe je silná... silnìjší než kteréhokoliv jiného zplozence našeho otce, co jsem vidìl. Cítil jsi sny, naléhání, je to tak? Chaos, co je tvým osudem, se dral svévolnì napøíè tvým životem, nedbaje tvých pøání, je to tak? Odmítáš, že pøinášíš násilí a zkázu kamkoliv vstoupíš, <CHARNAME>?~
 @1089 = ~Nejsem v nièem stejný jako ty. Žiji bojem proti chaosu mé poskvrny, bojem proti zlu, které Bhaalùv odkaz pøinesl tomuto svìtu.  Èelil jsem zlu v sobì a ovládl jsem jej.~
 @1090 = ~Ne.  Pøinesl jsem této zemi svùj díl smrti a zkázy. Ale vidím za tím vyšší úèel... Snažím se provždy ukonèit možnost Bhaalova návratu a oèistit zemi od jeho poskvrny.~
-@1091 = ~Ovládl jsem v sobì sílu a zlo držel v šachu, ale vím to také, pokud ne lépe... Pak vìtšina mých bratrù hrozila, že ovládnou celý Faerun. Tohle nepøipustím. Zasvìtil jsem svùj život, abych tomu zabránil.~ 
+@1091 = ~Ovládl jsem v sobì sílu a zlo držel v šachu, ale vím to také, pokud ne lépe... Pak vìtšina mých bratrù hrozila, že ovládnou celý Faerun. Tohle nepøipustím. Zasvìtil jsem svùj život, abych tomu zabránil.~
 @1092 = ~Kéž bychom se setkali za jiných okolností, <CHARNAME>... Rád bych si udìlal èas a porovnal naše cesty, které nás sem pøivedly. Èím bychom se stali, pokud bychom nebyli osudem nuceni nést poskvrnu v našich duších?  Je mi to líto, ale musím to udìlat.~
 @1093 = ~A co se pak stane s Melissan? Bude volná, aby vyvolala Bhaala a dokonèila své plány?~
 @1094 = ~Nemusíš to udìlat, Balthazare. Nemusíme spolu bojovat.~
@@ -73,7 +72,7 @@
 @1144 = ~Balthazare, jsem tvùj bratr.  Bojujme s tím, co je nevyhnutelné!  Mùžeme spolupracovat!~
 @1145 = ~Na to zapomeò.  V této diskusi již není žádná pointa, nebo ano?  Skonèeme to.~
 @1146 = ~Tvá slova jsou pùsobivá, <CHARNAME>.  Vnímám osud, který se mìní dle tvé vùle, jak jsi støedem všeho... Jak to, že jsem to nespatøil døíve?~
-@1147 = ~Ale prostá pravda tvých slov mi zní falešnì.  Nevìøím jim.  Bojoval jsi proti osudu, pøesto toho v tobì vidím více, než tvrdíš.~~Ale prostá pravda tvých slov mi zní falešnì. Nevìøím jim. Bojovala jsi proti osudu, pøesto toho v tobì vidím více, než tvrdíš.~
+@1147 = ~Ale prostá pravda tvých slov mi zní falešnì.  Nevìøím jim.  Bojoval jsi proti osudu, pøesto toho v tobì vidím více, než tvrdíš.~
 @1148 = ~Možná... možná na tom nìco je.  Když se nad tím zamyslím, vidím teï, jak tvrdì jsem se držel svého osudu... a cítím faleš. Ale... nevìøím, že to bylo k nièemu.~
 @1149 = ~Co myslíš?  Jak tohle víš?~
 @1150 = ~Øekla mi to Solar, jednatelka proroctví!  No... Vím jak to zní, ale je to pravda!~

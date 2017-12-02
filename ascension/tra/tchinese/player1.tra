@@ -1,4 +1,3 @@
-// PLAYER1 translation file
 @314 = ~
 殺戮者能力增強
 看起來我對變形殺戮者的控制能力增強了﹐這個形態變得更加強壯﹐致命了﹐而且我可以保持這個狀態更長時間﹐更不容易失去理智了。~
@@ -11,4 +10,4 @@
 @317 = ~我決定變成終結者。~
 @396 = ~從戰鬥一開始﹐你就在思考著你的對策。在能量流向中央巴爾王座的時候﹐梅麗珊看起來是無法傷害的......而且她的力量在快速增長著......必須用某種辦法逼她出來。~
 @397 = ~唯一的對策是從王座週圍的能量池入手﹐你內在的天賦使得你能夠切斷能量池與梅麗珊的聯繫﹐強迫她出來戰鬥﹐然而﹐這些池子似乎都被嚴密守衛著。~
-@398 = %梅麗珊繼續從王座中吸取著能量﹐保持著她的力量﹐必須找辦法削弱她﹐否則﹐你不可能擊敗她。%
+@398 = ~Melissan continues to restore her divine energies at the fountain, keeping her immortality intact.  There must be a way to weaken her further, or you will never be able to defeat her.~

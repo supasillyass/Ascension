@@ -1,6 +1,3 @@
-// IRENIC2  translation file
-// Version vom 5.5.2002
-
 @435 = ~In der Tat.  So treffen wir uns also wieder.~
 @436 = ~Das ist schon in Ordnung.  Wenn Sarevok wie ein falscher Fünfziger wieder auftauchen kann, so sei es Euch ebenso erlaubt.~
 @437 = ~Ihr habt ihr erzählt, wie man mich beeinflussen kann?  Und ihr habt ihr erzählt, dass ich in Suldanessallar war?~
@@ -15,7 +12,6 @@
 @446 = ~Es scheint, dass Ihr Nutznießer sehr niedriger Erwartungen seid, aber sogar ich habe aus meinen Fehlern gelernt.  Hier habe ich nichts zu verlieren, nicht einmal mein Leben.  Dank Melissan habe ich immer noch die Gelegenheit, Euren göttlichen Aufstieg auszulöschen.  Wir werden quitt sein!~
 @447 = ~Ihr mögt inzwischen eine grobe und rudimentäre Kontrolle über Eure Fähigkeiten entwickelt haben, aber auch ich habe ein oder zwei Dinge gelernt... Wahnvorstellung oder nicht.  Und Melissan gab mir die Möglichkeit, persönlich das Ende Eures Aufstiegs zu sehen... seht es einfach als das Begleichen einer alten Rechnung.~
 @448 = ~Sprecht nicht ihren Namen, Hund.  Ellesime wird die Vollständigkeit ihres Bedauerns bald genug erfahren.  Und zu Euch... Melissan gab mir die Möglichkeit, eine alte Rechnung zu begleichen. Einen Aufstieg für einen anderen... das klingt nach wirklicher Gerechtigkeit.~
-       ~Sprecht nicht ihren Namen, Schlange.  Ellesime wird die Vollständigkeit ihres Bedauerns bald genug erfahren.  Und zu Euch... Melissan gab mir die Möglichkeit, eine alte Rechnung zu begleichen.  Einen Aufstieg für einen anderen... das klingt nach wirklicher Gerechtigkeit.~
 @449 = ~Wie schlagfertig und doch typisch.  Wie weit müssen die Hoffungen der Welt gesunken sein, dass es einem Wurm wie Euch erlaubt ist, so weit zu kommen.  Glücklicherweise aber habe ich dann die Möglichkeit, Euch die Beendigung meines eigenen Aufstiegs zurückzuzahlen.~
 @450 = ~Ah, ja. Bekannte Worte. Ähnlich denen, die Ich selbst am Scheidepunkt meines eigenen Aufstiegs sprach.  Wie würde ich es genießen, dieses mit gleicher Münze zurückzuzahlen, und der ganzen Welt zu zeigen, welch verächtlicher Wurm Ihr in Wahrheit seid.~
 @451 = ~Aber genug davon. Obwohl ich es wahrhaftig lieben würde, meine Schwester in ihrer eigenen Hölle für alle Ewigkeiten verrotten zu lassen, so wäre es doch keine wirkliches und passendes Wiedersehen, wenn ich meine neuen Kräfte nicht nutzen würde, um ihr eine Einladung zu schicken.~
@@ -23,7 +19,6 @@
 @453 = ~Genug, Schwester, wir tun, wie Melissan geheißen hat, mit ihren Dienern an unserer Seite.  Wenn Ihr wollt, so habt Vergnügen an der Rache, die wir nun nehmen werden.  Wollen wir doch einmal sehen, <CHARNAME>, ob ich diese Seele ein zweites Mal aus Eurem Körper herausreißen kann.  Wie würde ich es genießen, Eure stolze Bestimmung ein zweites Mal zu stehlen.~
 @454 = ~Ihr überschreitet Eure Grenzen, wie immer.  Ich habe Euch nicht gerufen, um Euer Gift zu verspritzen, Bodhi.  Seht Ihr nicht, wo wir sind?  Und wem wir gegenüber stehen?~
 @455 = ~Ihr versucht mich zu betrügen, Bodhi?  Törichtes Mädchen.  Melissan ist diejenige, die die Macht in Händen hält, und Ihr glaubt Beistand zu Füssen dieses armseligen Jungen zu finden?  Haltet zu mir oder sterbt mit <PRO_HIMHER>!~
-       ~Ihr versucht mich zu betrügen, Bodhi?  Törichtes Mädchen.  Melissan ist diejenige, die die Macht in Händen hält, und Ihr glaubt Beistand zu den Füssen dieses armseligen Mädchens zu finden?  Haltet zu mir oder sterbt mit <PRO_HIMHER>!~
 @456 = ~Meine undankbare Schwester, so steht Ihr mir schließlich doch zur Seite.  Um Eure Falschheit werde ich mich später kümmern.  Nun aber zu Euch, <CHARNAME>, Melissan gab mir die Macht, die Göttlichkeit aus Eurem Körper zu reißen. Das erste, was ich nach Äonen wieder fühlen möchte, soll Vergnügen sein... Vergnügen, wenn Ich Euren Körper zu Staub zerfallen sehe.~
 @457 = ~Also verlasst Ihr mich, Schwester, so wie *sie* mich verlassen hat.~
 @458 = ~Es ist egal.  Melissan gab mir genug Macht, und ihre Diener werden Euch den Irrtum Eurer eigenen Entscheidung lehren.  Ich aber werde die Göttlichkeit aus <CHARNAME>'s Seele heraus reißen und Ihr, *liebe* Schwester, sollt nichts anderes sein als Staub neben <PRO_HIMHER>.~

@@ -1,17 +1,12 @@
-// BALTH translation file
-// Version 5.5.2002
-
 @1060 = ~Ich wünschte, ich hätte die Lorbeeren für diese List verdient, <CHARNAME>.  Aber es scheint, als sei ich nicht das einzige Mitglied der Fünf gewesen, das den Untergang der anderen geplant hätte.~
 @1072 = ~Ihr seid nicht der Erste, der versucht, mich zu töten... und wohl auch nicht der Letzte!~
 @1074 = ~Es ist wahr.  Ihr seid ein gut<PRO_MANWOMAN>, <CHARNAME>, und Eure Haltung gegen das Böse steht außer Frage.  Euer Kampf gegen den Makel unseres bösen Vaters ist hoch zu loben.~
-        ~Es ist wahr.  Ihr seid eine gut<PRO_MANWOMAN>, <CHARNAME>, und Eure Haltung gegen das Böse steht außer Frage.  Euer Kampf gegen den Makel unseres bösen Vaters ist hoch zu loben.~
 @1075 = ~Ich spüre nichts davon, dass Ihr von Geburt aus gut wärt, <CHARNAME>... obwohl Eure Taten in Nah und Fern als über jeden Vorwurf erhaben gepriesen werden.  Es ist... interessant, dass jemand wie Ihr, der so sehr gegen den Makel unseres Vaters im Inneren ankämpfen muss, so viel getan hat, das Böse zu bekämpfen.~
 @1076 = ~Ich sehe das Gute in Eurem Inneren, <CHARNAME>, aber Eure Taten sind kaum ohne Widersprüche.  Ich spüre nur eine Seele, die gegen den Makel unseres Vaters ankämpft, die darum kämpft, den Weg des Guten zu finden, der nicht existiert.~
 @1077 = ~Ich spüre nichts davon, dass Ihr von Geburt aus gut wärt, <CHARNAME>.  Eure Taten sind nicht ohne Widersprüche.  Ich spüre nur eine Seele, die gegen den Makel ihres bösen Vaters ankämpft, so wie ich selbst.~
 @1078 = ~Tatsächlich aber bin ich hier der beste Richter, <CHARNAME>.  Auch ich besitze den Makel unseres Vaters in meinem Inneren.  Auch ich habe sein Verlangen nach Blut gespürt, seine Versuche, mein Leben ins Chaos zu stürzen. Ich habe es bezwungen... aber nur knapp.  Zu gut weiß ich, wozu es im Stande ist.~
 @1079 = ~Natürlich.  Unser Makel bringt uns keinen Frieden, oder, <CHARNAME>?  Wir kämpfen aus Notwehr, und doch töten wir, und doch bringen wir Zerstörung.  Wir können die Verantwortung von uns schieben, wenn wir das wollen, aber nur zu gut weiß ich, wozu der Makel in unserer Seele fähig ist.  Nur knapp kann ich ihn beherrschen.~
 @1080 = ~Ich hätte keine andere Antwort von einem wahren Bruder erwartet.  Ich kenne nur zu gut den Durst nach Tod, der mit dem Makel unseres Erzeugers kommt.  Ich habe ihn bezwungen, aber nur knapp... ich bedaure die, die seine Sklaven sind.~
-        ~Ich hätte keine andere Antwort von einer wahren Schwester erwartet.  Ich kenne nur zu gut den Durst nach Tod, der mit dem Makel unseres Erzeugers kommt. Ich habe ihn bezwungen, aber nur knapp... ich bedaure die, die seine Sklaven sind.~
 @1081 = ~Bringt mich nicht zum Lachen, <CHARNAME>.  Wenn Ihr erwartet, dass ich glaube, Eure armselige Existenz würde auf der Welt sein, um gegen das Böse zu kämpfen, dann erwartet Ihr viel zu viel.~
 @1082 = ~Aber was auch immer unsere Wünsche sein mögen in dieser Sache, unser Schicksal ist für uns geschrieben, <CHARNAME>.  Manche mögen vor ihm fliehen, manche mögen es verleugnen, manche mit Freude umarmen... aber jede Bhaalbrut ist ein Samen gewesen, der eine Frucht von Blut und Mord hervorgebracht hat.  Oder streitet Ihr das ab?~
 @1083 = ~Wollt Ihr damit sagen, Ihr seid irgendwie anders, Balthasar?~
@@ -46,7 +41,6 @@
 @1112 = ~Ihr seid ein Narr und schwächer, als ich glaubte.  Lasst uns das hier jetzt beenden.  Ich habe eine Verabredung mit den Göttern.~
 @1113 = ~Ja... Ihr habt recht.~
 @1114 = ~Sehr gut,  <CHARNAME>.  Ich werde mich Euch anschließen.  Ihr seid ein würdig<PRO_MANWOMAN>.  Vielleicht sogar würdig, Bhaals dunklen Makel zu wenden und etwas Besseres daraus zu machen.  Ich weiß es nicht.  Aber ich werde diese Chance nutzen.~
-        ~Sehr gut,  <CHARNAME>. Ich werde mich Euch anschließen.  Ihr seid eine würdig<PRO_MANWOMAN>.  Vielleicht sogar würdig, Bhaals dunklen Makel zu wenden und etwas Besseres daraus zu machen.  Ich weiß es nicht.  Aber ich werde diese Chance nutzen.~
 @1115 = ~Lasst Melissan zittern, wenn sie uns gemeinsam sieht, und wir werden sie niederschmettern, wie sie es verdient.  Und wenn Bhaal selbst wiedererweckt würde, er würde uns beide nicht bezwingen können.  Ich muss Vorbereitungen treffen, <CHARNAME>.  Geht zum Thron des Bhaal.  Wenn die Zeit gekommen ist, werde ich dort sein.~
 @1116 = ~Ich kann es nicht, <CHARNAME>.~
 @1117 = ~Ihr müsst Euch Melissan entgegenstellen.  Euer Schicksal ist es, darauf zu achten, dass Bhaals Erbe hier und jetzt endet.  Aber Ihr müsst mir versprechen, <CHARNAME>... Ihr müsst mir versprechen, dass Ihr der Versuchung nicht erliegen werdet.  Solltet Ihr Melissan besiegen und über die Macht verfügen, müsst Ihr Euch von ihr abwenden... Ihr habt gesehen, welchen Kampf Ihr ausfechten müsst, gegen nur einen Splitter dieses Makels.  Nehmt ihn nicht, <CHARNAME>... selbst ein Gott kann in Versuchung geraten, das müsst Ihr erkennen.  Versprecht mir, dass Ihr ihn zurückweist.~
@@ -76,7 +70,6 @@
 @1142 = ~Ihr könnt weggehen.  Ihr könnt tun, was richtig ist, Balthasar, Ihr könnt das tun, was Ihr als richtig erkannt habt, und nicht das, womit Ihr Euch abgefunden habt.~
 @1143 = ~Ihr geht einen Weg, den Ihr nicht gehen müsst, Balthasar.  Ihr seht Euch selbst als böse, aber das muss nicht so sein..~
 @1144 = ~Ich bin Euer Bruder, Balthasar.  Lasst uns das Unvermeidbare bekämpfen!  Wir können zusammenarbeiten!~
-        ~Ich bin Eure Schwester, Balthasar.  Lasst uns das Unvermeidbare bekämpfen!  Wir können zusammenarbeiten!~
 @1145 = ~Vergesst es.  Es ist zwecklos, das mit Euch zu diskutieren.  Lasst uns damit zum Ende kommen.~
 @1146 = ~Eure Worte sind beeindruckend, <CHARNAME>.  Ich kann spüren, dass sich das Schicksal nach Eurem Willen ändert, dass Ihr das Zentrum all dessen seid... wie kommt es, dass ich das nicht eher gesehen habe?~
 @1147 = ~Aber die einfache Wahrheit ist, dass Eure Worte hohl klingen.  Ich glaube nicht an sie.  Ihr hab gegen das Schicksal gekämpft, dennoch kann ich es in Euch erkennen, je länger Ihr sprecht.~
