@@ -22,7 +22,7 @@ ACTION_IF GAME_IS ~bg2ee~ BEGIN
   ACTION_IF FILE_EXISTS ~ascension/tra/%LANGUAGE%/ee.tra~ BEGIN
     LOAD_TRA ~ascension/tra/%LANGUAGE%/ee.tra~
   END ELSE BEGIN
-    LOAD_TRA ~ascension/tra/american/ee.tra~
+    LOAD_TRA ~ascension/tra/english/ee.tra~
   END
 END
 
