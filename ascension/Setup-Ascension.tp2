@@ -6,31 +6,37 @@
  * Special Note: the last string index in ToB (pre Ascension) is #74107
  *************************************************************************/
 BACKUP ~ascension/backup~
+<<<<<<< HEAD
 //AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv, WhiteAgnus, JediMindTrix"
 AUTHOR "Active Caretaker: please contact JediMindTrix on the Beamdog forums, or on the open discussion forums at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
+=======
+
+// AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv 
+// EE adoption: WhiteAgnus, JediMindTrix at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
+SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
+>>>>>>> 97af5d1... cleanups #1
 
 VERSION ~v1.51 BETA BWP 20170519~
 
 AUTO_TRA ~ascension/tra/autotra/%s~//%~
 
 ALWAYS
-  INCLUDE ~ascension/lib/always.tpa~ //library with functions and macros common to all components
-  INCLUDE ~ascension/lib/charset.tpa~
-  INCLUDE ~ascension/lib/ds.tpa~
+	INCLUDE ~ascension/lib/always.tpa~ //library with functions and macros common to all components
+	INCLUDE ~ascension/lib/charset.tpa~
+	INCLUDE ~ascension/lib/ds.tpa~
 END
 
 ///////////////////////////////////////////////////////////////////////
 // Language Options
 //
-// This section is optional. If you list more than one language, the
-// user gets a choice. The first argument is the name of the language
-// as presented to the user, the second is the translation directory
-// name, and any others are translation files that should be loaded
-// immediately (e.g., because they contain the translated names of the
-// modules the user will install). 
+// If you list more than one language, the user gets a choice.
+// The first argument is the name of the language as presented to the user,
+// the second is the translation directory name, and any others arguments
+// are translation files that should be loaded immediately,
+// because they contain the translated names of the modules the user will install.
 ///////////////////////////////////////////////////////////////////////
-LANGUAGE ~American English~    
-         ~american~ 
+LANGUAGE ~American English~
+         ~american~
          ~ascension/tra/american/setup.tra~
 
 LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
@@ -41,7 +47,7 @@ LANGUAGE ~Francais (traduction de Ly Meng)~
          ~french~ 
          ~ascension/tra/french/setup.tra~
 
-LANGUAGE ~Traducción al Español (hecha por Clan REO)~ 
+LANGUAGE ~Traducción al Español (hecha por Clan REO)~
          ~spanish~
          ~ascension/tra/spanish/setup.tra~
 
@@ -53,29 +59,27 @@ LANGUAGE ~Traditional Chinese Translation (by kalabaka)~
          ~tchinese~
          ~ascension/tra/tchinese/setup.tra~
 
-LANGUAGE ~Polski je;zyk (Przet?umaczony przez Damian Staniszewski)~ 
+LANGUAGE ~Polski jezyk (Przetlumaczony przez Damian Staniszewski)~ 
          ~polish~
          ~ascension/tra/polish/setup.tra~
 
-LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~ 
+LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~
          ~russian~
          ~ascension/tra/russian/setup.tra~
 
-LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~ 
+LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~
          ~czech~
          ~ascension/tra/czech/setup.tra~
 
-LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~ 
+LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
          ~italian~
          ~ascension/tra/italian/setup.tra~
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// The Ascension (Cuv/Turumbar/Miloch version) //
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+// The Ascension (WhiteAgnus / JediMindTrix version) //
+///////////////////////////////////////////////////////
 
-BEGIN @1 DESIGNATED 0
+BEGIN @1000 DESIGNATED 0
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ "You must install the BG2 Fixpack before installing Ascension"
 
@@ -83,6 +87,19 @@ INCLUDE ~ascension/lib/epilogue_update.tph~
 INCLUDE ~ascension/lib/ascension.tpa~
 
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_main.flag~ //Creates install "flag"
+
+////////////////////////////////////////////////
+// Restored Bhaalspawn Powers by David Gaider //	
+////////////////////////////////////////////////
+
+BEGIN @4000 DESIGNATED 103
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
+COPY_EXISTING ~sw1h01.itm~ ~override/asc_rest_powers.flag~ //Creates install "flag"
+
+INCLUDE ~ascension/lib/bhaalspawnpower.tpa~
+
+ADD_JOURNAL @2000 @2001 @2002 @2003 @2004 @2005 @2006 @2007
+
 
 ///////////////////////////////////////////////////////////////////////
 // Tougher Abazigal
@@ -154,59 +171,13 @@ END
 
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_yagashura.flag~ //Creates install "flag"
 
-/////////////////////////////////
-// Ascension Portraits - Bodhi //	
-/////////////////////////////////
+///////////////////////////////////////////////////
+// Extended Epilogues for Bioware NPCs by shawne //
+///////////////////////////////////////////////////
 
-BEGIN ~Ascension Portraits - Bodhi~ DESIGNATED 101
-REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-REQUIRE_FILE ~override/asc_main.flag~ ~Cannot install without Ascension core!~
-
-COPY ~ascension/ascports/altbodhi~ ~override~
-
-COPY_EXISTING ~FINBODH.CRE~ ~override~
- WRITE_ASCII 0x34 ~ABODHIS~ //Portrait Swap
- WRITE_ASCII 0x3c ~ABODHIL~ //Portrait Swap
-BUT_ONLY
-
-COPY_EXISTING ~sw1h01.itm~ ~override/asc_altbodhi.flag~ //Creates install "flag"
-
-//////////////////////////////////////////////////////
-// Ascension Portraits - Alternate Balthazar by Cuv //	
-//////////////////////////////////////////////////////
-
-BEGIN ~Ascension Portraits - Original Balthazar by Cuv~ DESIGNATED 102
-REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-REQUIRE_FILE ~override/asc_main.flag~ ~Cannot install without Ascension core!~
-
-COPY ~ascension/ascports/cuvbalth~ ~override~
-
-COPY_EXISTING ~balth.cre~ ~override~   ~balth2.cre~ ~override~   ~finbalth.cre~ ~override~
- WRITE_ASCII 0x34 ~CBALTHAS~ //Portrait Swap
- WRITE_ASCII 0x3c ~CBALTHAL~ //Portrait Swap
-BUT_ONLY
-
-COPY_EXISTING ~sw1h01.itm~ ~override/asc_altbalth.flag~ //Creates install "flag"
-
-////////////////////////////////////////////////
-// Restored Bhaalspawn Powers by David Gaider //	
-////////////////////////////////////////////////
-
-BEGIN ~Restored Bhaalspawn Powers by David Gaider~ DESIGNATED 103
-REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-COPY_EXISTING ~sw1h01.itm~ ~override/asc_rest_powers.flag~ //Creates install "flag"
-
-INCLUDE ~ascension/lib/bhaalspawnpower.tpa~
-
-ADD_JOURNAL @2000 @2001 @2002 @2003 @2004 @2005 @2006 @2007
-
-//////////////////////////////////
-// Extended Epilogues by shawne //
-//////////////////////////////////
-
-BEGIN ~Extended Epilogues for Bioware NPCs by shawne~ DESIGNATED 104
-REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) ~This component is currently only available in english language~
+BEGIN @5100 DESIGNATED 104
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
+REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) @5110
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnes.flag~ //Creates install "flag"
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
@@ -215,17 +186,17 @@ LOAD_TRA ~ascension/tra/american/shawnesepilogues.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepilogues.tbl~ END
 
-ACTION_IF FILE_EXISTS ~override/asc_main.flag~ BEGIN // additional epilogues that require Ascension
+ACTION_IF FILE_EXISTS ~override/asc_main.flag~ BEGIN // additional epilogues require Ascension
   LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepilogues_asconly.tbl~ END
 END
 
-/////////////////////////////////////
-// Extended EE Epilogues by shawne //
-/////////////////////////////////////
+///////////////////////////////////////////////////
+// Extended Epilogues for Beamdog NPCs by shawne //
+///////////////////////////////////////////////////
 
-BEGIN ~Extended Epilogues for Beamdog NPCs by shawne~ DESIGNATED 105
-REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This component is for BG2:EE or EET only~
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) ~This component is currently only available in english language~
+BEGIN @5200 DESIGNATED 105
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @5220
+REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) @5210
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnesEE.flag~ //Creates install "flag"
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
@@ -242,12 +213,46 @@ LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepiloguesEE.tbl~ E
 // Ascension - Epilogues Only //
 ////////////////////////////////
 
-BEGIN ~Install Only Ascension's Epilogues~ DESIGNATED 106
-REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-FORBID_FILE ~override/asc_main.flag~ ~These epilogues are included in the full Ascension!~
+BEGIN @6000 DESIGNATED 106
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
+FORBID_FILE ~override/asc_main.flag~ @6010
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/epilogues.tbl~ END
 
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_epi_only.flag~ //Creates install "flag"
+
+/////////////////////////////////
+// Ascension Portraits - Bodhi //	
+/////////////////////////////////
+
+BEGIN @3010 DESIGNATED 101
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
+REQUIRE_FILE ~override/asc_main.flag~ @1002
+
+COPY ~ascension/ascports/altbodhi~ ~override~
+
+COPY_EXISTING ~FINBODH.CRE~ ~override~
+ WRITE_ASCII 0x34 ~ABODHIS~ //Portrait Swap
+ WRITE_ASCII 0x3c ~ABODHIL~ //Portrait Swap
+BUT_ONLY
+
+COPY_EXISTING ~sw1h01.itm~ ~override/asc_altbodhi.flag~ //Creates install "flag"
+
+/////////////////////////////////////////////////////////////////
+// Ascension Portraits - Balthazar by Cuv ( Alternate Design ) //	
+/////////////////////////////////////////////////////////////////
+
+BEGIN @3020 DESIGNATED 102
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
+REQUIRE_FILE ~override/asc_main.flag~ @1002
+
+COPY ~ascension/ascports/cuvbalth~ ~override~
+
+COPY_EXISTING ~balth.cre~ ~override~   ~balth2.cre~ ~override~   ~finbalth.cre~ ~override~
+ WRITE_ASCII 0x34 ~CBALTHAS~ //Portrait Swap
+ WRITE_ASCII 0x3c ~CBALTHAL~ //Portrait Swap
+BUT_ONLY
+
+COPY_EXISTING ~sw1h01.itm~ ~override/asc_altbalth.flag~ //Creates install "flag"
