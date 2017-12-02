@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-02 22:32+0000\n"
+"PO-Revision-Date: 2017-12-02 22:38+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.17\n"
 
 #: ascension.tra:500
@@ -24,7 +25,7 @@ msgstr "Przemiana w Nietoperza"
 
 #: ascension.tra:1006
 msgid "Shockwave"
-msgstr "Fala Szokowa"
+msgstr "Fala Uderzeniowa"
 
 #: ascension.tra:1007
 msgid "Lightning Aura"

@@ -1,7 +1,7 @@
 @1060 = ~我希望自己可以因這個計劃而留名﹐<CHARNAME>﹐不過說﹐看起來我不是唯一有這個願望的人。~
 @1072 = ~你不是第一個想殺我的人﹐也不會是最後一個﹗~
 @1074 = ~我承認﹐你在各方面做的都很不錯﹐尤其是在抵制內心邪惡天賦的方面......很值得讚賞。~
-@1075 = ~I sense no innate goodness within you, <CHARNAME>...though your deeds are hailed far and wide as above reproach.  It is... interesting that one like you who must struggle so much with our father's taint inside <PRO_HIMHER> has done so much to fight true evil.~
+@1075 = ~我感覺到......你並沒有內在的美德﹐你的聲望也證明瞭這一點﹐我只是看到一個同自己天賦作鬥爭的靈魂......就像我一樣。~
 @1076 = ~你的內心......還有善良的一面﹐但是你做的很多事都是邪惡的﹐我能感覺到你的靈魂在跟自己的天賦抗衡﹐但的確......很難找到一條正確的道路。~
 @1077 = ~我感覺到......你並沒有內在的美德﹐你的聲望也證明瞭這一點﹐我只是看到一個同自己天賦作鬥爭的靈魂......就像我一樣。~
 @1078 = ~事實上﹐我就是最合適的法官﹐<CHARNAME>。我也容納著我們父親的邪惡天賦﹔我也同樣感受著對血的飢渴﹔混亂同樣的充斥著我的生命。我非常了解它﹐而且我已經掌握了它。~
@@ -38,7 +38,7 @@
 @1109 = ~加入我﹐巴爾撒扎﹐讓我們一起對付梅麗珊﹐而不是做她想讓我們做的。~
 @1110 = ~我不知道﹐巴爾撒扎﹐但我不想和你打。~
 @1111 = ~讓我們決出一個勝負吧﹐如果必要的話﹐這至少會讓你感到平靜一些。~
-@1112 = ~You're a weaker fool then I thought.  Let's just end this now, shall we?  I have an appointment with god-hood.~
+@1112 = ~You're a weaker fool then I thought. Let's just end this now, shall we?  I have an appointment with god-hood.~
 @1113 = ~嗯...你是對的。~
 @1114 = ~很好﹐<CHARNAME>﹐我會加入你﹐你是個值得信賴的人﹐也許把巴爾的邪惡天賦用在正確的地方比消滅它更好﹐也許吧﹐但我至少會試一試。~
 @1115 = ~讓梅麗珊顫抖吧﹐我們會讓她得到應得的下場﹐就算巴爾復活了﹐他也對付不了咱們兩人。我還有些準備工作要做﹐<CHARNAME>﹐我會在巴爾王座那裡跟你碰面。~
@@ -72,7 +72,7 @@
 @1144 = ~我是你的<PRO_BROTHERSISTER>﹐巴爾撒扎﹐我們應該並肩作戰﹗而不是互相殘殺﹗~
 @1145 = ~算了吧﹐跟你談話真沒意思﹐趕快把這事解決了吧。~
 @1146 = ~你的話很深刻﹐我甚至能感覺到我的宿命因你而改變﹐你是預言的中心......我從前怎麼沒意識到呢﹖~
-@1147 = ~But the simple truth is your words ring hollow to me.  I do not believe them.  You have fought against destiny, yet I see it in you even the more as you speak.~
+@1147 = ~But the simple truth is your words ring hollow to me. I do not believe them. You have fought against destiny, yet I see it in you even the more as you speak.~
 @1148 = ~也許......也許你的話有些道理﹐當我沿著信念的道路走下去時﹐感受到的只有空虛﹐但我很難相信之前所做的一切......竟然毫無意義。~
 @1149 = ~你怎麼知道這些的﹖~
 @1150 = ~是一個神使告訴我的﹐預言的代理人﹗她......我知道這聽起來難以置信﹐但卻是真的﹗~
@@ -92,7 +92,7 @@
 @1164 = ~你沒有資格評價我﹖真可笑﹗你所謂的“必然”只是屠殺的一個借口﹗你真是給我們的父親增光啊﹗~
 @1165 = ~那我的路是什麼呢﹖巴爾撒扎﹖你說你沒法評價我﹐那你為什麼認定自己就是唯一一個能對抗邪惡的人呢﹖你真的那麼了解自己的宿命麼﹖那你能知道未來要發生的事麼﹖真要知道的話﹐你有什麼可怕的呢﹖~
 @1166 = ~趕快結束吧﹐我有點累了。~
-@1167 = ~It... it is true.  I paid little attention to my men's actions, but I... I knew what they were doing.  I thought it a great sacridice, necessary to maintain secrecy, to attain my ultimate goal that they, in their ignorance, did not know would benefit them more in the end.  But... it is how we treat the most helpless of our brethren in the worst of times that marks the goodness of a man, does it not?  I... I am ashamed, <CHARNAME>.  I sought... only to do what was best for us all.~
+@1167 = ~It... it is true. I paid little attention to my men's actions, but I... I knew what they were doing. I thought it a great sacridice, necessary to maintain secrecy, to attain my ultimate goal that they, in their ignorance, did not know would benefit them more in the end. But... it is how we treat the most helpless of our brethren in the worst of times that marks the goodness of a man, does it not?  I... I am ashamed, <CHARNAME>. I sought... only to do what was best for us all.~
 @1168 = ~你找出了梅麗珊計劃裡的五人組﹐而且﹐我還是其中的一員﹐但有誰能說事情不會變化﹐你有什麼資格說事情有所不同﹖~
 @1169 = ~但......沒錯﹐我選擇了一個簡單的辦法﹐而且在必須的名義下傷害了很多人。我很慚愧﹐<CHARNAME>。~
 @1170 = ~我並不認為我的所作所為值得讚揚﹐但這是我達成目標的必經之路﹐你也一樣﹐你的疏忽也對他人造成了嚴重的傷害。~
@@ -105,6 +105,6 @@
 @1177 = ~你敢說對史拉督許城的屠殺一點責任沒有麼﹐還有你在阿斯卡特拉﹐博得之門﹐燭堡殺死的人裡﹐沒有無辜的麼﹖有多少僅僅是因為打擾了你的休息而被殺的﹖~
 @1178 = ~你認為其他的巴爾之子會有所區別麼﹖想想吧﹐<CHARNAME>﹐我們只能給其他人帶來不幸﹐即使不是我們的本意﹐內在的天賦也會為他人帶來死亡﹐你會允許這樣的屠殺發生麼﹖我們正在給整個大陸帶來苦惱與不幸﹗~
 @1179 = ~你相信能夠掌控自己的命運﹖那久遠以前阿蘭多所做的預言﹐你相信它會因你的選擇而改變麼﹖~
-@1180 = ~You mistake the path for the journey, my friend.  Whatever paths you have taken since leaving Candlekeep, the journey has ended here as it was always meant to.  Destiny masters us... we do not master it.~
+@1180 = ~You mistake the path for the journey, my friend. Whatever paths you have taken since leaving Candlekeep, the journey has ended here as it was always meant to. Destiny masters us... we do not master it.~
 @1181 = ~沒錯﹐無論他們是需要克服的障礙﹐還是擦肩而過的路人﹐我的命運不會有任何改變﹐無論我需要做出怎樣的努力﹐我很高興你明白這點......這會使事情簡單的多。~
 @1182 = ~你有點像亞加舒拉﹐一個自私的巨人﹐他註定了要失敗。你血液中的力量可能會使你成功﹐沒錯﹐但是你擁抱天賦的行為會使得你的結局更加確定。~

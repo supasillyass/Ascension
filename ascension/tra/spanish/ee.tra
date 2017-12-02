@@ -1,24 +1,27 @@
-@3001 = ~The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power.  Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
+@3001 = ~Espada del Caos de Sarevok
+La hoja de Sarevok, el hermano de <CHARNAME>, utilizada en la batalla en la que combatieron en la lejana Puerta de Baldur. <CHARNAME> se impuso, destruyendo los planes de Sarevok y librando a la Costa de la Espada de la inminente guerra. Ahora Sarevok se ha unido a la causa de <CHARNAME> y su hoja le ha sido devuelta. Sarevok ha descrito el arma como la hoja de un portador de la muerte y ha conseguido recuperar algo del viejo poder de la espada. Sin su esencia de Engendro de Bhaal para canalizarla a través de la espada, de todas formas, no puede alcanzar el poder que una vez tuvo. Todavía, a pesar de todo, es un arma formidable... y algo que Sarevok advierte es que sería más difícil de manejar en manos de alguien que no sea un portador de la muerte, si pudiera usarla claro.
 
-STATISTICS:
+CARACTERÍSTICAS:
 
-Combat abilities:
-- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+Aptitudes: cada golpe drena de uno a cinco puntos de golpe al objetivo y los transfiere al portador. Esto no curará mas allá del máximo del portador.
 
-Equipped abilities:
-- Magic Resistance: +10%
+La hoja también concede un +10% de resistencia mágica mientras sea equipada.
 
+Daño: 1d10 +4
 THAC0: +4
-Damage: 1d10+4 (slashing)
-Speed Factor: 8
-Proficiency Type: Two-handed Sword
-Type: Two-handed
-
-Requires:
-14 Strength
-18 Constitution
-
-Weight: 10~
+Tipo de daño: cortante
+Peso: 10 lbs
+Factor de velocidad: 8
+Talento marcial: Mandoble
+Tipo: A dos manos
+Requisitos: Fuerza 14, Constitución 18
+No lo puede usar:
+ Clérigo
+ Mago
+ Paladín
+ Explorador
+ Druida
+ Alineamiento no caótico~
 @3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
 
 STATISTICS:
