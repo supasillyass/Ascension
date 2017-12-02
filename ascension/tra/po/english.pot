@@ -114,7 +114,7 @@ msgid ""
 "Area of Effect: 30 foot radius\n"
 "Saving Throw: None \n"
 "\n"
-"When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group.  Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points.  Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
+"When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group. Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points. Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
 msgstr ""
 
 #: ascension.tra:2001
@@ -130,7 +130,7 @@ msgid ""
 "Area of Effect: Target Creature\n"
 "Saving Throw: None \n"
 "\n"
-"This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate.  This regeneration will heal any wounds and even regenerate lost limbs.  The creature affected will regain 3 hit points per second.  The effect lasts for 1 round per every 2 levels of the caster or until dispelled.  For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
+"This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
 
 #: ascension.tra:2002
@@ -146,7 +146,7 @@ msgid ""
 "Area of Effect: The caster \n"
 "Saving Throw: None \n"
 "\n"
-"The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period.  When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster.  A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
+"The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgstr ""
 
 #: ascension.tra:2003
@@ -162,7 +162,7 @@ msgid ""
 "Area of Effect: 1 creature\n"
 "Saving Throw: Negates\n"
 "\n"
-"Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death.  The effects depend upon the caster's level and are detailed below:\n"
+"Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death. The effects depend upon the caster's level and are detailed below:\n"
 "7-9th level:  2d8  +  2/round, slow for 12 seconds, save at -2\n"
 "10-12th level:  3d8  + 3/round, slow for 12 seconds, save at -2\n"
 "13-14th level:  4d8  +  4/round, slow for 12 seconds, save at -2\n"
@@ -212,7 +212,7 @@ msgid ""
 "Area of Effect: Creature Touched\n"
 "Saving Throw: None\n"
 "\n"
-"Like the 5th level spell Raise Dead, Resurrection will return a character back to life.  However, Resurrection also heals the character so that they are ready for the adventuring life once more."
+"Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
 
 #: ascension.tra:2007
@@ -229,7 +229,7 @@ msgstr ""
 #: ascension.tra:3001
 msgid ""
 "Sarevok's Sword of Chaos\n"
-"The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power.  Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
+"The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
 "\n"
 "STATISTICS:\n"
 "\n"
@@ -268,153 +268,152 @@ msgstr ""
 
 #: ascension.tra:82729
 msgid ""
-"Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time.  She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves.  She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer.  Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant.  Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear.  Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home.  Her destiny was her own, and she would seek it on her own terms.\n"
-"What eventually become of Viconia is unknown.  Her greatest legend is also the most unlikely, although its persistence gives it some credit.  It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow.  Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister.  Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again.  Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever.  Viconia was never reported seen again."
+"Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.\n"
+"What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever. Viconia was never reported seen again."
 msgstr ""
 
 #: ascension.tra:82732
 msgid ""
 "Viconia and <CHARNAME> continued their adventuring careers for several "
 "years, gaining considerable fame after being drawn into central roles in two"
-" wars that rocked the Sword Coast.  <CHARNAME>'s standing in the Realms grew"
-" considerably over time, his dark maiden always at his side.  Eventually, "
+" wars that rocked the Sword Coast. <CHARNAME>'s standing in the Realms grew "
+"considerably over time, his dark maiden always at his side. Eventually, "
 "Viconia became pregnant with <CHARNAME>'s child, an event that caused much "
 "argument and strife between the couple, resulting briefly in their "
-"seperation.  The birth of <CHARNAME>'s son, however, would change Viconia "
-"forever.  She would return to <CHARNAME> and convince him to settle finally "
+"seperation. The birth of <CHARNAME>'s son, however, would change Viconia "
+"forever. She would return to <CHARNAME> and convince him to settle finally "
 "in Baldur's Gate, dedicating herself utterly to raising their son and "
 "teaching him the ways of the drow as well as the ways of <CHARNAME>'s people"
-" and marvelling at the power the boy already was demonstrating.  Though she "
+" and marvelling at the power the boy already was demonstrating. Though she "
 "delighted at the understanding in her son's eyes, she would not live to see "
-"him grow.  Viconia was a powerful priestess and all but immune to common "
+"him grow. Viconia was a powerful priestess and all but immune to common "
 "poisons, but the venom of the Spider Queen's vengeance was not easily "
-"resisted and her reach is far.  Poisoned by a servant of the goddess Lolth, "
+"resisted and her reach is far. Poisoned by a servant of the goddess Lolth, "
 "<CHARNAME> railed in rage as even the most powerful magics proved "
-"ineffective in curing his ailing wife.  Viconia's last words were whispered "
+"ineffective in curing his ailing wife. Viconia's last words were whispered "
 "to <CHARNAME>, in private, before she finally succumbed and are unknown... "
 "but the tale is well-told of how <CHARNAME> held the body of his dark maiden"
 " close to him and wept, while the entire city wept with him, suffering a "
-"loss of something precious that they never even truly knew they had.  The "
+"loss of something precious that they never even truly knew they had. The "
 "furious <CHARNAME> left Baldur's Gate and raised his son in secret far away."
-"  Tales vary of him, some saying he began a crusade against the drow in the "
+" Tales vary of him, some saying he began a crusade against the drow in the "
 "Underdark, some claiming he became a hero in the far-off northlands... and "
 "some even saying with surety that <CHARNAME> had waged war against Lolth "
 "herself in the abyssal Demonweb Pits... but all agreeing that the former son"
-" of Bhaal had been changed forever by his love for the dark maiden.  As for "
+" of Bhaal had been changed forever by his love for the dark maiden. As for "
 "the son, tutored by two of the most potent beings in the Realms?  He would "
-"go on to forge a legend that would rival that of his father.  That, however,"
-" is a different story...   "
+"go on to forge a legend that would rival that of his father. That, however, "
+"is a different story...  "
 msgstr ""
 
 #: ascension.tra:82728
 msgid ""
 "Viconia traveled only for a short time after parting ways with <CHARNAME>, "
 "eventually starting a cult dedicated to Shar within the massive city of "
-"Waterdeep.  One of her followers would eventually turn against her, "
-"precipitating a furious Viconia to slaughter the entire cult, herself.  Shar"
-" did not forgive Viconia this trespass and removed her abilities.  Viconia "
+"Waterdeep. One of her followers would eventually turn against her, "
+"precipitating a furious Viconia to slaughter the entire cult, herself. Shar "
+"did not forgive Viconia this trespass and removed her abilities. Viconia "
 "stubbornly refused to atone, however, and instead left Waterdeep to wander "
-"the Realms.  The dark elf became known as an enigmatic and powerful figure "
-"as tales of her spread... and while it was known she no longer worshipped "
-"Shar, it was also known that her clerical powers were still great.  Who the "
-"dark lady now worshipped, however, was her own secret to keep.  She "
+"the Realms. The dark elf became known as an enigmatic and powerful figure as"
+" tales of her spread... and while it was known she no longer worshipped "
+"Shar, it was also known that her clerical powers were still great. Who the "
+"dark lady now worshipped, however, was her own secret to keep. She "
 "reportedly raised an army against the Vaasan Witch-King, viciously "
 "attempting to subvert rule over his Kingdom and only barely being defeated "
-"after several military failures.  Viconia prevented an attempt by the "
-"Knights of the Shield to take over Calimport... only to take over the city "
-"herself days later and institute a reign of terror and cruelty which is "
-"spoken of even years later in shuddered tones.  Viconia abandoned Calimport "
-"and, it is said, returned to the Underdark from whence she came.  Hers was "
-"not a gentle return, however, as Viconia would become a conquering force "
-"amongst the drow to give even Lolth pause.  Her mettle had been tested by "
-"both worlds, Viconia said, and proven herself worthy.  She would make the "
-"drow strong whereas now they were weak.  What eventually became of Viconia "
-"is unknown and shrouded in rumor... but it is said that even the great "
-"Spider Queen does not rest easily any more."
+"after several military failures. Viconia prevented an attempt by the Knights"
+" of the Shield to take over Calimport... only to take over the city herself "
+"days later and institute a reign of terror and cruelty which is spoken of "
+"even years later in shuddered tones. Viconia abandoned Calimport and, it is "
+"said, returned to the Underdark from whence she came. Hers was not a gentle "
+"return, however, as Viconia would become a conquering force amongst the drow"
+" to give even Lolth pause. Her mettle had been tested by both worlds, "
+"Viconia said, and proven herself worthy. She would make the drow strong "
+"whereas now they were weak. What eventually became of Viconia is unknown and"
+" shrouded in rumor... but it is said that even the great Spider Queen does "
+"not rest easily any more."
 msgstr ""
 
 #: ascension.tra:82727
 msgid ""
 "After parting ways with <CHARNAME>, Valygar continued his adventures for "
 "several years, traveling in the wilds of northern FaerÃ»n and becoming a "
-"common sight in the area of Waterdeep.  Later he was content to finally "
+"common sight in the area of Waterdeep. Later he was content to finally "
 "return to Athkatla and retire to the quiet, contemplative life at his "
-"family's estate that he had always desired.  Pressure from admirers within "
+"family's estate that he had always desired. Pressure from admirers within "
 "the local nobility saw him taking up the mantle of Chief Inspector, a "
 "responsibility he never desired but took on willingly to combat the growing "
-"corruption within the city.  For many years, Valygar's was the name spat by "
-"every criminal or slaver who dared to place a foot within the city.  Valygar"
-" was dauntless, turning the city garrison into a force even the most self-"
-"confident thief had to respect.  Valygar and the Shadow Thieves sparred many"
-" times, eventually reaching a point of mutual respect... though most "
-"considered the ranger the victor even then.  Surprising even himself, "
-"Valygar eventually restored the good name of the Corthalas in Athkatla and "
-"even married.  His only son, the pride of his life, took the lessons of his "
-"father to heart. Valygar would watch him go on to become the head of the "
-"Cowled Wizards and its greatest agent of reform, and for once in his life "
-"Valygar would know pride.  Remembering the man that he had once been, "
-"fleeing his history into the deepest woods of Amn, the ranger would be "
-"thankful that <CHARNAME> had entered his life and forever wish his old "
-"friend well."
+"corruption within the city. For many years, Valygar's was the name spat by "
+"every criminal or slaver who dared to place a foot within the city. Valygar "
+"was dauntless, turning the city garrison into a force even the most self-"
+"confident thief had to respect. Valygar and the Shadow Thieves sparred many "
+"times, eventually reaching a point of mutual respect... though most "
+"considered the ranger the victor even then. Surprising even himself, Valygar"
+" eventually restored the good name of the Corthalas in Athkatla and even "
+"married. His only son, the pride of his life, took the lessons of his father"
+" to heart. Valygar would watch him go on to become the head of the Cowled "
+"Wizards and its greatest agent of reform, and for once in his life Valygar "
+"would know pride. Remembering the man that he had once been, fleeing his "
+"history into the deepest woods of Amn, the ranger would be thankful that "
+"<CHARNAME> had entered his life and forever wish his old friend well."
 msgstr ""
 
 #: ascension.tra:82726
 msgid ""
-"Upon parting ways with <CHARNAME>, the reborn Sarevok proved as good as his word.  He returned to the lands he once knew, far more powerful now than he was even before.  Old enemies were startled by his visits, but never for long, and it was not even months later that Sarevok would start a reign of terror in Baldur's Gate that would place him completely in charge of the city.  Resistance was crushed as Sarevok began raising an army for conquest in his own name.  If he could not have the divine power of his father, he would have enough earthly power to satiate his appetite.  Sarevok partook of women as he pleased as his name became a bitter epithet on the tongue of every citizen of the Sword Coast.\n"
-"The first victims of his terrible army fell easily, and Sarevok's power grew.  The warrior was maddened, however, to find that the victories gave him no thrill.  The power tasted as ashes, though Sarevok tried many times to drive himself into a frenzy of delight at his achievements.  In the end, his throne grew heavy, and it was with dread acceptance that he greeted the arrival of the inevitable heroes to displace him not a year after his return.\n"
-"Sarevok fled into the night, abandoning Baldur's Gate and his dreams of power both.  He became a man haunted by his second chance, hunted by a former life that never was and a possible life that never could be.  Without a destiny and or a true soul of his own, he wandered the Realms... sometimes he brought terror and sometimes he brought nothing but his tired heart, and before long he was gone forever.  Some say that he found his purpose in the great desert, forging a kingdom to last an age.  Some say he traveled to the planes, launching a campaign against the great Mount Celestia.  The truth is unknown, though the tales still persist."
+"Upon parting ways with <CHARNAME>, the reborn Sarevok proved as good as his word. He returned to the lands he once knew, far more powerful now than he was even before. Old enemies were startled by his visits, but never for long, and it was not even months later that Sarevok would start a reign of terror in Baldur's Gate that would place him completely in charge of the city. Resistance was crushed as Sarevok began raising an army for conquest in his own name. If he could not have the divine power of his father, he would have enough earthly power to satiate his appetite. Sarevok partook of women as he pleased as his name became a bitter epithet on the tongue of every citizen of the Sword Coast.\n"
+"The first victims of his terrible army fell easily, and Sarevok's power grew. The warrior was maddened, however, to find that the victories gave him no thrill. The power tasted as ashes, though Sarevok tried many times to drive himself into a frenzy of delight at his achievements. In the end, his throne grew heavy, and it was with dread acceptance that he greeted the arrival of the inevitable heroes to displace him not a year after his return.\n"
+"Sarevok fled into the night, abandoning Baldur's Gate and his dreams of power both. He became a man haunted by his second chance, hunted by a former life that never was and a possible life that never could be. Without a destiny and or a true soul of his own, he wandered the Realms... sometimes he brought terror and sometimes he brought nothing but his tired heart, and before long he was gone forever. Some say that he found his purpose in the great desert, forging a kingdom to last an age. Some say he traveled to the planes, launching a campaign against the great Mount Celestia. The truth is unknown, though the tales still persist."
 msgstr ""
 
 #: ascension.tra:82725
 msgid ""
 "In the years following his resurrection by <CHARNAME>, Sarevok spent many "
 "years wandering throughout the Forgotten Realms, rarely spending much time "
-"in any single place.  In Berdusk he is said to have routed an army of "
+"in any single place. In Berdusk he is said to have routed an army of "
 "invading orcs, displaying such fearsome power and rage that terrified locals"
 " weren't sure whom to fear more... only to disappear quietly without "
-"expecting a reward.  In Westgate he arrived as conqueror, brutally enforcing"
-" his will over the city only to mysteriously vanish months later, leaving "
-"his own startled men to the mercies of the angry mobs.  He acted like a man "
-"that did not know himself, and all the stories agreed that Sarevok was a "
-"tortured soul, balanced between life and death, never to achieve either.  "
+"expecting a reward. In Westgate he arrived as conqueror, brutally enforcing "
+"his will over the city only to mysteriously vanish months later, leaving his"
+" own startled men to the mercies of the angry mobs. He acted like a man that"
+" did not know himself, and all the stories agreed that Sarevok was a "
+"tortured soul, balanced between life and death, never to achieve either. "
 "Those who knew Sarevok best, which were few, said that the tormented warrior"
 " would in turn curse the fabled <CHARNAME> for giving him his second "
-"chance... and then thank <PRO_HIMHER>.  Eventually he disappeared entirely "
+"chance... and then thank <PRO_HIMHER>. Eventually he disappeared entirely "
 "from the Realms, said to have assaulted the Abyss itself or even taken his "
-"own life.  In truth, he journeyed to Kara-Tur to bury his one true love, the"
-" warrior Tamoko.   He never returned, though the stories endure."
+"own life. In truth, he journeyed to Kara-Tur to bury his one true love, the "
+"warrior Tamoko.  He never returned, though the stories endure."
 msgstr ""
 
 #: ascension.tra:82724
 msgid ""
-"Nalia grew quite powerful after her association with <CHARNAME>.  Initially she traveled, slaking her thirst for magical lore by associating with some of the greatest wizards across the Realms.  She sought to use her great power to bring justice to the land, but over time found that if her time with <CHARNAME> had taught her anything, it is that such power must be tempered with wisdom or it is useless.  She could strike out at evil as she wished... it did not always help the needy, as she thought it would, and after a year of travel she remembered that there was a far better way that she could be of service to her people.\n"
-"Nalia returned to Amn and her family home of de'Arnise Hold.  She found it in the control of none other than Isaea Roenal, but she was no longer the wayward child that he expected, and single-handedly brought him to justice for his indiscretions.  She declared herself the inheritor of her father's ducal title, and for once there was no argument from the local nobility.  They snubbed her and her magic, and initially rejoiced when the Cowled Wizards sought to remove her from power.  Nalia demonstrated to them all that she was no-one to trifle with, however, and the Cowled Wizards learned to fear her name.  Over time Nalia became a beloved ruler, respected archmage, and eventually earned a seat on the Amnish Council of Six itself.  The nobility grew to rely on Nalia's leadership, and she would become a prominent figure in Amn for many years, constantly fighting for the good of the common folk and making many frustrated enemies among the nobility and Cowled Wizards both.  Nalia would die many years later, surrounded by a loving family... her last words would be to thank <CHARNAME> for so long ago showing her the true path she needed to walk."
+"Nalia grew quite powerful after her association with <CHARNAME>. Initially she traveled, slaking her thirst for magical lore by associating with some of the greatest wizards across the Realms. She sought to use her great power to bring justice to the land, but over time found that if her time with <CHARNAME> had taught her anything, it is that such power must be tempered with wisdom or it is useless. She could strike out at evil as she wished... it did not always help the needy, as she thought it would, and after a year of travel she remembered that there was a far better way that she could be of service to her people.\n"
+"Nalia returned to Amn and her family home of de'Arnise Hold. She found it in the control of none other than Isaea Roenal, but she was no longer the wayward child that he expected, and single-handedly brought him to justice for his indiscretions. She declared herself the inheritor of her father's ducal title, and for once there was no argument from the local nobility. They snubbed her and her magic, and initially rejoiced when the Cowled Wizards sought to remove her from power. Nalia demonstrated to them all that she was no-one to trifle with, however, and the Cowled Wizards learned to fear her name. Over time Nalia became a beloved ruler, respected archmage, and eventually earned a seat on the Amnish Council of Six itself. The nobility grew to rely on Nalia's leadership, and she would become a prominent figure in Amn for many years, constantly fighting for the good of the common folk and making many frustrated enemies among the nobility and Cowled Wizards both. Nalia would die many years later, surrounded by a loving family... her last words would be to thank <CHARNAME> for so long ago showing her the true path she needed to walk."
 msgstr ""
 
 #: ascension.tra:82723
 msgid ""
 "The perils that Mazzy Fentan faced at the side of <CHARNAME> did nothing to "
-"dissuade her thirst for adventure.  In fact, it was not long after the "
-"events in Tethyr that she formed the Fentan Knights, a stalwart band of "
-"heroes that spawned tales across the Realms.  Always Mazzy invoked the name "
-"of <CHARNAME> when urging her comrades to valour, or when they battled doubt"
-" and temptation.  <CHARNAME> was the greatest <PRO_MANWOMAN> that Mazzy had "
+"dissuade her thirst for adventure. In fact, it was not long after the events"
+" in Tethyr that she formed the Fentan Knights, a stalwart band of heroes "
+"that spawned tales across the Realms. Always Mazzy invoked the name of "
+"<CHARNAME> when urging her comrades to valour, or when they battled doubt "
+"and temptation. <CHARNAME> was the greatest <PRO_MANWOMAN> that Mazzy had "
 "ever known, and the halfling knight felt it was her duty to try to live up "
-"to her old friend's legacy.  The Fentan Knights battled trolls to save "
+"to her old friend's legacy. The Fentan Knights battled trolls to save "
 "endangered towns, turned back tides of orcs to preserve ancient forests, and"
 " faced a rogue dragon in its own lair just to make the world a better place."
-"  Their legend was larger than life, especially so for Mazzy, and it was "
-"said on occasion that if valor were inches, she'd be twenty feet tall.  It "
-"was well known that Mazzy's crowning achievement was the day she was "
-"annointed an honorary paladin in the great hall of the Radiant Heart.  The "
-"first halfling ever to do so, indeed the first non-human, Mazzy's quiet "
-"tears of pride flowed freely down her face as the aged Prelate laid the "
-"Order's greatest honors across her shoulders.  It was said that Mazzy "
-"scanned the crowd often during the ceremony, and for all the old friends "
-"that had been able to attend, the face she looked for most was <CHARNAME>'s."
-"  For all her risks, Mazzy eventually passed peacefully at a ripe old age.  "
-"She had never settled down and had no children, but her legacy was one that "
-"would go on to inspire her people for generations to come."
+" Their legend was larger than life, especially so for Mazzy, and it was said"
+" on occasion that if valor were inches, she'd be twenty feet tall. It was "
+"well known that Mazzy's crowning achievement was the day she was annointed "
+"an honorary paladin in the great hall of the Radiant Heart. The first "
+"halfling ever to do so, indeed the first non-human, Mazzy's quiet tears of "
+"pride flowed freely down her face as the aged Prelate laid the Order's "
+"greatest honors across her shoulders. It was said that Mazzy scanned the "
+"crowd often during the ceremony, and for all the old friends that had been "
+"able to attend, the face she looked for most was <CHARNAME>'s. For all her "
+"risks, Mazzy eventually passed peacefully at a ripe old age. She had never "
+"settled down and had no children, but her legacy was one that would go on to"
+" inspire her people for generations to come."
 msgstr ""
 
 #: ascension.tra:82722
@@ -423,162 +422,160 @@ msgid ""
 "be called peaceful, by any means, but her relationship with <CHARNAME> "
 "weathered it all. Theirs was an unshakable union, and while duty or "
 "adventure might separate them for even years a time, they always returned to"
-" one another.  Her friends would marvel at how secure in this Jaheira seemed"
-" to be, especially considering her initial reluctance, but she would chuckle"
-" when thinking back on those first cautious days. After all, she and "
+" one another. Her friends would marvel at how secure in this Jaheira seemed "
+"to be, especially considering her initial reluctance, but she would chuckle "
+"when thinking back on those first cautious days. After all, she and "
 "<CHARNAME> had literally been to the hells and back, and when the gods "
 "themselves couldn't separate the two, what were simple months and miles "
 "going to do?  Jaheira raised high in the ranks of the Harpers, always the "
-"voice of wisdom and sense in the organization.  She became renown as a great"
-" heroine and mediator, although no-one was surprised when she would leave "
-"for great spans of time to travel with <CHARNAME> to some distant corner of "
-"the Realms.  The pair were sighted in Neverwinter, Rashemon, the great "
-"southern steppes and even the jungles of Chult.  Eventually Jaheira left the"
-" Harpers over a dispute, relieved to be done with them and dedicating "
-"herself to the raising of <CHARNAME>'s new son.  <CHARNAME> visited often, "
-"reveling in the joy of fatherhood... but always his wanderlust would take "
-"him on the road again.  Jaheira was not always with <CHARNAME> and not "
-"always share in his victories and achievements, but would never be truly "
-"apart from him.  And <CHARNAME>'s son?  Tutored by two of the most potent "
-"being in the Realms, he would grow to forge a destiny of his own to rival "
-"his father's.  That, however, is another tale..."
+"voice of wisdom and sense in the organization. She became renown as a great "
+"heroine and mediator, although no-one was surprised when she would leave for"
+" great spans of time to travel with <CHARNAME> to some distant corner of the"
+" Realms. The pair were sighted in Neverwinter, Rashemon, the great southern "
+"steppes and even the jungles of Chult. Eventually Jaheira left the Harpers "
+"over a dispute, relieved to be done with them and dedicating herself to the "
+"raising of <CHARNAME>'s new son. <CHARNAME> visited often, reveling in the "
+"joy of fatherhood... but always his wanderlust would take him on the road "
+"again. Jaheira was not always with <CHARNAME> and not always share in his "
+"victories and achievements, but would never be truly apart from him. And "
+"<CHARNAME>'s son?  Tutored by two of the most potent being in the Realms, he"
+" would grow to forge a destiny of his own to rival his father's. That, "
+"however, is another tale..."
 msgstr ""
 
 #: ascension.tra:82721
 msgid ""
-"The events of the Bhaalspawn saga affected Jaheira deeply.  It was her duty to protect the greater balance of things, but in the years to come she found an increased portion of that fight occurring within her own mind. Witness to great change while in <CHARNAME>'s company, she had become acutely aware of how fleeting life was, and how the loss of those she held dear ate away at her thoughts.  In time she would be known as a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not.  Jaheira operated quietly, appearing when needed and moving on when not.  Many called out to her for leadership, but always Jaheira would deny that she was capable of such and say that there was somewhere else that needed her aid more.  She remained distant and guarded, never staying long in any one place.  It is said that she crossed the Forgotten Realms thrice over, always wandering and always searching... until finally she began to wonder what it was, in truth, that she was searching for.\n"
-"What happened to Jaheira later in life is not well-known.  Some say that Elminster eventually came to her and convinced her to take her place amongst the greatest commanders of the mysterious Harpers.  Some say that she fell in battle against a great lich that threatened to defile the northern forests.  Some also say that she went in search of <CHARNAME>, traveling to lands far beyond our own.  Whatever happened to her, Jaheira never did return to either the Sword Coast or Tethyr ever again."
+"The events of the Bhaalspawn saga affected Jaheira deeply. It was her duty to protect the greater balance of things, but in the years to come she found an increased portion of that fight occurring within her own mind. Witness to great change while in <CHARNAME>'s company, she had become acutely aware of how fleeting life was, and how the loss of those she held dear ate away at her thoughts. In time she would be known as a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not. Jaheira operated quietly, appearing when needed and moving on when not. Many called out to her for leadership, but always Jaheira would deny that she was capable of such and say that there was somewhere else that needed her aid more. She remained distant and guarded, never staying long in any one place. It is said that she crossed the Forgotten Realms thrice over, always wandering and always searching... until finally she began to wonder what it was, in truth, that she was searching for.\n"
+"What happened to Jaheira later in life is not well-known. Some say that Elminster eventually came to her and convinced her to take her place amongst the greatest commanders of the mysterious Harpers. Some say that she fell in battle against a great lich that threatened to defile the northern forests. Some also say that she went in search of <CHARNAME>, traveling to lands far beyond our own. Whatever happened to her, Jaheira never did return to either the Sword Coast or Tethyr ever again."
 msgstr ""
 
 #: ascension.tra:82731
 msgid ""
-"And what of Imoen, the eternal child?  She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken.  She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>.  She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes.  Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps.  Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
-"Many are the tales of the archmage that Imoen became.  She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed.  Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend.  She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months.  The exact truth of the tale is unknown... though it's certainly not  unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented.  Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\".  At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme.  It seems that some people, thankfully, will never change."
+"And what of Imoen, the eternal child?  She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
+"Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months. The exact truth of the tale is unknown... though it's certainly not  unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
 msgstr ""
 
 #: ascension.tra:82720
 msgid ""
 "Haer'Dalis found traveling with <CHARNAME> a fine introduction to the "
-"Realms, and once they parted company he was eager to see more.  He visited "
+"Realms, and once they parted company he was eager to see more. He visited "
 "such varied locales as Waterdeep, Neverwinter, and Thay, spreading the tales"
 " of his deeds with <CHARNAME>...and somehow always managing to find himself "
-"in the midst of as many adventures as he once had.  Eventually Haer'Dalis "
+"in the midst of as many adventures as he once had. Eventually Haer'Dalis "
 "would find himself immersed in local troubles on one side or another, and "
-"that would lead to him being back on the road once again.  Which was fine by"
-" him, although the bard would admit to himself that he only rarely "
-"understood some of the peculiarities of these Primes and longed for the "
-"remembered grandeur of the planes.  In time, he would befriend a wandering "
-"female Cambion and gladly returned with her to the Abyss... only to "
-"unintentionally end up leading a revolt on several layers of the hells.  "
-"Afterward, the tiefling would be amused to hear stories that he had forced "
-"the great Graa'zt to the negotiating table, an awkward position for such a "
-"great demon lord... though Haer'Dalis would never verify the truth of the "
-"tale.  For a time afterward, Haer'Dalis was the most-hunted man among the "
-"planes... but the ire of his enemies could not match his wanderlust, and he "
-"eventually found his way back to the city of Sigil unharmed in any permanent"
-" fashion. There he rejoined his beloved Raelis and her acting troupe, "
-"pleased to finally settle down for once --- until the next misunderstanding "
-"occurred, of course."
+"that would lead to him being back on the road once again. Which was fine by "
+"him, although the bard would admit to himself that he only rarely understood"
+" some of the peculiarities of these Primes and longed for the remembered "
+"grandeur of the planes. In time, he would befriend a wandering female "
+"Cambion and gladly returned with her to the Abyss... only to unintentionally"
+" end up leading a revolt on several layers of the hells. Afterward, the "
+"tiefling would be amused to hear stories that he had forced the great "
+"Graa'zt to the negotiating table, an awkward position for such a great demon"
+" lord... though Haer'Dalis would never verify the truth of the tale. For a "
+"time afterward, Haer'Dalis was the most-hunted man among the planes... but "
+"the ire of his enemies could not match his wanderlust, and he eventually "
+"found his way back to the city of Sigil unharmed in any permanent fashion. "
+"There he rejoined his beloved Raelis and her acting troupe, pleased to "
+"finally settle down for once --- until the next misunderstanding occurred, "
+"of course."
 msgstr ""
 
 #: ascension.tra:82718
 msgid ""
 "Cernd left the adventuring life to return to his grove in Tethyr, promising "
 "to take up his responsibility and raise his son, Ahsdale, as he believed a "
-"father should.  Cernd would eventually become the Grand Druid and make a "
-"name for himself throughout the realms by not only fighting for the balance "
-"of his grove but in protecting the sanctity of life in all realms and in all"
-" peoples.  Cernd would discover in time, to his regret, that in his "
-"attention to his duty he had forgotten his promise to Ahsdale.  His son had "
-"left the grove long before and Cernd learned that Ahsdale had become an evil"
-" and twisted wizard in command of a power that threatened the Sword Coast.  "
+"father should. Cernd would eventually become the Grand Druid and make a name"
+" for himself throughout the realms by not only fighting for the balance of "
+"his grove but in protecting the sanctity of life in all realms and in all "
+"peoples. Cernd would discover in time, to his regret, that in his attention "
+"to his duty he had forgotten his promise to Ahsdale. His son had left the "
+"grove long before and Cernd learned that Ahsdale had become an evil and "
+"twisted wizard in command of a power that threatened the Sword Coast. "
 "Determined that this was his burden alone to face, Cernd solemnly abdicated "
-"as Grand Druid and sought out his son.  He engaged in many battles with the "
+"as Grand Druid and sought out his son. He engaged in many battles with the "
 "forces of his son, wielding the forces of nature with a great fierceness "
-"that would be regarded as legendary by all who saw it.  Cernd finally "
+"that would be regarded as legendary by all who saw it. Cernd finally "
 "confronted Ahsdale himself deep in the Forest of Tethyr, and made a final "
-"effort to convince him to turn away from his path.  Ahsdale refused, and "
+"effort to convince him to turn away from his path. Ahsdale refused, and "
 "Cernd fought his only son in a long and terrible battle that eventually saw "
-"both of their deaths.  With his last breath, Cernd would crawl along the "
+"both of their deaths. With his last breath, Cernd would crawl along the "
 "ground to clasp Ahsdale's dead hand, tears flowing down his face as he "
-"begged his son's forgiveness.  Cernd's spirit would enter that of a great "
-"oak within the forest, and it is believed that this immortal oak still "
-"stands, and that around it has grown a wondrous grove of great beauty that "
-"is home to the rarest of the Realm's magical creatures.  Each fall the great"
-" oak and the grove around it would turn the grimmest shade of red, a "
-"reminder that even the most flawed amongst us may eventually find their "
-"balance."
+"begged his son's forgiveness. Cernd's spirit would enter that of a great oak"
+" within the forest, and it is believed that this immortal oak still stands, "
+"and that around it has grown a wondrous grove of great beauty that is home "
+"to the rarest of the Realm's magical creatures. Each fall the great oak and "
+"the grove around it would turn the grimmest shade of red, a reminder that "
+"even the most flawed amongst us may eventually find their balance."
 msgstr ""
 
 #: ascension.tra:82717
 msgid ""
 "Anomen and <CHARNAME> continued adventuring until they were known as heroes "
-"almost everywhere they went.  Many were the grand tales of the Shining "
-"Knight and his utter devotion to his great lady.  <CHARNAME>'s past as the "
-"terrible Bhaalspawn was forgotten forever as new deeds replaced old and a "
-"legacy was created that far outstripped anything granted by godly blood.  So"
-" prolific were their careers that the proposed date of their wedding kept "
-"getting moved back, either due to impending crisis or some lucrative "
-"adventure that one or the other would insist on investigating. Finally a "
-"date approached that both <CHARNAME> and her beloved were determined to "
-"keep, and the much heralded event drew heroes and dignitaries from across "
-"FaerÃ»n. The couple had touched the lives of many, and those people arrived "
-"in droves to watch Elminster himself unite the two in one of the grandest "
-"ceremonies the city of Baldur's Gate had ever seen. Anomen and <CHARNAME> "
-"retired from public life shortly after the celebrated birth of their "
-"daughter, although if tales be true, their adventures never truly ended.  "
-"Anomen would rise high in the hierarchy of his church, and <CHARNAME> would "
-"continue to be the center of strange events throughout their lives.  So, "
-"too, would their daughter, tutored by two of the greatest heroes in the "
-"Realms, forge a legend to rival that of her mother's.  That, however, is "
-"another story completely..."
+"almost everywhere they went. Many were the grand tales of the Shining Knight"
+" and his utter devotion to his great lady. <CHARNAME>'s past as the terrible"
+" Bhaalspawn was forgotten forever as new deeds replaced old and a legacy was"
+" created that far outstripped anything granted by godly blood. So prolific "
+"were their careers that the proposed date of their wedding kept getting "
+"moved back, either due to impending crisis or some lucrative adventure that "
+"one or the other would insist on investigating. Finally a date approached "
+"that both <CHARNAME> and her beloved were determined to keep, and the much "
+"heralded event drew heroes and dignitaries from across FaerÃ»n. The couple "
+"had touched the lives of many, and those people arrived in droves to watch "
+"Elminster himself unite the two in one of the grandest ceremonies the city "
+"of Baldur's Gate had ever seen. Anomen and <CHARNAME> retired from public "
+"life shortly after the celebrated birth of their daughter, although if tales"
+" be true, their adventures never truly ended. Anomen would rise high in the "
+"hierarchy of his church, and <CHARNAME> would continue to be the center of "
+"strange events throughout their lives. So, too, would their daughter, "
+"tutored by two of the greatest heroes in the Realms, forge a legend to rival"
+" that of her mother's. That, however, is another story completely..."
 msgstr ""
 
 #: ascension.tra:82716
 msgid ""
 "Eventually parting ways with his companions, Anomen would enter the "
-"hierarchy of Helm's church, over time rising to the rank of High Watcher.  "
-"He remained restless and dissatisfied, remembering his days adventuring with"
-" <CHARNAME>...and though many friends would urge him otherwise, Anomen never"
-" felt that the church was his true home.  He remained in his position for a "
-"year until finally he could bear it no more.  He left active duty in the "
-"church and, for a time, wandered the new land of Maztica as a missionary.  "
+"hierarchy of Helm's church, over time rising to the rank of High Watcher. He"
+" remained restless and dissatisfied, remembering his days adventuring with "
+"<CHARNAME>...and though many friends would urge him otherwise, Anomen never "
+"felt that the church was his true home. He remained in his position for a "
+"year until finally he could bear it no more. He left active duty in the "
+"church and, for a time, wandered the new land of Maztica as a missionary. "
 "Anomen remained a troubled soul, still never content even though his prowess"
-" earned him great respect from the new friends he encountered.  When the "
+" earned him great respect from the new friends he encountered. When the "
 "powerful evil priest Yamash summoned a horde of demons in an effort to rid "
-"Maztica of all life, Anomen would at last find his purpose.  He alone was "
+"Maztica of all life, Anomen would at last find his purpose. He alone was "
 "responsible for organizing the tattered remnants of the Amnish soldiers and "
-"local Mazticans into a united army that stood against the dark priest.  In "
+"local Mazticans into a united army that stood against the dark priest. In "
 "the great battle that followed, Anomen was seen plainly by all to plunge "
-"into combat single-handedly against Yamash.  He did not have <CHARNAME> or "
+"into combat single-handedly against Yamash. He did not have <CHARNAME> or "
 "other companions beside him: alone he stood against the tide of evil, and "
-"for once he was not found wanting.  He was last seen from afar, shedding "
+"for once he was not found wanting. He was last seen from afar, shedding "
 "tears of joy as he engaged Yamash and shouted out to Helm while chanelling a"
-" blinding flash of power.  When it cleared, both the priest and Anomen were "
-"gone.  The battle was won and Maztica was saved.  Anomen would forever after"
-" be regarded as a hero, inspiring the creation of a protective order of "
-"knights in his name.  A new order for a new land."
+" blinding flash of power. When it cleared, both the priest and Anomen were "
+"gone. The battle was won and Maztica was saved. Anomen would forever after "
+"be regarded as a hero, inspiring the creation of a protective order of "
+"knights in his name. A new order for a new land."
 msgstr ""
 
 #: ascension.tra:82715
 msgid ""
 "Aerie and <CHARNAME> would prove inseparable, continuing their adventuring "
-"for many years into the future.  Aerie's zest for travel brought the pair "
-"over much of FaerÃ»n and even further.  Their young son was always in tow, "
-"making <CHARNAME> smile with his wide-eyed awe at the wonders of the world."
-"  Eventually the pair would settle, subsequently giving birth to a beautiful"
-" daughter that was the second joy of their lives.  Only rarely would trouble"
-" cause <CHARNAME> and Aerie to bring their great power to bear against the "
+"for many years into the future. Aerie's zest for travel brought the pair "
+"over much of FaerÃ»n and even further. Their young son was always in tow, "
+"making <CHARNAME> smile with his wide-eyed awe at the wonders of the world. "
+"Eventually the pair would settle, subsequently giving birth to a beautiful "
+"daughter that was the second joy of their lives. Only rarely would trouble "
+"cause <CHARNAME> and Aerie to bring their great power to bear against the "
 "evil of the world, though the tales of their battles would become legendary."
-"  Their later years would hold one last great trek, as Aerie still felt a "
-"sadness from her time of enslavement and the loss of her wings.  Together "
-"she and <CHARNAME> sought the Avariel of Faenya-Dail, the winged elves she "
-"was stolen from so long ago.  They discovered not only her people, but "
-"loving parents that had spent years searching for their lost child.  Aerie "
-"had finally found her family.  With no more mystery or confusion to cloud "
-"their lives, it was there, among the clouds, that Aerie and <CHARNAME> would"
-" finally be married.  Their union, it is said, was blessed by the presence "
-"of Aerdrie Faenya and Baervan Wildwanderer both.  As for the children of "
+" Their later years would hold one last great trek, as Aerie still felt a "
+"sadness from her time of enslavement and the loss of her wings. Together she"
+" and <CHARNAME> sought the Avariel of Faenya-Dail, the winged elves she was "
+"stolen from so long ago. They discovered not only her people, but loving "
+"parents that had spent years searching for their lost child. Aerie had "
+"finally found her family. With no more mystery or confusion to cloud their "
+"lives, it was there, among the clouds, that Aerie and <CHARNAME> would "
+"finally be married. Their union, it is said, was blessed by the presence of "
+"Aerdrie Faenya and Baervan Wildwanderer both. As for the children of "
 "<CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, "
 "their own destiny would be a tale to rival their father's..."
 msgstr ""
@@ -587,74 +584,74 @@ msgstr ""
 msgid ""
 "Aerie continued adventuring after years after leaving <CHARNAME>'s company, "
 "often traveling with a larger group but sometimes striking out on her own to"
-" use her considerable power to fight against slavery in the Realms.  Her "
+" use her considerable power to fight against slavery in the Realms. Her "
 "compassion grew tainted by revenge, however; revenge for what had been taken"
-" from her when she was in chains and could never be restored.  She might "
-"have lost herself to her vengeance entirely had fortune not smiled upon her."
-"  The tale goes that Aerie, filled with a righteous fury, destroyed a slaver"
-" enclave in the northern hills of Cormyr single-handedly.  She was surprised"
-" to find a group of avariel elves that had been held captive there and "
+" from her when she was in chains and could never be restored. She might have"
+" lost herself to her vengeance entirely had fortune not smiled upon her. The"
+" tale goes that Aerie, filled with a righteous fury, destroyed a slaver "
+"enclave in the northern hills of Cormyr single-handedly. She was surprised "
+"to find a group of avariel elves that had been held captive there and "
 "quickly freed them, and was in turn invited to return to her long-lost home "
-"of Faenya-Dail.  She learned much while she was there.  Most importantly, "
-"she learned she was no longer truly one of avariel, and let go forever of "
-"the wings that she had lost. Faenya-Dail was no longer her home, and it was "
-"with mixed emotions that she bid it farewell.  It is said that Aerie "
-"eventually became a high priestess in Understone, a gnomish village her "
-"mentor Quayle had sometimes spoken of.  He had been her true family, and it "
-"was among his people that she finally found happiness and the family she had"
-" always longed for.  It was also said that Aerie prayed for her old friend, "
-"<CHARNAME>, each night as the stars revealed themselves in the sky above.  "
-"She sincerely hoped her friend had been fortunate enough to find the peace "
-"that she had... for without <CHARNAME>, it would never have been possible."
+"of Faenya-Dail. She learned much while she was there. Most importantly, she "
+"learned she was no longer truly one of avariel, and let go forever of the "
+"wings that she had lost. Faenya-Dail was no longer her home, and it was with"
+" mixed emotions that she bid it farewell. It is said that Aerie eventually "
+"became a high priestess in Understone, a gnomish village her mentor Quayle "
+"had sometimes spoken of. He had been her true family, and it was among his "
+"people that she finally found happiness and the family she had always longed"
+" for. It was also said that Aerie prayed for her old friend, <CHARNAME>, "
+"each night as the stars revealed themselves in the sky above. She sincerely "
+"hoped her friend had been fortunate enough to find the peace that she had..."
+" for without <CHARNAME>, it would never have been possible."
 msgstr ""
 
 #: ascension.tra:82760
 msgid ""
 "Upon returning to Amkethran, Balthazar began to implement changes for the "
-"better.  He had learned well from his friend and sibling the meaning of the "
-"word \"Good\".  He carried his guilt with him always; a reminder never to "
-"make the same mistakes again.  The remaining criminal elements were quickly "
-"driven from his outpost, which attracted new settlers and merchants.   Over "
+"better. He had learned well from his friend and sibling the meaning of the "
+"word \"Good\". He carried his guilt with him always; a reminder never to "
+"make the same mistakes again. The remaining criminal elements were quickly "
+"driven from his outpost, which attracted new settlers and merchants.  Over "
 "the years, Amkethran grew into a thriving city and the cultural center of "
-"the entire region, renown for its peace and compassion.   Balthazar was also"
-" central in the creation of the Monastic Guard; an elite group of Paladins "
+"the entire region, renown for its peace and compassion.  Balthazar was also "
+"central in the creation of the Monastic Guard; an elite group of Paladins "
 "and Monks that were sworn to protect the common folk from tyranny in any "
-"form.  His deeds quickly earned him the respect and trust of his people.  In"
-" Balthazar's advanced years, his work finished, it was said he could be "
-"found most often gazing at the night sky and remembering <CHARNAME>.  Later,"
-" Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep......"
-" to give a final thanks for the peace he had found and to see for himself "
-"the humble beginnings of a legend."
+"form. His deeds quickly earned him the respect and trust of his people. In "
+"Balthazar's advanced years, his work finished, it was said he could be found"
+" most often gazing at the night sky and remembering <CHARNAME>. Later, "
+"Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep...... "
+"to give a final thanks for the peace he had found and to see for himself the"
+" humble beginnings of a legend."
 msgstr ""
 
 #: ascension.tra:82785
 msgid ""
-"Bodhi had tasted godlike power in the form of <CHARNAME>'s soul.  As the "
-"last vestiges of it faded with time, she began to desire more, slipping into"
-" bitter hatred as it became her obsession to reach such heights again.  "
-"People up and down the Sword Coast came to know fear as Bodhi bathed in "
-"their blood, sating her thirst for chaos and death.  Villages began to leave"
-" people bound by the road as an offering to the thing that stalked the "
-"night.  Her name became a byword for terror, with temples far and wide "
-"trying in vain to hunt her down.  Many a mighty cleric was later found "
-"drained of blood, agony etched across their pallid features.  Over time "
-"Bodhi felt the icy grip of the curse tighten its hold on her.  Desperation "
-"mixed with fear clawed at the very fibre of her being.  Desire for chaos "
-"faded and she fought to survive once more.  Ambiton, which had once prompted"
-" her to whisper dreams of power into the ear of her brother, now brought her"
-" back to the place she had long ago called home, Suldanessellar.  It was at "
-"the gates that Ellesime met her.  At the gates that Bodhi danced one last "
-"time.  Revenge burned bright in both of them, and it called out for blood.  "
-"The power of the Tree of Life drove Bodhi on, and the memory of Joneleth "
-"cried out to Ellesime.  The two embraced, and it was revenge that was "
-"destined to be the victor, even as a stake pierced the still black heart of "
-"Bodhi, one who was as damned in life as she was in death."
+"Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last"
+" vestiges of it faded with time, she began to desire more, slipping into "
+"bitter hatred as it became her obsession to reach such heights again. People"
+" up and down the Sword Coast came to know fear as Bodhi bathed in their "
+"blood, sating her thirst for chaos and death. Villages began to leave people"
+" bound by the road as an offering to the thing that stalked the night. Her "
+"name became a byword for terror, with temples far and wide trying in vain to"
+" hunt her down. Many a mighty cleric was later found drained of blood, agony"
+" etched across their pallid features. Over time Bodhi felt the icy grip of "
+"the curse tighten its hold on her. Desperation mixed with fear clawed at the"
+" very fibre of her being. Desire for chaos faded and she fought to survive "
+"once more. Ambiton, which had once prompted her to whisper dreams of power "
+"into the ear of her brother, now brought her back to the place she had long "
+"ago called home, Suldanessellar. It was at the gates that Ellesime met her. "
+"At the gates that Bodhi danced one last time. Revenge burned bright in both "
+"of them, and it called out for blood. The power of the Tree of Life drove "
+"Bodhi on, and the memory of Joneleth cried out to Ellesime. The two "
+"embraced, and it was revenge that was destined to be the victor, even as a "
+"stake pierced the still black heart of Bodhi, one who was as damned in life "
+"as she was in death."
 msgstr ""
 
 #: balth.tra:1060
 msgid ""
-"I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I "
-"was not the only member of the Five who plotted the downfall of the others."
+"I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was"
+" not the only member of the Five who plotted the downfall of the others."
 msgstr ""
 
 #: balth.tra:1072
@@ -664,15 +661,15 @@ msgstr ""
 
 #: balth.tra:1074
 msgid ""
-"It is true.  You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
-"against evil is without question.  Your fight against the taint of our evil "
+"It is true. You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
+"against evil is without question. Your fight against the taint of our evil "
 "father is worthy of praise."
 msgstr ""
 
 #: balth.tra:1075
 msgid ""
 "I sense no innate goodness within you, <CHARNAME>...though your deeds are "
-"hailed far and wide as above reproach.  It is... interesting that one like "
+"hailed far and wide as above reproach. It is... interesting that one like "
 "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
 "has done so much to fight true evil."
 msgstr ""
@@ -680,44 +677,43 @@ msgstr ""
 #: balth.tra:1076
 msgid ""
 "I see the good that is within you, <CHARNAME>, but your deeds are hardly "
-"above reproach.  I sense only a soul that struggles with our father's taint,"
-" that struggles to find the good path where none exists."
+"above reproach. I sense only a soul that struggles with our father's taint, "
+"that struggles to find the good path where none exists."
 msgstr ""
 
 #: balth.tra:1077
 msgid ""
-"I sense no innate goodness within you, <CHARNAME>.  I do not think your "
-"deeds above reproach.  I sense only a soul struggling against the taint of "
+"I sense no innate goodness within you, <CHARNAME>. I do not think your deeds"
+" above reproach. I sense only a soul struggling against the taint of "
 "<PRO_HISHER> father, much like mine own."
 msgstr ""
 
 #: balth.tra:1078
 msgid ""
-"Actually, I am the perfect person to judge, <CHARNAME>.  I, too, contain the"
-" taint of our father within me.  I, too, have felt its yearnings for blood, "
-"its efforts to exert chaos upon my life.  I have mastered it... but only "
-"barely.  Too well I know what it is capable of."
+"Actually, I am the perfect person to judge, <CHARNAME>. I, too, contain the "
+"taint of our father within me. I, too, have felt its yearnings for blood, "
+"its efforts to exert chaos upon my life. I have mastered it... but only "
+"barely. Too well I know what it is capable of."
 msgstr ""
 
 #: balth.tra:1079
 msgid ""
-"Naturally.  Our taint brings us no peace, does it, <CHARNAME>?  We fight in "
-"self-defense and yet still we kill, still we bring destruction.  We may "
-"claim an absence of responsibility, should we desire, but I know all too "
-"well what the taint in our soul is capable of.  Only barely do I keep it "
-"mastered."
+"Naturally. Our taint brings us no peace, does it, <CHARNAME>?  We fight in "
+"self-defense and yet still we kill, still we bring destruction. We may claim"
+" an absence of responsibility, should we desire, but I know all too well "
+"what the taint in our soul is capable of. Only barely do I keep it mastered."
 msgstr ""
 
 #: balth.tra:1080
 msgid ""
-"I would expect no other response from a true <PRO_BROTHERSISTER> of mine.  I"
-" know too well the thirst for death that comes with the taint of our sire.  "
-"I have mastered it, but only barely... I pity those who are a slave to it."
+"I would expect no other response from a true <PRO_BROTHERSISTER> of mine. I "
+"know too well the thirst for death that comes with the taint of our sire. I "
+"have mastered it, but only barely... I pity those who are a slave to it."
 msgstr ""
 
 #: balth.tra:1081
 msgid ""
-"Do not make me laugh, <CHARNAME>.  If you expect me to believe that your "
+"Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
 "depraved existence exists to fight against evil in this world, then you "
 "expect far too much."
 msgstr ""
@@ -725,9 +721,9 @@ msgstr ""
 #: balth.tra:1082
 msgid ""
 "But regardless of our wishes on the matter, our destiny has been written for"
-" us, <CHARNAME>.  Some may run from it or deny it, while others embrace "
-"it... but each and every Bhaalspawn has a seed within them that has sprung "
-"forth a fruit laden with blood and murder.  Do you deny this?"
+" us, <CHARNAME>. Some may run from it or deny it, while others embrace it..."
+" but each and every Bhaalspawn has a seed within them that has sprung forth "
+"a fruit laden with blood and murder. Do you deny this?"
 msgstr ""
 
 #: balth.tra:1083
@@ -745,7 +741,7 @@ msgid ""
 msgstr ""
 
 #: balth.tra:1086
-msgid "I deny nothing.  Death comes for all who stand in my way."
+msgid "I deny nothing. Death comes for all who stand in my way."
 msgstr ""
 
 #: balth.tra:1087
@@ -756,25 +752,25 @@ msgstr ""
 
 #: balth.tra:1088
 msgid ""
-"I have little doubt that you know whereof I speak.  The taint is strong "
+"I have little doubt that you know whereof I speak. The taint is strong "
 "within you... stronger than any single other spawn of our sire that I have "
-"seen.  You have felt the dreams, the urges, have you not?  The chaos that is"
-" your destiny has ripped wantonly through your life, regardless of your "
+"seen. You have felt the dreams, the urges, have you not?  The chaos that is "
+"your destiny has ripped wantonly through your life, regardless of your "
 "wishes, has it not?  Do you deny that you bring violence and destruction "
 "wherever you go, <CHARNAME>?"
 msgstr ""
 
 #: balth.tra:1089
 msgid ""
-"I am nothing like you.  I exist to fight against the chaos of my taint, to "
-"fight against the evil that Bhaal's legacy brings to this world.  I have "
+"I am nothing like you. I exist to fight against the chaos of my taint, to "
+"fight against the evil that Bhaal's legacy brings to this world. I have "
 "faced the evil within me and I have mastered it."
 msgstr ""
 
 #: balth.tra:1090
 msgid ""
-"No.  I have brought my share of death and destruction to this land.  But I "
-"see a larger purpose behind it... I seek to end the possibility of Bhaal's "
+"No. I have brought my share of death and destruction to this land. But I see"
+" a larger purpose behind it... I seek to end the possibility of Bhaal's "
 "return forever, and to wipe his taint from the land."
 msgstr ""
 
@@ -782,15 +778,15 @@ msgstr ""
 msgid ""
 "I have mastered the power within me and held the evil in check, but I know "
 "as well... if not better... then most of my brethren the threat that it "
-"holds for all of FaerÃ»n.  I will not allow this.  I have dedicated my life "
-"to preventing it."
+"holds for all of FaerÃ»n. I will not allow this. I have dedicated my life to"
+" preventing it."
 msgstr ""
 
 #: balth.tra:1092
 msgid ""
 "If only we had met under other circumstances, <CHARNAME>...I would have "
-"liked to sit and compare the paths that have brought us to this point.  If "
-"we had not been forced by destiny to bear this taint upon our souls, what "
+"liked to sit and compare the paths that have brought us to this point. If we"
+" had not been forced by destiny to bear this taint upon our souls, what "
 "would have become of us?  I regret what I must do, yet I know it must be "
 "done."
 msgstr ""
@@ -803,7 +799,7 @@ msgstr ""
 
 #: balth.tra:1094
 msgid ""
-"You don't have to do this, Balthazar.  We don't have to fight each other."
+"You don't have to do this, Balthazar. We don't have to fight each other."
 msgstr ""
 
 #: balth.tra:1095
@@ -813,13 +809,13 @@ msgid ""
 msgstr ""
 
 #: balth.tra:1096
-msgid "Enough talk, then.  Let's get this over with."
+msgid "Enough talk, then. Let's get this over with."
 msgstr ""
 
 #: balth.tra:1097
 msgid ""
-"Of course not.  It is she that holds the key to Bhaal's resurrection.  After"
-" you are dead, she too must be destroyed."
+"Of course not. It is she that holds the key to Bhaal's resurrection. After "
+"you are dead, she too must be destroyed."
 msgstr ""
 
 #: balth.tra:1098
@@ -851,13 +847,13 @@ msgstr ""
 
 #: balth.tra:1102
 msgid ""
-"I thought you were going to kill yourself after I was dead.  Sure you won't "
+"I thought you were going to kill yourself after I was dead. Sure you won't "
 "see some more evil once Melissan is dead, too?  You'd probably make a "
 "promising Lord of Murder, you know..."
 msgstr ""
 
 #: balth.tra:1103
-msgid "Forget it.  This is pointless.  Let's just get this over with."
+msgid "Forget it. This is pointless. Let's just get this over with."
 msgstr ""
 
 #: balth.tra:1104
@@ -866,47 +862,46 @@ msgstr ""
 
 #: balth.tra:1105
 msgid ""
-"No.  How could I trust you?  What if we were to vanquish Melissan, I would "
-"be weakened... you could end my life there and everything I have been "
-"working towards will be for nothing."
+"No. How could I trust you?  What if we were to vanquish Melissan, I would be"
+" weakened... you could end my life there and everything I have been working "
+"towards will be for nothing."
 msgstr ""
 
 #: balth.tra:1106
 msgid ""
-"I had thought when this moment arrived, I would hold clearly to my purpose."
-"  We must... end this, <CHARNAME>.  I wish this to be over with, one way or "
-"the other."
+"I had thought when this moment arrived, I would hold clearly to my purpose. "
+"We must... end this, <CHARNAME>. I wish this to be over with, one way or the"
+" other."
 msgstr ""
 
 #: balth.tra:1107
-msgid "Alright, Balthazar.  If that's what you want... let's end this now."
+msgid "Alright, Balthazar. If that's what you want... let's end this now."
 msgstr ""
 
 #: balth.tra:1108
 msgid ""
-"I am at a loss, <CHARNAME>.  You question me, and I have no good answers for"
-" you.  My heart tells me that you must be killed, but I am not sure if I "
-"should listen to it.  What... what would you have me do?"
+"I am at a loss, <CHARNAME>. You question me, and I have no good answers for "
+"you. My heart tells me that you must be killed, but I am not sure if I "
+"should listen to it. What... what would you have me do?"
 msgstr ""
 
 #: balth.tra:1109
 msgid ""
-"Join me, Balthazar.  Let us fight Melissan together, instead of doing what "
+"Join me, Balthazar. Let us fight Melissan together, instead of doing what "
 "she wants us to."
 msgstr ""
 
 #: balth.tra:1110
-msgid "I don't know, Balthazar.  But I don't want to fight you."
+msgid "I don't know, Balthazar. But I don't want to fight you."
 msgstr ""
 
 #: balth.tra:1111
-msgid ""
-"Let us fight, then, if it must be.  Let me give you some peace at last."
+msgid "Let us fight, then, if it must be. Let me give you some peace at last."
 msgstr ""
 
 #: balth.tra:1112
 msgid ""
-"You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
+"You're a weaker fool then I thought. Let's just end this now, shall we?  I "
 "have an appointment with god-hood."
 msgstr ""
 
@@ -916,17 +911,17 @@ msgstr ""
 
 #: balth.tra:1114
 msgid ""
-"Very well, then, <CHARNAME>.  I will join you.  You are a worthy "
-"<PRO_MANWOMAN>.  Perhaps even worthy of turning Bhaal's dark taint and "
-"making something better of it.  I do not know.  But I will take that chance."
+"Very well, then, <CHARNAME>. I will join you. You are a worthy "
+"<PRO_MANWOMAN>. Perhaps even worthy of turning Bhaal's dark taint and making"
+" something better of it. I do not know. But I will take that chance."
 msgstr ""
 
 #: balth.tra:1115
 msgid ""
 "Let Melissan tremble when she sees us together, and we shall strike her down"
-" as she deserves.  Even if Bhaal himself is resurrected, he will not be able"
-" to hold out against us both.  I have preparations to make, <CHARNAME>.  Go "
-"to the Throne of Bhaal.  When the time comes, I will be there."
+" as she deserves. Even if Bhaal himself is resurrected, he will not be able "
+"to hold out against us both. I have preparations to make, <CHARNAME>. Go to "
+"the Throne of Bhaal. When the time comes, I will be there."
 msgstr ""
 
 #: balth.tra:1116
@@ -935,23 +930,23 @@ msgstr ""
 
 #: balth.tra:1117
 msgid ""
-"You must take the battle to Melissan.  It is your destiny to see that "
-"Bhaal's legacy ends here and now.  But you must promise me, <CHARNAME>...you"
-" must promise me that you will not give into the temptation.  Should you "
-"defeat Melissan and the power become available to you, you must turn away "
-"from it... you have seen your struggle as it is now, with only a sliver of "
-"that taint.  Do not take it, <CHARNAME>...even a god can be tempted, you "
-"must realize that.  Promise me you will turn it away."
+"You must take the battle to Melissan. It is your destiny to see that Bhaal's"
+" legacy ends here and now. But you must promise me, <CHARNAME>...you must "
+"promise me that you will not give into the temptation. Should you defeat "
+"Melissan and the power become available to you, you must turn away from "
+"it... you have seen your struggle as it is now, with only a sliver of that "
+"taint. Do not take it, <CHARNAME>...even a god can be tempted, you must "
+"realize that. Promise me you will turn it away."
 msgstr ""
 
 #: balth.tra:1118
 msgid ""
-"If I am given the option, Balthazar... I will refuse the taint.  I swear it."
+"If I am given the option, Balthazar... I will refuse the taint. I swear it."
 msgstr ""
 
 #: balth.tra:1119
 msgid ""
-"No.  I will swear nothing of the kind.  Great good could come out of that "
+"No. I will swear nothing of the kind. Great good could come out of that "
 "power, you don't know otherwise any better than I."
 msgstr ""
 
@@ -961,40 +956,40 @@ msgstr ""
 
 #: balth.tra:1121
 msgid ""
-"Then I am satisfied.  The essence of our sire ends with me... and with you."
-"  May the gods forgive me.  May you... may you forgive me, "
+"Then I am satisfied. The essence of our sire ends with me... and with you. "
+"May the gods forgive me. May you... may you forgive me, "
 "<PRO_BROTHERSISTER>..."
 msgstr ""
 
 #: balth.tra:1122
 msgid ""
-"Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
+"Then we must do battle. I... I am sorry, <PRO_BROTHERSISTER>. I had hoped "
 "this would be otherwise."
 msgstr ""
 
 #: balth.tra:1123
 msgid ""
 "And I cannot trust that you will turn aside the power when it is offered to "
-"you.  You have experienced the struggle even a sliver of Bhaal's taint has "
-"brought you, yet I cannot believe that you would turn it aside.  I... I am "
+"you. You have experienced the struggle even a sliver of Bhaal's taint has "
+"brought you, yet I cannot believe that you would turn it aside. I... I am "
 "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgstr ""
 
 #: balth.tra:1124
-msgid "So be it.  Come, my pupils... may the gods help us all."
+msgid "So be it. Come, my pupils... may the gods help us all."
 msgstr ""
 
 #: balth.tra:1125
 msgid ""
-"No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
-"may the gods have pity on us all."
+"No. Further dialogue is pointless. Let us end this now, <CHARNAME>...and may"
+" the gods have pity on us all."
 msgstr ""
 
 #: balth.tra:1126
 msgid ""
-"Perhaps what you are saying holds merit.  But what if I died during the "
+"Perhaps what you are saying holds merit. But what if I died during the "
 "battle?  What if I was weakened, in the end... you might find yourself... "
-"tempted.  How could I trust you?"
+"tempted. How could I trust you?"
 msgstr ""
 
 #: balth.tra:1128
@@ -1013,73 +1008,72 @@ msgstr ""
 
 #: balth.tra:1130
 msgid ""
-"She used you to get rid of the other Bhaalspawn, obviously.  Think about it!"
-"  She knew what you were planning all along.  She wanted all the Bhaalspawn "
+"She used you to get rid of the other Bhaalspawn, obviously. Think about it!"
+"  She knew what you were planning all along. She wanted all the Bhaalspawn "
 "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgstr ""
 
 #: balth.tra:1131
 msgid ""
-"Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
-"as I knew hers.  This changes nothing."
+"Of course she used me, <CHARNAME>. And no doubt she knew my plans as well as"
+" I knew hers. This changes nothing."
 msgstr ""
 
 #: balth.tra:1132
 msgid ""
-"You... may be right, <CHARNAME>.  But that does not mean that my plan will "
-"fail.  Melissan underestimates me, I am sure of that... just as she "
+"You... may be right, <CHARNAME>. But that does not mean that my plan will "
+"fail. Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
 msgstr ""
 
 #: balth.tra:1133
 msgid ""
-"I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
-"Still... this does not mean my plan is doomed to failure.  Or is it?"
+"I... perhaps you are right, <CHARNAME>. I see the wisdom of your words. "
+"Still... this does not mean my plan is doomed to failure. Or is it?"
 msgstr ""
 
 #: balth.tra:1134
-msgid "I must resist it.  I will.  I have no choice."
+msgid "I must resist it. I will. I have no choice."
 msgstr ""
 
 #: balth.tra:1135
 msgid ""
-"But... you have shown great willpower, as well.  Despite the taint in your "
-"soul, you have struggled against it just as I have.  What makes me more "
+"But... you have shown great willpower, as well. Despite the taint in your "
+"soul, you have struggled against it just as I have. What makes me more "
 "worthy...?  No, I must not question myself!  Not now!"
 msgstr ""
 
 #: balth.tra:1136
 msgid ""
 "You are certainly no better a candidate for resisting such temptation, "
-"<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
+"<CHARNAME>. I would trust myself far more than I would trust you. To send "
 "you to the Throne would be to give up everything I have believed in."
 msgstr ""
 
 #: balth.tra:1137
 msgid ""
-"Strength is nothing, <CHARNAME>.  You may vanquish me with your might, and "
-"you may even vanquish Melissan.  But you will never vanquish yourself.  "
-"Might will bring you no peace... this I know.  And this is why I must be the"
-" last."
+"Strength is nothing, <CHARNAME>. You may vanquish me with your might, and "
+"you may even vanquish Melissan. But you will never vanquish yourself. Might "
+"will bring you no peace... this I know. And this is why I must be the last."
 msgstr ""
 
 #: balth.tra:1138
 msgid ""
-"I am tired of the battles I have fought, <CHARNAME>.  I am tired of the "
+"I am tired of the battles I have fought, <CHARNAME>. I am tired of the "
 "anguish that I have endured, placing the greater good above the welfare of "
-"others, of myself and my own immortal soul.  It will be enough that Bhaal's "
+"others, of myself and my own immortal soul. It will be enough that Bhaal's "
 "legacy is destroyed, there is no temptation beyond that."
 msgstr ""
 
 #: balth.tra:1139
-msgid "But I do.  It is my destiny.  What other choice have I?"
+msgid "But I do. It is my destiny. What other choice have I?"
 msgstr ""
 
 #: balth.tra:1140
 msgid ""
-"You always have a choice, Balthazar.  Don't be a slave to Alaundo's "
-"prophecy!  I have fought against it ever since I found out about my heritage"
-" and I will *not* give up!"
+"You always have a choice, Balthazar. Don't be a slave to Alaundo's prophecy!"
+"  I have fought against it ever since I found out about my heritage and I "
+"will *not* give up!"
 msgstr ""
 
 #: balth.tra:1141
@@ -1091,46 +1085,46 @@ msgstr ""
 
 #: balth.tra:1142
 msgid ""
-"You can walk away.  You can do what's right, Balthazar, what you know to be "
+"You can walk away. You can do what's right, Balthazar, what you know to be "
 "right instead of what you've resigned yourself to."
 msgstr ""
 
 #: balth.tra:1143
 msgid ""
-"You are walking a path that you don't need to, Balthazar.  You see yourself "
+"You are walking a path that you don't need to, Balthazar. You see yourself "
 "as evil, but it doesn't have to be that way."
 msgstr ""
 
 #: balth.tra:1144
 msgid ""
-"I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
-"  We can work together!"
+"I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable!  "
+"We can work together!"
 msgstr ""
 
 #: balth.tra:1145
 msgid ""
-"Forget it.  There's no point in discussing this with you, is there?  Let's "
+"Forget it. There's no point in discussing this with you, is there?  Let's "
 "get this over with."
 msgstr ""
 
 #: balth.tra:1146
 msgid ""
-"You are impressive with your words, <CHARNAME>.  I can feel destiny altering"
-" to your will, how you are the center of it all... how is it that I did not "
+"You are impressive with your words, <CHARNAME>. I can feel destiny altering "
+"to your will, how you are the center of it all... how is it that I did not "
 "see this before?"
 msgstr ""
 
 #: balth.tra:1147
 msgid ""
-"But the simple truth is your words ring hollow to me.  I do not believe "
-"them.  You have fought against destiny, yet I see it in you even the more as"
-" you speak."
+"But the simple truth is your words ring hollow to me. I do not believe them."
+" You have fought against destiny, yet I see it in you even the more as you "
+"speak."
 msgstr ""
 
 #: balth.tra:1148
 msgid ""
-"Perhaps... perhaps there is something to your words.  I look within myself "
-"and see how rigidly I have held myself to my destiny... and I feel hollow.  "
+"Perhaps... perhaps there is something to your words. I look within myself "
+"and see how rigidly I have held myself to my destiny... and I feel hollow. "
 "But I... cannot believe that this has been for nothing."
 msgstr ""
 
@@ -1147,55 +1141,55 @@ msgstr ""
 #: balth.tra:1151
 msgid ""
 "I have been told many things by agents of Alaundo's prophecy... higher "
-"beings that have sought me out to prepare me.  Alaundo's prophecy does not "
+"beings that have sought me out to prepare me. Alaundo's prophecy does not "
 "necessarily mean what you think it does, Balthazar."
 msgstr ""
 
 #: balth.tra:1152
 msgid ""
 "A Solar has been my mentor since this began, guiding me and preparing me for"
-" what is to come.  The prophecy is not so simple as you think it to be, no "
-"matter how we assume it to be.  Think about it and you'll know it to be "
-"true, Balthazar... everything has more than one side."
+" what is to come. The prophecy is not so simple as you think it to be, no "
+"matter how we assume it to be. Think about it and you'll know it to be true,"
+" Balthazar... everything has more than one side."
 msgstr ""
 
 #: balth.tra:1153
 msgid ""
-"I have no agent of the heavens to interpret my destiny for me, <CHARNAME>.  "
+"I have no agent of the heavens to interpret my destiny for me, <CHARNAME>. "
 "And my path remains clear."
 msgstr ""
 
 #: balth.tra:1154
 msgid ""
-"You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder.  Yet... "
-"it seems that my destiny may differ from yours.  I have no heavenly "
-"guidance.  Perhaps my path has been made for me, yet."
+"You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder. Yet... "
+"it seems that my destiny may differ from yours. I have no heavenly guidance."
+" Perhaps my path has been made for me, yet."
 msgstr ""
 
 #: balth.tra:1155
 msgid ""
-"What you say is incredible, and yet... it does make sense.  Have I prepared "
+"What you say is incredible, and yet... it does make sense. Have I prepared "
 "myself for all this time in error?  How could this be?"
 msgstr ""
 
 #: balth.tra:1156
 msgid ""
-"An appealing notion, to walk away.  Would that I could do so.  Would that "
-"any of us could have done so."
+"An appealing notion, to walk away. Would that I could do so. Would that any "
+"of us could have done so."
 msgstr ""
 
 #: balth.tra:1157
 msgid ""
-"But perhaps I have resigned myself to a path that is not what it seems.  You"
-" are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>.  "
+"But perhaps I have resigned myself to a path that is not what it seems. You "
+"are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>. "
 "Perhaps there is hope... or perhaps I am only deluding myself."
 msgstr ""
 
 #: balth.tra:1158
 msgid ""
-"But that is a fool's notion, <CHARNAME>, and I am no fool.  There is no such"
-" option available to me or any of us, no matter how appealing you may make "
-"it seem."
+"But that is a fool's notion, <CHARNAME>, and I am no fool. There is no such "
+"option available to me or any of us, no matter how appealing you may make it"
+" seem."
 msgstr ""
 
 #: balth.tra:1159
@@ -1210,16 +1204,16 @@ msgstr ""
 #: balth.tra:1160
 msgid ""
 "You have considerable charisma, <CHARNAME>...but it is because we are "
-"siblings that we cannot work together.  You know as well as I what the "
+"siblings that we cannot work together. You know as well as I what the "
 "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgstr ""
 
 #: balth.tra:1161
 msgid ""
-"I make no judgement upon you, <CHARNAME>.  You are what you were born to be."
-"  I can only trust myself to hold to the path of good that will lead to the "
-"destruction of the true evil that threatens FaerÃ»n.  There is no other path"
-" for me."
+"I make no judgement upon you, <CHARNAME>. You are what you were born to be. "
+"I can only trust myself to hold to the path of good that will lead to the "
+"destruction of the true evil that threatens FaerÃ»n. There is no other path "
+"for me."
 msgstr ""
 
 #: balth.tra:1162
@@ -1232,10 +1226,10 @@ msgstr ""
 
 #: balth.tra:1163
 msgid ""
-"A truly good man would have stood against Melissan from the beginning.  You "
+"A truly good man would have stood against Melissan from the beginning. You "
 "say you wanted to find out who the Five were... and yet I defeated them "
-"without your scheming.  It was your choice to join the Five in their reign "
-"of destruction, so live up to it!"
+"without your scheming. It was your choice to join the Five in their reign of"
+" destruction, so live up to it!"
 msgstr ""
 
 #: balth.tra:1164
@@ -1253,39 +1247,38 @@ msgid ""
 msgstr ""
 
 #: balth.tra:1166
-msgid "Then let's get this over with.  I'm tired of talking."
+msgid "Then let's get this over with. I'm tired of talking."
 msgstr ""
 
 #: balth.tra:1167
 msgid ""
-"It... it is true.  I paid little attention to my men's actions, but I... I "
-"knew what they were doing.  I thought it a great sacridice, necessary to "
+"It... it is true. I paid little attention to my men's actions, but I... I "
+"knew what they were doing. I thought it a great sacridice, necessary to "
 "maintain secrecy, to attain my ultimate goal that they, in their ignorance, "
-"did not know would benefit them more in the end.  But... it is how we treat "
+"did not know would benefit them more in the end. But... it is how we treat "
 "the most helpless of our brethren in the worst of times that marks the "
-"goodness of a man, does it not?  I... I am ashamed, <CHARNAME>.  I sought..."
-" only to do what was best for us all."
+"goodness of a man, does it not?  I... I am ashamed, <CHARNAME>. I sought... "
+"only to do what was best for us all."
 msgstr ""
 
 #: balth.tra:1168
 msgid ""
 "You found out who the Five were through Melissan's scheming... and through, "
-"in no small part, my own.  But who is to say that things might not have been"
-" different?  Who are *you* to say that things might have been different?"
+"in no small part, my own. But who is to say that things might not have been "
+"different?  Who are *you* to say that things might have been different?"
 msgstr ""
 
 #: balth.tra:1169
 msgid ""
-"But... it is true, nevertheless.  I have taken the easy path, and have done "
-"much that has brought harm to others in the name of necessity.  But when "
-"does 'necessity' cross into the realm of evil?  I... I am ashamed, "
-"<CHARNAME>."
+"But... it is true, nevertheless. I have taken the easy path, and have done "
+"much that has brought harm to others in the name of necessity. But when does"
+" 'necessity' cross into the realm of evil?  I... I am ashamed, <CHARNAME>."
 msgstr ""
 
 #: balth.tra:1170
 msgid ""
 "I do not stand here proud of my accomplishments in attaining what I see to "
-"be a necessary goal... but neither should you.  You have blundered about, "
+"be a necessary goal... but neither should you. You have blundered about, "
 "causing more harm by your negligence than I ever could by my plotting."
 msgstr ""
 
@@ -1300,44 +1293,44 @@ msgstr ""
 #: balth.tra:1172
 msgid ""
 "I... know only what the temptations are that the taints puts upon us, "
-"<CHARNAME>.  I know only that if our power was to grow, if your power was to"
-" grow, that so would the temptation."
+"<CHARNAME>. I know only that if our power was to grow, if your power was to "
+"grow, that so would the temptation."
 msgstr ""
 
 #: balth.tra:1173
 msgid ""
-"But... you have been successful in fighting temptation.  More successful "
-"than I.  I have... done much that I regret, in the name of good.  My people "
-"suffer because I held my ultimate goal above all else... but is it not true "
-"that our treatment of the least of our brethren is the true judge of a man's"
-" soul?  I... I am ashamed."
+"But... you have been successful in fighting temptation. More successful than"
+" I. I have... done much that I regret, in the name of good. My people suffer"
+" because I held my ultimate goal above all else... but is it not true that "
+"our treatment of the least of our brethren is the true judge of a man's "
+"soul?  I... I am ashamed."
 msgstr ""
 
 #: balth.tra:1174
 msgid ""
 "And despite what you might profess, I think the taint sits closer to your "
-"heart then you would have me believe.  I must walk my own path, "
+"heart then you would have me believe. I must walk my own path, "
 "<CHARNAME>...and you must walk yours."
 msgstr ""
 
 #: balth.tra:1175
 msgid ""
-"Very well.  Come, my students... my teachings are ended.  We make our last "
-"stand now for what is right.  May the gods have pity on us all."
+"Very well. Come, my students... my teachings are ended. We make our last "
+"stand now for what is right. May the gods have pity on us all."
 msgstr ""
 
 #: balth.tra:1176
 msgid ""
 "Even had destiny not brought us to this point, I doubt things would have "
-"been different.  Perhaps if you had not borne the taint of our sire, things "
-"might have been different with you.  I would have liked to meet a "
-"<PRO_MANWOMAN> such as yourself without the taint on your soul, I think.  "
-"But now I have little choice."
+"been different. Perhaps if you had not borne the taint of our sire, things "
+"might have been different with you. I would have liked to meet a "
+"<PRO_MANWOMAN> such as yourself without the taint on your soul, I think. But"
+" now I have little choice."
 msgstr ""
 
 #: balth.tra:1177
 msgid ""
-"Would that your claim of innocence meant anything to the dead of Saradush.  "
+"Would that your claim of innocence meant anything to the dead of Saradush. "
 "Were I to question the recent dead of Athkatla, of Baldur's Gate, of "
 "Candlekeep... would I not find some who would claim such innocence for "
 "themselves?  Who died merely because they were caught in your wake?"
@@ -1348,8 +1341,8 @@ msgid ""
 "Do you think that others of our kind are any different?  Count them, "
 "<CHARNAME>, and think of the multitudes of Bhaalspawn that existed and "
 "brought misery to others, if not by intent, then even by their very "
-"presence.  Would you allow such carnage to continue?  Have we not spared the"
-" entire land from agony by the slaying of our siblings?"
+"presence. Would you allow such carnage to continue?  Have we not spared the "
+"entire land from agony by the slaying of our siblings?"
 msgstr ""
 
 #: balth.tra:1179
@@ -1361,47 +1354,47 @@ msgstr ""
 
 #: balth.tra:1180
 msgid ""
-"You mistake the path for the journey, my friend.  Whatever paths you have "
+"You mistake the path for the journey, my friend. Whatever paths you have "
 "taken since leaving Candlekeep, the journey has ended here as it was always "
-"meant to.  Destiny masters us... we do not master it."
+"meant to. Destiny masters us... we do not master it."
 msgstr ""
 
 #: balth.tra:1181
 msgid ""
 "Yes, whether they were obstacles to be overcome or merely by-standers "
-"crossing your path.  My own life has been little different, no matter how I "
-"have struggled against it.  I am glad you see this... it will make things "
+"crossing your path. My own life has been little different, no matter how I "
+"have struggled against it. I am glad you see this... it will make things "
 "much easier."
 msgstr ""
 
 #: balth.tra:1182
 msgid ""
-"You sound like Yaga-Shura, a giant in ego as well as body.  Yet he fell, "
-"too, when his fate came due.  The power of your blood may yet make you "
+"You sound like Yaga-Shura, a giant in ego as well as body. Yet he fell, too,"
+" when his fate came due. The power of your blood may yet make you "
 "victorious, it is true, but the fact that you embrace the taint within you "
 "makes my own path that much the clearer."
 msgstr ""
 
 #: balth2.tra:1002
 msgid ""
-"<CHARNAME> does not stand alone, Melissan.  It is time that this is ended."
+"<CHARNAME> does not stand alone, Melissan. It is time that this is ended."
 msgstr ""
 
 #: balth2.tra:1003
 msgid ""
-"I see well enough now, priestess.  Speak clever wit if you wish, you cannot "
+"I see well enough now, priestess. Speak clever wit if you wish, you cannot "
 "hope to defeat us."
 msgstr ""
 
 #: balth2.tra:1004
 msgid ""
-"To return the essence to our father.  And great bloodshed in his name to "
-"call him forth.  And I never believed it."
+"To return the essence to our father. And great bloodshed in his name to call"
+" him forth. And I never believed it."
 msgstr ""
 
 #: balth2.tra:1005
 msgid ""
-"We must be careful now, <CHARNAME>.  Within that stream of energy, Melissan "
+"We must be careful now, <CHARNAME>. Within that stream of energy, Melissan "
 "is invulnerable to harm... and I doubt she will come out of it willingly to "
 "face us."
 msgstr ""
@@ -1409,7 +1402,7 @@ msgstr ""
 #: balth2.tra:1006
 msgid ""
 "I think the essence pools that adjoin the Throne might be divertable by "
-"someone with a connection to the essence.  A Bhaalspawn, one of us.  If all "
+"someone with a connection to the essence. A Bhaalspawn, one of us. If all "
 "three were cut off from her stream, Melissan might be forced to deal with us"
 " rather than soak up even more power."
 msgstr ""
@@ -1417,19 +1410,19 @@ msgstr ""
 #: balth2.tra:1007
 msgid ""
 "She has, no doubt, guarded the pools in some fashion... but it is the only "
-"way to continue that I can think of.  Short of standing here and watching "
-"her become a goddess, that is."
+"way to continue that I can think of. Short of standing here and watching her"
+" become a goddess, that is."
 msgstr ""
 
 #: balth2.tra:1008
 msgid ""
-"You are a fool, Melissan.  You should have kept what divine energy you had "
-"for yourself and not spread it amongst such servants.  It will prove your "
+"You are a fool, Melissan. You should have kept what divine energy you had "
+"for yourself and not spread it amongst such servants. It will prove your "
 "doom."
 msgstr ""
 
 #: balth2.tra:1009
-msgid "You... you are so beautiful.  I... had no idea..."
+msgid "You... you are so beautiful. I... had no idea..."
 msgstr ""
 
 #: balth2.tra:1010
@@ -1438,16 +1431,16 @@ msgstr ""
 
 #: balth2.tra:1011
 msgid ""
-"And there is nothing that I ever wanted more.  I choose to become a mortal "
-"gladly, and with all my heart.  To walk the earth without that dark burden "
+"And there is nothing that I ever wanted more. I choose to become a mortal "
+"gladly, and with all my heart. To walk the earth without that dark burden "
 "twisting my soul... I... I cannot even imagine..."
 msgstr ""
 
 #: balth2.tra:1012
 msgid ""
-"I cannot thank you enough, <CHARNAME>, for the gift you have given me.  I "
+"I cannot thank you enough, <CHARNAME>, for the gift you have given me. I "
 "once thought I had done everything I could to fight for what was good... but"
-" it was you that showed me how wrong I was.  Without you, I would have died "
+" it was you that showed me how wrong I was. Without you, I would have died "
 "with that stain upon my soul and perhaps even been Melissan's puppet "
 "forever."
 msgstr ""
@@ -1455,39 +1448,39 @@ msgstr ""
 #: balth2.tra:1013
 msgid ""
 "I cannot pretend to know what you are thinking, now, of the decision you "
-"must make.  Nor do I pretend to certainty that the taint would bring such a "
-"<PRO_MANWOMAN> such as yourself towards evil.  Perhaps you would overcome "
+"must make. Nor do I pretend to certainty that the taint would bring such a "
+"<PRO_MANWOMAN> such as yourself towards evil. Perhaps you would overcome "
 "that taint and be a good god, I cannot say."
 msgstr ""
 
 #: balth2.tra:1014
 msgid ""
 "I just ask you to consider how Bhaal's taint has affected your life to this "
-"point.  Do you really wish to have all of it?  What type of person actually "
+"point. Do you really wish to have all of it?  What type of person actually "
 "wishes to become a god?  Sarevok?  Irenicus?  Melissan?  Even if your "
 "intentions are good, what of an eternity being chained to such power?"
 msgstr ""
 
 #: balth2.tra:1015
 msgid ""
-"The choice is your own.  You know yourself better than I.  I simply ask that"
-" you consider the life you might have led, the mortal life, had the taint "
-"never visited itself upon you back at Candlekeep.  I look forward to my own."
+"The choice is your own. You know yourself better than I. I simply ask that "
+"you consider the life you might have led, the mortal life, had the taint "
+"never visited itself upon you back at Candlekeep. I look forward to my own."
 msgstr ""
 
 #: balth2.tra:1016
 msgid ""
-"And so it is done.  I believe you have made the right choice.  I look "
-"forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
-" <PRO_BROTHERSISTER>."
+"And so it is done. I believe you have made the right choice. I look forward "
+"to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true "
+"<PRO_BROTHERSISTER>."
 msgstr ""
 
 #: balth2.tra:1017
 msgid ""
-"And so you take the road less traveled, <CHARNAME>.  I cannot say I envy "
-"you.  I hope the power brings you what you expect and desire, my friend.  "
-"When I look up at the heavens and see the brightest star in the sky, I shall"
-" think of you and offer a prayer."
+"And so you take the road less traveled, <CHARNAME>. I cannot say I envy you."
+" I hope the power brings you what you expect and desire, my friend. When I "
+"look up at the heavens and see the brightest star in the sky, I shall think "
+"of you and offer a prayer."
 msgstr ""
 
 #: balth2.tra:1018
@@ -1498,7 +1491,7 @@ msgstr ""
 
 #: ee.tra:3001
 msgid ""
-"The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power.  Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
+"The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
 "\n"
 "STATISTICS:\n"
 "\n"
@@ -1538,17 +1531,16 @@ msgstr ""
 
 #: finbodh.tra:34
 msgid ""
-"(chuckle)  How very like you to blame me for your own failings.  Poor, poor "
+"(chuckle)  How very like you to blame me for your own failings. Poor, poor "
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr ""
 
 #: finbodh.tra:35
 msgid ""
-"So I see.  How absolutely delicious to let me in on your little play with "
-"the Bhaalspawn again, brother dear.  And how are you, <CHARNAME>?  I do so "
-"hope you are as... healthy... as I remember.  Shall we continue our merry "
-"dance?"
+"So I see. How absolutely delicious to let me in on your little play with the"
+" Bhaalspawn again, brother dear. And how are you, <CHARNAME>?  I do so hope "
+"you are as... healthy... as I remember. Shall we continue our merry dance?"
 msgstr ""
 
 #: finbodh.tra:36
@@ -1564,7 +1556,7 @@ msgstr ""
 
 #: finbodh.tra:38
 msgid ""
-"Best hike up your skirts and run, Bodhi.  The time when I found vampires "
+"Best hike up your skirts and run, Bodhi. The time when I found vampires "
 "remotely threatening is long past!"
 msgstr ""
 
@@ -1582,8 +1574,8 @@ msgstr ""
 
 #: finbodh.tra:42
 msgid ""
-"You are weak, Bodhi, while the blood of a god flows within me.  I shall "
-"enjoy your death... again."
+"You are weak, Bodhi, while the blood of a god flows within me. I shall enjoy"
+" your death... again."
 msgstr ""
 
 #: finbodh.tra:43
@@ -1592,99 +1584,99 @@ msgstr ""
 
 #: finbodh.tra:44
 msgid ""
-"You have nothing to gain from this fight.  Will you sacrifice yourself out "
-"of sibling loyalty?  Do not make that mistake again."
+"You have nothing to gain from this fight. Will you sacrifice yourself out of"
+" sibling loyalty?  Do not make that mistake again."
 msgstr ""
 
 #: finbodh.tra:45
 msgid ""
-"Stand aside Bodhi.  Your brother is blinded by his lust for vengance.  He's "
-"prepared to fight me to the death, but you don't need to die at his side.  "
+"Stand aside Bodhi. Your brother is blinded by his lust for vengance. He's "
+"prepared to fight me to the death, but you don't need to die at his side. "
 "There is no need for you to die at all."
 msgstr ""
 
 #: finbodh.tra:46
 msgid ""
-"You may be strong, <CHARNAME>, but you are indeed a fool to think us weak.  "
-"I shall take your soul for my own, I swear it!"
+"You may be strong, <CHARNAME>, but you are indeed a fool to think us weak. I"
+" shall take your soul for my own, I swear it!"
 msgstr ""
 
 #: finbodh.tra:47
 msgid ""
-"You had your chance, brother.  Your plans failed, as I recall, and brought "
-"about my death.  No, you are weak and <CHARNAME> is strong and it is "
-"<PRO_HESHE> that shall give me what I need.  I look forward to bathing in "
+"You had your chance, brother. Your plans failed, as I recall, and brought "
+"about my death. No, you are weak and <CHARNAME> is strong and it is "
+"<PRO_HESHE> that shall give me what I need. I look forward to bathing in "
 "your blood, dear brother... a suitable reward for your utter failure."
 msgstr ""
 
 #: finbodh.tra:48
 msgid ""
-"Oh Child of Bhaal, you do bore me so with your talk.  Come to me and embrace"
-" death as I have.  Let the dance begin again!"
+"Oh Child of Bhaal, you do bore me so with your talk. Come to me and embrace "
+"death as I have. Let the dance begin again!"
 msgstr ""
 
 #: finbodh.tra:49
 msgid ""
-"Indeed, I have no intention of dying at all.   I fight with my brother "
+"Indeed, I have no intention of dying at all.  I fight with my brother "
 "because I have no choice....or would you offer me one now?"
 msgstr ""
 
 #: finbodh.tra:50
 msgid ""
 "My brother believes he can offer me your soul, yet I see that you too can "
-"raise others from the abyss; one who opposed you, no less!  How intriguing."
-"  Perhaps I do not need to taste your blood..."
+"raise others from the abyss; one who opposed you, no less!  How intriguing. "
+"Perhaps I do not need to taste your blood..."
 msgstr ""
 
 #: finbodh.tra:51
 msgid ""
-"I would make you an offer <CHARNAME>.  Promise me a piece of your soul and I"
-" shall fight as a sister to you."
+"I would make you an offer <CHARNAME>. Promise me a piece of your soul and I "
+"shall fight as a sister to you."
 msgstr ""
 
 #: finbodh.tra:52
 msgid ""
-"I require a soul <CHARNAME>, as well you know.  I could tear it from young "
-"Imoen once again, but she seems....indisposed.  Yet perhaps there is another"
-" way..."
+"I require a soul <CHARNAME>, as well you know. I could tear it from young "
+"Imoen once again, but she seems....indisposed. Yet perhaps there is another "
+"way..."
 msgstr ""
 
 #: finbodh.tra:53
 msgid ""
-"I am doomed whether or not I fight.  My stay in the Abyss was not a pleasant"
-" one, but since I must return, I shall not pass up a chance to feast on such"
-" a fine morsel."
+"I am doomed whether or not I fight. My stay in the Abyss was not a pleasant "
+"one, but since I must return, I shall not pass up a chance to feast on such "
+"a fine morsel."
 msgstr ""
 
 #: finbodh.tra:54
 msgid ""
-"I have power beyond your brother's.  Join with me and I shall grant the "
+"I have power beyond your brother's. Join with me and I shall grant the "
 "reward he shall not live to bestow; a soul."
 msgstr ""
 
 #: finbodh.tra:55
 msgid ""
-"I have changed since our last encounter, Bodhi.  I am above you and your "
-"pitiful games.  They bore me and I shall put an end to them!"
+"I have changed since our last encounter, Bodhi. I am above you and your "
+"pitiful games. They bore me and I shall put an end to them!"
 msgstr ""
 
 #: finbodh.tra:56
 msgid ""
-"So much talk from your brother, Bodhi, yet actions speak louder than words."
-"  How many deaths has your brother granted me?  Do you truly believe you can"
-" win?  Take the portion of soul I offer and live again."
+"So much talk from your brother, Bodhi, yet actions speak louder than words. "
+"How many deaths has your brother granted me?  Do you truly believe you can "
+"win?  Take the portion of soul I offer and live again."
 msgstr ""
 
 #: finbodh.tra:57
 msgid ""
 "Such a delicious offer you make... though I must wonder if you are telling "
-"the truth.  Are my chances of survival really any better with you...?"
+"the truth. Are my chances of survival really any better with you...?"
 msgstr ""
 
 #: finbodh.tra:58
 msgid ""
 "So <CHARNAME>, the creature of darkness that rests within you has also "
-"stolen your wit.  Such a shame for one with the divine essence.  It will "
+"stolen your wit. Such a shame for one with the divine essence. It will "
 "almost be a mercy to end your existence."
 msgstr ""
 
@@ -1696,42 +1688,41 @@ msgstr ""
 
 #: finbodh.tra:60
 msgid ""
-"Nor would I care to.  Soon enough you will return to the torment you "
-"deserve."
+"Nor would I care to. Soon enough you will return to the torment you deserve."
 msgstr ""
 
 #: finbodh.tra:61
 msgid ""
 "Well, well, well... if the Child of Bhaal hasn't gone and found "
-"<PRO_HIMHER>self a sense of humour.  Did <PRO_HESHE> dig it up all by "
+"<PRO_HIMHER>self a sense of humour. Did <PRO_HESHE> dig it up all by "
 "<PRO_HIMHER>self, dear brother, or did you implant it in <PRO_HIMHER> in one"
 " of your more bizarre experiments?"
 msgstr ""
 
 #: finbodh.tra:62
 msgid ""
-"I see you are now more Slayer than <PRO_MANWOMAN>.  How dull.  You provided "
+"I see you are now more Slayer than <PRO_MANWOMAN>. How dull. You provided "
 "such small amusement last time, I doubt that this will be different."
 msgstr ""
 
 #: finbodh.tra:63
 msgid ""
-"No, <CHARNAME>.  Sadly, I do not think we are destined to work together "
-"again.  I am content to fight by my brother and revel in your blood and that"
-" of those that follow at your heel."
+"No, <CHARNAME>. Sadly, I do not think we are destined to work together "
+"again. I am content to fight by my brother and revel in your blood and that "
+"of those that follow at your heel."
 msgstr ""
 
 #: finbodh.tra:64
 msgid ""
-"Oh Child of Bhaal, such a game you play.  You think to trick me, but I shall"
-" not be fooled so easily.  I know you to be ever so desperate to do 'good' "
-"and this would not bode well for me.  No, this ends here."
+"Oh Child of Bhaal, such a game you play. You think to trick me, but I shall "
+"not be fooled so easily. I know you to be ever so desperate to do 'good' and"
+" this would not bode well for me. No, this ends here."
 msgstr ""
 
 #: finbodh.tra:65
 msgid ""
-"Oh Child of Bhaal, such a game you play.  I fight with my 'dear' brother for"
-" your soul, yet you would offer it willingly?  Promise me a piece of your "
+"Oh Child of Bhaal, such a game you play. I fight with my 'dear' brother for "
+"your soul, yet you would offer it willingly?  Promise me a piece of your "
 "essence and I will join you... for now."
 msgstr ""
 
@@ -1749,7 +1740,7 @@ msgstr ""
 
 #: finbodh.tra:68
 msgid ""
-"Actually Bodhi, I have changed my mind.  I enjoy watching you die too much, "
+"Actually Bodhi, I have changed my mind. I enjoy watching you die too much, "
 "to pass up an opportunity to see it again."
 msgstr ""
 
@@ -1760,66 +1751,66 @@ msgstr ""
 #: finbodh.tra:70
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
-" you.  Now to finalize matters..."
+" you. Now to finalize matters..."
 msgstr ""
 
 #: finbodh.tra:71
 msgid ""
-"No, <CHARNAME>.  Sadly, I do not think we are destined to work together "
-"again.  Despite the attractiveness of what you offer, your words ring more "
-"hollow than my brother's.  Far better to rip your soul from your living "
+"No, <CHARNAME>. Sadly, I do not think we are destined to work together "
+"again. Despite the attractiveness of what you offer, your words ring more "
+"hollow than my brother's. Far better to rip your soul from your living "
 "breast than beg for it at your side."
 msgstr ""
 
 #: finbodh.tra:72
 msgid ""
 "I require satisfaction before the Child of Bhaal makes any sort of decision,"
-" creature.  Both my brother and this... Melissan, lie dead.  Your hunt has "
+" creature. Both my brother and this... Melissan, lie dead. Your hunt has "
 "been delightfully successful, <CHARNAME>."
 msgstr ""
 
 #: finbodh.tra:73
 msgid ""
-"But do not forget our deal.  I am impatient for the piece of your soul you "
-"promised me.  I have enjoyed our dance Child of Bhaal, but I tire of this "
-"place.  Give me what I want so I may leave... we need not meet each other "
+"But do not forget our deal. I am impatient for the piece of your soul you "
+"promised me. I have enjoyed our dance Child of Bhaal, but I tire of this "
+"place. Give me what I want so I may leave... we need not meet each other "
 "again, unless you wish it."
 msgstr ""
 
 #: finbodh.tra:74
 msgid ""
-"It was a pleasure to have you fight by my side, Bodhi.  You have earned this"
-" reward."
+"It was a pleasure to have you fight by my side, Bodhi. You have earned this "
+"reward."
 msgstr ""
 
 #: finbodh.tra:75
 msgid ""
-"You shall have nothing.  Your use to me is at an end.  I shall enjoy sending"
-" you screaming back into the abyss."
+"You shall have nothing. Your use to me is at an end. I shall enjoy sending "
+"you screaming back into the abyss."
 msgstr ""
 
 #: finbodh.tra:76
 msgid ""
-"Hmmm, I could kill you... no, I have better things to do.  Take these scraps"
-" of my essence and depart."
+"Hmmm, I could kill you... no, I have better things to do. Take these scraps "
+"of my essence and depart."
 msgstr ""
 
 #: finbodh.tra:77
 msgid ""
-"No Bodhi, I think I will keep all of my soul.  You will fall back into the "
-"abyss.  Give Bhaal my regards."
+"No Bodhi, I think I will keep all of my soul. You will fall back into the "
+"abyss. Give Bhaal my regards."
 msgstr ""
 
 #: finbodh.tra:78
 msgid ""
 "Fool!  You think to betray me, Child of Bhaal?  I refuse to return to the "
-"abyss.  I shall rip every shred of that soul from your body!  Let the dance "
+"abyss. I shall rip every shred of that soul from your body!  Let the dance "
 "end here!"
 msgstr ""
 
 #: finbodh.tra:79
 msgid ""
-"This is my realm, Bodhi.  I control everything here.  It is time for you to "
+"This is my realm, Bodhi. I control everything here. It is time for you to "
 "join your brother."
 msgstr ""
 
@@ -1835,62 +1826,61 @@ msgstr ""
 
 #: finbodh.tra:82
 msgid ""
-"Oh Bodhi, you should have begged.  I would have liked to see that.  Too late"
-" now."
+"Oh Bodhi, you should have begged. I would have liked to see that. Too late "
+"now."
 msgstr ""
 
 #: finbodh.tra:83
 msgid ""
-"So you have betrayed me, <CHARNAME>.  It would seem that working together "
-"was never our true calling."
+"So you have betrayed me, <CHARNAME>. It would seem that working together was"
+" never our true calling."
 msgstr ""
 
 #: finbodh.tra:84
 msgid ""
-"Ahhhhh, such feeling.  I feel the life flow through me!  Such a gift you "
-"carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
+"Ahhhhh, such feeling. I feel the life flow through me!  Such a gift you "
+"carry Child of Bhaal... such power... such strength. Oh this is simply "
 "divine!"
 msgstr ""
 
 #: finbodh.tra:85
 msgid ""
-"Such an ungrateful <PRO_MANWOMAN> you are.  Still, I have life once more, "
-"and I intend to enjoy it.  Perhaps the wizards of Spellhold still wish to "
-"play?"
+"Such an ungrateful <PRO_MANWOMAN> you are. Still, I have life once more, and"
+" I intend to enjoy it. Perhaps the wizards of Spellhold still wish to play?"
 msgstr ""
 
 #: finbodh.tra:86
 msgid ""
-"Well, Child of Bhaal, it would seem that our time together is at an end.  I "
-"shall enjoy carrying this piece of you with me.  Perhaps we shall meet "
-"again, you and I..."
+"Well, Child of Bhaal, it would seem that our time together is at an end. I "
+"shall enjoy carrying this piece of you with me. Perhaps we shall meet again,"
+" you and I..."
 msgstr ""
 
 #: finbodh.tra:87
 msgid ""
-"Now, now, <CHARNAME>...there is no need to look at me so.  A tiny piece of "
-"your soul would give me all I require and more.  Decide quickly, for I doubt"
-" my dear brother will be content with merely withering me with his own "
+"Now, now, <CHARNAME>...there is no need to look at me so. A tiny piece of "
+"your soul would give me all I require and more. Decide quickly, for I doubt "
+"my dear brother will be content with merely withering me with his own "
 "delightfully evil glare."
 msgstr ""
 
 #: finbodh.tra:88
 msgid ""
 "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
-" no idea.  I shall be pleased to know that you both die again just as you "
+" no idea. I shall be pleased to know that you both die again just as you "
 "lived: without a single redeeming or worthwhile quality."
 msgstr ""
 
 #: finbodh.tra:89
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
-" you.  Now to finalize matters...."
+" you. Now to finalize matters...."
 msgstr ""
 
 #: finbodh.tra:90
 msgid ""
-"No, <CHARNAME>.  Despite the attractiveness of what you offer, your words "
-"ring more hollow than my brother's.  Far better to rip your soul from your "
+"No, <CHARNAME>. Despite the attractiveness of what you offer, your words "
+"ring more hollow than my brother's. Far better to rip your soul from your "
 "living breast than beg for it at your side."
 msgstr ""
 
@@ -1916,60 +1906,60 @@ msgstr ""
 
 #: finmel01.tra:591
 msgid ""
-"You don't have all the essence of Bhaal... not by far.  And I rule here, as "
+"You don't have all the essence of Bhaal... not by far. And I rule here, as "
 "well... you know that."
 msgstr ""
 
 #: finmel01.tra:592
 msgid ""
-"You should have remained true to Bhaal, Melissan.  Only he could have saved "
+"You should have remained true to Bhaal, Melissan. Only he could have saved "
 "you now."
 msgstr ""
 
 #: finmel01.tra:594
-msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
+msgid "Yeah, well, I suppose everyone has a dream. Psycho."
 msgstr ""
 
 #: finmel01.tra:597
 msgctxt "FINMEL25"
 msgid ""
-"Bah!  I should not be wasting time on you.  I still have to absorb the "
+"Bah!  I should not be wasting time on you. I still have to absorb the "
 "Bhaalspawn essences... and there is more than enough power in this plane to "
-"keep you busy.  Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
+"keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
 "dares to oppose while I take what is mine!"
 msgstr ""
 
 #: finmel01.tra:604
 msgid ""
-"You do not believe in my power, I can see that much.  You have fought "
-"terrible foes in your past and have always managed to succeed.  Why... you "
-"leave a trail of felled opponents littered about even here in the Abyss.  "
+"You do not believe in my power, I can see that much. You have fought "
+"terrible foes in your past and have always managed to succeed. Why... you "
+"leave a trail of felled opponents littered about even here in the Abyss. "
 "Such as this one I found, discarded..."
 msgstr ""
 
 #: finmel01.tra:605
 msgid ""
-"True.  More insightful than I would have expected from you, <CHARNAME>.  And"
-" far more clever for you to have denied me Balthazar's essence... although, "
-"to tell the truth, I was secretly hoping for him to have defeated you.  "
+"True. More insightful than I would have expected from you, <CHARNAME>. And "
+"far more clever for you to have denied me Balthazar's essence... although, "
+"to tell the truth, I was secretly hoping for him to have defeated you. "
 "Unlikely as that was, considering the pathetic monk could barely see the "
 "forest for the trees."
 msgstr ""
 
 #: finmel01.tra:606
 msgid ""
-"I am disappointed in you, <CHARNAME>.  So much bluster, so much force.  So "
-"much power and wisdom locked into such a fragile form.  I suppose you "
+"I am disappointed in you, <CHARNAME>. So much bluster, so much force. So "
+"much power and wisdom locked into such a fragile form. I suppose you "
 "actually believe you have a hope in opposing me, in seizing the Throne for "
-"yourself.  Such delusions."
+"yourself. Such delusions."
 msgstr ""
 
 #: finmel01.tra:607
 msgid ""
-"Irenicus, I believe you called him.  So easily culled as my own, since you "
+"Irenicus, I believe you called him. So easily culled as my own, since you "
 "abandoned him here recently... and such a valuable source of information on "
-"you, <CHARNAME>.  After all... I believe you did share a soul, once, no?  "
-"Say hello to the dear <PRO_MANWOMAN>, Irenicus."
+"you, <CHARNAME>. After all... I believe you did share a soul, once, no?  Say"
+" hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
 
 #: finmel01.tra:608
@@ -1980,87 +1970,87 @@ msgstr ""
 
 #: finmel01.tra:609
 msgid ""
-"Come, Imoen.  I command the essence within you.  You are not ready to be "
-"here... and yet here you are.  Let's see just how much of my power is "
+"Come, Imoen. I command the essence within you. You are not ready to be "
+"here... and yet here you are. Let's see just how much of my power is "
 "contained in your young little soul, hmm?"
 msgstr ""
 
 #: finmel01.tra:610
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you?  But her "
-"essence is easy enough to command.  Let's see what she has to say, shall we?"
+"essence is easy enough to command. Let's see what she has to say, shall we?"
 msgstr ""
 
 #: finmel01.tra:611
 msgid ""
-"You don't have to go anywhere, little one.  I'm not calling you, after "
-"all... I'm merely coaxing forth your essence."
+"You don't have to go anywhere, little one. I'm not calling you, after all..."
+" I'm merely coaxing forth your essence."
 msgstr ""
 
 #: finmel01.tra:612
 msgid ""
-"There, there, Imoen.  I command the essence within you.  Let's see just how "
+"There, there, Imoen. I command the essence within you. Let's see just how "
 "much of my power you have within you, yes?"
 msgstr ""
 
 #: finmel01.tra:613
 msgid ""
-"Ahhhh, Balthazar is here as well.  How clever to deny me his essence, "
-"<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
+"Ahhhh, Balthazar is here as well. How clever to deny me his essence, "
+"<CHARNAME>. Still blinded by your devotion to destiny, Balthazar?  Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
 
 #: finmel01.tra:614
 msgid ""
-"Oh no?  Perhaps you do not understand.  This... this place, here, is the "
-"Source.  This is where the essence of all of Bhaal's children returns when "
-"they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
+"Oh no?  Perhaps you do not understand. This... this place, here, is the "
+"Source. This is where the essence of all of Bhaal's children returns when "
+"they die, hidden away. Did you never wonder, dear Balthazar, what killing "
 "all the other spawn of Bhaal was *for*?"
 msgstr ""
 
 #: finmel01.tra:615
 msgid ""
-"And well you should not have, though you aided me regardless.  Bhaal may, "
-"indeed, be... somewhere.  But not here.  Here I have locked these essences "
-"away and drank heartily of their power.  The Source, the Throne, all are "
+"And well you should not have, though you aided me regardless. Bhaal may, "
+"indeed, be... somewhere. But not here. Here I have locked these essences "
+"away and drank heartily of their power. The Source, the Throne, all are "
 "mine... and god-hood is but one simple step away."
 msgstr ""
 
 #: finmel01.tra:616
 msgid ""
-"I was going to resurrect them anyway, to serve as my conquering avatars.  "
-"And I prefer them far better this way... completely servile, obeying every "
+"I was going to resurrect them anyway, to serve as my conquering avatars. And"
+" I prefer them far better this way... completely servile, obeying every "
 "order without question."
 msgstr ""
 
 #: finmel01.tra:617
 msgid ""
 "And since you recruited Balthazar to your side, I've decided on the "
-"delicious irony of re-creating poor, pathetic Gromnir as well.  It delights "
+"delicious irony of re-creating poor, pathetic Gromnir as well. It delights "
 "me to no end to know that he was right about me all along... and yet it made"
-" no difference.  You murdered him still, as I knew you would."
+" no difference. You murdered him still, as I knew you would."
 msgstr ""
 
 #: finmel01.tra:618
 msgid ""
-"You should have kept your energies to yourself, Melissan.  Spending them on "
+"You should have kept your energies to yourself, Melissan. Spending them on "
 "re-creating the Five will cost you... and cost you dearly."
 msgstr ""
 
 #: finmel01.tra:619
 msgid ""
-"Perhaps.  But already I am immortal, which means I cannot be killed even by "
-"you.  And there is still more of your father's essence for me to take."
+"Perhaps. But already I am immortal, which means I cannot be killed even by "
+"you. And there is still more of your father's essence for me to take."
 msgstr ""
 
 #: finmel01.tra:620
 msgid ""
-"They provided a considerable challenge for you individually, <CHARNAME>.  I "
+"They provided a considerable challenge for you individually, <CHARNAME>. I "
 "wonder how you will fare against them all?"
 msgstr ""
 
 #: finmel01.tra:621
-msgid "So come, <CHARNAME>...kill your siblings once again.  If you can."
+msgid "So come, <CHARNAME>...kill your siblings once again. If you can."
 msgstr ""
 
 #: finmel01.tra:622
@@ -2075,23 +2065,23 @@ msgstr ""
 
 #: finmel01.tra:624
 msgid ""
-"Oh, but we do, Sarevok.  I made you an offer once before, and that offer "
-"still stands.  Join me now, abandon this pathetic whelp, and take your place"
-" at my side."
+"Oh, but we do, Sarevok. I made you an offer once before, and that offer "
+"still stands. Join me now, abandon this pathetic whelp, and take your place "
+"at my side."
 msgstr ""
 
 #: finmel01.tra:625
 msgid ""
-"The geas the fool placed on your heart is nothing.  I could easily remove "
-"it.  In fact, I do so now.  There... act as you will."
+"The geas the fool placed on your heart is nothing. I could easily remove it."
+" In fact, I do so now. There... act as you will."
 msgstr ""
 
 #: finmel01.tra:626
 msgid ""
-"Perhaps.  But you are a great warrior... and could be a fine general to lead"
-" my earthly armies.  Power, riches, respect... all you desire.  Including "
-"the return of the Bhaalspawn essence you lost.  Come, Sarevok... be the "
-"demon you once were.  Serve me."
+"Perhaps. But you are a great warrior... and could be a fine general to lead "
+"my earthly armies. Power, riches, respect... all you desire. Including the "
+"return of the Bhaalspawn essence you lost. Come, Sarevok... be the demon you"
+" once were. Serve me."
 msgstr ""
 
 #: finmel01.tra:627
@@ -2108,9 +2098,9 @@ msgstr ""
 
 #: finmel01.tra:629
 msgid ""
-"I brought you here, Sarevok.  To give you a second chance.  Join me and "
-"fight against <CHARNAME> and I will return the power you lost, the power you"
-" crave so much.  I will make you the man you once were."
+"I brought you here, Sarevok. To give you a second chance. Join me and fight "
+"against <CHARNAME> and I will return the power you lost, the power you crave"
+" so much. I will make you the man you once were."
 msgstr ""
 
 #: finmel01.tra:630
@@ -2121,9 +2111,9 @@ msgstr ""
 
 #: finsarev.tra:26
 msgid ""
-"Who--?  Melissan.  And <CHARNAME>, no less.  And to think that I had "
-"resigned myself to not being a part of this little play.  Who brought me "
-"here?  And why am I in my old armor?"
+"Who--?  Melissan. And <CHARNAME>, no less. And to think that I had resigned "
+"myself to not being a part of this little play. Who brought me here?  And "
+"why am I in my old armor?"
 msgstr ""
 
 #: finsarev.tra:27
@@ -2131,7 +2121,7 @@ msgid "Fight <CHARNAME>?  Aye... I will do that."
 msgstr ""
 
 #: finsarev.tra:28
-msgid "So you die again, as well.  It's all good."
+msgid "So you die again, as well. It's all good."
 msgstr ""
 
 #: finsarev.tra:29
@@ -2144,50 +2134,50 @@ msgstr ""
 
 #: finsarev.tra:31
 msgid ""
-"Then you'll die.  I gave you life again, and I can take it away... for the "
+"Then you'll die. I gave you life again, and I can take it away... for the "
 "third time."
 msgstr ""
 
 #: finsarev.tra:32
 msgid ""
-"It is true.  I may die again at your hand, <CHARNAME>.  But better that than"
-" sit in your shadow and taste the bile in my heart while you take what was "
-"once rightfully mine.  Better to fight for Melissan than suffer that."
+"It is true. I may die again at your hand, <CHARNAME>. But better that than "
+"sit in your shadow and taste the bile in my heart while you take what was "
+"once rightfully mine. Better to fight for Melissan than suffer that."
 msgstr ""
 
 #: finsol01.tra:580
 msgid ""
 "Only one other spawn of the dead god remains... the sibling who fought at "
-"your side.  His portion of the essence is less than your own, but still "
-"significant.  His choice must also be made."
+"your side. His portion of the essence is less than your own, but still "
+"significant. His choice must also be made."
 msgstr ""
 
 #: finsol01.tra:581
 msgid ""
 "First, however, there is the matter of the children of the dead god who "
-"fought by your side.  Their essences are less than your own, but their "
+"fought by your side. Their essences are less than your own, but their "
 "decision no less important."
 msgstr ""
 
 #: finsol01.tra:582
 msgid ""
-"I am merely an agent of the universe in this matter, Balthazar.  I am "
-"charged to see the destiny of the children of Bhaal brought to its "
-"conclusion.  You have an opportunity that few are given.  You may choose "
-"your destiny... a choice you thought yourself forever denied."
+"I am merely an agent of the universe in this matter, Balthazar. I am charged"
+" to see the destiny of the children of Bhaal brought to its conclusion. You "
+"have an opportunity that few are given. You may choose your destiny... a "
+"choice you thought yourself forever denied."
 msgstr ""
 
 #: finsol01.tra:583
 msgid ""
 "If that is your choice, you may surrender the portion of your divine essence"
-" to your elder sibling.  You may become a normal mortal, with a destiny to "
+" to your elder sibling. You may become a normal mortal, with a destiny to "
 "follow as you see fit."
 msgstr ""
 
 #: finsol01.tra:584
 msgid ""
-"As you wish, Balthazar, so it is done.  Go in peace, and know that in the "
-"end you walked that narrow path which had ever eluded you."
+"As you wish, Balthazar, so it is done. Go in peace, and know that in the end"
+" you walked that narrow path which had ever eluded you."
 msgstr ""
 
 #: finsol01.tra:585
@@ -2198,8 +2188,8 @@ msgstr ""
 msgid ""
 "While it fills me with distaste that you would even bring such a creature of"
 " evil before me, god-child, you must remember that in this place an oath is "
-"worth more than the words with which it is spoken.  You are no god yet... "
-"and while I would rather destroy this undead thing, it now falls on me to "
+"worth more than the words with which it is spoken. You are no god yet... and"
+" while I would rather destroy this undead thing, it now falls on me to "
 "enforce the promise you have made."
 msgstr ""
 
@@ -2236,8 +2226,8 @@ msgstr ""
 
 #: imoen25p.tra:477
 msgid ""
-"It... it's gone... I'm human again.  Ohhhh, now I know what you went "
-"through, <CHARNAME>!  I don't know if I ever want to go through that again!"
+"It... it's gone... I'm human again. Ohhhh, now I know what you went through,"
+" <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgstr ""
 
 #: imoen25p.tra:478
@@ -2251,7 +2241,7 @@ msgid "I was trying to convince Melissan to leave you alone, Imoen!"
 msgstr ""
 
 #: imoen25p.tra:480
-msgid "Get over yourself, little girl.  I never asked you to come, did I?"
+msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr ""
 
 #: imoen25p.tra:481
@@ -2261,39 +2251,39 @@ msgstr ""
 
 #: imoen25p.tra:482
 msgid ""
-"Well... I suppose.  You convinced me more than her, obviously.  I... I'm "
-"just glad I didn't do more damage as the slayer.  I don't know how you "
-"handled it.  Thank you for... for not killing me."
+"Well... I suppose. You convinced me more than her, obviously. I... I'm just "
+"glad I didn't do more damage as the slayer. I don't know how you handled it."
+" Thank you for... for not killing me."
 msgstr ""
 
 #: imoen25p.tra:483
 msgid ""
-"I... I can't stay here, though.  This is way out of my league.  I wish you "
-"well, <CHARNAME>, and I hope I'll see you again.  Maybe back at Candlekeep, "
+"I... I can't stay here, though. This is way out of my league. I wish you "
+"well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, "
 "huh?  Anyway... good luck..."
 msgstr ""
 
 #: imoen25p.tra:484
 msgid ""
 "Do you need me to join back up with you?  I could... leave the Throne, I "
-"think... I think I have that power, now, same as you.  But I'll fight by "
-"your side again, if you want me to."
+"think... I think I have that power, now, same as you. But I'll fight by your"
+" side again, if you want me to."
 msgstr ""
 
 #: imoen25p.tra:485
 msgid ""
 "Imoen Has Survived\n"
 "\n"
-"Imoen managed to survive Melissan's attempt to force her into berserk Slayer form.  It seems that in doing so, Imoen has had her own progress in the taint advanced considerably.  She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.\n"
+"Imoen managed to survive Melissan's attempt to force her into berserk Slayer form. It seems that in doing so, Imoen has had her own progress in the taint advanced considerably. She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.\n"
 "\n"
 "Ethereal\n"
 "-------------\n"
-"Imoen is now able to enter the Ethereal Plane for brief periods of time.  The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well.  Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm.  During that round, she also cannot cast spells or use abilities.\n"
-"For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane.  She is still invisible, but takes half damage from all sources.  In this state, there is a small chance (10%) that she will miscast a spell.  For all three rounds, she is able to see any invisible targets."
+"Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.\n"
+"For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets."
 msgstr ""
 
 #: imoen25p.tra:486
-msgid "Sure.  Let's join up again."
+msgid "Sure. Let's join up again."
 msgstr ""
 
 #: imoen25p.tra:487
@@ -2302,42 +2292,42 @@ msgstr ""
 
 #: imoen25p.tra:488
 msgid ""
-"I wish you well, <CHARNAME>, and I hope I'll see you again.  Maybe back at "
+"I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at "
 "Candlekeep, huh?  Anyway... good luck..."
 msgstr ""
 
 #: imoen25p.tra:489
 msgid ""
-"Yeah, right.  You do whatever you have to, <CHARNAME>.  Me... I'm getting as"
-" far away from here as possible.  Good-bye!"
+"Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as "
+"far away from here as possible. Good-bye!"
 msgstr ""
 
 #: imoen25p.tra:490
 msgid ""
-"Nope, you sure didn't.  Thanks for nothing, I guess.  You do whatever you "
-"have to, <CHARNAME>.  Me... I'm getting as far away from here as possible.  "
-"Good-bye!"
+"Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have"
+" to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-"
+"bye!"
 msgstr ""
 
 #: imoen25p.tra:491
 msgid ""
 "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
-"just don't know how you handled it back in Spellhold.  Thank you for... not "
+"just don't know how you handled it back in Spellhold. Thank you for... not "
 "killing me, okay?"
 msgstr ""
 
 #: imoen25p.tra:492
 msgid ""
 "Oh, so it is!  Do you need me back in the party?  I could... leave the "
-"Throne, I think... I think I have that power, now, same as you.  But I'll "
+"Throne, I think... I think I have that power, now, same as you. But I'll "
 "fight by your side again, if you want me to."
 msgstr ""
 
 #: imoen25p.tra:493
 msgid ""
-"I see the fight's still going on.  Do you need me back in the party?  I "
+"I see the fight's still going on. Do you need me back in the party?  I "
 "could... leave the Throne, I think... I think I have that power, now, same "
-"as you.  But I'd like to see this through, same as you."
+"as you. But I'd like to see this through, same as you."
 msgstr ""
 
 #: imoen25p.tra:494
@@ -2352,12 +2342,12 @@ msgid ""
 msgstr ""
 
 #: irenic2.tra:435
-msgid "Indeed.  We meet once again."
+msgid "Indeed. We meet once again."
 msgstr ""
 
 #: irenic2.tra:436
 msgid ""
-"That's okay.  If Sarevok can turn up like a bad penny, then you're allowed "
+"That's okay. If Sarevok can turn up like a bad penny, then you're allowed "
 "to, as well."
 msgstr ""
 
@@ -2369,7 +2359,7 @@ msgstr ""
 
 #: irenic2.tra:438
 msgid ""
-"You're a pathetic excuse for an elf, Irenicus.  If you wish to die again, "
+"You're a pathetic excuse for an elf, Irenicus. If you wish to die again, "
 "I'll happily oblige."
 msgstr ""
 
@@ -2379,13 +2369,13 @@ msgstr ""
 
 #: irenic2.tra:440
 msgid ""
-"So, <CHARNAME>...it is now just you and I, once again.  At odds in the "
-"bowels of Hell and preparing to do combat.  How very fitting."
+"So, <CHARNAME>...it is now just you and I, once again. At odds in the bowels"
+" of Hell and preparing to do combat. How very fitting."
 msgstr ""
 
 #: irenic2.tra:441
 msgid ""
-"This fight is mine, Irenicus.  While you stewed in Hell, my power has "
+"This fight is mine, Irenicus. While you stewed in Hell, my power has "
 "multiplied."
 msgstr ""
 
@@ -2398,8 +2388,8 @@ msgstr ""
 #: irenic2.tra:443
 msgid ""
 "So you're actually willing to serve as Melissan's little lackey?  I would "
-"expect more from the great elven magician.  Ellesime would be sad to see you"
-" reduced to this."
+"expect more from the great elven magician. Ellesime would be sad to see you "
+"reduced to this."
 msgstr ""
 
 #: irenic2.tra:444
@@ -2409,51 +2399,51 @@ msgid ""
 msgstr ""
 
 #: irenic2.tra:445
-msgid "You won't stop me, Irenicus.  Nobody can.  My destiny is at hand."
+msgid "You won't stop me, Irenicus. Nobody can. My destiny is at hand."
 msgstr ""
 
 #: irenic2.tra:446
 msgid ""
 "It appears you have been the beneficiary of low expectations, but even I "
-"have learned from my mistakes.  Here, I have nothing to lose, not even my "
-"life.  Thanks to Melissan, I still have time to snuff out your divine "
+"have learned from my mistakes. Here, I have nothing to lose, not even my "
+"life. Thanks to Melissan, I still have time to snuff out your divine "
 "ascencion personally. We will be even!"
 msgstr ""
 
 #: irenic2.tra:447
 msgid ""
 "You may have gained some crude and rudimentary control over your abilities "
-"in the interim, but even I have learned a thing or two... delusions or no.  "
+"in the interim, but even I have learned a thing or two... delusions or no. "
 "And Melissan has given me the opportunity to personally see an end to your "
 "ascension... consider it a favor returned."
 msgstr ""
 
 #: irenic2.tra:448
 msgid ""
-"Do not speak her name, dog.  Ellesime will understand the fullness of her "
-"regret soon enough.  As for you... Melissan has given me the opportunity to "
-"return an old favor.  One ascension for another... it rings with universal "
+"Do not speak her name, dog. Ellesime will understand the fullness of her "
+"regret soon enough. As for you... Melissan has given me the opportunity to "
+"return an old favor. One ascension for another... it rings with universal "
 "justice."
 msgstr ""
 
 #: irenic2.tra:449
 msgid ""
-"How very glib and typical.  How far the expectations of the universe must "
-"have lowered to allow a gnat like you to even come this far.  It is "
-"fortunate that I have an opportunity, then, to repay your termination of my "
-"own ascension in kind."
+"How very glib and typical. How far the expectations of the universe must "
+"have lowered to allow a gnat like you to even come this far. It is fortunate"
+" that I have an opportunity, then, to repay your termination of my own "
+"ascension in kind."
 msgstr ""
 
 #: irenic2.tra:450
 msgid ""
-"Ah, yes.  Familiar words.  Similar to the ones I spoke at the cusp of my own"
-" ascension.  How I would enjoy to repay that favor in kind and show the "
+"Ah, yes. Familiar words. Similar to the ones I spoke at the cusp of my own "
+"ascension. How I would enjoy to repay that favor in kind and show the "
 "universe what an unworthy gnat you truly are."
 msgstr ""
 
 #: irenic2.tra:451
 msgid ""
-"But enough of this.  Though I would dearly love to let my sister rot in her "
+"But enough of this. Though I would dearly love to let my sister rot in her "
 "own Hell for eternity, it would not be a true and fitting re-union if I did "
 "not use my new power to send her an invitation."
 msgstr ""
@@ -2461,47 +2451,47 @@ msgstr ""
 #: irenic2.tra:452
 msgid ""
 "Do not overestimate your usefulness to me, 'dear' sister... nor the extent "
-"of my non-existent affection.  Or do you truly think I had forgotten your "
+"of my non-existent affection. Or do you truly think I had forgotten your "
 "whispered urgings which had led me down the path of my exile?"
 msgstr ""
 
 #: irenic2.tra:453
 msgid ""
-"Enough, sister.  We do as Melissan bids, with her servants at our side.  "
-"Take delight, if you will, at the revenge we shall now taste.  Let us see, "
-"<CHARNAME>, if I can rip that soul out of you once more.  I would so delight"
-" in stealing your proud destiny a second time."
+"Enough, sister. We do as Melissan bids, with her servants at our side. Take "
+"delight, if you will, at the revenge we shall now taste. Let us see, "
+"<CHARNAME>, if I can rip that soul out of you once more. I would so delight "
+"in stealing your proud destiny a second time."
 msgstr ""
 
 #: irenic2.tra:454
 msgid ""
-"You over-step your bounds, as always.  I did not call you here to rejoice in"
-" your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
+"You over-step your bounds, as always. I did not call you here to rejoice in "
+"your venom, Bodhi. Do you not notice where we are?  Whom we face?"
 msgstr ""
 
 #: irenic2.tra:455
 msgid ""
-"You think to betray me, Bodhi?  Foolish girl.  Melissan is the one who holds"
-" power here, and you hope to find succor at the feet of this fool "
+"You think to betray me, Bodhi?  Foolish girl. Melissan is the one who holds "
+"power here, and you hope to find succor at the feet of this fool "
 "<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
 msgstr ""
 
 #: irenic2.tra:456
 msgid ""
-"So my ungrateful sister, you finally stand by my side.  I shall deal with "
-"your treachery afterwards.  As for you,  <CHARNAME>, Mellisan has granted me"
-" the power to rip the divinity from your body.  The first thing I shall feel"
-" in an eon shall be pleasure as I watch your corpse turn to dust."
+"So my ungrateful sister, you finally stand by my side. I shall deal with "
+"your treachery afterwards. As for you,  <CHARNAME>, Mellisan has granted me "
+"the power to rip the divinity from your body. The first thing I shall feel "
+"in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
 
 #: irenic2.tra:457
-msgid "I see.  So you leave me, sister, just as *she* left me."
+msgid "I see. So you leave me, sister, just as *she* left me."
 msgstr ""
 
 #: irenic2.tra:458
 msgid ""
-"It is no matter.  Melissan has given me power enough, and her own servants "
-"shall teach you the error of your ways.  I shall strip the divinity from "
+"It is no matter. Melissan has given me power enough, and her own servants "
+"shall teach you the error of your ways. I shall strip the divinity from "
 "<CHARNAME>'s soul and you, *dear* sister, shall be nothing but dust beside "
 "<PRO_HIMHER>."
 msgstr ""
@@ -2509,28 +2499,28 @@ msgstr ""
 #: irenic2.tra:459
 msgid ""
 "Better that than a laughable fool whose most promising idea to dominate the "
-"Sword Coast was to 'poison' its supply of iron.  I discarded you as a "
+"Sword Coast was to 'poison' its supply of iron. I discarded you as a "
 "candidate long before <CHARNAME> soundly defeated you merely for fear of "
 "losing all common sense merely by association with your pathetic soul."
 msgstr ""
 
 #: irenic2.tra:460
 msgid ""
-"Bark if you wish, mongrel.  Whatever dull fangs you might have possessed "
-"have long since been pulled.  If a has-been wishes to ride <CHARNAME>'s "
-"coat-tails it makes no difference to me... but you'll be disintegrated right"
-" along with <PRO_HIMHER>."
+"Bark if you wish, mongrel. Whatever dull fangs you might have possessed have"
+" long since been pulled. If a has-been wishes to ride <CHARNAME>'s coat-"
+"tails it makes no difference to me... but you'll be disintegrated right "
+"along with <PRO_HIMHER>."
 msgstr ""
 
 #: meliss01.tra:419
 msgid ""
-"Oh, please.  I saw you coming from a mile away.  I just played along because"
-" I had no choice."
+"Oh, please. I saw you coming from a mile away. I just played along because I"
+" had no choice."
 msgstr ""
 
 #: meliss01.tra:420
 msgid ""
-"Well, your plan didn't work out quite like you thought.  Balthazar is still "
+"Well, your plan didn't work out quite like you thought. Balthazar is still "
 "alive."
 msgstr ""
 
@@ -2551,7 +2541,7 @@ msgstr ""
 #: meliss01.tra:434
 msgid ""
 "So you managed to corral Balthazar into co-operating with you?  I'm "
-"surprised.  In the end, however, the essence of one or two of Bhaal's get "
+"surprised. In the end, however, the essence of one or two of Bhaal's get "
 "means very little."
 msgstr ""
 
@@ -2559,21 +2549,21 @@ msgstr ""
 msgid ""
 "Slayer Ability Changed\n"
 "\n"
-"It appears my ability to control the transformation to the slayer has increased.  The slayer form itself is stronger, deadlier... and I am able to maintain it for longer.  The chances of going berserk while in the form have also decreased."
+"It appears my ability to control the transformation to the slayer has increased. The slayer form itself is stronger, deadlier... and I am able to maintain it for longer. The chances of going berserk while in the form have also decreased."
 msgstr ""
 
 #: player1.tra:315
 msgid ""
 "Slayer Ability Changed Again\n"
 "\n"
-"My control over the slayer transformation continues to increase.  The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects.  Even the slayer's claws now sometimes rip through magical effects and defenses."
+"My control over the slayer transformation continues to increase. The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects. Even the slayer's claws now sometimes rip through magical effects and defenses."
 msgstr ""
 
 #: player1.tra:316
 msgid ""
 "The Ravager Form\n"
 "\n"
-"I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the ravager... optionally.  Although incredibly powerful... the ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the ravager is difficult for me to control and may be a danger to those nearby."
+"I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the ravager... optionally. Although incredibly powerful... the ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the ravager is difficult for me to control and may be a danger to those nearby."
 msgstr ""
 
 #: player1.tra:317
@@ -2582,60 +2572,60 @@ msgstr ""
 
 #: player1.tra:396
 msgid ""
-"With the initial battle now over, you consider your options.  In the stream "
+"With the initial battle now over, you consider your options. In the stream "
 "of energy within the center of the Throne, Melissan appears to be "
-"invulnerable to harm... and growing in power every second.  She must be "
-"drawn out willingly in order to defeat her."
+"invulnerable to harm... and growing in power every second. She must be drawn"
+" out willingly in order to defeat her."
 msgstr ""
 
 #: player1.tra:397
 msgid ""
 "The only option you can think of seem to be regarding the three 'essence "
-"pools' that adjoin the Throne.  Your own link to the essence might allow you"
-" to cut off the flow of energy to Melissan from these pools, forcing her to "
-"fight.  The pools are, however, likely to be guarded..."
+"pools' that adjoin the Throne. Your own link to the essence might allow you "
+"to cut off the flow of energy to Melissan from these pools, forcing her to "
+"fight. The pools are, however, likely to be guarded..."
 msgstr ""
 
 #: player1.tra:398
 msgid ""
 "Melissan continues to restore her divine energies at the fountain, keeping "
-"her immortality intact.  There must be a way to weaken her further, or you "
+"her immortality intact. There must be a way to weaken her further, or you "
 "will never be able to defeat her."
 msgstr ""
 
 #: ppguy02.tra:1
 msgid ""
 "You interpose your hand in the swirl of energy within the pool, but its "
-"power is obviously too much for you.  You do not interrupt its flow and, "
+"power is obviously too much for you. You do not interrupt its flow and, "
 "instead, the energy leaps out and damages you."
 msgstr ""
 
 #: ppguy02.tra:2
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
-"into yourself, diverting it away from Melissan.  Boundless power fills you "
+"into yourself, diverting it away from Melissan. Boundless power fills you "
 "briefly, and while most of it dissipates a portion fuels your inner "
-"energies.  You are now immune to death magics and vorpal effects, and have "
+"energies. You are now immune to death magics and vorpal effects, and have "
 "also gained the ability to unleash the power within you as a short burst of "
-"destructive power.  The energies also restore the powers of all present."
+"destructive power. The energies also restore the powers of all present."
 msgstr ""
 
 #: ppguy02.tra:3 ppguy02.tra:4
 msgid ""
 "New power gained: \"Unleash\"\n"
 "\n"
-"The \"Unleash\" ability releases your inner power upon a target that is within melee range, hitting them for 10d12 magic damage (half on a successful save vs. Death) and sending them flying back and perhaps unconscious for a short period.  This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued and have a 25% miscast chance on all spells for 2 rounds.  Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds."
+"The \"Unleash\" ability releases your inner power upon a target that is within melee range, hitting them for 10d12 magic damage (half on a successful save vs. Death) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued and have a 25% miscast chance on all spells for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds."
 msgstr ""
 
 #: ppguy02.tra:5
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
-"into yourself, diverting it away from Melissan.  Boundless power fills you, "
-"and while most of it dissipates you are left with much of Bhaal's essence.  "
+"into yourself, diverting it away from Melissan. Boundless power fills you, "
+"and while most of it dissipates you are left with much of Bhaal's essence. "
 "For the moment, you have gained the ability to teleport freely throughout "
 "space and also fight for control of abyssal demons that are under Melissan's"
 " control. Part of this ability to teleport also means you are now completely"
-" immune to the spells Maze and Imprisonment.  The energies also restore the "
+" immune to the spells Maze and Imprisonment. The energies also restore the "
 "powers of all present."
 msgstr ""
 
@@ -2643,41 +2633,41 @@ msgstr ""
 msgid ""
 "New power gained: \"Control Demon\"\n"
 "\n"
-"This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally.  The Bhaalspawn engages the demon in mental combat for 1 round, at the end of which the demon has a chance of becoming an ally.  The demon is not under the Bhaalspawn's direct control, however.  This ability may be used once every 3 rounds.\n"
+"This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for 1 round, at the end of which the demon has a chance of becoming an ally. The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.\n"
 "\n"
 "New power gained: \"Dimension Door\"\n"
 "\n"
-"The Bhaalspawn may now move freely through space and the planes.  This teleportation power is useable once per round."
+"The Bhaalspawn may now move freely through space and the planes. This teleportation power is useable once per round."
 msgstr ""
 
 #: ppguy02.tra:7
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
-"into yourself, diverting it away from Melissan.  You are filled with "
+"into yourself, diverting it away from Melissan. You are filled with "
 "boundless power for a moment... and while most of it leaves you and "
-"dissipates into the cosmos, a part of it remains with you.  You have gained "
+"dissipates into the cosmos, a part of it remains with you. You have gained "
 "the ability to focus the energies within you to protect yourself from such "
-"magics as Time Stop, Disintegrate and Flesh to Stone for a short period.  "
-"The energies also restore the powers of all present."
+"magics as Time Stop, Disintegrate and Flesh to Stone for a short period. The"
+" energies also restore the powers of all present."
 msgstr ""
 
 #: ppguy02.tra:9
 msgid ""
 "New power gained: \"Focus\"\n"
 "\n"
-"This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without.  For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop.  All minor spells of 1st through 3rd level will also not affect the Bhaalspawn.  This ability is useable once per minute."
+"This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute."
 msgstr ""
 
 #: ppguy02.tra:10
 msgid ""
-"The final pool has been stilled.  The light of the energy column has begun "
-"to ebb.  You have only moments to prepare for what is surely the final "
+"The final pool has been stilled. The light of the energy column has begun to"
+" ebb. You have only moments to prepare for what is surely the final "
 "confrontation..."
 msgstr ""
 
 #: ppguy02.tra:11
 msgid ""
-"Already Melissan begins to stir within the stream of divine energies.  Once "
+"Already Melissan begins to stir within the stream of divine energies. Once "
 "the last pool is stilled, there will be very little time before she reacts."
 msgstr ""
 
@@ -2687,29 +2677,29 @@ msgstr ""
 
 #: sarev25j.tra:263
 msgid ""
-"Even if cared to consider your offer, I cannot.  <CHARNAME> has bound me "
-"with a vow."
+"Even if cared to consider your offer, I cannot. <CHARNAME> has bound me with"
+" a vow."
 msgstr ""
 
 #: sarev25j.tra:264
 msgid ""
-"I see.  And you believe your offer interests me?  <CHARNAME> has done well "
+"I see. And you believe your offer interests me?  <CHARNAME> has done well "
 "enough against you so far."
 msgstr ""
 
 #: sarev25j.tra:265
 msgid ""
-"Serve you?  You made me that offer once, as I recall.  I strung up your "
+"Serve you?  You made me that offer once, as I recall. I strung up your "
 "messenger atop the spires of my tower and allowed the crows to feed upon his"
-" innards.  I desired to rule, not to serve.  And I will not serve you, "
-"wench.  My answer is no."
+" innards. I desired to rule, not to serve. And I will not serve you, wench. "
+"My answer is no."
 msgstr ""
 
 #: sarev25j.tra:266
 msgid ""
-"I tire of <CHARNAME> and <PRO_HISHER> foolish morals.  I tire of tagging "
+"I tire of <CHARNAME> and <PRO_HISHER> foolish morals. I tire of tagging "
 "along as a servant to the one who halted my own plans long before yours came"
-" to fruition, priestess.  Aye... I will be your general."
+" to fruition, priestess. Aye... I will be your general."
 msgstr ""
 
 #: sarev25j.tra:267
@@ -2717,40 +2707,40 @@ msgid "No, Sarevok!  You traitorous bastard!"
 msgstr ""
 
 #: sarev25j.tra:268
-msgid "That is a mistake, Sarevok.  You'll just die along with her this way."
+msgid "That is a mistake, Sarevok. You'll just die along with her this way."
 msgstr ""
 
 #: sarev25j.tra:269
 msgid ""
-"I expected as much.  So I get to kill you again, as well.  It's all good."
+"I expected as much. So I get to kill you again, as well. It's all good."
 msgstr ""
 
 #: sarev25j.tra:270
 msgid ""
-"Become the demon I once was?  I am no longer that man, nor do I wish to be."
-"  If <CHARNAME> has shown me anything, it is that I am better off untouched "
-"by the madness that once swallowed me whole.  Wallow in your delusion if you"
-" will, woman... I remember it well.  And I will not join you in it."
+"Become the demon I once was?  I am no longer that man, nor do I wish to be. "
+"If <CHARNAME> has shown me anything, it is that I am better off untouched by"
+" the madness that once swallowed me whole. Wallow in your delusion if you "
+"will, woman... I remember it well. And I will not join you in it."
 msgstr ""
 
 #: sarev25j.tra:271
 msgid ""
-"My nature has not changed, <CHARNAME>.  Did you truly expect otherwise?  "
+"My nature has not changed, <CHARNAME>. Did you truly expect otherwise?  "
 "Better to fight for Melissan than sit in your shadow and watch you take what"
 " was once mine."
 msgstr ""
 
 #: sarev25j.tra:272
 msgid ""
-"Perhaps.  But I will not sit in your shadow and simply watch you take what "
-"was once mine.  You do not deserve power, <CHARNAME>.  Even if it means "
+"Perhaps. But I will not sit in your shadow and simply watch you take what "
+"was once mine. You do not deserve power, <CHARNAME>. Even if it means "
 "fighting for Melissan, I will do what I must."
 msgstr ""
 
 #: sarev25j.tra:273
 msgid ""
-"A typical boast.  And perhaps you will even win, but I will not sit idly by "
-"as you take what was once mine.  You don't deserve power, <CHARNAME>, and "
+"A typical boast. And perhaps you will even win, but I will not sit idly by "
+"as you take what was once mine. You don't deserve power, <CHARNAME>, and "
 "even if it means fighting for Melissan I will do what I must."
 msgstr ""
 
@@ -2762,16 +2752,16 @@ msgstr ""
 
 #: sarev25j.tra:275
 msgid ""
-"My blade, is it?  I had thought this lost forever.  It is good to have it "
-"back.  While I no longer have the essence to channel through it, it is still"
-" a Deathbringer's weapon and I can restore much of its power.  I would not "
+"My blade, is it?  I had thought this lost forever. It is good to have it "
+"back. While I no longer have the essence to channel through it, it is still "
+"a Deathbringer's weapon and I can restore much of its power. I would not "
 "suggest you attempt to use it yourself, now."
 msgstr ""
 
 #: sarev25j.tra:276
 msgid ""
 "You wouldn't have my armor, too, hidden about somewhere within your packs?  "
-"Hmph.  I suppose some things are too much to hope for."
+"Hmph. I suppose some things are too much to hope for."
 msgstr ""
 
 #: sarev25j.tra:277
@@ -2784,7 +2774,7 @@ msgstr ""
 #: sarev25j.tra:278
 msgid ""
 "Yet I certainly would not have allowed <CHARNAME> to escape from me, had "
-"<PRO_HESHE> been within my power not once but twice, even.  But, then, I "
+"<PRO_HESHE> been within my power not once but twice, even. But, then, I "
 "imagine you were too busy taking control of insane asylums and making "
 "thieves out of vampires for absolutely no reason."
 msgstr ""
@@ -3094,7 +3084,7 @@ msgid ""
 "singing of the valiant ranger, and he was welcomed home as a hero. Minsc "
 "went on to form his own adventuring company, the Justice Fist, striking fear"
 " in the hearts and faces of evil until, in his advancing age, he again set "
-"out across the Realms...  and disappeared. And what of Boo? Well, what is "
+"out across the Realms... and disappeared. And what of Boo? Well, what is "
 "Minsc without Boo? The two would never be separated, and some say they are "
 "together still, up amongst the stars where hamsters are giants and men "
 "become legends."
@@ -3434,24 +3424,23 @@ msgstr ""
 #: solar.tra:230
 msgctxt "SOLAR66"
 msgid ""
-"The one you know as Melissan was never a true member of the Five, godchild."
-"  She is no child of Bhaal."
+"The one you know as Melissan was never a true member of the Five, godchild. "
+"She is no child of Bhaal."
 msgstr ""
 
 #: solar.tra:231
 msgctxt "SOLAR67"
 msgid ""
-"The dead god, Bhaal, has not been resurrected and, indeed, may never be.  "
-"You must understand what awaits you now at the end of your journey, "
-"godchild...  and for this, the one you know as Melissan will explain for "
-"herself."
+"The dead god, Bhaal, has not been resurrected and, indeed, may never be. You"
+" must understand what awaits you now at the end of your journey, godchild..."
+" and for this, the one you know as Melissan will explain for herself."
 msgstr ""
 
 #: solar.tra:239
 msgid ""
 "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides "
-"yourself, god-child.  You are to be commended.  Your journey is nearly at "
-"its end."
+"yourself, god-child. You are to be commended. Your journey is nearly at its "
+"end."
 msgstr ""
 
 #: solar.tra:240
@@ -3462,10 +3451,10 @@ msgstr ""
 
 #: solar.tra:241
 msgid ""
-"You did not need to fight him.  The rest of the Five have been defeated.  "
-"With Balthazar and yourself both alive, not all of Bhaal's divine essence "
-"has returned to its source, and Melissan will seek to collect it.  This is "
-"the challenge that awaits you."
+"You did not need to fight him. The rest of the Five have been defeated. With"
+" Balthazar and yourself both alive, not all of Bhaal's divine essence has "
+"returned to its source, and Melissan will seek to collect it. This is the "
+"challenge that awaits you."
 msgstr ""
 
 #: solar.tra:242
@@ -3480,14 +3469,14 @@ msgstr ""
 
 #: solar.tra:244
 msgid ""
-"So, Melissan seeks to be the last of the Bhaalspawn.  Does she even plan on "
+"So, Melissan seeks to be the last of the Bhaalspawn. Does she even plan on "
 "resurrecting Bhaal?"
 msgstr ""
 
 #: solar.tra:245
-msgid "Another challenge.  Alright, alright... let's just get this over with."
+msgid "Another challenge. Alright, alright... let's just get this over with."
 msgstr ""
 
 #: solar.tra:246
-msgid "You do not yet understand.  But all shall become clear."
+msgid "You do not yet understand. But all shall become clear."
 msgstr ""
