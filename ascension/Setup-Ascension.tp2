@@ -29,9 +29,9 @@ END
 // immediately (e.g., because they contain the translated names of the
 // modules the user will install). 
 ///////////////////////////////////////////////////////////////////////
-LANGUAGE ~American English~    
-         ~american~ 
-         ~ascension/tra/american/setup.tra~
+LANGUAGE ~English~    
+         ~english~ 
+         ~ascension/tra/english/setup.tra~
 
 LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
          ~german~ 
@@ -206,12 +206,12 @@ ADD_JOURNAL @2000 @2001 @2002 @2003 @2004 @2005 @2006 @2007
 
 BEGIN ~Extended Epilogues for Bioware NPCs by shawne~ DESIGNATED 104
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @2 // ToB is required
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) ~This component is currently only available in english language~
+REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) ~This component is currently only available in english language~
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnes.flag~ //Creates install "flag"
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
 
-LOAD_TRA ~ascension/tra/american/shawnesepilogues.tra~
+LOAD_TRA ~ascension/tra/english/shawnesepilogues.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepilogues.tbl~ END
 
@@ -225,7 +225,7 @@ END
 
 BEGIN ~Extended Epilogues for Beamdog NPCs by shawne~ DESIGNATED 105
 REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This component is for BG2:EE or EET only~
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "american" = 0) ~This component is currently only available in english language~
+REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) ~This component is currently only available in english language~
 COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnesEE.flag~ //Creates install "flag"
 
 INCLUDE ~ascension/lib/epilogue_update.tph~
@@ -234,7 +234,7 @@ EXTEND_TOP ~ar6200.bcs~ ~ascension/shawnesEE/baf/eAR6200.baf~
 
 COPY ~ascension/shawnesEE/2da~ ~override~
 
-LOAD_TRA ~ascension/tra/american/shawnesepilogues_ee.tra~
+LOAD_TRA ~ascension/tra/english/shawnesepilogues_ee.tra~
 
 LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepiloguesEE.tbl~ END
 
