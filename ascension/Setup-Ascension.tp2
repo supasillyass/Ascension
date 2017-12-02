@@ -6,15 +6,9 @@
  * Special Note: the last string index in ToB (pre Ascension) is #74107
  *************************************************************************/
 BACKUP ~ascension/backup~
-<<<<<<< HEAD
-//AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv, WhiteAgnus, JediMindTrix"
-AUTHOR "Active Caretaker: please contact JediMindTrix on the Beamdog forums, or on the open discussion forums at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
-=======
-
 // AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv 
 // EE adoption: WhiteAgnus, JediMindTrix at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
 SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
->>>>>>> 97af5d1... cleanups #1
 
 VERSION ~v1.51 BETA BWP 20170519~
 
