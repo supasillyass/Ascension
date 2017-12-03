@@ -1,11 +1,11 @@
-@3 = ~Tougher Abazigal~
-@4 = ~Mocniejszy Demogorgon ( Oryginalny Projekt Bioware )~
-@5 = ~Mocniejszy Gromnir~
-@6 = ~Mocniejszy Illasera~
-@7 = ~Mocniejszy Yaga-Shura~
 @1000 = ~Ascension~
 @1001 = ~You must have ToB installed or use Enhanced Edition to install the Ascension mod.~
 @1002 = ~Cannot install without Ascension main component.~
+@2100 = ~Tougher Abazigal~
+@2200 = ~Mocniejszy Demogorgon ( Oryginalny Projekt Bioware )~
+@2300 = ~Mocniejszy Gromnir~
+@2400 = ~Mocniejszy Illasera~
+@2500 = ~Mocniejszy Yaga-Shura~
 @3010 = ~Ascension Core (wymaga ToB)~
 @3020 = ~Portrety Ascension - Balthazar, autor Cuv ( Alternatywny Projekt )~
 @4000 = ~Przywrocone Moce Bhaala, autor David Gaider~
@@ -14,5 +14,5 @@
 @5200 = ~Rozszerzone Epilogi dla dodatkowych NPC Beamdog, autor shawne~
 @5210 = ~Ten komponent jest obecnie dostêpny tylko dla jêzyka Angielskiego~
 @5220 = ~Ten komponent jest tylko dla BG2:EE lub EET~
-@6000 = ~Zainstaluj tylko Epilogi Ascension~
-@6010 = ~Te Epilogi s¹ zawarte w g³ównym komponencie Ascension~
+@5300 = ~Zainstaluj tylko Epilogi Ascension~
+@5310 = ~Te Epilogi s¹ zawarte w g³ównym komponencie Ascension~
