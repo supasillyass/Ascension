@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-03 09:54+0000\n"
+"PO-Revision-Date: 2017-12-03 10:02+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.17\n"
 
 #: ascension.tra:500
@@ -1409,12 +1410,6 @@ msgstr ""
 " po to by walczyć ze złem to się grubo mylisz."
 
 #: balth.tra:1082
-#, fuzzy
-#| msgid ""
-#| "But regardless of our wishes on the matter, our destiny has been written for"
-#| " us, <CHARNAME>.  Some may run from it or deny it, while others embrace "
-#| "it... but each and every Bhaalspawn has a seed within them that has sprung "
-#| "forth a fruit laden with blood and murder.  Do you deny this?"
 msgid ""
 "But regardless of our wishes on the matter, our destiny has been written for"
 " us, <CHARNAME>. Some may run from it or deny it, while others embrace it..."
@@ -1444,17 +1439,10 @@ msgstr ""
 "przeznaczenia."
 
 #: balth.tra:1086
-#, fuzzy
-#| msgid "I deny nothing.  Death comes for all who stand in my way."
 msgid "I deny nothing. Death comes for all who stand in my way."
-msgstr ""
-"Niczemu nie zaprzeczam. Śmierć czeka na każdego kto wejdzie mi w drogę."
+msgstr "Niczemu nie zaprzeczam. Śmierć czeka na każdego kto wejdzie mi w drogę."
 
 #: balth.tra:1087
-#, fuzzy
-#| msgid ""
-#| "I am death incarnate, fool!  Not some weak fool wrapped in denial like "
-#| "yourself!"
 msgid ""
 "I am death incarnate, fool! Not some weak fool wrapped in denial like "
 "yourself!"
@@ -1463,14 +1451,6 @@ msgstr ""
 "jak ty ją odrzuca!"
 
 #: balth.tra:1088
-#, fuzzy
-#| msgid ""
-#| "I have little doubt that you know whereof I speak.  The taint is strong "
-#| "within you... stronger than any single other spawn of our sire that I have "
-#| "seen.  You have felt the dreams, the urges, have you not?  The chaos that is"
-#| " your destiny has ripped wantonly through your life, regardless of your "
-#| "wishes, has it not?  Do you deny that you bring violence and destruction "
-#| "wherever you go, <CHARNAME>?"
 msgid ""
 "I have little doubt that you know whereof I speak. The taint is strong "
 "within you... stronger than any single other spawn of our sire that I have "
@@ -1487,11 +1467,6 @@ msgstr ""
 "pojawił, <CHARNAME>?"
 
 #: balth.tra:1089
-#, fuzzy
-#| msgid ""
-#| "I am nothing like you.  I exist to fight against the chaos of my taint, to "
-#| "fight against the evil that Bhaal's legacy brings to this world.  I have "
-#| "faced the evil within me and I have mastered it."
 msgid ""
 "I am nothing like you. I exist to fight against the chaos of my taint, to "
 "fight against the evil that Bhaal's legacy brings to this world. I have "
@@ -1502,11 +1477,6 @@ msgstr ""
 "które istnieje we mnie i zapanowałem nad nim."
 
 #: balth.tra:1090
-#, fuzzy
-#| msgid ""
-#| "No.  I have brought my share of death and destruction to this land.  But I "
-#| "see a larger purpose behind it... I seek to end the possibility of Bhaal's "
-#| "return forever, and to wipe his taint from the land."
 msgid ""
 "No. I have brought my share of death and destruction to this land. But I see"
 " a larger purpose behind it... I seek to end the possibility of Bhaal's "
@@ -1517,12 +1487,6 @@ msgstr ""
 "Cel, który na zawsze usunie jego skazę z tych krain."
 
 #: balth.tra:1091
-#, fuzzy
-#| msgid ""
-#| "I have mastered the power within me and held the evil in check, but I know "
-#| "as well... if not better... then most of my brethren the threat that it "
-#| "holds for all of FaerÃ»n.  I will not allow this.  I have dedicated my life "
-#| "to preventing it."
 msgid ""
 "I have mastered the power within me and held the evil in check, but I know "
 "as well... if not better... then most of my brethren the threat that it "
@@ -1535,13 +1499,6 @@ msgstr ""
 "życie by temu zapobiec."
 
 #: balth.tra:1092
-#, fuzzy
-#| msgid ""
-#| "If only we had met under other circumstances, <CHARNAME>...I would have "
-#| "liked to sit and compare the paths that have brought us to this point.  If "
-#| "we had not been forced by destiny to bear this taint upon our souls, what "
-#| "would have become of us?  I regret what I must do, yet I know it must be "
-#| "done."
 msgid ""
 "If only we had met under other circumstances, <CHARNAME>...I would have "
 "liked to sit and compare the paths that have brought us to this point. If we"
@@ -1556,21 +1513,14 @@ msgstr ""
 "zrobione."
 
 #: balth.tra:1093
-#, fuzzy
-#| msgid ""
-#| "And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
-#| " her plans?"
 msgid ""
 "And what becomes of Melissan, then? Is she free to raise Bhaal and complete "
 "her plans?"
 msgstr ""
-"A co zatem z Melissaną? Czy nie będzie wolna by przywrócić Bhaala do życia i"
-" zakończyć swe plany?"
+"A co zatem z Melissaną? Czy nie będzie wolna by przywrócić Bhaala do życia i "
+"zakończyć swe plany?"
 
 #: balth.tra:1094
-#, fuzzy
-#| msgid ""
-#| "You don't have to do this, Balthazar.  We don't have to fight each other."
 msgid ""
 "You don't have to do this, Balthazar. We don't have to fight each other."
 msgstr "Nie musisz tego robić, Balthazar. Nie musimy ze sobą walczyć."
@@ -1582,16 +1532,10 @@ msgid ""
 msgstr "Chyba nie myślisz, że jesteś tak naprawdę siłą prawości, co nie?"
 
 #: balth.tra:1096
-#, fuzzy
-#| msgid "Enough talk, then.  Let's get this over with."
 msgid "Enough talk, then. Let's get this over with."
 msgstr "Zatem dość gadania. Kończmy już z tym."
 
 #: balth.tra:1097
-#, fuzzy
-#| msgid ""
-#| "Of course not.  It is she that holds the key to Bhaal's resurrection.  After"
-#| " you are dead, she too must be destroyed."
 msgid ""
 "Of course not. It is she that holds the key to Bhaal's resurrection. After "
 "you are dead, she too must be destroyed."
@@ -1600,52 +1544,33 @@ msgstr ""
 "twojej śmierci, ona także zostanie zniszczona."
 
 #: balth.tra:1098
-#, fuzzy
-#| msgid ""
-#| "Then we should fight her together!  How do you know she still can't summon "
-#| "Bhaal... everything you've fought for will be for nothing!"
 msgid ""
 "Then we should fight her together! How do you know she still can't summon "
 "Bhaal... everything you've fought for will be for nothing!"
 msgstr ""
-"Zatem będziemy z nią walczyć razem! Skąd możesz wiedzieć, że nie może wezwać"
-" Bhaala... wszystko o co walczysz może pójść na marne!"
+"Zatem będziemy z nią walczyć razem! Skąd możesz wiedzieć, że nie może wezwać "
+"Bhaala... wszystko o co walczysz może pójść na marne!"
 
 #: balth.tra:1099
-#, fuzzy
-#| msgid ""
-#| "And you're going to stop her alone?  Have you given any thought to the fact "
-#| "that maybe you've been helping her all along, that she's been playing you "
-#| "like a harp?"
 msgid ""
 "And you're going to stop her alone? Have you given any thought to the fact "
 "that maybe you've been helping her all along, that she's been playing you "
 "like a harp?"
 msgstr ""
-"I zamierzasz sam ją powstrzymać?  Czy przemyślałeś fakt, że możesz być tylko"
-" marionetką, a to ona pociąga za wszystkie sznurki?"
+"I zamierzasz sam ją powstrzymać? Czy przemyślałeś fakt, że możesz być tylko "
+"marionetką, a to ona pociąga za wszystkie sznurki?"
 
 #: balth.tra:1100
-#, fuzzy
-#| msgid ""
-#| "Yet another death added to your tally?  And what then, once you kill her?  "
-#| "Once you have all that power and it's yours alone... you think you're going "
-#| "to resist that?"
 msgid ""
 "Yet another death added to your tally? And what then, once you kill her? "
 "Once you have all that power and it's yours alone... you think you're going "
 "to resist that?"
 msgstr ""
-"Kolejna śmierć na twoim koncie?  A co jak już ją zabijesz? Co kiedy będziesz"
-" miał całą tę moc i będzie tylko twoja... myślisz, że będziesz w stanie się "
+"Kolejna śmierć na twoim koncie? A co jak już ją zabijesz? Co kiedy będziesz "
+"miał całą tę moc i będzie tylko twoja... myślisz, że będziesz w stanie się "
 "temu oprzeć?"
 
 #: balth.tra:1101
-#, fuzzy
-#| msgid ""
-#| "What makes you think you could kill her?  I'm the one that has defeated all "
-#| "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
-#| "making the peasants miserable."
 msgid ""
 "What makes you think you could kill her? I'm the one that has defeated all "
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
@@ -1656,11 +1581,6 @@ msgstr ""
 "jak wieśniacy cierpią."
 
 #: balth.tra:1102
-#, fuzzy
-#| msgid ""
-#| "I thought you were going to kill yourself after I was dead.  Sure you won't "
-#| "see some more evil once Melissan is dead, too?  You'd probably make a "
-#| "promising Lord of Murder, you know..."
 msgid ""
 "I thought you were going to kill yourself after I was dead. Sure you won't "
 "see some more evil once Melissan is dead, too? You'd probably make a "
@@ -1671,9 +1591,6 @@ msgstr ""
 "Prawdopodobnie będziesz dobrze zapowiadającym się Panem Mordu, wiesz..."
 
 #: balth.tra:1103
-#, fuzzy
-#| msgid ""
-#| "Forget it.  This is pointless.  Let's just get this over with."
 msgid "Forget it. This is pointless. Let's just get this over with."
 msgstr "Zapomnij o tym. To jest bezcelowe. Kończmy już z tym."
 
@@ -1682,26 +1599,16 @@ msgid "Fight her together?"
 msgstr "Walczyć z nią razem?"
 
 #: balth.tra:1105
-#, fuzzy
-#| msgid ""
-#| "No.  How could I trust you?  What if we were to vanquish Melissan, I would "
-#| "be weakened... you could end my life there and everything I have been "
-#| "working towards will be for nothing."
 msgid ""
 "No. How could I trust you? What if we were to vanquish Melissan, I would be "
 "weakened... you could end my life there and everything I have been working "
 "towards will be for nothing."
 msgstr ""
-"Nie. Jak mógłbym ci zaufać? Co jeżeli zwyciężylibyśmy Melissanę, a ja byłbym"
-" osłabiony... mógłbyś łatwo zakończyć moje życie i wszystko o co walczyłem "
+"Nie. Jak mógłbym ci zaufać? Co jeżeli zwyciężylibyśmy Melissanę, a ja byłbym "
+"osłabiony... mógłbyś łatwo zakończyć moje życie i wszystko o co walczyłem "
 "poszło by na marne."
 
 #: balth.tra:1106
-#, fuzzy
-#| msgid ""
-#| "I had thought when this moment arrived, I would hold clearly to my purpose."
-#| "  We must... end this, <CHARNAME>.  I wish this to be over with, one way or "
-#| "the other."
 msgid ""
 "I had thought when this moment arrived, I would hold clearly to my purpose. "
 "We must... end this, <CHARNAME>. I wish this to be over with, one way or the"
@@ -1711,19 +1618,11 @@ msgstr ""
 "Musimy... zakończyć to, <CHARNAME>. Chciałbym, aby był jakiś inny sposób."
 
 #: balth.tra:1107
-#, fuzzy
-#| msgid ""
-#| "Alright, Balthazar.  If that's what you want... let's end this now."
 msgid "Alright, Balthazar. If that's what you want... let's end this now."
 msgstr ""
 "W porządku, Balthazar. Jeśli naprawdę tego chcesz... skończmy już z tym."
 
 #: balth.tra:1108
-#, fuzzy
-#| msgid ""
-#| "I am at a loss, <CHARNAME>.  You question me, and I have no good answers for"
-#| " you.  My heart tells me that you must be killed, but I am not sure if I "
-#| "should listen to it.  What... what would you have me do?"
 msgid ""
 "I am at a loss, <CHARNAME>. You question me, and I have no good answers for "
 "you. My heart tells me that you must be killed, but I am not sure if I "
@@ -1734,10 +1633,6 @@ msgstr ""
 "czy powinienem go posłuchać. Co... co chcesz bym zrobił?"
 
 #: balth.tra:1109
-#, fuzzy
-#| msgid ""
-#| "Join me, Balthazar.  Let us fight Melissan together, instead of doing what "
-#| "she wants us to."
 msgid ""
 "Join me, Balthazar. Let us fight Melissan together, instead of doing what "
 "she wants us to."
@@ -1746,28 +1641,19 @@ msgstr ""
 "ona chce."
 
 #: balth.tra:1110
-#, fuzzy
-#| msgid "I don't know, Balthazar.  But I don't want to fight you."
 msgid "I don't know, Balthazar. But I don't want to fight you."
 msgstr "Nie wiem, Balthazar. Ale nie chcę z tobą walczyć."
 
 #: balth.tra:1111
-#, fuzzy
-#| msgid ""
-#| "Let us fight, then, if it must be.  Let me give you some peace at last."
 msgid "Let us fight, then, if it must be. Let me give you some peace at last."
 msgstr "Walczmy zatem, jeśli tak ma być. Daj mi spokój, na który zasłużyłem."
 
 #: balth.tra:1112
-#, fuzzy
-#| msgid ""
-#| "You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
-#| "have an appointment with god-hood."
 msgid ""
 "You're a weaker fool then I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
 msgstr ""
-"Jesteś słabszym głupcem niż mi się wydawało. Zakończmy to już, dobrze? Mam "
+"Jesteś większym głupcem niż mi się wydawało. Zakończmy to już, dobrze? Mam "
 "umówione spotkanie z pewną wiedźmą."
 
 #: balth.tra:1113
@@ -1775,11 +1661,6 @@ msgid "Yes... you are right."
 msgstr "Tak... masz rację."
 
 #: balth.tra:1114
-#, fuzzy
-#| msgid ""
-#| "Very well, then, <CHARNAME>.  I will join you.  You are a worthy "
-#| "<PRO_MANWOMAN>.  Perhaps even worthy of turning Bhaal's dark taint and "
-#| "making something better of it.  I do not know.  But I will take that chance."
 msgid ""
 "Very well, then, <CHARNAME>. I will join you. You are a worthy "
 "<PRO_MANWOMAN>. Perhaps even worthy of turning Bhaal's dark taint and making"
