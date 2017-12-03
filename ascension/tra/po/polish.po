@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-03 14:08+0000\n"
+"PO-Revision-Date: 2017-12-03 18:22+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.17\n"
 
 #: ascension.tra:500
@@ -384,40 +385,36 @@ msgstr ""
 "Najprawdopodobniej wywarzona przez samą Sendai, ta niesamowita mikstura leczenia jest w stanie całkowicie uleczyć tego kto ją użyje."
 
 #: ascension.tra:82729
-#, fuzzy
-#| msgid ""
-#| "Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.\n"
-#| "What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever. Viconia was never reported seen again."
 msgid ""
 "Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.\n"
 "What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever. Viconia was never reported seen again..."
 msgstr ""
-"Opuściwszy drużynę, której przewodził<PRO_HESHE> <CHARNAME>, Viconia jeszcze"
-" długo podróżowała. Nadal spotykała się z ignorancją i nienawiścią do jej "
+"Opuściwszy drużynę, której przewodził<PRO_HESHE> <CHARNAME>, Viconia jeszcze "
+"długo podróżowała. Nadal spotykała się z ignorancją i nienawiścią do jej "
 "rasy, ale Viconia była teraz zdeterminowana bardziej niż kiedykolwiek by "
 "wyodrębnić się od spuścizny mrocznych elfów. Odwiedziła najgłębsze sfery "
-"otchłani kiedy walczyła ramię w ramię z Dzieckiem Bhaala o imieniu "
-"<CHARNAME>, które uzyskało rangę boskości... i nie chciała ukrywać już "
-"dłużej swej twarzy przed zewnętrznym światem. Nawet kiedy Shar, jej bogini "
-"ciemności i utraty, zupełnie ją opuściła Viconia pozostała nieugięta. "
-"Opowieści o niej rosły wraz z jednej krainy do następnej... często stała się"
-" ich wybawicielką, tylko po to by być wygnaną przez strach i podejrzenia. "
-"Mimo to Viconia nadal podróżowała, odrzucając towarzystwa innych "
-"podróżowników i poszukiwaczy przygód i nigdy nie znalazła miejsca, które "
-"mogła by nazwać domem. Jej przeznaczenie należało do niej, chciała więc "
-"odnaleźć je na jej własnych warunkach. Co się ostatecznie wydarzyło z "
-"Viconią pozostaje nieznanym. Jej największa legenda jest również najbardziej"
-" nieprawdopodobna, chociaż jej wytrwałość nadaje jej nieco wiary. Mówi się, "
-"że Viconia ocaliła elfie miasto Suldanessalar przed spiskiem Zhentarimów, "
-"walcząc dzielnie z agentami tej organizacji... ostatecznie zaś stanęła na "
-"drodze śmiertelnej strzały ratując przed nią królową Ellesime. Po jej "
-"wskrzeszeniu Viconia odkryła, że ten ostatni czyn sprawił, że efly "
-"postanowiły ją zaakceptować i przebaczyć swej mrocznej siostrze. Królowa "
-"Ellesime obdarzyła ją największymi honorami Seldarine, zaszczytem, którego "
-"nigdy wcześniej nie dostąpił żaden mroczny elf i poprosiła ją o uznanie "
-"Drzewa Życia za swój dom. Według opowieści, Viconia podobno skłoniła się, "
-"nie okazawszy żadnych śladów uczuć, po czym oddaliła się w nieznanym "
-"kierunku. Jej los pozostaje niewiadomą."
+"otchłani kiedy walczyła ramię w ramię z Dzieckiem Bhaala o imieniu <CHARNAME>"
+", które uzyskało rangę boskości... i nie chciała ukrywać już dłużej swej "
+"twarzy przed zewnętrznym światem. Nawet kiedy Shar, jej bogini ciemności i "
+"utraty, zupełnie ją opuściła Viconia pozostała nieugięta. Opowieści o niej "
+"rosły wraz z jednej krainy do następnej... często stała się ich "
+"wybawicielką, tylko po to by być wygnaną przez strach i podejrzenia. Mimo to "
+"Viconia nadal podróżowała, odrzucając towarzystwa innych podróżników i "
+"poszukiwaczy przygód i nigdy nie znalazła miejsca, które mogła by nazwać "
+"domem. Jej przeznaczenie należało do niej, chciała więc odnaleźć je na jej "
+"własnych warunkach. Co się ostatecznie wydarzyło z Viconią pozostaje "
+"nieznanym. Jej największa legenda jest również najbardziej nieprawdopodobna, "
+"chociaż jej wytrwałość nadaje jej nieco wiary. Mówi się, że Viconia ocaliła "
+"elfie miasto Suldanessalar przed spiskiem Zhentarimów, walcząc dzielnie z "
+"agentami tej organizacji... ostatecznie zaś stanęła na drodze śmiertelnej "
+"strzały ratując przed nią królową Ellesime. Po jej wskrzeszeniu Viconia "
+"odkryła, że ten ostatni czyn sprawił, że elfy postanowiły ją zaakceptować i "
+"przebaczyć swej mrocznej siostrze. Królowa Ellesime obdarzyła ją "
+"największymi honorami Seldarine, zaszczytem, którego nigdy wcześniej nie "
+"dostąpił żaden mroczny elf i poprosiła ją o uznanie Drzewa Życia za swój "
+"dom. Według opowieści, Viconia podobno skłoniła się, nie okazawszy żadnych "
+"śladów uczuć, po czym oddaliła się w nieznanym kierunku. Viconia nigdy nie "
+"została widziana ponownie ..."
 
 #: ascension.tra:82732
 msgid ""
@@ -2634,10 +2631,6 @@ msgstr ""
 "otrzymasz to czego naprawdę pragniesz, duszę."
 
 #: finbodh.tra:55
-#, fuzzy
-#| msgid ""
-#| "I have changed since our last encounter, Bodhi.  I am above you and your "
-#| "pitiful games.  They bore me and I shall put an end to them!"
 msgid ""
 "I have changed since our last encounter, Bodhi. I am above you and your "
 "pitiful games. They bore me and I shall put an end to them!"
@@ -2646,25 +2639,16 @@ msgstr ""
 "twoje żałosne gierki. Nudzi mnie już to i zamierzam położyć temu kres!"
 
 #: finbodh.tra:56
-#, fuzzy
-#| msgid ""
-#| "So much talk from your brother, Bodhi, yet actions speak louder than words."
-#| "  How many deaths has your brother granted me?  Do you truly believe you can"
-#| " win?  Take the portion of soul I offer and live again."
 msgid ""
 "So much talk from your brother, Bodhi, yet actions speak louder than words. "
 "How many deaths has your brother granted me? Do you truly believe you can "
 "win? Take the portion of soul I offer and live again."
 msgstr ""
-"Tak wiele słów płynie z ust twego brata, Bodhi, ale czyny mówią głośniej niż"
-" słowa. Jak wiele razy twój brat zapewniał cię o mojej śmierci? Czy naprawdę"
-" wierzysz, że możesz wygrać? Weź cząstkę mej duszy i powstań zza grobu."
+"Tak wiele słów płynie z ust twego brata, Bodhi, ale czyny mówią głośniej niż "
+"słowa. Jak wiele razy twój brat zapewniał cię o mojej śmierci? Czy naprawdę "
+"wierzysz, że możesz wygrać? Weź cząstkę mej duszy i powstań zza grobu."
 
 #: finbodh.tra:57
-#, fuzzy
-#| msgid ""
-#| "Such a delicious offer you make... though I must wonder if you are telling "
-#| "the truth.  Are my chances of survival really any better with you...?"
 msgid ""
 "Such a delicious offer you make... though I must wonder if you are telling "
 "the truth. Are my chances of survival really any better with you...?"
@@ -2673,11 +2657,6 @@ msgstr ""
 "mówisz prawdę. Czy mam większe szansę na przeżycie u twego boku...?"
 
 #: finbodh.tra:58
-#, fuzzy
-#| msgid ""
-#| "So <CHARNAME>, the creature of darkness that rests within you has also "
-#| "stolen your wit.  Such a shame for one with the divine essence.  It will "
-#| "almost be a mercy to end your existence."
 msgid ""
 "So <CHARNAME>, the creature of darkness that rests within you has also "
 "stolen your wit. Such a shame for one with the divine essence. It will "
@@ -2688,34 +2667,20 @@ msgstr ""
 "prawie litość móc zakończyć twój żywot."
 
 #: finbodh.tra:59
-#, fuzzy
-#| msgid ""
-#| "An opportunity to feast on the blood of a God, and yet you think I will "
-#| "stand aside?  (chuckle)  You know me no better than my dear brother here."
 msgid ""
 "An opportunity to feast on the blood of a God, and yet you think I will "
 "stand aside? (chuckle) You know me no better than my dear brother here."
 msgstr ""
-"Mam okazję zakosztować boskiej krwii, a ty nadal myślisz, że tego nie "
-"zrobię? (chichocze) Nie znasz mnie lepiej niż mój brat."
+"Mam okazję zakosztować boskiej krwi, a ty nadal myślisz, że tego nie zrobię? "
+"(chichocze) Nie znasz mnie lepiej niż mój brat."
 
 #: finbodh.tra:60
-#, fuzzy
-#| msgid ""
-#| "Nor would I care to.  Soon enough you will return to the torment you "
-#| "deserve."
 msgid ""
 "Nor would I care to. Soon enough you will return to the torment you deserve."
 msgstr ""
 "Nie obchodzi mnie to. Wkrótce powrócisz do udręki, na którą zasługujesz."
 
 #: finbodh.tra:61
-#, fuzzy
-#| msgid ""
-#| "Well, well, well... if the Child of Bhaal hasn't gone and found "
-#| "<PRO_HIMHER>self a sense of humour.  Did <PRO_HESHE> dig it up all by "
-#| "<PRO_HIMHER>self, dear brother, or did you implant it in <PRO_HIMHER> in one"
-#| " of your more bizarre experiments?"
 msgid ""
 "Well, well, well... if the Child of Bhaal hasn't gone and found "
 "<PRO_HIMHER>self a sense of humour. Did <PRO_HESHE> dig it up all by "
@@ -2727,24 +2692,15 @@ msgstr ""
 "eksperymentów?"
 
 #: finbodh.tra:62
-#, fuzzy
-#| msgid ""
-#| "I see you are now more Slayer than <PRO_MANWOMAN>.  How dull.  You provided "
-#| "such small amusement last time, I doubt that this will be different."
 msgid ""
 "I see you are now more Slayer than <PRO_MANWOMAN>. How dull. You provided "
 "such small amusement last time, I doubt that this will be different."
 msgstr ""
-"Widzę, że jesteś teraz większym Zabójcą niż kiedykolwiek, <CHARNAME>. Jakież"
-" to nudne. Dostarczyłeś mi niewiele zabawy ostatnim razem, wątpię aby tym "
+"Widzę, że jesteś teraz większym Zabójcą niż kiedykolwiek, <CHARNAME>. Jakież "
+"to nudne. Dostarczyłeś mi niewiele zabawy ostatnim razem, wątpię aby tym "
 "razem było inaczej."
 
 #: finbodh.tra:63
-#, fuzzy
-#| msgid ""
-#| "No, <CHARNAME>.  Sadly, I do not think we are destined to work together "
-#| "again.  I am content to fight by my brother and revel in your blood and that"
-#| " of those that follow at your heel."
 msgid ""
 "No, <CHARNAME>. Sadly, I do not think we are destined to work together "
 "again. I am content to fight by my brother and revel in your blood and that "
@@ -2755,11 +2711,6 @@ msgstr ""
 "się twoją krwią i krwią tych, którzy słuchają twych rozkazów."
 
 #: finbodh.tra:64
-#, fuzzy
-#| msgid ""
-#| "Oh Child of Bhaal, such a game you play.  You think to trick me, but I shall"
-#| " not be fooled so easily.  I know you to be ever so desperate to do 'good' "
-#| "and this would not bode well for me.  No, this ends here."
 msgid ""
 "Oh Child of Bhaal, such a game you play. You think to trick me, but I shall "
 "not be fooled so easily. I know you to be ever so desperate to do 'good' and"
@@ -2771,11 +2722,6 @@ msgstr ""
 "musimy zakończyć tutaj."
 
 #: finbodh.tra:65
-#, fuzzy
-#| msgid ""
-#| "Oh Child of Bhaal, such a game you play.  I fight with my 'dear' brother for"
-#| " your soul, yet you would offer it willingly?  Promise me a piece of your "
-#| "essence and I will join you... for now."
 msgid ""
 "Oh Child of Bhaal, such a game you play. I fight with my 'dear' brother for "
 "your soul, yet you would offer it willingly? Promise me a piece of your "
@@ -2802,26 +2748,18 @@ msgstr ""
 "esencji."
 
 #: finbodh.tra:68
-#, fuzzy
-#| msgid ""
-#| "Actually Bodhi, I have changed my mind.  I enjoy watching you die too much, "
-#| "to pass up an opportunity to see it again."
 msgid ""
 "Actually Bodhi, I have changed my mind. I enjoy watching you die too much, "
 "to pass up an opportunity to see it again."
 msgstr ""
-"Właściwie Bodhi, to zmieniłem zdanie. Dobrze się bawiłem widząc jak umierasz"
-" i nie mogę ominąć okazji by znów to zobaczyć."
+"Właściwie Bodhi, to zmieniłem zdanie. Dobrze się bawiłem widząc jak umierasz "
+"i nie mogę ominąć okazji by znów to zobaczyć."
 
 #: finbodh.tra:69
 msgid "Bodhi, when this is over, I swear that you will be fittingly rewarded."
 msgstr "Bodhi, kiedy to się skończy, przysięgam, że zostaniesz wynagrodzona."
 
 #: finbodh.tra:70
-#, fuzzy
-#| msgid ""
-#| "Pray that you hold to your word, failure to do so would be... unpleasant for"
-#| " you.  Now to finalize matters..."
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you. Now to finalize matters..."
@@ -2830,12 +2768,6 @@ msgstr ""
 "będzie ci miło. Teraz zakończmy nasze sprawy..."
 
 #: finbodh.tra:71
-#, fuzzy
-#| msgid ""
-#| "No, <CHARNAME>.  Sadly, I do not think we are destined to work together "
-#| "again.  Despite the attractiveness of what you offer, your words ring more "
-#| "hollow than my brother's.  Far better to rip your soul from your living "
-#| "breast than beg for it at your side."
 msgid ""
 "No, <CHARNAME>. Sadly, I do not think we are destined to work together "
 "again. Despite the attractiveness of what you offer, your words ring more "
@@ -2848,11 +2780,6 @@ msgstr ""
 "from your living breast than beg for it at your side."
 
 #: finbodh.tra:72
-#, fuzzy
-#| msgid ""
-#| "I require satisfaction before the Child of Bhaal makes any sort of decision,"
-#| " creature.  Both my brother and this... Melissan, lie dead.  Your hunt has "
-#| "been delightfully successful, <CHARNAME>."
 msgid ""
 "I require satisfaction before the Child of Bhaal makes any sort of decision,"
 " creature. Both my brother and this... Melissan, lie dead. Your hunt has "
@@ -2863,12 +2790,6 @@ msgstr ""
 "uznać za zakończone, <CHARNAME>."
 
 #: finbodh.tra:73
-#, fuzzy
-#| msgid ""
-#| "But do not forget our deal.  I am impatient for the piece of your soul you "
-#| "promised me.  I have enjoyed our dance Child of Bhaal, but I tire of this "
-#| "place.  Give me what I want so I may leave... we need not meet each other "
-#| "again, unless you wish it."
 msgid ""
 "But do not forget our deal. I am impatient for the piece of your soul you "
 "promised me. I have enjoyed our dance Child of Bhaal, but I tire of this "
@@ -2881,10 +2802,6 @@ msgstr ""
 "już więcej, chyba że będziesz tego chciał."
 
 #: finbodh.tra:74
-#, fuzzy
-#| msgid ""
-#| "It was a pleasure to have you fight by my side, Bodhi.  You have earned this"
-#| " reward."
 msgid ""
 "It was a pleasure to have you fight by my side, Bodhi. You have earned this "
 "reward."
@@ -2893,35 +2810,23 @@ msgstr ""
 "nagrodę."
 
 #: finbodh.tra:75
-#, fuzzy
-#| msgid ""
-#| "You shall have nothing.  Your use to me is at an end.  I shall enjoy sending"
-#| " you screaming back into the abyss."
 msgid ""
 "You shall have nothing. Your use to me is at an end. I shall enjoy sending "
 "you screaming back into the abyss."
 msgstr ""
-"Nie otrzymasz nic. Twoja użyteczność dla mnie dobiegła końca. Z zadowoleniem"
-" będę słuchał<PRO_HESHE> twoich krzyków, gdy zostaniesz ponownie wciągnięta "
-"w otchłań."
+"Nie otrzymasz nic. Twoja użyteczność dla mnie dobiegła końca. Z zadowoleniem "
+"będę słuchał<PRO_HESHE> twoich krzyków, gdy zostaniesz ponownie wciągnięta w "
+"otchłań."
 
 #: finbodh.tra:76
-#, fuzzy
-#| msgid ""
-#| "Hmmm, I could kill you... no, I have better things to do.  Take these scraps"
-#| " of my essence and depart."
 msgid ""
 "Hmmm, I could kill you... no, I have better things to do. Take these scraps "
 "of my essence and depart."
 msgstr ""
-"Hmmm, mógłbym cię zabić... nie, mam ważniejsze sprawy na głowie. Weź cząstkę"
-" mojej esencji i oddal się."
+"Hmmm, mógłbym cię zabić... nie, mam ważniejsze sprawy na głowie. Weź cząstkę "
+"mojej esencji i oddal się."
 
 #: finbodh.tra:77
-#, fuzzy
-#| msgid ""
-#| "No Bodhi, I think I will keep all of my soul.  You will fall back into the "
-#| "abyss.  Give Bhaal my regards."
 msgid ""
 "No Bodhi, I think I will keep all of my soul. You will fall back into the "
 "abyss. Give Bhaal my regards."
@@ -2930,11 +2835,6 @@ msgstr ""
 "otchłań. Przekaż Bhaalowi moje pozdrowienia."
 
 #: finbodh.tra:78
-#, fuzzy
-#| msgid ""
-#| "Fool!  You think to betray me, Child of Bhaal?  I refuse to return to the "
-#| "abyss.  I shall rip every shred of that soul from your body!  Let the dance "
-#| "end here!"
 msgid ""
 "Fool! You think to betray me, Child of Bhaal? I refuse to return to the "
 "abyss. I shall rip every shred of that soul from your body! Let the dance "
@@ -2945,10 +2845,6 @@ msgstr ""
 "i teraz!"
 
 #: finbodh.tra:79
-#, fuzzy
-#| msgid ""
-#| "This is my realm, Bodhi.  I control everything here.  It is time for you to "
-#| "join your brother."
 msgid ""
 "This is my realm, Bodhi. I control everything here. It is time for you to "
 "join your brother."
@@ -2957,28 +2853,18 @@ msgstr ""
 "Czas byś dołączyła do swego brata."
 
 #: finbodh.tra:80
-#, fuzzy
-#| msgid ""
-#| "Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
-#| "it."
 msgid ""
 "Enough talk! The dance has come to an end, Bodhi, and so has your part in "
 "it."
 msgstr ""
-"Dość gadania! Twój taniec dobiegł końca, Bodhi, a także twój udział w naszej"
-" grze."
+"Dość gadania! Twój taniec dobiegł końca, Bodhi, a także twój udział w naszej "
+"grze."
 
 #: finbodh.tra:81
-#, fuzzy
-#| msgid "Die!  Witness my power, insect!"
 msgid "Die! Witness my power, insect!"
 msgstr "Giń! Poczuj mą moc, insekcie!"
 
 #: finbodh.tra:82
-#, fuzzy
-#| msgid ""
-#| "Oh Bodhi, you should have begged.  I would have liked to see that.  Too late"
-#| " now."
 msgid ""
 "Oh Bodhi, you should have begged. I would have liked to see that. Too late "
 "now."
@@ -2987,10 +2873,6 @@ msgstr ""
 "niestety jest na to za późno."
 
 #: finbodh.tra:83
-#, fuzzy
-#| msgid ""
-#| "So you have betrayed me, <CHARNAME>.  It would seem that working together "
-#| "was never our true calling."
 msgid ""
 "So you have betrayed me, <CHARNAME>. It would seem that working together was"
 " never our true calling."
@@ -2999,11 +2881,6 @@ msgstr ""
 "była naszym prawdziwym powołaniem."
 
 #: finbodh.tra:84
-#, fuzzy
-#| msgid ""
-#| "Ahhhhh, such feeling.  I feel the life flow through me!  Such a gift you "
-#| "carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
-#| "divine!"
 msgid ""
 "Ahhhhh, such feeling. I feel the life flow through me! Such a gift you carry"
 " Child of Bhaal... such power... such strength. Oh this is simply divine!"
@@ -3012,24 +2889,14 @@ msgstr ""
 "w sobie Dziecię Bhaala... taką moc... taką siłę. To po prostu jest boskie!"
 
 #: finbodh.tra:85
-#, fuzzy
-#| msgid ""
-#| "Such an ungrateful <PRO_MANWOMAN> you are.  Still, I have life once more, "
-#| "and I intend to enjoy it.  Perhaps the wizards of Spellhold still wish to "
-#| "play?"
 msgid ""
 "Such an ungrateful <PRO_MANWOMAN> you are. Still, I have life once more, and"
 " I intend to enjoy it. Perhaps the wizards of Spellhold still wish to play?"
 msgstr ""
-"Cóż z ciebie, za niewdzięcznik. Mimo wszystko znów jestem żywa i zamierzam z"
-" tego korzystać. Być może czarodzieje w Czarowięzach wciąż chcą się bawić?"
+"Cóż z ciebie, za niewdzięcznik. Mimo wszystko znów jestem żywa i zamierzam z "
+"tego korzystać. Być może czarodzieje w Czarowięzach wciąż chcą się bawić?"
 
 #: finbodh.tra:86
-#, fuzzy
-#| msgid ""
-#| "Well, Child of Bhaal, it would seem that our time together is at an end.  I "
-#| "shall enjoy carrying this piece of you with me.  Perhaps we shall meet "
-#| "again, you and I..."
 msgid ""
 "Well, Child of Bhaal, it would seem that our time together is at an end. I "
 "shall enjoy carrying this piece of you with me. Perhaps we shall meet again,"
@@ -3040,12 +2907,6 @@ msgstr ""
 "ty i ja..."
 
 #: finbodh.tra:87
-#, fuzzy
-#| msgid ""
-#| "Now, now, <CHARNAME>...there is no need to look at me so.  A tiny piece of "
-#| "your soul would give me all I require and more.  Decide quickly, for I doubt"
-#| " my dear brother will be content with merely withering me with his own "
-#| "delightfully evil glare."
 msgid ""
 "Now, now, <CHARNAME>...there is no need to look at me so. A tiny piece of "
 "your soul would give me all I require and more. Decide quickly, for I doubt "
@@ -3056,11 +2917,6 @@ msgstr ""
 "mi wszystko czego potrzebuję, a nawet więcej. Zdecyduj szybko, <CHARNAME>."
 
 #: finbodh.tra:88
-#, fuzzy
-#| msgid ""
-#| "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
-#| " no idea.  I shall be pleased to know that you both die again just as you "
-#| "lived: without a single redeeming or worthwhile quality."
 msgid ""
 "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
 " no idea. I shall be pleased to know that you both die again just as you "
@@ -3070,10 +2926,6 @@ msgstr ""
 "propozycją, Bodhi. Będę zadowolony widząc jak oboje giniecie."
 
 #: finbodh.tra:89
-#, fuzzy
-#| msgid ""
-#| "Pray that you hold to your word, failure to do so would be... unpleasant for"
-#| " you.  Now to finalize matters...."
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you. Now to finalize matters...."
@@ -3082,11 +2934,6 @@ msgstr ""
 "razie będę... bardzo niemiła. A teraz czas bym dotrzymała swojego słowa...."
 
 #: finbodh.tra:90
-#, fuzzy
-#| msgid ""
-#| "No, <CHARNAME>.  Despite the attractiveness of what you offer, your words "
-#| "ring more hollow than my brother's.  Far better to rip your soul from your "
-#| "living breast than beg for it at your side."
 msgid ""
 "No, <CHARNAME>. Despite the attractiveness of what you offer, your words "
 "ring more hollow than my brother's. Far better to rip your soul from your "
@@ -3117,30 +2964,20 @@ msgid ""
 msgstr ""
 
 #: finmel01.tra:591
-#, fuzzy
-#| msgid ""
-#| "You don't have all the essence of Bhaal... not by far.  And I rule here, as "
-#| "well... you know that."
 msgid ""
 "You don't have all the essence of Bhaal... not by far. And I rule here, as "
 "well... you know that."
-msgstr ""
-"Nie posiadasz całej esencji Bhaala... i nie rządzisz tym miejscem sama."
+msgstr "Nie posiadasz całej esencji Bhaala... i nie rządzisz tym miejscem sama."
 
 #: finmel01.tra:592
-#, fuzzy
-#| msgid ""
-#| "You should have remained true to Bhaal, Melissan.  Only he could have saved "
-#| "you now."
 msgid ""
 "You should have remained true to Bhaal, Melissan. Only he could have saved "
 "you now."
 msgstr ""
-"Trzeba było pozostać wierną Bhaalowi... tylko on mógłby cię teraz uratować!"
+"Trzeba było pozostać wierną Bhaalowi, Melissano. Tylko on mógłby cię teraz "
+"uratować."
 
 #: finmel01.tra:594
-#, fuzzy
-#| msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
 msgid "Yeah, well, I suppose everyone has a dream. Psycho."
 msgstr "Taa, chyba każdy ma jakieś marzenia. Psychopatko."
 
@@ -3225,35 +3062,23 @@ msgstr ""
 "znajduje się w twojej młodej duszyczce, hmm?"
 
 #: finmel01.tra:610
-#, fuzzy
-#| msgid ""
-#| "It seems you've misplaced your darling little Imoen, haven't you?  But her "
-#| "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you? But her "
 "essence is easy enough to command. Let's see what she has to say, shall we?"
 msgstr ""
 "Zdaje się, że nie zdołałeś ochronić swej malutkiej siostrzyczki Imoen, czyż "
-"nie? Ale jej esencja wciąż jest żywa, a co ważniejsze łatwa w kontrolowaniu."
-" Zobaczmy co ma ci do powiedzenia, dobrze?"
+"nie? Ale jej esencja wciąż jest żywa, a co ważniejsze łatwa w kontrolowaniu. "
+"Zobaczmy co ma ci do powiedzenia, dobrze?"
 
 #: finmel01.tra:611
-#, fuzzy
-#| msgid ""
-#| "You don't have to go anywhere, little one.  I'm not calling you, after "
-#| "all... I'm merely coaxing forth your essence."
 msgid ""
 "You don't have to go anywhere, little one. I'm not calling you, after all..."
 " I'm merely coaxing forth your essence."
 msgstr ""
-"Nie musisz nigdzie iść, malutka. Nie wzywam cię... tylko przybliżam ci twoją"
-" esencję."
+"Nie musisz nigdzie iść, malutka. Nie wzywam cię... tylko przybliżam ci twoją "
+"esencję."
 
 #: finmel01.tra:612
-#, fuzzy
-#| msgid ""
-#| "There, there, Imoen.  I command the essence within you.  Let's see just how "
-#| "much of my power you have within you, yes?"
 msgid ""
 "There, there, Imoen. I command the essence within you. Let's see just how "
 "much of my power you have within you, yes?"
@@ -3262,45 +3087,28 @@ msgstr ""
 "masz w sobie mocy, dobrze?"
 
 #: finmel01.tra:613
-#, fuzzy
-#| msgid ""
-#| "Ahhhh, Balthazar is here as well.  How clever to deny me his essence, "
-#| "<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
-#| "you abandoned your faith so quickly?"
 msgid ""
 "Ahhhh, Balthazar is here as well. How clever to deny me his essence, "
 "<CHARNAME>. Still blinded by your devotion to destiny, Balthazar? Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
 "Ach, Balthazar jest również tutaj. Jakież to było sprytne, nie dopuścić do "
-"mnie jego esencji, <CHARNAME>. Wciąz jesteś zaślepiony swoim oddaniem "
+"mnie jego esencji, <CHARNAME>. Wciąż jesteś zaślepiony swoim oddaniem "
 "przeznaczeniu, Balthazar? A może tak szybko opuściła cię wiara?"
 
 #: finmel01.tra:614
-#, fuzzy
-#| msgid ""
-#| "Oh no?  Perhaps you do not understand.  This... this place, here, is the "
-#| "Source.  This is where the essence of all of Bhaal's children returns when "
-#| "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
-#| "all the other spawn of Bhaal was *for*?"
 msgid ""
 "Oh no? Perhaps you do not understand. This... this place, here, is the "
 "Source. This is where the essence of all of Bhaal's children returns when "
 "they die, hidden away. Did you never wonder, dear Balthazar, what killing "
 "all the other spawn of Bhaal was *for*?"
 msgstr ""
-"Ach tak? Być może nie zrozumiałeś. To... to miejsce, tutaj, jest Źródłem. To"
-" tutaj esencja Dzieci Bhaala powraca kiedy umierają. Czy zastanawiałeś się "
+"Ach tak? Być może nie zrozumiałeś. To... to miejsce, tutaj, jest Źródłem. To "
+"tutaj esencja Dzieci Bhaala powraca kiedy umierają. Czy zastanawiałeś się "
 "kiedyś, drogi Balthazarze, *czemu* miało służyć zabicie innych pomiotów "
 "Bhaala?"
 
 #: finmel01.tra:615
-#, fuzzy
-#| msgid ""
-#| "And well you should not have, though you aided me regardless.  Bhaal may, "
-#| "indeed, be... somewhere.  But not here.  Here I have locked these essences "
-#| "away and drank heartily of their power.  The Source, the Throne, all are "
-#| "mine... and god-hood is but one simple step away."
 msgid ""
 "And well you should not have, though you aided me regardless. Bhaal may, "
 "indeed, be... somewhere. But not here. Here I have locked these essences "
@@ -3309,23 +3117,18 @@ msgid ""
 msgstr ""
 "I dobrze myślałeś, chociaż i tak bardzo mi pomogłeś. Bhaal być może, "
 "rzeczywiście, jest... gdzieś. Ale na pewno nie tutaj. Tutaj zgromadziłam "
-"wszystkie esencje i wyssałam z nich moc. Źródło, Tron, wszystko jest moje..."
-" od statusu bogini dzieli mnie zaledwie krok."
+"wszystkie esencje i wyssałam z nich moc. Źródło, Tron, wszystko jest moje... "
+"od statusu bogini dzieli mnie zaledwie krok."
 
 #: finmel01.tra:616
-#, fuzzy
-#| msgid ""
-#| "I was going to resurrect them anyway, to serve as my conquering avatars.  "
-#| "And I prefer them far better this way... completely servile, obeying every "
-#| "order without question."
 msgid ""
 "I was going to resurrect them anyway, to serve as my conquering avatars. And"
 " I prefer them far better this way... completely servile, obeying every "
 "order without question."
 msgstr ""
-"I tak zamierzałam ich wszystkich wskrzesić, by służyli mi jako moje awatary."
-" I wolę ich takimi jacy są... całkowicie pozbawieni własnej woli, słuchający"
-" każdego mojego rozkazu."
+"I tak zamierzałam ich wszystkich wskrzesić, by służyli mi jako moje awatary. "
+"I wolę ich takimi jacy są... całkowicie pozbawieni własnej woli, słuchający "
+"każdego mojego rozkazu."
 
 #: finmel01.tra:617
 #, fuzzy
