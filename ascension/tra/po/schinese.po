@@ -1649,7 +1649,7 @@ msgstr "让我们决出一个胜负吧，如果必要的话，这至少会让你
 #| "You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
 #| "have an appointment with god-hood."
 msgid ""
-"You're a weaker fool then I thought. Let's just end this now, shall we? I "
+"You're a bigger fool than I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
 msgstr "你比我想的还要笨，现在决出个胜负吧，我跟AO还有些业务需要处理。"
 

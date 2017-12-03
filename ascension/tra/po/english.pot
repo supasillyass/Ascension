@@ -901,7 +901,7 @@ msgstr ""
 
 #: balth.tra:1112
 msgid ""
-"You're a weaker fool then I thought. Let's just end this now, shall we? I "
+"You're a bigger fool than I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
 msgstr ""
 

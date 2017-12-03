@@ -1244,7 +1244,7 @@ msgstr "讓我們決出一個勝負吧﹐如果必要的話﹐這至少會讓你
 
 #: balth.tra:1112
 msgid ""
-"You're a weaker fool then I thought. Let's just end this now, shall we? I "
+"You're a bigger fool than I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
 msgstr ""
 
