@@ -6,11 +6,11 @@
 @1001 = ~You must have ToB installed or use Enhanced Edition to install the Ascension mod.~
 @1002 = ~Cannot install without Ascension main component.~
 
-@3 = ~Tougher Abazigal~
-@4 = ~Tougher Demogorgon ( Original Bioware Design )~
-@5 = ~Tougher Gromnir~
-@6 = ~Tougher Illasera~
-@7 = ~Tougher Yaga-Shura~
+@2100 = ~Tougher Abazigal~
+@2200 = ~Tougher Demogorgon ( Original Bioware Design )~
+@2300 = ~Tougher Gromnir~
+@2400 = ~Tougher Illasera~
+@2500 = ~Tougher Yaga-Shura~
 
 @3010 = ~Ascension Portraits - Bodhi~
 @3020 = ~Ascension Portraits - Balthazar by Cuv ( Alternate Design )~
@@ -24,5 +24,5 @@
 @5210 = ~This component is currently only available in english language~
 @5220 = ~This component is only for BG2:EE or EET~
 
-@6000 = ~Install only Ascension's Epilogues~
-@6010 = ~These epilogues are included in the main Ascension component~
+@5300 = ~Install only Ascension's Epilogues~
+@5310 = ~These epilogues are included in the main Ascension component~
