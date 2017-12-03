@@ -4,14 +4,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-03 10:02+0000\n"
+"PO-Revision-Date: 2017-12-03 10:43+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.17\n"
 
 #: ascension.tra:500
@@ -760,24 +761,24 @@ msgstr ""
 "związek nie do rozerwania, bo choć zdarzało się, że obowiązek kazał się im "
 "rozdzielić nieraz nawet na kilka lat, to zawsze do siebie wracali. "
 "Przyjaciele nie mogli się nadziwić, jak bezpieczna czuła się Jaheira w tym "
-"związku, zwłaszcza biorąc pod uwagę jej początkową niechęć do wiązania się z"
-" kimkolwiek na stałe. W końcu można powiedzieć, że ona i <CHARNAME> "
-"dosłownie doszli do piekieł i z powrotem, a jeśli bogom się nie udało ich "
-"rozdzielić, to cóż mogą znaczyć zwykłe miesiące i mile rozłąki? Jaheira "
-"zaszła wysoko w hierarchii Harfiarzy i zawsze była głosem rozsądku i "
-"mądrości w tej organizacji. Stała się sławną bohaterką i rozjemcą, chociaż "
-"nikt nie był zaskoczony, kiedy opuściła organizację razem ze swym ukochanym "
-"o imieniu <CHARNAME> udać się do jakiegoś odległego zakątka Krain. Parę "
-"widziano w Neverwinter, Rashemanie, na wielkich południowych stepach i nawet"
-" w dżunglach Chult. Ostatecznie Jaheira opuściła Harfiarzy, aby całkowicie "
-"poświęcić się wychowywaniu swego nowonarodzonego syna. <CHARNAME> odwiedzał "
-"ją często, zabawiając się radością płynącą z ojcowstwa... ale jego chęć "
+"związku, zwłaszcza biorąc pod uwagę jej początkową niechęć do wiązania się z "
+"kimkolwiek na stałe. W końcu można powiedzieć, że ona i <CHARNAME> dosłownie "
+"doszli do piekieł i z powrotem, a jeśli bogom się nie udało ich rozdzielić, "
+"to cóż mogą znaczyć zwykłe miesiące i mile rozłąki? Jaheira zaszła wysoko w "
+"hierarchii Harfiarzy i zawsze była głosem rozsądku i mądrości w tej "
+"organizacji. Stała się sławną bohaterką i rozjemcą, chociaż nikt nie był "
+"zaskoczony, kiedy opuściła organizację razem ze swym ukochanym o imieniu "
+"<CHARNAME> udać się do jakiegoś odległego zakątka Krain. Parę widziano w "
+"Neverwinter, Rashemanie, na wielkich południowych stepach i nawet w "
+"dżunglach Chult. Ostatecznie Jaheira opuściła Harfiarzy, aby całkowicie "
+"poświęcić się wychowywaniu swego nowo narodzonego syna. <CHARNAME> odwiedzał "
+"ją często, zabawiając się radością płynącą z ojcostwa... ale jego chęć "
 "wędrowania zawsze rzucała go ponownie w podróż. Jaheira żyła jednak długo i "
-"szczęśliwie. Nie zawsze był przy niej <CHARNAME> i nie zawsze dzieliła z nim"
-" zwycięstwa i dokonania, ale tak naprawdę nigdy nie był też on z dala od "
+"szczęśliwie. Nie zawsze był przy niej <CHARNAME> i nie zawsze dzieliła z nim "
+"zwycięstwa i dokonania, ale tak naprawdę nigdy nie był też on z dala od "
 "niej. A co z synem, wychowanym przez dwie z najpotężniejszych istot w "
 "Krainach? Stworzył on legendę, która rywalizowała z opowieściami o jego "
-"ojcu. To jednak, jest już całkiem inna historia... "
+"ojcu. To jednak, jest już całkiem inna historia..."
 
 #: ascension.tra:82721
 msgid ""
@@ -887,33 +888,6 @@ msgstr ""
 "oczywiście aż do następnego nieporozumienia."
 
 #: ascension.tra:82718
-#, fuzzy
-#| msgid ""
-#| "Cernd left the adventuring life to return to his grove in Tethyr, promising "
-#| "to take up his responsibility and raise his son, Ahsdale, as he believed a "
-#| "father should.  Cernd would eventually become the Grand Druid and make a "
-#| "name for himself throughout the realms by not only fighting for the balance "
-#| "of his grove but in protecting the sanctity of life in all realms and in all"
-#| " peoples.  Cernd would discover in time, to his regret, that in his "
-#| "attention to his duty he had forgotten his promise to Ahsdale.  His son had "
-#| "left the grove long before and Cernd learned that Ahsdale had become an evil"
-#| " and twisted wizard in command of a power that threatened the Sword Coast.  "
-#| "Determined that this was his burden alone to face, Cernd solemnly abdicated "
-#| "as Grand Druid and sought out his son.  He engaged in many battles with the "
-#| "forces of his son, wielding the forces of nature with a great fierceness "
-#| "that would be regarded as legendary by all who saw it.  Cernd finally "
-#| "confronted Ahsdale himself deep in the Forest of Tethyr, and made a final "
-#| "effort to convince him to turn away from his path.  Ahsdale refused, and "
-#| "Cernd fought his only son in a long and terrible battle that eventually saw "
-#| "both of their deaths.  With his last breath, Cernd would crawl along the "
-#| "ground to clasp Ahsdale's dead hand, tears flowing down his face as he "
-#| "begged his son's forgiveness.  Cernd's spirit would enter that of a great "
-#| "oak within the forest, and it is believed that this immortal oak still "
-#| "stands, and that around it has grown a wondrous grove of great beauty that "
-#| "is home to the rarest of the Realm's magical creatures.  Each fall the great"
-#| " oak and the grove around it would turn the grimmest shade of red, a "
-#| "reminder that even the most flawed amongst us may eventually find their "
-#| "balance."
 msgid ""
 "Cernd left the adventuring life to return to his grove in Tethyr, promising "
 "to take up his responsibility and raise his son, Ahsdale, as he believed a "
@@ -945,24 +919,23 @@ msgstr ""
 "Ahsdale. Jednakże obowiązek wobec przyrody zmuszał go do częstych wyjazdów, "
 "przez co jego stosunki z synem zaczęły się psuć. Wiele lat później otrzymał "
 "tytuł Wielkiego Druida, ale zrzekł się niego, gdy doszły do niego wieści o "
-"tym, że jego pozbawiony ojcowskiej opieki syn zaczął się parać zdegenerowaną"
-" magią i stanął na czele armii, która zagrażała Wybrzeżu Mieczy. Cernd "
-"uznał, że nie podoła takiej odpowiedzialności, gdyż nie udało mi się nawet "
-"dobrze wypełnić ojcowskich powinności. Brał udział w wielu bitwach, walcząc "
-"przeciw zastępom swego syna, dzierżąc siły natury z taką dzikością, która "
-"stała się tak legendarna jak wszyscy, którym przyszło ją ujrzeć. Cernd "
-"ostatecznie stanął naprzeciwko syna na polu bitwy głęboko w lasach Tethyru i"
-" starał się przekonać go do odwrócenia się od obranej ścieżki. Ahsdale "
-"odmówił, tak więc Cernd stoczył ze swym jedynym synem długą i straszną "
-"bitwę, z której żaden z nich nie wyszedł żywy. Wraz z ostatnim oddechem, "
-"Cernd doczołgał się do Ahsdale'a by uścisnąć jego martwą dłoń, łzy zaś "
-"popłynęły po jego twarzy, kiedy błagał syna o wybaczenie. Duch Cernda został"
-" wchłonięty przez olbrzymi dąb znajdujący się w centrum lasu, i uważa się, "
-"że ten nieśmiertelny dąb wciąż stoi, i że dookoła niego urósł zdumiewający "
-"gaj wielkiego piękna, który jest domem dla najrzadszych magicznych stworzeń "
-"Krain. Każdej jesieni, liście ogromnego dębu przybierają czerwoną barwę "
-"krwi, które przypominają, że nawet ci z największą skazą mogą odnaleźć "
-"równowagę."
+"tym, że jego pozbawiony ojcowskiej opieki syn zaczął się parać zdegenerowaną "
+"magią i stanął na czele armii, która zagrażała Wybrzeżu Mieczy. Cernd uznał, "
+"że nie podoła takiej odpowiedzialności, gdyż nie udało mi się nawet dobrze "
+"wypełnić ojcowskich powinności. Brał udział w wielu bitwach, walcząc przeciw "
+"zastępom swego syna, dzierżąc siły natury z taką dzikością, która stała się "
+"tak legendarna jak wszyscy, którym przyszło ją ujrzeć. Cernd ostatecznie "
+"stanął naprzeciwko syna na polu bitwy głęboko w lasach Tethyru i starał się "
+"przekonać go do odwrócenia się od obranej ścieżki. Ahsdale odmówił, tak więc "
+"Cernd stoczył ze swym jedynym synem długą i straszną bitwę, z której żaden z "
+"nich nie wyszedł żywy. Wraz z ostatnim oddechem, Cernd doczołgał się do "
+"Ahsdale'a by uścisnąć jego martwą dłoń, łzy zaś popłynęły po jego twarzy, "
+"kiedy błagał syna o wybaczenie. Duch Cernda został wchłonięty przez olbrzymi "
+"dąb znajdujący się w centrum lasu, i uważa się, że ten nieśmiertelny dąb "
+"wciąż stoi, i że dookoła niego urósł zdumiewający gaj wielkiego piękna, "
+"który jest domem dla najrzadszych magicznych stworzeń Krain. Każdej jesieni, "
+"liście ogromnego dębu przybierają czerwoną barwę krwi, które przypominają, "
+"że nawet ci z największą skazą mogą odnaleźć równowagę."
 
 #: ascension.tra:82717
 msgid ""
@@ -1145,23 +1118,6 @@ msgstr ""
 "nie odnalazła."
 
 #: ascension.tra:82760
-#, fuzzy
-#| msgid ""
-#| "Upon returning to Amkethran, Balthazar began to implement changes for the "
-#| "better. He had learned well from his friend and sibling the meaning of the "
-#| "word \"Good\". He carried his guilt with him always; a reminder never to "
-#| "make the same mistakes again. The remaining criminal elements were quickly "
-#| "driven from his outpost, which attracted new settlers and merchants. Over "
-#| "the years, Amkethran grew into a thriving city and the cultural center of "
-#| "the entire region, renown for its peace and compassion. Balthazar was also "
-#| "central in the creation of the Monastic Guard; an elite group of Paladins "
-#| "and Monks that were sworn to protect the common folk from tyranny in any "
-#| "form. His deeds quickly earned him the respect and trust of his people. In "
-#| "Balthazar's advanced years, his work finished, it was said he could be found"
-#| " most often gazing at the night sky and remembering <CHARNAME>. Later, "
-#| "Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep...... "
-#| "to give a final thanks for the peace he had found and to see for himself the"
-#| " humble beginnings of a legend."
 msgid ""
 "Upon returning to Amkethran, Balthazar began to implement changes for the "
 "better. He had learned well from his friend and sibling the meaning of the "
@@ -1180,45 +1136,23 @@ msgid ""
 "humble beginnings of a legend."
 msgstr ""
 "Po powrocie do Amkethran, Balthazar zaczął wprowadzać w życie zmiany na "
-"lepsze. <CHARNAME>, jego <PRO_BROTHERSISTER> nauczył<PRO_HESHE> go znaczenia"
-" słowa \"Dobro\". Zawsze pamiętał o swoich winach, które przypominały mu by "
+"lepsze. <CHARNAME>, jego <PRO_BROTHERSISTER> nauczył<PRO_HESHE> go znaczenia "
+"słowa \"Dobro\". Zawsze pamiętał o swoich winach, które przypominały mu by "
 "nigdy więcej nie popełniać takich błędów. Zbrodnicze pierwiastki, które "
 "znajdowały się w jego placówce, szybko zostały wygnane, co przyciągnęło "
 "kupców i osadników. W ciągu kilku lat, Amkethran urosło do miana "
-"prosperującego miasta i kulturalnego ośrodka całej krainy, znanego z ciszy i"
-" spokoju. Balthazar był również odpowiedzialny za stworzenie Monasterów; "
-"elitarnej grupy paladynów i mnichów, którzy przysięgli strzec zwykłych ludzi"
-" przed tyranią w jakiejkolwiek formie. Jego czyny szybko wzbudziły szacunek "
-"i zaufanie wśród ludzi. W następnych latach, praca Balthazara dobiegła "
-"końca, mówi się również, że większość swego czasu spędzał wtedy wpatrując "
-"się w niebo i przypominając sobie osobę, dzięki której odnalazł spokój, "
-"osobę znaną pod imieniem <CHARNAME>. Później, Balthazar na zawsze opuścił "
+"prosperującego miasta i kulturalnego ośrodka całej krainy, znanego z ciszy i "
+"spokoju. Balthazar był również odpowiedzialny za stworzenie Monasterów; "
+"elitarnej grupy paladynów i mnichów, którzy przysięgli strzec zwykłych ludzi "
+"przed tyranią w jakiejkolwiek formie. Jego czyny szybko wzbudziły szacunek i "
+"zaufanie wśród ludzi. W następnych latach, praca Balthazara dobiegła końca, "
+"mówi się również, że większość swego czasu spędzał wtedy wpatrując się w "
+"niebo i przypominając sobie osobę, dzięki której odnalazł spokój, osobę "
+"znaną pod imieniem <CHARNAME>. Później, Balthazar na zawsze opuścił "
 "Amkethran i zdecydował się na pielgrzymkę do Candlekeep... aby pokornie "
 "podziękować za pokój, który w końcu odnalazł."
 
 #: ascension.tra:82785
-#, fuzzy
-#| msgid ""
-#| "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul.  As the "
-#| "last vestiges of it faded with time, she began to desire more, slipping into"
-#| " bitter hatred as it became her obsession to reach such heights again.  "
-#| "People up and down the Sword Coast came to know fear as Bodhi bathed in "
-#| "their blood, sating her thirst for chaos and death.  Villages began to leave"
-#| " people bound by the road as an offering to the thing that stalked the "
-#| "night.  Her name became a byword for terror, with temples far and wide "
-#| "trying in vain to hunt her down.  Many a mighty cleric was later found "
-#| "drained of blood, agony etched across their pallid features.  Over time "
-#| "Bodhi felt the icy grip of the curse tighten its hold on her.  Desperation "
-#| "mixed with fear clawed at the very fibre of her being.  Desire for chaos "
-#| "faded and she fought to survive once more.  Ambiton, which had once prompted"
-#| " her to whisper dreams of power into the ear of her brother, now brought her"
-#| " back to the place she had long ago called home, Suldanessellar.  It was at "
-#| "the gates that Ellesime met her.  At the gates that Bodhi danced one last "
-#| "time.  Revenge burned bright in both of them, and it called out for blood.  "
-#| "The power of the Tree of Life drove Bodhi on, and the memory of Joneleth "
-#| "cried out to Ellesime.  The two embraced, and it was revenge that was "
-#| "destined to be the victor, even as a stake pierced the still black heart of "
-#| "Bodhi, one who was as damned in life as she was in death."
 msgid ""
 "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last"
 " vestiges of it faded with time, she began to desire more, slipping into "
@@ -1248,24 +1182,20 @@ msgstr ""
 "Mieczy poznali strach przed Bodhi, która kąpała się w ich krwi, nasycającą "
 "swe pragnienie dla chaosu i śmierci. Z czasem całe wioski zaczęły przez  "
 "pustoszeć.  Jej imię było odpowiednikiem dla terroru w świątyniach, które "
-"bezskutecznie starały się na nią zapolować. Wielu potężnych kapłanów zostało"
-" potem odnalezionych wyssanych z krwi, na twarzach których widać było "
-"bladość i agonię. Z czasem Bodhi odczuła lodowaty uścisk klątwy, która w "
-"niej tkwiła. Desperacja zmieszała się wtedy ze strachem, który w niej tkwił."
-" Żądza chaosu zagasła i raz ponownie walczyła po to, by utrzymać się przy "
+"bezskutecznie starały się na nią zapolować. Wielu potężnych kapłanów zostało "
+"potem odnalezionych wyssanych z krwi, na twarzach których widać było bladość "
+"i agonię. Z czasem Bodhi odczuła lodowaty uścisk klątwy, która w niej "
+"tkwiła. Desperacja zmieszała się wtedy ze strachem, który w niej tkwił. "
+"Żądza chaosu zagasła i raz ponownie walczyła po to, by utrzymać się przy "
 "życiu. Ambicja, która nakłoniła ją do wysłuchania marzeń swego brata o "
-"potędze, przywiodła ją teraz do miejsca, które dawno temu nazywała domem, do"
-" Suldanessellar.  Przy jego bramach czekała na nią Ellesime. Przy jego "
+"potędze, przywiodła ją teraz do miejsca, które dawno temu nazywała domem, do "
+"Suldanessellar.  Przy jego bramach czekała na nią Ellesime. Przy jego "
 "bramach Bodhi zatańczyła swój taniec po raz ostatni. Chęć zemsty paliła je "
 "obie od wewnątrz i wołała o krew. Moc Drzewa Życia nawoływała do Bodhi, zaś "
 "pamięć o Jonie nawoływała do Ellesime. Obie objęły się, i choć to zemście "
 "było przeznaczone zwyciężyć, osikowy kołek przebił czarne serce Bodhi."
 
 #: balth.tra:1060
-#, fuzzy
-#| msgid ""
-#| "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I "
-#| "was not the only member of the Five who plotted the downfall of the others."
 msgid ""
 "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was"
 " not the only member of the Five who plotted the downfall of the others."
@@ -1280,26 +1210,15 @@ msgstr ""
 "Nie ty pierwszy próbujesz mnie uśmiercić... i pewnie nie jesteś ostatni!"
 
 #: balth.tra:1074
-#, fuzzy
-#| msgid ""
-#| "It is true.  You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
-#| "against evil is without question.  Your fight against the taint of our evil "
-#| "father is worthy of praise."
 msgid ""
 "It is true. You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
 "against evil is without question. Your fight against the taint of our evil "
 "father is worthy of praise."
 msgstr ""
-"To prawda. Jest w tobie dobro, <CHARNAME>, i twoje stanowisko wobec zła jest"
-" niepodważalne. Twoje opieranie się skazie naszego ojca jest godne pochwały."
+"To prawda. Jest w tobie dobro, <CHARNAME>, i twoje stanowisko wobec zła jest "
+"niepodważalne. Twoje opieranie się skazie naszego ojca jest godne pochwały."
 
 #: balth.tra:1075
-#, fuzzy
-#| msgid ""
-#| "I sense no innate goodness within you, <CHARNAME>...though your deeds are "
-#| "hailed far and wide as above reproach.  It is... interesting that one like "
-#| "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
-#| "has done so much to fight true evil."
 msgid ""
 "I sense no innate goodness within you, <CHARNAME>...though your deeds are "
 "hailed far and wide as above reproach. It is... interesting that one like "
@@ -1311,11 +1230,6 @@ msgstr ""
 "opierać się skazie naszego ojca, zrobił tak wiele by zwalczyć zło."
 
 #: balth.tra:1076
-#, fuzzy
-#| msgid ""
-#| "I see the good that is within you, <CHARNAME>, but your deeds are hardly "
-#| "above reproach.  I sense only a soul that struggles with our father's taint,"
-#| " that struggles to find the good path where none exists."
 msgid ""
 "I see the good that is within you, <CHARNAME>, but your deeds are hardly "
 "above reproach. I sense only a soul that struggles with our father's taint, "
@@ -1326,46 +1240,28 @@ msgstr ""
 "się odszukać ścieżkę dobra, choć ta nie istnieje."
 
 #: balth.tra:1077
-#, fuzzy
-#| msgid ""
-#| "I sense no innate goodness within you, <CHARNAME>.  I do not think your "
-#| "deeds above reproach.  I sense only a soul struggling against the taint of "
-#| "<PRO_HISHER> father, much like mine own."
 msgid ""
 "I sense no innate goodness within you, <CHARNAME>. I do not think your deeds"
 " above reproach. I sense only a soul struggling against the taint of "
 "<PRO_HISHER> father, much like mine own."
 msgstr ""
-"Nie wyczuwam w tobie wrodzonego dobra, <CHARNAME>.  Nie myślę też, aby twoje"
-" czyny świadczyły o tobie inaczej. Wyczuwam jedynie duszę, która opiera się "
+"Nie wyczuwam w tobie wrodzonego dobra, <CHARNAME>.  Nie myślę też, aby twoje "
+"czyny świadczyły o tobie inaczej. Wyczuwam jedynie duszę, która opiera się "
 "skazie swego ojca, tak jak moja."
 
 #: balth.tra:1078
-#, fuzzy
-#| msgid ""
-#| "Actually, I am the perfect person to judge, <CHARNAME>.  I, too, contain the"
-#| " taint of our father within me.  I, too, have felt its yearnings for blood, "
-#| "its efforts to exert chaos upon my life.  I have mastered it... but only "
-#| "barely.  Too well I know what it is capable of."
 msgid ""
 "Actually, I am the perfect person to judge, <CHARNAME>. I, too, contain the "
 "taint of our father within me. I, too, have felt its yearnings for blood, "
 "its efforts to exert chaos upon my life. I have mastered it... but only "
 "barely. Too well I know what it is capable of."
 msgstr ""
-"Prawdę mówiąc, jestem idealną osobą do sądzenia, <CHARNAME>. We mnie również"
-" istnieje skaza naszego ojca. Ja również czułem tęsknotę za krwią,  jej "
+"Prawdę mówiąc, jestem idealną osobą do sądzenia, <CHARNAME>. We mnie również "
+"istnieje skaza naszego ojca. Ja również czułem tęsknotę za krwią,  jej "
 "wysiłki prześladowały mnie przez całe życie. Udało mi się ją jednak "
 "opanować... ale ledwo. Zbyt dobrze wiem, do czego jest zdolna."
 
 #: balth.tra:1079
-#, fuzzy
-#| msgid ""
-#| "Naturally.  Our taint brings us no peace, does it, <CHARNAME>?  We fight in "
-#| "self-defense and yet still we kill, still we bring destruction.  We may "
-#| "claim an absence of responsibility, should we desire, but I know all too "
-#| "well what the taint in our soul is capable of.  Only barely do I keep it "
-#| "mastered."
 msgid ""
 "Naturally. Our taint brings us no peace, does it, <CHARNAME>? We fight in "
 "self-defense and yet still we kill, still we bring destruction. We may claim"
@@ -1373,40 +1269,30 @@ msgid ""
 "what the taint in our soul is capable of. Only barely do I keep it mastered."
 msgstr ""
 "Naturalnie. Nasza skaza nie przynosi nam spokoju, czyż nie, <CHARNAME>?  "
-"Walczymy w samoobronie a mimo to nadal zabijamy, nadal rzynosimy "
+"Walczymy w samoobronie a mimo to nadal zabijamy, nadal przynosimy "
 "zniszczenie. Możemy twierdzić o braku obecności odpowiedzialności, "
 "powinniśmy tak robić, ale zbyt dobrze wiem do czego zdolna jest ta skaza. "
 "Tylko z ledwością udało mi się nad nią zapanować."
 
 #: balth.tra:1080
-#, fuzzy
-#| msgid ""
-#| "I would expect no other response from a true <PRO_BROTHERSISTER> of mine.  I"
-#| " know too well the thirst for death that comes with the taint of our sire.  "
-#| "I have mastered it, but only barely... I pity those who are a slave to it."
 msgid ""
 "I would expect no other response from a true <PRO_BROTHERSISTER> of mine. I "
 "know too well the thirst for death that comes with the taint of our sire. I "
 "have mastered it, but only barely... I pity those who are a slave to it."
 msgstr ""
 "Nie spodziewałem się innej odpowiedzi od mojego brata. Zbyt dobrze znam "
-"pragnienie śmierci, które powodowane jest przez skazę wewnątrz nas. Mi udało"
-" się ją opanować, choć z ledwością... szkoda mi jednak tych, którzy stali "
-"się jej niewolnikami."
+"pragnienie śmierci, które powodowane jest przez skazę wewnątrz nas. Mi udało "
+"się ją opanować, choć z ledwością... szkoda mi jednak tych, którzy stali się "
+"jej niewolnikami."
 
 #: balth.tra:1081
-#, fuzzy
-#| msgid ""
-#| "Do not make me laugh, <CHARNAME>.  If you expect me to believe that your "
-#| "depraved existence exists to fight against evil in this world, then you "
-#| "expect far too much."
 msgid ""
 "Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
 "depraved existence exists to fight against evil in this world, then you "
 "expect far too much."
 msgstr ""
-"Nie rozśmieszaj mnie, <CHARNAME>. Jeśli oczekujesz, że uwierzę iż istniejesz"
-" po to by walczyć ze złem to się grubo mylisz."
+"Nie rozśmieszaj mnie, <CHARNAME>. Jeśli oczekujesz, że uwierzę iż istniejesz "
+"po to by walczyć ze złem to się grubo mylisz."
 
 #: balth.tra:1082
 msgid ""
@@ -1649,10 +1535,6 @@ msgid "Let us fight, then, if it must be. Let me give you some peace at last."
 msgstr "Walczmy zatem, jeśli tak ma być. Daj mi spokój, na który zasłużyłem."
 
 #: balth.tra:1112
-#, fuzzy
-#| msgid ""
-#| "You're a weaker fool then I thought. Let's just end this now, shall we? I "
-#| "have an appointment with god-hood."
 msgid ""
 "You're a bigger fool than I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
@@ -1675,12 +1557,6 @@ msgstr ""
 "Bhaala w coś lepszego. Nie wiem, ale podejmę ryzyko."
 
 #: balth.tra:1115
-#, fuzzy
-#| msgid ""
-#| "Let Melissan tremble when she sees us together, and we shall strike her down"
-#| " as she deserves.  Even if Bhaal himself is resurrected, he will not be able"
-#| " to hold out against us both.  I have preparations to make, <CHARNAME>.  Go "
-#| "to the Throne of Bhaal.  When the time comes, I will be there."
 msgid ""
 "Let Melissan tremble when she sees us together, and we shall strike her down"
 " as she deserves. Even if Bhaal himself is resurrected, he will not be able "
@@ -1697,15 +1573,6 @@ msgid "I cannot, <CHARNAME>."
 msgstr "Nie mogę, <CHARNAME>."
 
 #: balth.tra:1117
-#, fuzzy
-#| msgid ""
-#| "You must take the battle to Melissan.  It is your destiny to see that "
-#| "Bhaal's legacy ends here and now.  But you must promise me, <CHARNAME>...you"
-#| " must promise me that you will not give into the temptation.  Should you "
-#| "defeat Melissan and the power become available to you, you must turn away "
-#| "from it... you have seen your struggle as it is now, with only a sliver of "
-#| "that taint.  Do not take it, <CHARNAME>...even a god can be tempted, you "
-#| "must realize that.  Promise me you will turn it away."
 msgid ""
 "You must take the battle to Melissan. It is your destiny to see that Bhaal's"
 " legacy ends here and now. But you must promise me, <CHARNAME>...you must "
@@ -1723,37 +1590,23 @@ msgstr ""
 "ulegaj jej, <CHARNAME>. Obiecaj mi, że odrzucisz ją."
 
 #: balth.tra:1118
-#, fuzzy
-#| msgid ""
-#| "If I am given the option, Balthazar... I will refuse the taint.  I swear it."
 msgid ""
 "If I am given the option, Balthazar... I will refuse the taint. I swear it."
-msgstr "Jeśli  będę mieć wybór, Balthazar... odrzucę skazę. Przysięgam."
+msgstr "Jeśli będę mieć wybór, Balthazar... odrzucę skazę. Przysięgam."
 
 #: balth.tra:1119
-#, fuzzy
-#| msgid ""
-#| "No.  I will swear nothing of the kind.  Great good could come out of that "
-#| "power, you don't know otherwise any better than I."
 msgid ""
 "No. I will swear nothing of the kind. Great good could come out of that "
 "power, you don't know otherwise any better than I."
 msgstr ""
-"Nie. Nie mogę przysiąc czegoś takiego. Wiele dobra może zaistnieć z używania"
-" takiej mocy, wiesz o tym lepiej niż ktokolwiek inny."
+"Nie. Nie mogę przysiąc czegoś takiego. Wiele dobra może zaistnieć z używania "
+"takiej mocy, wiesz o tym lepiej niż ktokolwiek inny."
 
 #: balth.tra:1120
-#, fuzzy
-#| msgid "Forget it!  I'll do no such thing!"
 msgid "Forget it! I'll do no such thing!"
 msgstr "Zapomnij o tym! Nie zrobię czegoś takiego!"
 
 #: balth.tra:1121
-#, fuzzy
-#| msgid ""
-#| "Then I am satisfied.  The essence of our sire ends with me... and with you."
-#| "  May the gods forgive me.  May you... may you forgive me, "
-#| "<PRO_BROTHERSISTER>..."
 msgid ""
 "Then I am satisfied. The essence of our sire ends with me... and with you. "
 "May the gods forgive me. May you... may you forgive me, "
@@ -1763,10 +1616,6 @@ msgstr ""
 "Niech bogowie mi wybaczą. Obyś... obyś ty mi wybaczył, bracie..."
 
 #: balth.tra:1122
-#, fuzzy
-#| msgid ""
-#| "Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
-#| "this would be otherwise."
 msgid ""
 "Then we must do battle. I... I am sorry, <PRO_BROTHERSISTER>. I had hoped "
 "this would be otherwise."
@@ -1775,12 +1624,6 @@ msgstr ""
 "wszystko będzie inaczej."
 
 #: balth.tra:1123
-#, fuzzy
-#| msgid ""
-#| "And I cannot trust that you will turn aside the power when it is offered to "
-#| "you.  You have experienced the struggle even a sliver of Bhaal's taint has "
-#| "brought you, yet I cannot believe that you would turn it aside.  I... I am "
-#| "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgid ""
 "And I cannot trust that you will turn aside the power when it is offered to "
 "you. You have experienced the struggle even a sliver of Bhaal's taint has "
@@ -1792,18 +1635,12 @@ msgstr ""
 "uwierzyć w to, że odrzucisz ją. Przykro... mi, bracie... ale nie mam wyboru."
 
 #: balth.tra:1124
-#, fuzzy
-#| msgid "So be it.  Come, my pupils... may the gods help us all."
 msgid "So be it. Come, my pupils... may the gods help us all."
 msgstr ""
-"Niech tak będzie. Chodźcie, moi uczniowie... niech bogowie mają nas w swojej"
-" opiece."
+"Niech tak będzie. Chodźcie, moi uczniowie... niech bogowie mają nas w swojej "
+"opiece."
 
 #: balth.tra:1125
-#, fuzzy
-#| msgid ""
-#| "No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
-#| "may the gods have pity on us all."
 msgid ""
 "No. Further dialogue is pointless. Let us end this now, <CHARNAME>...and may"
 " the gods have pity on us all."
@@ -1812,56 +1649,36 @@ msgstr ""
 "niech bogowie mają nas w swojej opiece."
 
 #: balth.tra:1126
-#, fuzzy
-#| msgid ""
-#| "Perhaps what you are saying holds merit.  But what if I died during the "
-#| "battle?  What if I was weakened, in the end... you might find yourself... "
-#| "tempted.  How could I trust you?"
 msgid ""
 "Perhaps what you are saying holds merit. But what if I died during the "
 "battle? What if I was weakened, in the end... you might find yourself... "
 "tempted. How could I trust you?"
 msgstr ""
-"Być może jest nieco racji w tym co mówisz. Ale co jeśli zginę podczas walki?"
-" Co jeśli osłabnę, a ty... a ty możesz wtedy poczuć... pokusę.  Jak mógłbym "
+"Być może jest nieco racji w tym co mówisz. Ale co jeśli zginę podczas walki? "
+"Co jeśli osłabnę, a ty... a ty możesz wtedy poczuć... pokusę.  Jak mógłbym "
 "tobie zaufać?"
 
 #: balth.tra:1128
-#, fuzzy
-#| msgid ""
-#| "I don't know how to explain it, exactly, but she must have used you!  She "
-#| "used everyone else!  I didn't trust her and she even got me to do what she "
-#| "wanted!"
 msgid ""
 "I don't know how to explain it, exactly, but she must have used you! She "
 "used everyone else! I didn't trust her and she even got me to do what she "
 "wanted!"
 msgstr ""
-"Nie wiem jak to dokładnie wytłumaczyć, ale ona się tobą posłużyła! Posłużyła"
-" się wszystkimi! Nie ufałem jej, a mimo to zrobiłem to czego ona dokładnie "
+"Nie wiem jak to dokładnie wytłumaczyć, ale ona się tobą posłużyła! Posłużyła "
+"się wszystkimi! Nie ufałem jej, a mimo to zrobiłem to czego ona dokładnie "
 "chciała!"
 
 #: balth.tra:1129
-#, fuzzy
-#| msgid ""
-#| "Think about it, Balthazar!  You honestly think she didn't know what your "
-#| "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
-#| "and there was nothing I could do to stop it!"
 msgid ""
 "Think about it, Balthazar! You honestly think she didn't know what your "
 "plans were? Do you think you took her by surprise? Even I saw it coming, and"
 " there was nothing I could do to stop it!"
 msgstr ""
 "Pomyśl o tym, Balthazar! Czy naprawdę uważasz, że ona nie wie co "
-"zamierzałeś? Myślisz, że mogłeś ją zwiec? Nawet ja wiedziałem co się stanie,"
-" ale nie mogłem zrobić niczego by to powstrzymać!"
+"zamierzałeś? Myślisz, że mogłeś ją zwiec? Nawet ja wiedziałem co się stanie, "
+"ale nie mogłem zrobić niczego by to powstrzymać!"
 
 #: balth.tra:1130
-#, fuzzy
-#| msgid ""
-#| "She used you to get rid of the other Bhaalspawn, obviously.  Think about it!"
-#| "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
-#| "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
@@ -1870,41 +1687,28 @@ msgstr ""
 "Posłużyła się tobą by pozbyć się innych Dzieci Bhaala. Pomyśl o tym! Cały "
 "czas wiedziała co zamierzasz. Chciała by wszystkie Dzieci Bhaala były "
 "martwe... i chciała żebyśmy walczyli ze sobą! Ona *chciała* żeby tak się "
-"stało!!"
+"stało!"
 
 #: balth.tra:1131
-#, fuzzy
-#| msgid ""
-#| "Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
-#| "as I knew hers.  This changes nothing."
 msgid ""
 "Of course she used me, <CHARNAME>. And no doubt she knew my plans as well as"
 " I knew hers. This changes nothing."
 msgstr ""
 "Oczywiście, że się mną posłużyła, <CHARNAME>. I bez cienia wątpliwości "
-"wiedziała co zamierzam, tak jak ja wiedziałem co ona zamierza. To jednak nic"
-" nie zmienia."
+"wiedziała co zamierzam, tak jak ja wiedziałem co ona zamierza. To jednak nic "
+"nie zmienia."
 
 #: balth.tra:1132
-#, fuzzy
-#| msgid ""
-#| "You... may be right, <CHARNAME>.  But that does not mean that my plan will "
-#| "fail.  Melissan underestimates me, I am sure of that... just as she "
-#| "underestimates you."
 msgid ""
 "You... may be right, <CHARNAME>. But that does not mean that my plan will "
 "fail. Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
 msgstr ""
-"Możesz... możesz mieć rację, <CHARNAME>. Ale to nie oznacza, że moje zamiary"
-" się nie dokonają. Melissana  nie doceniła mnie, jestem również pewien tego,"
-" że... tak samo nie doceniła ciebie."
+"Możesz... możesz mieć rację, <CHARNAME>. Ale to nie oznacza, że moje zamiary "
+"się nie dokonają. Melissana nie doceniła mnie, jestem również pewien tego, "
+"że... tak samo nie doceniła ciebie."
 
 #: balth.tra:1133
-#, fuzzy
-#| msgid ""
-#| "I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
-#| "Still... this does not mean my plan is doomed to failure.  Or is it?"
 msgid ""
 "I... perhaps you are right, <CHARNAME>. I see the wisdom of your words. "
 "Still... this does not mean my plan is doomed to failure. Or is it?"
@@ -1913,17 +1717,10 @@ msgstr ""
 "jednak... to nie oznacza, że mój plan jest skazany na klęskę. A może tak?"
 
 #: balth.tra:1134
-#, fuzzy
-#| msgid "I must resist it.  I will.  I have no choice."
 msgid "I must resist it. I will. I have no choice."
 msgstr "Muszę oprzeć się temu. Zrobię to. Nie mam wyboru."
 
 #: balth.tra:1135
-#, fuzzy
-#| msgid ""
-#| "But... you have shown great willpower, as well.  Despite the taint in your "
-#| "soul, you have struggled against it just as I have.  What makes me more "
-#| "worthy...?  No, I must not question myself!  Not now!"
 msgid ""
 "But... you have shown great willpower, as well. Despite the taint in your "
 "soul, you have struggled against it just as I have. What makes me more "
@@ -1934,11 +1731,6 @@ msgstr ""
 "odpowiadać sobie na to pytanie! Nie teraz!"
 
 #: balth.tra:1136
-#, fuzzy
-#| msgid ""
-#| "You are certainly no better a candidate for resisting such temptation, "
-#| "<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
-#| "you to the Throne would be to give up everything I have believed in."
 msgid ""
 "You are certainly no better a candidate for resisting such temptation, "
 "<CHARNAME>. I would trust myself far more than I would trust you. To send "
@@ -1949,12 +1741,6 @@ msgstr ""
 "wszystko w co wierzyłem."
 
 #: balth.tra:1137
-#, fuzzy
-#| msgid ""
-#| "Strength is nothing, <CHARNAME>.  You may vanquish me with your might, and "
-#| "you may even vanquish Melissan.  But you will never vanquish yourself.  "
-#| "Might will bring you no peace... this I know.  And this is why I must be the"
-#| " last."
 msgid ""
 "Strength is nothing, <CHARNAME>. You may vanquish me with your might, and "
 "you may even vanquish Melissan. But you will never vanquish yourself. Might "
@@ -1962,16 +1748,9 @@ msgid ""
 msgstr ""
 "Siła jest niczym, <CHARNAME>. Możesz zwyciężyć mnie, możesz nawet zwyciężyć "
 "Melissanę. Ale nigdy nie podołasz samemu sobie. Siła nie przyniesie ci "
-"spokoju... tego jestem pewien. I to jest powód dla którego muszę być "
-"ostatni."
+"spokoju... tego jestem pewien. I to jest powód dla którego muszę być ostatni."
 
 #: balth.tra:1138
-#, fuzzy
-#| msgid ""
-#| "I am tired of the battles I have fought, <CHARNAME>.  I am tired of the "
-#| "anguish that I have endured, placing the greater good above the welfare of "
-#| "others, of myself and my own immortal soul.  It will be enough that Bhaal's "
-#| "legacy is destroyed, there is no temptation beyond that."
 msgid ""
 "I am tired of the battles I have fought, <CHARNAME>. I am tired of the "
 "anguish that I have endured, placing the greater good above the welfare of "
@@ -1984,17 +1763,10 @@ msgstr ""
 "Wystarczy mi, że spuścizna po Bhaalu zostanie zniszczona."
 
 #: balth.tra:1139
-#, fuzzy
-#| msgid "But I do.  It is my destiny.  What other choice have I?"
 msgid "But I do. It is my destiny. What other choice have I?"
 msgstr "Ale ja tak. To jest moje przeznaczenie. Jaki mam inny wybór?"
 
 #: balth.tra:1140
-#, fuzzy
-#| msgid ""
-#| "You always have a choice, Balthazar.  Don't be a slave to Alaundo's "
-#| "prophecy!  I have fought against it ever since I found out about my heritage"
-#| " and I will *not* give up!"
 msgid ""
 "You always have a choice, Balthazar. Don't be a slave to Alaundo's prophecy!"
 " I have fought against it ever since I found out about my heritage and I "
@@ -2005,11 +1777,6 @@ msgstr ""
 "dziedzictwie i *nie* zamierzam się poddać!"
 
 #: balth.tra:1141
-#, fuzzy
-#| msgid ""
-#| "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
-#| "Balthazar!  It also means we can stop the prophecy from becoming true, I "
-#| "know this!"
 msgid ""
 "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
 "Balthazar! It also means we can stop the prophecy from becoming true, I know"
@@ -2020,10 +1787,6 @@ msgstr ""
 "spełniła, wiem o tym!"
 
 #: balth.tra:1142
-#, fuzzy
-#| msgid ""
-#| "You can walk away.  You can do what's right, Balthazar, what you know to be "
-#| "right instead of what you've resigned yourself to."
 msgid ""
 "You can walk away. You can do what's right, Balthazar, what you know to be "
 "right instead of what you've resigned yourself to."
@@ -2032,22 +1795,14 @@ msgstr ""
 "nie to czemu poświęciłeś swoje życie."
 
 #: balth.tra:1143
-#, fuzzy
-#| msgid ""
-#| "You are walking a path that you don't need to, Balthazar.  You see yourself "
-#| "as evil, but it doesn't have to be that way."
 msgid ""
 "You are walking a path that you don't need to, Balthazar. You see yourself "
 "as evil, but it doesn't have to be that way."
 msgstr ""
-"Kroczysz ścieżką, którą nie musisz, Balthazar. Uważasz się za złego, ale tak"
-" przecież nie jest"
+"Kroczysz ścieżką, którą nie musisz, Balthazar. Uważasz się za złego, ale tak "
+"przecież nie jest."
 
 #: balth.tra:1144
-#, fuzzy
-#| msgid ""
-#| "I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
-#| "  We can work together!"
 msgid ""
 "I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable! "
 "We can work together!"
@@ -2056,10 +1811,6 @@ msgstr ""
 "współpracować razem!"
 
 #: balth.tra:1145
-#, fuzzy
-#| msgid ""
-#| "Forget it.  There's no point in discussing this with you, is there?  Let's "
-#| "get this over with."
 msgid ""
 "Forget it. There's no point in discussing this with you, is there? Let's get"
 " this over with."
@@ -2068,11 +1819,6 @@ msgstr ""
 "z tym."
 
 #: balth.tra:1146
-#, fuzzy
-#| msgid ""
-#| "You are impressive with your words, <CHARNAME>.  I can feel destiny altering"
-#| " to your will, how you are the center of it all... how is it that I did not "
-#| "see this before?"
 msgid ""
 "You are impressive with your words, <CHARNAME>. I can feel destiny altering "
 "to your will, how you are the center of it all... how is it that I did not "
@@ -2083,11 +1829,6 @@ msgstr ""
 "jak to jest, że nie widziałem tego wcześniej?"
 
 #: balth.tra:1147
-#, fuzzy
-#| msgid ""
-#| "But the simple truth is your words ring hollow to me.  I do not believe "
-#| "them.  You have fought against destiny, yet I see it in you even the more as"
-#| " you speak."
 msgid ""
 "But the simple truth is your words ring hollow to me. I do not believe them."
 " You have fought against destiny, yet I see it in you even the more as you "
@@ -2097,11 +1838,6 @@ msgstr ""
 "Walczyłeś ze swoim przeznaczeniem, ale mimo to nadal widzę je w tobie."
 
 #: balth.tra:1148
-#, fuzzy
-#| msgid ""
-#| "Perhaps... perhaps there is something to your words.  I look within myself "
-#| "and see how rigidly I have held myself to my destiny... and I feel hollow.  "
-#| "But I... cannot believe that this has been for nothing."
 msgid ""
 "Perhaps... perhaps there is something to your words. I look within myself "
 "and see how rigidly I have held myself to my destiny... and I feel hollow. "
@@ -2112,16 +1848,10 @@ msgstr ""
 "Ale ja... nie mogę uwierzyć, że wszystko to co uczyniłem było na próżno."
 
 #: balth.tra:1149
-#, fuzzy
-#| msgid "What do you mean?  How do you know this?"
 msgid "What do you mean? How do you know this?"
 msgstr "Co masz na myśli? Skąd możesz o tym wiedzieć?"
 
 #: balth.tra:1150
-#, fuzzy
-#| msgid ""
-#| "It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
-#| " sounds, but it's true!"
 msgid ""
 "It was told to me by a Solar, an agent of prophecy! It... oh, I know how it "
 "sounds, but it's true!"
@@ -2130,43 +1860,28 @@ msgstr ""
 "brzmi, ale to prawda!"
 
 #: balth.tra:1151
-#, fuzzy
-#| msgid ""
-#| "I have been told many things by agents of Alaundo's prophecy... higher "
-#| "beings that have sought me out to prepare me.  Alaundo's prophecy does not "
-#| "necessarily mean what you think it does, Balthazar."
 msgid ""
 "I have been told many things by agents of Alaundo's prophecy... higher "
 "beings that have sought me out to prepare me. Alaundo's prophecy does not "
 "necessarily mean what you think it does, Balthazar."
 msgstr ""
 "Wiele usłyszałem od pośredników przepowiedni Alaundo... wyższych istot, "
-"które miały mnie przygotować do starcia z moim przeznaczeniem. Przepowiednia"
-" Alaundo nie musi oznaczać tego co myślisz, Balthazar."
+"które miały mnie przygotować do starcia z moim przeznaczeniem. Przepowiednia "
+"Alaundo nie musi oznaczać tego co myślisz, Balthazar."
 
 #: balth.tra:1152
-#, fuzzy
-#| msgid ""
-#| "A Solar has been my mentor since this began, guiding me and preparing me for"
-#| " what is to come.  The prophecy is not so simple as you think it to be, no "
-#| "matter how we assume it to be.  Think about it and you'll know it to be "
-#| "true, Balthazar... everything has more than one side."
 msgid ""
 "A Solar has been my mentor since this began, guiding me and preparing me for"
 " what is to come. The prophecy is not so simple as you think it to be, no "
 "matter how we assume it to be. Think about it and you'll know it to be true,"
 " Balthazar... everything has more than one side."
 msgstr ""
-"Solar był moim mentorem od samego początku, przewodząc mi i przygotowując na"
-" to co ma nadejść. Przepowiednia nie jest tak prosta jak myślisz, że jest, "
+"Solar był moim mentorem od samego początku, przewodząc mi i przygotowując na "
+"to co ma nadejść. Przepowiednia nie jest tak prosta jak myślisz, że jest, "
 "nieważne jak trudno można to przyjąć. Pomyśl o tym, Balthazar... każda "
 "moneta ma dwie strony."
 
 #: balth.tra:1153
-#, fuzzy
-#| msgid ""
-#| "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>.  "
-#| "And my path remains clear."
 msgid ""
 "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>. "
 "And my path remains clear."
@@ -2175,11 +1890,6 @@ msgstr ""
 "przeznaczenie, <CHARNAME>. Moja ścieżka pozostaje jasna."
 
 #: balth.tra:1154
-#, fuzzy
-#| msgid ""
-#| "You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder.  Yet... "
-#| "it seems that my destiny may differ from yours.  I have no heavenly "
-#| "guidance.  Perhaps my path has been made for me, yet."
 msgid ""
 "You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder. Yet... "
 "it seems that my destiny may differ from yours. I have no heavenly guidance."
@@ -2187,14 +1897,10 @@ msgid ""
 msgstr ""
 "Zasadziłeś we mnie ziarno wątpliwości, <CHARNAME>, i zacząłem się "
 "zastanawiać. Mimo to... zdaje się, że nasze przeznaczanie różnią się od "
-"siebie. Nie mam żadnego niebiańskiego przewodnika. Być może moja ścieżka nie"
-" została jeszcze opisana."
+"siebie. Nie mam żadnego niebiańskiego przewodnika. Być może moja ścieżka nie "
+"została jeszcze opisana."
 
 #: balth.tra:1155
-#, fuzzy
-#| msgid ""
-#| "What you say is incredible, and yet... it does make sense.  Have I prepared "
-#| "myself for all this time in error?  How could this be?"
 msgid ""
 "What you say is incredible, and yet... it does make sense. Have I prepared "
 "myself for all this time in error? How could this be?"
@@ -2203,23 +1909,14 @@ msgstr ""
 "Czy przez ten cały czas byłem w błędzie? Jak to możliwe?"
 
 #: balth.tra:1156
-#, fuzzy
-#| msgid ""
-#| "An appealing notion, to walk away.  Would that I could do so.  Would that "
-#| "any of us could have done so."
 msgid ""
 "An appealing notion, to walk away. Would that I could do so. Would that any "
 "of us could have done so."
 msgstr ""
 "Bardzo ciekawy zamiar, by tak po prostu odejść. Czy ja mógłbym to zrobić. "
-"Czy ktokolwiek z nas mogłby tak zrobić."
+"Czy ktokolwiek z nas mógłby tak zrobić."
 
 #: balth.tra:1157
-#, fuzzy
-#| msgid ""
-#| "But perhaps I have resigned myself to a path that is not what it seems.  You"
-#| " are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>.  "
-#| "Perhaps there is hope... or perhaps I am only deluding myself."
 msgid ""
 "But perhaps I have resigned myself to a path that is not what it seems. You "
 "are... hardly what I expected for the last of the Bhaalspawn, <CHARNAME>. "
@@ -2231,28 +1928,16 @@ msgstr ""
 "oszukuję."
 
 #: balth.tra:1158
-#, fuzzy
-#| msgid ""
-#| "But that is a fool's notion, <CHARNAME>, and I am no fool.  There is no such"
-#| " option available to me or any of us, no matter how appealing you may make "
-#| "it seem."
 msgid ""
 "But that is a fool's notion, <CHARNAME>, and I am no fool. There is no such "
 "option available to me or any of us, no matter how appealing you may make it"
 " seem."
 msgstr ""
 "Ale to jest zamiar dla głupców, <CHARNAME>, a ja nie jestem głupcem. Nie ma "
-"takiej możliwości dla nikogo z nas, nie ważne jak dobrym wyborem mogło by to"
-" być."
+"takiej możliwości dla nikogo z nas, nie ważne jak dobrym wyborem mogło by to "
+"być."
 
 #: balth.tra:1159
-#, fuzzy
-#| msgid ""
-#| "No!  You have listened to nothing I have said!  It *is* that way because "
-#| "there is no choice for us!  You would have me forget all the murders I have "
-#| "committed with my own hands, all the wrongs I have done in the name of the "
-#| "greater good... I cannot forget!  I will not forgive myself and I will *not*"
-#| " allow others to be afflicted with the taint I possess!"
 msgid ""
 "No! You have listened to nothing I have said! It *is* that way because there"
 " is no choice for us! You would have me forget all the murders I have "
@@ -2267,11 +1952,6 @@ msgstr ""
 "styczność z moją skazą!"
 
 #: balth.tra:1160
-#, fuzzy
-#| msgid ""
-#| "You have considerable charisma, <CHARNAME>...but it is because we are "
-#| "siblings that we cannot work together.  You know as well as I what the "
-#| "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgid ""
 "You have considerable charisma, <CHARNAME>...but it is because we are "
 "siblings that we cannot work together. You know as well as I what the "
@@ -2283,12 +1963,6 @@ msgstr ""
 "dopóki nie odnajdzie tego czego szuka."
 
 #: balth.tra:1161
-#, fuzzy
-#| msgid ""
-#| "I make no judgement upon you, <CHARNAME>.  You are what you were born to be."
-#| "  I can only trust myself to hold to the path of good that will lead to the "
-#| "destruction of the true evil that threatens FaerÃ»n.  There is no other path"
-#| " for me."
 msgid ""
 "I make no judgement upon you, <CHARNAME>. You are what you were born to be. "
 "I can only trust myself to hold to the path of good that will lead to the "
@@ -2297,49 +1971,33 @@ msgid ""
 msgstr ""
 "Nie osądzam cię, <CHARNAME>. Jesteś tym czym miałeś być. Mogę jedynie ufać, "
 "że uda mi się pozostać na ścieżce dobra, która prowadzi do zniszczenia zła "
-"zagrażającego Faerunowi. Nie ma dla mnie innej ściezki."
+"zagrażającego Faerunowi. Nie ma dla mnie innej ścieżki."
 
 #: balth.tra:1162
-#, fuzzy
-#| msgid ""
-#| "Look at the suffering you have brought to Amkethran!  Your monks terrorize "
-#| "the innocent at your command!  You hire soulless mercenaries that cut down "
-#| "the innocent at the slightest provocation!  And all for nothing!  You call "
-#| "these the actions of a good man?"
 msgid ""
 "Look at the suffering you have brought to Amkethran! Your monks terrorize "
 "the innocent at your command! You hire soulless mercenaries that cut down "
 "the innocent at the slightest provocation! And all for nothing! You call "
 "these the actions of a good man?"
 msgstr ""
-"Spójrz na cierpienie jakie sprowadziłeś na Amkethran! Twoi mnisi terroryzują"
-" niewinnych na twój rozkaz! Wynajmujesz bezdusznych najemników, którzy "
+"Spójrz na cierpienie jakie sprowadziłeś na Amkethran! Twoi mnisi terroryzują "
+"niewinnych na twój rozkaz! Wynajmujesz bezdusznych najemników, którzy "
 "zabijają niewinnych za najmniejsze przewinienie! I wszystko na nic! I "
 "nazywasz się dobrym człowiekiem?"
 
 #: balth.tra:1163
-#, fuzzy
-#| msgid ""
-#| "A truly good man would have stood against Melissan from the beginning.  You "
-#| "say you wanted to find out who the Five were... and yet I defeated them "
-#| "without your scheming.  It was your choice to join the Five in their reign "
-#| "of destruction, so live up to it!"
 msgid ""
 "A truly good man would have stood against Melissan from the beginning. You "
 "say you wanted to find out who the Five were... and yet I defeated them "
 "without your scheming. It was your choice to join the Five in their reign of"
 " destruction, so live up to it!"
 msgstr ""
-"Naprawdę dobry człowiek stanąłby przeciw Melissanie od samego poczatku. "
+"Naprawdę dobry człowiek stanąłby przeciw Melissanie od samego początku. "
 "Mówisz, że chciałeś dowiedzieć się kim była Piątka ... a ja pokonałem ich "
 "bez żadnego spiskowania. To był twój wybór przyłączyć się do Piątki w jej "
 "rządach zniszczenia!"
 
 #: balth.tra:1164
-#, fuzzy
-#| msgid ""
-#| "You make no judgement upon me?  Don't make me laugh!  Inevitability is only "
-#| "the newest excuse for yet one more murder!  You would make our father proud!"
 msgid ""
 "You make no judgement upon me? Don't make me laugh! Inevitability is only "
 "the newest excuse for yet one more murder! You would make our father proud!"
@@ -2348,12 +2006,6 @@ msgstr ""
 "wymówką do kolejnego morderstwa. Nasz ojciec byłby z ciebie dumny!"
 
 #: balth.tra:1165
-#, fuzzy
-#| msgid ""
-#| "And what if that is my path, too, Balthazar?  You say you don't judge me, "
-#| "and yet you hold yourself to some duty as the only person who can fight "
-#| "against evil?  Do you know destiny so well that you can say for certain "
-#| "where it leads for someone else, never mind yourself?"
 msgid ""
 "And what if that is my path, too, Balthazar? You say you don't judge me, and"
 " yet you hold yourself to some duty as the only person who can fight against"
@@ -2366,21 +2018,10 @@ msgstr ""
 "określić dokąd wiedzie czyjeś przeznaczenie?"
 
 #: balth.tra:1166
-#, fuzzy
-#| msgid "Then let's get this over with.  I'm tired of talking."
 msgid "Then let's get this over with. I'm tired of talking."
 msgstr "Zatem kończmy to. Zmęczyła mnie już rozmowa."
 
 #: balth.tra:1167
-#, fuzzy
-#| msgid ""
-#| "It... it is true.  I paid little attention to my men's actions, but I... I "
-#| "knew what they were doing.  I thought it a great sacridice, necessary to "
-#| "maintain secrecy, to attain my ultimate goal that they, in their ignorance, "
-#| "did not know would benefit them more in the end.  But... it is how we treat "
-#| "the most helpless of our brethren in the worst of times that marks the "
-#| "goodness of a man, does it not?  I... I am ashamed, <CHARNAME>.  I sought..."
-#| " only to do what was best for us all."
 msgid ""
 "It... it is true. I paid little attention to my men's actions, but I... I "
 "knew what they were doing. I thought it a great sacridice, necessary to "
@@ -2392,18 +2033,13 @@ msgid ""
 msgstr ""
 "To... to prawda. Nie zwracałem uwagi na działania moich ludzi, chociaż... "
 "wiedziałem co robią. Myślałem, że takie wielkie poświęcenie niezbędne jest "
-"by utzymać dyskrecję moich działań i by ostatecznie osiągnąć cel, który "
+"by utrzymać dyskrecję moich działań i by ostatecznie osiągnąć cel, który "
 "przyniósłby o wiele większe korzyści. Ale... to właśnie jak traktujemy "
 "najbardziej bezbronnych w najgorszych czasach świadczy o dobroci człowieka, "
 "czyż nie? Tak... tak mi wstyd, <CHARNAME>. Chciałem... jedynie czynić to co "
 "dla nas najlepsze."
 
 #: balth.tra:1168
-#, fuzzy
-#| msgid ""
-#| "You found out who the Five were through Melissan's scheming... and through, "
-#| "in no small part, my own.  But who is to say that things might not have been"
-#| " different?  Who are *you* to say that things might have been different?"
 msgid ""
 "You found out who the Five were through Melissan's scheming... and through, "
 "in no small part, my own. But who is to say that things might not have been "
@@ -2415,27 +2051,16 @@ msgstr ""
 "to wszystko mogło potoczyć się inaczej?"
 
 #: balth.tra:1169
-#, fuzzy
-#| msgid ""
-#| "But... it is true, nevertheless.  I have taken the easy path, and have done "
-#| "much that has brought harm to others in the name of necessity.  But when "
-#| "does 'necessity' cross into the realm of evil?  I... I am ashamed, "
-#| "<CHARNAME>."
 msgid ""
 "But... it is true, nevertheless. I have taken the easy path, and have done "
 "much that has brought harm to others in the name of necessity. But when does"
 " 'necessity' cross into the realm of evil? I... I am ashamed, <CHARNAME>."
 msgstr ""
 "Nie mniej jednak... to prawda co mówisz. Wybrałem prostą i łatwą ścieżkę, "
-"przez co sprowadziłem tak wiele krzywd w imię potrzeby. Ale kiedy 'potrzeba'"
-" łączy się ze złem, co wtedy? Tak... tak mi wstyd, <CHARNAME>."
+"przez co sprowadziłem tak wiele krzywd w imię potrzeby. Ale kiedy 'potrzeba' "
+"łączy się ze złem, co wtedy? Tak... tak mi wstyd, <CHARNAME>."
 
 #: balth.tra:1170
-#, fuzzy
-#| msgid ""
-#| "I do not stand here proud of my accomplishments in attaining what I see to "
-#| "be a necessary goal... but neither should you.  You have blundered about, "
-#| "causing more harm by your negligence than I ever could by my plotting."
 msgid ""
 "I do not stand here proud of my accomplishments in attaining what I see to "
 "be a necessary goal... but neither should you. You have blundered about, "
@@ -2447,12 +2072,6 @@ msgstr ""
 "mój spisek."
 
 #: balth.tra:1171
-#, fuzzy
-#| msgid ""
-#| "I will *not* be mocked so!  I have sacrificed my entire life, the people of "
-#| "this village, everything I have in order to see this evil destroyed!  "
-#| "Destroyed, all of it!  I cry out to Ao the Overfather that such evil must "
-#| "not be allowed to live in the hearts of mortals, and I *will* be heard!"
 msgid ""
 "I will *not* be mocked so! I have sacrificed my entire life, the people of "
 "this village, everything I have in order to see this evil destroyed! "
@@ -2466,11 +2085,6 @@ msgstr ""
 "wysłuchany!"
 
 #: balth.tra:1172
-#, fuzzy
-#| msgid ""
-#| "I... know only what the temptations are that the taints puts upon us, "
-#| "<CHARNAME>.  I know only that if our power was to grow, if your power was to"
-#| " grow, that so would the temptation."
 msgid ""
 "I... know only what the temptations are that the taints puts upon us, "
 "<CHARNAME>. I know only that if our power was to grow, if your power was to "
@@ -2481,13 +2095,6 @@ msgstr ""
 "wzrośnie, zwiększy się również pokusa."
 
 #: balth.tra:1173
-#, fuzzy
-#| msgid ""
-#| "But... you have been successful in fighting temptation.  More successful "
-#| "than I.  I have... done much that I regret, in the name of good.  My people "
-#| "suffer because I held my ultimate goal above all else... but is it not true "
-#| "that our treatment of the least of our brethren is the true judge of a man's"
-#| " soul?  I... I am ashamed."
 msgid ""
 "But... you have been successful in fighting temptation. More successful than"
 " I. I have... done much that I regret, in the name of good. My people suffer"
@@ -2502,24 +2109,15 @@ msgstr ""
 "najgorszych czasach świadczy o dobroci człowieka? Tak... tak mi wstyd."
 
 #: balth.tra:1174
-#, fuzzy
-#| msgid ""
-#| "And despite what you might profess, I think the taint sits closer to your "
-#| "heart then you would have me believe.  I must walk my own path, "
-#| "<CHARNAME>...and you must walk yours."
 msgid ""
 "And despite what you might profess, I think the taint sits closer to your "
 "heart then you would have me believe. I must walk my own path, "
 "<CHARNAME>...and you must walk yours."
 msgstr ""
-"I wbrew temu co twierdzisz, uważam, że skaza jest bliższa twemu sercu. Muszę"
-" kroczyć swą własną ścieżką, <CHARNAME>... a ty musisz kroczyć swoją."
+"I wbrew temu co twierdzisz, uważam, że skaza jest bliższa twemu sercu. Muszę "
+"kroczyć swą własną ścieżką, <CHARNAME>... a ty musisz kroczyć swoją."
 
 #: balth.tra:1175
-#, fuzzy
-#| msgid ""
-#| "Very well.  Come, my students... my teachings are ended.  We make our last "
-#| "stand now for what is right.  May the gods have pity on us all."
 msgid ""
 "Very well. Come, my students... my teachings are ended. We make our last "
 "stand now for what is right. May the gods have pity on us all."
@@ -2528,13 +2126,6 @@ msgstr ""
 "ostatni walczmy o to co jest prawe. Niech bogowie mają nas w swej opiece."
 
 #: balth.tra:1176
-#, fuzzy
-#| msgid ""
-#| "Even had destiny not brought us to this point, I doubt things would have "
-#| "been different.  Perhaps if you had not borne the taint of our sire, things "
-#| "might have been different with you.  I would have liked to meet a "
-#| "<PRO_MANWOMAN> such as yourself without the taint on your soul, I think.  "
-#| "But now I have little choice."
 msgid ""
 "Even had destiny not brought us to this point, I doubt things would have "
 "been different. Perhaps if you had not borne the taint of our sire, things "
@@ -2542,19 +2133,13 @@ msgid ""
 "<PRO_MANWOMAN> such as yourself without the taint on your soul, I think. But"
 " now I have little choice."
 msgstr ""
-"Nawet jeśli przeznaczenie nie doprowadziło by nas tu, wątpie by sprawy "
+"Nawet jeśli przeznaczenie nie doprowadziło by nas tu, wątpię by sprawy "
 "potoczyły się inaczej. Być może jeśli nie urodziłbyś się ze skazą naszego "
 "dziedzictwa, sprawy rzeczywiście mogłyby się potoczyć inaczej. Chciałbym "
 "kiedyś poznać kogoś takiego jak ty, bez skazy na duszy. Ale teraz nie mam "
 "innego wyboru."
 
 #: balth.tra:1177
-#, fuzzy
-#| msgid ""
-#| "Would that your claim of innocence meant anything to the dead of Saradush.  "
-#| "Were I to question the recent dead of Athkatla, of Baldur's Gate, of "
-#| "Candlekeep... would I not find some who would claim such innocence for "
-#| "themselves?  Who died merely because they were caught in your wake?"
 msgid ""
 "Would that your claim of innocence meant anything to the dead of Saradush. "
 "Were I to question the recent dead of Athkatla, of Baldur's Gate, of "
@@ -2563,17 +2148,10 @@ msgid ""
 msgstr ""
 "Czy niewinność, o której mówisz znaczy coś dla martwych osób z Saradush. A "
 "co z innymi jak na przykład Athkatla, czy Baldur's Gate, czy w końcu "
-"Candlekeep... czy tam nie było tak samo? Kto zginął tylko dlatego, że stanął"
-" ci na drodze?"
+"Candlekeep... czy tam nie było tak samo? Kto zginął tylko dlatego, że stanął "
+"ci na drodze?"
 
 #: balth.tra:1178
-#, fuzzy
-#| msgid ""
-#| "Do you think that others of our kind are any different?  Count them, "
-#| "<CHARNAME>, and think of the multitudes of Bhaalspawn that existed and "
-#| "brought misery to others, if not by intent, then even by their very "
-#| "presence.  Would you allow such carnage to continue?  Have we not spared the"
-#| " entire land from agony by the slaying of our siblings?"
 msgid ""
 "Do you think that others of our kind are any different? Count them, "
 "<CHARNAME>, and think of the multitudes of Bhaalspawn that existed and "
@@ -2582,17 +2160,12 @@ msgid ""
 "entire land from agony by the slaying of our siblings?"
 msgstr ""
 "Myślisz, że pozostała część naszego rodzeństwa jest inna? Policz ich, "
-"<CHARNAME>, i pomyśl ile pomiotów Bhaala istniało i przynosiło cierpienie na"
-" innych, jeśli nieumyślnie, to przez samą swoją obecność. Pozwoliłbyś by "
-"taka rzeź nadal miała miejsce? Czy nie ocaliliśmy całych Krain przed agonią "
+"<CHARNAME>, i pomyśl ile pomiotów Bhaala istniało i przynosiło cierpienie na "
+"innych, jeśli nieumyślnie, to przez samą swoją obecność. Pozwoliłbyś by taka "
+"rzeź nadal miała miejsce? Czy nie ocaliliśmy całych Krain przed agonią "
 "zabijając nasze rodzeństwo?"
 
 #: balth.tra:1179
-#, fuzzy
-#| msgid ""
-#| "You believe yourself to be the master of your destiny, do you?  The destiny "
-#| "foreseen long ago by Alaundo?  You believe it by choice alone that you ended"
-#| " up here, in this place?"
 msgid ""
 "You believe yourself to be the master of your destiny, do you? The destiny "
 "foreseen long ago by Alaundo? You believe it by choice alone that you ended "
@@ -2603,27 +2176,16 @@ msgstr ""
 "znalazłeś się w tym miejscu?"
 
 #: balth.tra:1180
-#, fuzzy
-#| msgid ""
-#| "You mistake the path for the journey, my friend.  Whatever paths you have "
-#| "taken since leaving Candlekeep, the journey has ended here as it was always "
-#| "meant to.  Destiny masters us... we do not master it."
 msgid ""
 "You mistake the path for the journey, my friend. Whatever paths you have "
 "taken since leaving Candlekeep, the journey has ended here as it was always "
 "meant to. Destiny masters us... we do not master it."
 msgstr ""
-"Mylisz scieżkę przeznaczenia z podróżą, mój przyjacielu. Jakąkolwiek ścieżkę"
-" obrałeś po opuszczeniu Candlekeep, twoja podróż zakończyła się tutaj tak "
-"jak miało być. Przeznaczenie panuje nad nami... a nie my nad nim."
+"Mylisz ścieżkę przeznaczenia z podróżą, mój przyjacielu. Jakąkolwiek ścieżkę "
+"obrałeś po opuszczeniu Candlekeep, twoja podróż zakończyła się tutaj tak jak "
+"miało być. Przeznaczenie panuje nad nami... a nie my nad nim."
 
 #: balth.tra:1181
-#, fuzzy
-#| msgid ""
-#| "Yes, whether they were obstacles to be overcome or merely by-standers "
-#| "crossing your path.  My own life has been little different, no matter how I "
-#| "have struggled against it.  I am glad you see this... it will make things "
-#| "much easier."
 msgid ""
 "Yes, whether they were obstacles to be overcome or merely by-standers "
 "crossing your path. My own life has been little different, no matter how I "
@@ -2637,12 +2199,6 @@ msgstr ""
 "łatwiej."
 
 #: balth.tra:1182
-#, fuzzy
-#| msgid ""
-#| "You sound like Yaga-Shura, a giant in ego as well as body.  Yet he fell, "
-#| "too, when his fate came due.  The power of your blood may yet make you "
-#| "victorious, it is true, but the fact that you embrace the taint within you "
-#| "makes my own path that much the clearer."
 msgid ""
 "You sound like Yaga-Shura, a giant in ego as well as body. Yet he fell, too,"
 " when his fate came due. The power of your blood may yet make you "
@@ -2655,20 +2211,12 @@ msgstr ""
 "czyni twą ścieżkę o wiele jaśniejszą."
 
 #: balth2.tra:1002
-#, fuzzy
-#| msgid ""
-#| "<CHARNAME> does not stand alone, Melissan.  It is time that this is ended."
 msgid ""
 "<CHARNAME> does not stand alone, Melissan. It is time that this is ended."
 msgstr ""
-"<CHARNAME> nie staje przeciw tobie sam, Melissano. Czas to wszytko "
-"zakończyć."
+"<CHARNAME> nie staje przeciw tobie sam, Melissano. Czas to wszytko zakończyć."
 
 #: balth2.tra:1003
-#, fuzzy
-#| msgid ""
-#| "I see well enough now, priestess.  Speak clever wit if you wish, you cannot "
-#| "hope to defeat us."
 msgid ""
 "I see well enough now, priestess. Speak clever wit if you wish, you cannot "
 "hope to defeat us."
@@ -2677,23 +2225,14 @@ msgstr ""
 "pokonać."
 
 #: balth2.tra:1004
-#, fuzzy
-#| msgid ""
-#| "To return the essence to our father.  And great bloodshed in his name to "
-#| "call him forth.  And I never believed it."
 msgid ""
 "To return the essence to our father. And great bloodshed in his name to call"
 " him forth. And I never believed it."
 msgstr ""
-"By przywrócić esencję naszemu ojcu. I dokonać wielkiego rozlewu krwii w jego"
-" imieniu. Nigdy w to nie wierzyłem."
+"By przywrócić esencję naszemu ojcu. I dokonać wielkiego rozlewu krwi w jego "
+"imieniu. Nigdy w to nie wierzyłem."
 
 #: balth2.tra:1005
-#, fuzzy
-#| msgid ""
-#| "We must be careful now, <CHARNAME>.  Within that stream of energy, Melissan "
-#| "is invulnerable to harm... and I doubt she will come out of it willingly to "
-#| "face us."
 msgid ""
 "We must be careful now, <CHARNAME>. Within that stream of energy, Melissan "
 "is invulnerable to harm... and I doubt she will come out of it willingly to "
@@ -2704,12 +2243,6 @@ msgstr ""
 "dobrowolnie by z nami walczyć."
 
 #: balth2.tra:1006
-#, fuzzy
-#| msgid ""
-#| "I think the essence pools that adjoin the Throne might be divertable by "
-#| "someone with a connection to the essence.  A Bhaalspawn, one of us.  If all "
-#| "three were cut off from her stream, Melissan might be forced to deal with us"
-#| " rather than soak up even more power."
 msgid ""
 "I think the essence pools that adjoin the Throne might be divertable by "
 "someone with a connection to the essence. A Bhaalspawn, one of us. If all "
@@ -2718,15 +2251,10 @@ msgid ""
 msgstr ""
 "Myślę, że sadzawki esencji, które dołączają do Tronu musza być w jakiś "
 "sposób połączone z samą esencją.  Pomiot Bhaala, jedno z nas. Jeśli "
-"wszystkie trzy zostaną odcięte od strumienia, Melissana może być zmuszona by"
-" rozprawić się z nami niż wchłonąć jeszcze więcej mocy."
+"wszystkie trzy zostaną odcięte od strumienia, Melissana może być zmuszona by "
+"rozprawić się z nami niż wchłonąć jeszcze więcej mocy."
 
 #: balth2.tra:1007
-#, fuzzy
-#| msgid ""
-#| "She has, no doubt, guarded the pools in some fashion... but it is the only "
-#| "way to continue that I can think of.  Short of standing here and watching "
-#| "her become a goddess, that is."
 msgid ""
 "She has, no doubt, guarded the pools in some fashion... but it is the only "
 "way to continue that I can think of. Short of standing here and watching her"
@@ -2737,11 +2265,6 @@ msgstr ""
 "stanie tutaj i przyglądanie się jak staje się boginią."
 
 #: balth2.tra:1008
-#, fuzzy
-#| msgid ""
-#| "You are a fool, Melissan.  You should have kept what divine energy you had "
-#| "for yourself and not spread it amongst such servants.  It will prove your "
-#| "doom."
 msgid ""
 "You are a fool, Melissan. You should have kept what divine energy you had "
 "for yourself and not spread it amongst such servants. It will prove your "
@@ -2751,43 +2274,26 @@ msgstr ""
 "rozdzielać jej na twe sługi. To dowodzi tego, że czeka cię zguba."
 
 #: balth2.tra:1009
-#, fuzzy
-#| msgid "You... you are so beautiful.  I... had no idea..."
 msgid "You... you are so beautiful. I... had no idea..."
 msgstr "Ty... ty jesteś taka piękna. Nie... nie miałem pojęcia..."
 
 #: balth2.tra:1010
-#, fuzzy
-#| msgid ""
-#| "Choose?  You mean... I may rid myself of the taint on my soul forever?"
 msgid "Choose? You mean... I may rid myself of the taint on my soul forever?"
 msgstr ""
 "Wybrać? Masz na myśli... to, że mogę pozbyć się skazy ze swojej duszy na "
 "zawsze?"
 
 #: balth2.tra:1011
-#, fuzzy
-#| msgid ""
-#| "And there is nothing that I ever wanted more.  I choose to become a mortal "
-#| "gladly, and with all my heart.  To walk the earth without that dark burden "
-#| "twisting my soul... I... I cannot even imagine..."
 msgid ""
 "And there is nothing that I ever wanted more. I choose to become a mortal "
 "gladly, and with all my heart. To walk the earth without that dark burden "
 "twisting my soul... I... I cannot even imagine..."
 msgstr ""
 "A niczego więcej bardziej nie pragnąłem. Całym moim sercem pragnę stać się "
-"śmiertelnikiem. Chodzić po ziemii bez mrocznego ciężaru, który skręcał moją "
-"duszę... nawet... nawet nie moge sobie tego wyobrazić..."
+"śmiertelnikiem. Chodzić po ziemi bez mrocznego ciężaru, który skręcał moją "
+"duszę... nawet... nawet nie mogę sobie tego wyobrazić..."
 
 #: balth2.tra:1012
-#, fuzzy
-#| msgid ""
-#| "I cannot thank you enough, <CHARNAME>, for the gift you have given me.  I "
-#| "once thought I had done everything I could to fight for what was good... but"
-#| " it was you that showed me how wrong I was.  Without you, I would have died "
-#| "with that stain upon my soul and perhaps even been Melissan's puppet "
-#| "forever."
 msgid ""
 "I cannot thank you enough, <CHARNAME>, for the gift you have given me. I "
 "once thought I had done everything I could to fight for what was good... but"
@@ -2801,12 +2307,6 @@ msgstr ""
 "i być może na zawsze stałbym się marionetką Melissany."
 
 #: balth2.tra:1013
-#, fuzzy
-#| msgid ""
-#| "I cannot pretend to know what you are thinking, now, of the decision you "
-#| "must make.  Nor do I pretend to certainty that the taint would bring such a "
-#| "<PRO_MANWOMAN> such as yourself towards evil.  Perhaps you would overcome "
-#| "that taint and be a good god, I cannot say."
 msgid ""
 "I cannot pretend to know what you are thinking, now, of the decision you "
 "must make. Nor do I pretend to certainty that the taint would bring such a "
@@ -2818,12 +2318,6 @@ msgstr ""
 "przezwyciężysz i staniesz się dobrym bogiem, tego nie wiem."
 
 #: balth2.tra:1014
-#, fuzzy
-#| msgid ""
-#| "I just ask you to consider how Bhaal's taint has affected your life to this "
-#| "point.  Do you really wish to have all of it?  What type of person actually "
-#| "wishes to become a god?  Sarevok?  Irenicus?  Melissan?  Even if your "
-#| "intentions are good, what of an eternity being chained to such power?"
 msgid ""
 "I just ask you to consider how Bhaal's taint has affected your life to this "
 "point. Do you really wish to have all of it? What type of person actually "
@@ -2837,11 +2331,6 @@ msgstr ""
 "taką mocą?"
 
 #: balth2.tra:1015
-#, fuzzy
-#| msgid ""
-#| "The choice is your own.  You know yourself better than I.  I simply ask that"
-#| " you consider the life you might have led, the mortal life, had the taint "
-#| "never visited itself upon you back at Candlekeep.  I look forward to my own."
 msgid ""
 "The choice is your own. You know yourself better than I. I simply ask that "
 "you consider the life you might have led, the mortal life, had the taint "
@@ -2852,49 +2341,34 @@ msgstr ""
 "życie, bez skazy na duszy. Takie samo jak moje."
 
 #: balth2.tra:1016
-#, fuzzy
-#| msgid ""
-#| "And so it is done.  I believe you have made the right choice.  I look "
-#| "forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
-#| " <PRO_BROTHERSISTER>."
 msgid ""
 "And so it is done. I believe you have made the right choice. I look forward "
 "to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true "
 "<PRO_BROTHERSISTER>."
 msgstr ""
-"Niech więc tak będzie. WIerzę, że dokonałeś rozsądnego wyboru. Być może "
+"Niech więc tak będzie. Wierzę, że dokonałeś rozsądnego wyboru. Być może "
 "jeszcze się kiedyś spotkamy na Faerunie, <CHARNAME>... jako śmiertelnicy i "
 "prawdziwi bracia."
 
 #: balth2.tra:1017
-#, fuzzy
-#| msgid ""
-#| "And so you take the road less traveled, <CHARNAME>.  I cannot say I envy "
-#| "you.  I hope the power brings you what you expect and desire, my friend.  "
-#| "When I look up at the heavens and see the brightest star in the sky, I shall"
-#| " think of you and offer a prayer."
 msgid ""
 "And so you take the road less traveled, <CHARNAME>. I cannot say I envy you."
 " I hope the power brings you what you expect and desire, my friend. When I "
 "look up at the heavens and see the brightest star in the sky, I shall think "
 "of you and offer a prayer."
 msgstr ""
-"Tak więc wybrałeś ścieżkę, którą jeszcze nie kroczyłeś, <CHARNAME>. Nie mogę"
-" powiedzieć, że zgadzam się z tobą. Mam nadzieję, że moc da ci to czego "
-"pragnąłeś, mój przyjacielu. Kiedy spojrzę na niebo i zobaczę najjaśniejszą z"
-" gwiazd, będę o tobie myślał."
+"Tak więc wybrałeś ścieżkę, którą jeszcze nie kroczyłeś, <CHARNAME>. Nie mogę "
+"powiedzieć, że zgadzam się z tobą. Mam nadzieję, że moc da ci to czego "
+"pragnąłeś, mój przyjacielu. Kiedy spojrzę na niebo i zobaczę najjaśniejszą z "
+"gwiazd, będę o tobie myślał."
 
 #: balth2.tra:1018
-#, fuzzy
-#| msgid ""
-#| "Melissan keeps restoring her immortal energies at the fount!  There must be "
-#| "a way to weaken her further, or we will never defeat her!"
 msgid ""
 "Melissan keeps restoring her immortal energies at the fount! There must be a"
 " way to weaken her further, or we will never defeat her!"
 msgstr ""
 "Melissana przywraca swoją nieśmiertelną energię w jego źródle! Musi być "
-"jakiś sposób by ją jeszcze osłabyć, albo nigdy jej nie pokonamy!"
+"jakiś sposób by ją jeszcze osłabić, albo nigdy jej nie pokonamy!"
 
 #: ee.tra:3001
 #, fuzzy
@@ -2949,14 +2423,25 @@ msgid ""
 "Weight: 10"
 msgstr ""
 "Miecz Chaosu Sarevoka\n"
-"Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał Sarevok, gdy starli się w odległych Wrotach Baldura. Wówczas <CHARNAME> zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy od wojny, która zbliżała się nieuchronnie. Teraz kiedy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do swego prawowitego właściciela. Sarevok opisał broń jako miecz Przynosiciela Śmierci oraz ujawnił jego niektóre ukryte, stare zdolności. Niestety, ze względu na brak esencji Bhaala, która łączyła właściciela i jego ostrze nie uzyskał on mocy, jaką niegdyś posiadał. Mimo to miecz nadal stanowi niebezpieczną broń... ale Sarevok ostrzegł, że niełatwo będzie nią władać komuś kto nie był wcześniej Przynosicielem Śmierci.\n"
+"Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał "
+"Sarevok, gdy starli się w odległych Wrotach Baldura. Wówczas <CHARNAME> "
+"zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy od "
+"wojny, która zbliżała się nieuchronnie. Teraz kiedy Sarevok i <CHARNAME> "
+"walczą ramię w ramię, ostrze powróciło do swego prawowitego właściciela. "
+"Sarevok opisał broń jako miecz Przynosiciela Śmierci oraz ujawnił jego "
+"niektóre ukryte, stare zdolności. Niestety, ze względu na brak esencji "
+"Bhaala, która łączyła właściciela i jego ostrze nie uzyskał on mocy, jaką "
+"niegdyś posiadał. Mimo to miecz nadal stanowi niebezpieczną broń... ale "
+"Sarevok ostrzegł, że niełatwo będzie nią władać komuś kto nie był wcześniej "
+"Przynosicielem Śmierci.\n"
 "\n"
 "PARAMETRY:\n"
 "\n"
 "Obrażenia: 1K10 +4\n"
 "TraK0: +4\n"
 "Specjalne:\n"
-" Każde trafienie wysysa od jednego do pięciu punktów życia od celu i przekazuje je dzierżycielowi\n"
+" Każde trafienie wysysa od jednego do pięciu punktów życia od celu i "
+"przekazuje je dzierżycielowi\n"
 " 10% odporności na magię kiedy jest w użyciu\n"
 "Typ obrażeń: sieczne\n"
 "Waga: 10\n"
@@ -2964,14 +2449,7 @@ msgstr ""
 "Rodzaj biegłości: miecz oburęczny\n"
 "Typ broni: 2-ręczna\n"
 "Wymagana siła: 14\n"
-"Wymagana kondycja: 18\n"
-"Nie może używać:\n"
-" Kapłan\n"
-" Mag\n"
-" Paladyn\n"
-" Łowca\n"
-" Druid\n"
-" Postać o charakterze innym niż chaotyczny"
+"Wymagana kondycja: 18"
 
 #: ee.tra:3003
 msgid ""
@@ -2983,10 +2461,6 @@ msgid ""
 msgstr ""
 
 #: finbodh.tra:33
-#, fuzzy
-#| msgid ""
-#| "Ahhh... my dear brother calls me at last, does he?  I knew you would not be "
-#| "able to live without my assistance for long."
 msgid ""
 "Ahhh... my dear brother calls me at last, does he? I knew you would not be "
 "able to live without my assistance for long."
@@ -2995,42 +2469,27 @@ msgstr ""
 "że nie będzie mógł żyć beze mnie przy swym boku."
 
 #: finbodh.tra:34
-#, fuzzy
-#| msgid ""
-#| "(chuckle)  How very like you to blame me for your own failings.  Poor, poor "
-#| "Irenicus... always so very, very close to getting what he wants and yet "
-#| "always so very, very far."
 msgid ""
 "(chuckle) How very like you to blame me for your own failings. Poor, poor "
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr ""
 "(chichocze) Jak to podobne do ciebie obwiniać innych za swe niepowodzenia. "
-"Biedny, biedny Irenicus... zawsze tak bardzo chce być blisko tego co pożąda,"
-" a i tak zawsze jest bardzo daleko."
+"Biedny, biedny Irenicus... zawsze tak bardzo chce być blisko tego co pożąda, "
+"a i tak zawsze jest bardzo daleko."
 
 #: finbodh.tra:35
-#, fuzzy
-#| msgid ""
-#| "So I see.  How absolutely delicious to let me in on your little play with "
-#| "the Bhaalspawn again, brother dear.  And how are you, <CHARNAME>?  I do so "
-#| "hope you are as... healthy... as I remember.  Shall we continue our merry "
-#| "dance?"
 msgid ""
 "So I see. How absolutely delicious to let me in on your little play with the"
 " Bhaalspawn again, brother dear. And how are you, <CHARNAME>? I do so hope "
 "you are as... healthy... as I remember. Shall we continue our merry dance?"
 msgstr ""
 "Ach tak. Jakież to miłe z twojej strony pozwolić mi po raz kolejny na małą "
-"zabawę z pomiotem Bhaala, drogi bracie. I jak się miewasz, <CHARNAME>?  Mam "
+"zabawę z pomiotem Bhaala, drogi bracie. I jak się miewasz, <CHARNAME>? Mam "
 "nadzieję, że jesteś... zdrowy... tak jak pamiętam. Czy zatańczymy raz "
 "jeszcze?"
 
 #: finbodh.tra:36
-#, fuzzy
-#| msgid ""
-#| "Still trapped in servitude to Irenicus?  Do you have no will of your own, "
-#| "Bodhi?"
 msgid ""
 "Still trapped in servitude to Irenicus? Do you have no will of your own, "
 "Bodhi?"
@@ -3044,10 +2503,6 @@ msgstr ""
 "żałosnej walki?"
 
 #: finbodh.tra:38
-#, fuzzy
-#| msgid ""
-#| "Best hike up your skirts and run, Bodhi.  The time when I found vampires "
-#| "remotely threatening is long past!"
 msgid ""
 "Best hike up your skirts and run, Bodhi. The time when I found vampires "
 "remotely threatening is long past!"
@@ -3056,34 +2511,22 @@ msgstr ""
 "dawno minął!"
 
 #: finbodh.tra:39
-#, fuzzy
-#| msgid ""
-#| "Do I have to suffer your prattle again?  I shall stamp out your evil "
-#| "presence once and for all!"
 msgid ""
 "Do I have to suffer your prattle again? I shall stamp out your evil presence"
 " once and for all!"
 msgstr ""
-"Czy wciąż muszę słuchać waszego szczebiotu. Zniszczę wasze złe wcieleania "
-"raz na zawsze!"
+"Czy wciąż muszę słuchać waszego szczebiotu. Zniszczę wasze złe wcielenia raz "
+"na zawsze!"
 
 #: finbodh.tra:41
-#, fuzzy
-#| msgid ""
-#| "Oh Child of Bhaal, so serious and grim!  Do you not enjoy that our paths "
-#| "have crossed again?  Does your blood not rejoice?"
 msgid ""
 "Oh Child of Bhaal, so serious and grim! Do you not enjoy that our paths have"
 " crossed again? Does your blood not rejoice?"
 msgstr ""
-"Och Dziecię Bhaala, zawsze takie poważne! Czy nie cieszysz sie, że nasze "
+"Och Dziecię Bhaala, zawsze takie poważne! Czy nie cieszysz się, że nasze "
 "ścieżki znów się splotły? Czy twa krew się nie raduje?"
 
 #: finbodh.tra:42
-#, fuzzy
-#| msgid ""
-#| "You are weak, Bodhi, while the blood of a god flows within me.  I shall "
-#| "enjoy your death... again."
 msgid ""
 "You are weak, Bodhi, while the blood of a god flows within me. I shall enjoy"
 " your death... again."
@@ -3092,29 +2535,18 @@ msgstr ""
 "radował się z twej śmierci... znów."
 
 #: finbodh.tra:43
-#, fuzzy
-#| msgid "Enough of this!  You will fall before me, undead thing."
 msgid "Enough of this! You will fall before me, undead thing."
 msgstr "Dość tego! Zginiesz, nieumarła istoto."
 
 #: finbodh.tra:44
-#, fuzzy
-#| msgid ""
-#| "You have nothing to gain from this fight.  Will you sacrifice yourself out "
-#| "of sibling loyalty?  Do not make that mistake again."
 msgid ""
 "You have nothing to gain from this fight. Will you sacrifice yourself out of"
 " sibling loyalty? Do not make that mistake again."
 msgstr ""
-"Nic nie uzyskasz w tej walce. Czy zamierzasz się bezsensownie poświęcać? Nie"
-" powinnaś popełniać znów tego błędu."
+"Nic nie uzyskasz w tej walce. Czy zamierzasz się bezsensownie poświęcać? Nie "
+"powinnaś popełniać znów tego błędu."
 
 #: finbodh.tra:45
-#, fuzzy
-#| msgid ""
-#| "Stand aside Bodhi.  Your brother is blinded by his lust for vengance.  He's "
-#| "prepared to fight me to the death, but you don't need to die at his side.  "
-#| "There is no need for you to die at all."
 msgid ""
 "Stand aside Bodhi. Your brother is blinded by his lust for vengance. He's "
 "prepared to fight me to the death, but you don't need to die at his side. "
@@ -3125,10 +2557,6 @@ msgstr ""
 "musisz umierać."
 
 #: finbodh.tra:46
-#, fuzzy
-#| msgid ""
-#| "You may be strong, <CHARNAME>, but you are indeed a fool to think us weak.  "
-#| "I shall take your soul for my own, I swear it!"
 msgid ""
 "You may be strong, <CHARNAME>, but you are indeed a fool to think us weak. I"
 " shall take your soul for my own, I swear it!"
@@ -3137,12 +2565,6 @@ msgstr ""
 "słabych. Zjem twoją duszę, przysięgam!"
 
 #: finbodh.tra:47
-#, fuzzy
-#| msgid ""
-#| "You had your chance, brother.  Your plans failed, as I recall, and brought "
-#| "about my death.  No, you are weak and <CHARNAME> is strong and it is "
-#| "<PRO_HESHE> that shall give me what I need.  I look forward to bathing in "
-#| "your blood, dear brother... a suitable reward for your utter failure."
 msgid ""
 "You had your chance, brother. Your plans failed, as I recall, and brought "
 "about my death. No, you are weak and <CHARNAME> is strong and it is "
@@ -3151,26 +2573,18 @@ msgid ""
 msgstr ""
 "Miałeś swoją szansę, bracie. Twoje plany zawiodły i doprowadziły do mojej "
 "śmierci. Teraz ty jesteś słaby, a <CHARNAME> wręcz przeciwnie i to "
-"on<PRO_HESHE> dał mi to czego pragnę. Będę kąpać się w twojej krwii, drogi "
+"on<PRO_HESHE> dał mi to czego pragnę. Będę kąpać się w twojej krwi, drogi "
 "bracie... niech to będzie wynagrodzenie za twoje niepowodzenia."
 
 #: finbodh.tra:48
-#, fuzzy
-#| msgid ""
-#| "Oh Child of Bhaal, you do bore me so with your talk.  Come to me and embrace"
-#| " death as I have.  Let the dance begin again!"
 msgid ""
 "Oh Child of Bhaal, you do bore me so with your talk. Come to me and embrace "
 "death as I have. Let the dance begin again!"
 msgstr ""
-"Och boskie dziecię, tak mnie zanudzasz swoim gadaniem. Chodź i połącz się ze"
-" mną w tańcu śmierci!"
+"Och boskie dziecię, tak mnie zanudzasz swoim gadaniem. Chodź i połącz się ze "
+"mną w tańcu śmierci!"
 
 #: finbodh.tra:49
-#, fuzzy
-#| msgid ""
-#| "Indeed, I have no intention of dying at all.   I fight with my brother "
-#| "because I have no choice....or would you offer me one now?"
 msgid ""
 "Indeed, I have no intention of dying at all. I fight with my brother because"
 " I have no choice....or would you offer me one now?"
@@ -4152,8 +3566,8 @@ msgid ""
 "What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
 "too much power! You shall pay for this!"
 msgstr ""
-"Co--? Śmiertelna! Nie, nie może być! Jestem znów zaledwie śmiertelniczką!! "
-"Straciłam zbyt wiele mocy!! Zapłacisz mi za to!!"
+"Co--? Śmiertelna! Nie, nie może być! Jestem znów zaledwie śmiertelniczką! "
+"Straciłam zbyt wiele mocy! Zapłacisz mi za to!"
 
 #: finsarev.tra:26
 #, fuzzy
@@ -4329,7 +3743,7 @@ msgid ""
 "I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr ""
 "Nigdzie z tobą nie idę! I nikt już nie będzie więcej dotykał mojej duszy! O "
-"nie!!"
+"nie!"
 
 #: imoen25p.tra:470
 #, fuzzy
@@ -4338,19 +3752,19 @@ msgstr ""
 #| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
 msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
-msgstr "Nnngh!  Ach, to boli! <CHARNAME>, zatrzymaj ją... to... to boli!!"
+msgstr "Nnngh!  Ach, to boli! <CHARNAME>, zatrzymaj ją... to... to boli!"
 
 #: imoen25p.tra:471
 #, fuzzy
 #| msgid "What are you doing to her?!  Stop it, I demand it!!"
 msgid "What are you doing to her?! Stop it, I demand it!"
-msgstr "Co z nią robisz?! Przestań, rozkazuję ci!!"
+msgstr "Co z nią robisz?! Przestań, rozkazuję ci!"
 
 #: imoen25p.tra:472
 #, fuzzy
 #| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
 msgid "I'm the one you're after, Melissan! Leave her alone!"
-msgstr "To o mnie ci chodzi, Melissana! Zostaw ją w spokoju!!"
+msgstr "To o mnie ci chodzi, Melissana! Zostaw ją w spokoju!"
 
 #: imoen25p.tra:473
 #, fuzzy
