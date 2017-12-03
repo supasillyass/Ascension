@@ -2375,7 +2375,7 @@ msgstr ""
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
-"dead... and she wants us to fight! She *wants* this to happen!!"
+"dead... and she wants us to fight! She *wants* this to happen!"
 msgstr ""
 "Ti ha usato per sbarazzarsi delle altre progenie di Bhaal, ovviamente. "
 "Pensaci! Ha sempre saputo quali fossero i tuoi piani. Voleva morte tutte le "
@@ -4663,7 +4663,7 @@ msgstr ""
 #| "lost too much power!  You shall pay for this!!"
 msgid ""
 "What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
-"too much power! You shall pay for this!!"
+"too much power! You shall pay for this!"
 msgstr ""
 "Cosa--? Mortale! No, non puÃ² essere! Sono di nuovo quasi mortale! Ho perso "
 "troppo potere! Pagherai per questo!"
@@ -4841,7 +4841,7 @@ msgstr ""
 #| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
 #| "again!!"
 msgid ""
-"I'm not going anywhere with you! And nobody's touching my soul! Not again!!"
+"I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr ""
 "Non andrÃ² da nessuna parte con te! E nessuno toccherÃ  la mia anima! Non di"
 " nuovo!"
@@ -4852,25 +4852,25 @@ msgstr ""
 #| msgid ""
 #| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
-msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!!"
+msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr "Nnngh! Ah, fa male! <CHARNAME>, fermala... Fa... fa male!"
 
 #: imoen25p.tra:471
 #, fuzzy
 #| msgid "What are you doing to her?!  Stop it, I demand it!!"
-msgid "What are you doing to her?! Stop it, I demand it!!"
+msgid "What are you doing to her?! Stop it, I demand it!"
 msgstr "Cosa le stai facendo?! Fermati, Ã¨ un ordine!"
 
 #: imoen25p.tra:472
 #, fuzzy
 #| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
-msgid "I'm the one you're after, Melissan! Leave her alone!!"
+msgid "I'm the one you're after, Melissan! Leave her alone!"
 msgstr "Sono io quello che vuoi, Melissan! Lasciala stare!"
 
 #: imoen25p.tra:473
 #, fuzzy
 #| msgid "Pull yourself together, Imoen!  Attack!!"
-msgid "Pull yourself together, Imoen! Attack!!"
+msgid "Pull yourself together, Imoen! Attack!"
 msgstr "Riprenditi, Imoen! Attacca!"
 
 #: imoen25p.tra:474

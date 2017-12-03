@@ -1010,7 +1010,7 @@ msgstr ""
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
-"dead... and she wants us to fight! She *wants* this to happen!!"
+"dead... and she wants us to fight! She *wants* this to happen!"
 msgstr ""
 
 #: balth.tra:1131
@@ -2105,7 +2105,7 @@ msgstr ""
 #: finmel01.tra:630
 msgid ""
 "What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
-"too much power! You shall pay for this!!"
+"too much power! You shall pay for this!"
 msgstr ""
 
 #: finsarev.tra:26
@@ -2194,24 +2194,24 @@ msgstr ""
 
 #: imoen25j.tra:476 imoen25p.tra:476
 msgid ""
-"I'm not going anywhere with you! And nobody's touching my soul! Not again!!"
+"I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr ""
 
 #: imoen25p.tra:470
 msgctxt "IMOEN18"
-msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!!"
+msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr ""
 
 #: imoen25p.tra:471
-msgid "What are you doing to her?! Stop it, I demand it!!"
+msgid "What are you doing to her?! Stop it, I demand it!"
 msgstr ""
 
 #: imoen25p.tra:472
-msgid "I'm the one you're after, Melissan! Leave her alone!!"
+msgid "I'm the one you're after, Melissan! Leave her alone!"
 msgstr ""
 
 #: imoen25p.tra:473
-msgid "Pull yourself together, Imoen! Attack!!"
+msgid "Pull yourself together, Imoen! Attack!"
 msgstr ""
 
 #: imoen25p.tra:474

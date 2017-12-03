@@ -2245,7 +2245,7 @@ msgstr ""
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
-"dead... and she wants us to fight! She *wants* this to happen!!"
+"dead... and she wants us to fight! She *wants* this to happen!"
 msgstr ""
 "Она использовала тебя для избавления от других потомков Баала, это очевидно."
 " Подумай об этом! Она знала все то, о чем ты планировал. Она хотела смерти "
@@ -4554,7 +4554,7 @@ msgstr ""
 #| "lost too much power!  You shall pay for this!!"
 msgid ""
 "What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
-"too much power! You shall pay for this!!"
+"too much power! You shall pay for this!"
 msgstr ""
 "Что--? Смертный! Нет, это не может быть! Я опять была близка к смерти!! Я "
 "потеряла слишком много силы!! Ты заплатишь за это!!"
@@ -4732,7 +4732,7 @@ msgstr ""
 #| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
 #| "again!!"
 msgid ""
-"I'm not going anywhere with you! And nobody's touching my soul! Not again!!"
+"I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr "Я ни куда не пойду с вами! И никто не коснется моей души! Ни за что!!"
 
 #: imoen25p.tra:470
@@ -4741,7 +4741,7 @@ msgstr "Я ни куда не пойду с вами! И никто не кос�
 #| msgid ""
 #| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
-msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!!"
+msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr ""
 "Нннгг! Ах, это причиняет боль! <CHARNAME>, останови ее... это... это "
 "причиняет боль!!"
@@ -4749,19 +4749,19 @@ msgstr ""
 #: imoen25p.tra:471
 #, fuzzy
 #| msgid "What are you doing to her?!  Stop it, I demand it!!"
-msgid "What are you doing to her?! Stop it, I demand it!!"
+msgid "What are you doing to her?! Stop it, I demand it!"
 msgstr "Что ты делаешь с ней?! Прекрати, я требую этого!!"
 
 #: imoen25p.tra:472
 #, fuzzy
 #| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
-msgid "I'm the one you're after, Melissan! Leave her alone!!"
+msgid "I'm the one you're after, Melissan! Leave her alone!"
 msgstr "Кто тебе больше нужен, я или она, Мелисса?! Оставь ее в покое!!"
 
 #: imoen25p.tra:473
 #, fuzzy
 #| msgid "Pull yourself together, Imoen!  Attack!!"
-msgid "Pull yourself together, Imoen! Attack!!"
+msgid "Pull yourself together, Imoen! Attack!"
 msgstr "Соберись с духом, Имоен! В атаку!!"
 
 #: imoen25p.tra:474

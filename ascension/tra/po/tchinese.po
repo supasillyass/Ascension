@@ -1424,7 +1424,7 @@ msgstr "仔細想想吧﹐巴爾撒扎﹗你認為她真不知道你的計劃麼
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
-"dead... and she wants us to fight! She *wants* this to happen!!"
+"dead... and she wants us to fight! She *wants* this to happen!"
 msgstr "她利用你除去其他的巴爾之子﹐仔細想想﹐他了解你的計劃﹐她想殺掉所有的巴爾之子......她想讓咱們自相殘殺﹗她希望這件事情發生﹗"
 
 #: balth.tra:1131
@@ -3252,7 +3252,7 @@ msgstr ""
 #| "lost too much power!  You shall pay for this!!"
 msgid ""
 "What--? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
-"too much power! You shall pay for this!!"
+"too much power! You shall pay for this!"
 msgstr "什麼﹖凡人﹗不﹐不可能﹗我又快變成凡人了﹗我的能量失去太多了﹗你要為此付出代價﹗"
 
 #: finsarev.tra:26
@@ -3399,7 +3399,7 @@ msgstr ""
 #| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
 #| "again!!"
 msgid ""
-"I'm not going anywhere with you! And nobody's touching my soul! Not again!!"
+"I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr "我哪兒也不去﹗我不會讓別人再碰我的靈魂了﹗"
 
 #: imoen25p.tra:470
@@ -3408,25 +3408,25 @@ msgstr "我哪兒也不去﹗我不會讓別人再碰我的靈魂了﹗"
 #| msgid ""
 #| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
-msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!!"
+msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr "啊﹗好痛啊﹗<CHARNAME>﹐阻止她......好痛啊﹗"
 
 #: imoen25p.tra:471
 #, fuzzy
 #| msgid "What are you doing to her?!  Stop it, I demand it!!"
-msgid "What are you doing to her?! Stop it, I demand it!!"
+msgid "What are you doing to her?! Stop it, I demand it!"
 msgstr "你對她做了什麼﹖趕快停下﹐我命令你﹗"
 
 #: imoen25p.tra:472
 #, fuzzy
 #| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
-msgid "I'm the one you're after, Melissan! Leave her alone!!"
+msgid "I'm the one you're after, Melissan! Leave her alone!"
 msgstr "我是你要對付的人﹐梅麗珊﹗離開她﹗"
 
 #: imoen25p.tra:473
 #, fuzzy
 #| msgid "Pull yourself together, Imoen!  Attack!!"
-msgid "Pull yourself together, Imoen! Attack!!"
+msgid "Pull yourself together, Imoen! Attack!"
 msgstr "集中注意力﹐愛蒙﹗"
 
 #: imoen25p.tra:474
