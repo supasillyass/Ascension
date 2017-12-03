@@ -2458,7 +2458,7 @@ msgstr ""
 #| "  Perhaps I do not need to taste your blood..."
 msgid ""
 "My brother believes he can offer me your soul, yet I see that you too can "
-"raise others from the abyss; one who opposed you, no less! How intriguing. "
+"raise others from the abyss, one who opposed you, no less! How intriguing. "
 "Perhaps I do not need to taste your blood..."
 msgstr "我的弟弟相信他能給我靈魂﹐而我看到你也能從深淵裡復活別人﹗很有趣﹐看來我沒必要殺了你。"
 

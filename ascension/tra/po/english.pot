@@ -1624,7 +1624,7 @@ msgstr ""
 #: finbodh.tra:50
 msgid ""
 "My brother believes he can offer me your soul, yet I see that you too can "
-"raise others from the abyss; one who opposed you, no less! How intriguing. "
+"raise others from the abyss, one who opposed you, no less! How intriguing. "
 "Perhaps I do not need to taste your blood..."
 msgstr ""
 
