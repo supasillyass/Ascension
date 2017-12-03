@@ -6106,25 +6106,25 @@ msgstr ""
 msgid "Cannot install without Ascension main component."
 msgstr ""
 
-#: setup.tra:3
+#: setup.tra:2100
 msgid "Tougher Abazigal"
 msgstr ""
 
-#: setup.tra:4
+#: setup.tra:2200
 #, fuzzy
 #| msgid "Original Tougher Demogorgon (optional, requires ToB)"
 msgid "Tougher Demogorgon ( Original Bioware Design )"
 msgstr "Demogorgon Originel (optionnel, ToB requis)"
 
-#: setup.tra:5
+#: setup.tra:2300
 msgid "Tougher Gromnir"
 msgstr ""
 
-#: setup.tra:6
+#: setup.tra:2400
 msgid "Tougher Illasera"
 msgstr ""
 
-#: setup.tra:7
+#: setup.tra:2500
 msgid "Tougher Yaga-Shura"
 msgstr ""
 
@@ -6158,11 +6158,11 @@ msgstr ""
 msgid "This component is only for BG2:EE or EET"
 msgstr ""
 
-#: setup.tra:6000
+#: setup.tra:5300
 msgid "Install only Ascension's Epilogues"
 msgstr ""
 
-#: setup.tra:6010
+#: setup.tra:5310
 msgid "These epilogues are included in the main Ascension component"
 msgstr ""
 
