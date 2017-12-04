@@ -1,25 +1,25 @@
 @500 = ~Babau~
-@1003 = ~Przemiana w Nietoperza~
-@1006 = ~Fala Uderzeniowa~
-@1007 = ~Oœwiecaj¹ca Aura~
+@1003 = ~Przemiana w nietoperza~
+@1006 = ~Fala uderzeniowa~
+@1007 = ~Oœwiecaj¹ca aura~
 @1009 = ~Telekineza~
 @1012 = ~Odwrócone odpornoœci~
-@1013 = ~Kontrola Demona~
+@1013 = ~Kontrolowanie demona~
 @1014 = ~Skupienie~
-@1016 = ~Boski P³aszcz~
+@1016 = ~Boski p³aszcz~
 @1017 = ~Wyci¹gniêcie Mocy~
 @1018 = ~Duchowa Tarcza Czarów~
-@1019 = ~Rozkaz Demona~
+@1019 = ~Rozkazywanie demonowi~
 @1020 = ~Wygnanie~
 @1022 = ~Wypuszczenie~
-@1024 = ~Sprzê¿enie Zwrotne~
-@1025 = ~Boskie Przywrócenie~
-@1026 = ~Boskie Oczyszczenie~
-@1027 = ~Parali¿uj¹ca Aura~
-@1029 = ~Wybuch Lawy~
-@1031 = ~Symbol: Spowolnienie~
-@1037 = ~Przemiana w Niszczyciela~
-@1038 = ~Melissan: Rozkazywanie S³ugom Otch³ani~
+@1024 = ~Sprzê¿enie zwrotne~
+@1025 = ~Boskie przywrócenie~
+@1026 = ~Boskie oczyszczenie~
+@1027 = ~Parali¿uj¹ca aura~
+@1029 = ~Wybuch lawy~
+@1031 = ~Symbol: spowolnienie~
+@1037 = ~Przemiana w Pustoszyciela~
+@1038 = ~Melissana: Rozkazywanie s³ugom Otch³ani~
 @2000 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
@@ -60,11 +60,11 @@ Rzut obronny: brak
 Dziecko Bhaala przywo³ujê potêgê zaklêt¹ w swojej krwi, dziêki czemu otrzymuje na krótki czas cz¹stk¹ niebiañskiej mocy. Po rzuceniu tego czaru jego Si³a, Kondycja i Zrêcznoœæ wzrastaj¹ o 1 na ka¿de trzy poziomy. Tak wiêc cechy rzucaj¹cego z 3-go poziomu zwiêksz¹ siê o 1, a postaci z 12-go poziomu o 4.~
 @2003 = ~Moce Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
 
 Mroczna skaza (Nekromancja)
-Zasiêg: 6 m
-Czas trwania: 1 tura
+Zasiêg: 6 metrów
+Czas dzia³ania: 1 tura
 Czas rzucania: 1
 Obszar dzia³ania: 1 istota
 Rzut obronny: neguje
@@ -78,26 +78,26 @@ Za pomoc¹ tego zaklêcia, Dziecko Bhaala mo¿e przelaæ na wybran¹ ofiarê mroczn¹ s
 25. poziom: 8k8 + 6/rundê, spowolnienie na 36 sekund, rzut obronny z mod. -4, dotyczy grupy ofiar~
 @2004 = ~Moce Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> permanentn¹ ochronê przed negatywn¹ energi¹.~
+<CHARNAME> uzyska³<PRO_HESHE> permanentn¹ ochronê przed negatywn¹ energi¹ i 5% odpornoœci na magiê.~
 @2005 = ~Moce Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
 
-Rêka Mordu (Nekromancja)
-Zasiêg: rzucaj¹cy
-Czas trwania: 1 runda/5 poziomów
+Rêka mordu (Nekromancja)
+Zasiêg: rzucaj¹cy czar
+Czas dzia³ania: 1 runda/5 poziomów
 Czas rzucania: 1
 Rzut obronny: brak
 
 Jeœli Dziecko Bhaala przywo³a tê moc, to ka¿de jego uderzenie, zadane nieprzyjacielowi dowoln¹ broni¹ do walki bezpoœredniej (bez wzglêdu na to, czy jest to piêœæ, czy miecz), wyrz¹dza mu dodatkowe obra¿enia. Dzieje siê tak, poniewa¿ mroczna energia Bhaala przenika broñ i dodatkowo atakuje przeciwnika... przy czym zadane obra¿enia s¹ potem dodawane do liczby punktów ¿ycia jako uleczenie. Efekty tej zdolnoœci ró¿ni¹ siê w zale¿noœci od poziomu:
-10. poziom: 2 rundy, 4 punkty dodatkowych obra¿eñ, leczy 4 punkty ¿ycia
-15. poziom: 3 rundy, 6 punktów dodatkowych obra¿eñ, leczy 6 punktów ¿ycia
-20. poziom: 4 rundy, 8 punktów dodatkowych obra¿eñ, leczy 8 punktów ¿ycia
-25. poziom: 5 rund, 10 punktów dodatkowych obra¿eñ, leczy 10 punktów ¿ycia
-30. poziom: 6 rund, 12 punktów dodatkowych obra¿eñ, leczy 12 punktów ¿ycia~
+10. poziom: 2 rundy, 4 dodatkowe obra¿enia, leczy 4 punkty ¿ycia
+15. poziom: 3 rundy, 6 dodatkowych obra¿eñ, leczy 6 punktów ¿ycia
+20. poziom: 4 rundy, 8 dodatkowych obra¿eñ, leczy 8 punktów ¿ycia
+25. poziom: 5 rund, 10 dodatkowych obra¿eñ, leczy 10 punktów ¿ycia
+30. poziom: 6 rund, 12 dodatkowych obra¿eñ, leczy 12 punktów ¿ycia~
 @2006 = ~Moce Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
+<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
 
 Zmartwychwstanie (Nekromancja)
 Zasiêg: dotyk

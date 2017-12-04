@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-04 19:22+0000\n"
+"PO-Revision-Date: 2017-12-04 20:22+0000\n"
 "Last-Translator: Piotr Wiankowski <cahir5@poczta.fm>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
@@ -21,15 +21,15 @@ msgstr "Babau"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr "Przemiana w Nietoperza"
+msgstr "Przemiana w nietoperza"
 
 #: ascension.tra:1006
 msgid "Shockwave"
-msgstr "Fala Uderzeniowa"
+msgstr "Fala uderzeniowa"
 
 #: ascension.tra:1007
 msgid "Lightning Aura"
-msgstr "Oświecająca Aura"
+msgstr "Oświecająca aura"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
@@ -41,7 +41,7 @@ msgstr "Odwrócone odporności"
 
 #: ascension.tra:1013
 msgid "Control Demon"
-msgstr "Kontrola Demona"
+msgstr "Kontrolowanie demona"
 
 #: ascension.tra:1014
 msgid "Focus"
@@ -49,7 +49,7 @@ msgstr "Skupienie"
 
 #: ascension.tra:1016
 msgid "Divine Mantle"
-msgstr "Boski Płaszcz"
+msgstr "Boski płaszcz"
 
 #: ascension.tra:1017
 msgid "Draw Power"
@@ -61,7 +61,7 @@ msgstr "Duchowa Tarcza Czarów"
 
 #: ascension.tra:1019
 msgid "Command Demon"
-msgstr "Rozkaz Demona"
+msgstr "Rozkazywanie demonowi"
 
 #: ascension.tra:1020
 msgid "Banish"
@@ -73,35 +73,35 @@ msgstr "Wypuszczenie"
 
 #: ascension.tra:1024
 msgid "Feedback"
-msgstr "Sprzężenie Zwrotne"
+msgstr "Sprzężenie zwrotne"
 
 #: ascension.tra:1025
 msgid "Divine Restoration"
-msgstr "Boskie Przywrócenie"
+msgstr "Boskie przywrócenie"
 
 #: ascension.tra:1026
 msgid "Divine Cleansing"
-msgstr "Boskie Oczyszczenie"
+msgstr "Boskie oczyszczenie"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr "Paraliżująca Aura"
+msgstr "Paraliżująca aura"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
-msgstr "Wybuch Lawy"
+msgstr "Wybuch lawy"
 
 #: ascension.tra:1031
 msgid "Symbol Slow"
-msgstr "Symbol: Spowolnienie"
+msgstr "Symbol: spowolnienie"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
-msgstr "Przemiana w Niszczyciela"
+msgstr "Przemiana w Pustoszyciela"
 
 #: ascension.tra:1038
 msgid "Melissan: Command the Minions of the Abyss"
-msgstr "Melissan: Rozkazywanie Sługom Otchłani"
+msgstr "Melissana: Rozkazywanie sługom Otchłani"
 
 #: ascension.tra:2000
 msgid ""
@@ -212,22 +212,30 @@ msgid ""
 msgstr ""
 "Moce Bhaala\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie: \n"
+"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, mogąc jej używać raz dziennie: \n"
 "\n"
 "Mroczna skaza (Nekromancja)\n"
-"Zasięg: 6 m\n"
-"Czas trwania: 1 tura\n"
+"Zasięg: 6 metrów\n"
+"Czas działania: 1 tura\n"
 "Czas rzucania: 1\n"
 "Obszar działania: 1 istota\n"
 "Rzut obronny: neguje\n"
 "\n"
-"Za pomocą tego zaklęcia, Dziecko Bhaala może przelać na wybraną ofiarę mroczną skazę swego złego ojca, zatruwając tych przeciwników, którym nie uda się wykonać rzutu obronnego przeciwko śmierci. Efekty zależą od poziomu rzucającego i zostały opisane poniżej:\n"
+"Za pomocą tego zaklęcia, Dziecko Bhaala może przelać na wybraną ofiarę "
+"mroczną skazę swego złego ojca, zatruwając tych przeciwników, którym nie uda "
+"się wykonać rzutu obronnego przeciwko śmierci. Efekty zależą od poziomu "
+"rzucającego i zostały opisane poniżej:\n"
 "7-9. poz.: 2k8 + 2/rundę, spowolnienie na 12 sekund, rzut obronny z mod. -2\n"
-"10-12. poz.: 3k8 + 3/rundę, spowolnienie na 12 sekund, rzut obronny z mod. -2\n"
-"13-14. poz.: 4k8 + 4/rundę, spowolnienie na 12 sekund, rzut obronny z mod. -2\n"
-"15-16. poz.: 6k8 + 5/rundę, spowolnienie na 24 sekundy, rzut obronny z mod. -2\n"
-"17-21. poz.: 8k8 + 6/rundę, spowolnienie na 24 sekundy, rzut obronny z mod. -2\n"
-"25. poziom: 8k8 + 6/rundę, spowolnienie na 36 sekund, rzut obronny z mod. -4, dotyczy grupy ofiar"
+"10-12. poz.: 3k8 + 3/rundę, spowolnienie na 12 sekund, rzut obronny z mod. -"
+"2\n"
+"13-14. poz.: 4k8 + 4/rundę, spowolnienie na 12 sekund, rzut obronny z mod. -"
+"2\n"
+"15-16. poz.: 6k8 + 5/rundę, spowolnienie na 24 sekundy, rzut obronny z mod. -"
+"2\n"
+"17-21. poz.: 8k8 + 6/rundę, spowolnienie na 24 sekundy, rzut obronny z mod. -"
+"2\n"
+"25. poziom: 8k8 + 6/rundę, spowolnienie na 36 sekund, rzut obronny z mod. -"
+"4, dotyczy grupy ofiar"
 
 #: ascension.tra:2004
 msgid ""
@@ -237,7 +245,8 @@ msgid ""
 msgstr ""
 "Moce Bhaala\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> permanentną ochronę przed negatywną energią."
+"<CHARNAME> uzyskał<PRO_HESHE> permanentną ochronę przed negatywną energią i "
+"5% odporności na magię."
 
 #: ascension.tra:2005
 msgid ""
@@ -261,20 +270,26 @@ msgid ""
 msgstr ""
 "Moce Bhaala\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie: \n"
+"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, mogąc jej używać raz dziennie: \n"
 "\n"
-"Ręka Mordu (Nekromancja)\n"
-"Zasięg: rzucający\n"
-"Czas trwania: 1 runda/5 poziomów\n"
+"Ręka mordu (Nekromancja)\n"
+"Zasięg: rzucający czar\n"
+"Czas działania: 1 runda/5 poziomów\n"
 "Czas rzucania: 1\n"
 "Rzut obronny: brak\n"
 "\n"
-"Jeśli Dziecko Bhaala przywoła tę moc, to każde jego uderzenie, zadane nieprzyjacielowi dowolną bronią do walki bezpośredniej (bez względu na to, czy jest to pięść, czy miecz), wyrządza mu dodatkowe obrażenia. Dzieje się tak, ponieważ mroczna energia Bhaala przenika broń i dodatkowo atakuje przeciwnika... przy czym zadane obrażenia są potem dodawane do liczby punktów życia jako uleczenie. Efekty tej zdolności różnią się w zależności od poziomu:\n"
-"10. poziom: 2 rundy, 4 punkty dodatkowych obrażeń, leczy 4 punkty życia\n"
-"15. poziom: 3 rundy, 6 punktów dodatkowych obrażeń, leczy 6 punktów życia\n"
-"20. poziom: 4 rundy, 8 punktów dodatkowych obrażeń, leczy 8 punktów życia\n"
-"25. poziom: 5 rund, 10 punktów dodatkowych obrażeń, leczy 10 punktów życia\n"
-"30. poziom: 6 rund, 12 punktów dodatkowych obrażeń, leczy 12 punktów życia"
+"Jeśli Dziecko Bhaala przywoła tę moc, to każde jego uderzenie, zadane "
+"nieprzyjacielowi dowolną bronią do walki bezpośredniej (bez względu na to, "
+"czy jest to pięść, czy miecz), wyrządza mu dodatkowe obrażenia. Dzieje się "
+"tak, ponieważ mroczna energia Bhaala przenika broń i dodatkowo atakuje "
+"przeciwnika... przy czym zadane obrażenia są potem dodawane do liczby "
+"punktów życia jako uleczenie. Efekty tej zdolności różnią się w zależności "
+"od poziomu:\n"
+"10. poziom: 2 rundy, 4 dodatkowe obrażenia, leczy 4 punkty życia\n"
+"15. poziom: 3 rundy, 6 dodatkowych obrażeń, leczy 6 punktów życia\n"
+"20. poziom: 4 rundy, 8 dodatkowych obrażeń, leczy 8 punktów życia\n"
+"25. poziom: 5 rund, 10 dodatkowych obrażeń, leczy 10 punktów życia\n"
+"30. poziom: 6 rund, 12 dodatkowych obrażeń, leczy 12 punktów życia"
 
 #: ascension.tra:2006
 msgid ""
@@ -293,7 +308,7 @@ msgid ""
 msgstr ""
 "Moce Bhaala\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie: \n"
+"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, mogąc jej używać raz dziennie: \n"
 "\n"
 "Zmartwychwstanie (Nekromancja)\n"
 "Zasięg: dotyk\n"
@@ -302,7 +317,9 @@ msgstr ""
 "Obszar działania: dotknięta istota\n"
 "Rzut obronny: brak\n"
 "\n"
-"Podobnie jak czar 5. poziomu: Wskrzeszenie, to zaklęcie może przywrócić daną istotę do życia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pełnię punktów życia i gotowa jest na dalsze przygody."
+"Podobnie jak czar 5. poziomu: Wskrzeszenie, to zaklęcie może przywrócić daną "
+"istotę do życia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pełnię "
+"punktów życia i gotowa jest na dalsze przygody."
 
 #: ascension.tra:2007
 msgid ""
