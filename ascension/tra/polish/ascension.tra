@@ -119,7 +119,8 @@ PARAMETRY:
 Obra¿enia: 1K10 +4
 TraK0: +4
 Specjalne:
- Ka¿de trafienie wysysa od jednego do piêciu punktów ¿ycia od celu i przekazuje je dzier¿ycielowi
+  Ka¿de trafienie wysysa od jednego do piêciu punktów ¿ycia od celu, przekazuj¹c je dzier¿¹cemu broñ. Nie spowoduje to 
+  jednak wzrostu iloœci punktów ¿ycia powy¿ej maksymalnej wartoœci.
  10% odpornoœci na magiê kiedy jest w u¿yciu
 Typ obra¿eñ: sieczne
 Waga: 10
