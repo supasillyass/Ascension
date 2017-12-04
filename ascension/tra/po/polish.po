@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-04 20:22+0000\n"
+"PO-Revision-Date: 2017-12-05 21:59+0000\n"
 "Last-Translator: Piotr Wiankowski <cahir5@poczta.fm>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
@@ -57,7 +57,7 @@ msgstr "Wyciągnięcie Mocy"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr "Duchowa Tarcza Czarów"
+msgstr "Duchowa tarcza czarów"
 
 #: ascension.tra:1019
 msgid "Command Demon"
