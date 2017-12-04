@@ -1,20 +1,23 @@
-@3001 = ~Miecz Chaosu Sarevoka
-Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał Sarevok, gdy starli się w odległych Wrotach Baldura. Wówczas <CHARNAME> zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy od wojny, która zbliżała się nieuchronnie. Teraz kiedy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do swego prawowitego właściciela. Sarevok opisał broń jako miecz Przynosiciela Śmierci oraz ujawnił jego niektóre ukryte, stare zdolności. Niestety, ze względu na brak esencji Bhaala, która łączyła właściciela i jego ostrze nie uzyskał on mocy, jaką niegdyś posiadał. Mimo to miecz nadal stanowi niebezpieczną broń... ale Sarevok ostrzegł, że niełatwo będzie nią władać komuś kto nie był wcześniej Przynosicielem Śmierci.
+@3001 = ~Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał Sarevok, gdy starli się ze sobą w odległych Wrotach Baldura. Wówczas <CHARNAME> zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy przed zbliżającą się nieuchronnie wojną. Teraz gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazwał swój miecz Zwiastunem śmierci, uwalniając przy tym niektóre z jego dawnych zdolności. Niestety, ze względu na brak esencji Bhaala, łączącej niegdyś właściciela z jego ostrzem, broń nie uzyskała mocy, jaką posiadała dawniej. Mimo to miecz nadal stanowi niebezpieczną broń... choć Sarevok ostrzegł, że niełatwo nią będzie władać komuś, kto nie był wcześniej zwiastunem śmierci.
 
 PARAMETRY:
 
-Obrażenia: 1K10 +4
-TraK0: +4
 Specjalne:
- Każde trafienie wysysa od jednego do pięciu punktów życia od celu i przekazuje je dzierżycielowi
- 10% odporności na magię kiedy jest w użyciu
+– Każde trafienie wysysa od jednego do pięciu punktów życia od celu, przekazując je dzierżącemu broń. Nie spowoduje to jednak wzrostu ilości punktów życia powyżej maksymalnej wartości.
+– Odporność na magię: 10%
+
+Obrażenia: 1k10 +4
+TraK0: +4
 Typ obrażeń: sieczne
-Waga: 10
 Opóźnienie: 8
 Rodzaj biegłości: miecz oburęczny
 Typ broni: 2-ręczna
-Wymagana siła: 14
-Wymagana kondycja: 18~
+
+Wymagania:
+– Siła: 14
+– Kondycja: 18
+
+Waga: 10~
 @3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
 
 STATISTICS:
