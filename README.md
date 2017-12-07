@@ -1,6 +1,6 @@
 # Ascension
-<a href="https://tra.bgforge.net/engage/baldurs-gate/?utm_source=widget">
-<img src="https://tra.bgforge.net/widgets/baldurs-gate/-/ascension/svg-badge.svg" alt="Translation status" />
+<a href="https://tra.bgforge.net/projects/infinity-engine/ascension/">
+<img src="https://tra.bgforge.net/widgets/infinity-engine/-/ascension/svg-badge.svg" alt="Stan tłumaczenia" />
 </a>
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg" alt="License" />
