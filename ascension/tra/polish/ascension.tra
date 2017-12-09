@@ -7,7 +7,7 @@
 @1013 = ~Kontrolowanie demona~
 @1014 = ~Skupienie~
 @1016 = ~Boski p³aszcz~
-@1017 = ~Wyci¹gniêcie Mocy~
+@1017 = ~Wyci¹gniêcie mocy~
 @1018 = ~Duchowa tarcza czarów~
 @1019 = ~Rozkazywanie demonowi~
 @1020 = ~Wygnanie~
@@ -25,13 +25,13 @@
 <CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
 
 Grupowe leczenie (Nekromancja)
-Zasiêg: pole widzenia
+Zasiêg: pole widzenia rzucaj¹cego czar
 Czas dzia³ania: sta³y
 Czas rzucania: 1
-Obszar dzia³ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 metrów
 Rzut obronny: brak
 
-U¿ywaj¹c tej zdolnoœci, Dziecko Bhaala musi wyobraziæ sobie dok³adnie oblicza swych towarzyszy i skupiæ siê na jednoœci ca³ej dru¿yny. Kiedy ca³y rytua³ dobiegnie koñca, wszyscy cz³onkowie dru¿yny, znajduj¹cy siê w promieniu 10 m odzyskuj¹ 2k8 + 2 punkty ¿ycia/poziom. Uleczone zostaj¹ tak¿e inne negatywne efekty: zmêczenie, otrucie, choroba, œlepota i g³uchota.~
+U¿ywaj¹c tej zdolnoœci, Dziecko Bhaala musi wyobraziæ sobie dok³adnie oblicza swych towarzyszy i skupiæ siê na jednoœci ca³ej dru¿yny. Kiedy ca³y rytua³ dobiegnie koñca, wszyscy cz³onkowie dru¿yny, znajduj¹cy siê w promieniu 10 metrów odzyskuj¹ 2k8 + 2 punkty ¿ycia/poziom. Uleczone zostaj¹ tak¿e inne negatywne efekty: zmêczenie, otrucie, choroba, œlepota i g³uchota.~
 @2001 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
@@ -45,7 +45,7 @@ Czas rzucania: 7
 Obszar dzia³ania: 1 istota
 Rzut obronny: brak
 
-Ten potê¿ny czar umo¿liwia osobie go rzucaj¹cej nadanie wybranej istocie zdolnoœci regeneracyjnych, dziêki czemu mo¿e ona uleczyæ rany, a nawet zregenerowaæ stracone koñczyny. Istota pod wp³ywem czaru odzyskuje 3 punkty ¿ycia na sekundê. Efekt utrzymuje siê przez 1 rundê na ka¿de 2 poziomy rzucaj¹cego czar lub do momentu rozproszenia. Dla przyk³adu, kap³an 14 poziomu odzyskiwa³by 18 punktów ¿ycia na rundê przez 7 rund.~
+Ten potê¿ny czar umo¿liwia osobie go rzucaj¹cej nadanie wybranej istocie zdolnoœci regeneracyjnych, dziêki czemu mo¿e ona uleczyæ rany, a nawet zregenerowaæ stracone koñczyny. Istota pod wp³ywem czaru odzyskuje 3 punkty ¿ycia na sekundê. Efekt utrzymuje siê przez jedn¹ rundê na ka¿de dwa poziomy rzucaj¹cego czar lub do momentu rozproszenia. Dla przyk³adu, kap³an 14. poziomu odzyskiwa³by 18 punktów ¿ycia na rundê przez siedem rund.~
 @2002 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, u¿ywan¹ raz dziennie: 
@@ -57,7 +57,7 @@ Czas rzucania: 1
 Obszar dzia³ania: rzucaj¹cy czar
 Rzut obronny: brak
 
-Dziecko Bhaala przywo³ujê potêgê zaklêt¹ w swojej krwi, dziêki czemu otrzymuje na krótki czas cz¹stk¹ niebiañskiej mocy. Po rzuceniu tego czaru jego Si³a, Kondycja i Zrêcznoœæ wzrastaj¹ o 1 na ka¿de trzy poziomy. Tak wiêc cechy rzucaj¹cego z 3-go poziomu zwiêksz¹ siê o 1, a postaci z 12-go poziomu o 4.~
+Dziecko Bhaala przywo³ujê potêgê zaklêt¹ w swojej krwi, dziêki czemu otrzymuje na krótki czas cz¹stk¹ niebiañskiej mocy. Po rzuceniu tego czaru jego Si³a, Kondycja i Zrêcznoœæ wzrastaj¹ o 1 na ka¿de trzy poziomy. Tak wiêc cechy rzucaj¹cego z 3. poziomu zwiêksz¹ siê o 1, a postaci z 12. poziomu o 4.~
 @2003 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
@@ -70,11 +70,11 @@ Obszar dzia³ania: 1 istota
 Rzut obronny: neguje
 
 Za pomoc¹ tego zaklêcia, Dziecko Bhaala mo¿e przelaæ na wybran¹ ofiarê mroczn¹ skazê swego z³ego ojca, zatruwaj¹c tych przeciwników, którym nie uda siê wykonaæ rzutu obronnego przeciwko œmierci. Efekty zale¿¹ od poziomu rzucaj¹cego i zosta³y opisane poni¿ej:
-7-9. poz.: 2k8 + 2/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
-10-12. poz.: 3k8 + 3/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
-13-14. poz.: 4k8 + 4/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
-15-16. poz.: 6k8 + 5/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
-17-21. poz.: 8k8 + 6/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
+7-9. poziom: 2k8 + 2/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+10-12. poziom: 3k8 + 3/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+13-14. poziom: 4k8 + 4/rundê, spowolnienie na 12 sekund, rzut obronny z mod. -2
+15-16. poziom: 6k8 + 5/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
+17-21. poziom: 8k8 + 6/rundê, spowolnienie na 24 sekundy, rzut obronny z mod. -2
 25. poziom: 8k8 + 6/rundê, spowolnienie na 36 sekund, rzut obronny z mod. -4, dotyczy grupy ofiar~
 @2004 = ~Moce Bhaala
 
@@ -106,7 +106,7 @@ Czas rzucania: 1
 Obszar dzia³ania: dotkniêta istota
 Rzut obronny: brak
 
-Podobnie jak czar 5. poziomu: Wskrzeszenie, to zaklêcie mo¿e przywróciæ dan¹ istotê do ¿ycia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pe³niê punktów ¿ycia i gotowa jest na dalsze przygody.~
+Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ dan¹ istotê do ¿ycia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pe³niê punktów ¿ycia i gotowa jest na dalsze przygody.~
 @2007 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> 25% odpornoœci na obra¿enia fizyczne (np. sieczne, k³ute, obuchowe oraz pociski).~
@@ -138,7 +138,7 @@ Nie mo¿e u¿ywaæ:
  Postaæ o charakterze innym ni¿ chaotyczny~
 @3002 = ~Mikstura Sendai~
 @3003 = ~Mikstura Sendai
-Najprawdopodobniej wywarzona przez sam¹ Sendai, ta niesamowita mikstura leczenia jest w stanie ca³kowicie uleczyæ tego kto j¹ u¿yje.~
+Ta niezwykle potê¿na mikstura uzdrawiaj¹ca, bêd¹ca najprawdopodobniej dzie³em samej Sendai, jest zdolna przywróciæ pe³niê punktów ¿ycia pij¹cej j¹ osobie.~
 @82714 = ~Po opuszczeniu dru¿yny, której przewodzi³<PRO_HESHE> <CHARNAME>, Aerie w dalszym ci¹gu szuka³a przygód, zawsze staraj¹c siê walczyæ ze wszystkimi formami niewolnictwa. Jednak wspó³czucie by³o u niej ska¿one pragnieniem zemsty, zemsty za to, czego sama doœwiadczy³a, bêd¹c w kajdanach. Z czasem ca³kowicie odda³a siê zemœcie. Mówi siê, ¿e Aerie przepe³niona wœciek³oœci¹, zniszczy³a niewolnicz¹ enklawê znajduj¹c¹ siê w pó³nocnych wzgórzach Cormyru. By³a zaskoczona gdy natrafi³a tam na przetrzymywan¹ grupê skrzydlatych elfów Avariel. Poniewa¿ uwolni³a ich, elfy nak³oni³y j¹, by odwiedzi³a Faenya-Dail, dom, z którego j¹ wykradziono. W³aœnie tam Aerie dowiedzia³a siê wielu rzeczy, z których najwa¿niejsze by³o to, ¿e nie by³a ju¿ jedn¹ z nich. Dziêki temu przesta³a ju¿ têskniæ za skrzyd³ami, z których i tak nie mia³aby ¿adnego po¿ytku. Faenya-Dail nie by³ ju¿ d³u¿ej jej domem, dlatego te¿ z mieszanymi uczuciami postanowi³a go opuœciæ. Powiada siê, ¿e Aerie w koñcu zosta³a wielk¹ kap³ank¹ w Podkamieniu, wiosce gnomów, o której wspomina³ czasami jej nauczyciel, Quayle. Aerie zrozumia³a, ¿e to on by³ dla niej jedyn¹ prawdziw¹ rodzin¹, dlatego to w³aœnie pomiêdzy jego ludem znalaz³a w koñcu pokój, którego tak d³ugo szuka³a. Mówi siê równie¿, ¿e ka¿dej gwieŸdzistej nocy Aerie mogli siê o to by <CHARNAME> odnalaz³<PRO_HESHE> spokój, którego bez <PRO_HISHER> pomocy sama nigdy by nie odnalaz³a.~
 @82715 = ~Aerie i <CHARNAME> pozostali nieroz³¹czni, kontynuuj¹c poszukiwanie przygód przez wiele kolejnych lat. Ochota Aerie do wêdrowania sprawi³a, ¿e para odwiedzi³a najdalsze zak¹tki Faerunu. Ich malutki syn by³ zawsze u ich boku, sprawiaj¹c, ¿e <CHARNAME> uœmiecha³ siê nader czêsto. Ostatecznie para osiedli³a siê, kiedy na œwiat przysz³a przepiêkna córeczka, która sta³a siê drug¹ radoœci¹ ich ¿ycia. Jednak póŸniej czeka³a ich ostatnia wielka podró¿. Aerie wci¹¿ ze smutkiem wspomina³a czas swojego zniewolenia i utratê skrzyde³, dlatego ona i <CHARNAME> odszukali Avarielów z Faenya-Dail, skrzydlate elfy, spoœród których kiedyœ j¹ wykradziono. Tam Aerie odkry³a nie tylko swój lud, ale i kochaj¹cych rodziców, którzy spêdzili d³ugie lata, szukaj¹c swego zaginionego dziecka. Aerie w koñcu odnalaz³a sw¹ rodzinê. Teraz, gdy ich przesz³oœci nie przes³ania³a ju¿ mg³a tajemnicy ni zamêtu, Aerie i <CHARNAME> mogli w koñcu wzi¹æ œlub. Powiadaj¹, ¿e ich zwi¹zek zosta³ pob³ogos³awiony zarówno przez Aerdrie Faenya, jak i Baervana Wietrznego Wêdrowca. A co z A co z dzieæmi, wychowanymi przez dwie z najpotê¿niejszych istot w Krainach? Stworzy³y one legendê, która rywalizowa³a z opowieœciami o ich ojcu. To jednak, jest ju¿ ca³kiem inna historia...~
 @82716 = ~Po opuszczeniu dru¿yny, której przewodzi³<PRO_HESHE> <CHARNAME>, Anomen powróci³ do swego koœcio³a, staj¹c siê z czasem Wiêkszym Stra¿nikiem. Pozosta³ jednak niespokojny i niezadowolony, wspominaj¹c dni, podczas których podró¿owa³<PRO_HESHE> z nim <CHARNAME>... i chocia¿ wielu jego przyjació³ s¹dzi³o inaczej, Anomen nigdy nie uwa¿a³ koœcio³a za swój prawdziwy dom. Pozosta³ w nim jeszcze przez rok. Opuœci³ koœció³ i podró¿owa³ przez jakiœ czas jako misjonarz, docieraj¹c na pogranicze Maztica. Anomen pozostawa³ jednak cierpi¹c¹ dusz¹, gdy¿ nigdy nie by³ w pe³ni zadowolony ze swych czynów, nawet jeœli zyska³ dziêki nim szacunek nowo napotkanych przyjació³. Kiedy potê¿ny z³y kap³an Yamash powo³a³ do ¿ycia hordê demonów, aby zniszczyæ ca³e ¿ycie w Maztica, Anomen w koñcu odnalaz³ swój cel. Anomen wzi¹³ udzia³ w tym konflikcie, pomagaj¹c w zjednoczeniu i mobilizacji ¿o³nierzy oblê¿onego Maztica. W wielkiej bitwie, która potem nast¹pi³a, Anomen stan¹³ samotnie naprzeciwko Yamasha. <CHARNAME> i inni dawni towarzysze poszli w swoj¹ stronê: on zaœ samotnie opar³ siê wp³ywowi z³a. Ostatnio widziano go roni¹cego ³zy radoœci, kiedy atakowa³ Yamasha i wzywaj¹cego imiê Helma, potem zaœ wszystkich oœlepi³ b³ysk mocy. Kiedy siê rozjaœni³o, nie by³o ju¿ ani Anomena ani szalonego kap³ana. Bitwa zosta³a wygrana, a Maztica zosta³o ocalone. Anomen na zawsze zosta³ uznany za bohatera, inspiruj¹c stworzenie rycerzy strzeg¹cych porz¹dku w jego imieniu. Nowego porz¹dku w nowej krainie.~
