@@ -1,33 +1,33 @@
-@470 = ~Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!~ [IMOEN18]
-@471 = ~What are you doing to her?! Stop it, I demand it!~
-@472 = ~I'm the one you're after, Melissan! Leave her alone!~
-@473 = ~Pull yourself together, Imoen! Attack!~
-@474 = ~So what do I care about Imoen? Kill her, Melissan.~
-@475 = ~Wh-what... where am I? What's going on? <CHARNAME>?~
-@476 = ~I'm not going anywhere with you! And nobody's touching my soul! Not again!~
-@477 = ~It... it's gone... I'm human again. Ohhhh, now I know what you went through, <CHARNAME>! I don't know if I ever want to go through that again!~
-@478 = ~And I can't believe what you said, either! 'Go ahead and kill her'? After all we've been through, that's what you say in my defense?!~
+@470 = ~¡Nnngh! ¡Ah, duele! ¡<CHARNAME>, paradla... me... me lastima!~ [IMOEN18]
+@471 = ~¡¿Qué la estáis haciendo?! ¡Parad, os lo ordeno!~
+@472 = ~¡Yo soy lo mismo que vos seréis después, Melissan! ¡Dejadla sola!~
+@473 = ~¡Vamos juntos, Imoen! ¡Atacad!~
+@474 = ~¿Qué me importa Imoen? Matadla, Melissan.~
+@475 = ~¿Qu-qué... dónde estoy? ¿Qué ocurre? ¿<CHARNAME>?~
+@476 = ~¡Yo no voy a ningún lugar con vos! ¡Y nadie toca mi alma! ¡Nunca más!~
+@477 = ~Esto... esto marcha... soy humana otra vez. ¡Ohhhh, ahora se por lo que pasásteis, <CHARNAME>! ¡No se si quisiera pasar de nuevo por esto!~
+@478 = ~¡Y no puedo creer lo que estáis diciendo! ¿'Continuad y matadla'? Después de todo lo que hemos pasado, ¡¿eso es lo que tenéis que decir en mi defensa?!~
 @479 = ~¡Yo estaba intentando convencer a Melissan para que os dejara, Imoen!~
-@480 = ~Get over yourself, little girl. I never asked you to come, did I?~
-@481 = ~We don't have time for this chat, Imoen! This is the middle of a fight!~
-@482 = ~Well... I suppose. You convinced me more than her, obviously. I... I'm just glad I didn't do more damage as the slayer. I don't know how you handled it. Thank you for... for not killing me.~
-@483 = ~I... I can't stay here, though. This is way out of my league. I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
-@484 = ~Do you need me to join back up with you? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
-@485 = ~Imoen Has Survived
+@480 = ~Superadlo, chiquilla. Nunca os pedí que viniérais, ¿No?~
+@481 = ~¡No tenemos tiempo para esta charla, Imoen! ¡Esto es el centro de una pelea!~
+@482 = ~Bien... lo supongo. Me habéis convencido más que a ella, obviamente. Yo... estoy ahora contenta. No puedo hacer más daño que el Asesino. No se como lo controlas. Gracias por... por no matarme.~
+@483 = ~No... no puedo estar aqui. Éste es un camino de salida de mi alianza. Deseo vuestro bien, <CHARNAME>, y espero volver a veros otra vez. Tal vez vuelva a Candelero, ¿huh? De todas modos... buena suerte...~
+@484 = ~¿Me necesitáis para volver con vos? Yo podría... dejar el Trono, creo... creo que tengo ese poder, ahora, al igual que vos. Pero volveré a pelear junto a vos de nuevo, si vos lo queréis.~
+@485 = ~Imoen ha sobrevivido
 
-Imoen managed to survive Melissan's attempt to force her into berserk Slayer form. It seems that in doing so, Imoen has had her own progress in the taint advanced considerably. She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.
+Imoen logró sobrevivir a la tentativa de Melissan de convertirla en una forma de frenética Asesina. Parece ser que, Imoen ha tenido sus propios pogresos en un defecto considerablemente deserrollado. Ella ahora no sólo puede convertirse en la misma forma de Asesino que yo comencé a convertirme en la Prisión del Hechicero... si no que también ha adquirido la habilidad de ser Etérea durante cortos periodos de tiempo.
 
-Ethereal
+Etéreo
 -------------
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
-For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
-@486 = ~Sure. Let's join up again.~
+Imoen puede ahora entrar en el Plano Etéreo por cortos periodos de tiempo. La habilidad puede ser usada una vez por minuto, y su uso también la previene de asumir la forma del Asesino durante un minuto. Imoen puede permanecer etérea e intocable a las fuerzas de este plano durante todo un turno... durante el cual es invisible y completamente inmune al daño. Durante ese turno, ella tampoco puede lanzar conjuros o usar habilidades.
+Durante los dos turnos posteriores, Imoen puede permanecer 'en semi-fase'... ella es parcialmente en el plano etéreo y parcialmente en este plano. Es aún invisible, pero recibe la mitad de daño de cualquier origen. En este estado, hay una pequeña probabilidad (10%) de que calcule mal un conjuro. Durante tres turnos, ella puede ver objetivos invisibles.~
+@486 = ~Seguro. Dejadla unirse de nuevo.~
 @487 = ~No... salid de aqui mientras podáis, Imoen.~
-@488 = ~I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
-@489 = ~Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
-@490 = ~Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
-@491 = ~I'm... just glad I didn't do anything worse while I was... when I... oh, I just don't know how you handled it back in Spellhold. Thank you for... not killing me, okay?~
-@492 = ~Oh, so it is! Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
-@493 = ~I see the fight's still going on. Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'd like to see this through, same as you.~
-@494 = ~Stop distracting me in the middle of combat, already! Get back in the party!~
-@495 = ~Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?~
+@488 = ~Deseo vuestro bien, <CHARNAME>, y espero veros otra vez. Quizás vuelva a Candelero, ¿huh? De cualquier forma... buena suerte...~
+@489 = ~Sí, de acuerdo. Haced lo que sea que tengáis que hacer, <CHARNAME>. Yo... me alejaré de aquí tanto como me sea posible. ¡Adiós!~
+@490 = ~No, vos seguramente no. Gracias por nada, supongo. Haced lo que sea que tengáis que hacer, <CHARNAME>. Yo... me alejaré de aquí tanto como me sea posible. ¡Adios!~
+@491 = ~Estoy... contenta, no hice nada peor mientras estuve... cuando yo... oh, yo no se como lo manejásteis conteniéndolo en la Prisión del Hechicero. Gracias por... no matarme, ¿vale?~
+@492 = ~¡Oh, asi qué es eso! ¿Me necesitáis de vuelta en el grupo? Yo podría... dejar el Trono, pienso... pienso que tengo ese poder, ahora, como vos. Pero lucharé junto a vos de nuevo, si me queréis para ello.~
+@493 = ~Veo que la batalla todavía continúa. ¿Me necesitáis de nuevo en el grupo? Podría... podría dejar el Trono, creo... creo que tengo ese poder, ahora, al igual que vos. Pero me gustaría ver esto hasta el final, como vos.~
+@494 = ~¡Dejad ya de distraerme en medio de la batalla! ¡Volved al grupo!~
+@495 = ~¡Si señor! (risa nerviosa) ¿Es tiempo de patear el culo de alguien, cierto?~
