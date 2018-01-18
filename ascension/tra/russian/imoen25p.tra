@@ -1,33 +1,33 @@
-@470 = ~Нннгг! Ах, это причиняет боль! <CHARNAME>, останови ее... это... это причиняет боль!!~ [IMOEN18]
-@471 = ~Что ты делаешь с ней?! Прекрати, я требую этого!!~
-@472 = ~Кто тебе больше нужен, я или она, Мелисса?! Оставь ее в покое!!~
-@473 = ~Соберись с духом, Имоен! В атаку!!~
-@474 = ~Думаешь, меня сильно волнует Имоен? Убей ее, Мелисса.~
-@475 = ~Чт-что... где - я? Что происходит? <CHARNAME>?~
-@476 = ~Я ни куда не пойду с вами! И никто не коснется моей души! Ни за что!!~
-@477 = ~Это... это прошло... и я снова человек. Охххх, теперь я знаю через что ты прошел, <CHARNAME>! Но я не знаю, захочу ли я когда-либо пережить это опять!~
-@478 = ~И я не могу поверить в то, что услышала! 'Давай, убей ее'? И это после всего, что мы прошли вместе, ты говоришь это в мою защиту?!~
+@470 = ~Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!~ [IMOEN18]
+@471 = ~What are you doing to her?! Stop it, I demand it!~
+@472 = ~I'm the one you're after, Melissan! Leave her alone!~
+@473 = ~Pull yourself together, Imoen! Attack!~
+@474 = ~So what do I care about Imoen? Kill her, Melissan.~
+@475 = ~Wh-what... where am I? What's going on? <CHARNAME>?~
+@476 = ~I'm not going anywhere with you! And nobody's touching my soul! Not again!~
+@477 = ~It... it's gone... I'm human again. Ohhhh, now I know what you went through, <CHARNAME>! I don't know if I ever want to go through that again!~
+@478 = ~And I can't believe what you said, either! 'Go ahead and kill her'? After all we've been through, that's what you say in my defense?!~
 @479 = ~Это просто была попытка убедить Мелиссу в том, чтобы она оставила тебя в покое, Имоен!~
-@480 = ~Возьми себя в руки, маленькая девочка. Разве тебя просили, чтобы ты возвращалась?~
-@481 = ~У нас нет времени для этих разговоров, Имоен! Ведь сейчас только середина битвы!~
-@482 = ~Хорошо... наверное. Ты убеждаешь меня больше, чем она, это очевидно. Я... я только надеюсь, что я не сделала большого вреда, когда была в состоянии убийцы. Я не знаю, как тебе удалось справиться с этим. Спасибо за... за то, что я все еще жива.~
-@483 = ~Я... я не могу остаться здесь, к сожалению. Этот не для меня. Я желаю тебе всего хорошего, <CHARNAME>, и я надеюсь, что увижу тебя снова. Может быть снова в Кэндлкипе, хмм? Все может быть... удачи...~
-@484 = ~Ты хочешь, чтобы я вернулась назад, и была рядом с тобой? Я могла бы... покинуть Трон, я думаю... я думаю, что у меня теперь есть та сила, та же самая, что и у тебя. Но я буду биться на твоей стороне опять, если ты этого захочешь.~
-@485 = ~Имоен выжила 
+@480 = ~Get over yourself, little girl. I never asked you to come, did I?~
+@481 = ~We don't have time for this chat, Imoen! This is the middle of a fight!~
+@482 = ~Well... I suppose. You convinced me more than her, obviously. I... I'm just glad I didn't do more damage as the slayer. I don't know how you handled it. Thank you for... for not killing me.~
+@483 = ~I... I can't stay here, though. This is way out of my league. I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
+@484 = ~Do you need me to join back up with you? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
+@485 = ~Imoen Has Survived
 
-Имоен сумела пережить попытку Мелиссы превратить ее в неистовую форму Убийцы. Кажется, что при этом наследие Баала у Имоен получило некоторое развитие. Теперь она может не только превращаться в ту же форму Убийцы, что и я после Спеллхолда... но и переходить на эфирный план на короткие промежутки времени. 
+Imoen managed to survive Melissan's attempt to force her into berserk Slayer form. It seems that in doing so, Imoen has had her own progress in the taint advanced considerably. She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.
 
-Эфирный план 
-------------- 
-Теперь Имоен способна войти в Эфирный План на небольшие периоды времени. Эту способность можно использовать раз в минуту, при этом ее использование предотвращает Имоен от превращения в форму Убийцы в течение минуты. Имоен может остаться полностью эфирной и неподвластной силам на этом плане в течение целого раунда..., при этом она остается невидимой и полностью иммунной к вреду. В течение этого раунда она не может колдовать или использовать другие способности. 
-В течение следующих двух раундов Имоен может остаться 'полупрозрачной'..., она находится частично в эфирном и частично в этом плане. Она все еще невидима, но при этом получает половину ущерба любого вида. В этом состоянии есть небольшой шанс (10 %) что читаемое ею заклинание не удастся. В течение всех трех раундов, она способна видеть любые невидимые цели.~
-@486 = ~Конечно. Давай объединимся заново.~
+Ethereal
+-------------
+Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+@486 = ~Sure. Let's join up again.~
 @487 = ~Нет.. убирайся отсюда, пока можешь, Имоен.~
-@488 = ~Я желаю тебе всего хорошего, <CHARNAME>, и я надеюсь, что увижу тебя снова. Может быть снова в Кэндлкипе, хмм? Все может быть... удачи...~
-@489 = ~Да, действительно. У тебя была попытка сделать все, что можно, <CHARNAME>. Я... я ухожу отсюда и как можно дальше. Прощай!~
-@490 = ~Нет, конечно нет. Не оправдывайся. У тебя была попытка сделать все, что можно, <CHARNAME>. Я... я ухожу отсюда и как можно дальше. Прощай!~
-@491 = ~Я... только надеюсь, что не сделала что-то очень плохое, в то время как я была... когда я... оо, я не знаю, как тебе удалось вернуться назад в нормальное состояние в Спеллхолде. Спасибо за то... что я все еще жива, хорошо?~
-@492 = ~О, вот как! Ты нуждаешься во мне, хочешь вернуть меня обратно в команду? Я могла бы... покинуть Трон, я думаю... я думаю, что у меня теперь есть та сила, та же самая, что и у тебя. Но я буду биться на твоей стороне опять, если ты этого захочешь.~
-@493 = ~Я вижу, что битва все продолжается. Ты нуждаешься во мне, хочешь вернуть меня обратно в команду? Я могла бы... покинуть Трон, я думаю... я думаю, что у меня теперь есть та сила, та же самая, что и у тебя. Но я бы хотела просмотреть, чем это закончится, так же, как и ты.~
-@494 = ~Прекрати наконец отвлекать меня посреди битвы! Возвращайся в команду!~
-@495 = ~Конечно <PRO_SIRMAAM>! (Хихиканье!) Настало время надавать кое-кому по заднице, верно?~
+@488 = ~I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
+@489 = ~Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
+@490 = ~Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
+@491 = ~I'm... just glad I didn't do anything worse while I was... when I... oh, I just don't know how you handled it back in Spellhold. Thank you for... not killing me, okay?~
+@492 = ~Oh, so it is! Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
+@493 = ~I see the fight's still going on. Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'd like to see this through, same as you.~
+@494 = ~Stop distracting me in the middle of combat, already! Get back in the party!~
+@495 = ~Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?~

@@ -3,7 +3,7 @@
 @1006 = ~冲击波~
 @1007 = ~闪电光环~
 @1009 = ~劈空取物~
-@1012 = ~防御投射~
+@1012 = ~Reversed Resistances~
 @1013 = ~控制恶魔~
 @1014 = ~能量聚焦~
 @1016 = ~非凡防御~
@@ -20,49 +20,60 @@
 @1031 = ~法印：缓慢~
 @1037 = ~变形终结者~
 @1038 = ~深渊爪牙~
-@2000 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
-群体治疗（死灵系）
-射程：施法者视线以内
-时效：永久
-施法时间：1
-有效范围：半径30尺
-豁免鉴定：无 
-当使用此能力时，巴尔之子必须能够看清队友们的位置。完成后，所有半径30尺内的队友都会恢复2d8+2/每等级生命，并解除如下不良状态：疲劳，中毒，疾病，目盲，耳聋。~
-@2001 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
-再生（死灵系） 
-射程：触摸
-时效：1轮/2级
-施法时间：7
-有效范围：目标生物
-豁免鉴定：无
-这个超强的能力给予目标生物快速再生的能力，这个能力甚至可以恢复已经残废了的肢体。目标生物每秒恢复三点生命，被解咒前，每二等级可以持续效果一轮。例如，十四级的效果是七轮内每轮恢复十八点生命。~
-@2002 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
+@2000 = ~Bhaalspawn Powers
 
-召唤圣力（塑能系）
-射程：0
-时效：1回合
-施法时间：1
-有效范围：施法者
-豁免鉴定：无
-巴尔之子利用血液中的力量使自己在短期内变得更强壮。使用这个能力的效果是，<PRO_HISHER>的每三个等级可以提高强壮，体制，敏捷一点。十二级的施法者可以提高四点。~
-@2003 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
-黑暗天赋（死灵系） 
-射程：二十尺
-时效：一回合
-施法时间：1
-有效范围：一个生物
-豁免鉴定：通过无效
-籍由这个法术，巴尔之子可以将它的邪恶天赋释放到一个敌人身上，目标若未通过死亡豁免则会中毒，具体效果由施法者等级决定：
-7--9　　　2d8 + 2每轮，缓慢12秒，豁免-2不利。
-10--12　　3d8 + 3每轮，缓慢12秒，豁免-2不利。
-13--14　　4d8 + 4每轮，缓慢12秒，豁免-2不利。
-15--16　　6d8 + 5每轮，缓慢24秒，豁免-2不利。
-17--21　　8d8 + 6每轮，缓慢24秒，豁免-4不利。
-25以上　　8d8 + 6每轮，缓慢36秒，豁免-4不利，影响群体目标。~
+<CHARNAME> has gained the ability, usable once per day: 
+
+Mass Healing (Necromancy)
+Range: Sight of caster 
+Duration: Permanent 
+Casting Time: 1
+Area of Effect: 30 foot radius
+Saving Throw: None 
+
+When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group. Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points. Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness.~
+@2001 = ~Bhaalspawn Powers
+
+<CHARNAME> has gained the ability, usable once per day: 
+
+Regeneration (Necromancy) 
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
+
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
+@2002 = ~Bhaalspawn Powers
+
+<CHARNAME> has gained the ability, usable once per day: 
+
+Draw Upon Holy Might (Invocation) 
+Range: 0 
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster 
+Saving Throw: None 
+
+The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4.~
+@2003 = ~Bhaalspawn Powers
+
+<CHARNAME> has gained the ability, usable once per day: 
+
+Dark Taint (Necromancy) 
+Range: 20 feet
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Negates
+
+Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death. The effects depend upon the caster's level and are detailed below:
+7-9th level: 2d8 + 2/round, slow for 12 seconds, save at -2
+10-12th level: 3d8 + 3/round, slow for 12 seconds, save at -2
+13-14th level: 4d8 + 4/round, slow for 12 seconds, save at -2
+15-16th level: 6d8 + 5/round, slow for 24 seconds, save at -2
+17-21st level: 8d8 + 6/round, slow for 24 seconds, save at -4
+25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets~
 @2004 = ~巴尔之子的新能力
 <CHARNAME>获得负界能量防御以及5%的魔法防御。~
 @2005 = ~巴尔之子的新能力
@@ -80,58 +91,72 @@
 20级：4轮，8点额外伤害，治疗8点生命。
 25级：5轮，10点额外伤害，治疗10点生命。
 30级：6轮，12点额外伤害，治疗12点生命。~
-@2006 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
+@2006 = ~Bhaalspawn Powers
 
-复兴（死灵系）
-射程：触摸
-时效：永久
-施法时间：1
-有效范围：被触摸生物
-豁免鉴定：无
-类似第七级神术复兴，这个能力同样可以将死去的队友以最佳状态带回人世。~
+<CHARNAME> has gained the ability, usable once per day: 
+
+Resurrection (Necromancy)
+Range: Touch
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Creature Touched
+Saving Throw: None
+
+Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
 @2007 = ~巴尔之子的新能力
 <CHARNAME>获得25%的物理免疫能力。~
 @3000 = ~混乱之剑+4~
-@3001 = ~沙洛弗克的混乱之剑
-<CHARNAME>的兄弟，沙洛弗克的兵器。在博得之门发生的最后一战中，沙洛弗克被<CHARNAME>击败，他想在剑湾发起战争的计划也随之破产。现在沙洛弗克加入了<CHARNAME>的队伍，并使这把剑恢复了原来的一些能力。然而没有了巴尔之子的灵魂，沙洛弗克的剑无法达到像原来的那样强大，但它仍是一件可怕的武器。沙洛弗克说不是死亡使者的人最好不要碰这把剑。
+@3001 = ~Sarevok's Sword of Chaos
+The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
 
-状态：
-能力：每级吸取一到五点生命，吸取的生命不会超过生命最大值。持用者获得10%魔法防御。
+STATISTICS:
 
-伤害：1d10 + 4
-命中：+ 4有利
-重量：10
-速度因素：8
-武器种类：双手剑
-持用方式：双手
-属性需求：14强壮，18体质
-不可使用：
-牧师
-法师
-圣骑士
-游侠
-德鲁依
-非混乱阵营~
+Combat abilities:
+- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+
+Equipped abilities:
+- Magic Resistance: +10%
+
+Damage: 1D10 +4
+THAC0: +4 bonus
+Damage type: slashing
+Speed Factor: 8
+Proficiency Type: Two Handed sword
+Type: 2-handed
+Requires: 14 Strength, 18 Constitution
+Weight: 10
+Not Usable By:
+Cleric
+Mage
+Paladin
+Ranger
+Druid
+non-Chaotic aligned~
 @3002 = ~仙黛的药剂~
 @3003 = ~仙黛的药剂
 可能是仙黛自己做的药剂，任何人喝了他都会完全恢复健康。~
-@82714 = ~离开<CHARNAME>的队伍以后，艾莉继续着她的冒险，在旅途中，她竭尽全力对抗奴隶制度。但强烈的复仇心终究还是玷污了她的那份同情心，艾莉为了她被捕后所失去的一切而展开报复。若不是因为在卡米尔城偶然遇到一群同样被捕捉的翼精灵，艾莉可能已经因复仇而完全丧失自我。之后那群翼精灵把艾莉送回了费尼娅溪谷，那是艾莉被捉后离开了很久很久的家。在那里艾莉学到了很多，但最重要的是，她认识到了自己已经不再属于他们中的一员，她也不再怀念早已失去的翅膀。最后，艾莉来到了地石城--她的导师奎尔过去经常提起的一个侏儒城市，并成为了一名高级牧师。在那里，艾莉感觉到她找到了真正的家，找到了心灵的宁静。在那里，每天深夜繁星点点的时候，艾黎都真诚的为<CHARNAME>祈祷，希望他能够幸运的找到自己的归宿……因为没有<CHARNAME>，就没有现在的她。~
-@82715 = ~事实证明，艾莉与<CHARNAME>是不可分割的，艾黎对冒险的热心使他们俩人走遍了费仑的各个角落，每当随行的小儿子睁大了眼睛看着这个世界上的种种奇观时，<CHARNAME>与艾黎总是会心的微笑，当这一对安顿下来后，随后的小女儿成了他们生命中的第二个喜悦。在以后的生活中，尽管没有多少麻烦需要<CHARNAME>和艾黎动用他们强大的力量，但每一次这样的战斗都会成为传奇。不过，惊喜之余，艾莉仍然对曾经被捕成为奴隶并失去翅膀而感到一丝伤心，后来他们又进行了一次艰辛旅程。这是艾莉与<CHARNAME>一起为了努力寻找他们的家--居住着翼精灵的费尼娅溪谷--一个很久以前艾莉被夺走的地方。最后，他们终于来到了这里，不仅找到了艾莉的同族，而且还见到了正在苦苦搜寻他们失踪的女儿-艾莉-的父母。没有任何不能理解的神秘与困惑，艾莉与<CHARNAME>的确就在云雾之中，举行了婚礼，他们的结合，据说得到了圣洁的女神艾卓尔。芬雅以及贝尔文。流浪者-侏儒之神-共同的祝福。作为<CHARNAME>与艾黎的孩子，被这个遗忘国度里最有强大的两个人抚养，他们今后的命运一定是可与其父亲相匹敌的传说......~
-@82716 = ~阿诺门与他的朋友们分开后，继续侍奉海姆，并成为教廷的高级守望者。每当阿诺门回忆起与<CHARNAME>冒险的日子，都觉得热血沸腾，尽管朋友们常常开导他，但阿诺门从未感觉教堂是自己真正的归宿，直到有一天他意识到了自己应该有所改变。于是，他离开了教廷的工作，以一个传教士的身份去探索遗忘国度，不过他仍然是一个麻烦的种子。他强大的能力为他赢得了很多新朋友的尊敬，他仍不感觉满足。在强大的邪恶牧师亚马斯聚集了一批恶魔想要毁灭马兹提卡时，阿诺门终于找到了他的人生目标：他自己担负起了组织军队的任务，在聚集了当地土人与所有可利用的资源后， 阿诺门平静的加入了战斗，尽管没有<CHARNAME>和其他的战友陪伴，但他勇敢的独自面对了这邪恶的狂潮。据后来者说，在战斗中他流出了喜悦的眼泪，当他最后面对亚马斯时，大声呼唤海姆的名字，并引导了一束眩目的光柱照在两人中间。当能看清东西时，亚马斯和阿诺门都消失了，阿诺门以自己的牺牲换来了这场战斗的胜利，马兹提卡获救了，而阿诺门被永远尊崇为一个英雄，他的精神被灌输给一个以他的名字命名的骑士团――这块土地的新秩序。~
-@82717 = ~阿诺门和<CHARNAME>继续他们的冒险,直到他们所去的地方到处都有认识他们的人，很多传说都是关于这个骑士和他所为之奉献的女士。当他们的新事迹事迹代替了从前的传说时，<CHARNAME>作为巴尔之子的黑暗往事被永远的遗忘了。由于这样那样的事，使他们的婚期一再拖延，其中要么就是为了应付一场来临的危险，要么就是因为两人中的一人坚持要完成一次有意义的冒险。最后，<CHARNAME>与阿诺门终于定下了婚期，这个消息引来了费仑大陆的许多政界要人还有四方的英雄参加，这对夫妇遇到了许多的客人，而他们也都有幸见到了艾尔明斯特为<CHARNAME>和阿诺门所亲自主持的这个博德之门有史以来最大的婚礼。阿诺门和<CHARNAME>在为他们的女儿出生庆祝后，从公众的瞩目中退隐了。阿诺门在海姆教区里成了高阶守望者，而<CHARNAME>继续成为各种奇怪事件的中心人物，当然，作为<CHARNAME>与阿诺门的孩子，被这个遗忘国度里最有强大的两个人抚养，他们今后的命运一定是可与其母亲相匹敌的传说，不过这是另一个传奇了...~
-@82718 = ~瑟恩在完成冒险后回到了他在提塞尔的家，承担起一个父亲所应做的――抚养阿斯达尔的责任。因为瑟恩不只为自己的树丛维护平衡，还帮助全遗忘国度的人们，他终于成为了大德鲁依。可是瑟恩最后发现，由于他的精力过多的放在对于维护平衡的责任之上，他忘记了对阿斯达尔的承诺时，阿斯达尔已经离开了树丛很久，成了一个掌握着纠缠符记的邪恶巫师，并且领导着一只威胁着剑湾的军队。瑟恩觉得这都是自己的错，于是他庄严的辞去了大德鲁依职务。并开始踏上了搜索阿斯达尔的路，他与他儿子的军队做了很多场战斗，在战斗中他所驱动的强大自然力量被目睹的人称为传奇，终于瑟恩在提塞尔森林深处见到了阿斯达尔，在那里做了劝服阿斯达尔改变道路的最后一次努力，然而阿斯达尔拒绝了，在接下来惨烈的战斗中瑟恩与他唯一的孩子同归于尽，当瑟恩一息尚存时，流着泪爬到阿斯达尔身边握住他的手，乞求儿子的原谅。在瑟恩死后，他的的精神溶入了森林中的一棵橡树，这棵橡树的周围形成了一个奇迹般的树丛，如今这个树丛成了许多遗忘国度里最珍罕魔法生物的家园。每年秋天，这个周围的树丛都会变成令人心碎的深红色，告诉人们他一生最大的缺憾也终于找到了自己的平衡。~
-@82720 = ~海尔达利发现与<CHARNAME>在一起的冒险旅程是对遗忘国土的人们吟唱的最好故事题材了，而在离开<CHARNAME>所率领的队伍后他还想见识更大的世界。他旅行经过了许多的地方，包括深水城，无冬城，还有萨尔，旅途中他传诵着<CHARNAME>的传奇故事...然而不知何故他总是处在传奇的中心位置．而每次旅行的结果几乎都是无端卷入当地的风波然后仓皇出逃。尽管说这位吟游诗人承认他只是了解一小部分其他位面居民的怪癖，但他还是渴望去其他位面旅游。后来他遇上了一位女性黑暗骑士，并与她一起回到了深渊，并因无意间领导了地狱中的几场叛乱而结束地狱之旅。后来，在谈到这件事时他常常会笑起来：他强迫恶魔领主格拉兹特坐到谈判桌前，这对恶魔来说这是一个滑稽且尴尬的位置，然而他从未就此事给过一个肯定或否定的回答。尽管他是多个位面的通缉犯，但敌人的愤怒追捕丝毫没有减少他对于流浪生活的爱好，最后他终于毫发无伤地回到了印记城。在那里他又加入了瑞伊斯的剧团，并从此安顿下来，当然可能的话，他还是盼望着能有下一次“不幸的旅行”。~
-@82721 = ~巴尔的传奇对贾希拉产生了深深的影响。维护万物的平衡是她的职责，但随着时间的推移，她发现这种为了维护平衡的职责也在她的思想中做着斗争。在与<CHARNAME>的旅程中她目睹了巨大的变化，感觉到生命是多么的短暂，而她又失去了多少值得珍爱的美好事物。但时间会证明，她将会成为一名永不知疲倦的平衡守护者，她有时会与竖琴组织成员行动保持协调一致，而有时却不。，许多人要求她的领导，但她总是说不适合这样的位置，并以其他地方还有人需要她的理由而拒绝。她总是保持着距离与警惕，从不在任何一个地方逗留很久，据说她穿越了三次费仑大陆，总是在彷徨与寻觅，直到她最终开始思考她究竟在找什么。很多人都不知道她最后发生了什么，有人说伊尔明斯特最后劝说她来领导神秘的竖琴手组织。也有人说她在对抗一个威胁北方森林安全的强大巫妖时战死，还有人说她最后她走上了寻找<CHARNAME>的路，但无论发生了什么，贾希拉都没有再回到过剑湾或是提塞尔森林。~
-@82722 = ~在巴尔传奇结束后的这几年<CHARNAME>与贾希拉是恩爱的，虽然并非没有摩擦，但他们的亲密友谊很快就将之淡化了。他们的结合是无法撼动的，虽然任务或冒险活动可能将他们俩分开一段时间，有时甚至几年，但是最后他们还是会相聚到一起。贾希拉对<CHARNAME>所表现出的坚定信任使贾希拉的朋友们感到非常的惊讶，尤其是他们考虑到原来贾希拉对<CHARNAME>的拒绝时，但每当回想到当初那些小心翼翼的日子时，她总是会对之轻轻一笑。毕竟，她与<CHARNAME>一起去过地狱而又一起回来了，神也不能将他俩分开，更何况是这区区一点分别时间和距离？贾希拉在竖琴手组织里升到了很高的级别，常常作为组织里智慧与理性的发言人．她成了广为人知的仲裁者。她与<CHARNAME>经常做长时间的旅行。他们出现在无冬城，拉夏蒙，南部大草原甚至科尔特丛林，最后贾希拉因为争吵而离开了竖琴手组织，放心的致力于抚养她与<CHARNAME>的新儿子，<CHARNAME>常常来看母子两人，并因做父亲的喜悦而狂欢，然而<CHARNAME>的冒险欲望常常又把他带回到路上，虽然贾希拉并不总陪伴在<CHARNAME>的身边，也不常分享他胜利的喜悦，但她从来没有真正离开过他．至于说这个孩子，被遗忘国度里最强有力的两个生命抚养大会怎样？他当然会铸就一个与其父亲匹敌的传奇，不过，这是另外一个故事了......~
-@82723 = ~与<CHARNAME>在一起的冒险旅程中所碰到的危险根本没有阻止玛兹对于冒险的渴望，事实上，当玛兹在提塞尔组成芬顿骑士团后不久，他们的英勇故事就开始在被遗忘的国土上流传了，玛兹常常用<CHARNAME>的事迹来激励她伙伴的勇气，或是驱除他们的疑问。<CHARNAME>是玛兹所知道的最高尚的人，而这个半身人骑士感到继续她朋友的传奇是她的职责。他们与巨魔对抗并挽救了危难中的村镇，击退了浪潮般的兽人大军保护了古老的森林，在龙的巢穴战胜了一条恶龙从而使世界更加和平与安宁。他们的故事总是令人印象深刻，尤其是玛兹，有人说，如果勇气可以用尺寸来丈量的话，那玛兹就有二十英尺高大。总所周知的，玛兹的最高成就是在至热之心骑士团接受名誉圣骑士的称号――从来没有半身人，甚至非人类种族获得过这个称号，在接受年迈的高级教师所颁发的勋章时，玛兹自豪的眼泪平静的从脸上流下。在为玛兹庆祝的人群中，所有的老朋友都出席了，但她最想看到的还是<CHARNAME>的脸。经历了一生的风险后玛兹最后平静的活到了晚年，她从未组成一个家庭更未有过子女，但是她的传奇事迹在她的人民中代代相传下去。~
-@82724 = ~娜莉亚在跟随<CHARNAME>的日子里变得非常强大，最初她到处旅行，从遗忘国度的最强法师们那里学习魔法技巧，她寻找利用魔法给人民带来正义的方法，但后来她发现与<CHARNAME>的旅行已经教会了她一切魔法技巧，尽管她可以利用这种力量打击邪恶，但却不能解决贫困与人民的痛苦，一段时间后，她想到了更好的办法来为人民服务．她返回了安姆，回到了她从前的家--迪亚尼斯堡。她看到这里早已经被罗耐尔所控制，但如今的娜莉亚已经不是罗耐尔眼中当初那个任性无知的孩子了，她亲手将罗耐尔送上了法庭并使他为自己的罪行受到正义的审判。同时娜莉亚宣布由她自己继承她父亲的公爵头衔，当然如今的贵族对此事已经毫无争议了。可是刚开始他们怠慢她且轻视她的魔法，并且支持蒙面法师解除她力量的企图，不过在娜莉亚展示了她强大的力量后，蒙面法师开始畏惧她的名字。几年以后，她并成为了一个受人爱戴的统治者，一个令人敬畏的大法师。最后她还成为了安姆六人议会中的一员。多年来，娜莉亚一直是安姆的著名人物，她不断地为普通百姓谋利益，并多次挫败在那些贵族和斗篷法师中自己敌人的阴谋，许多年后娜莉亚在一个温暖的大家族陪伴中离开了人世，她弥留之际的最后的一句话是感谢<CHARNAME>很久以来给她展现的正确道路。~
-@82725 = ~在被<CHARNAME>复活后的几年，沙洛弗克从不在一个地方逗留很长时间。据说他后来击退了一支侵略波达斯克城市的兽人大军，当地人认为他所展示出来的可怕力量和狂暴愤怒无人能敌。以后沙洛弗克又以一个征服者的姿态来到了西门城，并残忍地为所欲为，不料几个月后，他却神秘地失踪了。他之前的所做所为就好象完全不知道自己是谁，所有的故事都一致认为沙洛弗克是一个受到折磨的灵魂，辗转于生存与死亡，可是从来没有真正到达任何一面。那些少数真正了解沙洛弗克的人说这位饱受折磨的战士有时会诅咒<CHARNAME>，有时则会感谢<CHARNAME>给了他第二次机会。但最后他还是失踪了，有人说是去攻打地狱，还有人甚至说他自杀了，事实上，沙洛弗克去了卡拉图，安葬他所真正爱过的人，一位女性战士--坦摩科。之后他再也没有回来，但关于他的故事却被流传了下来......~
-@82726 = ~与<CHARNAME>分开后，重生的沙洛弗克做到了他所承诺的，回到了他长大的地方，但比以前强大得多。从前的敌人对他的回归感到震惊，没过多长时间，甚至只有几个月，沙洛弗克在博得之门开始了他的恐怖统治，他完全控制了城市，当沙洛弗克开始组织起以他名字命名的军队时，所有的抵抗都已经被碾碎了，即使他不能拥有他父亲的神力，他现在拥有的力量也足够满足他的胃口了。沙洛弗克的疯狂使他的名字成了疯狂的代名词。然而这位发狂的战士无法用任何办法寻找让自己感到快乐，获得再强大的力量对现在的他来说都索然无味，最后他在深夜离开了他的王座，遗弃了博得之门和他的权力之梦。在<CHARNAME>给予沙洛弗克的第二次机会里，因为没有自己的宿命和真正属于自己的灵魂，使他成了一个饱受折磨的人，他徘徊于过去的记忆与未来的迷茫中。在遗忘国度里游荡的岁月里，有时他带来恐惧，有时则带来一颗疲倦的心，在他永远消失之前，有人说他在沙漠建立了一个王国来度过余生，有人说他去了其他位面，准备发起一次对圣山的进攻，但是没有人确切的知道他究竟的归宿。~
-@82727 = ~在巴尔传说结束后，瓦里格又继续在荒野中旅行了几年，他经常在深水城附近出现。之后不久，他就隐居到了阿斯卡特拉，在那里他的家族宅邸中安享归隐的生活，但是崇拜他的贵族还是没有让他过早地休息。迫于公众的压力瓦里格担当了检察长的职务，一个瓦里格本不愿承担的责任。但是城市中的腐败很快激起了瓦里格的愤怒。在这些年里，瓦里格使外来的罪犯和奴隶贩子不敢迈进城市一步，使最自信的小偷有所收敛，而且瓦里格与影贼工会多次较量后，达成了一个互相尊敬的平衡，尽管很多人认为这个游侠是最后的胜利者。瓦里格因为这个职务成了一个出色的领导人，这让自己也感到惊讶，而正是瓦里格在政府部门工作的这段时期，真正地恢复了寇萨拉家族的名誉。他最后结了婚，并有了他唯一的一个儿子，这是他一生的骄傲，而他的儿子也始终以他的父亲为榜样。瓦里格看护着他直到他成为蒙面法师会的领袖，并促成了这个组织的最大变革。在瓦里格的晚年，每当回忆起他见过的那个人，这个游侠都会衷心的感谢<CHARNAME>并祝他安好。~
-@82728 = ~离开了<CHARNAME>的队伍后，维康尼亚继续她的旅行。最后她在深水城找到了一个信仰午夜女神莎儿的教派。但是其中的一个教徒出卖了她，于是维康尼亚一怒之下屠杀了莎尔的所有教徒，为此她受到莎尔的严厉惩罚，但是维康尼亚并没有悔改，继续着她在被遗忘国土上的亡命之旅，这个黑暗精灵在关于她的传说中，仍然是一个神秘但强大的角色，但有一点是确定的：她不再崇拜莎儿。不过她的牧师力量还是异常强大，可是她究竟信奉谁，这是她自己的秘密，据说她聚集起了一支军队对抗巫王，试图推翻他的王国统治，不过在几次军事失败后就垮台了。她还阻止了钢盾骑士团恢复卡林港秩序的行动，改由自己控制这个城市，并建立一个恐怖的统治，甚至在若干年后，那里的人们提起此事时还带着恐惧的音调。据说维康尼亚又遗弃了卡林港，回到了幽暗地域，当然，这不是一个礼貌的回归，不过以征服者的姿态出现在她的同胞面前的维康尼亚，甚至给了罗丝一个震撼。维康尼亚说，两个世界都认可了她的勇气，她会使得黑暗精灵强大起来。维康尼亚最终怎样无人知晓，然而据说强大的蜘蛛女王睡的不再安稳了。~
-@82729 = ~与主角分开后。维康尼亚彷徨了很长一段时间，她仍常常见到那些憎恨他们种族的无知的人，但维康尼亚比以往更加坚定的要把自己和黑暗精灵的传说分开。当她游走于遗忘国度的各个角落时，她常常是以救星的身份出现，然而人们给她的仍然只是猜忌与恐惧。在旅途中，维康尼亚拒绝了很多旅行者和冒险者的邀请，并始终如一的寻找着自己的归宿，没人知道她的最终结局究竟怎样。她最大的传奇可能不太真实，但这个故事仍然在为维康尼亚赢得荣誉：维康尼亚把索丹尼斯拉的精灵从散塔林会的阴谋中拯救了出来，并勇猛的与这个组织的成员搏斗，最后舍身为女王艾丽希挡住了一支致命的箭。在复活以后维康尼亚惊奇的发现自己因此赢得了索丹尼斯拉精灵们的宽恕与接受。女王艾丽希赐予了维康尼亚精灵族的最高荣誉----她是第一个获此殊荣的黑暗精灵，并邀请维康尼亚在生命之树里再找一个家，尽管维康尼亚明显的被女王的真诚所感动，但是她只是深深的鞠了一个躬，平静的离开了索丹尼斯拉，从此再没有人见过维康尼亚。~
-@82731 = ~爱蒙怎么样了，永远顽皮的小孩？在爱蒙与<CHARNAME>旅行的过程中，尽管她所经历的很多事后来她都拒绝讨论，但她的乐观精神始终没被破坏。在她离开了她的同伴后，她走出了<CHARNAME>的阴影，开始寻找她自己的宿命。她回到烛堡呆了一段时间，她渊博的魔法知识使烛堡藏书相形见拙，在这里她可以回忆起跟<CHARNAME>与葛里安度过的短暂时光，并且为她走上了养父的路感到高兴，尽管烛堡的人一再挽留，她还是决定离开继续冒险。尽管一生中爱蒙用过许多名字，有些很神秘，而有些则很离奇甚至是荒诞，然而小时候就认识爱蒙的人都会立刻认出她，因为无论她用什么名字，无论多大年龄或是智慧，都无法掩饰她眼中顽皮的闪光或是友善的微笑。在关于她的传说中，爱蒙成为凯尔本“黑杖”的朋友并且，并且常常出现在关于伊尔明斯特的传说中：偷偷拿走贤者的东西，然后和伊尔明斯特开始长达四个月的穿越费仑的魔法追逐，当然精确的事实无人能知……尽管说嘲笑这些老法师不象是爱蒙的风格，但她和伊尔明斯特的良好关系的确是众所周知的。后来的传说表明，爱蒙建立了一个盗贼工会同影贼和散塔林会较量并控制了无冬城的商路，甚至单挑了一只龙，因为（传说是这样说的）它"太傲慢了"有时，爱蒙会回想起她的老朋友――<CHARNAME>，并悲伤的笑起来。然后立刻带着调皮的想法推进她的下一个计划，感谢上天，有些人看起来永远不会变。~
-@82732 = ~维康尼亚和<CHARNAME>继续了几年他们的冒险生涯，获得了极高的声望，并以中心人物的身份参与了动摇剑湾的两次战争。<CHARNAME>在遗忘国度的声望日渐提高，而她的黑色夫人永远陪伴在他的旁边，终于维康尼亚怀上了<CHARNAME>的孩子，这件事引起他们俩人极多的争吵与冲突，最终导致了两人的短暂的分手，然而，<CHARNAME>孩子的出生，永远的改变了维康尼亚，她最后回到了<CHARNAME>身边并说服他安定在博得之门，她自己则完全投身于抚养他们的孩子，并同时以黑暗精灵和<CHARNAME>种族的方式教导他们的孩子，结果她十分惊异于孩子所展现出来的力量，尽管她对孩子惊人的理解力感到欣喜，但她没能看到孩子的长大．虽然作为一个强大的牧师维康尼亚免疫一切毒素，但是蜘蛛女王复仇的剧毒远不是她所能防范的，当<CHARNAME>得知最强大的魔法也无法治愈她的妻子时狂怒的大吼。没人知道维康尼亚弥留之际在<CHARNAME>耳边说的话，但是传说明确指出<CHARNAME>抱着他妻子的身体痛哭，忍受一种失去才知宝贵的痛苦。狂怒的<CHARNAME>离开了博得之门，以一种秘密的方式养大了他的孩子，关于这个孩子的传说非常多样，有的说他成了对抗幽暗地域的十字军，有的说他成了极远北地的英雄，甚至还有的说在<CHARNAME>的支持下，他在深渊掀起了一场直接针对Lolth的战争，但所有的传说都同意这位前巴尔之子被他的黑夫人永远的改变了。至于说这个孩子，被遗忘国度里最强有力的两个生命抚养大会怎样？他当然会铸就一个与其父亲匹敌的传奇，不过，这是另外一个故事了．．．．．．~
-@82760 = ~巴尔撒扎回到阿姆凯瑟兰后，巴尔撒扎开始有了好的转变。他从昔日的朋友和同为巴尔之子的兄弟处完全认识了什么是所谓的"善良"。尽管这段回忆总是让他感到愧疚，但这段回忆也同样时刻提醒他不再犯同样的错误了。在阿姆凯瑟兰要塞中的残存部下不久也纷纷被巴尔撒扎赶了出去，取而代之的是一批新的移民还有商人。许多年过去了，阿姆凯瑟兰已经变为了一个繁华的大都市，并成为了附近周边地区的文化中心，以其和平与博爱而闻名遐尔。而此时的巴尔撒扎也一手创建了"修道御林军"，这是一个由杰出的圣武士与僧侣们共同组成并誓死保护平民免受各种暴政的组织。巴尔撒扎和他的圣武士们的行为很快赢得了阿姆凯瑟兰民众的爱戴与信任。据说，在巴尔撒扎的晚年，人们经常能在夜晚之时看到他凝神注视着星空，似乎在回忆着曾经与<CHARNAME>相处的难忘历程。后来，巴尔撒扎跟随一批朝圣队伍去了烛堡，再也没有回到阿姆凯瑟兰...在那里他终于为自己获得了心灵的安宁而欣慰，而关于巴尔撒扎那坎坷的传奇故事也将永远流传下去。~
-@82785 = ~巴帝尝到了神格的力量，在这种力量的痕迹随着时间淡去以后，她开始期望更多，然而执意要再达到这种力量的执著，又使她陷入了痛苦与憎恨。巴帝为了满足对混乱与死亡的饥渴，她开始用剑湾居民的鲜血沐浴，这造成了人们极大的恐慌，有些村落甚至把人绑在路边作为对黑暗的祭品。在神庙多次徒劳无功的追猎中，许多前往的高级牧师被吸干了血，极度的痛苦铭刻在他们没有血色的脸上，她的名字也因此成了恐惧的代名词。但是，随着时间的推移，她感觉到冰冷的诅咒日渐加深，这种绝望与恐惧使她对混乱的渴望变得淡漠，同时使她求生的欲望更加强烈。而这种对力量渴求的野心，曾促使她引诱艾瑞尼卡斯堕落，现在又带着她回到了很久以前称之为家的地方：索丹尼斯拉。在精灵遗忘国度的入口处，巴帝见到了精灵女王艾丽希，但是生命之树的能量，与艾丽希对艾瑞尼卡斯的回忆交织在一起，构成了正义的复仇：当木桩插入在死后仍遭天谴的那颗黑心时，巴帝走到了生命的尽头。~
+@82714 = ~Aerie continued adventuring after years after leaving <CHARNAME>'s company, often traveling with a larger group but sometimes striking out on her own to use her considerable power to fight against slavery in the Realms. Her compassion grew tainted by revenge, however, revenge for what had been taken from her when she was in chains and could never be restored. She might have lost herself to her vengeance entirely had fortune not smiled upon her. The tale goes that Aerie, filled with a righteous fury, destroyed a slaver enclave in the northern hills of Cormyr single-handedly. She was surprised to find a group of avariel elves that had been held captive there and quickly freed them, and was in turn invited to return to her long-lost home of Faenya-Dail. She learned much while she was there. Most importantly, she learned she was no longer truly one of avariel, and let go forever of the wings that she had lost. Faenya-Dail was no longer her home, and it was with mixed emotions that she bid it farewell. It is said that Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had sometimes spoken of. He had been her true family, and it was among his people that she finally found happiness and the family she had always longed for. It was also said that Aerie prayed for her old friend, <CHARNAME>, each night as the stars revealed themselves in the sky above. She sincerely hoped her friend had been fortunate enough to find the peace that she had... for without <CHARNAME>, it would never have been possible.~
+@82715 = ~Aerie and <CHARNAME> would prove inseparable, continuing their adventuring for many years into the future. Aerie's zest for travel brought the pair over much of Faer??n and even further. Their young son was always in tow, making <CHARNAME> smile with his wide-eyed awe at the wonders of the world. Eventually the pair would settle, subsequently giving birth to a beautiful daughter that was the second joy of their lives. Only rarely would trouble cause <CHARNAME> and Aerie to bring their great power to bear against the evil of the world, though the tales of their battles would become legendary. Their later years would hold one last great trek, as Aerie still felt a sadness from her time of enslavement and the loss of her wings. Together she and <CHARNAME> sought the Avariel of Faenya-Dail, the winged elves she was stolen from so long ago. They discovered not only her people, but loving parents that had spent years searching for their lost child. Aerie had finally found her family. With no more mystery or confusion to cloud their lives, it was there, among the clouds, that Aerie and <CHARNAME> would finally be married. Their union, it is said, was blessed by the presence of Aerdrie Faenya and Baervan Wildwanderer both. As for the children of <CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, their own destiny would be a tale to rival their father's...~
+@82716 = ~Eventually parting ways with his companions, Anomen would enter the hierarchy of Helm's church, over time rising to the rank of High Watcher. He remained restless and dissatisfied, remembering his days adventuring with <CHARNAME>...and though many friends would urge him otherwise, Anomen never felt that the church was his true home. He remained in his position for a year until finally he could bear it no more. He left active duty in the church and, for a time, wandered the new land of Maztica as a missionary. Anomen remained a troubled soul, still never content even though his prowess earned him great respect from the new friends he encountered. When the powerful evil priest Yamash summoned a horde of demons in an effort to rid Maztica of all life, Anomen would at last find his purpose. He alone was responsible for organizing the tattered remnants of the Amnish soldiers and local Mazticans into a united army that stood against the dark priest. In the great battle that followed, Anomen was seen plainly by all to plunge into combat single-handedly against Yamash. He did not have <CHARNAME> or other companions beside him: alone he stood against the tide of evil, and for once he was not found wanting. He was last seen from afar, shedding tears of joy as he engaged Yamash and shouted out to Helm while chanelling a blinding flash of power. When it cleared, both the priest and Anomen were gone. The battle was won and Maztica was saved. Anomen would forever after be regarded as a hero, inspiring the creation of a protective order of knights in his name. A new order for a new land.~
+@82717 = ~Anomen and <CHARNAME> continued adventuring until they were known as heroes almost everywhere they went. Many were the grand tales of the Shining Knight and his utter devotion to his great lady. <CHARNAME>'s past as the terrible Bhaalspawn was forgotten forever as new deeds replaced old and a legacy was created that far outstripped anything granted by godly blood. So prolific were their careers that the proposed date of their wedding kept getting moved back, either due to impending crisis or some lucrative adventure that one or the other would insist on investigating. Finally a date approached that both <CHARNAME> and her beloved were determined to keep, and the much heralded event drew heroes and dignitaries from across Faer??n. The couple had touched the lives of many, and those people arrived in droves to watch Elminster himself unite the two in one of the grandest ceremonies the city of Baldur's Gate had ever seen. Anomen and <CHARNAME> retired from public life shortly after the celebrated birth of their daughter, although if tales be true, their adventures never truly ended. Anomen would rise high in the hierarchy of his church, and <CHARNAME> would continue to be the center of strange events throughout their lives. So, too, would their daughter, tutored by two of the greatest heroes in the Realms, forge a legend to rival that of her mother's. That, however, is another story completely...~
+@82718 = ~Cernd left the adventuring life to return to his grove in Tethyr, promising to take up his responsibility and raise his son, Ahsdale, as he believed a father should. Cernd would eventually become the Grand Druid and make a name for himself throughout the realms by not only fighting for the balance of his grove but in protecting the sanctity of life in all realms and in all peoples. Cernd would discover in time, to his regret, that in his attention to his duty he had forgotten his promise to Ahsdale. His son had left the grove long before and Cernd learned that Ahsdale had become an evil and twisted wizard in command of a power that threatened the Sword Coast. Determined that this was his burden alone to face, Cernd solemnly abdicated as Grand Druid and sought out his son. He engaged in many battles with the forces of his son, wielding the forces of nature with a great fierceness that would be regarded as legendary by all who saw it. Cernd finally confronted Ahsdale himself deep in the Forest of Tethyr, and made a final effort to convince him to turn away from his path. Ahsdale refused, and Cernd fought his only son in a long and terrible battle that eventually saw both of their deaths. With his last breath, Cernd would crawl along the ground to clasp Ahsdale's dead hand, tears flowing down his face as he begged his son's forgiveness. Cernd's spirit would enter that of a great oak within the forest, and it is believed that this immortal oak still stands, and that around it has grown a wondrous grove of great beauty that is home to the rarest of the Realm's magical creatures. Each fall the great oak and the grove around it would turn the grimmest shade of red, a reminder that even the most flawed amongst us may eventually find their balance.~
+@82720 = ~Haer'Dalis found traveling with <CHARNAME> a fine introduction to the Realms, and once they parted company he was eager to see more. He visited such varied locales as Waterdeep, Neverwinter, and Thay, spreading the tales of his deeds with <CHARNAME>...and somehow always managing to find himself in the midst of as many adventures as he once had. Eventually Haer'Dalis would find himself immersed in local troubles on one side or another, and that would lead to him being back on the road once again. Which was fine by him, although the bard would admit to himself that he only rarely understood some of the peculiarities of these Primes and longed for the remembered grandeur of the planes. In time, he would befriend a wandering female Cambion and gladly returned with her to the Abyss... only to unintentionally end up leading a revolt on several layers of the hells. Afterward, the tiefling would be amused to hear stories that he had forced the great Graa'zt to the negotiating table, an awkward position for such a great demon lord... though Haer'Dalis would never verify the truth of the tale. For a time afterward, Haer'Dalis was the most-hunted man among the planes... but the ire of his enemies could not match his wanderlust, and he eventually found his way back to the city of Sigil unharmed in any permanent fashion. There he rejoined his beloved Raelis and her acting troupe, pleased to finally settle down for once. Until the next misunderstanding occurred, of course.~
+@82721 = ~The events of the Bhaalspawn saga affected Jaheira deeply. It was her duty to protect the greater balance of things, but in the years to come she found an increased portion of that fight occurring within her own mind. Witness to great change while in <CHARNAME>'s company, she had become acutely aware of how fleeting life was, and how the loss of those she held dear ate away at her thoughts. In time she would be known as a tireless champion of balance, one that sometimes acted in concert with the Harpers and sometimes did not. Jaheira operated quietly, appearing when needed and moving on when not. Many called out to her for leadership, but always Jaheira would deny that she was capable of such and say that there was somewhere else that needed her aid more. She remained distant and guarded, never staying long in any one place. It is said that she crossed the Forgotten Realms thrice over, always wandering and always searching... until finally she began to wonder what it was, in truth, that she was searching for.
+What happened to Jaheira later in life is not well-known. Some say that Elminster eventually came to her and convinced her to take her place amongst the greatest commanders of the mysterious Harpers. Some say that she fell in battle against a great lich that threatened to defile the northern forests. Some also say that she went in search of <CHARNAME>, traveling to lands far beyond our own. Whatever happened to her, Jaheira never did return to either the Sword Coast or Tethyr ever again.~
+@82722 = ~The years following the Bhaalspawn saga were kind to Jaheira. They couldn't be called peaceful, by any means, but her relationship with <CHARNAME> weathered it all. Theirs was an unshakable union, and while duty or adventure might separate them for even years a time, they always returned to one another. Her friends would marvel at how secure in this Jaheira seemed to be, especially considering her initial reluctance, but she would chuckle when thinking back on those first cautious days. After all, she and <CHARNAME> had literally been to the hells and back, and when the gods themselves couldn't separate the two, what were simple months and miles going to do? Jaheira raised high in the ranks of the Harpers, always the voice of wisdom and sense in the organization. She became renown as a great heroine and mediator, although no-one was surprised when she would leave for great spans of time to travel with <CHARNAME> to some distant corner of the Realms. The pair were sighted in Neverwinter, Rashemon, the great southern steppes and even the jungles of Chult. Eventually Jaheira left the Harpers over a dispute, relieved to be done with them and dedicating herself to the raising of <CHARNAME>'s new son. <CHARNAME> visited often, reveling in the joy of fatherhood... but always his wanderlust would take him on the road again. Jaheira was not always with <CHARNAME> and not always share in his victories and achievements, but would never be truly apart from him. And <CHARNAME>'s son? Tutored by two of the most potent being in the Realms, he would grow to forge a destiny of his own to rival his father's. That, however, is another tale...~
+@82723 = ~The perils that Mazzy Fentan faced at the side of <CHARNAME> did nothing to dissuade her thirst for adventure. In fact, it was not long after the events in Tethyr that she formed the Fentan Knights, a stalwart band of heroes that spawned tales across the Realms. Always Mazzy invoked the name of <CHARNAME> when urging her comrades to valour, or when they battled doubt and temptation. <CHARNAME> was the greatest <PRO_MANWOMAN> that Mazzy had ever known, and the halfling knight felt it was her duty to try to live up to her old friend's legacy. The Fentan Knights battled trolls to save endangered towns, turned back tides of orcs to preserve ancient forests, and faced a rogue dragon in its own lair just to make the world a better place. Their legend was larger than life, especially so for Mazzy, and it was said on occasion that if valor were inches, she'd be twenty feet tall. It was well known that Mazzy's crowning achievement was the day she was annointed an honorary paladin in the great hall of the Radiant Heart. The first halfling ever to do so, indeed the first non-human, Mazzy's quiet tears of pride flowed freely down her face as the aged Prelate laid the Order's greatest honors across her shoulders. It was said that Mazzy scanned the crowd often during the ceremony, and for all the old friends that had been able to attend, the face she looked for most was <CHARNAME>'s. For all her risks, Mazzy eventually passed peacefully at a ripe old age. She had never settled down and had no children, but her legacy was one that would go on to inspire her people for generations to come.~
+@82724 = ~Nalia grew quite powerful after her association with <CHARNAME>. Initially she traveled, slaking her thirst for magical lore by associating with some of the greatest wizards across the Realms. She sought to use her great power to bring justice to the land, but over time found that if her time with <CHARNAME> had taught her anything, it is that such power must be tempered with wisdom or it is useless. She could strike out at evil as she wished... it did not always help the needy, as she thought it would, and after a year of travel she remembered that there was a far better way that she could be of service to her people.
+Nalia returned to Amn and her family home of de'Arnise Hold. She found it in the control of none other than Isaea Roenal, but she was no longer the wayward child that he expected, and single-handedly brought him to justice for his indiscretions. She declared herself the inheritor of her father's ducal title, and for once there was no argument from the local nobility. They snubbed her and her magic, and initially rejoiced when the Cowled Wizards sought to remove her from power. Nalia demonstrated to them all that she was no-one to trifle with, however, and the Cowled Wizards learned to fear her name. Over time Nalia became a beloved ruler, respected archmage, and eventually earned a seat on the Amnish Council of Six itself. The nobility grew to rely on Nalia's leadership, and she would become a prominent figure in Amn for many years, constantly fighting for the good of the common folk and making many frustrated enemies among the nobility and Cowled Wizards both. Nalia would die many years later, surrounded by a loving family... her last words would be to thank <CHARNAME> for so long ago showing her the true path she needed to walk.~
+@82725 = ~In the years following his resurrection by <CHARNAME>, Sarevok spent many years wandering throughout the Forgotten Realms, rarely spending much time in any single place. In Berdusk he is said to have routed an army of invading orcs, displaying such fearsome power and rage that terrified locals weren't sure whom to fear more... only to disappear quietly without expecting a reward. In Westgate he arrived as conqueror, brutally enforcing his will over the city only to mysteriously vanish months later, leaving his own startled men to the mercies of the angry mobs. He acted like a man that did not know himself, and all the stories agreed that Sarevok was a tortured soul, balanced between life and death, never to achieve either. Those who knew Sarevok best, which were few, said that the tormented warrior would in turn curse the fabled <CHARNAME> for giving him his second chance... and then thank <PRO_HIMHER>. Eventually he disappeared entirely from the Realms, said to have assaulted the Abyss itself or even taken his own life. In truth, he journeyed to Kara-Tur to bury his one true love, the warrior Tamoko. He never returned, though the stories endure.~
+@82726 = ~Upon parting ways with <CHARNAME>, the reborn Sarevok proved as good as his word. He returned to the lands he once knew, far more powerful now than he was even before. Old enemies were startled by his visits, but never for long, and it was not even months later that Sarevok would start a reign of terror in Baldur's Gate that would place him completely in charge of the city. Resistance was crushed as Sarevok began raising an army for conquest in his own name. If he could not have the divine power of his father, he would have enough earthly power to satiate his appetite. Sarevok partook of women as he pleased as his name became a bitter epithet on the tongue of every citizen of the Sword Coast.
+The first victims of his terrible army fell easily, and Sarevok's power grew. The warrior was maddened, however, to find that the victories gave him no thrill. The power tasted as ashes, though Sarevok tried many times to drive himself into a frenzy of delight at his achievements. In the end, his throne grew heavy, and it was with dread acceptance that he greeted the arrival of the inevitable heroes to displace him not a year after his return.
+Sarevok fled into the night, abandoning Baldur's Gate and his dreams of power both. He became a man haunted by his second chance, hunted by a former life that never was and a possible life that never could be. Without a destiny and or a true soul of his own, he wandered the Realms... sometimes he brought terror and sometimes he brought nothing but his tired heart, and before long he was gone forever. Some say that he found his purpose in the great desert, forging a kingdom to last an age. Some say he traveled to the planes, launching a campaign against the great Mount Celestia. The truth is unknown, though the tales still persist.~
+@82727 = ~After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faer??n and becoming a common sight in the area of Waterdeep. Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family's estate that he had always desired. Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city. For many years, Valygar's was the name spat by every criminal or slaver who dared to place a foot within the city. Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect. Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect... though most considered the ranger the victor even then. Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married. His only son, the pride of his life, took the lessons of his father to heart. Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride. Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well.~
+@82728 = ~Viconia traveled only for a short time after parting ways with <CHARNAME>, eventually starting a cult dedicated to Shar within the massive city of Waterdeep. One of her followers would eventually turn against her, precipitating a furious Viconia to slaughter the entire cult, herself. Shar did not forgive Viconia this trespass and removed her abilities. Viconia stubbornly refused to atone, however, and instead left Waterdeep to wander the Realms. The dark elf became known as an enigmatic and powerful figure as tales of her spread... and while it was known she no longer worshipped Shar, it was also known that her clerical powers were still great. Who the dark lady now worshipped, however, was her own secret to keep. She reportedly raised an army against the Vaasan Witch-King, viciously attempting to subvert rule over his Kingdom and only barely being defeated after several military failures. Viconia prevented an attempt by the Knights of the Shield to take over Calimport... only to take over the city herself days later and institute a reign of terror and cruelty which is spoken of even years later in shuddered tones. Viconia abandoned Calimport and, it is said, returned to the Underdark from whence she came. Hers was not a gentle return, however, as Viconia would become a conquering force amongst the drow to give even Lolth pause. Her mettle had been tested by both worlds, Viconia said, and proven herself worthy. She would make the drow strong whereas now they were weak. What eventually became of Viconia is unknown and shrouded in rumor... but it is said that even the great Spider Queen does not rest easily any more.~
+@82729 = ~Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.
+What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever. Viconia was never reported seen again...~
+@82731 = ~And what of Imoen, the eternal child? She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.
+Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben "Blackstaff" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across Faer??n for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) "he was rude". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change.~
+@82732 = ~Viconia and <CHARNAME> continued their adventuring careers for several years, gaining considerable fame after being drawn into central roles in two wars that rocked the Sword Coast. <CHARNAME>'s standing in the Realms grew considerably over time, his dark maiden always at his side. Eventually, Viconia became pregnant with <CHARNAME>'s child, an event that caused much argument and strife between the couple, resulting briefly in their seperation. The birth of <CHARNAME>'s son, however, would change Viconia forever. She would return to <CHARNAME> and convince him to settle finally in Baldur's Gate, dedicating herself utterly to raising their son and teaching him the ways of the drow as well as the ways of <CHARNAME>'s people and marvelling at the power the boy already was demonstrating. Though she delighted at the understanding in her son's eyes, she would not live to see him grow. Viconia was a powerful priestess and all but immune to common poisons, but the venom of the Spider Queen's vengeance was not easily resisted and her reach is far. Poisoned by a servant of the goddess Lolth, <CHARNAME> railed in rage as even the most powerful magics proved ineffective in curing his ailing wife. Viconia's last words were whispered to <CHARNAME>, in private, before she finally succumbed and are unknown... but the tale is well-told of how <CHARNAME> held the body of his dark maiden close to him and wept, while the entire city wept with him, suffering a loss of something precious that they never even truly knew they had. The furious <CHARNAME> left Baldur's Gate and raised his son in secret far away. Tales vary of him, some saying he began a crusade against the drow in the Underdark, some claiming he became a hero in the far-off northlands... and some even saying with surety that <CHARNAME> had waged war against Lolth herself in the abyssal Demonweb Pits... but all agreeing that the former son of Bhaal had been changed forever by his love for the dark maiden. As for the son, tutored by two of the most potent beings in the Realms? He would go on to forge a legend that would rival that of his father. That, however, is a different story...~
+@82760 = ~Upon returning to Amkethran, Balthazar began to implement changes for the better. He had learned well from his friend and sibling the meaning of the word "Good". He carried his guilt with him always, a reminder never to make the same mistakes again. The remaining criminal elements were quickly driven from his outpost, which attracted new settlers and merchants. Over the years, Amkethran grew into a thriving city and the cultural center of the entire region, renown for its peace and compassion. Balthazar was also central in the creation of the Monastic Guard, an elite group of Paladins and Monks that were sworn to protect the common folk from tyranny in any form. His deeds quickly earned him the respect and trust of his people. In Balthazar's advanced years, his work finished, it was said he could be found most often gazing at the night sky and remembering <CHARNAME>. Later, Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep... to give a final thanks for the peace he had found and to see for himself the humble beginnings of a legend.~
+@82785 = ~Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambiton, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death.~

@@ -1,30 +1,33 @@
-@470 = ~啊﹗好痛啊﹗<CHARNAME>﹐阻止她......好痛啊﹗~ [IMOEN18]
-@471 = ~你對她做了什麼﹖趕快停下﹐我命令你﹗~
-@472 = ~我是你要對付的人﹐梅麗珊﹗離開她﹗~
-@473 = ~集中注意力﹐愛蒙﹗~
-@474 = ~你讓我怎麼對待愛蒙﹖要殺她就殺吧﹐梅麗珊。~
-@475 = ~什麼......我在哪兒﹖發生什麼事了﹖<CHARNAME>﹖~
-@476 = ~我哪兒也不去﹗我不會讓別人再碰我的靈魂了﹗~
-@477 = ~過去了......我又是人類了。哦﹐我現在知道你的感受了﹐<CHARNAME>﹗我可不想再經歷一回﹗~
-@478 = ~但我簡直不相信我聽到了什麼﹗‘要殺她就殺吧’﹖我們一起走過了這麼多的路﹐你就這麼保護我﹖~
+@470 = ~Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!~ [IMOEN18]
+@471 = ~What are you doing to her?! Stop it, I demand it!~
+@472 = ~I'm the one you're after, Melissan! Leave her alone!~
+@473 = ~Pull yourself together, Imoen! Attack!~
+@474 = ~So what do I care about Imoen? Kill her, Melissan.~
+@475 = ~Wh-what... where am I? What's going on? <CHARNAME>?~
+@476 = ~I'm not going anywhere with you! And nobody's touching my soul! Not again!~
+@477 = ~It... it's gone... I'm human again. Ohhhh, now I know what you went through, <CHARNAME>! I don't know if I ever want to go through that again!~
+@478 = ~And I can't believe what you said, either! 'Go ahead and kill her'? After all we've been through, that's what you say in my defense?!~
 @479 = ~我在試圖說服她放棄傷害你﹐愛蒙﹗~
-@480 = ~算了吧﹐小女孩﹐我可沒叫你跟我來﹐不是麼﹖~
-@481 = ~我們沒時間討論這個﹐愛蒙﹐現在正在戰鬥﹗~
-@482 = ~哦......我想﹐你對我造成的影響更大﹐但我很高興我在殺戮者狀態下沒有造成過多的傷害。我不知道你怎麼做到的﹐不過非常感謝你沒殺了我。~
-@483 = ~我不能再呆在這兒了......我要離開隊伍。祝你好運﹐<CHARNAME>﹐希望我能再見到你﹐你會回到燭堡麼﹖不過......再見......~
-@484 = ~你需要我加入隊伍麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。~
-@485 = ~
-乾蟹葩魂
-愛蒙解除了梅麗珊造成的殺戮者狀態﹐不過看起來愛蒙的天賦力量也因此而增強﹐她現在可以像我在禁魔監獄裡那樣隨心轉變成殺戮者形態﹐而且獲的了新能力“虛無靈體”﹐使得她可以進入靈界一段時間。
-愛蒙的新能力“虛無靈體”
-愛蒙現在可以在短期內進入靈界﹐每十輪可以使用一次此能力﹐並且在十輪內愛蒙無法變成殺戮者。使用後在開始的一輪內﹐愛蒙處於隱形狀態並免疫一切傷害﹐但無法使用任何法術及特殊能力。接下來的兩輪內﹐愛蒙處於半位移狀態﹐一半處於主物質界﹐一半處於靈界﹐隱形且對所有傷害都有一半的免疫能力﹐但有十分之一的施法失敗幾率。在這三輪內﹐她能看到所有隱形的目標。~
-@486 = ~當然﹐讓我們再一次並肩作戰吧。~
+@480 = ~Get over yourself, little girl. I never asked you to come, did I?~
+@481 = ~We don't have time for this chat, Imoen! This is the middle of a fight!~
+@482 = ~Well... I suppose. You convinced me more than her, obviously. I... I'm just glad I didn't do more damage as the slayer. I don't know how you handled it. Thank you for... for not killing me.~
+@483 = ~I... I can't stay here, though. This is way out of my league. I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
+@484 = ~Do you need me to join back up with you? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
+@485 = ~Imoen Has Survived
+
+Imoen managed to survive Melissan's attempt to force her into berserk Slayer form. It seems that in doing so, Imoen has had her own progress in the taint advanced considerably. She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.
+
+Ethereal
+-------------
+Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+@486 = ~Sure. Let's join up again.~
 @487 = ~不......如果你能的話﹐趕快離開這裡﹐愛蒙......~
-@488 = ~祝你好運﹐<CHARNAME>﹐希望我能再見到你﹐你還會回到燭堡麼﹖不過......再見......~
-@489 = ~好的﹐你要做你該做的事情﹐<CHARNAME>﹐我會儘可能的離的遠遠的﹐再見﹗~
-@490 = ~不﹐你當然不﹐我想﹐沒什麼可感謝的。你要做你該做的事情﹐<CHARNAME>﹐我會儘可能的離的遠遠的﹐再見﹗~
-@491 = ~我很高興......我在......沒造成太大的傷害。哦﹐我不知道你在禁魔監獄是怎麼做到的﹐不過很感謝你......沒殺了我。~
-@492 = ~噢﹐就是吧﹐你想讓我加入麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。~
-@493 = ~噢﹐就是吧﹐你想讓我加入麼﹖我可以......離開這裡﹐我現在......也有了這個能力﹐像你一樣﹐但我想再跟你並肩作戰﹐如果你允許的話。~
-@494 = ~別再分散我的注意力了﹐趕快歸隊﹗~
-@495 = ~是的﹐<PRO_SIRMAAM>﹗（咯咯）~
+@488 = ~I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, huh? Anyway... good luck...~
+@489 = ~Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
+@490 = ~Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-bye!~
+@491 = ~I'm... just glad I didn't do anything worse while I was... when I... oh, I just don't know how you handled it back in Spellhold. Thank you for... not killing me, okay?~
+@492 = ~Oh, so it is! Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'll fight by your side again, if you want me to.~
+@493 = ~I see the fight's still going on. Do you need me back in the party? I could... leave the Throne, I think... I think I have that power, now, same as you. But I'd like to see this through, same as you.~
+@494 = ~Stop distracting me in the middle of combat, already! Get back in the party!~
+@495 = ~Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?~
