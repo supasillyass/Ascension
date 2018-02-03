@@ -6,7 +6,7 @@
 @1077 = ~Nie wyczuwam w tobie wrodzonego dobra, <CHARNAME>. Nie myœlê te¿, aby twoje czyny œwiadczy³y o tobie inaczej. Wyczuwam jedynie duszê, która opiera siê skazie swego ojca, tak jak moja.~
 @1078 = ~Prawdê mówi¹c, jestem idealn¹ osob¹ do s¹dzenia, <CHARNAME>. We mnie równie¿ istnieje skaza naszego ojca. Ja równie¿ czu³em têsknotê za krwi¹, jej wysi³ki przeœladowa³y mnie przez ca³e ¿ycie. Uda³o mi siê j¹ jednak opanowaæ... ale ledwo. Zbyt dobrze wiem, do czego jest zdolna.~
 @1079 = ~Naturalnie. Nasza skaza nie przynosi nam spokoju, czy¿ nie, <CHARNAME>? Walczymy w samoobronie a mimo to nadal zabijamy, nadal przynosimy zniszczenie. Mo¿emy twierdziæ o braku obecnoœci odpowiedzialnoœci, powinniœmy tak robiæ, ale zbyt dobrze wiem do czego zdolna jest ta skaza. Tylko z ledwoœci¹ uda³o mi siê nad ni¹ zapanowaæ.~
-@1080 = ~Nie spodziewa³em siê innej odpowiedzi od mojego brata. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.~ ~Nie spodziewa³em siê innej odpowiedzi od mojej siostry. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.~
+@1080 = ~Nie spodziewa³em siê innej odpowiedzi od mojego brata. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.~
 @1081 = ~Nie rozœmieszaj mnie, <CHARNAME>. Jeœli oczekujesz, ¿e uwierzê i¿ istniejesz po to by walczyæ ze z³em to siê grubo mylisz.~
 @1082 = ~Ale niezale¿nie od naszych pragnieñ, nasze przeznaczenie zosta³o ju¿ nam spisane, <CHARNAME>. Niektórzy mog¹ od niego uciekaæ lub nie przyjmowaæ go do wiadomoœci, podczas gdy inni mog¹ je przyjmowaæ... w ka¿dym razie ka¿dy Pomiot Bhaala ma w sobie nasienie, które owocuje krwi¹ i œmierci¹. Czy zaprzeczasz temu?~
 @1083 = ~Czy chcesz powiedzieæ, ¿e ty jesteœ inny, Balthazarze?~
@@ -14,7 +14,7 @@
 @1085 = ~Robisz z nas ofiary okolicznoœci ani¿eli panów naszego w³asnego przeznaczenia.~
 @1086 = ~Niczemu nie zaprzeczam. Œmieræ czeka na ka¿dego kto wejdzie mi w drogê.~
 @1087 = ~Ja jestem wrodzon¹ œmierci¹, g³upcze! Nie jakimœ s³abym g³upcem, który tak jak ty j¹ odrzuca!~
-@1088 = ~Mam w¹tpliwoœci co do tego czy wiesz o czym mówisz. Skaza, która jest w tobie jest silna... silniejsza ni¿ jakiegokolwiek innego pomiotu jakiego spotka³em. Czu³eœ te marzenia, te pragnienia, czy¿ nie? Chaos, który jest twoim przeznaczeniem towarzyszy³ ci przez ca³e twoje ¿ycie, czy¿ nie? Czy zaprzeczasz, ¿e sprowadzasz przemoc i zniszczenie gdziekolwiek byœ siê nie pojawi³, <CHARNAME>?~ ~Mam w¹tpliwoœci co do tego czy wiesz o czym mówisz. Skaza, która jest w tobie jest silna... silniejsza ni¿ jakiegokolwiek innego pomiotu jakiego spotka³em. Czu³aœ te marzenia, te pragnienia, czy¿ nie? Chaos, który jest twoim przeznaczeniem towarzyszy³ ci przez ca³e twoje ¿ycie, czy¿ nie? Czy zaprzeczasz, ¿e sprowadzasz przemoc i zniszczenie gdziekolwiek byœ siê nie pojawi³a, <CHARNAME>?~
+@1088 = ~Mam w¹tpliwoœci co do tego czy wiesz o czym mówisz. Skaza, która jest w tobie jest silna... silniejsza ni¿ jakiegokolwiek innego pomiotu jakiego spotka³em. Czu³eœ te marzenia, te pragnienia, czy¿ nie? Chaos, który jest twoim przeznaczeniem towarzyszy³ ci przez ca³e twoje ¿ycie, czy¿ nie? Czy zaprzeczasz, ¿e sprowadzasz przemoc i zniszczenie gdziekolwiek byœ siê nie pojawi³, <CHARNAME>?~
 @1089 = ~Nie jestem taki jak ty. Istniejê po to by walczyæ z moj¹ skaz¹, by walczyæ ze spuœcizn¹ jak¹ Bhaal sprowadzi³ na ten œwiat. Zmierzy³em siê ze z³em, które istnieje we mnie i zapanowa³em nad nim.~
 @1090 = ~Nie. Mia³em swój udzia³ w sprowadzeniu œmierci i zniszczenia na te ziemie. Ale mia³em swoje cele... cel, który na zawsze uniemo¿liwi powrót Bhaalowi. Cel, który na zawsze usunie jego skazê z tych krain.~
 @1091 = ~Opanowa³em moc istniej¹c¹ we mnie i utrzymujê j¹ pod kontrol¹, ale wiem równie¿... jeœli nie najlepiej... ¿e wiêkszoœæ moich braci stanowi zagro¿enie dla ca³ego Faerunu. Nie pozwolê na to. Poœwiêci³em ca³e moje ¿ycie by temu zapobiec.~
@@ -31,10 +31,10 @@
 @1102 = ~Myœla³em, ¿e zamierzasz pope³niæ samobójstwo po mojej œmierci. Czy jesteœ pewien, ¿e nie bêdziesz widzia³ wiêcej z³a jak ju¿ Melissana bêdzie martwa? Prawdopodobnie bêdziesz dobrze zapowiadaj¹cym siê Panem Mordu, wiesz...~
 @1103 = ~Zapomnij o tym. To jest bezcelowe. Koñczmy ju¿ z tym.~
 @1104 = ~Walczyæ z ni¹ razem?~
-@1105 = ~Nie. Jak móg³bym ci zaufaæ? Co je¿eli zwyciê¿ylibyœmy Melissanê, a ja by³bym os³abiony... móg³byœ ³atwo zakoñczyæ moje ¿ycie i wszystko o co walczy³em posz³o by na marne.~ ~Nie. Jak móg³bym ci zaufaæ? Co je¿eli zwyciê¿ylibyœmy Melissanê, a ja by³bym os³abiony... mog³abyœ ³atwo zakoñczyæ moje ¿ycie i wszystko o co walczy³em posz³o by na marne.~
+@1105 = ~Nie. Jak móg³bym ci zaufaæ? Co je¿eli zwyciê¿ylibyœmy Melissanê, a ja by³bym os³abiony... móg³byœ ³atwo zakoñczyæ moje ¿ycie i wszystko o co walczy³em posz³o by na marne.~
 @1106 = ~Wiedzia³em, ¿e nadejdzie taka chwila, ale bêdê trzyma³ siê mego celu. Musimy... zakoñczyæ to, <CHARNAME>. Chcia³bym, aby by³ jakiœ inny sposób.~
 @1107 = ~W porz¹dku, Balthazar. Jeœli naprawdê tego chcesz... skoñczmy ju¿ z tym.~
-@1108 = ~Jestem stracony, <CHARNAME>. Zada³eœ mi pytanie, a ja nie mogê ci na nie odpowiedzieæ. Moje serce mówi mi, ¿e musisz zgin¹æ, ale nie jestem pewien czy powinienem go pos³uchaæ. Co... co chcesz bym zrobi³?~ ~Jestem stracony, <CHARNAME>. Zada³aœ mi pytanie, a ja nie mogê ci na nie odpowiedzieæ. Moje serce mówi mi, ¿e musisz zgin¹æ, ale nie jestem pewien czy powinienem go pos³uchaæ. Co... co chcesz bym zrobi³?~
+@1108 = ~Jestem stracony, <CHARNAME>. Zada³eœ mi pytanie, a ja nie mogê ci na nie odpowiedzieæ. Moje serce mówi mi, ¿e musisz zgin¹æ, ale nie jestem pewien czy powinienem go pos³uchaæ. Co... co chcesz bym zrobi³?~
 @1109 = ~Do³¹cz do mnie, Balthazar. Walczmy z Melissan¹ razem, zamiast robiæ to co ona chce.~
 @1110 = ~Nie wiem, Balthazar. Ale nie chcê z tob¹ walczyæ.~
 @1111 = ~Walczmy zatem, jeœli tak ma byæ. Daj mi spokój, na który zas³u¿y³em.~
@@ -47,14 +47,14 @@
 @1118 = ~Jeœli bêdê mieæ wybór, Balthazar... odrzucê skazê. Przysiêgam.~
 @1119 = ~Nie. Nie mogê przysi¹c czegoœ takiego. Wiele dobra mo¿e zaistnieæ z u¿ywania takiej mocy, wiesz o tym lepiej ni¿ ktokolwiek inny.~
 @1120 = ~Zapomnij o tym! Nie zrobiê czegoœ takiego!~
-@1121 = ~Zatem w porz¹dku. Esencja naszego ojca zniknie wraz ze mn¹... i z tob¹. Niech bogowie mi wybacz¹. Obyœ... obyœ ty mi wybaczy³, bracie...~ ~Zatem w porz¹dku. Esencja naszego ojca zniknie wraz ze mn¹... i z tob¹. Niech bogowie mi wybacz¹. Obyœ... obyœ ty mi wybaczy³a, siostro...~
+@1121 = ~Zatem w porz¹dku. Esencja naszego ojca zniknie wraz ze mn¹... i z tob¹. Niech bogowie mi wybacz¹. Obyœ... obyœ ty mi wybaczy³, bracie...~
 @1122 = ~Zatem musimy walczyæ. Ja... przepraszam, bracie. Mia³em nadziejê, ¿e wszystko bêdzie inaczej.~
 @1123 = ~A ja nie mogê zaufaæ, ¿e odrzucisz moc gdy ta zostanie ci zaoferowana. Z trudem poradzi³eœ sobie z zaledwie cz¹stk¹ skazy Bhaala, dlatego nie mogê uwierzyæ w to, ¿e odrzucisz j¹. Przykro... mi, bracie... ale nie mam wyboru.~
 @1124 = ~Niech tak bêdzie. ChodŸcie, moi uczniowie... niech bogowie maj¹ nas w swojej opiece.~
 @1125 = ~Nie. Dalsza rozmowa jest bezcelowa. Zakoñczmy to teraz, <CHARNAME>... i niech bogowie maj¹ nas w swojej opiece.~
 @1126 = ~Byæ mo¿e jest nieco racji w tym co mówisz. Ale co jeœli zginê podczas walki? Co jeœli os³abnê, a ty... a ty mo¿esz wtedy poczuæ... pokusê. Jak móg³bym tobie zaufaæ?~
 @1128 = ~Nie wiem jak to dok³adnie wyt³umaczyæ, ale ona siê tob¹ pos³u¿y³a! Pos³u¿y³a siê wszystkimi! Nie ufa³em jej, a mimo to zrobi³em to czego ona dok³adnie chcia³a!~
-@1129 = ~Pomyœl o tym, Balthazar! Czy naprawdê uwa¿asz, ¿e ona nie wie co zamierza³eœ? Myœlisz, ¿e mog³eœ j¹ zwiec? Nawet ja wiedzia³em co siê stanie, ale nie mog³em zrobiæ niczego by to powstrzymaæ!~
+@1129 = ~Pomyœl o tym, Balthazar! Czy naprawdê uwa¿asz, ¿e ona nie wie co zamierza³eœ? Myœlisz, ¿e mog³eœ j¹ zwieœæ? Nawet ja wiedzia³em co siê stanie, ale nie mog³em zrobiæ niczego by to powstrzymaæ!~
 @1130 = ~Pos³u¿y³a siê tob¹ by pozbyæ siê innych Dzieci Bhaala. Pomyœl o tym! Ca³y czas wiedzia³a co zamierzasz. Chcia³a by wszystkie Dzieci Bhaala by³y martwe... i chcia³a ¿ebyœmy walczyli ze sob¹! Ona *chcia³a* ¿eby tak siê sta³o!~
 @1131 = ~Oczywiœcie, ¿e siê mn¹ pos³u¿y³a, <CHARNAME>. I bez cienia w¹tpliwoœci wiedzia³a co zamierzam, tak jak ja wiedzia³em co ona zamierza. To jednak nic nie zmienia.~
 @1132 = ~Mo¿esz... mo¿esz mieæ racjê, <CHARNAME>. Ale to nie oznacza, ¿e moje zamiary siê nie dokonaj¹. Melissana nie doceni³a mnie, jestem równie¿ pewien tego, ¿e... tak samo nie doceni³a ciebie.~
@@ -62,7 +62,7 @@
 @1134 = ~Muszê oprzeæ siê temu. Zrobiê to. Nie mam wyboru.~
 @1135 = ~Ale... ty równie¿ okaza³eœ wielk¹ si³ê woli. Pomimo skazy na twej duszy, walczy³eœ z ni¹ tak samo jak ja. Co czyni mnie godniejszym? Nie, nie mogê odpowiadaæ sobie na to pytanie! Nie teraz!~
 @1136 = ~Z pewnoœci¹ nie bêdziesz w stanie oprzeæ siê takiej pokusie, <CHARNAME>. Wolê zaufaæ sobie ni¿ tobie. Dopuszczenie ciê do Tronu mog³oby zniweczyæ wszystko w co wierzy³em.~
-@1137 = ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samemu sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~
+@1137 = ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samemu sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~ ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samej sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~
 @1138 = ~Jestem zmêczony walkami, które przysz³o mi stoczyæ, <CHARNAME>. Jestem zmêczony udrêkami, które przysz³o mi znieœæ. Jestem zmêczony umieszczaniem dobra ogó³u nad dobrem innych, swoim czy mojej nieœmiertelnej duszy. Wystarczy mi, ¿e spuœcizna po Bhaalu zostanie zniszczona.~
 @1139 = ~Ale ja tak. To jest moje przeznaczenie. Jaki mam inny wybór?~
 @1140 = ~Zawsze jest inny wybór, Balthazar. Nie b¹dŸ niewolnikiem przepowiedni Alaundo! Ja walczy³em przeciw niej odk¹d dowiedzia³em siê o moim dziedzictwie i *nie* zamierzam siê poddaæ!~
@@ -101,7 +101,7 @@
 @1173 = ~Ale... odnios³eœ wiele sukcesów w zwalczaniu pokusy. Wiêcej zwyciêstw ni¿ ja. Ja... zrobi³em wiele w imiê dobra, ale wiele z tych czynów ¿a³ujê. Moi ludzie cierpi¹, poniewa¿ wynosi³em swój cel ponad wszystkie inne... ale czy to nie prawda, ¿e to w³aœnie jak traktujemy najbardziej bezbronnych w najgorszych czasach œwiadczy o dobroci cz³owieka? Tak... tak mi wstyd.~
 @1174 = ~I wbrew temu co twierdzisz, uwa¿am, ¿e skaza jest bli¿sza twemu sercu. Muszê kroczyæ sw¹ w³asn¹ œcie¿k¹, <CHARNAME>... a ty musisz kroczyæ swoj¹.~
 @1175 = ~Bardzo dobrze. ChodŸcie, moi uczniowie... moje nauki dobieg³y koñca. Po raz ostatni walczmy o to co jest prawe. Niech bogowie maj¹ nas w swej opiece.~
-@1176 = ~Nawet jeœli przeznaczenie nie doprowadzi³o by nas tu, w¹tpiê by sprawy potoczy³y siê inaczej. Byæ mo¿e jeœli nie urodzi³byœ siê ze skaz¹ naszego dziedzictwa, sprawy rzeczywiœcie mog³yby siê potoczyæ inaczej. Chcia³bym kiedyœ poznaæ kogoœ takiego jak ty, bez skazy na duszy. Ale teraz nie mam innego wyboru.~ ~Nawet jeœli przeznaczenie nie doprowadzi³o by nas tu, w¹tpiê by sprawy potoczy³y siê inaczej. Byæ mo¿e jeœli nie urodzi³abyœ siê ze skaz¹ naszego dziedzictwa, sprawy rzeczywiœcie mog³yby siê potoczyæ inaczej. Chcia³bym kiedyœ poznaæ kogoœ takiego jak ty, bez skazy na duszy. Ale teraz nie mam innego wyboru.~
+@1176 = ~Nawet jeœli przeznaczenie nie doprowadzi³o by nas tu, w¹tpiê by sprawy potoczy³y siê inaczej. Byæ mo¿e jeœli nie urodzi³byœ siê ze skaz¹ naszego dziedzictwa, sprawy rzeczywiœcie mog³yby siê potoczyæ inaczej. Chcia³bym kiedyœ poznaæ kogoœ takiego jak ty, bez skazy na duszy. Ale teraz nie mam innego wyboru.~
 @1177 = ~Czy niewinnoœæ, o której mówisz znaczy coœ dla martwych osób z Saradush. A co z innymi jak na przyk³ad Athkatla, czy Baldur's Gate, czy w koñcu Candlekeep... czy tam nie by³o tak samo? Kto zgin¹³ tylko dlatego, ¿e stan¹³ ci na drodze?~
 @1178 = ~Myœlisz, ¿e pozosta³a czêœæ naszego rodzeñstwa jest inna? Policz ich, <CHARNAME>, i pomyœl ile pomiotów Bhaala istnia³o i przynosi³o cierpienie na innych, jeœli nieumyœlnie, to przez sam¹ swoj¹ obecnoœæ. Pozwoli³byœ by taka rzeŸ nadal mia³a miejsce? Czy nie ocaliliœmy ca³ych Krain przed agoni¹ zabijaj¹c nasze rodzeñstwo?~
 @1179 = ~Uwa¿asz siê za pana w³asnego przeznaczenia, czy¿ nie? Przeznaczenia, o którym dawno temu mówi³ Alaundo? Wierzysz, ¿e tylko dziêki swoim wyborom znalaz³eœ siê w tym miejscu?~

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-03 19:22+0000\n"
+"PO-Revision-Date: 2018-02-03 20:22+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
@@ -1471,7 +1471,6 @@ msgstr ""
 "temu oprzeć?"
 
 #: balth.tra:1101
-#, fuzzy
 msgid ""
 "What makes you think you could kill her? I'm the one that has defeated all "
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
@@ -1622,7 +1621,6 @@ msgid "Forget it! I'll do no such thing!"
 msgstr "Zapomnij o tym! Nie zrobię czegoś takiego!"
 
 #: balth.tra:1121
-#, fuzzy
 msgid ""
 "Then I am satisfied. The essence of our sire ends with me... and with you. "
 "May the gods forgive me. May you... may you forgive me, "
@@ -1632,7 +1630,6 @@ msgstr ""
 "Niech bogowie mi wybaczą. Obyś... obyś ty mi wybaczył, bracie..."
 
 #: balth.tra:1122
-#, fuzzy
 msgid ""
 "Then we must do battle. I... I am sorry, <PRO_BROTHERSISTER>. I had hoped "
 "this would be otherwise."
@@ -1641,7 +1638,6 @@ msgstr ""
 "wszystko będzie inaczej."
 
 #: balth.tra:1123
-#, fuzzy
 msgid ""
 "And I cannot trust that you will turn aside the power when it is offered to "
 "you. You have experienced the struggle even a sliver of Bhaal's taint has "
@@ -1677,7 +1673,6 @@ msgstr ""
 "tobie zaufać?"
 
 #: balth.tra:1128
-#, fuzzy
 msgid ""
 "I don't know how to explain it, exactly, but she must have used you! She "
 "used everyone else! I didn't trust her and she even got me to do what she "
@@ -1688,15 +1683,14 @@ msgstr ""
 "chciała!"
 
 #: balth.tra:1129
-#, fuzzy
 msgid ""
 "Think about it, Balthazar! You honestly think she didn't know what your "
 "plans were? Do you think you took her by surprise? Even I saw it coming, and"
 " there was nothing I could do to stop it!"
 msgstr ""
 "Pomyśl o tym, Balthazar! Czy naprawdę uważasz, że ona nie wie co "
-"zamierzałeś? Myślisz, że mogłeś ją zwiec? Nawet ja wiedziałem co się stanie, "
-"ale nie mogłem zrobić niczego by to powstrzymać!"
+"zamierzałeś? Myślisz, że mogłeś ją zwieść? Nawet ja wiedziałem co się "
+"stanie, ale nie mogłem zrobić niczego by to powstrzymać!"
 
 #: balth.tra:1130
 msgid ""
@@ -1741,7 +1735,6 @@ msgid "I must resist it. I will. I have no choice."
 msgstr "Muszę oprzeć się temu. Zrobię to. Nie mam wyboru."
 
 #: balth.tra:1135
-#, fuzzy
 msgid ""
 "But... you have shown great willpower, as well. Despite the taint in your "
 "soul, you have struggled against it just as I have. What makes me more "
@@ -1789,7 +1782,6 @@ msgid "But I do. It is my destiny. What other choice have I?"
 msgstr "Ale ja tak. To jest moje przeznaczenie. Jaki mam inny wybór?"
 
 #: balth.tra:1140
-#, fuzzy
 msgid ""
 "You always have a choice, Balthazar. Don't be a slave to Alaundo's prophecy!"
 " I have fought against it ever since I found out about my heritage and I "
@@ -1826,7 +1818,6 @@ msgstr ""
 " przecież nie jest."
 
 #: balth.tra:1144
-#, fuzzy
 msgid ""
 "I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable! "
 "We can work together!"
@@ -1853,7 +1844,6 @@ msgstr ""
 "jak to jest, że nie widziałem tego wcześniej?"
 
 #: balth.tra:1147
-#, fuzzy
 msgid ""
 "But the simple truth is your words ring hollow to me. I do not believe them."
 " You have fought against destiny, yet I see it in you even the more as you "
@@ -1885,7 +1875,6 @@ msgstr ""
 "brzmi, ale to prawda!"
 
 #: balth.tra:1151
-#, fuzzy
 msgid ""
 "I have been told many things by agents of Alaundo's prophecy... higher "
 "beings that have sought me out to prepare me. Alaundo's prophecy does not "
@@ -1916,7 +1905,6 @@ msgstr ""
 "przeznaczenie, <CHARNAME>. Moja ścieżka pozostaje jasna."
 
 #: balth.tra:1154
-#, fuzzy
 msgid ""
 "You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder. Yet... "
 "it seems that my destiny may differ from yours. I have no heavenly guidance."
@@ -1965,7 +1953,6 @@ msgstr ""
 " być."
 
 #: balth.tra:1159
-#, fuzzy
 msgid ""
 "No! You have listened to nothing I have said! It *is* that way because there"
 " is no choice for us! You would have me forget all the murders I have "
@@ -2014,7 +2001,6 @@ msgstr ""
 "nazywasz się dobrym człowiekiem?"
 
 #: balth.tra:1163
-#, fuzzy
 msgid ""
 "A truly good man would have stood against Melissan from the beginning. You "
 "say you wanted to find out who the Five were... and yet I defeated them "
@@ -2069,7 +2055,6 @@ msgstr ""
 "dla nas najlepsze."
 
 #: balth.tra:1168
-#, fuzzy
 msgid ""
 "You found out who the Five were through Melissan's scheming... and through, "
 "in no small part, my own. But who is to say that things might not have been "
@@ -2125,7 +2110,6 @@ msgstr ""
 "wzrośnie, zwiększy się również pokusa."
 
 #: balth.tra:1173
-#, fuzzy
 msgid ""
 "But... you have been successful in fighting temptation. More successful than"
 " I. I have... done much that I regret, in the name of good. My people suffer"
@@ -2197,7 +2181,6 @@ msgstr ""
 "zabijając nasze rodzeństwo?"
 
 #: balth.tra:1179
-#, fuzzy
 msgid ""
 "You believe yourself to be the master of your destiny, do you? The destiny "
 "foreseen long ago by Alaundo? You believe it by choice alone that you ended "
@@ -2327,7 +2310,6 @@ msgstr ""
 "duszę... nawet... nawet nie mogę sobie tego wyobrazić..."
 
 #: balth2.tra:1012
-#, fuzzy
 msgid ""
 "I cannot thank you enough, <CHARNAME>, for the gift you have given me. I "
 "once thought I had done everything I could to fight for what was good... but"
@@ -2482,7 +2464,6 @@ msgstr ""
 "a i tak zawsze jest bardzo daleko."
 
 #: finbodh.tra:35
-#, fuzzy
 msgid ""
 "So I see. How absolutely delicious to let me in on your little play with the"
 " Bhaalspawn again, brother dear. And how are you, <CHARNAME>? I do so hope "
@@ -2507,7 +2488,6 @@ msgstr ""
 "żałosnej walki?"
 
 #: finbodh.tra:38
-#, fuzzy
 msgid ""
 "Best hike up your skirts and run, Bodhi. The time when I found vampires "
 "remotely threatening is long past!"
@@ -2562,7 +2542,6 @@ msgstr ""
 "musisz umierać."
 
 #: finbodh.tra:46
-#, fuzzy
 msgid ""
 "You may be strong, <CHARNAME>, but you are indeed a fool to think us weak. I"
 " shall take your soul for my own, I swear it!"
@@ -2645,7 +2624,6 @@ msgstr ""
 "otrzymasz to czego naprawdę pragniesz, duszę."
 
 #: finbodh.tra:55
-#, fuzzy
 msgid ""
 "I have changed since our last encounter, Bodhi. I am above you and your "
 "pitiful games. They bore me and I shall put an end to them!"
@@ -2763,7 +2741,6 @@ msgstr ""
 "esencji."
 
 #: finbodh.tra:68
-#, fuzzy
 msgid ""
 "Actually Bodhi, I have changed my mind. I enjoy watching you die too much, "
 "to pass up an opportunity to see it again."
@@ -2784,7 +2761,6 @@ msgstr ""
 "będzie ci miło. Teraz zakończmy nasze sprawy..."
 
 #: finbodh.tra:71
-#, fuzzy
 msgid ""
 "No, <CHARNAME>. Sadly, I do not think we are destined to work together "
 "again. Despite the attractiveness of what you offer, your words ring more "
@@ -2934,7 +2910,6 @@ msgstr ""
 "mi wszystko czego potrzebuję, a nawet więcej. Zdecyduj szybko, <CHARNAME>."
 
 #: finbodh.tra:88
-#, fuzzy
 msgid ""
 "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
 " no idea. I shall be pleased to know that you both die again just as you "
@@ -3090,7 +3065,6 @@ msgstr ""
 "znajduje się w twojej młodej duszyczce, hmm?"
 
 #: finmel01.tra:610
-#, fuzzy
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you? But her "
 "essence is easy enough to command. Let's see what she has to say, shall we?"
@@ -3160,7 +3134,6 @@ msgstr ""
 " każdego mojego rozkazu."
 
 #: finmel01.tra:617
-#, fuzzy
 msgid ""
 "And since you recruited Balthazar to your side, I've decided on the "
 "delicious irony of re-creating poor, pathetic Gromnir as well. It delights "
@@ -3247,7 +3220,6 @@ msgstr ""
 "demonem, którym niegdyś byłeś. Służ mi."
 
 #: finmel01.tra:627
-#, fuzzy
 msgid ""
 "Then fight for me you shall! And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
@@ -3256,7 +3228,6 @@ msgstr ""
 "Daję ci szansę na zemstę, na którą zasługujesz!"
 
 #: finmel01.tra:628
-#, fuzzy
 msgid ""
 "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish! The Five "
 "shall be the end of you both!"
@@ -3305,12 +3276,10 @@ msgid "You're a fool, Sarevok, if you think you'll make any difference."
 msgstr "Jesteś głupcem, Sarevok, jeśli myślisz, że uda ci się mnie pokonać."
 
 #: finsarev.tra:30
-#, fuzzy
 msgid "You're willing to become Melissan's servant, now? I'm disappointed."
 msgstr "Chcesz stać się teraz sługą Melissany? Jestem zawiedziony."
 
 #: finsarev.tra:31
-#, fuzzy
 msgid ""
 "Then you'll die. I gave you life again, and I can take it away... for the "
 "third time."
@@ -3360,7 +3329,6 @@ msgstr ""
 "wybrać swoje przeznaczenie... dokonać wyboru, na który zasługujesz."
 
 #: finsol01.tra:583
-#, fuzzy
 msgid ""
 "If that is your choice, you may surrender the portion of your divine essence"
 " to your elder sibling. You may become a normal mortal, with a destiny to "
@@ -3383,7 +3351,6 @@ msgid "Now there is but one other sibling who must also make her choice."
 msgstr "Teraz jeszcze jedno boskie dziecię musi dokonać wyboru."
 
 #: finsol01.tra:586
-#, fuzzy
 msgid ""
 "While it fills me with distaste that you would even bring such a creature of"
 " evil before me, god-child, you must remember that in this place an oath is "
@@ -3430,7 +3397,6 @@ msgid "Wh-what... where am I? What's going on? <CHARNAME>?"
 msgstr "C-co... gdzie ja jestem? Co się dzieje? <CHARNAME>?"
 
 #: imoen25p.tra:477
-#, fuzzy
 msgid ""
 "It... it's gone... I'm human again. Ohhhh, now I know what you went through,"
 " <CHARNAME>! I don't know if I ever want to go through that again!"
@@ -3440,7 +3406,6 @@ msgstr ""
 "ponownie!"
 
 #: imoen25p.tra:478
-#, fuzzy
 msgid ""
 "And I can't believe what you said, either! 'Go ahead and kill her'? After "
 "all we've been through, that's what you say in my defense?!"
@@ -3449,12 +3414,10 @@ msgstr ""
 "co razem przeszliśmy, to wszystko co przyszło ci do głowy?!"
 
 #: imoen25p.tra:479
-#, fuzzy
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
 msgstr "Próbowałem przekonać Melissanę by zostawiła cię w spokoju, Imoen!"
 
 #: imoen25p.tra:480
-#, fuzzy
 msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr ""
 "Weź się w garść, mała dziewczynko. Nigdy cię nie prosiłem o pomoc, czyż nie?"
@@ -3467,7 +3430,6 @@ msgstr ""
 "walki!"
 
 #: imoen25p.tra:482
-#, fuzzy
 msgid ""
 "Well... I suppose. You convinced me more than her, obviously. I... I'm just "
 "glad I didn't do more damage as the slayer. I don't know how you handled it."
@@ -3551,7 +3513,6 @@ msgstr ""
 "uciekam stąd najdalej jak to możliwe. Do widzenia!"
 
 #: imoen25p.tra:491
-#, fuzzy
 msgid ""
 "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
 "just don't know how you handled it back in Spellhold. Thank you for... not "
@@ -3602,7 +3563,6 @@ msgid ""
 msgstr "W porządku. Jeśli Sarevok mógł zmartwychwstać, to czemu nie ty."
 
 #: irenic2.tra:437
-#, fuzzy
 msgid ""
 "You told her how to influence me, didn't you? And you told her I was in "
 "Suldanessalar."
@@ -3683,7 +3643,6 @@ msgstr ""
 "wciąż mam szansę na wniebowstąpienie!"
 
 #: irenic2.tra:447
-#, fuzzy
 msgid ""
 "You may have gained some crude and rudimentary control over your abilities "
 "in the interim, but even I have learned a thing or two... delusions or no. "
@@ -3828,7 +3787,6 @@ msgstr ""
 "posiadasz. Zginiesz u boku swego rodzeństwa."
 
 #: meliss01.tra:419
-#, fuzzy
 msgid ""
 "Oh, please. I saw you coming from a mile away. I just played along because I"
 " had no choice."
@@ -3854,7 +3812,6 @@ msgstr ""
 "kropla boskiej esencji będzie *moja*."
 
 #: meliss01.tra:433
-#, fuzzy
 msgid ""
 "As long as you did what you were required to and kill the Five, then I care "
 "little for what you think you know, fool."
@@ -3950,7 +3907,6 @@ msgstr ""
 "tego energia wydostaje się i zadaje ci obrażenia."
 
 #: ppguy02.tra:2
-#, fuzzy
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
 "into yourself, diverting it away from Melissan. Boundless power fills you "
@@ -3976,7 +3932,6 @@ msgstr ""
 "Zdolność \"Uwolnienie\" pozwala ci uwolnić swą wewnętrzną energię na cel znajdujący się twoim pobliżu, zadając mu 10K12 magicznych obrażeń (połowa po wykonaniu udanego rzutu obronnego przeciw śmierci) i odrzucając go od ciebie, co może się wiązać z utratą przez cel przytomności. Zdolność ta może być użyta raz na trzydzieści sekund... a po jej użyciu Dziecko Bhaala przez 2 rundy będzie niesamowicie chore i będzie istniała 25% szansa na nieudane rzucenie czaru. Ze względu na dużą ilość użytej boskiej esencji nie będzie można przemienić się w Zabójcę przez trzydzieści sekund."
 
 #: ppguy02.tra:5
-#, fuzzy
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
 "into yourself, diverting it away from Melissan. Boundless power fills you, "
@@ -4109,7 +4064,6 @@ msgid "That is a mistake, Sarevok. You'll just die along with her this way."
 msgstr "Popełniłeś błąd, Sarevok. Zginiesz razem z nią."
 
 #: sarev25j.tra:269
-#, fuzzy
 msgid ""
 "I expected as much. So I get to kill you again, as well. It's all good."
 msgstr ""
@@ -4129,7 +4083,6 @@ msgstr ""
 "przyłączę się do ciebie."
 
 #: sarev25j.tra:271
-#, fuzzy
 msgid ""
 "My nature has not changed, <CHARNAME>. Did you truly expect otherwise? "
 "Better to fight for Melissan than sit in your shadow and watch you take what"
@@ -4150,7 +4103,6 @@ msgstr ""
 "oznacza to walczyć dla Melissany, zrobię co będę musiał."
 
 #: sarev25j.tra:273
-#, fuzzy
 msgid ""
 "A typical boast. And perhaps you will even win, but I will not sit idly by "
 "as you take what was once mine. You don't deserve power, <CHARNAME>, and "
@@ -4900,7 +4852,6 @@ msgstr ""
 "Melissany."
 
 #: solar.tra:239
-#, fuzzy
 msgid ""
 "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides "
 "yourself, god-child. You are to be commended. Your journey is nearly at its "
@@ -4917,7 +4868,6 @@ msgstr ""
 " walczył<PRO_HESHE>?"
 
 #: solar.tra:241
-#, fuzzy
 msgid ""
 "You did not need to fight him. The rest of the Five have been defeated. With"
 " Balthazar and yourself both alive, not all of Bhaal's divine essence has "
