@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-03 16:22+0000\n"
+"PO-Revision-Date: 2018-02-03 17:22+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
@@ -1489,7 +1489,6 @@ msgid "Fight her together?"
 msgstr "Walczyć z nią razem?"
 
 #: balth.tra:1105
-#, fuzzy
 msgid ""
 "No. How could I trust you? What if we were to vanquish Melissan, I would be "
 "weakened... you could end my life there and everything I have been working "
@@ -1514,7 +1513,6 @@ msgstr ""
 "W porządku, Balthazar. Jeśli naprawdę tego chcesz... skończmy już z tym."
 
 #: balth.tra:1108
-#, fuzzy
 msgid ""
 "I am at a loss, <CHARNAME>. You question me, and I have no good answers for "
 "you. My heart tells me that you must be killed, but I am not sure if I "
