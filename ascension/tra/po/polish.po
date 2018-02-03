@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-02-03 18:22+0000\n"
+"PO-Revision-Date: 2018-02-03 19:22+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: polish\n"
@@ -2477,9 +2477,9 @@ msgid ""
 "Irenicus... always so very, very close to getting what he wants and yet "
 "always so very, very far."
 msgstr ""
-"(chichocze) Jak to podobne do ciebie obwiniać innych za swe niepowodzenia. "
-"Biedny, biedny Irenicus... zawsze tak bardzo chce być blisko tego co pożąda,"
-" a i tak zawsze jest bardzo daleko."
+"(chichocząc) Jak to podobne do ciebie obwiniać innych za swe niepowodzenia. "
+"Biedny, biedny Irenicus... zawsze tak bardzo chce być blisko tego co pożąda, "
+"a i tak zawsze jest bardzo daleko."
 
 #: finbodh.tra:35
 #, fuzzy
@@ -2686,8 +2686,8 @@ msgid ""
 "An opportunity to feast on the blood of a God, and yet you think I will "
 "stand aside? (chuckle) You know me no better than my dear brother here."
 msgstr ""
-"Mam okazję zakosztować boskiej krwi, a ty nadal myślisz, że tego nie zrobię?"
-" (chichocze) Nie znasz mnie lepiej niż mój brat."
+"Mam okazję zakosztować boskiej krwi, a ty nadal myślisz, że tego nie zrobię? "
+"(chichocząc) Nie znasz mnie lepiej niż mój brat."
 
 #: finbodh.tra:60
 msgid ""
@@ -3589,7 +3589,7 @@ msgstr "Przestań zawracać mi głowę w połowie walki! Wracaj do drużyny!"
 #: imoen25p.tra:495
 msgid ""
 "Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?"
-msgstr "Tak <PRO_SIRMAAM>! (chichocze) Czas skopać kilka tyłków, czyż nie?"
+msgstr "Tak <PRO_SIRMAAM>! (chichocząc) Czas skopać kilka tyłków, czyż nie?"
 
 #: irenic2.tra:435
 msgid "Indeed. We meet once again."
