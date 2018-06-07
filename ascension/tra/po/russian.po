@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-07 08:22+0000\n"
+"PO-Revision-Date: 2018-06-07 09:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -3089,29 +3089,18 @@ msgstr ""
 "Балтазар, *для чего* все эти убийства отпрысков Баала?"
 
 #: finmel01.tra:615
-#, fuzzy
-#| msgid ""
-#| "And well you should not have, though you aided me regardless.  Bhaal may, "
-#| "indeed, be... somewhere.  But not here.  Here I have locked these essences "
-#| "away and drank heartily of their power.  The Source, the Throne, all are "
-#| "mine... and god-hood is but one simple step away."
 msgid ""
 "And well you should not have, though you aided me regardless. Bhaal may, "
 "indeed, be... somewhere. But not here. Here I have locked these essences "
 "away and drank heartily of their power. The Source, the Throne, all are "
 "mine... and god-hood is but one simple step away."
 msgstr ""
-"И даже независимо от вашего желания, вы помогли мне. Баал может быть, "
-"действительно... где-нибудь. Но не здесь. Здесь я захватила все эти сущности"
-" и наполнилась их мощью. Источник, Трон, все это мое... и к могуществу бога "
-"- всего лишь один маленький шаг."
+"И даже независимо от твоего желания, ты помог мне. Баал, действительно, "
+"может *быть*... где-нибудь. Но не здесь. Здесь я захватила все эти сущности "
+"и наполнилась их мощью. Источник, Трон, все это мое... и к могуществу бога - "
+"всего лишь один маленький шаг."
 
 #: finmel01.tra:616
-#, fuzzy
-#| msgid ""
-#| "I was going to resurrect them anyway, to serve as my conquering avatars.  "
-#| "And I prefer them far better this way... completely servile, obeying every "
-#| "order without question."
 msgid ""
 "I was going to resurrect them anyway, to serve as my conquering avatars. And"
 " I prefer them far better this way... completely servile, obeying every "
@@ -3122,12 +3111,6 @@ msgstr ""
 "рабский - повиноваться каждому моему приказу без колебаний."
 
 #: finmel01.tra:617
-#, fuzzy
-#| msgid ""
-#| "And since you recruited Balthazar to your side, I've decided on the "
-#| "delicious irony of re-creating poor, pathetic Gromnir as well.  It delights "
-#| "me to no end to know that he was right about me all along... and yet it made"
-#| " no difference.  You murdered him still, as I knew you would."
 msgid ""
 "And since you recruited Balthazar to your side, I've decided on the "
 "delicious irony of re-creating poor, pathetic Gromnir as well. It delights "
@@ -3135,16 +3118,12 @@ msgid ""
 " no difference. You murdered him still, as I knew you would."
 msgstr ""
 "И так как тебе удалось уговорить Балтазара примкнуть к тебе, я решила "
-"позволить себе восхитительную иронию, воссоздав бедного жалкого Громира. Это"
-" доставляет мне бесконечное наслаждение - знать, что он был возле меня все "
-"время.... и до сих пор это не имеет значения. Он уже погиб от твоей руки "
-"раньше и я знала, что так будет."
+"позволить себе восхитительную иронию, воссоздав бедного жалкого Громнира. "
+"Это доставляет мне бесконечное наслаждение - знать, что все это время он был "
+"прав обо мне... и это ни на что  не повлияло. Он все равно погиб от твоей "
+"руки, как я и знала."
 
 #: finmel01.tra:618
-#, fuzzy
-#| msgid ""
-#| "You should have kept your energies to yourself, Melissan.  Spending them on "
-#| "re-creating the Five will cost you... and cost you dearly."
 msgid ""
 "You should have kept your energies to yourself, Melissan. Spending them on "
 "re-creating the Five will cost you... and cost you dearly."
@@ -3153,10 +3132,6 @@ msgstr ""
 "восстановление Пятерки будет стоить тебе... и стоить будет дорого."
 
 #: finmel01.tra:619
-#, fuzzy
-#| msgid ""
-#| "Perhaps.  But already I am immortal, which means I cannot be killed even by "
-#| "you.  And there is still more of your father's essence for me to take."
 msgid ""
 "Perhaps. But already I am immortal, which means I cannot be killed even by "
 "you. And there is still more of your father's essence for me to take."
@@ -3166,10 +3141,6 @@ msgstr ""
 "которое я могу взять."
 
 #: finmel01.tra:620
-#, fuzzy
-#| msgid ""
-#| "They provided a considerable challenge for you individually, <CHARNAME>.  I "
-#| "wonder how you will fare against them all?"
 msgid ""
 "They provided a considerable challenge for you individually, <CHARNAME>. I "
 "wonder how you will fare against them all?"
@@ -3178,9 +3149,6 @@ msgstr ""
 "Интересно, сможешь ты выстоять против них всех одновременно?"
 
 #: finmel01.tra:621
-#, fuzzy
-#| msgid ""
-#| "So come, <CHARNAME>...kill your siblings once again.  If you can."
 msgid "So come, <CHARNAME>...kill your siblings once again. If you can."
 msgstr ""
 "Итак, начнем, <CHARNAME>... убей своих родных братьев еще раз. Если сможешь."
@@ -3190,23 +3158,14 @@ msgid "There is enough essence, in fact, even for you... Sarevok."
 msgstr "Фактически есть достаточно сущности даже для тебя... Саревок."
 
 #: finmel01.tra:623
-#, fuzzy
-#| msgid ""
-#| "But... we don't have all your siblings accounted for just quite yet, do we?"
-#| "  Haven't you forgotten someone?"
 msgid ""
 "But... we don't have all your siblings accounted for just quite yet, do we? "
 "Haven't you forgotten someone?"
 msgstr ""
-"Но... не все твои родные братья могут быть собраны здесь, не так ли? Неужели"
-" кто-то забыт?"
+"Но... не все твои родные братья могут быть собраны здесь, не так ли? Неужели "
+"кто-то забыт?"
 
 #: finmel01.tra:624
-#, fuzzy
-#| msgid ""
-#| "Oh, but we do, Sarevok.  I made you an offer once before, and that offer "
-#| "still stands.  Join me now, abandon this pathetic whelp, and take your place"
-#| " at my side."
 msgid ""
 "Oh, but we do, Sarevok. I made you an offer once before, and that offer "
 "still stands. Join me now, abandon this pathetic whelp, and take your place "
@@ -3217,24 +3176,14 @@ msgstr ""
 "жалкого щенка и займи свое место на моей стороне."
 
 #: finmel01.tra:625
-#, fuzzy
-#| msgid ""
-#| "The geas the fool placed on your heart is nothing.  I could easily remove "
-#| "it.  In fact, I do so now.  There... act as you will."
 msgid ""
 "The geas the fool placed on your heart is nothing. I could easily remove it."
 " In fact, I do so now. There... act as you will."
 msgstr ""
-"Заклятье, помещенное в ваше сердце ничто. Я могу без проблем убрать его. "
-"Фактически, я уже делаю это. Сейчас... что ты выбираешь."
+"Заклятье, помещенное в ваше сердце ничто. Я могу без проблем убрать его. На "
+"самом деле , я уже делаю это. Сейчас... что ты выбираешь."
 
 #: finmel01.tra:626
-#, fuzzy
-#| msgid ""
-#| "Perhaps.  But you are a great warrior... and could be a fine general to lead"
-#| " my earthly armies.  Power, riches, respect... all you desire.  Including "
-#| "the return of the Bhaalspawn essence you lost.  Come, Sarevok... be the "
-#| "demon you once were.  Serve me."
 msgid ""
 "Perhaps. But you are a great warrior... and could be a fine general to lead "
 "my earthly armies. Power, riches, respect... all you desire. Including the "
@@ -3247,80 +3196,54 @@ msgstr ""
 "так, Саревок... стань демоном, каким однажды был. И служи мне."
 
 #: finmel01.tra:627
-#, fuzzy
-#| msgid ""
-#| "Then fight for me you shall!  And your first victim will be the "
-#| "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgid ""
 "Then fight for me you shall! And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgstr ""
 "Тогда ты будешь сражаться за меня! И твоей первой жертвой будет "
-"<PRO_BROTHERSISTER>, и пусть возмездие свершится."
+"<PRO_BROTHERSISTER>, и пусть возмездие свершится!"
 
 #: finmel01.tra:628
-#, fuzzy
-#| msgid ""
-#| "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
-#| " shall be the end of you both!"
 msgid ""
 "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish! The Five "
 "shall be the end of you both!"
 msgstr ""
-"Тогда умри вместе с <CHARNAME>, если это - твое желание! Пятерка положит вам"
-" конец, обоим!"
+"Тогда умри вместе с <CHARNAME>, если это - твое желание! Пятерка положит вам "
+"конец, обоим!"
 
 #: finmel01.tra:629
-#, fuzzy
-#| msgid ""
-#| "I brought you here, Sarevok.  To give you a second chance.  Join me and "
-#| "fight against <CHARNAME> and I will return the power you lost, the power you"
-#| " crave so much.  I will make you the man you once were."
 msgid ""
 "I brought you here, Sarevok. To give you a second chance. Join me and fight "
 "against <CHARNAME> and I will return the power you lost, the power you crave"
 " so much. I will make you the man you once were."
 msgstr ""
-"Я вызвала тебя сюда, Саревок. И даю тебе второй шанс. Присоединяйся ко мне в"
-" борьбе против <CHARNAME>, и я верну силу, которую ты потерял, силу, к "
+"Я вызвала тебя сюда, Саревок. И даю тебе второй шанс. Присоединяйся ко мне в "
+"борьбе против <CHARNAME>, и я верну силу, которую ты потерял, силу, к "
 "которой ты так долго стремился. И верну тебе человеческую жизнь, как раньше."
 
 #: finmel01.tra:630
-#, fuzzy
-#| msgid ""
-#| "What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
-#| "lost too much power!  You shall pay for this!!"
 msgid ""
 "What? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
 "too much power! You shall pay for this!"
 msgstr ""
-"Что--? Смертный! Нет, это не может быть! Я опять была близка к смерти!! Я "
-"потеряла слишком много силы!! Ты заплатишь за это!!"
+"Что? Смертная! Нет, этого не может быть! Я почти стала смертной опять! Я "
+"потеряла слишком много силы! Ты заплатишь за это!"
 
 #: finsarev.tra:26
-#, fuzzy
-#| msgid ""
-#| "Who--?  Melissan.  And <CHARNAME>, no less.  And to think that I had "
-#| "resigned myself to not being a part of this little play.  Who brought me "
-#| "here?  And why am I in my old armor?"
 msgid ""
 "Who? Melissan. And <CHARNAME>, no less. And to think that I had resigned "
 "myself to not being a part of this little play. Who brought me here? And why"
 " am I in my old armor?"
 msgstr ""
-"Кто--? Мелисса. И <CHARNAME>. Не может быть. Думаете, я смирился с тем, что "
-"не буду частью этой маленькой игры. Кто вызвал меня сюда? И почему - я в "
-"моей старой броне?"
+"Кто? Мелисса. И <CHARNAME>. Не может быть. А я ведь смирился с тем, что "
+"больше не буду участвовать в этой маленькой пьесе. Кто вызвал меня сюда? И "
+"почему я в своей старой броне?"
 
 #: finsarev.tra:27
-#, fuzzy
-#| msgid "Fight <CHARNAME>?  Aye... I will do that."
 msgid "Fight <CHARNAME>? Aye... I will do that."
 msgstr "Биться с <CHARNAME>? Да... я сделаю это."
 
 #: finsarev.tra:28
-#, fuzzy
-#| msgid "So you die again, as well.  It's all good."
 msgid "So you die again, as well. It's all good."
 msgstr "Значит ты умрешь снова, непременно. И это хорошо."
 
@@ -3329,17 +3252,10 @@ msgid "You're a fool, Sarevok, if you think you'll make any difference."
 msgstr "Ты дурак, Саревок, если думаешь, что это что-нибудь изменит."
 
 #: finsarev.tra:30
-#, fuzzy
-#| msgid ""
-#| "You're willing to become Melissan's servant, now?  I'm disappointed."
 msgid "You're willing to become Melissan's servant, now? I'm disappointed."
 msgstr "Ты теперь хочешь стать прислужником Мелиссы? Ты меня разочаровываешь."
 
 #: finsarev.tra:31
-#, fuzzy
-#| msgid ""
-#| "Then you'll die.  I gave you life again, and I can take it away... for the "
-#| "third time."
 msgid ""
 "Then you'll die. I gave you life again, and I can take it away... for the "
 "third time."
@@ -3348,11 +3264,6 @@ msgstr ""
 "твою жизнь... в третий раз."
 
 #: finsarev.tra:32
-#, fuzzy
-#| msgid ""
-#| "It is true.  I may die again at your hand, <CHARNAME>.  But better that than"
-#| " sit in your shadow and taste the bile in my heart while you take what was "
-#| "once rightfully mine.  Better to fight for Melissan than suffer that."
 msgid ""
 "It is true. I may die again at your hand, <CHARNAME>. But better that than "
 "sit in your shadow and taste the bile in my heart while you take what was "
@@ -3360,46 +3271,29 @@ msgid ""
 msgstr ""
 "Это правда. Я могу опять умереть от твоей руки, <CHARNAME>. Но это лучше, "
 "чем находиться за твоей спиной и захлебываться желчью, в то время как ты "
-"берешь все, что однажды законно принадлежало мне. Лучше бороться вместе с "
-"Мелиссой, чем переносить это."
+"берешь все, что однажды принадлежало мне по праву. Лучше бороться вместе с "
+"Мелиссой, чем терпеть это."
 
 #: finsol01.tra:580
-#, fuzzy
-#| msgid ""
-#| "Only one other spawn of the dead god remains... the sibling who fought at "
-#| "your side.  His portion of the essence is less than your own, but still "
-#| "significant.  His choice must also be made."
 msgid ""
 "Only one other spawn of the dead god remains... the sibling who fought at "
 "your side. His portion of the essence is less than your own, but still "
 "significant. His choice must also be made."
 msgstr ""
-"Только один из порождений мертвого бога еще жив... родной брат, который "
-"сражался на вашей стороне. Его часть сущности хоть и меньше вашей "
-"собственной, но все равно довольно велика. Его выбор тоже должен быть "
-"сделан."
+"Лишь один из отпрысков мертвого бога еще жив...  брат, который сражался на "
+"твоей стороне. Его часть сущности хоть и меньше твоей, но все равно довольно "
+"велика. Его выбор тоже должен быть сделан."
 
 #: finsol01.tra:581
-#, fuzzy
-#| msgid ""
-#| "First, however, there is the matter of the children of the dead god who "
-#| "fought by your side.  Their essences are less than your own, but their "
-#| "decision no less important."
 msgid ""
 "First, however, there is the matter of the children of the dead god who "
 "fought by your side. Their essences are less than your own, but their "
 "decision no less important."
 msgstr ""
-"Сперва, однако, о детях мертвого бога, которые сражались на вашей стороне. "
-"Их сущности меньше вашей собственной, но их решение не менее важно."
+"Сперва, однако, о детях мертвого бога, которые сражались на твоей стороне. "
+"Их сущности меньше твоей собственной, но их решение не менее важно."
 
 #: finsol01.tra:582
-#, fuzzy
-#| msgid ""
-#| "I am merely an agent of the universe in this matter, Balthazar.  I am "
-#| "charged to see the destiny of the children of Bhaal brought to its "
-#| "conclusion.  You have an opportunity that few are given.  You may choose "
-#| "your destiny... a choice you thought yourself forever denied."
 msgid ""
 "I am merely an agent of the universe in this matter, Balthazar. I am charged"
 " to see the destiny of the children of Bhaal brought to its conclusion. You "
@@ -3408,35 +3302,26 @@ msgid ""
 msgstr ""
 "Я всего лишь посланник вселенной для решения этого вопроса, Балтазар. Я "
 "наделен возможностью видеть судьбу детей Баала, доведенную до завершения. У "
-"вас есть возможность, которую дают немногим. Вы можете выбрать свою "
-"судьбу... ваш собственный выбор, навсегда."
+"тебя есть возможность, которую дают немногим. Ты можешь выбрать свою "
+"судьбу... выбор, который ты полагал потерянным."
 
 #: finsol01.tra:583
-#, fuzzy
-#| msgid ""
-#| "If that is your choice, you may surrender the portion of your divine essence"
-#| " to your elder sibling.  You may become a normal mortal, with a destiny to "
-#| "follow as you see fit."
 msgid ""
 "If that is your choice, you may surrender the portion of your divine essence"
 " to your elder sibling. You may become a normal mortal, with a destiny to "
 "follow as you see fit."
 msgstr ""
-"Если это ваш выбор, то вы можете отдать часть своей божественной сущности "
-"<CHARNAME>. Вы сможете стать простым смертным, с судьбой, которою сами для "
-"себя выберете."
+"Если это твой выбор, то ты можешь отдать свою часть божественной сущности "
+"<CHARNAME>. Ты сможешь стать простым смертным, с судьбой, которую сам "
+"выберешь для себя."
 
 #: finsol01.tra:584
-#, fuzzy
-#| msgid ""
-#| "As you wish, Balthazar, so it is done.  Go in peace, and know that in the "
-#| "end you walked that narrow path which had ever eluded you."
 msgid ""
 "As you wish, Balthazar, so it is done. Go in peace, and know that in the end"
 " you walked that narrow path which had ever eluded you."
 msgstr ""
-"Как пожелаешь, Балтазар, так и будет сделано. Ступайте с миром и знайте, что"
-" вы шли узкой тропой, которая постоянно ускользала от вас."
+"Как пожелаешь, Балтазар. Сделано. Ступай с миром и знай, что ты в конце "
+"концов прошел той узкой тропой, которая постоянно ускользала от тебя."
 
 #: finsol01.tra:585
 msgid "Now there is but one other sibling who must also make her choice."
@@ -3445,13 +3330,6 @@ msgstr ""
 " выбор."
 
 #: finsol01.tra:586
-#, fuzzy
-#| msgid ""
-#| "While it fills me with distaste that you would even bring such a creature of"
-#| " evil before me, god-child, you must remember that in this place an oath is "
-#| "worth more than the words with which it is spoken.  You are no god yet... "
-#| "and while I would rather destroy this undead thing, it now falls on me to "
-#| "enforce the promise you have made."
 msgid ""
 "While it fills me with distaste that you would even bring such a creature of"
 " evil before me, god-child, you must remember that in this place an oath is "
@@ -3459,66 +3337,42 @@ msgid ""
 " while I would rather destroy this undead thing, it now falls on me to "
 "enforce the promise you have made."
 msgstr ""
-"Хотя меня и переполняет отвращение, вызванное этим существом, полным зла, вы"
-" должны помнить, что в этом месте присяга - это не просто пустые обещания. "
-"Вы все еще не бог... и все же я предпочел бы уничтожить эту полумертвую "
-"вещь, но меня сдерживают обещания, данные вами."
+"Хотя меня и переполняет отвращение, вызванное этим существом, полным зла, "
+"дитя бога, ты нужно помнить, что в этом месте клятва - это не просто пустые "
+"обещания. Ты все еще не бог... и хотя я предпочла бы уничтожить это неживое "
+"существо, но теперь я должна выполнить обещание, данное тобой."
 
 #: imoen25j.tra:476 imoen25p.tra:476
-#, fuzzy
-#| msgid ""
-#| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
-#| "again!!"
 msgid ""
 "I'm not going anywhere with you! And nobody's touching my soul! Not again!"
-msgstr "Я ни куда не пойду с вами! И никто не коснется моей души! Ни за что!!"
+msgstr "Я никуда не пойду с тобой! И никто не коснется моей души! Больше никто!"
 
 #: imoen25p.tra:470
-#, fuzzy
-#| msgctxt "IMOEN18"
-#| msgid ""
-#| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
 msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
-msgstr ""
-"Нннгг! Ах, это причиняет боль! <CHARNAME>, останови ее... это... это "
-"причиняет боль!!"
+msgstr "Нннгг! Ай, как больно! <CHARNAME>, останови ее... болит... очень болит!"
 
 #: imoen25p.tra:471
-#, fuzzy
-#| msgid "What are you doing to her?!  Stop it, I demand it!!"
 msgid "What are you doing to her?! Stop it, I demand it!"
-msgstr "Что ты делаешь с ней?! Прекрати, я требую этого!!"
+msgstr "Что ты делаешь с ней?! Прекрати, я требую этого!"
 
 #: imoen25p.tra:472
-#, fuzzy
-#| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
 msgid "I'm the one you're after, Melissan! Leave her alone!"
-msgstr "Кто тебе больше нужен, я или она, Мелисса?! Оставь ее в покое!!"
+msgstr "Кто тебе больше нужен, я или она, Мелисса?! Оставь ее в покое!"
 
 #: imoen25p.tra:473
-#, fuzzy
-#| msgid "Pull yourself together, Imoen!  Attack!!"
 msgid "Pull yourself together, Imoen! Attack!"
-msgstr "Соберись с духом, Имоен! В атаку!!"
+msgstr "Соберись с духом, Имоен! В атаку!"
 
 #: imoen25p.tra:474
-#, fuzzy
-#| msgid "So what do I care about Imoen?  Kill her, Melissan."
 msgid "So what do I care about Imoen? Kill her, Melissan."
 msgstr "Думаешь, меня сильно волнует Имоен? Убей ее, Мелисса."
 
 #: imoen25p.tra:475
-#, fuzzy
-#| msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
 msgid "Wh-what... where am I? What's going on? <CHARNAME>?"
-msgstr "Чт-что... где - я? Что происходит? <CHARNAME>?"
+msgstr "Чт-что... где я? Что происходит? <CHARNAME>?"
 
 #: imoen25p.tra:477
-#, fuzzy
-#| msgid ""
-#| "It... it's gone... I'm human again.  Ohhhh, now I know what you went "
-#| "through, <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgid ""
 "It... it's gone... I'm human again. Ohhhh, now I know what you went through,"
 " <CHARNAME>! I don't know if I ever want to go through that again!"
@@ -3527,16 +3381,12 @@ msgstr ""
 "прошел, <CHARNAME>! Но я не знаю, захочу ли я когда-либо пережить это опять!"
 
 #: imoen25p.tra:478
-#, fuzzy
-#| msgid ""
-#| "And I can't believe what you said, either!  'Go ahead and kill her'?  After "
-#| "all we've been through, that's what you say in my defense?!"
 msgid ""
 "And I can't believe what you said, either! 'Go ahead and kill her'? After "
 "all we've been through, that's what you say in my defense?!"
 msgstr ""
 "И я не могу поверить в то, что услышала! 'Давай, убей ее'? И это после "
-"всего, что мы прошли вместе, ты говоришь это в мою защиту?!"
+"всего, что мы прошли вместе, ты говоришь такое?!"
 
 #: imoen25p.tra:479
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
@@ -3545,61 +3395,38 @@ msgstr ""
 "покое, Имоен!"
 
 #: imoen25p.tra:480
-#, fuzzy
-#| msgid ""
-#| "Get over yourself, little girl.  I never asked you to come, did I?"
 msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr ""
 "Возьми себя в руки, маленькая девочка. Разве тебя просили, чтобы ты "
 "возвращалась?"
 
 #: imoen25p.tra:481
-#, fuzzy
-#| msgid ""
-#| "We don't have time for this chat, Imoen!  This is the middle of a fight!"
 msgid ""
 "We don't have time for this chat, Imoen! This is the middle of a fight!"
-msgstr ""
-"У нас нет времени для этих разговоров, Имоен! Ведь сейчас только середина "
-"битвы!"
+msgstr "У нас нет времени для этих разговоров, Имоен! Мы посреди битвы!"
 
 #: imoen25p.tra:482
-#, fuzzy
-#| msgid ""
-#| "Well... I suppose.  You convinced me more than her, obviously.  I... I'm "
-#| "just glad I didn't do more damage as the slayer.  I don't know how you "
-#| "handled it.  Thank you for... for not killing me."
 msgid ""
 "Well... I suppose. You convinced me more than her, obviously. I... I'm just "
 "glad I didn't do more damage as the slayer. I don't know how you handled it."
 " Thank you for... for not killing me."
 msgstr ""
-"Хорошо... наверное. Ты убеждаешь меня больше, чем она, это очевидно. Я... я "
-"только надеюсь, что я не сделала большого вреда, когда была в состоянии "
-"убийцы. Я не знаю, как тебе удалось справиться с этим. Спасибо за... за то, "
-"что я все еще жива."
+"Хорошо... наверное. Очевидно, ты больше убедил меня, чем ее. Я... я только "
+"надеюсь, что я не наделала большого вреда, когда была в состоянии убийцы. Я "
+"не знаю, как тебе удалось справиться с этим. Спасибо за... за то, что не "
+"убил меня."
 
 #: imoen25p.tra:483
-#, fuzzy
-#| msgid ""
-#| "I... I can't stay here, though.  This is way out of my league.  I wish you "
-#| "well, <CHARNAME>, and I hope I'll see you again.  Maybe back at Candlekeep, "
-#| "huh?  Anyway... good luck..."
 msgid ""
 "I... I can't stay here, though. This is way out of my league. I wish you "
 "well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, "
 "huh? Anyway... good luck..."
 msgstr ""
-"Я... я не могу остаться здесь, к сожалению. Этот не для меня. Я желаю тебе "
+"Я... я не могу остаться здесь, к сожалению. Это не для меня. Я желаю тебе "
 "всего хорошего, <CHARNAME>, и я надеюсь, что увижу тебя снова. Может быть "
 "снова в Кэндлкипе, хмм? Все может быть... удачи..."
 
 #: imoen25p.tra:484
-#, fuzzy
-#| msgid ""
-#| "Do you need me to join back up with you?  I could... leave the Throne, I "
-#| "think... I think I have that power, now, same as you.  But I'll fight by "
-#| "your side again, if you want me to."
 msgid ""
 "Do you need me to join back up with you? I could... leave the Throne, I "
 "think... I think I have that power, now, same as you. But I'll fight by your"
@@ -3607,7 +3434,7 @@ msgid ""
 msgstr ""
 "Ты хочешь, чтобы я вернулась назад, и была рядом с тобой? Я могла бы... "
 "покинуть Трон, я думаю... я думаю, что у меня теперь есть та сила, та же "
-"самая, что и у тебя. Но я буду биться на твоей стороне опять, если ты этого "
+"самая, что и у тебя. Но я буду биться на твоей стороне опять, если ты "
 "захочешь."
 
 #: imoen25p.tra:485
@@ -3645,20 +3472,14 @@ msgstr ""
 "всех трех раундов, она способна видеть любые невидимые цели."
 
 #: imoen25p.tra:486
-#, fuzzy
-#| msgid "Sure.  Let's join up again."
 msgid "Sure. Let's join up again."
-msgstr "Конечно. Давай объединимся заново."
+msgstr "Конечно. Давай объединимся снова."
 
 #: imoen25p.tra:487
 msgid "No... get out of here while you can, Imoen."
 msgstr "Нет.. убирайся отсюда, пока можешь, Имоен."
 
 #: imoen25p.tra:488
-#, fuzzy
-#| msgid ""
-#| "I wish you well, <CHARNAME>, and I hope I'll see you again.  Maybe back at "
-#| "Candlekeep, huh?  Anyway... good luck..."
 msgid ""
 "I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at "
 "Candlekeep, huh? Anyway... good luck..."
@@ -3667,37 +3488,23 @@ msgstr ""
 "Может быть снова в Кэндлкипе, хмм? Все может быть... удачи..."
 
 #: imoen25p.tra:489
-#, fuzzy
-#| msgid ""
-#| "Yeah, right.  You do whatever you have to, <CHARNAME>.  Me... I'm getting as"
-#| " far away from here as possible.  Good-bye!"
 msgid ""
 "Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as "
 "far away from here as possible. Good-bye!"
 msgstr ""
-"Да, действительно. У тебя была попытка сделать все, что можно, <CHARNAME>. "
-"Я... я ухожу отсюда и как можно дальше. Прощай!"
+"Ага, конечно. Ну, ты делай что должен, <CHARNAME>. А я... я ухожу отсюда и "
+"как можно дальше. Прощай!"
 
 #: imoen25p.tra:490
-#, fuzzy
-#| msgid ""
-#| "Nope, you sure didn't.  Thanks for nothing, I guess.  You do whatever you "
-#| "have to, <CHARNAME>.  Me... I'm getting as far away from here as possible.  "
-#| "Good-bye!"
 msgid ""
 "Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have"
 " to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-"
 "bye!"
 msgstr ""
-"Нет, конечно нет. Не оправдывайся. У тебя была попытка сделать все, что "
-"можно, <CHARNAME>. Я... я ухожу отсюда и как можно дальше. Прощай!"
+"Нет, конечно нет. Не оправдывайся. Ну, ты делай что должен, <CHARNAME>. А "
+"я... я ухожу отсюда и как можно дальше. Прощай!"
 
 #: imoen25p.tra:491
-#, fuzzy
-#| msgid ""
-#| "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
-#| "just don't know how you handled it back in Spellhold.  Thank you for... not "
-#| "killing me, okay?"
 msgid ""
 "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
 "just don't know how you handled it back in Spellhold. Thank you for... not "
@@ -3705,15 +3512,9 @@ msgid ""
 msgstr ""
 "Я... только надеюсь, что не сделала что-то очень плохое, в то время как я "
 "была... когда я... оо, я не знаю, как тебе удалось вернуться назад в "
-"нормальное состояние в Спеллхолде. Спасибо за то... что я все еще жива, "
-"хорошо?"
+"нормальное состояние в Спеллхолде. Спасибо за то, что... не убил меня, ага?"
 
 #: imoen25p.tra:492
-#, fuzzy
-#| msgid ""
-#| "Oh, so it is!  Do you need me back in the party?  I could... leave the "
-#| "Throne, I think... I think I have that power, now, same as you.  But I'll "
-#| "fight by your side again, if you want me to."
 msgid ""
 "Oh, so it is! Do you need me back in the party? I could... leave the Throne,"
 " I think... I think I have that power, now, same as you. But I'll fight by "
@@ -3725,34 +3526,22 @@ msgstr ""
 "если ты этого захочешь."
 
 #: imoen25p.tra:493
-#, fuzzy
-#| msgid ""
-#| "I see the fight's still going on.  Do you need me back in the party?  I "
-#| "could... leave the Throne, I think... I think I have that power, now, same "
-#| "as you.  But I'd like to see this through, same as you."
 msgid ""
 "I see the fight's still going on. Do you need me back in the party? I "
 "could... leave the Throne, I think... I think I have that power, now, same "
 "as you. But I'd like to see this through, same as you."
 msgstr ""
 "Я вижу, что битва все продолжается. Ты нуждаешься во мне, хочешь вернуть "
-"меня обратно в команду? Я могла бы... покинуть Трон, я думаю... я думаю, что"
-" у меня теперь есть та сила, та же самая, что и у тебя. Но я бы хотела "
+"меня обратно в команду? Я могла бы... покинуть Трон, я думаю... я думаю, что "
+"у меня теперь есть та сила, та же самая, что и у тебя. Но я бы хотела "
 "просмотреть, чем это закончится, так же, как и ты."
 
 #: imoen25p.tra:494
-#, fuzzy
-#| msgid ""
-#| "Stop distracting me in the middle of combat, already!  Get back in the "
-#| "party!"
 msgid ""
 "Stop distracting me in the middle of combat, already! Get back in the party!"
 msgstr "Прекрати наконец отвлекать меня посреди битвы! Возвращайся в команду!"
 
 #: imoen25p.tra:495
-#, fuzzy
-#| msgid ""
-#| "Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
 msgid ""
 "Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?"
 msgstr ""
@@ -3760,28 +3549,18 @@ msgstr ""
 "заднице, верно?"
 
 #: irenic2.tra:435
-#, fuzzy
-#| msgid "Indeed.  We meet once again."
 msgid "Indeed. We meet once again."
 msgstr "Действительно. Мы опять встретились."
 
 #: irenic2.tra:436
-#, fuzzy
-#| msgid ""
-#| "That's okay.  If Sarevok can turn up like a bad penny, then you're allowed "
-#| "to, as well."
 msgid ""
 "That's okay. If Sarevok can turn up like a bad penny, then you're allowed "
 "to, as well."
 msgstr ""
-"Неплохо. Если Саревок может появляться, подобно фениксу, то почему бы и тебе"
-" этим также не воспользоваться?"
+"Ничего. Если Саревок может появляться, подобно фениксу, то почему бы и тебе "
+"этим также не воспользоваться?"
 
 #: irenic2.tra:437
-#, fuzzy
-#| msgid ""
-#| "You told her how to influence me, didn't you?  And you told her I was in "
-#| "Suldanessalar."
 msgid ""
 "You told her how to influence me, didn't you? And you told her I was in "
 "Suldanessalar."
@@ -3790,10 +3569,6 @@ msgstr ""
 "произошло в Салданессаларе."
 
 #: irenic2.tra:438
-#, fuzzy
-#| msgid ""
-#| "You're a pathetic excuse for an elf, Irenicus.  If you wish to die again, "
-#| "I'll happily oblige."
 msgid ""
 "You're a pathetic excuse for an elf, Irenicus. If you wish to die again, "
 "I'll happily oblige."
@@ -3802,31 +3577,20 @@ msgstr ""
 "удовольствием это сделаю."
 
 #: irenic2.tra:439
-#, fuzzy
-#| msgid ""
-#| "You're collecting my leavings, Melissan?  How very sad for you."
 msgid "You're collecting my leavings, Melissan? How very sad for you."
 msgstr ""
-"Ты собираешь поверженных мной противников, Мелисса? Как это печально для "
+"Ты собираешь поверженных мной противников, Мелисса? Как это печально... для "
 "тебя."
 
 #: irenic2.tra:440
-#, fuzzy
-#| msgid ""
-#| "So, <CHARNAME>...it is now just you and I, once again.  At odds in the "
-#| "bowels of Hell and preparing to do combat.  How very fitting."
 msgid ""
 "So, <CHARNAME>...it is now just you and I, once again. At odds in the bowels"
 " of Hell and preparing to do combat. How very fitting."
 msgstr ""
-"Итак, <CHARNAME>... опять мы встретились - ты и я. Как в разногласиях в "
-"недрах Ада и готовясь устроить бой. Очень подходяще!"
+"Итак, <CHARNAME>... опять мы встретились - ты и я. Друг против друга, в "
+"недрах Ада, готовимся к бою. Весьма подходяще."
 
 #: irenic2.tra:441
-#, fuzzy
-#| msgid ""
-#| "This fight is mine, Irenicus.  While you stewed in Hell, my power has "
-#| "multiplied."
 msgid ""
 "This fight is mine, Irenicus. While you stewed in Hell, my power has "
 "multiplied."
@@ -3835,10 +3599,6 @@ msgstr ""
 "приумножилась."
 
 #: irenic2.tra:442
-#, fuzzy
-#| msgid ""
-#| "You actually think you'll stop me?  It appears your delusions have survived "
-#| "the many beatings at my hand."
 msgid ""
 "You actually think you'll stop me? It appears your delusions have survived "
 "the many beatings at my hand."
@@ -3847,11 +3607,6 @@ msgstr ""
 "сохранились, несмотря многочисленные поражения от моей руки."
 
 #: irenic2.tra:443
-#, fuzzy
-#| msgid ""
-#| "So you're actually willing to serve as Melissan's little lackey?  I would "
-#| "expect more from the great elven magician.  Ellesime would be sad to see you"
-#| " reduced to this."
 msgid ""
 "So you're actually willing to serve as Melissan's little lackey? I would "
 "expect more from the great elven magician. Ellesime would be sad to see you "
@@ -3862,32 +3617,19 @@ msgstr ""
 "опечалена, если бы увидела, как низко ты опустился."
 
 #: irenic2.tra:444
-#, fuzzy
-#| msgid ""
-#| "Don't you ever tire of that bravado?  Haven't you received enough spankings "
-#| "upon my knee?"
 msgid ""
 "Don't you ever tire of that bravado? Haven't you received enough spankings "
 "upon my knee?"
 msgstr ""
-"Разве тебя не утомляют эти пустые хвастливые слова? Неужели ты не достаточно"
-" получил пинков от меня?"
+"Разве тебя не утомляют эти пустые хвастливые слова? Неужели ты не достаточно "
+"получил пинков от меня?"
 
 #: irenic2.tra:445
-#, fuzzy
-#| msgid ""
-#| "You won't stop me, Irenicus.  Nobody can.  My destiny is at hand."
 msgid "You won't stop me, Irenicus. Nobody can. My destiny is at hand."
 msgstr ""
 "Ты не остановишь меня, Иреникус. Никто не сможет. Моя судьба в моих руках."
 
 #: irenic2.tra:446
-#, fuzzy
-#| msgid ""
-#| "It appears you have been the beneficiary of low expectations, but even I "
-#| "have learned from my mistakes.  Here, I have nothing to lose, not even my "
-#| "life.  Thanks to Melissan, I still have time to snuff out your divine "
-#| "ascencion personally. We will be even!"
 msgid ""
 "It appears you have been the beneficiary of low expectations, but even I "
 "have learned from my mistakes. Here, I have nothing to lose, not even my "
@@ -3900,30 +3642,18 @@ msgstr ""
 "восхождение лично. Поживем, увидим!"
 
 #: irenic2.tra:447
-#, fuzzy
-#| msgid ""
-#| "You may have gained some crude and rudimentary control over your abilities "
-#| "in the interim, but even I have learned a thing or two... delusions or no.  "
-#| "And Melissan has given me the opportunity to personally see an end to your "
-#| "ascension... consider it a favor returned."
 msgid ""
 "You may have gained some crude and rudimentary control over your abilities "
 "in the interim, but even I have learned a thing or two... delusions or no. "
 "And Melissan has given me the opportunity to personally see an end to your "
 "ascension... consider it a favor returned."
 msgstr ""
-"Вы, похоже, тем временем получили небольшой начальный и примитивный контроль"
-" над своими способностями, но и у меня есть кое-какие новшества... веришь ты"
-" или нет. И Мелисса дала мне возможность лично увидеть конец твоего "
-"вознесения... считай это проявлением любезности."
+"Можеть, ты и получил какой-то грубый, примитивный контроль над своими "
+"способностями за это время, но и у меня появились кое-какие новшества... "
+"веришь ты или нет. И Мелисса дала мне возможность лично проследить за концом "
+"твоего вознесения... считай это проявлением любезности."
 
 #: irenic2.tra:448
-#, fuzzy
-#| msgid ""
-#| "Do not speak her name, dog.  Ellesime will understand the fullness of her "
-#| "regret soon enough.  As for you... Melissan has given me the opportunity to "
-#| "return an old favor.  One ascension for another... it rings with universal "
-#| "justice."
 msgid ""
 "Do not speak her name, dog. Ellesime will understand the fullness of her "
 "regret soon enough. As for you... Melissan has given me the opportunity to "
@@ -3932,16 +3662,9 @@ msgid ""
 msgstr ""
 "Не произноси ее имя, собака. Эллисайм поймет величину своего сожаления "
 "достаточно скоро. Что касается тебя... Мелисса дала мне возможность вернуть "
-"старое покровительство. Вознесение одного для другого... какое изменчивое "
-"универсальное правосудие."
+"старый должок. Одно вознесение за другое...  это вселенское правосудие."
 
 #: irenic2.tra:449
-#, fuzzy
-#| msgid ""
-#| "How very glib and typical.  How far the expectations of the universe must "
-#| "have lowered to allow a gnat like you to even come this far.  It is "
-#| "fortunate that I have an opportunity, then, to repay your termination of my "
-#| "own ascension in kind."
 msgid ""
 "How very glib and typical. How far the expectations of the universe must "
 "have lowered to allow a gnat like you to even come this far. It is fortunate"
@@ -3949,63 +3672,42 @@ msgid ""
 "ascension in kind."
 msgstr ""
 "Очень беззаботно и типично. Должно быть, надежды вселенной сильно "
-"понизились, что она позволила такому комару, как ты, зайти так далеко. "
-"Великолепно, что у меня появилась такая возможность, значит мое собственное "
-"восхождение будет оплачено твоим концом."
+"понизились, что она позволила такому комару, как ты, зайти так далеко. Как "
+"хорошо, что у меня появилась возможность отплатить тебе за прерывание моего "
+"вознесения тем же."
 
 #: irenic2.tra:450
-#, fuzzy
-#| msgid ""
-#| "Ah, yes.  Familiar words.  Similar to the ones I spoke at the cusp of my own"
-#| " ascension.  How I would enjoy to repay that favor in kind and show the "
-#| "universe what an unworthy gnat you truly are."
 msgid ""
 "Ah, yes. Familiar words. Similar to the ones I spoke at the cusp of my own "
 "ascension. How I would enjoy to repay that favor in kind and show the "
 "universe what an unworthy gnat you truly are."
 msgstr ""
 "Ах, да. Знакомые слова. Они подобны тем, что я говорил на пике своего "
-"собственного вознесения. Как я хотел бы наслаждаться оплатой той "
-"благосклонности и показывать вселенной недостойность такого комара как ты."
+"собственного вознесения. Как бы я насладился возможностью отплатить тем же и "
+"показать вселенной, что ты за недостойный комар на самом деле."
 
 #: irenic2.tra:451
-#, fuzzy
-#| msgid ""
-#| "But enough of this.  Though I would dearly love to let my sister rot in her "
-#| "own Hell for eternity, it would not be a true and fitting re-union if I did "
-#| "not use my new power to send her an invitation."
 msgid ""
 "But enough of this. Though I would dearly love to let my sister rot in her "
 "own Hell for eternity, it would not be a true and fitting re-union if I did "
 "not use my new power to send her an invitation."
 msgstr ""
-"Но хватит об этом. Хотя я желал бы оставить свою милую сестру гнить вечность"
-" в ее собственном Аду, было бы не правильным и не подобающим встрече, если "
-"бы я не применил свою новую силу и не послал бы ей приглашение."
+"Но хватит об этом. Хотя я желал бы оставить свою милую сестру гнить вечность "
+"в ее собственном Аду, было бы не правильным и не подобающим встрече, если бы "
+"я не применил свою новую силу и не послал бы ей приглашение."
 
 #: irenic2.tra:452
-#, fuzzy
-#| msgid ""
-#| "Do not overestimate your usefulness to me, 'dear' sister... nor the extent "
-#| "of my non-existent affection.  Or do you truly think I had forgotten your "
-#| "whispered urgings which had led me down the path of my exile?"
 msgid ""
 "Do not overestimate your usefulness to me, 'dear' sister... nor the extent "
 "of my non-existent affection. Or do you truly think I had forgotten your "
 "whispered urgings which had led me down the path of my exile?"
 msgstr ""
 "Не преувеличивай слишком сильно свою полезность для меня, 'дорогая' "
-"сестра... и степень моей несуществующей привязанности. Или ты наверно "
+"сестра... и степень моей несуществующей привязанности. Или ты действительно "
 "полагаешь, что я мог забыть твои нашептывания, которые повели меня по пути "
 "моего изгнания?"
 
 #: irenic2.tra:453
-#, fuzzy
-#| msgid ""
-#| "Enough, sister.  We do as Melissan bids, with her servants at our side.  "
-#| "Take delight, if you will, at the revenge we shall now taste.  Let us see, "
-#| "<CHARNAME>, if I can rip that soul out of you once more.  I would so delight"
-#| " in stealing your proud destiny a second time."
 msgid ""
 "Enough, sister. We do as Melissan bids, with her servants at our side. Take "
 "delight, if you will, at the revenge we shall now taste. Let us see, "
@@ -4018,24 +3720,15 @@ msgstr ""
 "удовольствие от кражи твоей гордой судьбы во второй раз."
 
 #: irenic2.tra:454
-#, fuzzy
-#| msgid ""
-#| "You over-step your bounds, as always.  I did not call you here to rejoice in"
-#| " your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
 msgid ""
 "You over-step your bounds, as always. I did not call you here to rejoice in "
 "your venom, Bodhi. Do you not notice where we are? Whom we face?"
 msgstr ""
-"Ты как всегда преступаешь все границы. Я призвал тебя сюда не для того, "
+"Ты, как всегда, преступаешь все границы. Я призвал тебя сюда не для того, "
 "чтобы выслушивать твою злобу, Бодхи. Ты не замечаешь, где мы находимся? С "
 "кем встретились?"
 
 #: irenic2.tra:455
-#, fuzzy
-#| msgid ""
-#| "You think to betray me, Bodhi?  Foolish girl.  Melissan is the one who holds"
-#| " power here, and you hope to find succor at the feet of this fool "
-#| "<PRO_GIRLBOY>?  Stand by me or die with <PRO_HIMHER>!"
 msgid ""
 "You think to betray me, Bodhi? Foolish girl. Melissan is the one who holds "
 "power here, and you hope to find succor at the feet of this fool "
@@ -4046,38 +3739,24 @@ msgstr ""
 "или умри, как и <PRO_HIMHER>!"
 
 #: irenic2.tra:456
-#, fuzzy
-#| msgid ""
-#| "So my ungrateful sister, you finally stand by my side.  I shall deal with "
-#| "your treachery afterwards.  As for you,  <CHARNAME>, Mellisan has granted me"
-#| " the power to rip the divinity from your body.  The first thing I shall feel"
-#| " in an eon shall be pleasure as I watch your corpse turn to dust."
 msgid ""
 "So my ungrateful sister, you finally stand by my side. I shall deal with "
 "your treachery afterwards. As for you, <CHARNAME>, Mellisan has granted me "
 "the power to rip the divinity from your body. The first thing I shall feel "
 "in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
-"Итак, моя неблагодарная сестра, ты наконец-то встала на мою сторону. Я позже"
-" разберусь с твоим вероломством. Что касается тебя, <CHARNAME>, Мелисса "
+"Итак, моя неблагодарная сестра, ты наконец-то встала на мою сторону. Я позже "
+"разберусь с твоим вероломством. Что касается тебя, <CHARNAME>, Мелисса "
 "даровала мне силы вырвать божественность из твоего тела. Первая вещь, "
 "которую я почувствую в вечности, будет удовольствие наблюдать превращение "
 "твоего трупа в прах."
 
 #: irenic2.tra:457
-#, fuzzy
-#| msgid "I see.  So you leave me, sister, just as *she* left me."
 msgid "I see. So you leave me, sister, just as *she* left me."
 msgstr ""
-"Понимаю. Значит, ты оставляешь меня, сестра, так же, как *ОНА* бросила меня."
+"Понимаю. Значит, ты оставляешь меня, сестра, так же, как *она* бросила меня."
 
 #: irenic2.tra:458
-#, fuzzy
-#| msgid ""
-#| "It is no matter.  Melissan has given me power enough, and her own servants "
-#| "shall teach you the error of your ways.  I shall strip the divinity from "
-#| "<CHARNAME>'s soul and you, *dear* sister, shall be nothing but dust beside "
-#| "<PRO_HIMHER>."
 msgid ""
 "It is no matter. Melissan has given me power enough, and her own servants "
 "shall teach you the error of your ways. I shall strip the divinity from "
@@ -4090,12 +3769,6 @@ msgstr ""
 "только пылью рядом <PRO_HIMHER>."
 
 #: irenic2.tra:459
-#, fuzzy
-#| msgid ""
-#| "Better that than a laughable fool whose most promising idea to dominate the "
-#| "Sword Coast was to 'poison' its supply of iron.  I discarded you as a "
-#| "candidate long before <CHARNAME> soundly defeated you merely for fear of "
-#| "losing all common sense merely by association with your pathetic soul."
 msgid ""
 "Better that than a laughable fool whose most promising idea to dominate the "
 "Sword Coast was to 'poison' its supply of iron. I discarded you as a "
