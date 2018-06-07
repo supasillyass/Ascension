@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-06 10:22+0000\n"
+"PO-Revision-Date: 2018-06-07 08:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -2940,22 +2940,14 @@ msgid ""
 msgstr ""
 
 #: finmel01.tra:591
-#, fuzzy
-#| msgid ""
-#| "You don't have all the essence of Bhaal... not by far.  And I rule here, as "
-#| "well... you know that."
 msgid ""
 "You don't have all the essence of Bhaal... not by far. And I rule here, as "
 "well... you know that."
 msgstr ""
-"Ты владеешь не всеми сущностями Баала... не всеми. И я правлю здесь... ты "
+"Ты владеешь не всей сущностью Баала... не всей. И я правлю здесь... ты "
 "знаешь это."
 
 #: finmel01.tra:592
-#, fuzzy
-#| msgid ""
-#| "You should have remained true to Bhaal, Melissan.  Only he could have saved "
-#| "you now."
 msgid ""
 "You should have remained true to Bhaal, Melissan. Only he could have saved "
 "you now."
@@ -2964,19 +2956,10 @@ msgstr ""
 "спасти!"
 
 #: finmel01.tra:594
-#, fuzzy
-#| msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
 msgid "Yeah, well, I suppose everyone has a dream. Psycho."
-msgstr "Да, понимаю, у каждого есть мечта. Сумащедшая."
+msgstr "Да, понимаю, у каждого есть мечта. Сумасшедшая."
 
 #: finmel01.tra:597
-#, fuzzy
-#| msgctxt "FINMEL25"
-#| msgid ""
-#| "Bah!  I should not be wasting time on you.  I still have to absorb the "
-#| "Bhaalspawn essences... and there is more than enough power in this plane to "
-#| "keep you busy.  Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
-#| "dares to oppose while I take what is mine!"
 msgctxt "FINMEL25"
 msgid ""
 "Bah! I should not be wasting time on you. I still have to absorb the "
@@ -2984,38 +2967,25 @@ msgid ""
 "keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
 "dares to oppose while I take what is mine!"
 msgstr ""
-"Баа! Я не стану тратить время попусту на тебя. Мне еще нужно поглотить "
+"Ба! Я не стану тратить время попусту на тебя. Мне еще нужно поглотить "
 "сущности порождений Баала...и на этом плане больше чем достаточно энергии, "
 "чтобы занять тебя. Иреникус... Имоен... покажите <CHARNAME> <PRO_HESHE> "
 "силу, которой он осмелился противостоять, пока я возьму то, что принадлежит "
 "мне!"
 
 #: finmel01.tra:604
-#, fuzzy
-#| msgid ""
-#| "You do not believe in my power, I can see that much.  You have fought "
-#| "terrible foes in your past and have always managed to succeed.  Why... you "
-#| "leave a trail of felled opponents littered about even here in the Abyss.  "
-#| "Such as this one I found, discarded..."
 msgid ""
 "You do not believe in my power, I can see that much. You have fought "
 "terrible foes in your past and have always managed to succeed. Why... you "
 "leave a trail of felled opponents littered about even here in the Abyss. "
 "Such as this one I found, discarded..."
 msgstr ""
-"Ты не верить в мою силу, но я могу многое. В прошлом тебе приходилось "
+"Ты не веришь в мою силу, но я могу многое. В прошлом тебе приходилось "
 "сражаться и побеждать ужасных противников. Почему... ты оставляешь след "
-"побежденных противников, даже здесь в Аду. Как например, этот, найденный, "
+"побежденных противников, даже здесь в Бездне. Как например, этот, найденный, "
 "отверженный..."
 
 #: finmel01.tra:605
-#, fuzzy
-#| msgid ""
-#| "True.  More insightful than I would have expected from you, <CHARNAME>.  And"
-#| " far more clever for you to have denied me Balthazar's essence... although, "
-#| "to tell the truth, I was secretly hoping for him to have defeated you.  "
-#| "Unlikely as that was, considering the pathetic monk could barely see the "
-#| "forest for the trees."
 msgid ""
 "True. More insightful than I would have expected from you, <CHARNAME>. And "
 "far more clever for you to have denied me Balthazar's essence... although, "
@@ -3030,12 +3000,6 @@ msgstr ""
 "лесу."
 
 #: finmel01.tra:606
-#, fuzzy
-#| msgid ""
-#| "I am disappointed in you, <CHARNAME>.  So much bluster, so much force.  So "
-#| "much power and wisdom locked into such a fragile form.  I suppose you "
-#| "actually believe you have a hope in opposing me, in seizing the Throne for "
-#| "yourself.  Such delusions."
 msgid ""
 "I am disappointed in you, <CHARNAME>. So much bluster, so much force. So "
 "much power and wisdom locked into such a fragile form. I suppose you "
@@ -3043,28 +3007,21 @@ msgid ""
 "yourself. Such delusions."
 msgstr ""
 "Я разочаровалась в тебе, <CHARNAME>. Столько пустых угроз, столько силы. "
-"Столько мощи и мудрости, запертой в такую хрупкую форму. Полагаю, что ты все"
-" еще веришь, что можешь противостоять мне, и захватить Трон для себя? Какое "
+"Столько мощи и мудрости, запертой в такую хрупкую форму. Полагаю, что ты все "
+"еще веришь, что можешь противостоять мне, и захватить Трон для себя? Какое "
 "заблуждение."
 
 #: finmel01.tra:607
-#, fuzzy
-#| msgid ""
-#| "Irenicus, I believe you called him.  So easily culled as my own, since you "
-#| "abandoned him here recently... and such a valuable source of information on "
-#| "you, <CHARNAME>.  After all... I believe you did share a soul, once, no?  "
-#| "Say hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgid ""
 "Irenicus, I believe you called him. So easily culled as my own, since you "
 "abandoned him here recently... and such a valuable source of information on "
 "you, <CHARNAME>. After all... I believe you did share a soul, once, no? Say "
 "hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
-"Иреникус, я полагаю, тебя призвали не случайно. Так легко было вызвать тебя "
-"из Ада, оставленного там совсем недавно не без <PRO_HISHER> помощи: и такого"
-" ценного источника информации для тебя, <CHARNAME>. После всего ... я "
-"полагаю, что ты когда-то объединял ваши души, нет? Поздоровайся с "
-"<CHARNAME>, Иреникус."
+"Я полагаю, ты звал его Иреникус. Так легко было завербовать его, недавно "
+"брошенного тобой... и он был весьма ценным источником информации о тебе, "
+"<CHARNAME>. В конце концов, однажды у вас была одна душа на двоих, разве "
+"нет? Поздоровайся с дорогим <CHARNAME>, Иреникус."
 
 #: finmel01.tra:608
 msgid ""
@@ -3075,25 +3032,16 @@ msgstr ""
 " сущность, я могу это продемонстрировать сейчас."
 
 #: finmel01.tra:609
-#, fuzzy
-#| msgid ""
-#| "Come, Imoen.  I command the essence within you.  You are not ready to be "
-#| "here... and yet here you are.  Let's see just how much of my power is "
-#| "contained in your young little soul, hmm?"
 msgid ""
 "Come, Imoen. I command the essence within you. You are not ready to be "
 "here... and yet here you are. Let's see just how much of my power is "
 "contained in your young little soul, hmm?"
 msgstr ""
-"Давай, Имоен. Я управляю сущностью внутри тебя. Ты не должна быть здесь..., "
+"Давай, Имоен. Я управляю сущностью внутри тебя. Ты не готова быть здесь..., "
 "и все же ты здесь. Давай посмотрим, как сильна моя власть над твоей юной "
-"маленькой душой, хмммм?"
+"маленькой душой, хмм?"
 
 #: finmel01.tra:610
-#, fuzzy
-#| msgid ""
-#| "It seems you've misplaced your darling little Imoen, haven't you?  But her "
-#| "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you? But her "
 "essence is easy enough to command. Let's see what she has to say, shall we?"
@@ -3103,10 +3051,6 @@ msgstr ""
 "так ли?"
 
 #: finmel01.tra:611
-#, fuzzy
-#| msgid ""
-#| "You don't have to go anywhere, little one.  I'm not calling you, after "
-#| "all... I'm merely coaxing forth your essence."
 msgid ""
 "You don't have to go anywhere, little one. I'm not calling you, after all..."
 " I'm merely coaxing forth your essence."
@@ -3115,10 +3059,6 @@ msgstr ""
 "всего... я просто продолжаю задабривать твою сущность."
 
 #: finmel01.tra:612
-#, fuzzy
-#| msgid ""
-#| "There, there, Imoen.  I command the essence within you.  Let's see just how "
-#| "much of my power you have within you, yes?"
 msgid ""
 "There, there, Imoen. I command the essence within you. Let's see just how "
 "much of my power you have within you, yes?"
@@ -3127,27 +3067,16 @@ msgstr ""
 "сильна моя власть над тобой, да?"
 
 #: finmel01.tra:613
-#, fuzzy
-#| msgid ""
-#| "Ahhhh, Balthazar is here as well.  How clever to deny me his essence, "
-#| "<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
-#| "you abandoned your faith so quickly?"
 msgid ""
 "Ahhhh, Balthazar is here as well. How clever to deny me his essence, "
 "<CHARNAME>. Still blinded by your devotion to destiny, Balthazar? Or have "
 "you abandoned your faith so quickly?"
 msgstr ""
 "Аххх, Балтазар тоже здесь. Это было ловко лишить меня его сущности, "
-"<CHARNAME>. Балтазар, ты все еще ослеплен своей преданностью судьбе? Или уже"
-" отказался от своей веры в нее?"
+"<CHARNAME>. Балтазар, ты все еще ослеплен своей преданностью судьбе? Или уже "
+"отказался от своей веры в нее?"
 
 #: finmel01.tra:614
-#, fuzzy
-#| msgid ""
-#| "Oh no?  Perhaps you do not understand.  This... this place, here, is the "
-#| "Source.  This is where the essence of all of Bhaal's children returns when "
-#| "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
-#| "all the other spawn of Bhaal was *for*?"
 msgid ""
 "Oh no? Perhaps you do not understand. This... this place, here, is the "
 "Source. This is where the essence of all of Bhaal's children returns when "
@@ -3157,7 +3086,7 @@ msgstr ""
 "О, нет? Возможно ты не понимаешь. Это... это место, здесь, и есть Источник. "
 "Это - то, куда сущности всех детей Баала возвращаются, когда они умирают, "
 "как бы далеко это не было. Ты никогда не задавался вопросом, дорогой "
-"Балтазар, ДЛЯ чего все эти убийства отпрысков Баала?"
+"Балтазар, *для чего* все эти убийства отпрысков Баала?"
 
 #: finmel01.tra:615
 #, fuzzy
