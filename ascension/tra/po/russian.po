@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-07 10:22+0000\n"
+"PO-Revision-Date: 2018-06-08 10:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -3979,15 +3979,6 @@ msgstr ""
 "Заключение. Энергия также восстанавливает способности всех присутствующих."
 
 #: ppguy02.tra:6
-#, fuzzy
-#| msgid ""
-#| "New power gained: \"Control Demon\"\n"
-#| "\n"
-#| "This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally.  The Bhaalspawn engages the demon in mental combat for 1 round, at the end of which the demon has a chance of becoming an ally.  The demon is not under the Bhaalspawn's direct control, however.  This ability may be used once every 3 rounds.\n"
-#| "\n"
-#| "New power gained: \"Dimension Door\"\n"
-#| "\n"
-#| "The Bhaalspawn may now move freely through space and the planes.  This teleportation power is useable once per round."
 msgid ""
 "New power gained: \"Control Demon\"\n"
 "\n"
@@ -3999,22 +3990,18 @@ msgid ""
 msgstr ""
 "Получена новая сила: \"Контроль Демона\"\n"
 "\n"
-"Эта способность позволяет потомку Баала попытаться перехватить контроль Мелиссы над демонами и сделать их союзниками. Потомок Баала в умственном сражении в течение 1 раунда принуждает демона, в конце которого демон может стать союзником. Однако демон будет не при прямом контроле потомка Баала. Эту способность можно использовать один раз в 3 раунда.\n"
+"Эта способность позволяет потомку Баала попытаться перехватить контроль "
+"Мелиссы над демонами и сделать их союзниками. Потомок Баала в умственном "
+"сражении в течение 1 раунда принуждает демона, в конце которого демон может "
+"стать союзником. Однако демон будет не при прямом контроле потомка Баала. "
+"Эту способность можно использовать один раз в 3 раунда.\n"
 "\n"
 "Получена новая сила: \"Дверь Измерения\"\n"
 "\n"
-"Потомок Баала теперь может свободно передвигаться сквозь пространство и планы. Телепортацией можно пользоваться раз в раунд."
+"Потомок Баала теперь может свободно передвигаться сквозь пространство и "
+"планы. Телепортацией можно пользоваться раз в раунд."
 
 #: ppguy02.tra:7
-#, fuzzy
-#| msgid ""
-#| "You place your hand within the energies of the pool and draw the essence "
-#| "into yourself, diverting it away from Melissan.  You are filled with "
-#| "boundless power for a moment... and while most of it leaves you and "
-#| "dissipates into the cosmos, a part of it remains with you.  You have gained "
-#| "the ability to focus the energies within you to protect yourself from such "
-#| "magics as Time Stop, Disintegrate and Flesh to Stone for a short period.  "
-#| "The energies also restore the powers of all present."
 msgid ""
 "You place your hand within the energies of the pool and draw the essence "
 "into yourself, diverting it away from Melissan. You are filled with "
@@ -4024,9 +4011,9 @@ msgid ""
 "magics as Time Stop, Disintegrate and Flesh to Stone for a short period. The"
 " energies also restore the powers of all present."
 msgstr ""
-"Вы погружаете свою руку внутрь энергетического водоема и втягиваете сущность"
-" в себя, ослабляя тем самым Мелиссу. Вы наполняетесь неограниченной силой на"
-" мгновение... и в то время как большая часть проходит через вас и "
+"Вы погружаете свою руку внутрь энергетического водоема и втягиваете сущность "
+"в себя, ослабляя тем самым Мелиссу. Вы наполняетесь неограниченной силой на "
+"мгновение... и в то время как большая часть проходит через вас и "
 "рассеивается в космосе, часть ее остается в вас. Вы получили способность "
 "сосредотачивать энергию внутри себя, чтобы защитить себя от такого "
 "волшебства как Остановка Времени, Распыления и Плоть в Камень на короткий "
@@ -4034,11 +4021,6 @@ msgstr ""
 "возможности."
 
 #: ppguy02.tra:9
-#, fuzzy
-#| msgid ""
-#| "New power gained: \"Focus\"\n"
-#| "\n"
-#| "This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without.  For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop.  All minor spells of 1st through 3rd level will also not affect the Bhaalspawn.  This ability is useable once per minute."
 msgid ""
 "New power gained: \"Focus\"\n"
 "\n"
@@ -4046,14 +4028,13 @@ msgid ""
 msgstr ""
 "Получена новая сила: \"Сосредоточение\"\n"
 "\n"
-"Эта способность позволяет потомку Баала сосредотачивать свою энергию внутри себя и сопротивляться внешним эффектам заклинаний. В течение 30-секунд потомок Баала становится иммунным к заклинаниям Плоть в камень, Распыление и Остановка Времени. Все низкоуровневые заклинания с 1-го по 3-ий уровни также не будут приносить ему вред. Эту способность можно использовать раз в минуту."
+"Эта способность позволяет потомку Баала сосредотачивать свою энергию внутри "
+"себя и сопротивляться внешним эффектам заклинаний. В течение 30-секунд "
+"потомок Баала становится иммунным к заклинаниям Плоть в камень, Распыление и "
+"Остановка Времени. Все низкоуровневые заклинания с 1-го по 3-ий уровни также "
+"не будут приносить ему вред. Эту способность можно использовать раз в минуту."
 
 #: ppguy02.tra:10
-#, fuzzy
-#| msgid ""
-#| "The final pool has been stilled.  The light of the energy column has begun "
-#| "to ebb.  You have only moments to prepare for what is surely the final "
-#| "confrontation..."
 msgid ""
 "The final pool has been stilled. The light of the energy column has begun to"
 " ebb. You have only moments to prepare for what is surely the final "
@@ -4064,31 +4045,21 @@ msgstr ""
 "заключительному противостоянию..."
 
 #: ppguy02.tra:11
-#, fuzzy
-#| msgid ""
-#| "Already Melissan begins to stir within the stream of divine energies.  Once "
-#| "the last pool is stilled, there will be very little time before she reacts."
 msgid ""
 "Already Melissan begins to stir within the stream of divine energies. Once "
 "the last pool is stilled, there will be very little time before she reacts."
 msgstr ""
-"Уже Мелисса начинает шевелиться внутри потока божественных энергий. Как "
-"только последний водоем успокоится, представится совсем небольшой промежуток"
-" времени, прежде чем она среагирует."
+"Мелисса уже начинает шевелиться внутри потока божественных энергий. Как "
+"только последний водоем успокоится, представится совсем небольшой промежуток "
+"времени, прежде чем она среагирует."
 
 #: sarev25j.tra:262
-#, fuzzy
-#| msgid "What do you mean, wench?  We've no business, you and I."
 msgid "What do you mean, wench? We've no business, you and I."
 msgstr ""
 "Что ты имеешь в виду, распутная девка? Между тобой и мной не может быть "
 "никаких дел."
 
 #: sarev25j.tra:263
-#, fuzzy
-#| msgid ""
-#| "Even if cared to consider your offer, I cannot.  <CHARNAME> has bound me "
-#| "with a vow."
 msgid ""
 "Even if cared to consider your offer, I cannot. <CHARNAME> has bound me with"
 " a vow."
@@ -4097,10 +4068,6 @@ msgstr ""
 "клятву <CHARNAME>."
 
 #: sarev25j.tra:264
-#, fuzzy
-#| msgid ""
-#| "I see.  And you believe your offer interests me?  <CHARNAME> has done well "
-#| "enough against you so far."
 msgid ""
 "I see. And you believe your offer interests me? <CHARNAME> has done well "
 "enough against you so far."
@@ -4109,12 +4076,6 @@ msgstr ""
 "мне нравится гораздо больше, чем ты."
 
 #: sarev25j.tra:265
-#, fuzzy
-#| msgid ""
-#| "Serve you?  You made me that offer once, as I recall.  I strung up your "
-#| "messenger atop the spires of my tower and allowed the crows to feed upon his"
-#| " innards.  I desired to rule, not to serve.  And I will not serve you, "
-#| "wench.  My answer is no."
 msgid ""
 "Serve you? You made me that offer once, as I recall. I strung up your "
 "messenger atop the spires of my tower and allowed the crows to feed upon his"
@@ -4127,48 +4088,29 @@ msgstr ""
 "распутная девка. Мой ответ - нет."
 
 #: sarev25j.tra:266
-#, fuzzy
-#| msgid ""
-#| "I tire of <CHARNAME> and <PRO_HISHER> foolish morals.  I tire of tagging "
-#| "along as a servant to the one who halted my own plans long before yours came"
-#| " to fruition, priestess.  Aye... I will be your general."
 msgid ""
 "I tire of <CHARNAME> and <PRO_HISHER> foolish morals. I tire of tagging "
 "along as a servant to the one who halted my own plans long before yours came"
 " to fruition, priestess. Aye... I will be your general."
 msgstr ""
 "Я устал от <CHARNAME> и <PRO_HISHER> дурацких нравоучений. Я утомился "
-"служить тому, кто помешал моим собственным планам намного раньше, чем начали"
-" осуществляться твои, жрица. Да... я стану твоим генералом."
+"служить тому, кто помешал моим собственным планам намного раньше, чем начали "
+"осуществляться твои, жрица. Да... я стану твоим генералом."
 
 #: sarev25j.tra:267
-#, fuzzy
-#| msgid "No, Sarevok!  You traitorous bastard!"
 msgid "No, Sarevok! You traitorous bastard!"
 msgstr "Нет, Саревок! Ты ублюдочный предатель!"
 
 #: sarev25j.tra:268
-#, fuzzy
-#| msgid ""
-#| "That is a mistake, Sarevok.  You'll just die along with her this way."
 msgid "That is a mistake, Sarevok. You'll just die along with her this way."
 msgstr "Это ошибка, Саревок. Так ты только умрешь вместе с ней."
 
 #: sarev25j.tra:269
-#, fuzzy
-#| msgid ""
-#| "I expected as much.  So I get to kill you again, as well.  It's all good."
 msgid ""
 "I expected as much. So I get to kill you again, as well. It's all good."
 msgstr "Этого следовало ожидать. Так что я убью тебя снова. И это хорошо."
 
 #: sarev25j.tra:270
-#, fuzzy
-#| msgid ""
-#| "Become the demon I once was?  I am no longer that man, nor do I wish to be."
-#| "  If <CHARNAME> has shown me anything, it is that I am better off untouched "
-#| "by the madness that once swallowed me whole.  Wallow in your delusion if you"
-#| " will, woman... I remember it well.  And I will not join you in it."
 msgid ""
 "Become the demon I once was? I am no longer that man, nor do I wish to be. "
 "If <CHARNAME> has shown me anything, it is that I am better off untouched by"
@@ -4178,30 +4120,20 @@ msgstr ""
 "Стать демоном, которым я был когда-то? Я больше не такой человек и не желаю "
 "возвращаться к прошлому. Рядом с <CHARNAME> я понял, что живу лучше, "
 "нетронутый сумасшествием, которое когда-то поглотило меня целиком. "
-"Наслаждайся своим заблуждением, если хочешь, женщина... Я запомнил это "
-"хорошо. Но я не присоединюсь к тебе."
+"Наслаждайся своим заблуждением, если хочешь, женщина... Я хорошо помню это. "
+"И я не присоединюсь к тебе."
 
 #: sarev25j.tra:271
-#, fuzzy
-#| msgid ""
-#| "My nature has not changed, <CHARNAME>.  Did you truly expect otherwise?  "
-#| "Better to fight for Melissan than sit in your shadow and watch you take what"
-#| " was once mine."
 msgid ""
 "My nature has not changed, <CHARNAME>. Did you truly expect otherwise? "
 "Better to fight for Melissan than sit in your shadow and watch you take what"
 " was once mine."
 msgstr ""
 "Мой характер не изменился, <CHARNAME>. Да и можно ли было ожидать другого? "
-"Лучше биться вместе с Мелиссою, чем находиться в твоей тени и наблюдать, как"
-" ты берешь то, что было когда-то моим."
+"Лучше биться вместе с Мелиссою, чем находиться в твоей тени и наблюдать, как "
+"ты берешь то, что было когда-то моим."
 
 #: sarev25j.tra:272
-#, fuzzy
-#| msgid ""
-#| "Perhaps.  But I will not sit in your shadow and simply watch you take what "
-#| "was once mine.  You do not deserve power, <CHARNAME>.  Even if it means "
-#| "fighting for Melissan, I will do what I must."
 msgid ""
 "Perhaps. But I will not sit in your shadow and simply watch you take what "
 "was once mine. You do not deserve power, <CHARNAME>. Even if it means "
@@ -4212,11 +4144,6 @@ msgstr ""
 "Даже если это означает биться вместе с Мелиссою, я сделаю то, что должен."
 
 #: sarev25j.tra:273
-#, fuzzy
-#| msgid ""
-#| "A typical boast.  And perhaps you will even win, but I will not sit idly by "
-#| "as you take what was once mine.  You don't deserve power, <CHARNAME>, and "
-#| "even if it means fighting for Melissan I will do what I must."
 msgid ""
 "A typical boast. And perhaps you will even win, but I will not sit idly by "
 "as you take what was once mine. You don't deserve power, <CHARNAME>, and "
@@ -4228,10 +4155,6 @@ msgstr ""
 "сделаю то, что должен."
 
 #: sarev25j.tra:274
-#, fuzzy
-#| msgid ""
-#| "Blast!  The wench returns to Bhaal's essence like a coward, healing herself!"
-#| "  There must be a way to weaken her further, or we will never defeat her!"
 msgid ""
 "Blast! The wench returns to Bhaal's essence like a coward, healing herself! "
 "There must be a way to weaken her further, or we will never defeat her!"
@@ -4241,28 +4164,18 @@ msgstr ""
 "сможем ее победить!"
 
 #: sarev25j.tra:275
-#, fuzzy
-#| msgid ""
-#| "My blade, is it?  I had thought this lost forever.  It is good to have it "
-#| "back.  While I no longer have the essence to channel through it, it is still"
-#| " a Deathbringer's weapon and I can restore much of its power.  I would not "
-#| "suggest you attempt to use it yourself, now."
 msgid ""
 "My blade, is it? I had thought this lost forever. It is good to have it "
 "back. While I no longer have the essence to channel through it, it is still "
 "a Deathbringer's weapon and I can restore much of its power. I would not "
 "suggest you attempt to use it yourself, now."
 msgstr ""
-"Мой меч, неужели? Я думал, что он потерян навсегда. Было бы неплохо получить"
-" его назад. Сейчас я уже потерял связь с сущностью, но это - все еще оружие "
+"Мой меч, неужели? Я думал, что он потерян навсегда. Было бы неплохо получить "
+"его назад. Сейчас я уже потерял связь с сущностью, но это - все еще оружие "
 "Приносящее смерть, и я смог бы вернуть большую часть его прежней мощи. Я не "
-"рекомендовал бы, чтобы вы пытались его сейчас использовать собственноручно."
+"рекомендовал бы тебе пытаться его использовать сейчас."
 
 #: sarev25j.tra:276
-#, fuzzy
-#| msgid ""
-#| "You wouldn't have my armor, too, hidden about somewhere within your packs?  "
-#| "Hmph.  I suppose some things are too much to hope for."
 msgid ""
 "You wouldn't have my armor, too, hidden about somewhere within your packs? "
 "Hmph. I suppose some things are too much to hope for."
@@ -4271,27 +4184,16 @@ msgstr ""
 "карманах? Хмф. Похоже, надеяться на такое уже слишком."
 
 #: sarev25j.tra:277
-#, fuzzy
-#| msgid ""
-#| "This is the Irenicus I have been told of?  I was expecting more intensity "
-#| "and power from one who hounded <CHARNAME> so, and not "
-#| "simply...*another*...wizard."
 msgid ""
 "This is the Irenicus I have been told of? I was expecting more intensity and"
 " power from one who hounded <CHARNAME> so, and not "
 "simply...*another*...wizard."
 msgstr ""
 "Так это и есть тот Иреникус, про которого вы мне рассказывали? Я ожидал "
-"увидеть больше энергии и силы в том, кто так преследовал <CHARNAME>, а не "
+"увидеть больше энергии и силы в том, кто так загнал <CHARNAME>, а не "
 "просто... *еще одного*... волшебника."
 
 #: sarev25j.tra:278
-#, fuzzy
-#| msgid ""
-#| "Yet I certainly would not have allowed <CHARNAME> to escape from me, had "
-#| "<PRO_HESHE> been within my power not once but twice, even.  But, then, I "
-#| "imagine you were too busy taking control of insane asylums and making "
-#| "thieves out of vampires for absolutely no reason."
 msgid ""
 "Yet I certainly would not have allowed <CHARNAME> to escape from me, had "
 "<PRO_HESHE> been within my power not once but twice, even. But, then, I "
@@ -4305,31 +4207,29 @@ msgstr ""
 
 #: setup.tra:1000
 msgid "Ascension"
-msgstr ""
+msgstr "Вознесение"
 
 #: setup.tra:1001
 msgid ""
 "You must have ToB installed or use Enhanced Edition to install the Ascension"
 " mod."
-msgstr ""
+msgstr "Ascension требует BG2:ToB или BG2: Enhanced Edition."
 
 #: setup.tra:1002
 msgid "Cannot install without Ascension main component."
-msgstr ""
+msgstr "Требует основной компонент Ascension."
 
 #: setup.tra:2100
 msgid "Tougher Abazigal"
-msgstr ""
+msgstr "Усиленный Абазигал"
 
 #: setup.tra:2200
-#, fuzzy
-#| msgid "Original Tougher Demogorgon (optional, requires ToB)"
 msgid "Tougher Demogorgon ( Original Bioware Design )"
-msgstr "Первоночальный усиленный Демогоргон (необязательный, необходим ToB)"
+msgstr "Усиленный Демогоргон (оригинальный дизайн Bioware)"
 
 #: setup.tra:2300
 msgid "Tougher Gromnir"
-msgstr ""
+msgstr "Усиленный Громнир"
 
 #: setup.tra:2400
 msgid "Tougher Illasera"

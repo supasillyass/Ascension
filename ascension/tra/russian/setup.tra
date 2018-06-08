@@ -1,9 +1,9 @@
-@1000 = ~Ascension~
-@1001 = ~You must have ToB installed or use Enhanced Edition to install the Ascension mod.~
-@1002 = ~Cannot install without Ascension main component.~
-@2100 = ~Tougher Abazigal~
-@2200 = ~Первоночальный усиленный Демогоргон (необязательный, необходим ToB)~
-@2300 = ~Tougher Gromnir~
+@1000 = ~Вознесение~
+@1001 = ~Ascension требует BG2:ToB или BG2: Enhanced Edition.~
+@1002 = ~Требует основной компонент Ascension.~
+@2100 = ~Усиленный Абазигал~
+@2200 = ~Усиленный Демогоргон (оригинальный дизайн Bioware)~
+@2300 = ~Усиленный Громнир~
 @2400 = ~Tougher Illasera~
 @2500 = ~Tougher Yaga-Shura~
 @3010 = ~Восхождение (необходим ToB)~
