@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-08 10:22+0000\n"
+"PO-Revision-Date: 2018-06-17 13:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -81,7 +81,7 @@ msgstr "Божественное востановление"
 
 #: ascension.tra:1026
 msgid "Divine Cleansing"
-msgstr "Божественное искупление "
+msgstr "Божественное искупление"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
@@ -1301,7 +1301,7 @@ msgid ""
 "our own destiny."
 msgstr ""
 "Ты бы предпочел видеть нас скорее жертвами обстоятельств, чем властелинами "
-"собственных судеб?"
+"собственных судеб."
 
 #: balth.tra:1086
 msgid "I deny nothing. Death comes for all who stand in my way."
