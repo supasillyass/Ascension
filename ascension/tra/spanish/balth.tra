@@ -47,9 +47,9 @@
 @1118 = ~Si tengo la oportunidad, Balthazar... rechazaré el poder. Lo juro.~
 @1119 = ~No. No juraré nada parecido. Podría derivarse un gran bien de ese poder, no sabéis lo que podría pasar, no más que yo.~
 @1120 = ~¡Olvidadlo! ¡No lo haré!~
-@1121 = ~Entonces estoy satisfecho. La esencia de nuestro padre acaba conmigo... y con vos. Que los dioses me perdonen. Que vos... me perdonéis, hermano...~
-@1122 = ~Entonces debemos presentar batalla. Lo... lo siento, hermano. Esperaba que esto fuera de otra manera.~
-@1123 = ~Y no puedo confiar en que rechazaréis el poder si os lo ofrecen. Habéis experimentado la lucha que tan sólo una pizca de la mancha de Bhaal os ha traido, pero aun así no puedo creer que lo rechazaríais. Lo... lo siento, hermano... pero no tengo elección.~
+@1121 = ~Entonces estoy satisfecho. La esencia de nuestro padre acaba conmigo... y con vos. Que los dioses me perdonen. Que vos... me perdonéis, <PRO_BROTHERSISTER>...~
+@1122 = ~Entonces debemos presentar batalla. Lo... lo siento, <PRO_BROTHERSISTER>. Esperaba que esto fuera de otra manera.~
+@1123 = ~Y no puedo confiar en que rechazaréis el poder si os lo ofrecen. Habéis experimentado la lucha que tan sólo una pizca de la mancha de Bhaal os ha traido, pero aun así no puedo creer que lo rechazaríais. Lo... lo siento, <PRO_BROTHERSISTER>... pero no tengo elección.~
 @1124 = ~Así sea. Venid, mis pupilos... que los dioses nos ayuden a todos.~
 @1125 = ~No. Dialogar más no tiene sentido. Acabemos con esto ahora, <CHARNAME>... y que los dioses se compadezcan de  todos nosotros.~
 @1126 = ~Tal vez lo que decís tiene mérito. Pero ¿qué pasaría si yo muero en la batalla? Si yo quedara debilitado, al final... podríais sentir... la tentación. ¿Cómo podría confiar en vos?~
@@ -69,7 +69,7 @@
 @1141 = ~¡La profecía de Alaundo no dice que los hijos de Bhaal deban ser destructores, Balthazar! ¡También dice que podemos evitar que la profecía se haga realidad, lo sé!~
 @1142 = ~Podéis iros. Podéis hacer lo correcto, Balthazar, lo que vos sabéis que es correcto en lugar de a lo que os habéis resignado.~
 @1143 = ~Váis por un camino por el que no necesitáis ir, Balthazar. Os véis a vos mismo como maligno, pero no tiene por qué ser así.~
-@1144 = ~Soy vuestro hermano, Balthazar. ¡Luchemos contra lo inevitable! ¡Podemos trabajar juntos!~
+@1144 = ~Soy vuestro hermano, Balthazar. ¡Luchemos contra lo inevitable! ¡Podemos trabajar juntos!~ ~Soy vuestra hermana, Balthazar. ¡Luchemos contra lo inevitable! ¡Podemos trabajar juntos!~
 @1145 = ~Olvídadlo. No tiene sentido discutir esto con vos, ¿no es así? Acabemos con esto de una vez.~
 @1146 = ~Impresionáis con vuestras palabras, <CHARNAME>. Puedo sentir como el destino se altera a vuestra voluntad, como eres el centro de todo... ¿Cómo no lo vi antes?~
 @1147 = ~Pero la simple verdad es que vuestras palabras me suenan vacías. No las creo. Habéis luchado contra el destino, y aun así lo veo en vos según hablas.~

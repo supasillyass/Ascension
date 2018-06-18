@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-18 08:22+0000\n"
+"PO-Revision-Date: 2018-06-18 09:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: spanish\n"
@@ -1691,38 +1691,24 @@ msgid "Forget it! I'll do no such thing!"
 msgstr "¡Olvidadlo! ¡No lo haré!"
 
 #: balth.tra:1121
-#, fuzzy
-#| msgid ""
-#| "Then I am satisfied.  The essence of our sire ends with me... and with you."
-#| "  May the gods forgive me.  May you... may you forgive me, "
-#| "<PRO_BROTHERSISTER>..."
 msgid ""
 "Then I am satisfied. The essence of our sire ends with me... and with you. "
 "May the gods forgive me. May you... may you forgive me, "
 "<PRO_BROTHERSISTER>..."
 msgstr ""
 "Entonces estoy satisfecho. La esencia de nuestro padre acaba conmigo... y "
-"con vos. Que los dioses me perdonen. Que vos... me perdonéis, hermano..."
+"con vos. Que los dioses me perdonen. Que vos... me perdonéis, "
+"<PRO_BROTHERSISTER>..."
 
 #: balth.tra:1122
-#, fuzzy
-#| msgid ""
-#| "Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
-#| "this would be otherwise."
 msgid ""
 "Then we must do battle. I... I am sorry, <PRO_BROTHERSISTER>. I had hoped "
 "this would be otherwise."
 msgstr ""
-"Entonces debemos presentar batalla. Lo... lo siento, hermano. Esperaba que "
-"esto fuera de otra manera."
+"Entonces debemos presentar batalla. Lo... lo siento, <PRO_BROTHERSISTER>. "
+"Esperaba que esto fuera de otra manera."
 
 #: balth.tra:1123
-#, fuzzy
-#| msgid ""
-#| "And I cannot trust that you will turn aside the power when it is offered to "
-#| "you.  You have experienced the struggle even a sliver of Bhaal's taint has "
-#| "brought you, yet I cannot believe that you would turn it aside.  I... I am "
-#| "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgid ""
 "And I cannot trust that you will turn aside the power when it is offered to "
 "you. You have experienced the struggle even a sliver of Bhaal's taint has "
@@ -1732,19 +1718,13 @@ msgstr ""
 "Y no puedo confiar en que rechazaréis el poder si os lo ofrecen. Habéis "
 "experimentado la lucha que tan sólo una pizca de la mancha de Bhaal os ha "
 "traido, pero aun así no puedo creer que lo rechazaríais. Lo... lo siento, "
-"hermano... pero no tengo elección."
+"<PRO_BROTHERSISTER>... pero no tengo elección."
 
 #: balth.tra:1124
-#, fuzzy
-#| msgid "So be it.  Come, my pupils... may the gods help us all."
 msgid "So be it. Come, my pupils... may the gods help us all."
 msgstr "Así sea. Venid, mis pupilos... que los dioses nos ayuden a todos."
 
 #: balth.tra:1125
-#, fuzzy
-#| msgid ""
-#| "No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
-#| "may the gods have pity on us all."
 msgid ""
 "No. Further dialogue is pointless. Let us end this now, <CHARNAME>...and may"
 " the gods have pity on us all."
@@ -1753,11 +1733,6 @@ msgstr ""
 "que los dioses se compadezcan de  todos nosotros."
 
 #: balth.tra:1126
-#, fuzzy
-#| msgid ""
-#| "Perhaps what you are saying holds merit.  But what if I died during the "
-#| "battle?  What if I was weakened, in the end... you might find yourself... "
-#| "tempted.  How could I trust you?"
 msgid ""
 "Perhaps what you are saying holds merit. But what if I died during the "
 "battle? What if I was weakened, in the end... you might find yourself... "
@@ -1768,11 +1743,6 @@ msgstr ""
 "tentación. ¿Cómo podría confiar en vos?"
 
 #: balth.tra:1128
-#, fuzzy
-#| msgid ""
-#| "I don't know how to explain it, exactly, but she must have used you!  She "
-#| "used everyone else!  I didn't trust her and she even got me to do what she "
-#| "wanted!"
 msgid ""
 "I don't know how to explain it, exactly, but she must have used you! She "
 "used everyone else! I didn't trust her and she even got me to do what she "
@@ -1783,11 +1753,6 @@ msgstr ""
 "que ella quería!"
 
 #: balth.tra:1129
-#, fuzzy
-#| msgid ""
-#| "Think about it, Balthazar!  You honestly think she didn't know what your "
-#| "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
-#| "and there was nothing I could do to stop it!"
 msgid ""
 "Think about it, Balthazar! You honestly think she didn't know what your "
 "plans were? Do you think you took her by surprise? Even I saw it coming, and"
@@ -1798,26 +1763,17 @@ msgstr ""
 "hubo nada que pudiera hacer para pararlo!"
 
 #: balth.tra:1130
-#, fuzzy
-#| msgid ""
-#| "She used you to get rid of the other Bhaalspawn, obviously.  Think about it!"
-#| "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
-#| "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
 "dead... and she wants us to fight! She *wants* this to happen!"
 msgstr ""
-"Obviamente, ella os utilizó para deshacerse de los otros hijos de Bhaal. "
-"¡Pensadlo! Ella sabía lo que estábais planeando desde el principio. Quería a"
-" todos los hijos de Bhaal muertos... ¡Y quiere que luchemos entre nosotros! "
-"¡Ella *quiere* que pase esto!"
+"Obviamente, ella os utilizó para deshacerse de los otros hijos de Bhaal. ¡"
+"Pensadlo! Ella sabía lo que estábais planeando desde el principio. Quería a "
+"todos los hijos de Bhaal muertos... ¡Y quiere que luchemos entre nosotros! ¡"
+"Ella *quiere* que pase esto!"
 
 #: balth.tra:1131
-#, fuzzy
-#| msgid ""
-#| "Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
-#| "as I knew hers.  This changes nothing."
 msgid ""
 "Of course she used me, <CHARNAME>. And no doubt she knew my plans as well as"
 " I knew hers. This changes nothing."
@@ -1826,25 +1782,16 @@ msgstr ""
 "bien como yo conozco lo suyos. Eso no cambia nada."
 
 #: balth.tra:1132
-#, fuzzy
-#| msgid ""
-#| "You... may be right, <CHARNAME>.  But that does not mean that my plan will "
-#| "fail.  Melissan underestimates me, I am sure of that... just as she "
-#| "underestimates you."
 msgid ""
 "You... may be right, <CHARNAME>. But that does not mean that my plan will "
 "fail. Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
 msgstr ""
-"Tal vez... tengáis razón, <CHARNAME>. Pero eso no significa que mi plan vaya"
-" a fallar. Melissan me subestima, estoy seguro de ello... de la misma manera"
-" en que os subestima a vos."
+"Tal vez... tengáis razón, <CHARNAME>. Pero eso no significa que mi plan vaya "
+"a fallar. Melissan me subestima, estoy seguro de ello... de la misma manera "
+"en que os subestima a vos."
 
 #: balth.tra:1133
-#, fuzzy
-#| msgid ""
-#| "I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
-#| "Still... this does not mean my plan is doomed to failure.  Or is it?"
 msgid ""
 "I... perhaps you are right, <CHARNAME>. I see the wisdom of your words. "
 "Still... this does not mean my plan is doomed to failure. Or is it?"
@@ -1854,17 +1801,10 @@ msgstr ""
 "fracaso. ¿O sí?"
 
 #: balth.tra:1134
-#, fuzzy
-#| msgid "I must resist it.  I will.  I have no choice."
 msgid "I must resist it. I will. I have no choice."
 msgstr "Debo resistirme. Lo haré. No tengo elección."
 
 #: balth.tra:1135
-#, fuzzy
-#| msgid ""
-#| "But... you have shown great willpower, as well.  Despite the taint in your "
-#| "soul, you have struggled against it just as I have.  What makes me more "
-#| "worthy...?  No, I must not question myself!  Not now!"
 msgid ""
 "But... you have shown great willpower, as well. Despite the taint in your "
 "soul, you have struggled against it just as I have. What makes me more "
@@ -1875,11 +1815,6 @@ msgstr ""
 "más digno...? ¡No, no debo cuestionarme a mi mismo! ¡No ahora!"
 
 #: balth.tra:1136
-#, fuzzy
-#| msgid ""
-#| "You are certainly no better a candidate for resisting such temptation, "
-#| "<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
-#| "you to the Throne would be to give up everything I have believed in."
 msgid ""
 "You are certainly no better a candidate for resisting such temptation, "
 "<CHARNAME>. I would trust myself far more than I would trust you. To send "
@@ -1890,12 +1825,6 @@ msgstr ""
 "Mandaros al Trono sería renunciar a todo en lo que creo."
 
 #: balth.tra:1137
-#, fuzzy
-#| msgid ""
-#| "Strength is nothing, <CHARNAME>.  You may vanquish me with your might, and "
-#| "you may even vanquish Melissan.  But you will never vanquish yourself.  "
-#| "Might will bring you no peace... this I know.  And this is why I must be the"
-#| " last."
 msgid ""
 "Strength is nothing, <CHARNAME>. You may vanquish me with your might, and "
 "you may even vanquish Melissan. But you will never vanquish yourself. Might "
@@ -1903,16 +1832,9 @@ msgid ""
 msgstr ""
 "La fuerza no es nada, <CHARNAME>. Podréis derrotarme con vuestro poder, y "
 "puede que hasta derrotéis a Melissan. Pero nunca os venceréis a vos mismo. "
-"El poder no os traerá paz... lo sé bien. Y es por eso que debo ser el "
-"último."
+"El poder no os traerá paz... lo sé bien. Y es por eso que debo ser el último."
 
 #: balth.tra:1138
-#, fuzzy
-#| msgid ""
-#| "I am tired of the battles I have fought, <CHARNAME>.  I am tired of the "
-#| "anguish that I have endured, placing the greater good above the welfare of "
-#| "others, of myself and my own immortal soul.  It will be enough that Bhaal's "
-#| "legacy is destroyed, there is no temptation beyond that."
 msgid ""
 "I am tired of the battles I have fought, <CHARNAME>. I am tired of the "
 "anguish that I have endured, placing the greater good above the welfare of "
@@ -1925,17 +1847,10 @@ msgstr ""
 "destruir el legado de Bhaal, no habrá más tentaciones."
 
 #: balth.tra:1139
-#, fuzzy
-#| msgid "But I do.  It is my destiny.  What other choice have I?"
 msgid "But I do. It is my destiny. What other choice have I?"
 msgstr "Pero debo hacerlo. Es mi destino. ¿Qué opción me queda?"
 
 #: balth.tra:1140
-#, fuzzy
-#| msgid ""
-#| "You always have a choice, Balthazar.  Don't be a slave to Alaundo's "
-#| "prophecy!  I have fought against it ever since I found out about my heritage"
-#| " and I will *not* give up!"
 msgid ""
 "You always have a choice, Balthazar. Don't be a slave to Alaundo's prophecy!"
 " I have fought against it ever since I found out about my heritage and I "
@@ -1946,25 +1861,16 @@ msgstr ""
 "renunciaré!"
 
 #: balth.tra:1141
-#, fuzzy
-#| msgid ""
-#| "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
-#| "Balthazar!  It also means we can stop the prophecy from becoming true, I "
-#| "know this!"
 msgid ""
 "Alaundo's prophecy does not mean the Bhaalspawn must be destroyers, "
 "Balthazar! It also means we can stop the prophecy from becoming true, I know"
 " this!"
 msgstr ""
 "¡La profecía de Alaundo no dice que los hijos de Bhaal deban ser "
-"destructores, Balthazar! ¡También dice que podemos evitar que la profecía se"
-" haga realidad, lo sé!"
+"destructores, Balthazar! ¡También dice que podemos evitar que la profecía se "
+"haga realidad, lo sé!"
 
 #: balth.tra:1142
-#, fuzzy
-#| msgid ""
-#| "You can walk away.  You can do what's right, Balthazar, what you know to be "
-#| "right instead of what you've resigned yourself to."
 msgid ""
 "You can walk away. You can do what's right, Balthazar, what you know to be "
 "right instead of what you've resigned yourself to."
@@ -1973,10 +1879,6 @@ msgstr ""
 "correcto en lugar de a lo que os habéis resignado."
 
 #: balth.tra:1143
-#, fuzzy
-#| msgid ""
-#| "You are walking a path that you don't need to, Balthazar.  You see yourself "
-#| "as evil, but it doesn't have to be that way."
 msgid ""
 "You are walking a path that you don't need to, Balthazar. You see yourself "
 "as evil, but it doesn't have to be that way."
@@ -1985,10 +1887,6 @@ msgstr ""
 "mismo como maligno, pero no tiene por qué ser así."
 
 #: balth.tra:1144
-#, fuzzy
-#| msgid ""
-#| "I am your <PRO_BROTHERSISTER>, Balthazar.  Let us fight what is inevitable!"
-#| "  We can work together!"
 msgid ""
 "I am your <PRO_BROTHERSISTER>, Balthazar. Let us fight what is inevitable! "
 "We can work together!"
@@ -1997,10 +1895,6 @@ msgstr ""
 "trabajar juntos!"
 
 #: balth.tra:1145
-#, fuzzy
-#| msgid ""
-#| "Forget it.  There's no point in discussing this with you, is there?  Let's "
-#| "get this over with."
 msgid ""
 "Forget it. There's no point in discussing this with you, is there? Let's get"
 " this over with."
@@ -2009,41 +1903,25 @@ msgstr ""
 "esto de una vez."
 
 #: balth.tra:1146
-#, fuzzy
-#| msgid ""
-#| "You are impressive with your words, <CHARNAME>.  I can feel destiny altering"
-#| " to your will, how you are the center of it all... how is it that I did not "
-#| "see this before?"
 msgid ""
 "You are impressive with your words, <CHARNAME>. I can feel destiny altering "
 "to your will, how you are the center of it all... how is it that I did not "
 "see this before?"
 msgstr ""
-"Impresionáis con vuestras palabras, <CHARNAME>. Puedo sentir como el destino"
-" se altera a vuestra voluntad, como eres el centro de todo... ¿Cómo no lo vi"
-" antes?"
+"Impresionáis con vuestras palabras, <CHARNAME>. Puedo sentir como el destino "
+"se altera a vuestra voluntad, como eres el centro de todo... ¿Cómo no lo vi "
+"antes?"
 
 #: balth.tra:1147
-#, fuzzy
-#| msgid ""
-#| "But the simple truth is your words ring hollow to me.  I do not believe "
-#| "them.  You have fought against destiny, yet I see it in you even the more as"
-#| " you speak."
 msgid ""
 "But the simple truth is your words ring hollow to me. I do not believe them."
 " You have fought against destiny, yet I see it in you even the more as you "
 "speak."
 msgstr ""
 "Pero la simple verdad es que vuestras palabras me suenan vacías. No las "
-"creo. Habéis luchado contra el destino, y aun así lo veo en vos según "
-"hablas."
+"creo. Habéis luchado contra el destino, y aun así lo veo en vos según hablas."
 
 #: balth.tra:1148
-#, fuzzy
-#| msgid ""
-#| "Perhaps... perhaps there is something to your words.  I look within myself "
-#| "and see how rigidly I have held myself to my destiny... and I feel hollow.  "
-#| "But I... cannot believe that this has been for nothing."
 msgid ""
 "Perhaps... perhaps there is something to your words. I look within myself "
 "and see how rigidly I have held myself to my destiny... and I feel hollow. "
@@ -2054,16 +1932,10 @@ msgstr ""
 "vacío. Pero... no puedo creer que esto haya sido para nada."
 
 #: balth.tra:1149
-#, fuzzy
-#| msgid "What do you mean?  How do you know this?"
 msgid "What do you mean? How do you know this?"
 msgstr "¿Qué queréis decir? ¿Cómo lo sabéis?"
 
 #: balth.tra:1150
-#, fuzzy
-#| msgid ""
-#| "It was told to me by a Solar, an agent of prophecy!  It... oh, I know how it"
-#| " sounds, but it's true!"
 msgid ""
 "It was told to me by a Solar, an agent of prophecy! It... oh, I know how it "
 "sounds, but it's true!"
@@ -2072,11 +1944,6 @@ msgstr ""
 "pero es la verdad!"
 
 #: balth.tra:1151
-#, fuzzy
-#| msgid ""
-#| "I have been told many things by agents of Alaundo's prophecy... higher "
-#| "beings that have sought me out to prepare me.  Alaundo's prophecy does not "
-#| "necessarily mean what you think it does, Balthazar."
 msgid ""
 "I have been told many things by agents of Alaundo's prophecy... higher "
 "beings that have sought me out to prepare me. Alaundo's prophecy does not "
@@ -2087,12 +1954,6 @@ msgstr ""
 "tiene por qué ser lo que vos pensáis, Balthazar."
 
 #: balth.tra:1152
-#, fuzzy
-#| msgid ""
-#| "A Solar has been my mentor since this began, guiding me and preparing me for"
-#| " what is to come.  The prophecy is not so simple as you think it to be, no "
-#| "matter how we assume it to be.  Think about it and you'll know it to be "
-#| "true, Balthazar... everything has more than one side."
 msgid ""
 "A Solar has been my mentor since this began, guiding me and preparing me for"
 " what is to come. The prophecy is not so simple as you think it to be, no "
@@ -2105,10 +1966,6 @@ msgstr ""
 "Balthazar... todo tiene más de una cara."
 
 #: balth.tra:1153
-#, fuzzy
-#| msgid ""
-#| "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>.  "
-#| "And my path remains clear."
 msgid ""
 "I have no agent of the heavens to interpret my destiny for me, <CHARNAME>. "
 "And my path remains clear."
@@ -2117,11 +1974,6 @@ msgstr ""
 "<CHARNAME>. Y mi camino sigue claro."
 
 #: balth.tra:1154
-#, fuzzy
-#| msgid ""
-#| "You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder.  Yet... "
-#| "it seems that my destiny may differ from yours.  I have no heavenly "
-#| "guidance.  Perhaps my path has been made for me, yet."
 msgid ""
 "You plant a seed of doubt in me, <CHARNAME>, and I begin to wonder. Yet... "
 "it seems that my destiny may differ from yours. I have no heavenly guidance."
@@ -2132,22 +1984,14 @@ msgstr ""
 "camino haya sido trazado para mí."
 
 #: balth.tra:1155
-#, fuzzy
-#| msgid ""
-#| "What you say is incredible, and yet... it does make sense.  Have I prepared "
-#| "myself for all this time in error?  How could this be?"
 msgid ""
 "What you say is incredible, and yet... it does make sense. Have I prepared "
 "myself for all this time in error? How could this be?"
 msgstr ""
-"Lo que decís es increíble, y aun así... tiene sentido. ¿Me he preparado todo"
-" este tiempo de forma equivocada? ¿Cómo puede ser?"
+"Lo que decís es increíble, y aun así... tiene sentido. ¿Me he preparado todo "
+"este tiempo de forma equivocada? ¿Cómo puede ser?"
 
 #: balth.tra:1156
-#, fuzzy
-#| msgid ""
-#| "An appealing notion, to walk away.  Would that I could do so.  Would that "
-#| "any of us could have done so."
 msgid ""
 "An appealing notion, to walk away. Would that I could do so. Would that any "
 "of us could have done so."
@@ -2171,11 +2015,6 @@ msgstr ""
 "vez haya esperanza... o tal vez sólo me esté engañando a mi mismo."
 
 #: balth.tra:1158
-#, fuzzy
-#| msgid ""
-#| "But that is a fool's notion, <CHARNAME>, and I am no fool.  There is no such"
-#| " option available to me or any of us, no matter how appealing you may make "
-#| "it seem."
 msgid ""
 "But that is a fool's notion, <CHARNAME>, and I am no fool. There is no such "
 "option available to me or any of us, no matter how appealing you may make it"
@@ -2185,13 +2024,6 @@ msgstr ""
 "de nosotros tenemos esa opción, por apetecible que lo pongáis."
 
 #: balth.tra:1159
-#, fuzzy
-#| msgid ""
-#| "No!  You have listened to nothing I have said!  It *is* that way because "
-#| "there is no choice for us!  You would have me forget all the murders I have "
-#| "committed with my own hands, all the wrongs I have done in the name of the "
-#| "greater good... I cannot forget!  I will not forgive myself and I will *not*"
-#| " allow others to be afflicted with the taint I possess!"
 msgid ""
 "No! You have listened to nothing I have said! It *is* that way because there"
 " is no choice for us! You would have me forget all the murders I have "
@@ -2206,19 +2038,14 @@ msgstr ""
 "otros se contaminen con la mancha que llevo!"
 
 #: balth.tra:1160
-#, fuzzy
-#| msgid ""
-#| "You have considerable charisma, <CHARNAME>...but it is because we are "
-#| "siblings that we cannot work together.  You know as well as I what the "
-#| "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgid ""
 "You have considerable charisma, <CHARNAME>...but it is because we are "
 "siblings that we cannot work together. You know as well as I what the "
 "essence seeks, and it will not be satisfied until our destiny is culminated."
 msgstr ""
-"Tenéis un carisma considerable, <CHARNAME>... pero precisamente porque somos"
-" hermanos no podemos trabajar juntos. Sabéis tan bien como yo lo que busca "
-"la esencia, y no quedará satisfecha hasta que culminemos nuestro destino."
+"Tenéis un carisma considerable, <CHARNAME>... pero precisamente porque somos "
+"hermanos no podemos trabajar juntos. Sabéis tan bien como yo lo que busca la "
+"esencia, y no quedará satisfecha hasta que culminemos nuestro destino."
 
 #: balth.tra:1161
 #, fuzzy
@@ -2238,12 +2065,6 @@ msgstr ""
 "mal que amenaza Faerun. No hay otro camino para mi."
 
 #: balth.tra:1162
-#, fuzzy
-#| msgid ""
-#| "Look at the suffering you have brought to Amkethran!  Your monks terrorize "
-#| "the innocent at your command!  You hire soulless mercenaries that cut down "
-#| "the innocent at the slightest provocation!  And all for nothing!  You call "
-#| "these the actions of a good man?"
 msgid ""
 "Look at the suffering you have brought to Amkethran! Your monks terrorize "
 "the innocent at your command! You hire soulless mercenaries that cut down "
@@ -2257,12 +2078,6 @@ msgstr ""
 "hombre de bien?"
 
 #: balth.tra:1163
-#, fuzzy
-#| msgid ""
-#| "A truly good man would have stood against Melissan from the beginning.  You "
-#| "say you wanted to find out who the Five were... and yet I defeated them "
-#| "without your scheming.  It was your choice to join the Five in their reign "
-#| "of destruction, so live up to it!"
 msgid ""
 "A truly good man would have stood against Melissan from the beginning. You "
 "say you wanted to find out who the Five were... and yet I defeated them "
