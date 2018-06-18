@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-17 13:22+0000\n"
+"PO-Revision-Date: 2018-06-18 07:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -4240,10 +4240,8 @@ msgid "Tougher Yaga-Shura"
 msgstr ""
 
 #: setup.tra:3010
-#, fuzzy
-#| msgid "Ascension Core (requires ToB)"
 msgid "Ascension Portraits - Bodhi"
-msgstr "Восхождение (необходим ToB)"
+msgstr "Портреты для Вознесения - Бодхи"
 
 #: setup.tra:3020
 msgid "Ascension Portraits - Balthazar by Cuv ( Alternate Design )"
@@ -4850,36 +4848,24 @@ msgid ""
 msgstr ""
 
 #: solar.tra:230
-#, fuzzy
-#| msgctxt "SOLAR66"
-#| msgid ""
-#| "The one you know as Melissan was never a true member of the Five, godchild."
-#| "  She is no child of Bhaal."
 msgctxt "SOLAR66"
 msgid ""
 "The one you know as Melissan was never a true member of the Five, godchild. "
 "She is no child of Bhaal."
 msgstr ""
-"Та, которая известна вам как Мелисса, никогда не была настоящим членом "
+"Та, которая известна тебе как Мелисса, никогда не была настоящим членом "
 "Пятерки, дитя бога. Она не дочь Баала."
 
 #: solar.tra:231
-#, fuzzy
-#| msgctxt "SOLAR67"
-#| msgid ""
-#| "The dead god, Bhaal, has not been resurrected and, indeed, may never be.  "
-#| "You must understand what awaits you now at the end of your journey, "
-#| "godchild...  and for this, the one you know as Melissan will explain for "
-#| "herself."
 msgctxt "SOLAR67"
 msgid ""
 "The dead god, Bhaal, has not been resurrected and, indeed, may never be. You"
 " must understand what awaits you now at the end of your journey, godchild..."
 " and for this, the one you know as Melissan will explain for herself."
 msgstr ""
-"Мертвый Бог, Баал, не воскрес, и наверное, никогда уже не воскреснет. Вы "
-"должны понимать, что ждет вас в конце путешествия, дитя бога.... и для этого"
-" та, которая известна вам как Мелисса, объяснит свои действия."
+"Мертвый Бог, Баал, не воскрес, и наверное, никогда уже не воскреснет. Ты "
+"должен понимать, что ждет тебя в конце путешествия, дитя бога.... и это та, "
+"которая известна тебе как Мелисса, объяснит сама."
 
 #: solar.tra:239
 #, fuzzy
