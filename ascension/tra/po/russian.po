@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-18 07:22+0000\n"
+"PO-Revision-Date: 2018-06-18 08:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -4868,46 +4868,32 @@ msgstr ""
 "которая известна тебе как Мелисса, объяснит сама."
 
 #: solar.tra:239
-#, fuzzy
-#| msgid ""
-#| "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides "
-#| "yourself, god-child.  You are to be commended.  Your journey is nearly at "
-#| "its end."
 msgid ""
 "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides "
 "yourself, god-child. You are to be commended. Your journey is nearly at its "
 "end."
 msgstr ""
-"Вы сумели договориться с Балтазаром, величайшим из отпрысков Баала после "
-"вас, дитя бога. Это похвально. Ваше путешествие подходит к концу."
+"Ты сумел договориться с Балтазаром, величайшим из отпрысков Баала после "
+"тебя, дитя бога. Это похвально. Твое путешествие подходит к концу."
 
 #: solar.tra:240
-#, fuzzy
-#| msgid ""
-#| "Wait... what is Balthazar's part in all this?  You knew I wouldn't fight "
-#| "him?"
 msgid ""
 "Wait... what is Balthazar's part in all this? You knew I wouldn't fight him?"
 msgstr ""
-"Подожди... какова роль Балтазара во всем этом? Вы знали, что я не стану "
+"Подожди... какова роль Балтазара во всем этом? Ты знала, что я не стану "
 "сражаться с ним?"
 
 #: solar.tra:241
-#, fuzzy
-#| msgid ""
-#| "You did not need to fight him.  The rest of the Five have been defeated.  "
-#| "With Balthazar and yourself both alive, not all of Bhaal's divine essence "
-#| "has returned to its source, and Melissan will seek to collect it.  This is "
-#| "the challenge that awaits you."
 msgid ""
 "You did not need to fight him. The rest of the Five have been defeated. With"
 " Balthazar and yourself both alive, not all of Bhaal's divine essence has "
 "returned to its source, and Melissan will seek to collect it. This is the "
 "challenge that awaits you."
 msgstr ""
-"Вам не надо было биться с ним. Остальные из Пятерки уничтожены. Так как вы и"
-" Балтазар оба живы, не вся божественная сущность Баала вернулась к источнику"
-" и Мелисса будет стремиться собрать ее. Вот испытание, которое вас ожидает."
+"Тебе не надо было биться с ним. Остальные из Пятерки уничтожены. Так как ты "
+"и Балтазар оба живы, не вся божественная сущность Баала вернулась к "
+"источнику и Мелисса будет стремиться собрать ее. Вот испытание, которое вас "
+"ожидает."
 
 #: solar.tra:242
 msgid "But... Melissan is part of the Five, isn't she?"
@@ -4921,30 +4907,20 @@ msgstr ""
 "Похоже, Мелисса не собрала достаточно сущности, чтобы воскресить Баала, так?"
 
 #: solar.tra:244
-#, fuzzy
-#| msgid ""
-#| "So, Melissan seeks to be the last of the Bhaalspawn.  Does she even plan on "
-#| "resurrecting Bhaal?"
 msgid ""
 "So, Melissan seeks to be the last of the Bhaalspawn. Does she even plan on "
 "resurrecting Bhaal?"
 msgstr ""
-"Значит, Мелисса хочет быть последней из последователей Баала? Она "
-"действительно планирует его воскресить?"
+"Значит, Мелисса хочет быть последней из потомков Баала. Она действительно "
+"планирует его воскресить?"
 
 #: solar.tra:245
-#, fuzzy
-#| msgid ""
-#| "Another challenge.  Alright, alright... let's just get this over with."
 msgid "Another challenge. Alright, alright... let's just get this over with."
-msgstr ""
-"Еще одна проблемка... Ладно, хорошо. Давайте просто с этим разделаемся."
+msgstr "Еще один вызов. Ладно, ладно... давайте уже с этим разделаемся."
 
 #: solar.tra:246
-#, fuzzy
-#| msgid "You do not yet understand.  But all shall become clear."
 msgid "You do not yet understand. But all shall become clear."
-msgstr "Вы еще не поняли... Но скоро все станет ясно."
+msgstr "Ты еще не понял... Но скоро все станет ясно."
 
 #~ msgid ""
 #~ "\n"
