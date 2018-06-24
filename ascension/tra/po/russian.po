@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-18 08:22+0000\n"
+"PO-Revision-Date: 2018-06-24 18:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
@@ -2938,6 +2938,9 @@ msgid ""
 " to Melissan she will be forced to confront us. This is the realm of all "
 "bhaalspawn, <CHARNAME>, your blood will serve you well."
 msgstr ""
+"Колодцы вокруг нас воняют магией. Если мы разрушим связь между ними и "
+"Мелиссой, ей придется сразиться с нами. Это земля всех потомков Баала, "
+"<CHARNAME>, твоя кровь хорошо тебе послужит."
 
 #: finmel01.tra:591
 msgid ""
@@ -4233,11 +4236,11 @@ msgstr "Усиленный Громнир"
 
 #: setup.tra:2400
 msgid "Tougher Illasera"
-msgstr ""
+msgstr "Усиленная Илласера"
 
 #: setup.tra:2500
 msgid "Tougher Yaga-Shura"
-msgstr ""
+msgstr "Усиленный Яга-Шура"
 
 #: setup.tra:3010
 msgid "Ascension Portraits - Bodhi"
@@ -4245,35 +4248,35 @@ msgstr "Портреты для Вознесения - Бодхи"
 
 #: setup.tra:3020
 msgid "Ascension Portraits - Balthazar by Cuv ( Alternate Design )"
-msgstr ""
+msgstr "Портреты Вознесения - Балтазар от Cuv (альтернативная версия)"
 
 #: setup.tra:4000
 msgid "Restored Bhaalspawn Powers by David Gaider"
-msgstr ""
+msgstr "Восстановленные Силы Потомка Баала от David Gaider"
 
 #: setup.tra:5100
 msgid "Extended Epilogues for original Bioware NPCs by shawne"
-msgstr ""
+msgstr "Расширенные Эпилоги для оригинальных персонажей Bioware от shawne"
 
 #: setup.tra:5110 setup.tra:5210
 msgid "This component is currently only available in english language"
-msgstr ""
+msgstr "Сейчас этот компонент доступен только на английском языке"
 
 #: setup.tra:5200
 msgid "Extended Epilogues for additional Beamdog NPCs by shawne"
-msgstr ""
+msgstr "Расширенные Эпилоги для дополнительных персонажей Beamdog от shawne"
 
 #: setup.tra:5220
 msgid "This component is only for BG2:EE or EET"
-msgstr ""
+msgstr "Этот компонент предназначен только для BG2:EE или ЕЕТ"
 
 #: setup.tra:5300
 msgid "Install only Ascension's Epilogues"
-msgstr ""
+msgstr "Установить только Эпилоги Вознесения"
 
 #: setup.tra:5310
 msgid "These epilogues are included in the main Ascension component"
-msgstr ""
+msgstr "Эти эпилоги включены в главный компонент Вознесения"
 
 #: shawnesepilogues.tra:4001
 msgid ""
