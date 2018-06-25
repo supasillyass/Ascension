@@ -194,7 +194,7 @@ BEGIN @5200 DESIGNATED 105
 
 	COPY ~ascension/shawnesEE/2da~ ~override~
 
-	LOAD_TRA ~ascension/tra/english/shawnesepilogues_ee.tra~
+	LOAD_TRA ~ascension/tra/english/shawnesepilogues_eenpc.tra~
 
 	LAF update_epilogues STR_VAR filepath = ~ascension/lib/shawnesepiloguesEE.tbl~ END
 
