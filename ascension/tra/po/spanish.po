@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-25 14:22+0000\n"
+"PO-Revision-Date: 2018-06-25 15:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: spanish\n"
@@ -2409,11 +2409,6 @@ msgstr ""
 "ganas de vivir la mía."
 
 #: balth2.tra:1016
-#, fuzzy
-#| msgid ""
-#| "And so it is done.  I believe you have made the right choice.  I look "
-#| "forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
-#| " <PRO_BROTHERSISTER>."
 msgid ""
 "And so it is done. I believe you have made the right choice. I look forward "
 "to meeting you again on Faerun, <CHARNAME>...as a mortal and a true "
@@ -2424,28 +2419,18 @@ msgstr ""
 "hermano."
 
 #: balth2.tra:1017
-#, fuzzy
-#| msgid ""
-#| "And so you take the road less traveled, <CHARNAME>.  I cannot say I envy "
-#| "you.  I hope the power brings you what you expect and desire, my friend.  "
-#| "When I look up at the heavens and see the brightest star in the sky, I shall"
-#| " think of you and offer a prayer."
 msgid ""
 "And so you take the road less traveled, <CHARNAME>. I cannot say I envy you."
 " I hope the power brings you what you expect and desire, my friend. When I "
 "look up at the heavens and see the brightest star in the sky, I shall think "
 "of you and offer a prayer."
 msgstr ""
-"Así que tomáis el camino menos transitado, <CHARNAME>. No puedo decir que os"
-" envidie. Espero que el poder os traiga lo que ansiáis, amigo mío. Cuando "
+"Así que tomáis el camino menos transitado, <CHARNAME>. No puedo decir que os "
+"envidie. Espero que el poder os traiga lo que ansiáis, amigo mío. Cuando "
 "mire el cielo y vea la estrella más brillante, pensaré en vos y rezaré una "
 "plegaria."
 
 #: balth2.tra:1018
-#, fuzzy
-#| msgid ""
-#| "Melissan keeps restoring her immortal energies at the fount!  There must be "
-#| "a way to weaken her further, or we will never defeat her!"
 msgid ""
 "Melissan keeps restoring her immortal energies at the fount! There must be a"
 " way to weaken her further, or we will never defeat her!"
@@ -2454,11 +2439,6 @@ msgstr ""
 "una manera de debilitarla más, o nunca la derrotaremos!"
 
 #: balth2_ee.tra:1016
-#, fuzzy
-#| msgid ""
-#| "And so it is done.  I believe you have made the right choice.  I look "
-#| "forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true"
-#| " <PRO_BROTHERSISTER>."
 msgid ""
 "And so it is done. I believe you have made the right choice. I look forward "
 "to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true "
