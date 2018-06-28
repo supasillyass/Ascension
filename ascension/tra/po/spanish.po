@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-28 07:22+0000\n"
+"PO-Revision-Date: 2018-06-28 08:22+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: spanish\n"
@@ -2845,24 +2845,14 @@ msgstr ""
 "Bodhi, cuando esto acabe, os juro que seréis recompensada adecuadamente."
 
 #: finbodh.tra:70
-#, fuzzy
-#| msgid ""
-#| "Pray that you hold to your word, failure to do so would be... unpleasant for"
-#| " you.  Now to finalize matters..."
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you. Now to finalize matters..."
 msgstr ""
-"Reza para mantener vuestra palabra, hacer lo contrario sería... desagradable"
-" para vos. Y ahora para acabar el tema..."
+"Reza para mantener vuestra palabra, hacer lo contrario sería... desagradable "
+"para vos. Y ahora para acabar el tema..."
 
 #: finbodh.tra:71
-#, fuzzy
-#| msgid ""
-#| "No, <CHARNAME>.  Sadly, I do not think we are destined to work together "
-#| "again.  Despite the attractiveness of what you offer, your words ring more "
-#| "hollow than my brother's.  Far better to rip your soul from your living "
-#| "breast than beg for it at your side."
 msgid ""
 "No, <CHARNAME>. Sadly, I do not think we are destined to work together "
 "again. Despite the attractiveness of what you offer, your words ring more "
@@ -2875,11 +2865,6 @@ msgstr ""
 "que suplicar por ella a vuestro lado."
 
 #: finbodh.tra:72
-#, fuzzy
-#| msgid ""
-#| "I require satisfaction before the Child of Bhaal makes any sort of decision,"
-#| " creature.  Both my brother and this... Melissan, lie dead.  Your hunt has "
-#| "been delightfully successful, <CHARNAME>."
 msgid ""
 "I require satisfaction before the Child of Bhaal makes any sort of decision,"
 " creature. Both my brother and this... Melissan, lie dead. Your hunt has "
@@ -2890,12 +2875,6 @@ msgstr ""
 "caza ha sido de lo más exitosa, <CHARNAME>."
 
 #: finbodh.tra:73
-#, fuzzy
-#| msgid ""
-#| "But do not forget our deal.  I am impatient for the piece of your soul you "
-#| "promised me.  I have enjoyed our dance Child of Bhaal, but I tire of this "
-#| "place.  Give me what I want so I may leave... we need not meet each other "
-#| "again, unless you wish it."
 msgid ""
 "But do not forget our deal. I am impatient for the piece of your soul you "
 "promised me. I have enjoyed our dance Child of Bhaal, but I tire of this "
@@ -2905,14 +2884,9 @@ msgstr ""
 "Pero no olvidéis nuestro pacto. Estoy impaciente por tener la porción de "
 "vuestra alma que me prometísteis. He disfrutado con nuestro baile, Hijo de "
 "Bhaal, pero me canso de este sitio. Dadme lo que quiero para poder "
-"marcharme... no tenemos por qué vernos otra vez, a no ser que así lo "
-"deseéis."
+"marcharme... no tenemos por qué vernos otra vez, a no ser que así lo deseéis."
 
 #: finbodh.tra:74
-#, fuzzy
-#| msgid ""
-#| "It was a pleasure to have you fight by my side, Bodhi.  You have earned this"
-#| " reward."
 msgid ""
 "It was a pleasure to have you fight by my side, Bodhi. You have earned this "
 "reward."
@@ -2921,10 +2895,6 @@ msgstr ""
 "recompensa."
 
 #: finbodh.tra:75
-#, fuzzy
-#| msgid ""
-#| "You shall have nothing.  Your use to me is at an end.  I shall enjoy sending"
-#| " you screaming back into the abyss."
 msgid ""
 "You shall have nothing. Your use to me is at an end. I shall enjoy sending "
 "you screaming back into the abyss."
@@ -2933,10 +2903,6 @@ msgstr ""
 "gritando de vuelta al abismo."
 
 #: finbodh.tra:76
-#, fuzzy
-#| msgid ""
-#| "Hmmm, I could kill you... no, I have better things to do.  Take these scraps"
-#| " of my essence and depart."
 msgid ""
 "Hmmm, I could kill you... no, I have better things to do. Take these scraps "
 "of my essence and depart."
@@ -2945,10 +2911,6 @@ msgstr ""
 "sobras de mi esencia e iros."
 
 #: finbodh.tra:77
-#, fuzzy
-#| msgid ""
-#| "No Bodhi, I think I will keep all of my soul.  You will fall back into the "
-#| "abyss.  Give Bhaal my regards."
 msgid ""
 "No Bodhi, I think I will keep all of my soul. You will fall back into the "
 "abyss. Give Bhaal my regards."
@@ -2957,11 +2919,6 @@ msgstr ""
 "Bhaal de mi parte."
 
 #: finbodh.tra:78
-#, fuzzy
-#| msgid ""
-#| "Fool!  You think to betray me, Child of Bhaal?  I refuse to return to the "
-#| "abyss.  I shall rip every shred of that soul from your body!  Let the dance "
-#| "end here!"
 msgid ""
 "Fool! You think to betray me, Child of Bhaal? I refuse to return to the "
 "abyss. I shall rip every shred of that soul from your body! Let the dance "
@@ -2972,10 +2929,6 @@ msgstr ""
 "baile se acabe aquí!"
 
 #: finbodh.tra:79
-#, fuzzy
-#| msgid ""
-#| "This is my realm, Bodhi.  I control everything here.  It is time for you to "
-#| "join your brother."
 msgid ""
 "This is my realm, Bodhi. I control everything here. It is time for you to "
 "join your brother."
@@ -2984,10 +2937,6 @@ msgstr ""
 "con vuestro hermano."
 
 #: finbodh.tra:80
-#, fuzzy
-#| msgid ""
-#| "Enough talk!  The dance has come to an end, Bodhi, and so has your part in "
-#| "it."
 msgid ""
 "Enough talk! The dance has come to an end, Bodhi, and so has your part in "
 "it."
@@ -2996,16 +2945,10 @@ msgstr ""
 "participación en él."
 
 #: finbodh.tra:81
-#, fuzzy
-#| msgid "Die!  Witness my power, insect!"
 msgid "Die! Witness my power, insect!"
 msgstr "¡Muere! ¡Sé testigo de mi poder, insecto!"
 
 #: finbodh.tra:82
-#, fuzzy
-#| msgid ""
-#| "Oh Bodhi, you should have begged.  I would have liked to see that.  Too late"
-#| " now."
 msgid ""
 "Oh Bodhi, you should have begged. I would have liked to see that. Too late "
 "now."
@@ -3014,51 +2957,32 @@ msgstr ""
 "demasiado tarde."
 
 #: finbodh.tra:83
-#, fuzzy
-#| msgid ""
-#| "So you have betrayed me, <CHARNAME>.  It would seem that working together "
-#| "was never our true calling."
 msgid ""
 "So you have betrayed me, <CHARNAME>. It would seem that working together was"
 " never our true calling."
 msgstr ""
-"Así que me habéis traicionado, <CHARNAME>. Parece que trabajar juntos no era"
-" para nosotros."
+"Así que me habéis traicionado, <CHARNAME>. Parece que trabajar juntos no era "
+"para nosotros."
 
 #: finbodh.tra:84
-#, fuzzy
-#| msgid ""
-#| "Ahhhhh, such feeling.  I feel the life flow through me!  Such a gift you "
-#| "carry Child of Bhaal...  such power...  such strength.  Oh this is simply "
-#| "divine!"
 msgid ""
 "Ahhhhh, such feeling. I feel the life flow through me! Such a gift you carry"
 " Child of Bhaal... such power... such strength. Oh this is simply divine!"
 msgstr ""
 "Ahhhhh, qué sensación. ¡Siento que la vida fluye por mis venas! Llevas tal "
-"regalo Hijo de Bhaal... tal poder... tal fuerza. ¡Oh esto es simplemente "
+"regalo, Hijo de Bhaal... tal poder... tal fuerza. ¡Oh esto es simplemente "
 "divino!"
 
 #: finbodh.tra:85
-#, fuzzy
-#| msgid ""
-#| "Such an ungrateful <PRO_MANWOMAN> you are.  Still, I have life once more, "
-#| "and I intend to enjoy it.  Perhaps the wizards of Spellhold still wish to "
-#| "play?"
 msgid ""
 "Such an ungrateful <PRO_MANWOMAN> you are. Still, I have life once more, and"
 " I intend to enjoy it. Perhaps the wizards of Spellhold still wish to play?"
 msgstr ""
-"Qué hombre tan desagradecido sois. Pero aun así, tengo vida de nuevo, y "
-"pienso disfrutarla. ¿Tal vez los magos de la Prisión del Hechicero quieran "
-"jugar todavía?"
+"Qué <PRO_MANWOMAN> tan desagradecido sois. Pero aun así, tengo vida de "
+"nuevo, y pienso disfrutarla. ¿Tal vez los magos de la Prisión del Hechicero "
+"quieran jugar todavía?"
 
 #: finbodh.tra:86
-#, fuzzy
-#| msgid ""
-#| "Well, Child of Bhaal, it would seem that our time together is at an end.  I "
-#| "shall enjoy carrying this piece of you with me.  Perhaps we shall meet "
-#| "again, you and I..."
 msgid ""
 "Well, Child of Bhaal, it would seem that our time together is at an end. I "
 "shall enjoy carrying this piece of you with me. Perhaps we shall meet again,"
@@ -3069,12 +2993,6 @@ msgstr ""
 "yo..."
 
 #: finbodh.tra:87
-#, fuzzy
-#| msgid ""
-#| "Now, now, <CHARNAME>...there is no need to look at me so.  A tiny piece of "
-#| "your soul would give me all I require and more.  Decide quickly, for I doubt"
-#| " my dear brother will be content with merely withering me with his own "
-#| "delightfully evil glare."
 msgid ""
 "Now, now, <CHARNAME>...there is no need to look at me so. A tiny piece of "
 "your soul would give me all I require and more. Decide quickly, for I doubt "
@@ -3087,25 +3005,16 @@ msgstr ""
 "su maligna mirada."
 
 #: finbodh.tra:88
-#, fuzzy
-#| msgid ""
-#| "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
-#| " no idea.  I shall be pleased to know that you both die again just as you "
-#| "lived: without a single redeeming or worthwhile quality."
 msgid ""
 "Why you assumed I would even be interested in your allegiance, Bodhi, I have"
 " no idea. I shall be pleased to know that you both die again just as you "
 "lived: without a single redeeming or worthwhile quality."
 msgstr ""
 "No tengo ni idea de por qué asumísteis que estaría interesado en vuestra "
-"lealtad, Bodhi. Me alegra saber que ambos morís de nuevo como vivisteis: sin"
-" una sola cualidad redentora o valiosa."
+"lealtad, Bodhi. Me alegra saber que ambos morís de nuevo como vivisteis: sin "
+"una sola cualidad redentora o valiosa."
 
 #: finbodh.tra:89
-#, fuzzy
-#| msgid ""
-#| "Pray that you hold to your word, failure to do so would be... unpleasant for"
-#| " you.  Now to finalize matters...."
 msgid ""
 "Pray that you hold to your word, failure to do so would be... unpleasant for"
 " you. Now to finalize matters...."
@@ -3114,11 +3023,6 @@ msgstr ""
 "para vos. Y ahora para acabar con el tema...."
 
 #: finbodh.tra:90
-#, fuzzy
-#| msgid ""
-#| "No, <CHARNAME>.  Despite the attractiveness of what you offer, your words "
-#| "ring more hollow than my brother's.  Far better to rip your soul from your "
-#| "living breast than beg for it at your side."
 msgid ""
 "No, <CHARNAME>. Despite the attractiveness of what you offer, your words "
 "ring more hollow than my brother's. Far better to rip your soul from your "
@@ -3149,10 +3053,6 @@ msgid ""
 msgstr ""
 
 #: finmel01.tra:591
-#, fuzzy
-#| msgid ""
-#| "You don't have all the essence of Bhaal... not by far.  And I rule here, as "
-#| "well... you know that."
 msgid ""
 "You don't have all the essence of Bhaal... not by far. And I rule here, as "
 "well... you know that."
@@ -3161,10 +3061,6 @@ msgstr ""
 "aquí, aunque eso... ya lo sabéis."
 
 #: finmel01.tra:592
-#, fuzzy
-#| msgid ""
-#| "You should have remained true to Bhaal, Melissan.  Only he could have saved "
-#| "you now."
 msgid ""
 "You should have remained true to Bhaal, Melissan. Only he could have saved "
 "you now."
@@ -3173,19 +3069,10 @@ msgstr ""
 "salvar ahora."
 
 #: finmel01.tra:594
-#, fuzzy
-#| msgid "Yeah, well, I suppose everyone has a dream.  Psycho."
 msgid "Yeah, well, I suppose everyone has a dream. Psycho."
 msgstr "Sí, bueno, supongo que todos tenemos un sueño. Psicópata."
 
 #: finmel01.tra:597
-#, fuzzy
-#| msgctxt "FINMEL25"
-#| msgid ""
-#| "Bah!  I should not be wasting time on you.  I still have to absorb the "
-#| "Bhaalspawn essences... and there is more than enough power in this plane to "
-#| "keep you busy.  Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> "
-#| "dares to oppose while I take what is mine!"
 msgctxt "FINMEL25"
 msgid ""
 "Bah! I should not be wasting time on you. I still have to absorb the "
@@ -3196,15 +3083,9 @@ msgstr ""
 "¡Bah! No debería perder el tiempo con vos. Todavía tengo que absorber las "
 "esencias de los Hijos de Bhaal... y hay poder más que suficiente en este "
 "plano para manteneros ocupado. ¡Irenicus... Imoen... mostradle a <CHARNAME> "
-"el poder al que él amenaza oponerse mientras yo tomo lo que es mío!"
+"el poder al que <PRO_HESHE> amenaza oponerse mientras yo tomo lo que es mío!"
 
 #: finmel01.tra:604
-#, fuzzy
-#| msgid ""
-#| "You do not believe in my power, I can see that much.  You have fought "
-#| "terrible foes in your past and have always managed to succeed.  Why... you "
-#| "leave a trail of felled opponents littered about even here in the Abyss.  "
-#| "Such as this one I found, discarded..."
 msgid ""
 "You do not believe in my power, I can see that much. You have fought "
 "terrible foes in your past and have always managed to succeed. Why... you "
@@ -3217,13 +3098,6 @@ msgstr ""
 "desechado..."
 
 #: finmel01.tra:605
-#, fuzzy
-#| msgid ""
-#| "True.  More insightful than I would have expected from you, <CHARNAME>.  And"
-#| " far more clever for you to have denied me Balthazar's essence... although, "
-#| "to tell the truth, I was secretly hoping for him to have defeated you.  "
-#| "Unlikely as that was, considering the pathetic monk could barely see the "
-#| "forest for the trees."
 msgid ""
 "True. More insightful than I would have expected from you, <CHARNAME>. And "
 "far more clever for you to have denied me Balthazar's essence... although, "
@@ -3232,47 +3106,35 @@ msgid ""
 "forest for the trees."
 msgstr ""
 "Cierto. Veo que os haces una idea mejor de lo que habría esperado de vos, "
-"<CHARNAME>. Y habéis sido aún más perspicaz por haberme negado la esencia de"
-" Balthazar... aunque, si os soy sincera, esperaba en el fondo que os "
+"<CHARNAME>. Y habéis sido aún más perspicaz por haberme negado la esencia de "
+"Balthazar... aunque, si os soy sincera, esperaba en el fondo que os "
 "derrotara. Aunque era improbable, considerando que a ese patético monje los "
 "árboles no le dejan ver el bosque."
 
 #: finmel01.tra:606
-#, fuzzy
-#| msgid ""
-#| "I am disappointed in you, <CHARNAME>.  So much bluster, so much force.  So "
-#| "much power and wisdom locked into such a fragile form.  I suppose you "
-#| "actually believe you have a hope in opposing me, in seizing the Throne for "
-#| "yourself.  Such delusions."
 msgid ""
 "I am disappointed in you, <CHARNAME>. So much bluster, so much force. So "
 "much power and wisdom locked into such a fragile form. I suppose you "
 "actually believe you have a hope in opposing me, in seizing the Throne for "
 "yourself. Such delusions."
 msgstr ""
-"Me habéis decepcionado, <CHARNAME>. Tanto alardeo, tanta fuerza. Tanto poder"
-" y sabiduría encerrados en un cuerpo tan frágil. De hecho, supongo que "
-"tenéis esperanzas de oponeros a mi, de conseguir el Trono para vos. Qué "
-"vanas ilusiones."
+"Me habéis decepcionado, <CHARNAME>. Tanto alardeo, tanta fuerza. Tanto poder "
+"y sabiduría encerrados en un cuerpo tan frágil. De hecho, supongo que tenéis "
+"esperanzas de oponeros a mi, de conseguir el Trono para vos. Qué vanas "
+"ilusiones."
 
 #: finmel01.tra:607
-#, fuzzy
-#| msgid ""
-#| "Irenicus, I believe you called him.  So easily culled as my own, since you "
-#| "abandoned him here recently... and such a valuable source of information on "
-#| "you, <CHARNAME>.  After all... I believe you did share a soul, once, no?  "
-#| "Say hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgid ""
 "Irenicus, I believe you called him. So easily culled as my own, since you "
 "abandoned him here recently... and such a valuable source of information on "
 "you, <CHARNAME>. After all... I believe you did share a soul, once, no? Say "
 "hello to the dear <PRO_MANWOMAN>, Irenicus."
 msgstr ""
-"Irenicus, creo que le llamábais. Qué fácilmente se ha pasado a nuestro lado,"
-" puesto que aquí le abandonásteis recientemente... y qué fuente inagotable "
-"de información sobre vos ha resultado ser, <CHARNAME>. Después de todo... "
-"creo que compartísteis un alma en una ocasión, ¿no es así? Saluda a nuestro "
-"querido hombre, Irenicus."
+"Irenicus, creo que le llamábais. Qué fácilmente se ha pasado a nuestro lado, "
+"puesto que aquí le abandonásteis recientemente... y qué fuente inagotable de "
+"información sobre vos ha resultado ser, <CHARNAME>. Después de todo... creo "
+"que compartísteis un alma en una ocasión, ¿no es así? Saluda a nuestro "
+"querido <PRO_MANWOMAN>, Irenicus."
 
 #: finmel01.tra:608
 msgid ""
@@ -3283,11 +3145,6 @@ msgstr ""
 "también os la puedo proporcionar."
 
 #: finmel01.tra:609
-#, fuzzy
-#| msgid ""
-#| "Come, Imoen.  I command the essence within you.  You are not ready to be "
-#| "here... and yet here you are.  Let's see just how much of my power is "
-#| "contained in your young little soul, hmm?"
 msgid ""
 "Come, Imoen. I command the essence within you. You are not ready to be "
 "here... and yet here you are. Let's see just how much of my power is "
@@ -3298,10 +3155,6 @@ msgstr ""
 "vuestra joven y pequeña alma, ¿hmm?"
 
 #: finmel01.tra:610
-#, fuzzy
-#| msgid ""
-#| "It seems you've misplaced your darling little Imoen, haven't you?  But her "
-#| "essence is easy enough to command.  Let's see what she has to say, shall we?"
 msgid ""
 "It seems you've misplaced your darling little Imoen, haven't you? But her "
 "essence is easy enough to command. Let's see what she has to say, shall we?"
@@ -3311,10 +3164,6 @@ msgstr ""
 "decir, ¿de acuerdo?"
 
 #: finmel01.tra:611
-#, fuzzy
-#| msgid ""
-#| "You don't have to go anywhere, little one.  I'm not calling you, after "
-#| "all... I'm merely coaxing forth your essence."
 msgid ""
 "You don't have to go anywhere, little one. I'm not calling you, after all..."
 " I'm merely coaxing forth your essence."
@@ -3323,10 +3172,6 @@ msgstr ""
 "de todo... simplemente estoy engatusando a vuestra esencia."
 
 #: finmel01.tra:612
-#, fuzzy
-#| msgid ""
-#| "There, there, Imoen.  I command the essence within you.  Let's see just how "
-#| "much of my power you have within you, yes?"
 msgid ""
 "There, there, Imoen. I command the essence within you. Let's see just how "
 "much of my power you have within you, yes?"
@@ -3335,11 +3180,6 @@ msgstr ""
 "mi poder hay en vos, ¿vale?"
 
 #: finmel01.tra:613
-#, fuzzy
-#| msgid ""
-#| "Ahhhh, Balthazar is here as well.  How clever to deny me his essence, "
-#| "<CHARNAME>.  Still blinded by your devotion to destiny, Balthazar?  Or have "
-#| "you abandoned your faith so quickly?"
 msgid ""
 "Ahhhh, Balthazar is here as well. How clever to deny me his essence, "
 "<CHARNAME>. Still blinded by your devotion to destiny, Balthazar? Or have "
@@ -3350,12 +3190,6 @@ msgstr ""
 "destino, Balthazar? ¿O tan rápidamente habéis perdido la fe?"
 
 #: finmel01.tra:614
-#, fuzzy
-#| msgid ""
-#| "Oh no?  Perhaps you do not understand.  This... this place, here, is the "
-#| "Source.  This is where the essence of all of Bhaal's children returns when "
-#| "they die, hidden away.  Did you never wonder, dear Balthazar, what killing "
-#| "all the other spawn of Bhaal was *for*?"
 msgid ""
 "Oh no? Perhaps you do not understand. This... this place, here, is the "
 "Source. This is where the essence of all of Bhaal's children returns when "
@@ -3368,61 +3202,40 @@ msgstr ""
 "matar a los demás Hijos de Bhaal?"
 
 #: finmel01.tra:615
-#, fuzzy
-#| msgid ""
-#| "And well you should not have, though you aided me regardless.  Bhaal may, "
-#| "indeed, be... somewhere.  But not here.  Here I have locked these essences "
-#| "away and drank heartily of their power.  The Source, the Throne, all are "
-#| "mine... and god-hood is but one simple step away."
 msgid ""
 "And well you should not have, though you aided me regardless. Bhaal may, "
 "indeed, be... somewhere. But not here. Here I have locked these essences "
 "away and drank heartily of their power. The Source, the Throne, all are "
 "mine... and god-hood is but one simple step away."
 msgstr ""
-"Y bien que no deberíais, aunque de todos modos me ayudásteis. Bhaal tal vez,"
-" de hecho, esté... en alguna parte. Pero no aquí. Aquí he encerrado todas "
+"Y bien que no deberíais, aunque de todos modos me ayudásteis. Bhaal tal vez, "
+"de hecho, esté... en alguna parte. Pero no aquí. Aquí he encerrado todas "
 "estas esencias y he bebido sedienta de su poder. La Fuente, el Trono, son "
 "míos... y estoy a un paso de la deidad."
 
 #: finmel01.tra:616
-#, fuzzy
-#| msgid ""
-#| "I was going to resurrect them anyway, to serve as my conquering avatars.  "
-#| "And I prefer them far better this way... completely servile, obeying every "
-#| "order without question."
 msgid ""
 "I was going to resurrect them anyway, to serve as my conquering avatars. And"
 " I prefer them far better this way... completely servile, obeying every "
 "order without question."
 msgstr ""
 "Iba a resucitarlos de todos modos, para ser mis avatares conquistadores. Y "
-"los prefiero de esta manera... completamente serviles, obedeciendo todas las"
-" órdenes sin preguntar."
+"los prefiero de esta manera... completamente serviles, obedeciendo todas las "
+"órdenes sin preguntar."
 
 #: finmel01.tra:617
-#, fuzzy
-#| msgid ""
-#| "And since you recruited Balthazar to your side, I've decided on the "
-#| "delicious irony of re-creating poor, pathetic Gromnir as well.  It delights "
-#| "me to no end to know that he was right about me all along... and yet it made"
-#| " no difference.  You murdered him still, as I knew you would."
 msgid ""
 "And since you recruited Balthazar to your side, I've decided on the "
 "delicious irony of re-creating poor, pathetic Gromnir as well. It delights "
 "me to no end to know that he was right about me all along... and yet it made"
 " no difference. You murdered him still, as I knew you would."
 msgstr ""
-"Y desde que reclutásteis a Balthazar, me he decidido por la deliciosa ironía"
-" de recrear al pobre y patético Gromnir también. Me alegra infinitamente "
+"Y desde que reclutásteis a Balthazar, me he decidido por la deliciosa ironía "
+"de recrear al pobre y patético Gromnir también. Me alegra infinitamente "
 "saber que tenía razón sobre mi desde el principio... sin que cambiara nada. "
 "Aun así lo mataste, como sabía que haríais."
 
 #: finmel01.tra:618
-#, fuzzy
-#| msgid ""
-#| "You should have kept your energies to yourself, Melissan.  Spending them on "
-#| "re-creating the Five will cost you... and cost you dearly."
 msgid ""
 "You should have kept your energies to yourself, Melissan. Spending them on "
 "re-creating the Five will cost you... and cost you dearly."
@@ -3431,10 +3244,6 @@ msgstr ""
 "haberlas gastado en recrear a los Cinco... y lo pagaréis caro."
 
 #: finmel01.tra:619
-#, fuzzy
-#| msgid ""
-#| "Perhaps.  But already I am immortal, which means I cannot be killed even by "
-#| "you.  And there is still more of your father's essence for me to take."
 msgid ""
 "Perhaps. But already I am immortal, which means I cannot be killed even by "
 "you. And there is still more of your father's essence for me to take."
@@ -3443,10 +3252,6 @@ msgstr ""
 "todavía queda más esencia de vuestro padre de la que adueñarme."
 
 #: finmel01.tra:620
-#, fuzzy
-#| msgid ""
-#| "They provided a considerable challenge for you individually, <CHARNAME>.  I "
-#| "wonder how you will fare against them all?"
 msgid ""
 "They provided a considerable challenge for you individually, <CHARNAME>. I "
 "wonder how you will fare against them all?"
@@ -3455,9 +3260,6 @@ msgstr ""
 "Me pregunto cómo os las arreglaréis contra todos ellos."
 
 #: finmel01.tra:621
-#, fuzzy
-#| msgid ""
-#| "So come, <CHARNAME>...kill your siblings once again.  If you can."
 msgid "So come, <CHARNAME>...kill your siblings once again. If you can."
 msgstr ""
 "Así que venid, <CHARNAME>... mata a vuestros hermanos otra vez. Si podéis."
@@ -3467,10 +3269,6 @@ msgid "There is enough essence, in fact, even for you... Sarevok."
 msgstr "Hay esencia suficiente, de hecho, hasta para vos... Sarevok."
 
 #: finmel01.tra:623
-#, fuzzy
-#| msgid ""
-#| "But... we don't have all your siblings accounted for just quite yet, do we?"
-#| "  Haven't you forgotten someone?"
 msgid ""
 "But... we don't have all your siblings accounted for just quite yet, do we? "
 "Haven't you forgotten someone?"
@@ -3479,25 +3277,16 @@ msgstr ""
 "olvidado de alguien?"
 
 #: finmel01.tra:624
-#, fuzzy
-#| msgid ""
-#| "Oh, but we do, Sarevok.  I made you an offer once before, and that offer "
-#| "still stands.  Join me now, abandon this pathetic whelp, and take your place"
-#| " at my side."
 msgid ""
 "Oh, but we do, Sarevok. I made you an offer once before, and that offer "
 "still stands. Join me now, abandon this pathetic whelp, and take your place "
 "at my side."
 msgstr ""
-"Oh, si que están, Sarevok. Os hice una oferta hace tiempo, y la oferta sigue"
-" en pie. Uníos a mi ahora, abandonad a este patético cachorro, y ocupad "
+"Oh, si que están, Sarevok. Os hice una oferta hace tiempo, y la oferta sigue "
+"en pie. Uníos a mi ahora, abandonad a este patético cachorro, y ocupad "
 "vuestro lugar a mi lado."
 
 #: finmel01.tra:625
-#, fuzzy
-#| msgid ""
-#| "The geas the fool placed on your heart is nothing.  I could easily remove "
-#| "it.  In fact, I do so now.  There... act as you will."
 msgid ""
 "The geas the fool placed on your heart is nothing. I could easily remove it."
 " In fact, I do so now. There... act as you will."
@@ -3507,12 +3296,6 @@ msgstr ""
 "haz lo que quieras."
 
 #: finmel01.tra:626
-#, fuzzy
-#| msgid ""
-#| "Perhaps.  But you are a great warrior... and could be a fine general to lead"
-#| " my earthly armies.  Power, riches, respect... all you desire.  Including "
-#| "the return of the Bhaalspawn essence you lost.  Come, Sarevok... be the "
-#| "demon you once were.  Serve me."
 msgid ""
 "Perhaps. But you are a great warrior... and could be a fine general to lead "
 "my earthly armies. Power, riches, respect... all you desire. Including the "
@@ -3525,35 +3308,22 @@ msgstr ""
 "Vamos, Sarevok... sed el demonio que fuísteis una vez. Poneos a mi servicio."
 
 #: finmel01.tra:627
-#, fuzzy
-#| msgid ""
-#| "Then fight for me you shall!  And your first victim will be the "
-#| "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgid ""
 "Then fight for me you shall! And your first victim will be the "
 "<PRO_BROTHERSISTER> upon whom vengeance is so richly deserved!"
 msgstr ""
-"¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestro hermano, "
-"¡qué tan merecida tiene la venganza!"
+"¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestro "
+"<PRO_BROTHERSISTER>, ¡qué tan merecida tiene la venganza!"
 
 #: finmel01.tra:628
-#, fuzzy
-#| msgid ""
-#| "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish!  The Five"
-#| " shall be the end of you both!"
 msgid ""
 "Then die with your fool <PRO_BROTHERSISTER>, if that is your wish! The Five "
 "shall be the end of you both!"
 msgstr ""
-"¡Entonces morid con el estúpido de vuestro hermano, si eso es lo que "
-"queréis! ¡Los Cinco acabarán con vosotros dos!"
+"¡Entonces morid con el estúpido de vuestro <PRO_BROTHERSISTER>, si eso es lo "
+"que queréis! ¡Los Cinco acabarán con vosotros dos!"
 
 #: finmel01.tra:629
-#, fuzzy
-#| msgid ""
-#| "I brought you here, Sarevok.  To give you a second chance.  Join me and "
-#| "fight against <CHARNAME> and I will return the power you lost, the power you"
-#| " crave so much.  I will make you the man you once were."
 msgid ""
 "I brought you here, Sarevok. To give you a second chance. Join me and fight "
 "against <CHARNAME> and I will return the power you lost, the power you crave"
@@ -3564,10 +3334,6 @@ msgstr ""
 "que tanto ansíais. Os convertiré en el hombre que fuísteis."
 
 #: finmel01.tra:630
-#, fuzzy
-#| msgid ""
-#| "What--?  Mortal!  No, it can't be!  I am nearly mortal once again!  I have "
-#| "lost too much power!  You shall pay for this!!"
 msgid ""
 "What? Mortal! No, it can't be! I am nearly mortal once again! I have lost "
 "too much power! You shall pay for this!"
@@ -3576,29 +3342,20 @@ msgstr ""
 "perdido demasiado poder! ¡Pagaréis por esto!"
 
 #: finsarev.tra:26
-#, fuzzy
-#| msgid ""
-#| "Who--?  Melissan.  And <CHARNAME>, no less.  And to think that I had "
-#| "resigned myself to not being a part of this little play.  Who brought me "
-#| "here?  And why am I in my old armor?"
 msgid ""
 "Who? Melissan. And <CHARNAME>, no less. And to think that I had resigned "
 "myself to not being a part of this little play. Who brought me here? And why"
 " am I in my old armor?"
 msgstr ""
-"¿Quién..? Melissan. Y <CHARNAME>, nada menos. Y pensar que me había "
-"resignado a no formar parte de este pequeño juego. ¿Quién me trajo aquí?  ¿Y"
-" por qué llevo mi vieja armadura?"
+"¿Quién? Melissan. Y <CHARNAME>, nada menos. Y pensar que me había resignado "
+"a no formar parte de este pequeño juego. ¿Quién me trajo aquí? ¿Y por qué "
+"llevo mi vieja armadura?"
 
 #: finsarev.tra:27
-#, fuzzy
-#| msgid "Fight <CHARNAME>?  Aye... I will do that."
 msgid "Fight <CHARNAME>? Aye... I will do that."
 msgstr "¿Luchar contra <CHARNAME>? Sí... lo haré."
 
 #: finsarev.tra:28
-#, fuzzy
-#| msgid "So you die again, as well.  It's all good."
 msgid "So you die again, as well. It's all good."
 msgstr "Así que morís otra vez, también. Perfecto."
 
@@ -3607,19 +3364,12 @@ msgid "You're a fool, Sarevok, if you think you'll make any difference."
 msgstr "Sois un estúpido, Sarevok, si creéis que cambiaréis algo."
 
 #: finsarev.tra:30
-#, fuzzy
-#| msgid ""
-#| "You're willing to become Melissan's servant, now?  I'm disappointed."
 msgid "You're willing to become Melissan's servant, now? I'm disappointed."
 msgstr ""
 "¿Ahora deseáis voluntariamente convertiros en un sirviente de Melissan? Me "
 "decepcionáis."
 
 #: finsarev.tra:31
-#, fuzzy
-#| msgid ""
-#| "Then you'll die.  I gave you life again, and I can take it away... for the "
-#| "third time."
 msgid ""
 "Then you'll die. I gave you life again, and I can take it away... for the "
 "third time."
@@ -3628,11 +3378,6 @@ msgstr ""
 "tercera vez."
 
 #: finsarev.tra:32
-#, fuzzy
-#| msgid ""
-#| "It is true.  I may die again at your hand, <CHARNAME>.  But better that than"
-#| " sit in your shadow and taste the bile in my heart while you take what was "
-#| "once rightfully mine.  Better to fight for Melissan than suffer that."
 msgid ""
 "It is true. I may die again at your hand, <CHARNAME>. But better that than "
 "sit in your shadow and taste the bile in my heart while you take what was "
@@ -3644,11 +3389,6 @@ msgstr ""
 "sufrir eso."
 
 #: finsol01.tra:580
-#, fuzzy
-#| msgid ""
-#| "Only one other spawn of the dead god remains... the sibling who fought at "
-#| "your side.  His portion of the essence is less than your own, but still "
-#| "significant.  His choice must also be made."
 msgid ""
 "Only one other spawn of the dead god remains... the sibling who fought at "
 "your side. His portion of the essence is less than your own, but still "
@@ -3660,27 +3400,16 @@ msgstr ""
 "también."
 
 #: finsol01.tra:581
-#, fuzzy
-#| msgid ""
-#| "First, however, there is the matter of the children of the dead god who "
-#| "fought by your side.  Their essences are less than your own, but their "
-#| "decision no less important."
 msgid ""
 "First, however, there is the matter of the children of the dead god who "
 "fought by your side. Their essences are less than your own, but their "
 "decision no less important."
 msgstr ""
-"Primero, sin embargo, está el asunto de la hija del dios muerto que combate "
-"a vuestro lado. Sus esencias son menores que las que vos poseéis, pero su "
-"decisión no es menos importante."
+"Primero, sin embargo, está el asunto de los hijos del dios muerto que "
+"combate a vuestro lado. Sus esencias son menores que las que vos poseéis, "
+"pero su decisión no es menos importante."
 
 #: finsol01.tra:582
-#, fuzzy
-#| msgid ""
-#| "I am merely an agent of the universe in this matter, Balthazar.  I am "
-#| "charged to see the destiny of the children of Bhaal brought to its "
-#| "conclusion.  You have an opportunity that few are given.  You may choose "
-#| "your destiny... a choice you thought yourself forever denied."
 msgid ""
 "I am merely an agent of the universe in this matter, Balthazar. I am charged"
 " to see the destiny of the children of Bhaal brought to its conclusion. You "
@@ -3693,25 +3422,16 @@ msgstr ""
 "elegir vuestro destino... una elección que siempre creísteis denegada."
 
 #: finsol01.tra:583
-#, fuzzy
-#| msgid ""
-#| "If that is your choice, you may surrender the portion of your divine essence"
-#| " to your elder sibling.  You may become a normal mortal, with a destiny to "
-#| "follow as you see fit."
 msgid ""
 "If that is your choice, you may surrender the portion of your divine essence"
 " to your elder sibling. You may become a normal mortal, with a destiny to "
 "follow as you see fit."
 msgstr ""
-"Si esa es vuestra elección, debéis rendir la parte de vuestra esencia divina"
-" a vuestro hermano mayor. Podréis convertiros en un mortal normal, con un "
+"Si esa es vuestra elección, debéis rendir la parte de vuestra esencia divina "
+"a vuestro hermano mayor. Podréis convertiros en un mortal normal, con un "
 "destino a seguir como el que vos dáis por cierto."
 
 #: finsol01.tra:584
-#, fuzzy
-#| msgid ""
-#| "As you wish, Balthazar, so it is done.  Go in peace, and know that in the "
-#| "end you walked that narrow path which had ever eluded you."
 msgid ""
 "As you wish, Balthazar, so it is done. Go in peace, and know that in the end"
 " you walked that narrow path which had ever eluded you."
@@ -3725,13 +3445,6 @@ msgstr ""
 "Ahora es así, pero otro hermano también tiene que realizar su elección."
 
 #: finsol01.tra:586
-#, fuzzy
-#| msgid ""
-#| "While it fills me with distaste that you would even bring such a creature of"
-#| " evil before me, god-child, you must remember that in this place an oath is "
-#| "worth more than the words with which it is spoken.  You are no god yet... "
-#| "and while I would rather destroy this undead thing, it now falls on me to "
-#| "enforce the promise you have made."
 msgid ""
 "While it fills me with distaste that you would even bring such a creature of"
 " evil before me, god-child, you must remember that in this place an oath is "
@@ -3740,64 +3453,42 @@ msgid ""
 "enforce the promise you have made."
 msgstr ""
 "Me disgusta ver que habéis traido a mi presencia a semejante criatura "
-"maligna, hijo de dios, debéis recordar que en este lugar un juramento es más"
-" importante que las palabras con las que es nombrado. Vos no sois un dios "
+"maligna, hijo de dios, debéis recordar que en este lugar un juramento es más "
+"importante que las palabras con las que es nombrado. Vos no sois un dios "
 "todavía... y mientras yo destruiría esta cosa no muerta. Ahora cae sobre mi "
 "el forzar la promesa que habéis hecho."
 
 #: imoen25j.tra:476 imoen25p.tra:476
-#, fuzzy
-#| msgid ""
-#| "I'm not going anywhere with you!  And nobody's touching my soul!  Not "
-#| "again!!"
 msgid ""
 "I'm not going anywhere with you! And nobody's touching my soul! Not again!"
 msgstr "¡Yo no voy a ningún lugar con vos! ¡Y nadie toca mi alma! ¡Nunca más!"
 
 #: imoen25p.tra:470
-#, fuzzy
-#| msgctxt "IMOEN18"
-#| msgid ""
-#| "Nnngh!  Ah, it hurts!  <CHARNAME>, stop her... it... it hurts!!"
 msgctxt "IMOEN18"
 msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr "¡Nnngh! ¡Ah, duele! ¡<CHARNAME>, paradla... me... me lastima!"
 
 #: imoen25p.tra:471
-#, fuzzy
-#| msgid "What are you doing to her?!  Stop it, I demand it!!"
 msgid "What are you doing to her?! Stop it, I demand it!"
 msgstr "¡¿Qué la estáis haciendo?! ¡Parad, os lo ordeno!"
 
 #: imoen25p.tra:472
-#, fuzzy
-#| msgid "I'm the one you're after, Melissan!  Leave her alone!!"
 msgid "I'm the one you're after, Melissan! Leave her alone!"
 msgstr "¡Yo soy lo mismo que vos seréis después, Melissan! ¡Dejadla sola!"
 
 #: imoen25p.tra:473
-#, fuzzy
-#| msgid "Pull yourself together, Imoen!  Attack!!"
 msgid "Pull yourself together, Imoen! Attack!"
 msgstr "¡Vamos juntos, Imoen! ¡Atacad!"
 
 #: imoen25p.tra:474
-#, fuzzy
-#| msgid "So what do I care about Imoen?  Kill her, Melissan."
 msgid "So what do I care about Imoen? Kill her, Melissan."
 msgstr "¿Qué me importa Imoen? Matadla, Melissan."
 
 #: imoen25p.tra:475
-#, fuzzy
-#| msgid "Wh-what... where am I?  What's going on?  <CHARNAME>?"
 msgid "Wh-what... where am I? What's going on? <CHARNAME>?"
 msgstr "¿Qu-qué... dónde estoy? ¿Qué ocurre? ¿<CHARNAME>?"
 
 #: imoen25p.tra:477
-#, fuzzy
-#| msgid ""
-#| "It... it's gone... I'm human again.  Ohhhh, now I know what you went "
-#| "through, <CHARNAME>!  I don't know if I ever want to go through that again!"
 msgid ""
 "It... it's gone... I'm human again. Ohhhh, now I know what you went through,"
 " <CHARNAME>! I don't know if I ever want to go through that again!"
@@ -3806,25 +3497,18 @@ msgstr ""
 "pasásteis, <CHARNAME>! ¡No se si quisiera pasar de nuevo por esto!"
 
 #: imoen25p.tra:478
-#, fuzzy
-#| msgid ""
-#| "And I can't believe what you said, either!  'Go ahead and kill her'?  After "
-#| "all we've been through, that's what you say in my defense?!"
 msgid ""
 "And I can't believe what you said, either! 'Go ahead and kill her'? After "
 "all we've been through, that's what you say in my defense?!"
 msgstr ""
-"¡Y no puedo creer lo que estáis diciendo! ¿'Continuad y matadla'? Después de"
-" todo lo que hemos pasado, ¡¿eso es lo que tenéis que decir en mi defensa?!"
+"¡Y no puedo creer lo que estáis diciendo! ¿'Continuad y matadla'? Después de "
+"todo lo que hemos pasado, ¡¿eso es lo que tenéis que decir en mi defensa?!"
 
 #: imoen25p.tra:479
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
 msgstr "¡Yo estaba intentando convencer a Melissan para que os dejara, Imoen!"
 
 #: imoen25p.tra:480
-#, fuzzy
-#| msgid ""
-#| "Get over yourself, little girl.  I never asked you to come, did I?"
 msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr "Superadlo, chiquilla. Nunca os pedí que viniérais, ¿No?"
 
