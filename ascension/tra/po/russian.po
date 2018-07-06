@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-07-05 19:22+0000\n"
-"Last-Translator: Magus <magus@bgforge.net>\n"
+"PO-Revision-Date: 2018-07-06 10:52+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Бабау"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr "Превратить в мышь"
+msgstr "Превратиться в мышь"
 
 #: ascension.tra:1006
 msgid "Shockwave"
