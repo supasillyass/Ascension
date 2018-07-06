@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-07-06 10:53+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2018-07-06 11:22+0000\n"
+"Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "Бабау"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr "Превращение в летучую мышь"
+msgstr "Превращение в Летучую Мышь"
 
 #: ascension.tra:1006
 msgid "Shockwave"
@@ -93,7 +93,7 @@ msgstr "Лавовая бомба"
 
 #: ascension.tra:1031
 msgid "Symbol Slow"
-msgstr "Символ замедления"
+msgstr "Символ Замедления"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
@@ -4652,6 +4652,17 @@ msgid ""
 "image, and his bloodlust is now called a crusade. History, it seems, prefers"
 " heroes to madmen."
 msgstr ""
+"Хотя Кризис потомков Баала прошел, Корган Кровавый Топор продолжил жить "
+"жизнью, настолько полной насилием, насколько ему удавалось. Он получил "
+"контроль над целым кланом дварфов, секретно убив их лидера, чтобы направить "
+"их месть на цель, которую он выбрал. Он мог бы уйти на покой в роскоши, но "
+"его жажда крови была безмерна, и он поразил Королевства, вторгшись в "
+"Подземье. Слепая ярость его клана захватила врасплох даже дроу, но пытаться "
+"держать территорию в доме темных эльфов было безнадежной затеей. В последний "
+"раз Коргана видели погружающим топор в глотку высокой жрицы Лолс, и "
+"смеящимся при этом. Легенды дварфов обессмертили образ, и его кровожадность "
+"теперь зовется крестовым походом. История, похоже, предпочитает героев "
+"безумцам."
 
 #: shawnesepilogues.tra:4014
 msgid ""
