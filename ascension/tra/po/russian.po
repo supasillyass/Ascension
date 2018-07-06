@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
 "PO-Revision-Date: 2018-07-06 10:53+0000\n"
-"Last-Translator: Magus <magus@bgforge.net>\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "Лавовая бомба"
 
 #: ascension.tra:1031
 msgid "Symbol Slow"
-msgstr "Символ Замедлить"
+msgstr "Символ замедления"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
