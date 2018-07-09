@@ -4498,6 +4498,16 @@ msgstr "Ta modyfikacja wymaga uprzedniego zainstalowania BG2: ToB lub BG2:EE."
 msgid "Cannot install without Ascension main component."
 msgstr "Nie można zainstalować bez uprzedniej instalacji komponentu głównego."
 
+#: setup.tra:1003
+#, fuzzy
+#| msgid ""
+#| "You must have ToB installed or use Enhanced Edition to install the Ascension"
+#| " mod."
+msgid ""
+"You must have BG2Fixpack installed or use Enhanced Edition to install this "
+"version of the Ascension mod."
+msgstr "Ta modyfikacja wymaga uprzedniego zainstalowania BG2: ToB lub BG2:EE."
+
 #: setup.tra:2100
 msgid "Tougher Abazigal"
 msgstr "Silniejszy Abazigal"

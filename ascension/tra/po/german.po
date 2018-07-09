@@ -6385,6 +6385,12 @@ msgstr ""
 msgid "Cannot install without Ascension main component."
 msgstr ""
 
+#: setup.tra:1003
+msgid ""
+"You must have BG2Fixpack installed or use Enhanced Edition to install this "
+"version of the Ascension mod."
+msgstr ""
+
 #: setup.tra:2100
 msgid "Tougher Abazigal"
 msgstr ""
