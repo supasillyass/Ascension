@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-06-28 08:22+0000\n"
+"PO-Revision-Date: 2018-08-05 13:23+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: spanish\n"
@@ -3502,20 +3502,12 @@ msgid "Get over yourself, little girl. I never asked you to come, did I?"
 msgstr "Superadlo, chiquilla. Nunca os pedí que viniérais, ¿No?"
 
 #: imoen25p.tra:481
-#, fuzzy
-#| msgid ""
-#| "We don't have time for this chat, Imoen!  This is the middle of a fight!"
 msgid ""
 "We don't have time for this chat, Imoen! This is the middle of a fight!"
 msgstr ""
 "¡No tenemos tiempo para esta charla, Imoen! ¡Esto es el centro de una pelea!"
 
 #: imoen25p.tra:482
-#, fuzzy
-#| msgid ""
-#| "Well... I suppose.  You convinced me more than her, obviously.  I... I'm "
-#| "just glad I didn't do more damage as the slayer.  I don't know how you "
-#| "handled it.  Thank you for... for not killing me."
 msgid ""
 "Well... I suppose. You convinced me more than her, obviously. I... I'm just "
 "glad I didn't do more damage as the slayer. I don't know how you handled it."
@@ -3526,26 +3518,16 @@ msgstr ""
 "controlas. Gracias por... por no matarme."
 
 #: imoen25p.tra:483
-#, fuzzy
-#| msgid ""
-#| "I... I can't stay here, though.  This is way out of my league.  I wish you "
-#| "well, <CHARNAME>, and I hope I'll see you again.  Maybe back at Candlekeep, "
-#| "huh?  Anyway... good luck..."
 msgid ""
 "I... I can't stay here, though. This is way out of my league. I wish you "
 "well, <CHARNAME>, and I hope I'll see you again. Maybe back at Candlekeep, "
 "huh? Anyway... good luck..."
 msgstr ""
 "No... no puedo estar aqui. Éste es un camino de salida de mi alianza. Deseo "
-"vuestro bien, <CHARNAME>, y espero volver a veros otra vez. Tal vez vuelva a"
-" Candelero, ¿huh? De todas modos... buena suerte..."
+"vuestro bien, <CHARNAME>, y espero volver a veros otra vez. Tal vez vuelva a "
+"Candelero, ¿huh? De todas modos... buena suerte..."
 
 #: imoen25p.tra:484
-#, fuzzy
-#| msgid ""
-#| "Do you need me to join back up with you?  I could... leave the Throne, I "
-#| "think... I think I have that power, now, same as you.  But I'll fight by "
-#| "your side again, if you want me to."
 msgid ""
 "Do you need me to join back up with you? I could... leave the Throne, I "
 "think... I think I have that power, now, same as you. But I'll fight by your"
@@ -3556,16 +3538,6 @@ msgstr ""
 "junto a vos de nuevo, si vos lo queréis."
 
 #: imoen25p.tra:485
-#, fuzzy
-#| msgid ""
-#| "Imoen Has Survived\n"
-#| "\n"
-#| "Imoen managed to survive Melissan's attempt to force her into berserk Slayer form.  It seems that in doing so, Imoen has had her own progress in the taint advanced considerably.  She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.\n"
-#| "\n"
-#| "Ethereal\n"
-#| "-------------\n"
-#| "Imoen is now able to enter the Ethereal Plane for brief periods of time.  The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well.  Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm.  During that round, she also cannot cast spells or use abilities.\n"
-#| "For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane.  She is still invisible, but takes half damage from all sources.  In this state, there is a small chance (10%) that she will miscast a spell.  For all three rounds, she is able to see any invisible targets."
 msgid ""
 "Imoen Has Survived\n"
 "\n"
@@ -3578,16 +3550,28 @@ msgid ""
 msgstr ""
 "Imoen ha sobrevivido\n"
 "\n"
-"Imoen logró sobrevivir a la tentativa de Melissan de convertirla en una forma de frenética Asesina. Parece ser que, Imoen ha tenido sus propios pogresos en un defecto considerablemente deserrollado. Ella ahora no sólo puede convertirse en la misma forma de Asesino que yo comencé a convertirme en la Prisión del Hechicero... si no que también ha adquirido la habilidad de ser Etérea durante cortos periodos de tiempo.\n"
+"Imoen logró sobrevivir a la tentativa de Melissan de convertirla en una "
+"forma de frenética Asesina. Parece ser que, Imoen ha tenido sus propios "
+"pogresos en un defecto considerablemente deserrollado. Ella ahora no sólo "
+"puede convertirse en la misma forma de Asesino que yo comencé a convertirme "
+"en la Prisión del Hechicero... si no que también ha adquirido la habilidad "
+"de ser Etérea durante cortos periodos de tiempo.\n"
 "\n"
 "Etéreo\n"
 "-------------\n"
-"Imoen puede ahora entrar en el Plano Etéreo por cortos periodos de tiempo. La habilidad puede ser usada una vez por minuto, y su uso también la previene de asumir la forma del Asesino durante un minuto. Imoen puede permanecer etérea e intocable a las fuerzas de este plano durante todo un turno... durante el cual es invisible y completamente inmune al daño. Durante ese turno, ella tampoco puede lanzar conjuros o usar habilidades.\n"
-"Durante los dos turnos posteriores, Imoen puede permanecer 'en semi-fase'... ella es parcialmente en el plano etéreo y parcialmente en este plano. Es aún invisible, pero recibe la mitad de daño de cualquier origen. En este estado, hay una pequeña probabilidad (10%) de que calcule mal un conjuro. Durante tres turnos, ella puede ver objetivos invisibles."
+"Imoen puede ahora entrar en el Plano Etéreo por cortos periodos de tiempo. "
+"La habilidad puede ser usada una vez por minuto, y su uso también la "
+"previene de asumir la forma del Asesino durante un minuto. Imoen puede "
+"permanecer etérea e intocable a las fuerzas de este plano durante todo un "
+"turno... durante el cual es invisible y completamente inmune al daño. "
+"Durante ese turno, ella tampoco puede lanzar conjuros o usar habilidades.\n"
+"Durante los dos turnos posteriores, Imoen puede permanecer 'en semi-fase'... "
+"ella es parcialmente en el plano etéreo y parcialmente en este plano. Es aún "
+"invisible, pero recibe la mitad de daño de cualquier origen. En este estado, "
+"hay una pequeña probabilidad (10%) de que calcule mal un conjuro. Durante "
+"tres turnos, ella puede ver objetivos invisibles."
 
 #: imoen25p.tra:486
-#, fuzzy
-#| msgid "Sure.  Let's join up again."
 msgid "Sure. Let's join up again."
 msgstr "Seguro. Dejadla unirse de nuevo."
 
@@ -3596,10 +3580,6 @@ msgid "No... get out of here while you can, Imoen."
 msgstr "No... salid de aqui mientras podáis, Imoen."
 
 #: imoen25p.tra:488
-#, fuzzy
-#| msgid ""
-#| "I wish you well, <CHARNAME>, and I hope I'll see you again.  Maybe back at "
-#| "Candlekeep, huh?  Anyway... good luck..."
 msgid ""
 "I wish you well, <CHARNAME>, and I hope I'll see you again. Maybe back at "
 "Candlekeep, huh? Anyway... good luck..."
@@ -3608,23 +3588,14 @@ msgstr ""
 "Candelero, ¿huh? De cualquier forma... buena suerte..."
 
 #: imoen25p.tra:489
-#, fuzzy
-#| msgid ""
-#| "Yeah, right.  You do whatever you have to, <CHARNAME>.  Me... I'm getting as"
-#| " far away from here as possible.  Good-bye!"
 msgid ""
 "Yeah, right. You do whatever you have to, <CHARNAME>. Me... I'm getting as "
 "far away from here as possible. Good-bye!"
 msgstr ""
-"Sí, de acuerdo. Haced lo que sea que tengáis que hacer, <CHARNAME>. Yo... me"
-" alejaré de aquí tanto como me sea posible. ¡Adiós!"
+"Sí, de acuerdo. Haced lo que sea que tengáis que hacer, <CHARNAME>. Yo... me "
+"alejaré de aquí tanto como me sea posible. ¡Adiós!"
 
 #: imoen25p.tra:490
-#, fuzzy
-#| msgid ""
-#| "Nope, you sure didn't.  Thanks for nothing, I guess.  You do whatever you "
-#| "have to, <CHARNAME>.  Me... I'm getting as far away from here as possible.  "
-#| "Good-bye!"
 msgid ""
 "Nope, you sure didn't. Thanks for nothing, I guess. You do whatever you have"
 " to, <CHARNAME>. Me... I'm getting as far away from here as possible. Good-"
@@ -3635,26 +3606,16 @@ msgstr ""
 "posible. ¡Adios!"
 
 #: imoen25p.tra:491
-#, fuzzy
-#| msgid ""
-#| "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
-#| "just don't know how you handled it back in Spellhold.  Thank you for... not "
-#| "killing me, okay?"
 msgid ""
 "I'm... just glad I didn't do anything worse while I was... when I... oh, I "
 "just don't know how you handled it back in Spellhold. Thank you for... not "
 "killing me, okay?"
 msgstr ""
 "Estoy... contenta, no hice nada peor mientras estuve... cuando yo... oh, yo "
-"no se como lo manejásteis conteniéndolo en la Prisión del Hechicero. Gracias"
-" por... no matarme, ¿vale?"
+"no se como lo manejásteis conteniéndolo en la Prisión del Hechicero. Gracias "
+"por... no matarme, ¿vale?"
 
 #: imoen25p.tra:492
-#, fuzzy
-#| msgid ""
-#| "Oh, so it is!  Do you need me back in the party?  I could... leave the "
-#| "Throne, I think... I think I have that power, now, same as you.  But I'll "
-#| "fight by your side again, if you want me to."
 msgid ""
 "Oh, so it is! Do you need me back in the party? I could... leave the Throne,"
 " I think... I think I have that power, now, same as you. But I'll fight by "
@@ -3665,49 +3626,32 @@ msgstr ""
 "lucharé junto a vos de nuevo, si me queréis para ello."
 
 #: imoen25p.tra:493
-#, fuzzy
-#| msgid ""
-#| "I see the fight's still going on.  Do you need me back in the party?  I "
-#| "could... leave the Throne, I think... I think I have that power, now, same "
-#| "as you.  But I'd like to see this through, same as you."
 msgid ""
 "I see the fight's still going on. Do you need me back in the party? I "
 "could... leave the Throne, I think... I think I have that power, now, same "
 "as you. But I'd like to see this through, same as you."
 msgstr ""
 "Veo que la batalla todavía continúa. ¿Me necesitáis de nuevo en el grupo? "
-"Podría... podría dejar el Trono, creo... creo que tengo ese poder, ahora, al"
-" igual que vos. Pero me gustaría ver esto hasta el final, como vos."
+"Podría... podría dejar el Trono, creo... creo que tengo ese poder, ahora, al "
+"igual que vos. Pero me gustaría ver esto hasta el final, como vos."
 
 #: imoen25p.tra:494
-#, fuzzy
-#| msgid ""
-#| "Stop distracting me in the middle of combat, already!  Get back in the "
-#| "party!"
 msgid ""
 "Stop distracting me in the middle of combat, already! Get back in the party!"
 msgstr "¡Dejad ya de distraerme en medio de la batalla! ¡Volved al grupo!"
 
 #: imoen25p.tra:495
-#, fuzzy
-#| msgid ""
-#| "Yes <PRO_SIRMAAM>!  (giggle!)  Time to kick a certain someone's butt, right?"
 msgid ""
 "Yes <PRO_SIRMAAM>! (giggle!) Time to kick a certain someone's butt, right?"
 msgstr ""
-"¡Si señor! (risa nerviosa) ¿Es tiempo de patear el culo de alguien, cierto?"
+"¡Si <PRO_SIRMAAM>! (risa nerviosa) ¿Es tiempo de patear el culo de alguien, "
+"cierto?"
 
 #: irenic2.tra:435
-#, fuzzy
-#| msgid "Indeed.  We meet once again."
 msgid "Indeed. We meet once again."
 msgstr "Por supuesto. Nos encontraremos otra vez."
 
 #: irenic2.tra:436
-#, fuzzy
-#| msgid ""
-#| "That's okay.  If Sarevok can turn up like a bad penny, then you're allowed "
-#| "to, as well."
 msgid ""
 "That's okay. If Sarevok can turn up like a bad penny, then you're allowed "
 "to, as well."
@@ -3716,10 +3660,6 @@ msgstr ""
 "entonces vos también tenéis permiso."
 
 #: irenic2.tra:437
-#, fuzzy
-#| msgid ""
-#| "You told her how to influence me, didn't you?  And you told her I was in "
-#| "Suldanessalar."
 msgid ""
 "You told her how to influence me, didn't you? And you told her I was in "
 "Suldanessalar."
@@ -3728,10 +3668,6 @@ msgstr ""
 "Suldanessalar."
 
 #: irenic2.tra:438
-#, fuzzy
-#| msgid ""
-#| "You're a pathetic excuse for an elf, Irenicus.  If you wish to die again, "
-#| "I'll happily oblige."
 msgid ""
 "You're a pathetic excuse for an elf, Irenicus. If you wish to die again, "
 "I'll happily oblige."
@@ -3740,43 +3676,27 @@ msgstr ""
 "os lo concederé encantado."
 
 #: irenic2.tra:439
-#, fuzzy
-#| msgid ""
-#| "You're collecting my leavings, Melissan?  How very sad for you."
 msgid "You're collecting my leavings, Melissan? How very sad for you."
 msgstr ""
 "¿Estáis coleccionando mis sobras, Melissan? Que triste por vuestra parte."
 
 #: irenic2.tra:440
-#, fuzzy
-#| msgid ""
-#| "So, <CHARNAME>...it is now just you and I, once again.  At odds in the "
-#| "bowels of Hell and preparing to do combat.  How very fitting."
 msgid ""
 "So, <CHARNAME>...it is now just you and I, once again. At odds in the bowels"
 " of Hell and preparing to do combat. How very fitting."
 msgstr ""
-"Entonces, <CHARNAME>... esto es ahora, una vez más, entre vos y yo. Peleando"
-" en las entrañas del infierno y preparándonos para el combate. Que "
-"apropiado."
+"Entonces, <CHARNAME>... esto es ahora, una vez más, entre vos y yo. Peleando "
+"en las entrañas del infierno y preparándonos para el combate. Que apropiado."
 
 #: irenic2.tra:441
-#, fuzzy
-#| msgid ""
-#| "This fight is mine, Irenicus.  While you stewed in Hell, my power has "
-#| "multiplied."
 msgid ""
 "This fight is mine, Irenicus. While you stewed in Hell, my power has "
 "multiplied."
 msgstr ""
-"Váis a perder, Irenicus. Mientras vos ardíais en el infierno, mi poder se ha"
-" multiplicado."
+"Váis a perder, Irenicus. Mientras vos ardíais en el infierno, mi poder se ha "
+"multiplicado."
 
 #: irenic2.tra:442
-#, fuzzy
-#| msgid ""
-#| "You actually think you'll stop me?  It appears your delusions have survived "
-#| "the many beatings at my hand."
 msgid ""
 "You actually think you'll stop me? It appears your delusions have survived "
 "the many beatings at my hand."
@@ -3785,46 +3705,27 @@ msgstr ""
 "sobrevivido a todos los golpes que habéis recibido de mi."
 
 #: irenic2.tra:443
-#, fuzzy
-#| msgid ""
-#| "So you're actually willing to serve as Melissan's little lackey?  I would "
-#| "expect more from the great elven magician.  Ellesime would be sad to see you"
-#| " reduced to this."
 msgid ""
 "So you're actually willing to serve as Melissan's little lackey? I would "
 "expect more from the great elven magician. Ellesime would be sad to see you "
 "reduced to this."
 msgstr ""
 "¿Entonces verdaderamente estáis a gusto sirviendo como un pequeño lacayo de "
-"Melissan? Hubiera esperado más del gran mago elfo. Ellesime estaría afligida"
-" de veros reducido a esto."
+"Melissan? Hubiera esperado más del gran mago elfo. Ellesime estaría afligida "
+"de veros reducido a esto."
 
 #: irenic2.tra:444
-#, fuzzy
-#| msgid ""
-#| "Don't you ever tire of that bravado?  Haven't you received enough spankings "
-#| "upon my knee?"
 msgid ""
 "Don't you ever tire of that bravado? Haven't you received enough spankings "
 "upon my knee?"
 msgstr ""
-"¿No os cansáis nunca de fanfarronear? ¿No habéis recibido suficientes "
-"golpes?"
+"¿No os cansáis nunca de fanfarronear? ¿No habéis recibido suficientes golpes?"
 
 #: irenic2.tra:445
-#, fuzzy
-#| msgid ""
-#| "You won't stop me, Irenicus.  Nobody can.  My destiny is at hand."
 msgid "You won't stop me, Irenicus. Nobody can. My destiny is at hand."
 msgstr "No podéis pararme, Irenicus. Nadie puede. Mi destino esta cerca."
 
 #: irenic2.tra:446
-#, fuzzy
-#| msgid ""
-#| "It appears you have been the beneficiary of low expectations, but even I "
-#| "have learned from my mistakes.  Here, I have nothing to lose, not even my "
-#| "life.  Thanks to Melissan, I still have time to snuff out your divine "
-#| "ascencion personally. We will be even!"
 msgid ""
 "It appears you have been the beneficiary of low expectations, but even I "
 "have learned from my mistakes. Here, I have nothing to lose, not even my "
@@ -3833,16 +3734,10 @@ msgid ""
 msgstr ""
 "Parece que habéis sido el beneficiario de viles expectativas, pero he "
 "aprendido de mis errores. Aqui, no tengo nada que perder, ni siquiera mi "
-"vida. Gracias a Melissan, todavia tengo tiempo de arruinar vuestra ascensión"
-" divina personalmente. ¡Estaremos igualados!"
+"vida. Gracias a Melissan, todavia tengo tiempo de arruinar vuestra ascensión "
+"divina personalmente. ¡Estaremos igualados!"
 
 #: irenic2.tra:447
-#, fuzzy
-#| msgid ""
-#| "You may have gained some crude and rudimentary control over your abilities "
-#| "in the interim, but even I have learned a thing or two... delusions or no.  "
-#| "And Melissan has given me the opportunity to personally see an end to your "
-#| "ascension... consider it a favor returned."
 msgid ""
 "You may have gained some crude and rudimentary control over your abilities "
 "in the interim, but even I have learned a thing or two... delusions or no. "
@@ -3855,12 +3750,6 @@ msgstr ""
 "vuestra ascensión... consideradlo un favor devuelto."
 
 #: irenic2.tra:448
-#, fuzzy
-#| msgid ""
-#| "Do not speak her name, dog.  Ellesime will understand the fullness of her "
-#| "regret soon enough.  As for you... Melissan has given me the opportunity to "
-#| "return an old favor.  One ascension for another... it rings with universal "
-#| "justice."
 msgid ""
 "Do not speak her name, dog. Ellesime will understand the fullness of her "
 "regret soon enough. As for you... Melissan has given me the opportunity to "
@@ -3873,12 +3762,6 @@ msgstr ""
 "universal."
 
 #: irenic2.tra:449
-#, fuzzy
-#| msgid ""
-#| "How very glib and typical.  How far the expectations of the universe must "
-#| "have lowered to allow a gnat like you to even come this far.  It is "
-#| "fortunate that I have an opportunity, then, to repay your termination of my "
-#| "own ascension in kind."
 msgid ""
 "How very glib and typical. How far the expectations of the universe must "
 "have lowered to allow a gnat like you to even come this far. It is fortunate"
@@ -3887,15 +3770,10 @@ msgid ""
 msgstr ""
 "Qué elocuente y típico. Hasta donde deben haberse reducido las expectativas "
 "del universo para permitir a un mosquito como vos llegar tan lejos. Es una "
-"suerte que tengái la oportunidad para pagaros con creces vuestro destrozo de"
-" mi propia ascensión."
+"suerte que tengái la oportunidad para pagaros con creces vuestro destrozo de "
+"mi propia ascensión."
 
 #: irenic2.tra:450
-#, fuzzy
-#| msgid ""
-#| "Ah, yes.  Familiar words.  Similar to the ones I spoke at the cusp of my own"
-#| " ascension.  How I would enjoy to repay that favor in kind and show the "
-#| "universe what an unworthy gnat you truly are."
 msgid ""
 "Ah, yes. Familiar words. Similar to the ones I spoke at the cusp of my own "
 "ascension. How I would enjoy to repay that favor in kind and show the "
@@ -3906,11 +3784,6 @@ msgstr ""
 "universo lo realmente insignificante que sois."
 
 #: irenic2.tra:451
-#, fuzzy
-#| msgid ""
-#| "But enough of this.  Though I would dearly love to let my sister rot in her "
-#| "own Hell for eternity, it would not be a true and fitting re-union if I did "
-#| "not use my new power to send her an invitation."
 msgid ""
 "But enough of this. Though I would dearly love to let my sister rot in her "
 "own Hell for eternity, it would not be a true and fitting re-union if I did "
@@ -3921,11 +3794,6 @@ msgstr ""
 "apropiada reunión si no usara mi nuevo poder para enviarle una invitación."
 
 #: irenic2.tra:452
-#, fuzzy
-#| msgid ""
-#| "Do not overestimate your usefulness to me, 'dear' sister... nor the extent "
-#| "of my non-existent affection.  Or do you truly think I had forgotten your "
-#| "whispered urgings which had led me down the path of my exile?"
 msgid ""
 "Do not overestimate your usefulness to me, 'dear' sister... nor the extent "
 "of my non-existent affection. Or do you truly think I had forgotten your "
@@ -3937,12 +3805,6 @@ msgstr ""
 "de mi exilio?"
 
 #: irenic2.tra:453
-#, fuzzy
-#| msgid ""
-#| "Enough, sister.  We do as Melissan bids, with her servants at our side.  "
-#| "Take delight, if you will, at the revenge we shall now taste.  Let us see, "
-#| "<CHARNAME>, if I can rip that soul out of you once more.  I would so delight"
-#| " in stealing your proud destiny a second time."
 msgid ""
 "Enough, sister. We do as Melissan bids, with her servants at our side. Take "
 "delight, if you will, at the revenge we shall now taste. Let us see, "
@@ -3952,14 +3814,10 @@ msgstr ""
 "Ya esta bien, hermana. Aceptamos la oferta de Melissan, con sus sirvientes "
 "en nuestro bando. Deleitáos, si queréis, en la venganza que ahora estamos "
 "saboreando. Veamos, <CHARNAME>, si podemos desgarrar esa alma fuera de vos "
-"una vez mas. Podría deleitarme robando vuestro grandioso destino por segunda"
-" vez."
+"una vez mas. Podría deleitarme robando vuestro grandioso destino por segunda "
+"vez."
 
 #: irenic2.tra:454
-#, fuzzy
-#| msgid ""
-#| "You over-step your bounds, as always.  I did not call you here to rejoice in"
-#| " your venom, Bodhi.  Do you not notice where we are?  Whom we face?"
 msgid ""
 "You over-step your bounds, as always. I did not call you here to rejoice in "
 "your venom, Bodhi. Do you not notice where we are? Whom we face?"
