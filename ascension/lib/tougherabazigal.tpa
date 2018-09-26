@@ -226,9 +226,6 @@ COPY_EXISTING ~ABAZDRAG.bcs~ ~override~
     REPLACE_TEXTUALLY ~EquipMostDamagingMelee()~ ~~
   END
   R_B_B ~ascension/tougher/abazigal/baf/ABAZDRAG_o1.baf~   ~ascension/tougher/abazigal/baf/ABAZDRAG_n1.baf~
-  PATCH_IF GAME_IS ~tob~ THEN BEGIN
-    R_B_B ~ascension/tougher/abazigal/baf/ABAZDRAG_o2.baf~ ~ascension/tougher/abazigal/baf/ABAZDRAG_n2.baf~ // remove ReallyForceSpell(LastSeenBy(Myself),0) - only present in ToB classic
-  END
   R_B_B ~ascension/tougher/abazigal/baf/ABAZDRAG_o3.baf~   ~ascension/tougher/abazigal/baf/ABAZDRAG_n3.baf~
   R_B_B ~ascension/tougher/abazigal/baf/ABAZDRAG_o4.baf~   ~ascension/tougher/abazigal/baf/ABAZDRAG_n4.baf~
   R_B_B ~ascension/tougher/abazigal/baf/ABAZDRAG_o5.baf~   ~ascension/tougher/abazigal/baf/ABAZDRAG_n5.baf~
