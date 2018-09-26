@@ -93,11 +93,7 @@ COPY_EXISTING ~GPMAGE1.bcs~ ~override~
 //  R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O43.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N43.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O44.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N44.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O45.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N45.baf~
-  PATCH_IF GAME_IS ~bg2ee eet~ THEN BEGIN
-    R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O46.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N46.baf~ // in ToB classic, there was a block that cast spell ID 0 - BG2EE revised the block to cast remove magic - this adds ActionListEmpty() to the trigger conditions
-  END ELSE BEGIN
-    R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O46_classic.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N46.baf~ // for ToB classic, this makes the block cast remove magic AND adds ActionListEmpty() to the trigger conditions
-  END
+  R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O46.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N46.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O47.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N47.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O48.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N48.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_O49.baf~ ~ascension/tougher/toughercommon/baf/GPMAGE1/GPMAGE1_N49.baf~
