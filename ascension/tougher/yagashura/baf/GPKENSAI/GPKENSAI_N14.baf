@@ -3,6 +3,7 @@ IF
   Range(LastSeenBy(Myself),10)
   HPPercentLT(Myself,20)
   !HasItem("POTN55",Myself)
+  !Name("chtaz01",Myself)
   !Range(NearestMyGroupOfType,15)
 THEN
   RESPONSE #100
