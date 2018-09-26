@@ -100,7 +100,7 @@ COPY_EXISTING ~demogor2.bcs~ ~override~
     R_B_B ~ascension/tougher/demogorgon/baf/demogorg2_o5.baf~ ~ascension/tougher/demogorgon/baf/demogorg2_n5.baf~
     R_B_B ~ascension/tougher/demogorgon/baf/demogorg2_o6.baf~ ~ascension/tougher/demogorgon/baf/demogorg2_n6.baf~
   END ELSE BEGIN
-    R_B_B ~ascension/tougher/demogorgon/baf/strip1_classic.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N2.baf~
+    R_B_B ~ascension/tougher/demogorgon/baf/strip1.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N2.baf~
     R_B_B ~ascension/tougher/demogorgon/baf/demogorg2_o1_classic.baf~ ~ascension/tougher/demogorgon/baf/demogorg2_n1.baf~
     R_B_B ~ascension/tougher/demogorgon/baf/demogorg2_o2_classic.baf~ ~ascension/tougher/demogorgon/baf/demogorg2_n2.baf~
     R_B_B ~ascension/tougher/demogorgon/baf/demogorg2_o3_classic.baf~ ~ascension/tougher/demogorgon/baf/demogorg2_n3.baf~

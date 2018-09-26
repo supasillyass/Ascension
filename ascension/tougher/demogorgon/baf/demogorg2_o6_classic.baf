@@ -1,7 +1,7 @@
 IF
 	Global("StoppedTime","LOCALS",2)
 	GlobalTimerNotExpired("harm","LOCALS")
-	RandomNum(4,4)
+	RandomNum(3,1)
 	OR(2)
 		See(NearestEnemyOf(Myself))
 		See(LeastDamagedOf(Myself))

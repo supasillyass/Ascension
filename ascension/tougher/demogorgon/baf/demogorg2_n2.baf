@@ -11,7 +11,8 @@ END
 IF
   Global("StoppedTime","LOCALS",2)
   Detect(NearestEnemyOf(Myself))
-  !NumCreatureVsPartyGT([EVILCUTOFF.0.DEMONIC],0)
+  NumDead("demosum1",2)
+  !NumCreatureVsPartyGT("demosum3",0)
   !GlobalTimerNotExpired("SumReinf","LOCALS")
 THEN
   RESPONSE #100

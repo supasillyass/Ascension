@@ -1,7 +1,7 @@
 IF
 	Global("StoppedTime","LOCALS",2)
 	!GlobalTimerNotExpired("quake","LOCALS")
-	RandomNum(4,3)
+	RandomNum(3,1)
 	See(NearestEnemyOf(Myself))
 THEN
 	RESPONSE #100

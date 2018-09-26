@@ -23,7 +23,7 @@ END
 
 IF
 	Detect(NearestEnemyOf(Myself))
-	Global("StoppedTime","LOCALS",1)
+	Global("StoppedTime","LOCALS",0)
 THEN
 	RESPONSE #100
 		SetGlobal("StoppedTime","LOCALS",2)
