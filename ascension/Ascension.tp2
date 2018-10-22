@@ -37,7 +37,7 @@ LANGUAGE ~Francais (traduction de Ly Meng)~
          ~french~ 
          ~ascension/tra/french/setup.tra~
 
-LANGUAGE ~Traducción al Español (hecha por Clan REO)~
+LANGUAGE ~TraducciÃ³n al EspaÃ±ol (hecha por Clan REO)~
          ~spanish~
          ~ascension/tra/spanish/setup.tra~
 
@@ -166,7 +166,6 @@ BEGIN @2500 DESIGNATED 5
 
 BEGIN @5100 DESIGNATED 104
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
-	REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) @5110
 	COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnes.flag~ //Creates install "flag"
 
 	INCLUDE ~ascension/lib/epilogue_update.tph~
@@ -185,7 +184,6 @@ BEGIN @5100 DESIGNATED 104
 
 BEGIN @5200 DESIGNATED 105
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @5220
-	REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) @5210
 	COPY_EXISTING ~sw1h01.itm~ ~override/asc_shawnesEE.flag~ //Creates install "flag"
 
 	INCLUDE ~ascension/lib/epilogue_update.tph~
