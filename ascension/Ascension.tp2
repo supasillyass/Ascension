@@ -97,7 +97,8 @@ BEGIN @4000 DESIGNATED 103
 BEGIN @2100 DESIGNATED 1
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @1003
-
+	
+	LOAD_TRA ~ascension/tra/%LANGUAGE%/ascension.tra~
 	INCLUDE ~ascension/lib/tougherabazigal.tpa~
 
 	COPY_EXISTING ~sw1h01.itm~ ~override/asc_abazigal.flag~ //Creates install "flag"
