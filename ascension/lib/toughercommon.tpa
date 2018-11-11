@@ -2,7 +2,9 @@ COPY_EXISTING ~GPHEALER.bcs~ ~override~
   //Remove Extraneous Code
   R_B_B ~ascension/tougher/toughercommon/baf/strip1.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N2.baf~
 
+PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/toughercommon/baf/GPHEALER_O1.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N3.baf~
+END
 
   // Re-enable low-health POTN55 block (BG2EE disables the block with a False() trigger - in ToB classic the block is enabled so no change is needed)
   PATCH_IF GAME_IS ~bg2ee eet~ THEN BEGIN
@@ -24,7 +26,10 @@ COPY_EXISTING ~GPARCHER.bcs~ ~override~
   R_B_B ~ascension/tougher/toughercommon/baf/GPARCHER_O12.baf~ ~ascension/tougher/toughercommon/baf/GPARCHER_N12.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPARCHER_O13.baf~ ~ascension/tougher/toughercommon/baf/GPARCHER_N13.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPARCHER_O14.baf~ ~ascension/tougher/toughercommon/baf/GPARCHER_N14.baf~
+  
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/toughercommon/baf/GPARCHER_O15.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N1.baf~
+  END
 
 EXTEND_BOTTOM ~GPARCHER.bcs~ ~ascension/tougher/toughercommon/baf/GPARCHER_Bottom.baf~
 
@@ -163,7 +168,10 @@ COPY_EXISTING ~GPTHIEF.bcs~ ~override~
   R_B_B ~ascension/tougher/toughercommon/baf/GPTHIEF_O5.baf~ ~ascension/tougher/toughercommon/baf/GPTHIEF_N5.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPTHIEF_O6.baf~ ~ascension/tougher/toughercommon/baf/GPTHIEF_N6.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPTHIEF_O8.baf~ ~ascension/tougher/toughercommon/baf/GPTHIEF_N8.baf~
+  
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/toughercommon/baf/GPTHIEF_O9.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N1.baf~
+  END
 
 COPY_EXISTING ~GPMERC.bcs~ ~override~
 //Remove Extraneous Code
@@ -184,7 +192,10 @@ COPY_EXISTING ~GPMERC.bcs~ ~override~
   END
   R_B_B ~ascension/tougher/toughercommon/baf/GPMERC_O10.baf~ ~ascension/tougher/toughercommon/baf/GPMERC_N10.baf~
   R_B_B ~ascension/tougher/toughercommon/baf/GPMERC_O11.baf~ ~ascension/tougher/toughercommon/baf/GPMERC_N11.baf~
+  
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/toughercommon/baf/GPMERC_O12.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N1.baf~
+  END
 
 //SPSEQ12A
 COPY_EXISTING ~SPSEQ12A.bcs~ ~override~
