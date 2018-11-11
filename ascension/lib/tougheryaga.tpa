@@ -630,17 +630,22 @@ COPY_EXISTING ~GPKENSAI.bcs~ ~override~
   R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O11.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N11.baf~
   R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O12.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N12.baf~
   R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O13.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N13.baf~
-  PATCH_IF GAME_IS ~bg2ee eet~ THEN BEGIN
-    R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O14.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N14.baf~ // Patch for EE re-enables False() "EscapeArea() at low health" block but only when ActionListEmpty()
-  END ELSE BEGIN
+  
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
     R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O14_classic.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N14.baf~ // Patch for ToB classic adds ActionListEmpty() condition to "EscapeArea() at low health" block
   END
+  
   R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O15.baf~ ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_N15.baf~
+  
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/yagashura/baf/GPKENSAI/GPKENSAI_O16.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N1.baf~
+  END
 
 //GPMAGE2 and Apply Randomwalk Fix
 COPY_EXISTING ~GPMAGE2.bcs~ ~override~
+  PATCH_IF !GAME_IS ~bg2ee eet~ THEN BEGIN
   R_B_B ~ascension/tougher/yagashura/baf/GPMAGE2/strip1.baf~ ~ascension/tougher/toughercommon/baf/TxCOMMON_N1.baf~
+  END
   R_B_B ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_O1.baf~ ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_N1.baf~
   R_B_B ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_O2.baf~ ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_N2.baf~
   R_B_B ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_O3.baf~ ~ascension/tougher/yagashura/baf/GPMAGE2/GPMAGE2_N3.baf~
