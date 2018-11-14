@@ -1,4 +1,4 @@
-FORWARD & THANK YOU:
+FORWORD & THANK YOU:
 By JediMindTrix on 15.12.2015
 Merry Christmas!
 
@@ -19,6 +19,13 @@ I also want to stress that all of the work done was geared towards producing a r
 
 CHANGELOG/CREDITS
 I felt it easiest to describe who did what and also display what's changed by using this method:
+
+14.11.2018 (github collaborators)
+- russian, spanish, polish translations provided through BGforge weblate project
+- DS update and code clean up for EE game v2.5
+- Extended epilogues installable for all languages
+- externalized fixes where still needed
+- cosmetic and other minor enhancements contributed during last year by various supporters
 
 19.06.2017 (badungu)
 - Fixed some Dead Triggers
