@@ -86,6 +86,7 @@ BEGIN @4000 DESIGNATED 103
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
 	COPY_EXISTING ~sw1h01.itm~ ~override/asc_rest_powers.flag~ //Creates install "flag"
 
+	LOAD_TRA ~ascension/tra/%LANGUAGE%/ascension.tra~
 	INCLUDE ~ascension/lib/bhaalspawnpower.tpa~
 
 	ADD_JOURNAL @2000 @2001 @2002 @2003 @2004 @2005 @2006 @2007
@@ -152,6 +153,7 @@ BEGIN @2500 DESIGNATED 5
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @1003
 
+	LOAD_TRA ~ascension/tra/%LANGUAGE%/ascension.tra~
 	INCLUDE ~ascension/lib/tougheryaga.tpa~
 
 	//Compile common scripts, if Tougher Gromnir hasn't been installed already
