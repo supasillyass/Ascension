@@ -10,6 +10,8 @@ tmp/
 *.lnk
 Thumbs.db
 ehthumbs.db
+bgforge.ini
+readme.md
 
 .DS_Store
 .AppleDouble
