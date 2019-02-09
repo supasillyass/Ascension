@@ -1,18 +1,20 @@
 // Ascension
 // https://weidu.org/asc.html ( outdated, use https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee )
 
-BACKUP ~ascension/backup~
+BACKUP ~weidu_external/backup/ascension~
 // AUTHORS: David Gaider & Contributers, Westley Weimer, Turumbar, Miloch, Cuv 
 // EE adoption: WhiteAgnus, JediMindTrix at http://s13.zifboards.com/Project_Ascension/index.php?showforum=2"
 SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~1.7.2~
+VERSION ~1.7.2 DW fork~
 
 AUTO_TRA ~ascension/tra/autotra/%s~
+AUTO_EVAL_STRINGS
 
 ALWAYS
 	INCLUDE ~ascension/lib/always.tpa~ //library with functions and macros common to all components
+	INCLUDE ~ascension/lib/sfo_lite.tph~ // fragments of DavidW's function library
 	INCLUDE ~ascension/lib/charset.tpa~
 	INCLUDE ~ascension/lib/ds.tpa~
 END
@@ -65,9 +67,9 @@ LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
          ~italian~
          ~ascension/tra/italian/setup.tra~
 
-///////////////////////////////////////////////////////
-// The Ascension (WhiteAgnus / JediMindTrix version) //
-///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+// The Ascension (WhiteAgnus / JediMindTrix version, DavidW tweaks) //
+//////////////////////////////////////////////////////////////////////
 
 BEGIN @1000 DESIGNATED 0
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @1001 // ToB is required

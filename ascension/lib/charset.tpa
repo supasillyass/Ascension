@@ -1,3 +1,17 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+///   Avoid AUTO_TRA altogether in favor of modern methods
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+LAF handle_charsets_immutably STR_VAR tra_base=tra RET ascension_tra_loc=scs_tra_loc END
+
+
+
+
+
+// previous version
+
+/*
 //Added Autotra Workaround by jastey (thank you) and HANDLE_CHARSETS
 ACTION_IF !FILE_EXISTS ~ascension/charsets.mrk~ BEGIN
 
@@ -25,3 +39,5 @@ ACTION_IF !FILE_EXISTS ~ascension/charsets.mrk~ BEGIN
 END
 
 LOAD_TRA ~ascension/tra/autotra/%LANGUAGE%/ascension.tra~
+
+*/
