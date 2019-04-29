@@ -1,0 +1,272 @@
+DEFINE_ACTION_FUNCTION build_cre_patch BEGIN
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////    build lightweight CRE patcher, simplified version of SFO code
+////////////
+////////////    Built at install-time, unless already there
+///////////
+///////////     Function is called CRE_patch.
+///////////     Each entry in the array below becomes an INT_VAR or STR_VAR argument.
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// SILENT
+ACTION_DEFINE_ASSOCIATIVE_ARRAY cre_fields BEGIN
+   name1_string=> ~0x8,LONG~
+   name2_string=> ~0xc,LONG~
+   xp_value=> ~0x14,LONG~
+   xp_total=> ~0x18,LONG~
+   color_metal => ~0x2c,BYTE~
+   color_minor => ~0x2d,BYTE~
+   color_major => ~0x2e,BYTE~
+   color_skin => ~0x2f,BYTE~
+   color_leather => ~0x30,BYTE~
+   color_armor => ~0x31,BYTE~
+   color_hair => ~0x32,BYTE~
+   hide_in_shadows => ~0x45,BYTE~
+   detect_illusions => ~0x64,BYTE~
+   set_traps => ~0x65,BYTE~
+   lore =>~0x66,BYTE~
+   open_locks=>~0x67,BYTE~
+   move_silently=>~0x68,BYTE~
+   find_traps=>~0x69,BYTE~
+   pick_pockets=>~0x6a,BYTE~
+   luck=>~0x6d,SBYTE~
+   resist_fire =>~0x59,SBYTE~
+   resist_cold =>~0x5a,SBYTE~
+   resist_electricity =>~0x5b,SBYTE~
+   resist_acid =>~0x5c,SBYTE~
+   resist_magic =>~0x5d,SBYTE~
+   resist_magic_fire =>~0x5e,SBYTE~
+   resist_magic_cold =>~0x5f,SBYTE~
+   resist_slashing =>~0x60,SBYTE~
+   resist_crushing =>~0x61,SBYTE~
+   resist_piercing =>~0x62,SBYTE~
+   resist_missile =>~0x63,SBYTE~
+   level     =>    ~0x234,BYTE~
+   level1     =>    ~0x234,BYTE~
+   level2    =>    ~0x235,BYTE~
+   level3    =>    ~0x236,BYTE~
+   str       =>    ~0x238,BYTE~
+   str_ex    =>    ~0x239,BYTE~
+   int       =>    ~0x23a,BYTE~
+   wis       =>    ~0x23b,BYTE~
+   dex       =>    ~0x23c,BYTE~
+   con       =>    ~0x23d,BYTE~
+   cha       =>    ~0x23e,BYTE~
+   strength       =>    ~0x238,BYTE~
+   strength_ex    =>    ~0x239,BYTE~
+   intelligence       =>    ~0x23a,BYTE~
+   wisdom       =>    ~0x23b,BYTE~
+   dexterity       =>    ~0x23c,BYTE~
+   constitution       =>    ~0x23d,BYTE~
+   charisma       =>    ~0x23e,BYTE~
+   sex            =>     ~0x237,BYTE~
+   script_override  =>    ~0x248,ASCII~
+   script_class     =>    ~0x250,ASCII~
+   script_race      =>    ~0x258,ASCII~
+   script_general   =>    ~0x260,ASCII~
+   script_default   =>    ~0x268,ASCII~
+   specifics        =>    ~0x274,BYTE~
+   save_vs_death    =>    ~0x54,SBYTE~
+   save_vs_wand    =>    ~0x55,SBYTE~
+   save_vs_wands    =>    ~0x55,SBYTE~
+   save_vs_poly     =>    ~0x56,SBYTE~
+   save_vs_polymorph     =>    ~0x56,SBYTE~
+   save_vs_breath   =>    ~0x57,SBYTE~
+   save_vs_spell    =>    ~0x58,SBYTE~
+   save_vs_spells    =>    ~0x58,SBYTE~
+   thac0            =>    ~0x52,SBYTE~
+   attacks          =>    ~0x53,BYTE~ 
+   hp_max           =>    ~0x26,SHORT~
+   hp_current       =>    ~0x24,SHORT~
+   dv               =>    ~0x280,ASCII20~
+   dialog           =>    ~0x2cc,ASCII~
+   animation_code   =>     ~0x28,SHORT~
+   effect_type      =>     ~0x33,BYTE~
+   ac_natural       =>     ~0x46,SSHORT~
+   ac_effective     =>     ~0x48,SSHORT~
+   ac_missile       =>     ~0x4c,SSHORT~
+   morale           =>     ~0x23f,BYTE~
+   morale_break     =>     ~0x240,BYTE~
+   morale_recovery  =>     ~0x242,SHORT~
+   nightmare_mode   =>     ~0x7d,BYTE~
+   gold             =>     ~0x1c,LONG~
+   race             =>     ~0x272,BYTE~
+   class            =>     ~0x273,BYTE~
+   kit              =>     ~0x244,LONG~
+   gender           =>     ~0x275,BYTE~
+   alignment        =>     ~0x27b,BYTE~
+   allegiance       =>     ~0x270,BYTE~
+END
+
+<<<<<<<< .../stratagems-inline/cre_patch.tpa
+DEFINE_PATCH_FUNCTION CRE_patch
+    INT_VAR
+    %int_var_string%
+    resist_magic_damage="-99"
+    resist_poison="-99"
+    regeneration="-99"
+    immunity_to_timestop="-1"
+    immunity_to_backstab="-1"
+    detect_invisible="-1"
+    increase_casting_speed="-99"
+    increase_attack_speed="-99"
+    STR_VAR
+    %str_var_string%
+    immunity_to_opcodes=""
+    immunity_to_spells=""
+    immunity_to_strings=""
+    immunity_to_icons=""
+    add_spells=""
+    delete_opcodes=""
+BEGIN
+   LPF FJ_CRE_VALIDITY END
+   %action_string%
+   LPF DELETE_EFFECT STR_VAR match_function="opcode_is(%delete_opcodes%)" END
+   PATCH_IF resist_magic_damage>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=31 END
+      PATCH_IF !resist_magic_damage=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=31 target=1 timing=9 parameter1=resist_magic_damage END
+      END
+   END
+   PATCH_IF resist_poison>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=173 END
+      PATCH_IF !resist_poison=0 BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=173 target=1 timing=9 parameter1=resist_poison END
+      END
+      PATCH_IF resist_poison=100 BEGIN
+         LPF DELETE_EFFECT INT_VAR match_opcode=101 match_parameter2=25 END
+         LPF ADD_CRE_EFFECT INT_VAR opcode=101 target=1 timing=9 parameter2=25 END
+      END
+  END
+  PATCH_IF regeneration>"-99" BEGIN
+      LPF CRE_regeneration INT_VAR arguments=regeneration END
+  END
+  PATCH_IF increase_casting_speed>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=189 END
+      PATCH_IF !increase_casting_speed=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=189 target=1 timing=9 parameter1=increase_casting_speed END
+      END
+  END
+  PATCH_IF increase_attack_speed>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=190 END
+      PATCH_IF !increase_attack_speed=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=190 target=1 timing=9 parameter1=increase_attack_speed END
+      END
+  END
+  PATCH_IF immunity_to_backstab >=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR match_opcode=292 END
+     PATCH_IF immunity_to_backstab BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=292 target=1 timing=9 parameter2=1 END
+     END
+  END
+  PATCH_IF immunity_to_timestop>=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR opcode=310 END
+     PATCH_IF immunity_to_timestop BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=310 target=1 timing=9 END
+     END
+  END
+  PATCH_IF detect_invisible>=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR opcode=193 END
+     PATCH_IF detect_invisible BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=193 target=1 timing=9 parameter2=1 END
+     END
+  END
+  LPF immunity_to_icon STR_VAR arguments="%immunity_to_icons%" END
+  LPF immunity_to_string STR_VAR arguments="%immunity_to_strings%" END
+  LPF immunity_to_opcode STR_VAR arguments="%immunity_to_opcodes%" END
+  LPF immunity_to_spell STR_VAR arguments="%immunity_to_spells%" END
+  LPF CRE_add_spells STR_VAR arguments="%add_spells%" END
+
+END
+>>>>>>>>
+
+OUTER_SPRINT int_var_string ""
+OUTER_SPRINT str_var_string ""
+OUTER_SPRINT action_string ""
+ACTION_PHP_EACH cre_fields AS argument=>data BEGIN
+   OUTER_INNER_PATCH "%data%" BEGIN
+      REPLACE_EVALUATE "\(.*\),\(.*\)" BEGIN
+         SPRINT loc "%MATCH1%"
+         SPRINT type "%MATCH2%"
+      END
+      ""
+   END
+   ACTION_MATCH "%type%" WITH
+   SBYTE SSHORT SLONG BEGIN
+          OUTER_INNER_PATCH_SAVE type "%type%" BEGIN
+             DELETE_BYTES 0x0 1
+          END
+          OUTER_SPRINT int_var_string ~%int_var_string%%argument%="-99"%WNL%~
+          OUTER_SPRINT action_string ~%action_string%PATCH_IF %argument%>"-99" BEGIN%WNL%WRITE_%type% %loc% %argument%%WNL%END%WNL%~
+   END
+   BYTE SHORT LONG BEGIN
+          OUTER_SPRINT int_var_string ~%int_var_string%%argument%="-99"%WNL%~
+          OUTER_SPRINT action_string ~%action_string%PATCH_IF %argument%>"-99" BEGIN%WNL%WRITE_%type% %loc% %argument%%WNL%END%WNL%~
+   END
+   ASCII BEGIN
+          OUTER_SPRINT str_var_string ~%str_var_string%%argument%="null_argument"%WNL%~
+          OUTER_SPRINT action_string ~%action_string%PATCH_IF "%percentage%%argument%%percentage%" STRING_COMPARE_CASE null_argument BEGIN%WNL%WRITE_ASCIIE %loc% "%percentage%%argument%%percentage%" (8) %WNL%END%WNL%~
+   END
+   ASCII20 BEGIN
+          OUTER_SPRINT str_var_string ~%str_var_string%%argument%="null_argument"%WNL%~
+          OUTER_SPRINT action_string ~%action_string%PATCH_IF "%percentage%%argument%%percentage%" STRING_COMPARE_CASE null_argument BEGIN%WNL%WRITE_ASCIIE %loc% "%percentage%%argument%%percentage%" (0x20) %WNL%END%WNL%~
+   END
+   DEFAULT
+   END
+END
+
+COPY + ".../stratagems-inline/cre_patch.tpa" "%MOD_FOLDER%/lib" EVALUATE_BUFFER
+//INCLUDE "%workspace%/patch_build.tpa"
+
+END
+
+DEFINE_ACTION_FUNCTION build_spl_patch
+BEGIN
+   ACTION_CLEAR_ARRAY byte_loc
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY byte_loc BEGIN
+      hostile=>"0x19,2"
+      no_los_required=>"0x19,3"
+      allow_spotting=>"0x19,4"
+      outdoors_only=>"0x19,5"
+      ignore_dead_wild_magic=>"0x19,6"
+      ignore_wild_surge=>"0x19,7"
+      non_combat=>"0x1a,0"
+      can_target_invisible=>"0x1b,0"
+      castable_when_silenced=>"0x1b,1"
+      exclude_chaotic=>"0x1e,0"
+      exclude_berserker=>"0x1e,0"
+      // incomplete, not useful for Ascension
+   END
+   OUTER_SPRINT var_string "spell_type=~-1~ primary=~-1~ secondary=~-1~ level=~-1~ casting_animation=~-1~"
+   OUTER_SPRINT arg_string "PATCH_IF spell_type>=0 BEGIN WRITE_SHORT 0x1c spell_type END%WNL%"
+   OUTER_SPRINT arg_string "%arg_string%PATCH_IF primary>=0 BEGIN WRITE_BYTE 0x25 primary END%WNL%"
+   OUTER_SPRINT arg_string "%arg_string%PATCH_IF secondary>=0 BEGIN WRITE_BYTE 0x27 secondary END%WNL%"
+   OUTER_SPRINT arg_string "%arg_string%PATCH_IF level>=0 BEGIN WRITE_LONG 0x34 level END%WNL%"
+   OUTER_SPRINT arg_string "%arg_string%PATCH_IF casting_animation>=0 BEGIN WRITE_SHORT 0x22 casting_animation END%WNL%"
+   ACTION_PHP_EACH byte_loc AS arg=>data BEGIN
+      OUTER_SPRINT var_string "%var_string% %arg%=~-1~"
+      OUTER_INNER_PATCH "%data%" BEGIN
+         REPLACE_EVALUATE "^\([^,]*\),\(.*\)$" BEGIN
+            SET offset="%MATCH1%"
+            SET byte="%MATCH2%"
+            SET on=2**byte
+            SET off=0b11111111 - byte
+         END
+         ""
+      END
+      OUTER_SPRINT arg_string "%arg_string% PATCH_IF %arg%=1 BEGIN WRITE_BYTE %offset% ((BYTE_AT %offset%) BOR %on%) END%WNL%"
+      OUTER_SPRINT arg_string "%arg_string% PATCH_IF %arg%=0 BEGIN WRITE_BYTE %offset% ((BYTE_AT %offset%) BAND %off%) END%WNL%"
+   END
+   <<<<<<<<.../stratagems-inline/spl_patch.tpa
+   DEFINE_PATCH_FUNCTION SPL_patch
+   INT_VAR %var_string%
+   BEGIN
+      %arg_string%
+   END
+   >>>>>>>>
+   
+   COPY + ".../stratagems-inline/spl_patch.tpa" "%MOD_FOLDER%/lib" EVALUATE_BUFFER
+END

@@ -1,0 +1,92 @@
+// DW rewrites: pull common pieces from other
+// scripts, for logical-clarity and maintenance
+// purposes
+
+/////////////////////////////////////////////////
+/// Death blocks (different for balors)
+/////////////////////////////////////////////////
+
+IF
+  Die()
+  !HasItem("balor",Myself)
+THEN
+  RESPONSE #100
+    ReallyForceSpellDeadRES("demondie",Myself)
+END
+
+IF
+  Die()
+  HasItem("balor",Myself)
+THEN
+  RESPONSE #100
+    ReallyForceSpellDeadRES("baldead",Myself)
+END
+
+/////////////////////////////////////////////////
+/// Respond to demonic control effects
+/////////////////////////////////////////////////
+
+// player and Melissan command effects
+
+IF
+  Global("CONTROL","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CONTROL","LOCALS",0)
+    ClearActions(Myself)
+END
+
+// Melissan's one-off take-command power at the start of her phase
+
+IF
+  !DifficultyLT(NORMAL)
+  !Allegiance(Myself,ENEMY)
+  GlobalTimerNotExpired("CommandMinions","AR6200")
+  Global("CommandCheck","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CommandCheck","LOCALS",1)
+    ReallyForceSpellRES("melspl5a",Myself)  // melspl5a
+END
+
+/////////////////////////////////////////////////
+/// Respond to player hostility, if allied
+/////////////////////////////////////////////////
+
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  AttackedBy([ANYONE],DEFAULT)
+  Allegiance(LastAttackerOf(Myself),GOODCUTOFF)
+  Global("LetItGoOnce","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("LetItGoOnce","LOCALS",1)
+    SetGlobalTimer("GetMadNow","LOCALS",6)
+END
+
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  AttackedBy([ANYONE],DEFAULT)
+  Allegiance(LastAttackerOf(Myself),GOODCUTOFF)
+  Global("LetItGoOnce","LOCALS",1)
+  GlobalTimerExpired("GetMadNow","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("LetItGoOnce","LOCALS",0)
+    Enemy()
+END
+
+/////////////////////////////////////////////////
+/// Allied demons: Jump to PC, if you can't see them and no combat
+/// is occurring
+/////////////////////////////////////////////////
+
+IF
+  Allegiance(Myself,GOODCUTOFF)
+  !See(NearestEnemyOf(Myself))
+  !See([PC])
+THEN
+    RESPONSE #100
+             ReallyForceSpellRES("dimdoor",Player1)
+END
+

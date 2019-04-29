@@ -1,0 +1,72 @@
+///////////////////////////////////////////////////////////////////////////
+///// Shawne's edits to the EE NPC epilogues.
+/////
+///// TBH I have no idea what this is doing in Ascension, but for the sake
+///// of a quiet life I'll leave it be.
+//////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION shawne_ee BEGIN
+
+   LOAD_TRA "%ascension_tra_loc%/english/shawnesepilogues_eenpc.tra" "%ascension_tra_loc%/%LANGUAGE%/shawnesepilogues_eenpc.tra"
+   // make new epilogue files for Dorn
+
+   COPY_EXISTING ohddorn.2da "override/ohddorn3.2da"
+   COPY_EXISTING ohddorn.2da "override/ohddorn4.2da"
+
+   // write the text entries into the epilogue files
+
+   ACTION_CLEAR_ARRAY epilogue_strings
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY epilogue_strings BEGIN
+      ohddorn =>  5001
+      ohddorn2 => 5003
+      ohddorn3 => 5002
+      ohddorn4 => 5004
+      ohhhex => 5005
+      ohhhex2 => 5006
+      neerad1 => 5007
+      neerad2 => 5008
+      rasaadd1=> 5010 
+      rasaadd2=> 5009
+      rasaadd3=> 5011
+      wilsond => 5012
+   END
+
+   ACTION_PHP_EACH epilogue_strings AS file=>text_tra_ref BEGIN
+      LAF edit_epilogue INT_VAR text_tra_ref STR_VAR file END
+   END
+   
+   //////////////////////////////////////////////////////////////////////////////
+   // Insert the new epilogues for Dorn
+   // The logic (I think not quite fully realised in EEAsc) is, I think:
+   // 
+   // Did CHARNAME romance Dorn?
+   //     Y: did CHARNAME ascend? Y -> epilog 4
+   //                             N -> epilog 2
+   //     N: is Dorn still a Blackguard? Y -> epilog 1
+   //                                    N -> epilog 3
+   //
+   // There is an edge case here: the 'romance, ascend' epilogue assumes
+   // that CHARNAME becomes Lord of Murder. I assume that's pretty damn likely if
+   // CHARNAME's romancing Dorn, but I don't think it's forced. Still, I don't
+   // know the content well enough to be sure, so let's leave it.
+   ////////////////////////////////////////////////////////////////////////////////
+
+   COPY_EXISTING "ar6200.bcs" override
+       DECOMPILE_AND_PATCH BEGIN
+          REPLACE_TEXTUALLY ohddorn dorn_placeholder
+       END
+   BUT_ONLY
+
+   LAF INSERT_SCRIPT_BLOCK
+      INT_VAR only_once=1
+      STR_VAR match=dorn_placeholder
+              script=ar6200
+              insert="%MOD_FOLDER%/npc/baf/dorn_epilog.baf"
+   END
+   
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR match=dorn_placeholder
+              script=ar6200
+   END
+
+END

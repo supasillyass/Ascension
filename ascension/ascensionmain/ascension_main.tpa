@@ -1,0 +1,650 @@
+DEFINE_ACTION_FUNCTION ascension_main BEGIN
+
+LAM load_ascension_tras
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Flag to note this version installed
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   LAF set_marker STR_VAR marker=fin_ascension_main END
+ 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// disable difficulty-based damage scaling (code borrowed from SCS)
+//
+// This is easy on EE (just edit the ini to trigger already-present functionality), trickier on Windows non-EE (need
+// to install ToBEX) and impossible on non-Windows version of vanilla BG2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+LAF check_ini STR_VAR ini="enable_difficulty_based_damage_changes" RET value END
+ACTION_IF !value BEGIN
+   ACTION_IF enhanced_edition BEGIN
+      ACTION_IF FILE_EXISTS "%USER_DIRECTORY%/baldur.lua" BEGIN
+         COPY "%USER_DIRECTORY%/baldur.lua" "%USER_DIRECTORY%"
+             REPLACE_TEXTUALLY ~SetPrivateProfileString('Game Options','Suppress Extra Difficulty Damage','0')~ ~SetPrivateProfileString('Game Options','Suppress Extra Difficulty Damage','1')~
+         BUT_ONLY
+      END
+   END ELSE BEGIN
+      ACTION_IF FILE_EXISTS "bgmain.exe" BEGIN // are we on Windows? If not, do nothing
+          ACTION_IF !FILE_EXISTS "tobex_ini/tobextweak.ini" BEGIN // if ToBex isn't present already, install it
+               OUTER_SPRINT ~TOBEX_MOD_DIRECTORY~ ~%MOD_FOLDER%~
+               LOAD_TRA ~%MOD_FOLDER%/tobex_redist/tobex.tra~
+               INCLUDE ~%MOD_FOLDER%/tobex_redist/tobex.tpa~
+               SILENT
+          END
+          // adjust to switch off difficulty
+      <<<<<<<< .../ascension-inline/diffmod.2da
+2DA V1.0
+0		
+	DAMAGE_MOD	LUCK_MOD
+EASIEST	0               0
+EASY	0               0
+NORMAL	0	        0
+HARD	0	        0
+HARDEST	0	        0
+      >>>>>>>>
+      COPY ".../ascension-inline/diffmod.2da" override
+
+      END
+   END
+END
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Install the various resources used
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   INCLUDE "%MOD_FOLDER%/ascensionmain/ascension_shared.tpa"
+   LAF ascension_misc_resources END
+
+   ACTION_FOR_EACH function IN
+      ascension_bodhi_irenicus
+      ascension_demons
+      ascension_imoen_powers
+      ascension_player_powers
+      ascension_the_five
+      ascension_melissan
+      ascension_area_patch
+   BEGIN
+      INCLUDE "%MOD_FOLDER%/ascensionmain/%function%.tpa"
+      LAF "%function%" END
+   END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Compile the dialogs
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ACTION_FOR_EACH dialog IN finbodh irenic2 balth2 finsarev finsare2 BEGIN
+   LAF make_dialog STR_VAR dialog END
+END
+
+OUTER_SPRINT atsymbol "@"
+ACTION_FOR_EACH dialog IN
+   bodhi_solar imoen_after iren_bodhi 
+   iren_sarev mel_banter mel_immortal 
+   mel_initial mel_iren_imoen
+   pool_banter pool_powers the_five
+   finsarev_epilogue
+BEGIN
+   LOAD_TRA "%ascension_tra_loc%/english/%dialog%.tra" "%ascension_tra_loc%/%LANGUAGE%/%dialog%.tra"
+   COPY "%MOD_FOLDER%/ascensionmain/d/%dialog%.d" "%workspace%"
+      PATCH_IF enhanced_edition BEGIN
+         REPLACE_TEXTUALLY "JOURNAL +%atsymbol%[0-9]+ " " "
+      END
+   COMPILE "%workspace%/%dialog%.d"
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Scripting content from here on
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Plot scripting
+///
+/// This is the machinery that actually makes Ascension work (well, that and the variables set in various dialogs)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+OUTER_SPRINT plotscripts "ascension/ascensionmain/baf/plot"
+OUTER_SPRINT cutscripts "ascension/ascensionmain/baf/cut"
+OUTER_SPRINT npcscripts "ascension/ascensionmain/baf/npc"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// added NPC content
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Imoen's script controls her interaction with CHARNAME at FinalFight=3
+// after she returns to human form, and turns her to dust if she dies as the Slayer.
+
+EXTEND_TOP "imoe25.bcs" "%npcscripts%/imoe25.baf"
+
+// Sarevok's script controls his interaction to warn CHARNAME that Melissan is
+// immortal, if Balthazar isn't available.
+
+EXTEND_TOP "sarev25.bcs" "%npcscripts%/sarev25.baf"
+
+// Sarevok's dialog needs to set a variable to mark that he's redeemed
+
+LAF check_ini STR_VAR ini=ignore_sarevok_edge_case RET value END
+ACTION_IF !value BEGIN
+COPY_EXISTING bsarev25.dlg override
+  DECOMPILE_AND_PATCH BEGIN
+     REPLACE_TEXTUALLY ~ChangeAlignment("Sarevok",CHAOTIC_GOOD)~ ~ChangeAlignment("Sarevok",CHAOTIC_GOOD)SetGlobal("fin_sarev_redeemed","GLOBAL",1)~
+  END
+END
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Epilogues
+///
+/// Bodhi gets an epilogue; so does Imoen if she's not in the party but survives the Throne.
+///
+/// DW addition: so does Sarevok if he's not in the party but fights for them
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////
+// imoen
+/////////
+LAF CLONE_SCRIPT_BLOCK
+   STR_VAR script=ar6200
+           match=~TextScreen("SAREVND")~
+           swap_out=~\(InParty\|IsValidForPartyDialogu?e?\)("Sarevok")~
+           swap_in=~!IsValidForPartyDialog("Sarevok")Global("fin_sarevok_external_friendly","GLOBAL",1)~
+END
+
+////////
+//bodhi
+////////
+WITH_TRA "%ascension_tra_loc%/english.epilogues.tra" "%ascension_tra_loc%/%LANGUAGE%/epilogues.tra" BEGIN
+   LAF edit_epilogue INT_VAR text_tra_ref=4024 STR_VAR file=bodhind portrait=NBODHIL END
+   LAF insert_epilogue STR_VAR guard=~Global("BodhiFights","GLOBAL",2)~ var="BodhiBio" textscreen=bodhind END
+   COPY "%MOD_FOLDER%/ascport/altbodhi/abodhi_330.bmp" "override/nbodhil.bmp"
+END
+
+////////
+//Sarevok
+////////
+
+LAF CLONE_SCRIPT_BLOCK
+   STR_VAR script=ar6200
+           match=~TextScreen("IMOENND")~
+           swap_out=~\(InParty\|IsValidForPartyDialogu?e?\)("Imoen2")~
+           swap_in=~!IsValidForPartyDialog("Imoen2")Global("ImoenEpilogueAnyway","GLOBAL",1)~
+END
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// General setup for Ch.10
+///
+/// Note that the plot flow is basically controlled by the FinalFight variable; I'll indicate sections that way
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// arrival in the Throne - controlled by cut248a
+//
+
+// Area script
+
+EXTEND_TOP "ar6200.bcs" "%plotscripts%/ar6200.baf"
+
+// Melissan's plot script (distinct from her combat script)
+
+COMPILE "%plotscripts%/finmel01.baf"
+
+// testing features
+
+LAF check_ini STR_VAR ini=testing_suite RET value END
+ACTION_IF value BEGIN
+
+   <<<<<<<< .../ascension-inline/mel_test_top.baf
+IF
+  Global("DW_test_remove_melissan","GLOBAL",1)
+THEN
+    RESPONSE #100
+             SetGlobal("DW_test_remove_melissan","GLOBAL",0)
+             DestroySelf()
+END
+
+IF
+  GlobalGT("DW_test_asc_setup_in_progress","GLOBAL",0)
+THEN
+    RESPONSE #100
+       NoAction()
+END
+>>>>>>>>
+
+EXTEND_TOP finmel01.bcs ".../ascension-inline/mel_test_top.baf"
+
+
+<<<<<<<< .../ascension-inline/ar6200_test_top.baf
+IF
+  Global("DW_test_asc_setup_in_progress","GLOBAL",1)
+THEN
+    RESPONSE #100
+             SetGlobal("FinalFight","AR6200",6)
+             SetGlobal("DW_test_asc_setup_in_progress","GLOBAL",0)
+END
+
+IF
+  Global("DW_test_asc_setup_in_progress","GLOBAL",2)
+THEN
+    RESPONSE #100
+             SetGlobal("DW_test_asc_setup_in_progress","GLOBAL",0)
+             SetGlobal("DW_test_remove_melissan","GLOBAL",1)
+END
+
+IF
+  Global("DW_test_asc_setup_in_progress","GLOBAL",3)
+THEN
+    RESPONSE #100
+             SetGlobal("DW_test_asc_setup_in_progress","GLOBAL",0)
+             SetGlobal("FinalFight","AR6200",3)
+             SetGlobal("DW_test_remove_melisan","GLOBAL",1)
+             AmbientActivate("AMB_Stream1",TRUE)
+             AmbientActivate("AMB_Stream2",TRUE)
+             AmbientActivate("AMB_Stream3",TRUE)
+             AmbientActivate("MMELSPIN",TRUE)
+             AmbientActivate("AM6200A",TRUE)
+             AmbientActivate("AM6200B",FALSE)
+END
+
+IF
+  Global("DW_test_asc_setup_in_progress","GLOBAL",4)
+THEN
+    RESPONSE #100
+             SetGlobal("DW_test_asc_setup_in_progress","GLOBAL",0)
+             SetGlobal("FinalFight","AR6200",8)
+END
+>>>>>>>>
+
+EXTEND_TOP ar6200.bcs ".../ascension-inline/ar6200_test_top.baf"
+
+
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Initial arrival: FinalFight=0,1
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Balthazar spawns (controlled by the cutscene selected in ar4500 - DW variant). Melissan initiates conversation
+// immediately. (This is DW-changed - in vAsc she waited for him to spawn, but tihs is mildly unaesthetic)
+
+// the initial conversation with Melissan sets FinalFight=1 and plays cutscene finmel1, which summons Irenicus
+// and advances FinalFight to 2 (and also, in vAsc, resets the IMPRISON global, which Imprisonment sets - 
+// it's used by Sendai et al to detect when a bad guy is imprisoned, but it risks false positives so I do it
+// differently), and then restarts conversation with Melissan)
+
+COMPILE "%cutscripts%/finmel1.baf"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Irenicus/Imoen/Bodhi confrontation setup: FinalFight=2
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// the correct bit of Melissan's dialog is gated by FinalFight=2. She banters a bit with Irenicus and the party, 
+// and then plays a cutscene according to Imoen's status: resimo3 if she's alive and in the party, resimo1 if she's
+// in the party but dead, resimo2 if she's not in the party (dead or not).
+//
+// Each of those scripts ends with Imoen out of the party and initiating dialog using imoen25p. Different ones set
+// the ImoenResurrected, ImoenResurrected2, and ImoenHurt variables, which are referenced by her dialog:
+//
+// resimo1: ImoenResurrected (= she was in the party, and is resurrected)
+// resimo2: ImoenResurrected2 (= she was summoned from afar and resurrected - the game assumes she died off camera
+// if she didn't die in the party, I think)
+// resimo3: ImoenHurt
+
+ACTION_FOR_EACH script IN resimo1 resimo2 resimo3 BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+// If ImoenResurrected1/2 is set and she's not Hurt (and if the later ImoenBackToHuman variable is not set)
+// then Imoen's conversation leads to a short banter with Melissan and then to resimo3.
+// The result, one way or another, is we're back in conversation with Imoen on ImoenHurt=1.
+// That leads to a short banter and then to resimo4 playing. That cutscene removes Melissan and triggers conversation
+// with Irenicus.
+
+COMPILE "%cutscripts%/resimo4.baf"
+
+// Irenicus' conversation is gated by FinalFight=2. After a short banter, it plays the finiren1 cutscene, which summons
+// Bodhi and triggers a conversation with her.
+
+COMPILE "%cutscripts%/finiren1.baf"
+
+// The banter with Bodhi and Irenicus exits on one of several cutscenes:
+//
+// - irenic2a or irenic2b if Bodhi and Irenicus work together.
+// - irenic2c/2d/2e if Bodhi sides with CHARNAME.
+// This is difficulty-gated. If Bodhi doesn't join you, you get irenic2a if you've got Balthazar and are on EASY or lower,
+// or if you've not got him and you're on NORMAL or lower; otherwise you get irenic2b.
+// If Bodhi joins you, you get 2c on normal, 2d on hard+, 2e on easy-.
+//
+// Each of these cutscenes :
+// - turns Irenicus and Imoen hostile; 
+// - applies the imoslay1 spell to Imoen, gives imoen the "imoslay" and "imoslay2" scripts, and sets a 10-round 
+// "ImoenChangeBack" timer (NB it's a DW change to add imoslay2, I want to separate combat and plot);
+// - sets FinalFight=3
+// - summons some Fallen Solars - one (finsolar) on 2a/2e, additionally finsola2 on 2b/2c, and finsola3 on 2d.
+// (DW: I change a second finsola2 to finsola3 to make detection easier.)
+//
+// 2a/b also turn Bodhi hostile
+//
+// 2c/d/e also sets Bodhi as an ally, swaps her script from FINBODHI to FINBODH (way to go on memorable names, guys),
+// and sets the BodhiFights global to 1.
+
+ACTION_FOR_EACH script IN irenic2a irenic2b irenic2c irenic2d irenic2e BEGIN
+   COPY_EXISTING "%cutscripts%/%script%.baf" "override/%script%.bcs"
+     // REPLACE_TEXTUALLY ~MoveViewObject("Imoen2",5)~ ~MoveViewObject("Imoen2",5)StateOverrideTime(10)ApplySpellRES("finimocr","Imoen2")~
+      COMPILE_BAF_TO_BCS
+END
+
+COMPILE "%plotscripts%/imoslay.baf"
+
+
+// cosmetically, EEAsc (and possibly vAsc) lets Imoen get up and stretch during the cutscenes, which is a
+// bit unaesthetic. We fix it with a new sleep effect in the cutscenes
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Irenicus/Imoen/Bodhi battle: FinalFight=3
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/// Irenicus, Bodhi, Balthazar and the solars just fight straightforwardly and have no particular scripting if they die.
+/// Imoen's script applies imoslay2 to her on a 10-round timer, or if Bodhi and Irenicus are dead or allied. Note
+/// that imoslay2 also grants imoen's Slayer Change power (imoslay3) and Ethereality power (imoeth)
+
+/// The area script is in charge of detecting that the battle is over. If it finds that it is, it sets FinalFight=4 and
+/// triggers a conversation with Balth or Bodhi if they are available, or with player1 if not.
+
+/// Here, the 1.5-1.7 version does some substantial rewriting to make this more robust, but (both theoretically and
+/// on the basis of bug reports) I'm not sure it's working well. I strip it out and do it myself.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Interstitial conversation: FinalFight=4
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// This is very simple: whichever of Bodhi, Balthazar or yourself you banter with at the end of FinalFight=3, 
+// at the end of that dialog FinalFight is set to 5.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Demon pools: FinalFight=5
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Once FinalFight=5, the area script activates the ambients and sounds for the three light bridges, and 
+// opens the invisible doors blocking movement to them.
+//
+// The pools each have trigger scripts: itfpool[1-3]. The scripts are all isomorphic. Either CHARNAME or Imoen
+// can trigger them. The first time they are triggered, a cutscene plays: pool[1-3]a. The next time they are
+// triggered - provided ActuallyInCombat() returns false - an invisible creature, ppguy02, is created and
+// initiates dialog. (Others can trigger them, but they just take damage)
+//
+// Progress through the pool is controlled by the area variable Pool[1-3]Active. It's 1 on first touch, 2
+// when you reactivate after killing the demons, and is set to 3 in the conversation with ppguy02.
+
+
+COMPILE "%plotscripts%/itfpool1.baf"
+ACTION_FOR_EACH pool IN pool2 pool3 BEGIN
+  COPY "%plotscripts%/itfpool1.baf" "override/itf%pool%.bcs"
+   REPLACE_TEXTUALLY pool1 "%pool%"
+   COMPILE_BAF_TO_BCS
+END
+
+// the pool[1-3]a cutscenes just create a bunch of demons
+
+ACTION_FOR_EACH script IN pool1a pool2a pool3a BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+// ppguy02 gives you a power, granted by the pool[1-3]a spell.
+// Then it checks the difficulty setting and which pool this is. Based on the difficulty, you either get
+// the pool[1-3]b cutscene (easy version) or the pool[1-3]b2 cutscene (hard version). The thresholds are
+// - first pool: easy cutscene if Difficulty<Hard
+// - second pool: easy cutscene if Difficulty<Normal
+// - third pool: easy cutscene if Difficulty<Insane
+// Finally, on the third pool it sets the MelissanComes area timer to 15.
+
+// on vAsc, the *key* difference between b and b2 is that b applies SPWISH16 (the rest effect) to the party
+// whereas b2 just applies 'bhaalla', a powerful mass-healing effect. This has been deleted in EEAsc, I think
+// probably in error? In addition, in vBG2 the Restoration spell (applied by both b and b2 to CHARNAME, Bodhi, 
+// and Balthazar) is target=party; in EE (and many mods) it's target=preset target. So I think RESTORATION 
+// ought to be applied to the whole party.
+// 
+// The text in ppguy02 says that the energies 'restore the powers of all present.' That fits with the idea that
+// RESTORATION should be applied, but it's perhaps in tension with the rest issue. I think this is a fossilised
+// story/gameplay conflict in vAsc. We'll err on the side of leaving the vanilla gameplay unchanged.
+//
+// Over and above that, the vanilla version turns off the energy flow, leaves the party on the island, but leaves 
+// the invisible door open - all of which is a bit inelegant and not the way it's done in vanilla ch10. We'll
+// transport the party to the mainland and close the door.
+
+// Make all changes by swap, for ease of tweaking
+
+ACTION_FOR_EACH script IN pool1b pool2b pool3b pool1b2 pool2b2 pool3b2 BEGIN
+   COPY "%cutscripts%/%script%.baf" "override/%script%.bcs"
+       // everyone gets restoration
+       PATCH_FOR_EACH player IN 6 5 4 3 2 BEGIN
+            REPLACE_TEXTUALLY "ReallyForceSpell(Player1,CLERIC_RESTORATION)"
+                              "ReallyForceSpell(Player1,CLERIC_RESTORATION)ReallyForceSpell(Player%player%,CLERIC_RESTORATION)"
+       END
+       // move the party (and create cutspy)
+       REPLACE_TEXTUALLY
+       ~CutSceneId(Player1)~
+       ~CutSceneId(Player1)ClearAllActions()~
+       REPLACE_TEXTUALLY
+       ~MoveViewPoint(\([^,]*\),INSTANT)~
+       ~
+       MoveViewPoint(\1,INSTANT)
+       CreateCreature("cutspy",\1,S)
+        	ReallyForceSpellRES("finddvi",Player1)  // Teleport
+        	ReallyForceSpellRES("finddvi",Player2)  // Teleport
+        	ReallyForceSpellRES("finddvi",Player3)  // Teleport
+        	ReallyForceSpellRES("finddvi",Player4)  // Teleport
+        	ReallyForceSpellRES("finddvi",Player5)  // Teleport
+        	ReallyForceSpellRES("finddvi",Player6)  // Teleport
+        	ReallyForceSpellRES("finddvi","balth")  // Teleport
+        	ReallyForceSpellRES("finddvi","finbodh")  // Teleport
+              ActionOverride(Player2,JumpToPoint([1227.1254]))
+       ActionOverride(Player3,JumpToPoint([1357.1261]))
+       ActionOverride(Player4,JumpToPoint([1294.1296]))
+       ActionOverride(Player5,JumpToPoint([1155.1258]))
+       ActionOverride(Player6,JumpToPoint([1436.1278]))
+       ActionOverride("finbodh",JumpToPoint([1233.1207]))
+       ActionOverride("balth2",JumpToPoint([1233.1207]))
+       JumpToPoint([1290.1220])
+
+       ~
+       // close the door
+       REPLACE_TEXTUALLY
+       ~AmbientActivate("AMB_Stream1",FALSE)~
+       ~AmbientActivate("AMB_Stream1",FALSE)CloseDoor("DOOR03")~
+       REPLACE_TEXTUALLY
+       ~AmbientActivate("AMB_Stream2",FALSE)~
+       ~AmbientActivate("AMB_Stream2",FALSE)CloseDoor("DOOR02")~
+       REPLACE_TEXTUALLY
+       ~AmbientActivate("AMB_Stream3",FALSE)~
+       ~AmbientActivate("AMB_Stream3",FALSE)CloseDoor("DOOR01")~
+       // move the viewpoint to the party (and destroy cutspy)
+       REPLACE_TEXTUALLY
+       ~EndCutSceneMode()~
+       ~
+       MoveViewPoint([1290.1220],8)
+       Wait(4)
+       ActionOverride("cutspy",DestroySelf())
+       EndCutSceneMode()
+       ~
+       // remove the Rest spell if appropriate
+       PATCH_MATCH "%script%" WITH
+       ".*b2" BEGIN
+            REPLACE_TEXTUALLY ~ReallyForceSpellRES("SPWISH16",Player1)~ ~~
+       END
+       DEFAULT END
+       COMPILE_BAF_TO_BCS // who says this function has no purpose?
+END
+
+// Once the MelissanComes timer is expired, the area script advances FinalFight to 6 and runs cutscene finmel2
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Sarevok/Melissan setup: FinalFight=6
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// cutscene finmel2 just jumps the party into place, spawns Mel and triggers dialog with her
+// I have edited it slightly compared to vAsc to correct what (I'm fairly sure) is a cosmetic bug where
+// Bodhi jumps 1 second earlier than everyone else
+
+COMPILE "%cutscripts%/finmel2.baf"
+
+// Mel's conversation (gated by FinalFight=6 and TheFiveAreHere=0) is just a quick line followed by a cutscene:
+// - finmel3a if Balthazar is NOT on-side (controlled by BalthazarFights, doesn't matter if he's dead)
+// - finmel3b if Balthazar IS on-side and the difficulty is at least Normal
+// - finmel3c if Balthazar is on-side but the difficulty is Easy or lower
+//
+// Each cutscene spawns the Five and sets TheFiveAreHere as an AR6200 Boolean, then re-keys Melissan dialog
+// - finmel3a spawns all of them
+// - finmel3b replaces Balth with Gromnir
+// - finmel3c just spawns the Four
+
+ACTION_FOR_EACH script IN finmel3a finmel3b finmel3c BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+// Mel's second conversation (gated by FinalFight=6 and TheFiveAreHere=1) has an exit cutscene depending
+// on Sarevok's state. Firstly we check if Sarevok is Dead; if he is, we just exit at finmel4.
+//
+// If he's alive, but out of the party, then we might summon him: we do so on difficulty EASY+ if Balthazar
+// is allied, or NORMAL+ if he isn't. Summoning him runs finmel5, sets the SarevokSummoned area Boolean, and
+// jumps us right back into the conversation, whereupon we exit again at finmel4b.
+//
+// Whether Sarevok is in the party or out of it, if he's alive then:
+//
+//      - if (i) he's redeemed (i.e. non-evil); or
+//           (ii) he's evil but the diffciculty is EASY or lower; or
+//           (iii) he's evil, so is CHARNAME, and reputation is 9 or lower, again exit at finmel4
+//      - otherwise (i.e. he's evil, CHARNAME isn't a bad guy, and difficulty is NORMAL+), exit at 
+//        finmel4a  if he's in the party, finmel4b otherwise (controlled by SarevokSummoned); either
+//        way, SarevokFights is set.
+//
+// DW modification to this: if Sarevok is out of the party but redeemed, we instead summon good-aligned
+// finsare2, who doesn't join Melissan.
+
+
+// finmel5 summons "finsarev", the combat version of Sarevok, and triggers a conversation with him.
+// finmel5a is a variant that summons good Sarevok
+
+
+ACTION_FOR_EACH script IN finmel5 finmel5a BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+// finmel4/4a/4b starts the battle with the Five. Each script:
+// - turns FINxxxx hostile;
+// - removes finmel01;
+// - sets a 6-second timer on CommandMinions;
+// - advances FinalFight to 7.
+//
+// They differ only in regards to Sarevok. finmel4 doesn't mention him; finmel4a removes him from the party,
+// destroys him, and replaces him with finsarev (who then goes hostile); finmel4b just makes him hostile.
+
+ACTION_FOR_EACH script IN finmel4 finmel4a finmel4b BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// The battle with the Five: FinalFight=7
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// The Five engage directly via their combat scripts. In vAsc, each has a block at the top of its script to
+// record it as dead, and inflict anti-Melissan feedback, once it gets below 20 HP. I move all these blocks to the
+// area script, where they are less likely to get blocked. en passant I fix a couple of vAsc bugs: a typo meant
+// Gromnir wasn't inflicting feedback, and logically Gromnir should remove the finbalth item from Mel's defensive
+// array since he's replacing Balth.
+//
+// Critically here, we need to keep track of how many of the Five are dead. This is done in  via the
+// XDead local Booleans, which get set to equal the value of SPRITE_IS_DEADX, which can go on or off when creatures are Imprisoned.
+//
+// vAsc also has a DeathScriptX variable. But as far as I can see it's pointless *in vAsc*. We use it to track when creatures
+// are *really* dead, on the grounds that only then should Mel lose items.
+//
+// One subtlety here is handled by the combat scripts. Any time Imprisonment is successfully cast on one of the Five,
+// they detect it via the IMPRISON local, set by the spell itself; they cry for help and set an 'I'm imprisoned' area
+// Boolean. Abazigal, Sendai and Melissan detect that and free them. I detect Imprisonment via their 'I'm imprisoned'
+// indicators, rather than (as in vAsc) via an IMPRISON global set by the spell; that's to avoid false positives if,
+// e.g., a party member gets imprisoned.
+
+// Anyway, the area script here does three things:
+
+// (1) record the perma-death of the Five
+// (2) increment or decrement the counter 'FiveDead' that controls when Melissan spawns;
+// (3) actually spawn Mel
+
+// Melissan spawns when the FiveDead counter is high enough. Sendai, Illasera and Balthazar count double. The conditions are:
+//
+// On EASIEST: 4+
+// On EASY: 3+
+// On NORMAL: 2+
+// On HARD or INSANE: any one
+
+// When that happens, the area script sets FinalFight=8 and plays the melcomes cutscene
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// The battle with Melissan: FinalFight=8
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// melcomes spawns Melissan and starts dialog with her (gated by FinalFight=8, local ShesInIt=0)
+
+COMPILE "%cutscripts%/melcomes.baf"
+
+// Mel banters, sets ShesInIt=1, goes hostile, and attacks
+
+// From here on (gated by FinalFight=8) the area script keeps track of whether the Five are all dead.
+// Which means: Yaga, Illa, Sendai, Abaz; Balth, unless BalthazarFights is set; Sarevok, if SarevokFights is set;
+// Gromnir, on difficulty Normal+.
+
+// otherwise, progress is controlled by Melissan's finmel01 plot script, which triggers when she's reduced to <20
+// hit points. If allfive is NOT set, this takes her out of the fight for a while, increments MelStillImmortal, 
+// and then brings her back. 
+
+// MelStillImmortal is basically a tool to give the player a hint - although I think it's somewhat bugged in vAsc.
+// It should trigger when Mel has regenerated twice (i.e. when it equals 2) and cause a conversation with:
+// Balthazar (via his finbalth script) if he's allied; Sarevok (via his script), if he is but Balth isn't; the 
+// player (via the area script) if neither is available. In fact I think the player and Sarevok ones won't fire due
+// to a variable mismatch, which I fix.
+
+// As soon as AllFive is set to 1, Mel's plot script triggers a quick banter (no external effect)
+
+// If AllFive=1 and Melissan gets reduced to <20HP, one of three cutscenes triggers (all keyed off Melissan's plot script):
+// - allied with neither Bodhi nor Balth: cut233g
+// - allied with Balth: cut233ga
+// - allied with Bodhi: cut233gb
+
+// DW addition - 3 more cutscenes if non-party Sarevok is on-side
+
+// Each one resurrects all the party (including Bodhi/Balth), sets FinalFight=9, spawns the Solar, and starts a conversation with it
+
+ACTION_FOR_EACH script IN cut233g cut233ga cut233gb cut233gc cut233gd cut233ge BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// The denouement: FinalFight=9
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// the Solar banters with Melissan and then triggers cut233h, which knocks over Melissan, and then jumps back into conversation
+
+COMPILE "%cutscripts%/cut233h.baf"
+
+// if Bodhi is in the party, you choose whether to honor your deal with her; depending on the choice you get bodhif01
+// or bodhif02 cutscene. bodhif01 throws you back into brief conversation with Bodhi, which exits on bodhif03, which
+// removes Bodhi and returns you to the Solar dialog; bodhif02 disintegrates her and returns you to the solar dialog
+// direct.
+
+ACTION_FOR_EACH script IN bodhif01 bodhif02 bodhif03 BEGIN
+   COMPILE "%cutscripts%/%script%.baf"
+END
+
+// You exit the Solar conversation through one of three unmodified vanilla-game cutscenes.
+
+
+END

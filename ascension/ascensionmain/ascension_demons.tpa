@@ -1,0 +1,572 @@
+OUTER_SPRINT demon_loc "%MOD_FOLDER%/ascensionmain/demon"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   Demon-based content
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_demons BEGIN
+
+LAM load_ascension_tras
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// The demons themselves. We don't try to build them from scratch but we do a few edits. In general:
+// - All demons are immune to poison from their RINGDEMN ring, and so poison protection is cruft; 
+//   we remove it.
+// - Demon MDR is set a bit inconstantly; we enforce a consistent method. (The actual *value* varies
+//   from demon to demon, which is fine.)
+// - Many demons have regeneration, which is nonfunctional; we fix it.
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////
+// Alu-fiend
+/////////////////
+
+COPY "%demon_loc%/finaluf.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR resist_magic_damage=25 END
+// BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/finaluf.baf"
+
+///////////////////
+// Babau
+///////////////////
+
+// Babaus have a weapon - finbabau - clearly inspired by the 2e PnP babau's slime, whose enemies' weapons have
+// a 20% chance per hit - though in PnP I think it's intended to be *enemies*' hit - to be corroded, losing
+// one 'plus'. This is realised by a 20% chance of applying the 254 (drop weapons in panic) opcode and the
+// 250 maximum-damage-on-hit opcode. But testing gives poor results: 254 is widely disliked as it has
+// no negative consequences if you're paying attention and disastrous consequences if you don't notice, and
+// I think 250 just doesn't do what the vAsc authors thought.
+//
+// Here I'll meddle. I strip the existing opcodes, and apply a 5-round, -2 to melee damage, -2 to melee attack, 
+// penalty - 20% chance per hit, no save. I provide a string feedback and use the Grease icon.
+
+COPY "%demon_loc%/finbabau.cre" override
+   SAY NAME1 @500 // 'Babau' is the only demon name not present in vBG2
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR regeneration=2 END
+// BUT_ONLY
+
+LAF check_ini STR_VAR ini=restore_original_babau_weapon RET value END
+ACTION_IF !value BEGIN
+COPY "%demon_loc%/finbabau.itm" override
+   LPF ALTER_EFFECT INT_VAR match_opcode=264 opcode=284 parameter1="-2" parameter2=0 timing=0 duration=30 END // drop item=>THAC0 penalty
+   LPF ALTER_EFFECT INT_VAR match_opcode=250 opcode=285 parameter1="-2" parameter2=0 timing=0 duration=30 END // damage min=>damage penalty
+   LPF CLONE_EFFECT INT_VAR match_opcode=285 opcode=142 parameter1=0 parameter2=145 END
+   SET parameter1=RESOLVE_STR_REF (@1042)
+   LPF CLONE_EFFECT INT_VAR match_opcode=285 opcode=139 parameter1 parameter2=145 timing=1 duration=0 END
+// BUT_ONLY
+END
+
+COMPILE "%demon_loc%/scripts/finbabau.baf"
+
+////////////////
+// Balor
+////////////////
+
+// Balors get push and pull Telekinesis effects. Both seem fine.
+//
+// They have a bespoke weapon, 'balswd'.
+// balswd is clearly built from the vanilla ToB balor weapon, 'balor'. It differs only by having a bunch of equipped effects:
+// - play the aura of flaming death VVC
+// - cast the spell 'balaura' when hit - basically the payload of Aura of FD, but 4d6 rather than 2d10 and power=0
+// -
+// - immunity to level drain
+// - scriptingstate3 set - this is level-drain immunity
+//
+// The problem with putting this on the sword is cosmetic: their fire ring turns up while the Gate animation is
+// still playing. I think it's simpler to:
+//
+// - make an actual clone of Aura of FD that's permanent, undispellable and not coded as a combat protection,
+//   and cast it on creation by script
+// - put level-drain immunity on the balor's cre file (we need to fill in some details in any case)
+// - just give the balor 'balor'.
+//
+// They also explode on death, using the spell 'baldead'. For this reason they don't have demons' normal
+// 'demondie' override script in vAsc. I move their death block to 'demondie', on logical-clarity grounds,
+// which means we need to give them the script.
+// 'baldead' itself does 50 hp magic damage, save for half, in accordance with 2e PnP and using the Fireball projectile.
+// On EE, it needs to move to the save-for-half opcode
+
+COPY "%demon_loc%/finbalor.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF level_drain_immunity END
+   LPF CRE_regeneration INT_VAR type=3 STR_VAR arguments=3 END  // Balors have quite a slow regeneration, 1 hp per 3 sec
+   LPF CRE_patch INT_VAR resist_magic_damage=50 STR_VAR script_override=demondie END
+   REPLACE_TEXTUALLY "balswd" "balor" (8)
+// BUT_ONLY
+
+ACTION_FOR_EACH spell IN balortk1 balortk2 BEGIN
+   COPY "%demon_loc%/%spell%.spl" override
+      SAY NAME1 @1009
+   // BUT_ONLY
+END
+
+COPY "%demon_loc%/baldead.spl" override
+   PATCH_IF enhanced_edition BEGIN
+      LPF DELETE_EFFECT INT_VAR match_save_vs_spell=0 END // get rid of the no-save effect
+      LPF ALTER_EFFECT INT_VAR save_for_half=1 parameter1=50 END // put save-for-half on the remaining effect, and double its damage
+   END
+// BUT_ONLY
+
+COPY_EXISTING "%CLERIC_AURA_OF_FLAMING_DEATH%.spl" "override/finbalor.spl"
+    WRITE_LONG NAME1 "-1"
+    WRITE_BYTE 0x27 0       // zero sectype
+    LPF DELETE_SPELL_HEADER INT_VAR min_level=2 END  // remove all but the first header
+    PATCH_FOR_EACH match_opcode IN 30 84 142 174 0 120 328 318 233 BEGIN // get rid of all Aura of FD effects except the cosmetics and cast-on-condition
+       LPF DELETE_EFFECT INT_VAR match_opcode END
+    END
+    LPF ALTER_EFFECT INT_VAR resist_dispel=0 END
+    LPF ALTER_EFFECT INT_VAR match_timing=0 duration=0 timing=1 END         // make permanent and nonmagical
+    LPF ALTER_EFFECT INT_VAR match_opcode=232 STR_VAR resource=balaura END  // patch in new payload
+// BUT_ONLY
+
+COPY_EXISTING "%CLERIC_AURA_OF_FLAMING_DEATH%d.spl" "override/balaura.spl"
+    LPF ALTER_EFFECT INT_VAR power=0 dicenumber=4 dicesize=6 END
+// BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/finbalor.baf"
+
+
+////////////////
+// Cambion
+////////////////
+
+COPY "%demon_loc%/fincamb2.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR resist_magic_damage=25 END
+   REPLACE_TEXTUALLY "rngdemn" "ringdemn" (8) // through a typo, cambions don't get the usual demon immunities
+// BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/fincamb2.baf"
+
+
+////////////////
+// Glabrezu
+////////////////
+
+// The glabrezu weapon, finglab, is inspired by the 2e PnP glabrezu's grab attack. It has a 20% chance per hit of:
+// - movement=0 (no save)
+// - -4 to hit (no save)
+// - 'held' portrait icon (no save)
+// - pause target on SELF 6 secs (no save; presumably represents crushing)
+// - crushing damage, no save: 2d6 after 2 secs, 2d6 after 4 secs, 2d6 after 6 secs
+// - a delay/limited stun effect, 6-second duration (so applies *second* round), save vs paralysation(=poison) at -4 to avoid
+// - a stun icon, same conditions but only a 15% chance (surely error)
+// there is also, on probability 80-99:
+// - an instant/limited stun, same save to avoid, 6 seconds, with portrait icon
+//  I *think* this represents the fact that a creature might try to break loose immediately or later, but it's a bit odd.
+
+//  My main concerns:
+
+//  (i) it reacts oddly with Free Action, which ought to give full protection but will give only partial protection.
+//  (ii) the 'pause target' looks odd cosmetically, and is tactically silly if the attack killed the attacker anyway
+//  - but I don't think I can fix this.
+//  (iii) sufficiently big or strong creatures ought to be immune
+//  (iv) the unexplained Stun.
+//
+//  I copy it to a spell, and then give protection from the spell in appropriate places. Gated by an ini variable, I
+//  also remove the weird stun effect, add a string ("Grabbed"), shift to the Entangled icon, add a chance of spell
+//  failure, and do a variable-based workaround to the pause.
+
+LAF check_ini STR_VAR ini=restore_original_glabrezu_weapon RET original_weapon=value END
+
+COPY "%demon_loc%/finglab.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR resist_magic_damage=50 regeneration=2 END
+// BUT_ONLY
+
+COPY "%demon_loc%/spell_template.spl" "override/finglab.spl"
+
+COPY "%demon_loc%/finglab.itm" override
+   LPF externalise_ability_to_spell STR_VAR spell=finglab END
+BUT_ONLY
+
+COPY_EXISTING "finglab.spl" override
+   LPF ALTER_EFFECT INT_VAR match_probability1=20 probability1=19 END
+   LPF ALTER_EFFECT INT_VAR match_probability1=15 probability1=19 END
+   // new stuff
+   PATCH_IF !original_weapon BEGIN
+        LPF ALTER_EFFECT INT_VAR match_opcode=142 parameter2=144 END                 // new icon
+        LPF DELETE_EFFECT INT_VAR match_probability2=80 END                          // remove the extra stun
+        LPF DELETE_EFFECT INT_VAR match_timing=3 END                                 // remove the delayed stun
+        SET parameter1=RESOLVE_STR_REF (@1043)
+        LPF CLONE_EFFECT INT_VAR match_opcode=142 opcode=139 parameter1 parameter2=0 END // 'grabbed' string
+        LPF CLONE_EFFECT INT_VAR match_opcode=142 opcode=60 parameter1=50 parameter2=0 END // 50% chance mage spell failure
+        LPF CLONE_EFFECT INT_VAR match_opcode=142 opcode=60 parameter1=50 parameter2=1 END // 50% chance priest spell failure
+        PATCH_IF enhanced_edition BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=318 target=2 duration=1 parameter2=13 STR_VAR resource=FINGLAB END  // EE only: sufficiently large creatures are immune
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=318 target=2 duration=1 parameter1=25 parameter2=124 STR_VAR resource=FINGLAB END  // EE only: STR-25+ creatures are immune
+        END
+   END
+// BUT_ONLY
+
+// general patch on item equipped effects with opcode 163 (though that opcode is applied instant/permanent, so care needed)
+
+COPY_EXISTING_REGEXP ".*\.itm" override
+          LPF CLONE_EFFECT INT_VAR silent=1 check_headers=0 match_opcode=163 opcode=206 timing=2 STR_VAR resource=finglab END
+BUT_ONLY
+
+// targeted patch on the Free Action spell
+
+COPY_EXISTING "%CLERIC_FREE_ACTION%.spl" override
+          LPF CLONE_EFFECT INT_VAR STR_VAR match_resource=spwi305 resource=finglab END
+BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/finglab.baf"
+
+
+////////////////
+// Marilith
+////////////////
+
+// Also uses Balor TK spells
+
+COPY "%demon_loc%/finmaril.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR resist_magic_damage=50 END
+
+COMPILE "%demon_loc%/scripts/finmaril.baf"
+
+////////////////
+// Nabassu
+////////////////
+
+// Nabassu have a weapon that's a combined energy drain + vampiric touch.
+// It works fine, I don't think we need to mess with it.
+//
+// They also have a fairly broken paralysation power, 'nabpara'. It's clearly (from the
+// name) supposed to emulate the 2e PnP paralysation aura of the nabassu, that
+// affects all living creatures. It's applied as a targetted spell, but that
+// spell is actually broken - there's a nonfunctional EA code on the spell.
+//
+// We rebuild this from scratch, inspired by IWD and IWD-in-BG2.
+//  'nabpara' is now a spell that, when cast on a creature,
+// causes that creature to cast 'nabparab' once per second. (This is via a repeating
+// effect, also called 'nabpara' - the resources are built from SCS's make_aura function
+// but that function has lots of dependencies so it's easier just to ship the output.)
+//
+// Nabparab is the payload - a paralysation effect, built from 'Hold Person', that gives
+// its targets immunity to itself (so each creature only gets affected once).
+
+COPY "%demon_loc%/finnabas.cre" override
+   LPF poison_immunity INT_VAR value=0 END
+   LPF CRE_patch INT_VAR regeneration=5 END // no MDR, but stunningly fast regeneration
+   LPF ADD_CRE_EFFECT INT_VAR opcode=193 target=1 parameter2=1 timing=1 END // Nabassu can't see invisible. Since all other comparable demons can, and since all other BG2 Nabassu can, presumably a bug
+// BUT_ONLY
+
+// copy over the weapon, aura spell and effect
+
+COPY "%demon_loc%/finnabas.itm" override
+COPY "%demon_loc%/nabpara.spl" override
+COPY "%demon_loc%/nabpara.eff" override
+
+// projectile for the payload
+
+COPY_EXISTING inareasm.pro "override/finnabas.pro"
+         WRITE_SHORT 0x200 64 // not affecting allies
+ADD_PROJECTILE "override/finnabas.pro"
+OUTER_SET projectile=finnabas
+
+// make an effect to display the 'paralysation aura' string
+
+COPY_EXISTING cdheld.eff "override/finnastr.eff"
+WRITE_LONG 0x1c RESOLVE_STR_REF (@1027)
+
+// now build our payload spell from Hold Person
+
+COPY_EXISTING "%WIZARD_HOLD_PERSON%.spl" "override/nabparab.spl"
+         WRITE_LONG NAME1 "-1"
+         LPF ALTER_SPELL_HEADER INT_VAR projectile END
+         PATCH_IF enhanced_edition BEGIN // this is just cosmetic, it avoids unneeded saving throws
+            LPF ADD_SPELL_EFFECT INT_VAR insert_point=0 opcode=318 target=2 parameter2=1 duration=1 STR_VAR resource="%DEST_RES%" END // undead are immune
+            LPF CLONE_EFFECT INT_VAR match_opcode=318 parameter2=9 END // elementals are immune
+            LPF CLONE_EFFECT INT_VAR match_opcode=318 parameter1=121 parameter2=104 END // demons are immune
+         END
+         LPF ALTER_EFFECT STR_VAR match_resource=cdheld resource=finnastr END
+         PATCH_FOR_EACH match_opcode IN 177 175 BEGIN
+            PATCH_FOR_EACH parameter1 IN 2 5 BEGIN // animal, gianthumanoid
+                LPF CLONE_EFFECT INT_VAR match_opcode match_parameter1=1 match_parameter2=3 parameter1 END
+            END
+         END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=2 parameter1="-1" duration=60 resist_dispel=1 STR_VAR resource="%DEST_RES%" END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=2 parameter1="-1" duration=6 resist_dispel=0 STR_VAR resource="%DEST_RES%" END  // this second one is so that creatures with MR check only 1/rd
+// BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/finnabas.baf"
+
+////////////////
+// Succubus
+////////////////
+
+/// Ascension nerfs the Succubus's kiss (demsuc01), removing its saving throw penalties, hit point
+/// boost for the succubus, and con/dex penalty. Since that item is used elsewhere, we'll instead
+/// make a cloned copy. (As a design matter I don't really like this change, but I'll leave it -
+/// but I leave the cosmetic effects of the original one in place and just remove the payload.)
+
+COPY "%demon_loc%/finsucc.cre" override
+     REPLACE_TEXTUALLY demsuc01 finsucc (8)
+// BUT_ONLY
+
+COPY_EXISTING demsuc01.itm "override/finsucc.itm"
+    PATCH_FOR_EACH match_opcode IN 10 15 33 34 35 36 37 18 BEGIN
+       LPF DELETE_EFFECT INT_VAR match_opcode END
+    END
+BUT_ONLY
+
+COMPILE "%demon_loc%/scripts/finsucc.baf"
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// A few misc/shared demon abilities
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 'demondie' is cast on the death of any demon with the exception of the Balor. It's purely
+// cosmetic and can come over unchanged
+
+COPY "%demon_loc%/demondie.spl" override
+COMPILE "%demon_loc%/scripts/demondie.baf"
+
+// 'melspl5a' is part of the demon-control effect suite. It gets cast on every party-friendly demon 6 seconds after Melissan appears.
+// It pauses the demon for 6 secs, displays some graphics and the 'Melissan: Command the Minions of the Abyss' string.
+// After 6 seconds it has a 50% chance of setting the CONTROL local variable to 0, which is picked up by the demon's
+// script and makes nonhostile demons hostile.
+
+// on our implementation, we strip almost all the content from the spell and then add basic resources 
+// built from the demon_control_core function (see under ascension_player_powers for that function and
+// some documentation)
+
+INCLUDE "%MOD_FOLDER%/ascensionmain/ascension_player_powers.tpa"
+COPY "%demon_loc%/melspl5a.spl"   override
+   LPF ALTER_EFFECT INT_VAR match_opcode=139 parameter1=RESOLVE_STR_REF(@1038) END  // a display string at the start
+   LPF DELETE_EFFECT STR_VAR match_function="opcode_is(165 215 309)"  END
+// BUT_ONLY
+
+LAF demon_control_core
+         INT_VAR success_probability=50 control_duration=6 success_strref=RESOLVE_STR_REF(@1052) failure_strref=RESOLVE_STR_REF(@1053) success_ea=255
+         STR_VAR outer_filename=melspl5a payload_filename=finctrc
+END
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Demon gating
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// GATE[1-6].spl are demon summoning. All the success probabilities are from 2e PnP (Outer Planes MC),
+// and each has an off-by-one error, which we'll fix. 
+
+// Then there are the EFF files themselves, one for each fiend. They mostly do what you'd expect:
+// xxxxSU summons FINxxxx, using the SPSUMGTE vvc.
+// SOLARSUM summons FINSOLAR with slightly different graphics.
+//
+// Aesthetically the problem here is multiple SPSUMGTE effects, which looks ugly and is unlikely to be 
+// intentional. I tried to get around it by:
+// - creating a blank copy of SPSUMGTE, FINBLANK
+// - for each fiend, creating one version that summons it with SPSUMGTE, one with FINBLANK.
+//   Annoyingly, the delay in summons appearing is hardcoded(!) to SPSUMGTE.VVC, so it didn't work.
+//   It turns out to be simpler, if less elegant, just to introduce a delay in the summoning, though we
+//   still include the blanked animation.
+//
+//   We may as well be systematic here: xxxxS2 is the blank.
+// - for each GATE[1-7], making sure only one EFF file with a nonblank BAM plays
+// - for GATE5, making a copy with all blanks, so Melissan can use that one instead of gate5 for
+//   all but one of her summons.
+//
+
+// Given the complexity of all this, we might as well build everything from scratch.
+// we keep babausu and gate1 as templates
+// first the blanked SPSUMGTE
+
+  LAF make_blank_bam_copy STR_VAR old=SPSUMGTE new=FINBLANK END
+  COPY_EXISTING spsumgte.vvc "override/finblank.vvc"
+    REPLACE_TEXTUALLY spsumgte finblank
+  // BUT_ONLY
+
+// then the effects
+
+  ACTION_FOR_EACH demon IN aluf babau balor camb2 glab maril nabas succ BEGIN
+     OUTER_SPRINT demon_resref "fin%demon%"
+     ACTION_TO_UPPER demon_resref // not sure it matters, but anyway...
+     COPY "%demon_loc%/babausu.eff" "override/%demon%su.eff"
+         WRITE_ASCIIE 0x30 "%demon_resref%" (8)
+     // BUT_ONLY
+     COPY_EXISTING "%demon%su.eff" "override/%demon%s2.eff"
+         WRITE_ASCIIE 0x70 FINBLANK
+     // BUT_ONLY
+  END
+
+// then spells
+
+  // set these centrally for tweaking purposes
+  
+  OUTER_SET timing=4
+  OUTER_SET duration=5
+
+  // GATE1: used (and memorised once) by FINSUCC. 40% chance of a Balor. 60% chance of nothing.
+  
+  COPY "%demon_loc%/gate1.spl" "override/gate1.spl"
+      LPF ALTER_EFFECT INT_VAR probability1=39 probability2=0 STR_VAR resource=balorsu END
+  // BUT_ONLY
+
+  // GATE2: used (and memorised 3 times) by FINNABAS. 23% chance of 2 Cambions.
+  // 22% chance of a Nabassu. 55% chance of doing nothing.
+  
+  COPY "%demon_loc%/gate1.spl" "override/gate2.spl"
+      LPF CLONE_EFFECT INT_VAR probability1=44 probability2=23 STR_VAR match_resource=balorsu resource=nabassu END
+      LPF CLONE_EFFECT INT_VAR probability1=22 probability2=0 timing duration STR_VAR match_resource=balorsu resource=cambs2 END
+      LPF ALTER_EFFECT INT_VAR probability1=22 probability2=0 STR_VAR match_resource=balorsu resource=camb2su END
+  // BUT_ONLY
+  
+  // GATE3: used (and memorised once) by FINMARIL. 12% chance of a cambion, an alu-fiend and a succubus.
+  // 12% chance of a Babau and a Nabassu. 6% chance of a Marilith. 5% chance of a Glabrezu. 65% chance of nothing.
+  // Also applies regain-spells opcode on a 300-sec delay as an on-casting effect, which I think is a crude
+  // way to get the gate back, replicating the `once per hour' version in PnP. We may as well get rid of
+  // this - it can't occur in Ascension and it clutters the code.
+
+  COPY "%demon_loc%/gate1.spl" "override/gate3.spl"
+      LPF CLONE_EFFECT INT_VAR probability1=34 probability2=30 STR_VAR match_resource=balorsu resource=glabsu END
+      LPF CLONE_EFFECT INT_VAR probability1=29 probability2=24 STR_VAR match_resource=balorsu resource=marilsu END
+      LPF CLONE_EFFECT INT_VAR probability1=23 probability2=12 timing duration STR_VAR match_resource=balorsu resource=nabass2 END
+      LPF CLONE_EFFECT INT_VAR probability1=23 probability2=12 STR_VAR match_resource=balorsu resource=babausu END
+      LPF CLONE_EFFECT INT_VAR probability1=11 probability2=0  timing duration STR_VAR match_resource=balorsu resource=alufs2 END
+      LPF CLONE_EFFECT INT_VAR probability1=11 probability2=0  timing duration STR_VAR match_resource=balorsu resource=succs2 END
+      LPF ALTER_EFFECT INT_VAR probability1=11 probability2=0 STR_VAR match_resource=balorsu resource=cambsu END
+  // BUT_ONLY
+
+// GATE4: used (and memorised once) by FINGLAB. 16% chance of a Balor, 17% chance of MARILSU, 17% chance of
+//        Glabrezu, 50% chance of nothing.
+
+  COPY "%demon_loc%/gate1.spl" "override/gate4.spl"
+      LPF CLONE_EFFECT INT_VAR probability1=49 probability2=33 STR_VAR match_resource=balorsu resource=glabsu END
+      LPF CLONE_EFFECT INT_VAR probability1=32 probability2=17 STR_VAR match_resource=balorsu resource=marilsu END
+      LPF ALTER_EFFECT INT_VAR probability1=16 probability2=0 STR_VAR match_resource=balorsu END
+  // BUT_ONLY
+
+// GATE5: Used (and memorised once) by FINBALOR. Also used by Melissan as her standard call-demons spell.
+// 2 Cambions, Succubus, Alu-fiend (34%), a Babau and a Nabassu (33%), a Marilith (11%), a Glabrezu (11%),
+// a Balor (11%).
+// Also applies regain-spells opcode on a 300-sec delay as an on-casting effect. Again, ignore this.
+
+  COPY "%demon_loc%/gate1.spl" "override/gate5.spl"
+      LPF CLONE_EFFECT INT_VAR probability1=99 probability2=66  timing duration STR_VAR match_resource=balorsu resource=alufs2 END
+      LPF CLONE_EFFECT INT_VAR probability1=99 probability2=66  timing duration STR_VAR match_resource=balorsu resource=succs2 END
+      LPF CLONE_EFFECT INT_VAR probability1=99 probability2=66  timing duration STR_VAR match_resource=balorsu resource=camb2s2 END
+      LPF CLONE_EFFECT INT_VAR probability1=99 probability2=66 STR_VAR match_resource=balorsu resource=camb2su END
+      LPF CLONE_EFFECT INT_VAR probability1=65 probability2=33  timing duration STR_VAR match_resource=balorsu resource=nabass2 END
+      LPF CLONE_EFFECT INT_VAR probability1=65 probability2=33 STR_VAR match_resource=balorsu resource=babausu END
+      LPF CLONE_EFFECT INT_VAR probability1=32 probability2=22 STR_VAR match_resource=balorsu resource=marilsu END
+      LPF CLONE_EFFECT INT_VAR probability1=21 probability2=11 STR_VAR match_resource=balorsu resource=glabsu END
+      LPF ALTER_EFFECT INT_VAR probability1=10 probability2=0 STR_VAR match_resource=balorsu END
+  // BUT_ONLY
+
+ // GATE5A: copy for Melissan
+ 
+ COPY_EXISTING "gate5.spl" "override/gate5a.spl"
+     WRITE_LONG NAME1 "-1"
+     REPLACE_TEXTUALLY babausu babaus2
+     REPLACE_TEXTUALLY camb2su camb2s2
+     REPLACE_TEXTUALLY marilsu marils2
+     REPLACE_TEXTUALLY glabsu glabs2
+     REPLACE_TEXTUALLY balorsu balors2
+     LPF ALTER_EFFECT INT_VAR  timing duration END
+ // BUT_ONLY
+
+// GATE6: Used (and memorised once) by FINBABAU. 2 Cambions (20%), a Babau (20%), nothing (60%).
+
+  COPY "%demon_loc%/gate1.spl" "override/gate6.spl"
+      LPF CLONE_EFFECT INT_VAR probability1=39 probability2=20 STR_VAR match_resource=balorsu resource=babausu END
+      LPF CLONE_EFFECT INT_VAR probability1=19 probability2=0  timing duration STR_VAR match_resource=balorsu resource=camb2s2 END
+      LPF ALTER_EFFECT INT_VAR probability1=19 probability2=0 STR_VAR match_resource=balorsu resource=cambsu END
+  // BUT_ONLY
+
+////  Because this is complicated, it helps to have a testing suite
+////  Summoning fingtest and setting global TEST to 1-7 will force-cast gate1-gate7.
+////  Setting it to 10 will replicate Melissan's demon-call on Insane.
+
+   LAF demon_gate_testing_suite END
+
+/////////////////////////////////////////////////////////////////
+////// Solars (used in Irenicus fight, and summoned by Mel)
+/////////////////////////////////////////////////////////////////
+
+   /// The basic Solar .cre files - finsolar and finsola2 - are identical to vanilla file
+   /// finsol04 except for DV. I create a new version, finsola3, along the same lines.
+
+   ACTION_FOR_EACH solar IN finsolar finsola2 finsola3 BEGIN
+      COPY_EXISTING "finsol04.cre" "override/%solar%.cre"
+         LPF CRE_patch
+            STR_VAR dv="%solar%"
+         END
+      BUT_ONLY
+   END
+
+
+
+   /// Combat scripting
+   
+   COMPILE "%demon_loc%/scripts/finsol04.baf"
+
+   /// Melissan's gate spell that summons two of them, 'gate7'
+   /// This can just be taken over directly.
+
+   COPY "%demon_loc%/gate7.spl" override
+   COPY "%demon_loc%/solarsum.eff" override
+
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   The testing suite for demon summons
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION demon_gate_testing_suite BEGIN
+
+<<<<<<<< .../stratagems-inline/fingtest.baf
+IF
+  Global("test","GLOBAL",10)
+THEN
+    RESPONSE #100
+    SetGlobal("test","GLOBAL",0)
+    DisplayStringHead(Myself,73244)  // ~Come to your mistress, minions of the Abyss!~
+    ReallyForceSpellRES("gate5",Myself)  // gate5
+    SmallWait(1)
+    ReallyForceSpellRES("gate5a",Myself)  // gate5a
+    SmallWait(1)
+    ReallyForceSpellRES("gate5a",Myself)  // gate5a
+    SmallWait(1)
+    ReallyForceSpellRES("gate5a",Myself)  // gate5a
+    SmallWait(1)
+    ReallyForceSpellRES("gate5a",Myself)  // gate5a
+END
+
+IF 
+   True()
+THEN
+    RESPONSE #100
+             NoAction()
+END
+>>>>>>>>
+
+<<<<<<<< .../stratagems-inline/fingtest_add.baf
+IF
+  Global("test","GLOBAL",%value%)
+THEN
+    RESPONSE #100
+             SetGlobal("test","GLOBAL",0)
+             ForceSpellRES("GATE%value%",Myself)
+END
+>>>>>>>>
+
+COPY_EXISTING "duecla01.cre" "override/fingtest.cre"
+  WRITE_ASCII 0x248 fingtest
+
+COMPILE ".../stratagems-inline/fingtest.baf"
+OUTER_FOR (value=1;value<8;value+=1) BEGIN
+   EXTEND_TOP "fingtest.bcs" ".../stratagems-inline/fingtest_add.baf" EVALUATE_BUFFER
+END
+
+END

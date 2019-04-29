@@ -1,0 +1,265 @@
+OUTER_SPRINT player_loc "%MOD_FOLDER%/ascensionmain/player"
+DEFINE_ACTION_FUNCTION ascension_player_powers BEGIN
+
+     LAM load_ascension_tras
+     LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra" // doesn't clash with ascension.tra, non-overlapping namespace
+
+     ////////////////////////////////////
+     //// Demon control
+     ////////////////////////////////////
+     
+     /*
+     
+     In vAsc, this freezes the player for 6 seconds, plays SPELEMND over them, and applies a bunch of 177 effects,
+     keyed to RACE=DEMONIC. Most of them give 6-second immunity to various opcodes: 39 (sleep),
+     45 (stun), 109 (paralyze), 175 (hold creature), PW:Stun (210), PW:Sleep (217), Maze (213).
+     One pauses target 6 seconds, one plays SPELEMND over them 6 seconds. On probability 51-99, there's
+     a malformed attempt to change AI type (I think changing ALLEGIANCE to ENEMY) and EFF_P81 plays. 
+     On probability 0-50 there's a change of EA type to CHARMED, and EFF_M82 plays.
+     
+     I have to say that I don't really understand why the immunities to those opcodes are
+     imposed, but I guess it's because control or script-interruption effects during these
+     control incidences are problematic. Demons already have ringdemn, which gives immunity
+     to charm, feeblemind, confusion, polymorph, panic, so I guess this covers the rest. Having
+     said which, to do it properly we also need immunity to some effects, specifically:
+     - animations SPWNCHRM, SPMINDAT, SPFLAYER
+     - strings 1280, 14043, 14001, 109
+     - (technically also some expiry sounds, but in practice no-one's going to notice
+       and it's too tricky to do)
+
+     Instead of the profusion of effects, we'll do this on through a single spell-applying
+     effect. (On EE it would be simpler to play 318/321 games, but we need a one-size-fits-all
+     approach.)
+
+     We'll also externalise the probability of success and the length of the paralysis; in my
+     semi-expert judgement, a 6-second removal of CHARNAME from combat in exchange for 6 seconds
+     of one demon being paralysed and a 50% chance of recruiting it (until Melissan reverts it)
+     is really not competitive.
+     */
+
+     // get basic parameters
+
+     LAF check_ini STR_VAR ini=demon_control_battle_duration RET control_duration=value END
+     LAF check_ini STR_VAR ini=demon_control_success_probability RET success_probability=value END
+     ACTION_IF control_duration=0 BEGIN
+        OUTER_SET control_duration=6
+     END
+     ACTION_IF success_probability=0 BEGIN
+        OUTER_SET success_probability=50
+     END
+
+     OUTER_SET success_strref=RESOLVE_STR_REF (@1049)
+     OUTER_SET failure_strref=RESOLVE_STR_REF (@1050)
+
+     // launch core function
+     
+     LAF demon_control_core
+         INT_VAR success_probability control_duration success_strref failure_strref success_ea=6
+         STR_VAR outer_filename=ctrldem payload_filename=finctra
+     END
+     
+     // add description
+
+     OUTER_SPRINT desc_string @16
+     OUTER_INNER_PATCH_SAVE desc_string "%desc_string%" BEGIN
+        REPLACE_TEXTUALLY DURATION_PLACEHOLDER "%control_duration%"
+        REPLACE_TEXTUALLY SUCCESS_CHANCE_PLACEHOLDER "%success_probability%"
+     END
+     COPY_EXISTING ctrldem.spl override SAY 0x50 "%desc_string%"
+
+     // on EE, add a warning that it doesn't work
+     // on non-demons
+
+     ACTION_IF enhanced_edition BEGIN
+        LAF resolve_splprot_entry INT_VAR stat=0x10c  value="-1" STR_VAR relation=not_equal RET splprot_num=value END
+        LAF create_basic_spell STR_VAR spell=finctnd END
+        COPY_EXISTING "finctnd.spl" override
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=1 parameter1=RESOLVE_STR_REF(@1051) END
+        BUT_ONLY
+        COPY_EXISTING "ctrldem.spl" override
+             LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 parameter1=121 parameter2=splprot_num duration=1 STR_VAR resource=finctnd END
+        BUT_ONLY
+     END
+
+     //////////////////////////////////
+     /// Unleash
+     //////////////////////////////////
+
+     /*
+     
+     The implementation of this is mostly fine, although:
+     - we need to handle a save-for-half issue on EE
+     - it removes the Slayer power for 30 seconds, but this doesn't work if Imoen has the power (which is possible).
+       In that case she doesn't lose her own power and she actually gains a copy of the player's power (which just triggers
+       the player1 dialog). The simplest workaround for that is to build two versions: one for Imoen, one for CHARNAME.
+     - further work to handle the player power in EE, because of the documentation
+     - 10d12 magic damage, save for 1/2, is really not
+       competitive for ToB chapter 10, especially given the penalties. We'll externalise the number of dice and put a default of 20.
+
+     */
+
+
+     LAF check_ini STR_VAR ini=unleash_dice_number RET dicenumber=value END
+     ACTION_IF dicenumber=0 BEGIN
+        OUTER_SET dicenumber=10
+     END
+     OUTER_SPRINT desc @17
+     OUTER_INNER_PATCH_SAVE desc "%desc%" BEGIN
+          REPLACE_TEXTUALLY DICENUMBER_PLACEHOLDER "%dicenumber%"
+     END
+
+    // description, dice changes
+
+     COPY "%player_loc%/unleash.spl" override
+         SAY NAME1 @1022
+         SAY UNIDENTIFIED_DESC "%desc%"
+         PATCH_IF enhanced_edition BEGIN
+            LPF DELETE_EFFECT INT_VAR match_opcode=12 match_save_vs_poison=1 END
+            LPF ALTER_EFFECT INT_VAR match_opcode=12 dicenumber save_for_half=1 save_vs_poison=1 savebonus="-4" END
+         END ELSE BEGIN
+            SET dicenumber_with_save=dicenumber / 2
+            SET dicenumber_no_save=dicenumber - dicenumber_with_save
+            LPF ALTER_EFFECT INT_VAR match_opcode=12 match_save_vs_poison=1 dicenumber=dicenumber_with_save END
+            LPF ALTER_EFFECT INT_VAR match_opcode=12 match_save_vs_poison=0 dicenumber=dicenumber_no_save END
+         END
+     BUT_ONLY
+     
+     // Imoen version
+
+     COPY_EXISTING "unleash.spl" "override/finunl2.spl"
+         LPF ALTER_EFFECT STR_VAR match_resource=spin822 resource=imoslay3 END
+         LPF ALTER_EFFECT STR_VAR match_resource=unleash resource=finunl2 END
+
+     // EE variant
+     ACTION_IF enhanced_edition BEGIN
+      COPY_EXISTING "unleash.spl" override
+        LPF DELETE_EFFECT INT_VAR match_opcode=171 STR_VAR match_resource=spin822 END
+        LPF DELETE_EFFECT INT_VAR match_opcode=172 STR_VAR match_resource=spin822 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=1 parameter2=1 STR_VAR resource=finslg2 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=1 parameter2=1 STR_VAR resource=finslrm END
+      BUT_ONLY
+     
+      COPY_EXISTING finslgd.spl "override/finslg2.spl"
+        LPF ALTER_EFFECT INT_VAR match_duration=180 duration=30 END
+     END
+     //////////////////////////////////
+     /// Focus
+     //////////////////////////////////
+
+     /* Immunity to Disintegrate, Flesh to Stone, Timestop, 1st-3rd level spells for 30 seconds.
+     Basic implementation is OK but we need various subsidiary immunities
+     */
+
+     COPY "%player_loc%/focus.spl" override
+           SAY NAME1 @1014
+           SAY UNIDENTIFIED_DESC @18
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=142 target=1 duration=30 parameter2=10 END // 'protection from petrification' icon
+           LPF CLONE_EFFECT INT_VAR match_opcode=142 parameter2=122 END // 'minor globe' icon
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=267 target=1 duration=30 parameter1=14665 END // immunity to 'petrified' string
+           PATCH_FOR_EACH resource IN sppr302 sppr304 spwi313 sppr314 sppr313 sppr105 spwi215 spwi213 sppr211 BEGIN
+              LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=1 duration=30 STR_VAR resource END // immunity to various L1-3 spells required by MGI
+           END
+           PATCH_IF enhanced_edition BEGIN
+              LPF resolve_stat STR_VAR id=BUFF_PRO_EFFECTS RET parameter2=stat_ind END
+              LPF ADD_SPELL_EFFECT INT_VAR opcode=328 duration=30 parameter2 special=1 END
+           END
+     BUT_ONLY
+
+     //////////////////////////////////
+     /// Dimension door
+     //////////////////////////////////
+
+     // like it says on the tin
+
+     COPY "%player_loc%/dimdoor.spl" override
+         SAY UNIDENTIFIED_DESC @19
+     BUT_ONLY
+     
+     // DW cosmetic pass
+    
+     LAF check_ini STR_VAR ini=dimdoor_classic RET value END
+     ACTION_IF !value BEGIN
+     COPY_EXISTING dimdoor.spl override
+       WRITE_LONG NAME1 14117
+       READ_STRREF UNIDENTIFIED_DESC desc
+       GET_STRREF 14117 teleport
+       GET_STRREF 12082 dimdoor
+       INNER_PATCH_SAVE desc "%desc%" BEGIN
+          REPLACE_TEXTUALLY "%dimdoor%" "%teleport%"
+       END
+       SAY UNIDENTIFIED_DESC "%desc%"
+       LPF SPL_patch INT_VAR casting_animation=0 END
+       LPF ALTER_EFFECT INT_VAR match_opcode=124 timing=1 duration=0 END
+       LPF DELETE_EFFECT INT_VAR match_opcode=141 match_parameter1=1 END
+       LPF ALTER_EFFECT INT_VAR match_opcode=141 timing=4 duration=1 parameter2=2 END
+       LPF CLONE_EFFECT INT_VAR match_opcode=141 opcode=50 timing=0 duration=2 parameter1=(204*0x100 + 160*0x10000 + 0*0x1000000) parameter2=(25*0x10000) END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=215 target=1 timing=0 duration=1 parameter2=1 STR_VAR resource=SPGFLSH1 END
+     BUT_ONLY
+     END
+     
+     // visuals-only copy for cutscenes
+
+     COPY_EXISTING "dimdoor.spl" "override/finddvi.spl"
+       LPF DELETE_EFFECT INT_VAR match_opcode=124 END
+       LPF ALTER_EFFECT INT_VAR target=2 END
+
+     //////////////////////////////////
+     //////////////////////////////////
+     /// Pool power-granting spells
+     //////////////////////////////////
+     //////////////////////////////////
+
+     //////////////////////////////////
+     //// pool1a - grants unleash; immunity to death magic
+     //// and vorpal effects
+     ////
+     //// requires a little tweaking to give immunity to
+     //// supplementary effects; needs a string to tell
+     //// the player it's happened; needs a copy for Imoen
+     //// that grants the variant Unleash
+     //////////////////////////////////
+
+     COPY "%player_loc%/pool1a.spl" override
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=169 target=1 parameter2=51 timing=1 END // 'dying' icon
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=267 target=1 timing=1 parameter1=64285 END // immunity to 'vorpal hit' string
+          LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=55 parameter2=13 END // 'kill target' opcode
+          LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=55 parameter2=209 END // 'PW: kill' opcode
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1054) END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1055) END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1056) END
+     BUT_ONLY
+
+     COPY_EXISTING "pool1a.spl" "override/finplim.spl" 
+         LPF ALTER_EFFECT STR_VAR match_resource=unleash resource=finunl2 END
+
+     //////////////////////////////////
+     //// pool2a - grants Control Demon and Dimension Door;
+     //// immunity to Maze and Imprisonment
+     ////
+     //// Immunity to Maze/Imprisonment works better if it 
+     //// includes immunity to the associated effects, so we
+     //// add a block by spell. We also add strings
+     //////////////////////////////////
+
+     COPY "%player_loc%/pool2a.spl" override
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=1 timing=1 STR_VAR resource="%WIZARD_MAZE%" END
+          LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_MAZE%" resource="%WIZARD_IMPRISONMENT%" END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1057) END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1058) END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1059) END
+     BUT_ONLY
+
+     //////////////////////////////////
+     //// pool3a - grants Focus;
+     //// also grants undocumented immunity
+     //// to Greater Malison which I think we'll
+     //// keep but document
+     //////////////////////////////////
+
+     COPY "%player_loc%/pool3a.spl" override
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1060) END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=1 parameter1=RESOLVE_STR_REF(@1061) END
+     BUT_ONLY
+
+END
+

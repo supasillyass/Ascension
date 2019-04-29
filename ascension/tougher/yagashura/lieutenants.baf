@@ -1,0 +1,20 @@
+IF
+	GlobalTimerExpired("YagaReturnTimer","AR5203")
+	Global("YagaShuraSpawn","AR5203",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YagaShuraSpawn","AR5203",1)
+		CreateCreatureObjectOffScreen("YAGA01",Player1,0,0,0) // Yaga-Shura
+END
+
+IF
+  Global("YagaShuraHeart","GLOBAL",4)
+  !Global("fin_yaga_lieutenants","AR5203",1)
+THEN
+    RESPONSE #100
+		SetGlobal("fin_yaga_lieutenants","AR5203",1)
+		CreateCreatureObjectOffScreen("YAGA02",Player1,0,0,0) // Lieutenant Mage
+		CreateCreatureObjectOffScreen("YAGA03",Player1,0,0,0) // Lieutenant Fighter
+		CreateCreatureObjectOffScreen("YAGA04",Player1,0,0,0) // Lieutenant Cleric
+		CreateCreatureObjectOffScreen("YAGA05",Player1,0,0,0) // Lieutenant Thief
+END

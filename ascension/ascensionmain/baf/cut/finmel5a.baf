@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId(Player1)
+    MoveViewPoint([1051.1062],10)
+    Wait(2)
+    CreateVisualEffect("SPGFLSH1",[1051.1062])
+    SmallWait(3)
+    CreateCreature("finsare2",[1051.1062],0)  // finsare2  
+    ActionOverride("finsare2",Ally())
+    Wait(2)
+    ActionOverride("finsare2",StartDialogNoSet(Player1))
+END
+

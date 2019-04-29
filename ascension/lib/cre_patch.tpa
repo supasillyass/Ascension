@@ -1,0 +1,423 @@
+DEFINE_PATCH_FUNCTION CRE_patch
+    INT_VAR
+    name1_string="-99"
+name2_string="-99"
+xp_value="-99"
+xp_total="-99"
+color_metal="-99"
+color_minor="-99"
+color_major="-99"
+color_skin="-99"
+color_leather="-99"
+color_armor="-99"
+color_hair="-99"
+hide_in_shadows="-99"
+detect_illusions="-99"
+set_traps="-99"
+lore="-99"
+open_locks="-99"
+move_silently="-99"
+find_traps="-99"
+pick_pockets="-99"
+luck="-99"
+resist_fire="-99"
+resist_cold="-99"
+resist_electricity="-99"
+resist_acid="-99"
+resist_magic="-99"
+resist_magic_fire="-99"
+resist_magic_cold="-99"
+resist_slashing="-99"
+resist_crushing="-99"
+resist_piercing="-99"
+resist_missile="-99"
+level="-99"
+level1="-99"
+level2="-99"
+level3="-99"
+str="-99"
+str_ex="-99"
+int="-99"
+wis="-99"
+dex="-99"
+con="-99"
+cha="-99"
+strength="-99"
+strength_ex="-99"
+intelligence="-99"
+wisdom="-99"
+dexterity="-99"
+constitution="-99"
+charisma="-99"
+sex="-99"
+specifics="-99"
+save_vs_death="-99"
+save_vs_wand="-99"
+save_vs_wands="-99"
+save_vs_poly="-99"
+save_vs_polymorph="-99"
+save_vs_breath="-99"
+save_vs_spell="-99"
+save_vs_spells="-99"
+thac0="-99"
+attacks="-99"
+hp_max="-99"
+hp_current="-99"
+animation_code="-99"
+effect_type="-99"
+ac_natural="-99"
+ac_effective="-99"
+ac_missile="-99"
+morale="-99"
+morale_break="-99"
+morale_recovery="-99"
+nightmare_mode="-99"
+gold="-99"
+race="-99"
+class="-99"
+kit="-99"
+gender="-99"
+alignment="-99"
+allegiance="-99"
+
+    resist_magic_damage="-99"
+    resist_poison="-99"
+    regeneration="-99"
+    immunity_to_timestop="-1"
+    immunity_to_backstab="-1"
+    detect_invisible="-1"
+    increase_casting_speed="-99"
+    increase_attack_speed="-99"
+    STR_VAR
+    script_override="null_argument"
+script_class="null_argument"
+script_race="null_argument"
+script_general="null_argument"
+script_default="null_argument"
+dv="null_argument"
+dialog="null_argument"
+
+    immunity_to_opcodes=""
+    immunity_to_spells=""
+    immunity_to_strings=""
+    immunity_to_icons=""
+    add_spells=""
+    delete_opcodes=""
+BEGIN
+   LPF FJ_CRE_VALIDITY END
+   PATCH_IF name1_string>"-99" BEGIN
+WRITE_LONG 0x8 name1_string
+END
+PATCH_IF name2_string>"-99" BEGIN
+WRITE_LONG 0xc name2_string
+END
+PATCH_IF xp_value>"-99" BEGIN
+WRITE_LONG 0x14 xp_value
+END
+PATCH_IF xp_total>"-99" BEGIN
+WRITE_LONG 0x18 xp_total
+END
+PATCH_IF color_metal>"-99" BEGIN
+WRITE_BYTE 0x2c color_metal
+END
+PATCH_IF color_minor>"-99" BEGIN
+WRITE_BYTE 0x2d color_minor
+END
+PATCH_IF color_major>"-99" BEGIN
+WRITE_BYTE 0x2e color_major
+END
+PATCH_IF color_skin>"-99" BEGIN
+WRITE_BYTE 0x2f color_skin
+END
+PATCH_IF color_leather>"-99" BEGIN
+WRITE_BYTE 0x30 color_leather
+END
+PATCH_IF color_armor>"-99" BEGIN
+WRITE_BYTE 0x31 color_armor
+END
+PATCH_IF color_hair>"-99" BEGIN
+WRITE_BYTE 0x32 color_hair
+END
+PATCH_IF hide_in_shadows>"-99" BEGIN
+WRITE_BYTE 0x45 hide_in_shadows
+END
+PATCH_IF detect_illusions>"-99" BEGIN
+WRITE_BYTE 0x64 detect_illusions
+END
+PATCH_IF set_traps>"-99" BEGIN
+WRITE_BYTE 0x65 set_traps
+END
+PATCH_IF lore>"-99" BEGIN
+WRITE_BYTE 0x66 lore
+END
+PATCH_IF open_locks>"-99" BEGIN
+WRITE_BYTE 0x67 open_locks
+END
+PATCH_IF move_silently>"-99" BEGIN
+WRITE_BYTE 0x68 move_silently
+END
+PATCH_IF find_traps>"-99" BEGIN
+WRITE_BYTE 0x69 find_traps
+END
+PATCH_IF pick_pockets>"-99" BEGIN
+WRITE_BYTE 0x6a pick_pockets
+END
+PATCH_IF luck>"-99" BEGIN
+WRITE_BYTE 0x6d luck
+END
+PATCH_IF resist_fire>"-99" BEGIN
+WRITE_BYTE 0x59 resist_fire
+END
+PATCH_IF resist_cold>"-99" BEGIN
+WRITE_BYTE 0x5a resist_cold
+END
+PATCH_IF resist_electricity>"-99" BEGIN
+WRITE_BYTE 0x5b resist_electricity
+END
+PATCH_IF resist_acid>"-99" BEGIN
+WRITE_BYTE 0x5c resist_acid
+END
+PATCH_IF resist_magic>"-99" BEGIN
+WRITE_BYTE 0x5d resist_magic
+END
+PATCH_IF resist_magic_fire>"-99" BEGIN
+WRITE_BYTE 0x5e resist_magic_fire
+END
+PATCH_IF resist_magic_cold>"-99" BEGIN
+WRITE_BYTE 0x5f resist_magic_cold
+END
+PATCH_IF resist_slashing>"-99" BEGIN
+WRITE_BYTE 0x60 resist_slashing
+END
+PATCH_IF resist_crushing>"-99" BEGIN
+WRITE_BYTE 0x61 resist_crushing
+END
+PATCH_IF resist_piercing>"-99" BEGIN
+WRITE_BYTE 0x62 resist_piercing
+END
+PATCH_IF resist_missile>"-99" BEGIN
+WRITE_BYTE 0x63 resist_missile
+END
+PATCH_IF level>"-99" BEGIN
+WRITE_BYTE 0x234 level
+END
+PATCH_IF level1>"-99" BEGIN
+WRITE_BYTE 0x234 level1
+END
+PATCH_IF level2>"-99" BEGIN
+WRITE_BYTE 0x235 level2
+END
+PATCH_IF level3>"-99" BEGIN
+WRITE_BYTE 0x236 level3
+END
+PATCH_IF str>"-99" BEGIN
+WRITE_BYTE 0x238 str
+END
+PATCH_IF str_ex>"-99" BEGIN
+WRITE_BYTE 0x239 str_ex
+END
+PATCH_IF int>"-99" BEGIN
+WRITE_BYTE 0x23a int
+END
+PATCH_IF wis>"-99" BEGIN
+WRITE_BYTE 0x23b wis
+END
+PATCH_IF dex>"-99" BEGIN
+WRITE_BYTE 0x23c dex
+END
+PATCH_IF con>"-99" BEGIN
+WRITE_BYTE 0x23d con
+END
+PATCH_IF cha>"-99" BEGIN
+WRITE_BYTE 0x23e cha
+END
+PATCH_IF strength>"-99" BEGIN
+WRITE_BYTE 0x238 strength
+END
+PATCH_IF strength_ex>"-99" BEGIN
+WRITE_BYTE 0x239 strength_ex
+END
+PATCH_IF intelligence>"-99" BEGIN
+WRITE_BYTE 0x23a intelligence
+END
+PATCH_IF wisdom>"-99" BEGIN
+WRITE_BYTE 0x23b wisdom
+END
+PATCH_IF dexterity>"-99" BEGIN
+WRITE_BYTE 0x23c dexterity
+END
+PATCH_IF constitution>"-99" BEGIN
+WRITE_BYTE 0x23d constitution
+END
+PATCH_IF charisma>"-99" BEGIN
+WRITE_BYTE 0x23e charisma
+END
+PATCH_IF sex>"-99" BEGIN
+WRITE_BYTE 0x237 sex
+END
+PATCH_IF "%script_override%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x248 "%script_override%" (8) 
+END
+PATCH_IF "%script_class%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x250 "%script_class%" (8) 
+END
+PATCH_IF "%script_race%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x258 "%script_race%" (8) 
+END
+PATCH_IF "%script_general%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x260 "%script_general%" (8) 
+END
+PATCH_IF "%script_default%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x268 "%script_default%" (8) 
+END
+PATCH_IF specifics>"-99" BEGIN
+WRITE_BYTE 0x274 specifics
+END
+PATCH_IF save_vs_death>"-99" BEGIN
+WRITE_BYTE 0x54 save_vs_death
+END
+PATCH_IF save_vs_wand>"-99" BEGIN
+WRITE_BYTE 0x55 save_vs_wand
+END
+PATCH_IF save_vs_wands>"-99" BEGIN
+WRITE_BYTE 0x55 save_vs_wands
+END
+PATCH_IF save_vs_poly>"-99" BEGIN
+WRITE_BYTE 0x56 save_vs_poly
+END
+PATCH_IF save_vs_polymorph>"-99" BEGIN
+WRITE_BYTE 0x56 save_vs_polymorph
+END
+PATCH_IF save_vs_breath>"-99" BEGIN
+WRITE_BYTE 0x57 save_vs_breath
+END
+PATCH_IF save_vs_spell>"-99" BEGIN
+WRITE_BYTE 0x58 save_vs_spell
+END
+PATCH_IF save_vs_spells>"-99" BEGIN
+WRITE_BYTE 0x58 save_vs_spells
+END
+PATCH_IF thac0>"-99" BEGIN
+WRITE_BYTE 0x52 thac0
+END
+PATCH_IF attacks>"-99" BEGIN
+WRITE_BYTE 0x53 attacks
+END
+PATCH_IF hp_max>"-99" BEGIN
+WRITE_SHORT 0x26 hp_max
+END
+PATCH_IF hp_current>"-99" BEGIN
+WRITE_SHORT 0x24 hp_current
+END
+PATCH_IF "%dv%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x280 "%dv%" (0x20) 
+END
+PATCH_IF "%dialog%" STRING_COMPARE_CASE null_argument BEGIN
+WRITE_ASCIIE 0x2cc "%dialog%" (8) 
+END
+PATCH_IF animation_code>"-99" BEGIN
+WRITE_SHORT 0x28 animation_code
+END
+PATCH_IF effect_type>"-99" BEGIN
+WRITE_BYTE 0x33 effect_type
+END
+PATCH_IF ac_natural>"-99" BEGIN
+WRITE_SHORT 0x46 ac_natural
+END
+PATCH_IF ac_effective>"-99" BEGIN
+WRITE_SHORT 0x48 ac_effective
+END
+PATCH_IF ac_missile>"-99" BEGIN
+WRITE_SHORT 0x4c ac_missile
+END
+PATCH_IF morale>"-99" BEGIN
+WRITE_BYTE 0x23f morale
+END
+PATCH_IF morale_break>"-99" BEGIN
+WRITE_BYTE 0x240 morale_break
+END
+PATCH_IF morale_recovery>"-99" BEGIN
+WRITE_SHORT 0x242 morale_recovery
+END
+PATCH_IF nightmare_mode>"-99" BEGIN
+WRITE_BYTE 0x7d nightmare_mode
+END
+PATCH_IF gold>"-99" BEGIN
+WRITE_LONG 0x1c gold
+END
+PATCH_IF race>"-99" BEGIN
+WRITE_BYTE 0x272 race
+END
+PATCH_IF class>"-99" BEGIN
+WRITE_BYTE 0x273 class
+END
+PATCH_IF kit>"-99" BEGIN
+WRITE_LONG 0x244 kit
+END
+PATCH_IF gender>"-99" BEGIN
+WRITE_BYTE 0x275 gender
+END
+PATCH_IF alignment>"-99" BEGIN
+WRITE_BYTE 0x27b alignment
+END
+PATCH_IF allegiance>"-99" BEGIN
+WRITE_BYTE 0x270 allegiance
+END
+
+   LPF DELETE_EFFECT STR_VAR match_function="opcode_is(%delete_opcodes%)" END
+   PATCH_IF resist_magic_damage>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=31 END
+      PATCH_IF !resist_magic_damage=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=31 target=1 timing=9 parameter1=resist_magic_damage END
+      END
+   END
+   PATCH_IF resist_poison>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=173 END
+      PATCH_IF !resist_poison=0 BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=173 target=1 timing=9 parameter1=resist_poison END
+      END
+      PATCH_IF resist_poison=100 BEGIN
+         LPF DELETE_EFFECT INT_VAR match_opcode=101 match_parameter2=25 END
+         LPF ADD_CRE_EFFECT INT_VAR opcode=101 target=1 timing=9 parameter2=25 END
+      END
+  END
+  PATCH_IF regeneration>"-99" BEGIN
+      LPF CRE_regeneration INT_VAR arguments=regeneration END
+  END
+  PATCH_IF increase_casting_speed>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=189 END
+      PATCH_IF !increase_casting_speed=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=189 target=1 timing=9 parameter1=increase_casting_speed END
+      END
+  END
+  PATCH_IF increase_attack_speed>"-99" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=190 END
+      PATCH_IF !increase_attack_speed=0 BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=190 target=1 timing=9 parameter1=increase_attack_speed END
+      END
+  END
+  PATCH_IF immunity_to_backstab >=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR match_opcode=292 END
+     PATCH_IF immunity_to_backstab BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=292 target=1 timing=9 parameter2=1 END
+     END
+  END
+  PATCH_IF immunity_to_timestop>=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR opcode=310 END
+     PATCH_IF immunity_to_timestop BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=310 target=1 timing=9 END
+     END
+  END
+  PATCH_IF detect_invisible>=0 BEGIN
+     LPF DELETE_EFFECT INT_VAR opcode=193 END
+     PATCH_IF detect_invisible BEGIN
+        LPF ADD_CRE_EFFECT INT_VAR opcode=193 target=1 timing=9 parameter2=1 END
+     END
+  END
+  LPF immunity_to_icon STR_VAR arguments="%immunity_to_icons%" END
+  LPF immunity_to_string STR_VAR arguments="%immunity_to_strings%" END
+  LPF immunity_to_opcode STR_VAR arguments="%immunity_to_opcodes%" END
+  LPF immunity_to_spell STR_VAR arguments="%immunity_to_spells%" END
+  LPF CRE_add_spells STR_VAR arguments="%add_spells%" END
+
+END

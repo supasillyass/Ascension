@@ -1,0 +1,412 @@
+OUTER_SPRINT five_loc "%MOD_FOLDER%/ascensionmain/thefive"
+
+////////////////////////////////////////////////////////////////////////////////////
+// well, seven really, since Gromnir and Sarevok are done here too
+//
+// Here we build them, mostly using the 'Tougher' resources as the baseline
+///////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_the_five BEGIN
+
+     LAM load_ascension_tras
+
+
+     ////////////////////////////////////////
+     // build protective item
+     ////////////////////////////////////////
+
+     LAF allfive END
+
+     ////////////////////////////////////////
+     // run the main loop to make the Five plus Gromnir
+     ////////////////////////////////////////
+
+     ACTION_DEFINE_ASSOCIATIVE_ARRAY five_array BEGIN
+        gromnir=>fingrom
+        sendai=>finsend
+        illasera=>finilla
+        abazigal=>finabaz
+        yagashura=>finyaga
+        balthazar=>finbalth
+     END
+     ACTION_DEFINE_ASSOCIATIVE_ARRAY five_cremain BEGIN
+        yagashura=>yaga01
+        balthazar=>balth
+     END
+     WITH_TRA "%ascension_tra_loc%/english/tougher.tra" "%ascension_tra_loc%/%LANGUAGE%/tougher.tra" BEGIN
+      ACTION_PHP_EACH five_array AS bhaalspawn=>bhaalspawn_final BEGIN
+        ACTION_IF VARIABLE_IS_SET $five_cremain("%bhaalspawn%") BEGIN
+           OUTER_SPRINT bhaalspawn_cre $five_cremain("%bhaalspawn%")
+        END ELSE BEGIN
+           OUTER_SPRINT bhaalspawn_cre "%bhaalspawn%"
+        END
+        LAF ascension_five_core STR_VAR bhaalspawn bhaalspawn_final bhaalspawn_cre END
+      END
+     END
+     
+     /////////////////////////////////////////
+     // a couple of bespoke changes
+     /////////////////////////////////////////
+     
+     ///////////////////
+     /// Illasera: extra spells
+     ///////////////////
+     
+     COPY_EXISTING finilla.cre override
+        LPF CRE_patch STR_VAR add_spells="WARRIOR_HARDINESS CLERIC_CURE_CRITICAL_WOUNDS(2) WARRIOR_WHIRLWIND" END
+     BUT_ONLY
+
+     ///////////////////
+     /// Balthazar: combat scripting; extra script
+     ///////////////////
+
+     COPY_EXISTING finbalth.cre override
+        LPF CRE_patch STR_VAR script_override=balthdie END
+     BUT_ONLY
+
+     COPY "%MOD_FOLDER%/balthazar/baf/balthazar.baf" "override/finbalth.bcs"
+      // remove redundant checks
+      REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",0)~ ~~
+      REPLACE_TEXTUALLY ~Global("balth_is_tougher","GLOBAL",0)~ ~~
+      // set teleport locations for AR5505 
+      REPLACE_TEXTUALLY throneR_loc "[1605.1133]"
+      REPLACE_TEXTUALLY throneC_loc "[1401.700]"
+      REPLACE_TEXTUALLY throneL_loc "[859.1001]"
+      // compile
+      COMPILE_BAF_TO_BCS
+      
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=finbalth
+              match=~Global("balth_is_friendly","GLOBAL",1)~
+   END
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=finbalth
+              match=~Global("balth_is_tougher","GLOBAL",1)~
+   END
+
+
+     COMPILE "%five_loc%/scripts/balthdie.baf"
+
+     /////////////////////////////
+     /// Sendai: potion, scrolls, sling
+     /////////////////////////////
+
+     COPY_EXISTING finsend.cre override
+          ADD_CRE_ITEM send01 #2 #0 #0 unstealable inv
+          ADD_CRE_ITEM slngsd #0 #0 #0 "unstealable&undroppable" weapon2
+          PATCH_FOR_EACH scroll IN sdscrl1 sdscrl2 sdscrl3 BEGIN
+             ADD_CRE_ITEM "%scroll%" #0 #0 #0 "unstealable&undroppable" QITEM
+          END
+     BUT_ONLY
+
+     /////////////////////////////
+     /// Abazigal: loses TS immunity, gets a scroll of freedom
+     /////////////////////////////
+
+     COPY_EXISTING finabaz.cre override
+          LPF DELETE_EFFECT INT_VAR match_opcode=310 END
+          ADD_CRE_ITEM sdscrl3 #0 #0 #0 "unstealable&undroppable" QITEM
+     BUT_ONLY
+
+     /////////////////////////////
+     /// Yaga-Shura: remove invulnerability items; spell to strip his protections on Easiest
+     /////////////////////////////
+
+     COPY_EXISTING "finyaga.cre" override
+          REMOVE_CRE_ITEM surehp1 invulner
+     BUT_ONLY
+     LAF yaga_easy END
+
+   /////////////////////////////
+   // do Sarevok
+   /////////////////////////////
+
+   LAF ascension_sarevok END
+
+
+END
+
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+// The 'allfive' immunity item
+//
+// a min-hp-1 item that also grants immunity to charm, sleep, death, disintegrate,
+// petrify, polymorph, fear, poison and INT drain
+//
+////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION allfive BEGIN
+
+     COPY_EXISTING "monhp1.itm" "override/allfive.itm"
+        LPF fear_immunity END
+        LPF charm_immunity END
+        LPF death_immunity END
+        LPF disintegrate_immunity END
+        LPF petrify_immunity END
+        LPF polymorph_immunity END
+        LPF fear_immunity END
+        LPF poison_immunity END
+        LPF devour_brain_immunity END
+
+END
+
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+// Core loop: build (if needed) all the Final-Five resources from the 'tougher'
+// components; create templates of the CRE files if the 'tougher' ones aren't installed;
+// build the new 'final' versions
+////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_five_core 
+   STR_VAR bhaalspawn=""
+           bhaalspawn_final=""
+           bhaalspawn_cre=""
+BEGIN
+   ////////////////////////////
+   // include libraries
+   ////////////////////////////
+   ACTION_MATCH "%bhaalspawn%" WITH
+   balthazar BEGIN
+        INCLUDE "%MOD_FOLDER%/balthazar/balthazar_creature.tpa"
+        INCLUDE "%MOD_FOLDER%/balthazar/balthazar_resources.tpa"
+   END
+   sendai BEGIN END
+   DEFAULT
+      INCLUDE "%MOD_FOLDER%/tougher/%bhaalspawn%.tpa"
+   END
+   /////////////////////////////
+   // generate resources
+   /////////////////////////////
+
+   LAF run_once STR_VAR function="%bhaalspawn%_resources" END
+
+   /////////////////////////////
+   // check if we need to apply the 'tougher' patch
+   /////////////////////////////
+
+   ACTION_MATCH "%bhaalspawn%" WITH
+   sendai
+   BEGIN
+       OUTER_SET tougher_installed=1 // vacuously
+   END
+   DEFAULT
+       LAF check_marker STR_VAR marker="fin_tougher_%bhaalspawn%" RET tougher_installed=value END
+   END
+
+   /////////////////////////////
+   // make the final-five version
+   /////////////////////////////
+
+   COPY_EXISTING "%bhaalspawn_cre%.cre" "override/%bhaalspawn_final%.cre"
+        // 'tougher' baseline patch
+        PATCH_IF !tougher_installed BEGIN
+           LPF "%bhaalspawn%_cre_patch" END
+        END
+        // remove protective items
+        REMOVE_CRE_ITEM bhaalimm bhaalhp1 sarevimm
+        // add new protective item
+        ADD_CRE_ITEM allfive #0 #0 #0 none AMULET
+        // mark all items as undroppable
+        LPF make_everything_undroppable END
+        // add 20 hit points
+        WRITE_SHORT 0x24 (SHORT_AT 0x24) + 20
+        WRITE_SHORT 0x26 (SHORT_AT 0x26) + 20
+        // misc
+        LPF CRE_patch
+           INT_VAR gold=0
+                   xp_value=50000
+           STR_VAR script_override=""
+                   script_class=""
+                   script_race=""
+                   script_general=""
+                   script_default="%bhaalspawn_final%"
+                   dialog=""
+                   dv="%bhaalspawn_final%"
+        END
+        LPF ADD_CRE_EFFECT INT_VAR opcode=50 target=1 timing=0 duration=2 parameter1=(400*0x10000 + 93*0x1000000) parameter2=(25*0x10000) END // color glow on arrival
+
+   BUT_ONLY
+
+   /////////////////////////////
+   // make the combat script (not Balth, his is bespoke)
+   /////////////////////////////
+
+   ACTION_IF "%bhaalspawn_final%" STRING_COMPARE_CASE finbalth BEGIN
+      COMPILE "%MOD_FOLDER%/ascensionmain/thefive/scripts/%bhaalspawn_final%.baf"
+   END
+
+
+
+
+END
+
+/////////////////////////////////////////////////////////////////
+///// Sarevok
+/////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_sarevok BEGIN
+
+/*
+  Sarevok is bespoke, and mostly just copied over.
+  He has no automatic immunity suite; he has ALLFIVE in vAsc, but we don't want him to in this version
+  because we're layering protections onto it. So swap it for monhp1.
+  His actual immunities are just to poison and disintegrate
+*/
+
+   COPY "%five_loc%/finsarev.cre" override
+      LPF poison_immunity END
+      LPF disintegrate_immunity END
+      REPLACE_TEXTUALLY "allfive" "monhp1" (8)
+
+// although vAsc supplies a bespoke copy of Sarevok's sword, we may as well just use the baseline version as a starting point
+
+   INCLUDE "%MOD_FOLDER%/npc/sarevok_npc.tpa"
+   LAF run_once STR_VAR function=sarevok_sword END
+   COPY_EXISTING "finsarev.itm" "override/finsrv.itm"
+        WRITE_SHORT 0x22 8224  // equipped appearence=NONE
+        WRITE_LONG 0x18 33 // droppable, displayable etc
+   BUT_ONLY
+
+// make a version of Sarevok that's good-aligned (etc)
+
+COPY_EXISTING "finsarev.cre" "override/finsare2.cre"
+     LPF CRE_patch INT_VAR
+                           alignment = IDS_OF_SYMBOL (align CHAOTIC_GOOD)
+                           allegiance = IDS_OF_SYMBOL (ea ALLY)
+                   STR_VAR
+                           dv=finsare2
+                           dialog=finsare2
+                           script_override=finsare2
+     END
+     PATCH_IF enhanced_edition BEGIN
+         WRITE_BYTE 0x12 ((BYTE_AT 0x12) BOR 0b01000000)  // ignore nightmare mode
+     END
+     REMOVE_CRE_ITEM monhp1
+     WRITE_LONG BATTLE_CRY1 70832
+     WRITE_LONG BATTLE_CRY3 70833
+     WRITE_LONG DYING 70834
+BUT_ONLY
+
+// scripting
+   
+   COPY "%five_loc%/scripts/finsarev.baf" "override/finsarev.bcs"
+      // remove redundant checks
+      REPLACE_TEXTUALLY ~Global("sarev_is_friendly","GLOBAL",0)~ ~~
+      // compile
+      COMPILE_BAF_TO_BCS
+
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=finsarev
+              match=~Global("sarev_is_friendly","GLOBAL",1)~
+   END
+
+   COPY "%five_loc%/scripts/finsarev.baf" "override/finsare2.bcs"
+      // remove redundant checks
+      REPLACE_TEXTUALLY ~Global("sarev_is_friendly","GLOBAL",1)~ ~~
+      // remove difficulty checks
+      REPLACE_TEXTUALLY "Difficulty\(G\|L\)?T?([^)]*)" ""
+      // compile
+      COMPILE_BAF_TO_BCS
+      
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=finsare2
+              match=~Global("sarev_is_friendly","GLOBAL",0)~
+   END
+
+   LAF ALTER_SCRIPT_BLOCK
+      STR_VAR script=finsare2
+              swap_out="^IF"
+              swap_in=~IF ActionListEmpty()Global("ai_inactive","LOCALS",0) ~
+   END
+
+   LAF check_ini STR_VAR ini=sarevok_hotkey RET sarev_hotkey=value END
+   EXTEND_TOP finsare2.bcs "%five_loc%/scripts/finsare2_top.baf" EVALUATE_BUFFER
+
+// vAsc gives Sarevok ReallyForceSpell/RemoveSpell use of HLAs, because he has no
+// casting animation. We supply one instead.
+// These are made using the sarevok_animation function, below, but we don't run 
+// it live - it's easier to distribute the finished product.
+
+ ACTION_FOR_EACH anim IN usar1ca usar1cae BEGIN
+    COPY "%five_loc%/%anim%.bam" override
+ END
+
+END
+
+/////////////////////////////////////////////////////////////////
+///// Sendai's gear (she has no 'improved' version)
+/////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION sendai_resources BEGIN
+
+     /// the Heal potion
+     COPY_EXISTING potn55.itm "override/send01.itm"
+           SAY NAME2 @3002
+           SAY DESC @3003
+           LPF ALTER_EFFECT INT_VAR match_opcode=17 parameter1=100 parameter2=2 END
+
+     // scrolls of Improved Alacrity, Freedom, Greater Restoration
+     // (all undroppable)
+
+     ACTION_FOR_EACH scroll IN sdscrl1 sdscrl2 sdscrl3 BEGIN
+        COPY "%five_loc%/%scroll%.itm" override
+     END
+     
+     // sling (knockback ability and magic damage, but looks fine)
+     
+     COPY "%five_loc%/slngsd.itm" override
+
+
+
+END
+
+/////////////////////////////////////////////////////////////////
+///// Spell to reset Yaga-Shura's resistances, for use on Easy
+///// difficulty
+/////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yaga_easy BEGIN
+
+      LAF create_basic_spell STR_VAR spell=finyeasy END
+      
+      COPY_EXISTING finyeasy.spl override
+           PATCH_FOR_EACH opcode IN 27 28 29 85 86 87 88 89 BEGIN
+              LPF ADD_SPELL_EFFECT INT_VAR opcode target=2 timing=1 parameter2=1 END
+           END
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=31 target=2 timing=1 parameter1="-99" END
+      BUT_ONLY
+END
+
+
+
+//////////////////////////////////////////////////////////////////
+///  Non-livecode to make Sarevok's casting animations (templated
+///  from Elminster's).
+///  Requires SCS's lib_bam library.
+//////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION sarevok_animation BEGIN
+
+COPY_EXISTING "uelm1ca.bam" "%workspace%"
+   LPF decompress_bam RET was_compressed dl END
+   LPF extract_cycle_data RET cycle_data lookup_data cycle_num END
+BUT_ONLY
+COPY_EXISTING "usar1a1.bam" "override/usar1ca.bam"
+   LPF decompress_bam RET was_compressed dl END
+   LPF delete_cycle_data INT_VAR dl RET dl END
+   LPF insert_cycle_data INT_VAR cycle_num dl STR_VAR cycle_data lookup_data RET dl END
+   LPF compress_bam INT_VAR was_compressed dl END
+BUT_ONLY
+COPY_EXISTING "uelm1cae.bam" "%workspace%"
+   LPF decompress_bam RET was_compressed dl END
+   LPF extract_cycle_data RET cycle_data lookup_data cycle_num END
+BUT_ONLY
+COPY_EXISTING "usar1a1e.bam" "override/usar1cae.bam"
+   LPF decompress_bam RET was_compressed dl END
+   LPF delete_cycle_data INT_VAR dl RET dl END
+   LPF insert_cycle_data INT_VAR cycle_num dl STR_VAR cycle_data lookup_data RET dl END
+   LPF compress_bam INT_VAR was_compressed dl END
+BUT_ONLY
+
+END

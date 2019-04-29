@@ -1,0 +1,69 @@
+ OUTER_SPRINT npc_loc "%MOD_FOLDER%/npc"
+
+
+DEFINE_ACTION_FUNCTION sarevok_npc BEGIN
+
+ LAM load_ascension_tras
+
+
+ // adjust the weights of Sarevok's plot-advancing banters so they are prioritised;
+ // add conditions to those banters so they don't randomly fire
+
+ COMPILE "%npc_loc%/d/bsarev25.d" // no actual lines, so no TRA needed
+
+ // Dialog entries for when he gets his sword back
+ 
+ LAF compile_dialog STR_VAR dialog=sarevok_sword root="%npc_loc%/d" END
+
+ // modifications to Sarevok's script:
+ // - banter when sword given to him
+ // - banter at plot-advancing points
+ // - swearing an oath makes him less likely to be redeemed
+ 
+ EXTEND_TOP sarev25.bcs "%npc_loc%/baf/sarev25.baf"
+
+ LAF run_once STR_VAR function=sarevok_sword END
+
+END
+
+DEFINE_ACTION_FUNCTION sarevok_sword BEGIN
+
+LAM load_ascension_tras
+
+ // the sword itself!
+ // by default, on EE we implement its restriction to Sarevok directly, rather than
+ // via imposing an intolerably severe penalty
+ 
+ LAF check_ini STR_VAR ini=no_ee_sarevok_sword_use_restriction RET skip_ee_change=value END
+
+ ACTION_IF (!enhanced_edition || skip_ee_change) BEGIN
+      COPY "%npc_loc%/resource/finsarev.itm" override
+         SAY NAME2 @3000 SAY DESC @3001
+      ACTION_FOR_EACH spell IN reaver reavimm BEGIN
+            // REAVER inflicts a -1 THAC0 penalty on the user each time they hit, and
+            // a 25% chance of dropping the weapon; REAVIMM gives immunity to REAVER
+         COPY "%npc_loc%/resource/%spell%.spl" override
+      END
+ END ELSE BEGIN
+      OUTER_SPRINT desc @3001
+      OUTER_SPRINT old @3004
+      OUTER_SPRINT new @3005
+      OUTER_INNER_PATCH_SAVE desc "%desc%" BEGIN
+         REPLACE_TEXTUALLY "%old%" "%new%"
+      END
+      COPY "%npc_loc%/resource/finsarev.itm" override
+         SAY NAME2 @3000 SAY DESC "%desc%"
+         LPF DELETE_EFFECT INT_VAR match_opcode=146 END // get rid of the spell
+         LPF ADD_ITEM_EQEFFECT INT_VAR opcode=319 target=1 timing=2 parameter1=11 special=RESOLVE_STR_REF((AT 3006)) STR_VAR resource=SAREVOK END
+         LPF DELETE_EFFECT INT_VAR match_opcode=12 END // get rid of the damage
+         LPF DELETE_EFFECT INT_VAR match_opcode=17 END // get rid of the healing
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=12 target=2 parameter2=64*0x10000 timing=1 dicesize=5 dicenumber=1 END
+         LPF ALTER_EFFECT INT_VAR match_opcode=12 drain_hp_to_caster=1 END
+      COPY_EXISTING "sarev25.bcs" override
+            DECOMPILE_AND_PATCH BEGIN
+               REPLACE_TEXTUALLY ~ReallyForceSpellRES("reavimm",Myself)~ ~~
+            END
+      BUT_ONLY
+ END
+
+END

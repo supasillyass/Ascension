@@ -1,0 +1,289 @@
+OUTER_SPRINT illa_loc "%MOD_FOLDER%/tougher/illasera"
+
+DEFINE_ACTION_FUNCTION tougher_illasera BEGIN
+   LAF set_marker STR_VAR marker=fin_tougher_illasera END
+   
+   // illasera herself
+   LAF illasera_main END
+   LAF run_once STR_VAR function=illasera_resources END
+
+   // area/dialog
+   LAF illasera_plot END
+   
+   // the ZIL hostiles
+   LAF illasera_allies END
+
+END
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/// Area and dialog tweaks
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION illasera_plot BEGIN
+
+   ////////////////////////////////////////////////////////////////////////////
+   /// Area script should always use cut204f (no dependency on difficulty)
+   ////////////////////////////////////////////////////////////////////////////
+
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=ar4000
+              match=~cut204f[23]~
+   END
+   LAF ALTER_SCRIPT_BLOCK
+      STR_VAR script=ar4000
+              match=cut204f
+              swap_out1="LevelParty.?.?([0-9]+)"
+              swap_in1=""
+              swap_out2="NumInParty.?.?([0-9]+)"
+              swap_in2=""
+              swap_out3="Difficulty.?.?([^)]*)" // just for safety
+              swap_in3=""
+   END
+   
+   /////////////////////////////////////////////////////////
+   /// Minor tweak to make allies more reliably hostile
+   /////////////////////////////////////////////////////////
+   
+   COPY_EXISTING illasera.dlg override
+        DECOMPILE_AND_PATCH BEGIN
+           REPLACE_TEXTUALLY "Enemy()" ~Enemy()ActionOverride("zilmag01",Enemy())ActionOverride("zilarc01",Enemy())ActionOverride("zilfgt01",Enemy())~
+        END
+   BUT_ONLY
+
+END
+
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/// Illasera's allies
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION illasera_allies BEGIN
+
+/////////////////////////////////////////////////
+/// The basics are the same as for the (max-difficulty)
+/// grouping: two fighters (zilfgt01,zilfgt02), a mage (zilmag01),
+/// an archer (zilarc01).
+/// But the actual files appear completely rewritten (e.g., zilarc is now
+/// a cleric) and so we might as well use the new ones. One needs a minor fi.
+/////////////////////////////////////////////////
+
+   COPY "%illa_loc%/zilfgt01.cre" override
+      LPF FJ_CRE_VALIDITY END
+      REPLACE_TEXTUALLY rntre04 rndtre04 (8)
+
+   ACTION_FOR_EACH creature IN zilfgt02 zilarc01 zilmag01 BEGIN
+      COPY "%illa_loc%/%creature%.cre" override
+         LPF FJ_CRE_VALIDITY END
+   END
+   
+   // bespoke items: zilfgt02 has bespoke armor which I think we can just use
+
+   COPY "%illa_loc%/zilfgt.itm" override
+   
+   // scripting: they use the GPxxxx set. vAsc doesn't make its improved ones
+   // available, but we will.
+   
+   LAF run_once STR_VAR function=tougher_shared_ai END
+   
+   // they also all have 'illagrp' - in vanilla, this just makes them run away
+   // once Illasera is dead, but in Asc, it also has a just-in-case go-hostile
+   // block
+   
+   <<<<<<<< .../ascension-inline/illagrp_add.baf
+IF
+	Global("IllaseraHostile","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+   >>>>>>>>
+
+   EXTEND_BOTTOM "illagrp.bcs" ".../ascension-inline/illagrp_add.baf"
+
+END
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/// Illasera's CRE file
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION illasera_main
+BEGIN
+
+     INCLUDE "%MOD_FOLDER%/tougher/tougher_shared.tpa"
+     // unlike the others, Illasera is basically completely rebuilt. This 'patch' is really a destructive overwrite
+
+     COPY_EXISTING illasera.cre override
+        LPF illasera_cre_patch END
+     LAF run_once STR_VAR function=bhaalimm END
+
+     // scripting
+     
+     COMPILE "%illa_loc%/illasera.baf"
+
+END
+
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+/// Illasera's bespoke items/spells
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION illasera_resources BEGIN
+
+    ////////////////////////////////////////////////////////
+    /// General note about Illasera's bows:
+    /// - all Illasera's bows are actually ranged, not 'launcher' items
+    /// - for some reason, at least on EE they implement their payload effect *twice* at least some
+    ///   of the time. As a fix for this, we externalise the effects of the bows to spells which we
+    ///   can grant a 0-second 206 immunity to. (0-seconds is long enough because the effects are
+    ///   applied immediately; 1 second is *too* long as sometimes Illa fires fast enough for them to
+    ///   overlap
+    ////////////////////////////////////////////////////////
+
+
+    /////////////////////////////////////
+    /// Illasera's dispelling bow, illas01
+    ///
+    /// - plays the Dispel animation over the target (vAsc implementation doesn't work for some reason, needs to be 'over target, unattached')
+    /// - cures Feeblemindedness (oddly, but it's clearly intentional)
+    /// - -5% to MR for 5 rds
+    /// - guaranteed dispel 
+    /// - 'dispel' string
+    /// - destroy illusions
+    /// - destroy summons (following death spell, we should add the FINGER effect too for visual differentiation)
+    /// - 40% casting failure for 3 rds
+    /////////////////////////////////////
+
+    COPY "%illa_loc%/illas01.itm" override
+       SAY NAME2 "Illas01" // for testing; invisible in game
+       WRITE_BYTE 0x18 ((SHORT_AT 0x18) BOR 0b00000100) // make droppable, for testing reasons - it's undroppable on the CRE file anyway
+       LPF CLONE_EFFECT INT_VAR match_opcode=139 opcode=267 timing=0 duration=1 STR_VAR insert=below END
+       LPF ALTER_EFFECT INT_VAR match_opcode=215 parameter2=0 END
+       LPF CLONE_EFFECT INT_VAR match_opcode=177 match_parameter1=6 STR_VAR resource=finger END
+       LPF externalise_ability_to_spell STR_VAR spell=finil01 END
+
+    COPY_EXISTING finil01.spl override
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=2 timing=0 duration=0 STR_VAR resource=finil01 END
+
+
+    //////////////////////////////////////////////////////////////////////////
+    /// Illasera's magic-damage stunning bow, illas02
+    ///
+    /// - does 10 hp magic damage to target, draining it back to Illasera (we can do this more elegantly on
+    ///   EE)
+    /// - stuns 2 rounds, with a delayed 2-round slow afterwards, unless a save vs polymorph is made at -4
+    ///   (implementation uses delay/limited, but I think it's simpler just to make the slow last 4 rounds)
+    /// - various color effects
+    ///
+    /// - we add 'stunned' and 'slowed' strings. On EE, we also remove previous effects to avoid cumulative consequences
+    //////////////////////////////////////////////////////////////////////////
+
+    COPY "%illa_loc%/illas02.itm" override
+       SAY NAME2 "Illas02" // for testing; invisible in game
+       WRITE_BYTE 0x18 ((SHORT_AT 0x18) BOR 0b00000100) // make droppable, for testing reasons - it's undroppable on the CRE file anyway
+       LPF DELETE_EFFECT STR_VAR match_function="opcode_is(17 18)" END
+       LPF ALTER_EFFECT INT_VAR match_timing=3 timing=0 duration=24 END
+       LPF CLONE_EFFECT INT_VAR match_opcode=45 opcode=139 parameter1=1280 END
+       LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=139 parameter1=14668 END
+       PATCH_IF enhanced_edition BEGIN
+          LPF ADD_SPELL_EFFECT INT_VAR insert_point=0 opcode=321 target=2 timing=1 STR_VAR resource=finil02 END
+          LPF ALTER_EFFECT INT_VAR match_opcode=12 drain_to_max_hp=1 END
+       END
+       LPF externalise_ability_to_spell STR_VAR spell=finil02 END
+
+    COPY_EXISTING finil02.spl override
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=2 timing=0 duration=0 STR_VAR resource=finil02 END
+
+    //////////////////////////////////////////////////////////////////////////
+    /// Illasera's damage-doing, THAC0-reducing, knockback bow
+    ///
+    /// - lighting effect
+    /// - 2d10 magic damage, knockback, sleep (2-sec), -1 to THAC0 for 5 rounds;
+    ///   save vs para at -4 to avoid ( the knockback is at -6, I'll assume that's
+    ///   an error)
+    ///   - on EE, we implement save-for-half
+    //////////////////////////////////////////////////////////////////////////
+
+    COPY "%illa_loc%/illas03.itm" override
+       SAY NAME2 "Illas03" // for testing; invisible in game
+       WRITE_BYTE 0x18 ((SHORT_AT 0x18) BOR 0b00000100) // make droppable, for testing reasons - it's undroppable on the CRE file anyway
+       LPF ALTER_EFFECT INT_VAR match_savebonus="-6" savebonus="-4" END
+       PATCH_IF enhanced_edition BEGIN
+           LPF DELETE_EFFECT INT_VAR match_opcode=12 match_savebonus=0 END
+           LPF ALTER_EFFECT INT_VAR match_opcode=12 dicenumber=2 save_for_half=1 END
+       END
+       LPF externalise_ability_to_spell STR_VAR spell=finil03 END
+
+    COPY_EXISTING finil03.spl override
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=206 target=2 timing=0 duration=0 STR_VAR resource=finil03 END
+
+    /////////////////////////
+    /// Illasera's armor
+    ///
+    /// very lightly tweaked version of Sylvan chain
+    /// (changed AC and color changes) - may as well
+    /// just copy it over
+    ///////////////////////////////////
+
+    COPY "%illa_loc%/illas04.itm" override
+
+    /////////////////////////
+    /// Illasera's 'ethereal' spell
+    ///
+    /// very powerful 3-round protection
+    /// effect. 
+    /// - immunity to divination
+    /// - invisibility (1 round)
+    /// - improved invisibility
+    /// - +4 AC
+    /// - +50 to all damage resistance
+    /// - (detect invisible by script, but it's irrelevant - she can do that anyway)
+    /// - immunity to normal weapons
+    /// - 6 seconds immunity to weapons of +5 or below, and to most spell schools
+    ///
+    /// OK as is, I think
+    ///////////////////////////////////
+
+    COPY "%illa_loc%/illainv.spl" override
+
+
+
+END
+
+////////////////////////////////////////////////////////
+/// Illasera's CRE patch
+///
+/// Although this is structured as a patch, it wipes and overwrites
+/// the entire vanilla creature, replacing it with the Ascension
+/// version. (This odd implementation is because we want to be able
+/// to use it in ascensionmain too.)
+///
+/// After that, we give her bhaalimm to implement most of
+/// her protections, and strip out the CRE-level implementation
+/// as redundant.
+////////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION illasera_cre_patch BEGIN
+   DELETE_BYTES 0x0 BUFFER_LENGTH
+   INNER_ACTION BEGIN
+      COPY "%illa_loc%/illasera.cre" "%workspace%"
+           READ_ASCII 0x0 illa_data (BUFFER_LENGTH)
+           SET new_file_length=BUFFER_LENGTH
+      BUT_ONLY
+   END
+   INSERT_BYTES 0x0 new_file_length
+   WRITE_ASCIIE 0x0 "%illa_data%"
+   LPF FJ_CRE_VALIDITY END
+   LPF DELETE_EFFECT INT_VAR match_opcode=101 END
+   LPF DELETE_EFFECT INT_VAR match_opcode=173 END
+   ADD_CRE_ITEM bhaalimm #0 #0 #0 none amulet
+
+END

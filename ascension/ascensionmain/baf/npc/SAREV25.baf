@@ -1,0 +1,20 @@
+
+///////////////////////////////////////////////////////////////////
+///  If Balthazar's not available, and I'm in the party, 
+///  warn the player that Melissan is still immortal
+///////////////////////////////////////////////////////////////////
+
+IF
+  InParty(Myself) // added by DavidW, a more robust check that I'm a good guy
+  !Allegiance(Myself,ENEMY)
+  OR(2)
+      Dead("balth2")
+      Global("BalthazarFights","GLOBAL",0)
+  Global("MelStillImmortal","AR6200",2)
+  Delay(6)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("MelStillImmortal","AR6200",3)
+    StartDialogNoSet([PC])
+END

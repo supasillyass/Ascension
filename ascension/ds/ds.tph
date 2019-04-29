@@ -1,3 +1,9 @@
+// Detectable Spells v.37
+// March 2019 - David Wallace ('DavidW')
+//
+// Changes:
+// - strip out obsolete 'DMWW_' cruft left in stats.ids by earlier versions of DS
+
 // Detectable Spells v3.96
 //  January 2019 - David Wallace ('DavidW')
 //
@@ -536,11 +542,13 @@ WIZARD_TENSERS_TRANSFORMATION => 182
 END
 
 COPY_EXISTING "stats.ids" override
-ACTION_PHP_EACH stats_array AS name => code BEGIN
+   REPLACE_TEXTUALLY "[0-9]+ +DMWW_SLOT_[0-9]+\(%WNL%\|%LNL%\|%MNL%\)" "\1"
+   ACTION_PHP_EACH stats_array AS name => code BEGIN
       ACTION_IF !FILE_CONTAINS_EVALUATED ("override/stats.ids" "%code%[ %TAB%]+%name%") BEGIN
          APPEND "stats.ids" "%code% %name%"
-      END
+   END
 END
+
 
  LAF ds_sort_ids STR_VAR ids=stats END
 END

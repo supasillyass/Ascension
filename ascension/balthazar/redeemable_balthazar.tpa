@@ -1,0 +1,221 @@
+DEFINE_ACTION_FUNCTION redeemable_balthazar BEGIN
+
+   OUTER_SPRINT balth_loc "%MOD_FOLDER%/balthazar"
+
+   LAM load_ascension_tras
+
+   ///////////////////////////////////////////////
+   /// balthazar himself!
+   ///////////////////////////////////////////////
+
+   // resources (spells etc)
+   INCLUDE "%balth_loc%/balthazar_resources.tpa"
+   LAF run_once STR_VAR function=balthazar_resources END
+
+   // CRE file
+
+   INCLUDE "%balth_loc%/balthazar_creature.tpa"
+   LAF balthazar_cre_friendly END
+
+   // scripting 
+
+   COPY "%balth_loc%/baf/balthazar.baf" "override/balth2.bcs"
+      // remove redundant checks
+      REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",1)~ ~~
+      // remove difficulty settings (they are for Ascension only)
+      REPLACE_TEXTUALLY "Difficulty\(G\|L\)?T?([^)]*)" ""
+      // set teleport locations for AR6200
+      REPLACE_TEXTUALLY throneR_loc "[1600.1105]"
+      REPLACE_TEXTUALLY throneC_loc "[1310.630]"
+      REPLACE_TEXTUALLY throneL_loc "[860.1000]"
+      // compile
+      COMPILE_BAF_TO_BCS
+      
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=balth2
+              match=~Global("balth_is_friendly","GLOBAL",0)~
+   END
+   LAF DELETE_SCRIPT_BLOCK
+      STR_VAR script=balth2
+              match=~Global("balth_is_tougher","GLOBAL",1)~
+   END
+
+   // make party-controllable
+   
+   LAF ALTER_SCRIPT_BLOCK
+      STR_VAR script=balth2
+              swap_out="^IF"
+              swap_in=~IF ActionListEmpty()Global("ai_inactive","LOCALS",0) ~
+   END
+
+   LAF check_ini STR_VAR ini=balthazar_hotkey RET balth_hotkey=value END
+   EXTEND_TOP balth2.bcs "%balth_loc%/baf/balth2_top.baf" EVALUATE_BUFFER
+
+
+   ///////////////////////////////////
+   // The core chapter 9 dialog
+   ///////////////////////////////////
+
+   LAF compile_dialog STR_VAR dialog=balth root="%balth_loc%/d" END
+
+   ///////////////////////////////////
+   /// Other chapter 9 edits
+   ///////////////////////////////////
+
+   // because Balthazar's death triggers the dream cutscene with the Solar, we need a block in the area script to trigger
+   // it if BalthazarFights is set. (In vAscension there was also a block to reset the party's detectable spells stats, but
+   // that's redundant now.) We also want to set a variable, "fin_balth_checkpoint_passed", that replaces the Dead("balth")
+   // checks elsewhere.
+
+   LAF CLONE_SCRIPT_BLOCK
+          STR_VAR
+               script=ar5505 
+               match="HadBhaal25Dream5"
+               swap_out=~Dead("balth")~
+               swap_in=~!Exists("balth")Global("BalthazarFights","GLOBAL",1)~
+               swap_out1=~StartCutSceneMode()~
+               swap_in1=~SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)StartCutSceneMode()~
+               original_swap_out1=~StartCutSceneMode()~
+               original_swap_in1=~SetGlobal("fin_balth_checkpoint_passed","GLOBAL",1)StartCutSceneMode()~
+   END
+
+   // we also need to edit the solar's dialog (and the dream version of Melissan)
+   // to include new Balthazar options
+
+   LAF compile_dialog STR_VAR dialog=dream_solar root="%balth_loc%/d" END
+   LAF compile_dialog STR_VAR dialog=dream_mel root="%balth_loc%/d" END
+
+   // Pocket-plane exit needs to use fin_balth_checkpoint_passed as a replacement for Dead("balth") as a trigger
+   // (we're using a checkpoint variable rather than just an OR() against the admittedly unlikely possibility
+   // that someone else has messed with these scripts and embedded Dead("balth") into an OR() )
+
+   COPY_EXISTING 
+        "itpplane.bcs" override
+        "ppguy01.dlg" override
+     DECOMPILE_AND_PATCH BEGIN
+       REPLACE_TEXTUALLY ~Dead("balth")~ ~Global("fin_balth_checkpoint_passed","GLOBAL",1)~
+     END
+   BUT_ONLY
+   
+   // it also needs to run a different cutscene if Balth is recruited, which requires some delicate surgery
+   
+   OUTER_SPRINT additional_trigger ~Dead("Balth")~
+   OUTER_SPRINT new_trigger ~Global("BalthazarFights","GLOBAL",1)~
+
+   COPY_EXISTING "ppguy01.dlg" "override"
+    DECOMPILE_AND_PATCH BEGIN
+       REPLACE_EVALUATE "IF ~\([^~]*\)~ THEN REPLY #71088"
+       BEGIN
+          SPRINT trigger_condition "%MATCH1%"
+       END
+       "IF ~%trigger_condition%%additional_trigger%~ THEN REPLY #71088"
+       SET start=INDEX_BUFFER ("#71088")
+       SET end=INDEX_BUFFER ("IF ~" start)
+       READ_ASCII start data (end - start)
+       INNER_PATCH "%data%" BEGIN
+          REPLACE_EVALUATE "DO ~\([^~]*\)~" BEGIN
+              SPRINT action_line "%MATCH1%"
+          END
+          ""
+       END
+       INNER_PATCH_SAVE action_line_new "%action_line%" BEGIN
+          REPLACE_TEXTUALLY "cut248a" "fin248a"
+       END
+       SPRINT insert "IF ~%trigger_condition%%new_trigger%~ THEN REPLY #71088 DO ~%action_line_new%~ EXIT "
+       INSERT_BYTES end (STRING_LENGTH "%insert%")
+       WRITE_ASCIIE end "%insert%"
+    END
+   BUT_ONLY
+   
+   ///// And we need to make the actual new cutscene
+   
+   COPY_EXISTING "cut248a.bcs" "override/fin248a.bcs"
+        DECOMPILE_AND_PATCH BEGIN
+            REPLACE_TEXTUALLY ~\(ActionOverride(Player6,LeaveAreaLUA([^)]*))\)~ ~\1 CreateCreature("balth2",[1222.1192],8)ActionOverride("balth2",Ally())~
+        END
+   BUT_ONLY
+
+   ///////////////////////////////////
+   /// Ch.10 dialog edits
+   ///////////////////////////////////
+
+   // create bespoke Balthazar ch.10 dialog file if it doesn't exist already
+   
+   LAF make_dialog STR_VAR dialog=balth2 END
+
+   // Melissan/Balthazar banter
+
+   LAF compile_dialog STR_VAR dialog=mel_balth root="%balth_loc%/d" END
+
+   // Balthazar interjections into the Solar conversation
+
+   LAF compile_dialog STR_VAR dialog=balth_finsol root="%balth_loc%/d" END
+
+   ///////////////////////////////////////////////
+   /// Ch.10 script edits - ONLY if
+   /// Ascension main component is not installed
+   ///////////////////////////////////////////////
+
+   LAF check_marker STR_VAR marker=fin_ascension_main RET value END
+   ACTION_IF !value BEGIN
+      LAF balthazar_ch10_vanilla END
+   END
+
+   ///////////////////////////////////////////////
+   /// epilogue
+   ///////////////////////////////////////////////
+
+  WITH_TRA "%ascension_tra_loc%/english.epilogues.tra" "%ascension_tra_loc%/%LANGUAGE%/epilogues.tra" BEGIN
+   LAF edit_epilogue INT_VAR text_tra_ref=4023 STR_VAR file=balthand portrait=BALTHAZL END
+   LAF insert_epilogue STR_VAR guard=~Global("BalthazarFights","GLOBAL",1)~ var="BalthazarBio" textscreen=balthand END
+  END
+
+   ///////////////////////////////////////////////
+   /// portrait
+   ///////////////////////////////////////////////
+
+   ACTION_IF !FILE_EXISTS_IN_GAME "nbalthal.bmp" BEGIN  // guard against out-of-order installation of Balthazar custom portrait
+       COPY "%balth_loc%/bmp/balthazl.bmp" override
+       ACTION_IF enhanced_edition BEGIN
+          COPY_EXISTING "balthazl.bmp" "override/balthazs.bmp"
+       END
+   END
+
+
+END
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+///// This function integrates a party-friendly Balthazar into the vanilla ending of ToB.
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION balthazar_ch10_vanilla BEGIN
+
+   // edit the pool-activation scripts (these teleport the party back to the mainland and spawn Mel) so that they teleport Balthazar too.
+   // (It's harmless to do so if he's not there)
+
+   ACTION_FOR_EACH script IN cut233b cut233c cut233d BEGIN
+      COPY_EXISTING "%script%.bcs" override
+           DECOMPILE_AND_PATCH BEGIN
+              REPLACE_TEXTUALLY
+                  ~ActionOverride(Player6,JumpToPoint(\([^)]*\)))~
+                  ~ActionOverride(Player6,JumpToPoint(\1))ActionOverride("balth2",JumpToPoint([1409.1164]))~
+           END
+      BUT_ONLY
+   END
+   
+   // edit Melissan's script so that if Balth is present, he's included in the final cutscene
+   
+   LAF CLONE_SCRIPT_BLOCK
+      STR_VAR script=finmel01
+              match=cut233g
+              swap_out=cut233g
+              swap_in=finvbcut
+              swap_out1=~Global("FinalFight","AR6200",7)~
+              swap_in1=~Global("FinalFight","AR6200",7)Global("BalthazarFights","GLOBAL",1)~
+              original_swap_out=~Global("FinalFight","AR6200",7)~
+              original_swap_in=~Global("FinalFight","AR6200",7)Global("BalthazarFights","GLOBAL",0)~
+   END
+   COMPILE "%balth_loc%/vanilla/finvbcut.baf"
+
+
+END

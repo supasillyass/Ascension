@@ -1,0 +1,531 @@
+// DW changes:
+// 
+// -HLAs only used on Easy +
+// -Call for help from Imprisonment only on Easy +
+//
+// Fixed a bug that prevents Hardiness being used
+//
+// setup so that party-friendly version can be created
+//
+// use powers on Spell() not ReallyForceSpell(), since
+// we have animations
+
+///////////////////////////////////
+/// Respond to imprisonment (if hostile)
+//////////////////////////////////////////
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  Global("IMPRISON","LOCALS",1)
+  Global("SarevokImprisoned","AR6200",0)
+  DifficultyGT(EASIEST)
+THEN
+  RESPONSE #100
+    ClearActions(Myself)
+    SetInterrupt(FALSE)
+    SetGlobal("IMPRISON","LOCALS",0)
+    SetGlobal("SarevokImprisoned","AR6200",1)
+    DisplayStringHead(Myself,46151)  // ~help!~
+    SetInterrupt(TRUE)
+END
+
+///////////////////////////////////
+/// Check close-combat status
+//////////////////////////////////////////
+
+
+IF
+  Global("CloseCombat","LOCALS",1)
+  GlobalTimerExpired("attacked","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",0)
+    SetGlobalTimer("SafeForAWhile","LOCALS",6)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  Global("safe","LOCALS",0)
+  GlobalTimerExpired("SafeForAWhile","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("safe","LOCALS",1)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  AttackedBy(NearestEnemyOf(Myself),DEFAULT)
+  Range(NearestEnemyOf(Myself),8)
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",1)
+    SetGlobal("safe","LOCALS",0)
+    SetGlobalTimer("attacked","LOCALS",5)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  AttackedBy(SecondNearestEnemyOf(Myself),DEFAULT)
+  Range(SecondNearestEnemyOf(Myself),8)
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",1)
+    SetGlobal("safe","LOCALS",0)
+    SetGlobalTimer("attacked","LOCALS",5)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  AttackedBy(ThirdNearestEnemyOf(Myself),DEFAULT)
+  Range(ThirdNearestEnemyOf(Myself),8)
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",1)
+    SetGlobal("safe","LOCALS",0)
+    SetGlobalTimer("attacked","LOCALS",5)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  AttackedBy(FourthNearestEnemyOf(Myself),DEFAULT)
+  Range(FourthNearestEnemyOf(Myself),8)
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",1)
+    SetGlobal("safe","LOCALS",0)
+    SetGlobalTimer("attacked","LOCALS",5)
+END
+
+IF
+  Global("CloseCombat","LOCALS",0)
+  HitBy([ANYONE],CRUSHING)
+  Range(NearestEnemyOf(Myself),8)
+THEN
+  RESPONSE #100
+    SetGlobal("CloseCombat","LOCALS",1)
+    SetGlobal("safe","LOCALS",0)
+    SetGlobalTimer("attacked","LOCALS",5)
+END
+
+///////////////////////////////////
+/// Potions, buffs
+///
+/// NB: in vAsc, Sarevok uses ReallyForce when casting
+/// spells for cosmetic reasons: he has no
+/// casting animation!
+//////////////////////////////////////////
+
+
+IF
+  HPPercentLT(Myself,50)
+  !GlobalTimerNotExpired("Spell","LOCALS")
+  HasItem("POTN55",Myself)  // ~Potion of Superior Healing~
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Spell","LOCALS",6)
+    DisplayStringHead(Myself,46150)  // ~quaffs a potion~
+    UseItem("POTN55",Myself)  // ~Potion of Superior Healing~
+END
+
+IF
+  CheckStatLT(Myself,40,RESISTCRUSHING)
+  !GlobalTimerNotExpired("Spell","LOCALS")
+  DifficultyGT(EASIEST)
+  HaveSpell(WARRIOR_HARDINESS)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Spell","LOCALS",6)
+    Spell(Myself,WARRIOR_HARDINESS)
+END
+
+IF
+  Range(NearestEnemyOf(Myself),8)
+  !StateCheck(Myself,STATE_HASTED)
+  !GlobalTimerNotExpired("Spell","LOCALS")
+  DifficultyGT(EASIEST)
+  HaveSpell(WARRIOR_GREATER_WHIRLWIND)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Spell","LOCALS",6)
+    Spell(Myself,WARRIOR_GREATER_WHIRLWIND)
+END
+
+IF
+  Range(NearestEnemyOf(Myself),8)
+  !StateCheck(Myself,STATE_HASTED)
+  !HaveSpell(WARRIOR_GREATER_WHIRLWIND)
+  !GlobalTimerNotExpired("Spell","LOCALS")
+  DifficultyGT(EASIEST)
+  HaveSpell(WARRIOR_WHIRLWIND)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Spell","LOCALS",6)
+    Spell(Myself,WARRIOR_WHIRLWIND)
+END
+
+
+///////////////////////////////////
+/// Target: nearest enemy
+//////////////////////////////////////////
+
+
+IF
+  OR(6)
+  See(SixthNearestEnemyOf(Myself))
+  See(FifthNearestEnemyOf(Myself))
+  See(FourthNearestEnemyOf(Myself))
+  See(ThirdNearestEnemyOf(Myself))
+  See(SecondNearestEnemyOf(Myself))
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// For hostile Sarevok: target: Player
+//////////////////////////////////////////
+
+
+IF 
+  Global("sarev_is_friendly","GLOBAL",0)
+  Range(Player1,15)
+  See(Player1)
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// Target: my last attacker, if close
+//////////////////////////////////////////
+
+
+IF
+  Range(LastAttackerOf(Myself),8)
+  !StateCheck(LastAttackerOf(Myself),STATE_REALLY_DEAD)
+  Global("CloseCombat","LOCALS",1)
+  !StateCheck(LastAttackerOf(Myself),STATE_PANIC)
+  !StateCheck(LastAttackerOf(Myself),STATE_STUNNED)
+  !StateCheck(LastAttackerOf(Myself),STATE_HELPLESS)
+  !StateCheck(LastAttackerOf(Myself),STATE_SLEEPING)
+  !Gender(LastAttackerOf(Myself),SUMMONED)
+  !Gender(LastAttackerOf(Myself),ILLUSIONARY)
+  See(LastAttackerOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// Target: active spellcasters
+//////////////////////////////////////////
+
+
+IF
+  !StateCheck(NearestEnemyOfType([0.0.0.CLERIC_ALL]),STATE_SILENCED)
+  !StateCheck(NearestEnemyOfType([0.0.0.CLERIC_ALL]),STATE_STUNNED)
+  !StateCheck(NearestEnemyOfType([0.0.0.CLERIC_ALL]),STATE_PANIC)
+  !StateCheck(NearestEnemyOfType([0.0.0.CLERIC_ALL]),STATE_SLEEPING)
+  !CheckStatGT(NearestEnemyOfType([0.0.0.CLERIC_ALL]),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !StateCheck(NearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_SILENCED)
+  !StateCheck(NearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_STUNNED)
+  !StateCheck(NearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_PANIC)
+  !StateCheck(NearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_SLEEPING)
+  !CheckStatGT(NearestEnemyOfType([0.0.0.MAGE_ALL]),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  See(NearestEnemyOfType([0.0.0.MAGE_ALL]))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// Target: nearby vulnerable people
+//////////////////////////////////////////
+
+
+IF
+  !CheckStatGT(SixthNearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(SixthNearestEnemyOf(Myself),SUMMONED)
+  LevelGT(SixthNearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(SixthNearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(SixthNearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(SixthNearestEnemyOf(Myself),25)
+  Range(SixthNearestEnemyOf(Myself),15)
+  See(SixthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !CheckStatGT(FifthNearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(FifthNearestEnemyOf(Myself),SUMMONED)
+  LevelGT(FifthNearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(FifthNearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(FifthNearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(FifthNearestEnemyOf(Myself),25)
+  Range(FifthNearestEnemyOf(Myself),15)
+  See(FifthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !CheckStatGT(FourthNearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(FourthNearestEnemyOf(Myself),SUMMONED)
+  LevelGT(FourthNearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(FourthNearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(FourthNearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(FourthNearestEnemyOf(Myself),25)
+  Range(FourthNearestEnemyOf(Myself),15)
+  See(FourthNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !CheckStatGT(ThirdNearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(ThirdNearestEnemyOf(Myself),SUMMONED)
+  LevelGT(ThirdNearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(ThirdNearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(ThirdNearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(ThirdNearestEnemyOf(Myself),25)
+  Range(ThirdNearestEnemyOf(Myself),15)
+  See(ThirdNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !CheckStatGT(SecondNearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(SecondNearestEnemyOf(Myself),SUMMONED)
+  LevelGT(SecondNearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(SecondNearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(SecondNearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(SecondNearestEnemyOf(Myself),25)
+  Range(SecondNearestEnemyOf(Myself),15)
+  See(SecondNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  !CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  OR(2)
+  !Gender(NearestEnemyOf(Myself),SUMMONED)
+  LevelGT(NearestEnemyOf(Myself),10)
+  OR(3)
+  CheckStatGT(NearestEnemyOf(Myself),-5,ARMORCLASS)
+  StateCheck(NearestEnemyOf(Myself),STATE_STUNNED)
+  HPPercentLT(NearestEnemyOf(Myself),25)
+  Range(NearestEnemyOf(Myself),15)
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// Target: worstAC, if hostile
+//////////////////////////////////////////
+
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  !CheckStatGT(WorstAC(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  !Gender(WorstAC(Myself),SUMMONED)
+  !StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+  Range(WorstAC(Myself),15)
+  Allegiance(WorstAC(Myself),GOODCUTOFF)
+  See(WorstAC(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// Target: nearby people with Whirlwind Attack or similar
+//////////////////////////////////////////
+
+
+IF
+  Range(SecondNearestEnemyOf(Myself),8)
+  CheckStatGT(SecondNearestEnemyOf(Myself),4,NUMBEROFATTACKS)
+  !HasItem("eneblade",SecondNearestEnemyOf(Myself))
+  !HasItem("melfmet",SecondNearestEnemyOf(Myself))
+  !StateCheck(SecondNearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(SecondNearestEnemyOf(Myself),STATE_STUNNED)
+  !StateCheck(SecondNearestEnemyOf(Myself),STATE_HELPLESS)
+  !StateCheck(SecondNearestEnemyOf(Myself),STATE_SLEEPING)
+  See(SecondNearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+IF
+  Range(NearestEnemyOf(Myself),8)
+  !HasItem("eneblade",NearestEnemyOf(Myself))
+  !HasItem("melfmet",NearestEnemyOf(Myself))
+  CheckStatGT(NearestEnemyOf(Myself),4,NUMBEROFATTACKS)
+  !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_STUNNED)
+  !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+  !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+  See(NearestEnemyOf(Myself))
+  False()
+THEN
+  RESPONSE #100
+    NoAction()
+END
+
+///////////////////////////////////
+/// If that didn't find a target, but there
+/// is someone around, move towards them
+//////////////////////////////////////////
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  See([GOODCUTOFF])
+THEN
+  RESPONSE #100
+    MoveToObject([GOODCUTOFF])
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",1)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  See([EVILCUTOFF])
+THEN
+  RESPONSE #100
+    MoveToObject([EVILCUTOFF])
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  OR(2)
+  !Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  !See([GOODCUTOFF])
+  !Range(Player1,15)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",1)
+  OR(2)
+  !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  !See([EVILCUTOFF])
+  !Range(Player1,15)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  OR(2)
+  !Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  !See([GOODCUTOFF])
+  Range(Player1,15)
+THEN
+  RESPONSE #100
+    RandomWalk()
+END
+
+IF
+  StateCheck(LastSeenBy(Myself),STATE_DEAD)
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    AttackOneRound(NearestEnemyOf(Myself))
+END
+
+IF
+  StateCheck(LastSeenBy(Myself),STATE_DEAD)
+  !See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF   
+  Global("sarev_is_friendly","GLOBAL",0) // these randomwalk blocks don't play nicely with Sarev's ActionListEmpty() blocks
+  Global("xyxManeuvered","LOCALS",0)
+  GlobalTimerExpired("xyxAttack","LOCALS")
+  !StateCheck(Myself,STATE_HASTED)
+THEN
+  RESPONSE #100
+    SetGlobal("xyxManeuvered","LOCALS",1)
+    RandomWalkContinuous()
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
+  !CheckStatGT(LastSeenBy(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  CheckStatLT(LastSeenBy(Myself),100,RESISTSLASHING)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("xyxAttack","LOCALS",5)
+    SetGlobal("xyxManeuvered","LOCALS",0)
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",1)
+  Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+  !CheckStatGT(LastSeenBy(Myself),0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+  CheckStatLT(LastSeenBy(Myself),100,RESISTSLASHING)
+THEN
+  RESPONSE #100
+    SetGlobalTimer("xyxAttack","LOCALS",5)
+    SetGlobal("xyxManeuvered","LOCALS",0)
+    AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+  Global("sarev_is_friendly","GLOBAL",0) // these randomwalk blocks don't play nicely with Sarev's ActionListEmpty() blocks
+  True()
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END
+

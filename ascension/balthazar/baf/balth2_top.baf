@@ -1,0 +1,54 @@
+//////////////////////////////////////
+// AI control
+//////////////////////////////////////
+
+IF
+  HotKey(%balth_hotkey%)
+  Global("ai_inactive","LOCALS",1)
+THEN
+    RESPONSE #100
+             SetGlobal("ai_inactive","LOCALS",0)
+             DisplayStringHead(Myself,@1067)
+END
+
+IF
+  HotKey(%balth_hotkey%)
+  Global("ai_inactive","LOCALS",0)
+THEN
+    RESPONSE #100
+             SetGlobal("ai_inactive","LOCALS",1)
+             DisplayStringHead(Myself,@1066)
+END
+
+//////////////////////////////////////
+// Player interjection (friendly version only)
+//
+// this will be present even if the Ascension main
+// component is not installed, but it doesn't matter:
+// the 'MelStillImmortal' variable will be zero in that
+// case, since it's Ascension-only
+//////////////////////////////////////
+
+IF
+  !Allegiance(Myself,ENEMY)
+  Global("MelStillImmortal","AR6200",2)
+  Delay(6)
+  See([PC])
+THEN
+  RESPONSE #100
+    SetGlobal("MelStillImmortal","AR6200",3)
+    StartDialogNoSet([PC])
+END
+
+//////////////////////////////////////
+// 2-second pause on creation, to keep out
+// of Melissan's way
+//////////////////////////////////////
+
+IF
+  Global("initial_pause","LOCALS",0)
+THEN
+    RESPONSE #100
+             SetGlobal("initial_pause","LOCALS",1)
+             Wait(2)
+END

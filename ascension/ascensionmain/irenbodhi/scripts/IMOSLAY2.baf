@@ -1,0 +1,40 @@
+/////////////////////////////////////////////
+/// Imoen's (pretty minimal) combat script
+/// when she's in compelled-slayer mode
+/////////////////////////////////////////////
+
+IF
+  StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+    RESPONSE #100
+    CreateVisualEffectObject("SPROTECT",Myself)
+    CreateVisualEffectObject("SPDUSTY2",Myself)
+    DestroySelf()
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  See(NearestEnemyOf(Myself))
+  !Allegiance(LastSeenBy(Myself),EVILCUTOFF)
+THEN
+  RESPONSE #100
+    AttackReevaluate(LastSeenBy(Myself),45)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !See(NearestEnemyOf(Myself))
+  !Range(Player1,15)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+END
+
+IF
+  Allegiance(Myself,ENEMY)
+  !See(NearestEnemyOf(Myself))
+  Range(Player1,15)
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END

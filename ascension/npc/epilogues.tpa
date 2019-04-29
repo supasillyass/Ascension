@@ -1,0 +1,92 @@
+DEFINE_ACTION_FUNCTION epilogues
+    INT_VAR shawne=0
+BEGIN
+
+   // load the appropriate tra files
+   ACTION_IF shawne BEGIN
+      LOAD_TRA "%ascension_tra_loc%/english/shawnesepilogues.tra" "%ascension_tra_loc%/%LANGUAGE%/shawnesepilogues.tra"
+   END ELSE BEGIN
+      LOAD_TRA "%ascension_tra_loc%/english/epilogues.tra" "%ascension_tra_loc%/%LANGUAGE%/epilogues.tra"
+   END
+   // make new epilogue files for Viconia and Sarevok
+
+   COPY_EXISTING sarevnd.2da "override/sarevnd2.2da"
+   COPY_EXISTING viconnd1.2da "override/viconnd3.2da"
+
+   // write the text entries into the epilogue files
+
+   ACTION_CLEAR_ARRAY epilogue_strings
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY epilogue_strings BEGIN
+      aeriend1 =>	4001
+      aeriend2 =>	4002
+      anomend1 =>	4003
+      anomend2 =>	4004
+      cerndnd =>	4005
+      edwinnd =>        4006
+      haernd =>	        4007
+      imoennd =>	4008
+      jaheind1 =>	4009
+      jaheind2 =>	4010
+      jannd   =>        4011
+      keldornd =>       4012
+      korgand  =>       4013
+      mazzynd =>	4014
+      minscnd =>        4015
+      naliand =>	4016
+      sarevnd =>	4018
+      sarevnd2 =>	4017
+      valygnd =>	4019
+      viconnd1 =>	4020
+      viconnd2 =>	4022
+      viconnd3 =>	4021
+   END
+
+   ACTION_PHP_EACH epilogue_strings AS file=>text_tra_ref BEGIN
+      LAF edit_epilogue INT_VAR text_tra_ref STR_VAR file END
+   END
+
+   // Sarevok's new entry is only if he's evil
+   
+   LAF CLONE_SCRIPT_BLOCK
+      STR_VAR script=ar6200
+              match=~"sarevnd"~
+              swap_out=~Global("SarevokBio","GLOBAL",0)~
+              swap_in=~Alignment("Sarevok",MASK_EVIL)Global("SarevokBio","GLOBAL",0)~
+              swap_out1=~"sarevnd"~
+              swap_in1=~"sarevnd2"~
+              original_swap_out=~Global("SarevokBio","GLOBAL",0)~
+              original_swap_in=~!Alignment("Sarevok",MASK_EVIL)Global("SarevokBio","GLOBAL",0)~
+   END
+   
+   // Viconia, if not romanced-and-stayed-with, has different entries according
+   // to alignment, with the new one the non-evil one
+
+   LAF CLONE_SCRIPT_BLOCK
+      STR_VAR script=ar6200
+              match=~"viconnd1"~
+              swap_out=~Global("ViconiaBio","GLOBAL",0)~
+              swap_in=~!Alignment("Viconia",MASK_EVIL)Global("ViconiaBio","GLOBAL",0)~
+              swap_out1=~"viconnd1"~
+              swap_in1=~"viconnd3"~
+              original_swap_out=~Global("ViconiaBio","GLOBAL",0)~
+              original_swap_in=~Alignment("Viconia",MASK_EVIL)Global("ViconiaBio","GLOBAL",0)~
+   END
+   
+   // cosmetic change: at least in EE, we get flashes of ar6200 between epilogue screens
+   
+   <<<<<<<< .../ascension-inline/ar6200_cosmetic.baf
+IF
+  Global("StartEndBios","AR6200",1)
+  !Global("fin_epilogue_fade","AR6200",1)
+THEN
+    RESPONSE #100
+             SetGlobal("fin_epilogue_fade","AR6200",1)
+             FadeToColor([20.0],0)
+             Wait(1)
+             Continue()
+END
+   >>>>>>>>
+
+EXTEND_TOP ar6200.bcs ".../ascension-inline/ar6200_cosmetic.baf"
+
+END

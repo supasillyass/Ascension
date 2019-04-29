@@ -1,0 +1,25 @@
+@3001 = ~Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał Sarevok, gdy starli się ze sobą w odległych Wrotach Baldura. Wówczas <CHARNAME> zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy przed zbliżającą się nieuchronnie wojną. Teraz gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazwał swój miecz Zwiastunem śmierci, uwalniając przy tym niektóre z jego dawnych zdolności. Niestety, ze względu na brak esencji Bhaala, łączącej niegdyś właściciela z jego ostrzem, broń nie uzyskała mocy, jaką posiadała dawniej. Mimo to miecz nadal stanowi niebezpieczną broń... choć Sarevok ostrzegł, że niełatwo nią będzie władać komuś, kto nie był wcześniej zwiastunem śmierci.
+
+PARAMETRY:
+
+Specjalne:
+– Każde trafienie wysysa od jednego do pięciu punktów życia od celu, przekazując je dzierżącemu broń. Nie spowoduje to jednak wzrostu ilości punktów życia powyżej maksymalnej wartości.
+– Odporność na magię: 10%
+
+Obrażenia: 1k10 +4
+TraK0: +4
+Typ obrażeń: sieczne
+Opóźnienie: 8
+Rodzaj biegłości: miecz oburęczny
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 14
+– Kondycja: 18
+
+Waga: 10~
+@3003 = ~Ta niezwykle potężna mikstura uzdrawiająca, będąca najprawdopodobniej dziełem samej Sendai, jest zdolna przywrócić pełnię punktów życia pijącej ją osobie.
+
+PARAMETRY:
+
+Waga: 1~

@@ -1,0 +1,34 @@
+IF
+  GlobalGT("FINSPROG","GLOBAL",0)
+  GlobalLT("FINSPROG","GLOBAL",2)
+  !XPLT(Player1,%threshold_1%)
+  XPLT(Player1,%threshold_2%)
+THEN
+    RESPONSE #100
+         ApplySpellRES("finslgr",Player1)
+         DisplayStringHead(Player1,@1048)
+         Continue()
+END
+
+IF
+  GlobalGT("FINSPROG","GLOBAL",0)
+  GlobalLT("FINSPROG","GLOBAL",3)
+  !XPLT(Player1,%threshold_2%)
+  XPLT(Player1,%threshold_3%)
+THEN
+    RESPONSE #100
+         ApplySpellRES("finslgr",Player1)
+         DisplayStringHead(Player1,@1048)
+         Continue()
+END
+
+IF
+  GlobalGT("FINSPROG","GLOBAL",0)
+  GlobalLT("FINSPROG","GLOBAL",4)
+  !XPLT(Player1,%threshold_3%)
+THEN
+    RESPONSE #100
+         ApplySpellRES("finslgr",Player1)
+         DisplayStringHead(Player1,@1048)
+         Continue()
+END

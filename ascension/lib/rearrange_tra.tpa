@@ -1,0 +1,209 @@
+// this code isn't called in live Ascension.
+// It was used to rearrange the dialog tra files, changing
+// them from being associated with specific dialogs,
+// to being associated with specific collections of 
+// dialog.
+//
+// Note that this is irreversible: the file copies aren't
+// logged and can't be undone.
+
+DEFINE_ACTION_FUNCTION rearrange_tra 
+BEGIN
+
+  OUTER_SPRINT destination "%MOD_FOLDER%/lang"
+  // read in all the languages
+  ACTION_FOR_EACH language IN
+  czech english french german italian polish russian schinese spanish tchinese BEGIN
+    OUTER_SPRINT $language_list("%language%") ""
+  END
+
+  // make folders; read in data
+
+  ACTION_PHP_EACH language_list AS language=>null BEGIN
+     MKDIR "%destination%/%language%"
+     LAF load_dialog_data STR_VAR language RET_ARRAY "%language%"=array END
+  END
+
+  // process d files
+
+  ACTION_BASH_FOR "%MOD_FOLDER%/ascensionmain/d" ".*\.d" BEGIN
+     LAF process_d_file STR_VAR destination dialog_file="%BASH_FOR_RES%" dialog_filespec="%BASH_FOR_FILESPEC%" END
+  END
+  ACTION_BASH_FOR "%MOD_FOLDER%/balthazar/d" ".*\.d" BEGIN
+     LAF process_d_file STR_VAR destination dialog_file="%BASH_FOR_RES%" dialog_filespec="%BASH_FOR_FILESPEC%" END
+  END
+  
+  // copy over non-d files
+  
+  ACTION_FOR_EACH file IN ascension setup shawnesepilogues shawnesepilogues_eenpc ee BEGIN
+     ACTION_PHP_EACH language_list AS language=>null BEGIN
+        OUTER_SPRINT filename "%MOD_FOLDER%/tra/%language%/%file%.tra"
+        ACTION_IF FILE_EXISTS "%filename%" BEGIN
+           COPY + "%filename%" "%destination%/%language%"
+        END
+     END
+  END
+
+END
+
+
+DEFINE_ACTION_FUNCTION load_dialog_data
+   STR_VAR language=english
+   RET_ARRAY array
+BEGIN
+   OUTER_SPRINT atsymbol ~@~
+   ACTION_CLEAR_ARRAY array
+   ACTION_FOR_EACH file IN
+   balth balth2 finbodh finmel01 finsarev finsol01 imoen25j
+   imoen25p irenic2 meliss01 player1 ppguy02 sarev25j solar
+   BEGIN
+        OUTER_SPRINT file_spec "%MOD_FOLDER%/tra/%language%/%file%.tra"
+        ACTION_IF FILE_EXISTS "%file_spec%" BEGIN
+           COPY "%file_spec%" "%workspace%"
+                  REPLACE_EVALUATE "%atsymbol%\([0-9]+\) *= *~\([^~]*\)~"
+                  BEGIN
+                    PATCH_IF VARIABLE_IS_SET $array("%MATCH1%") BEGIN  
+                     PATCH_IF $array("%MATCH1%") STRING_COMPARE_CASE "%MATCH2%" BEGIN
+                       PATCH_PRINT "warning: in language %language%, string %MATCH1% is multiply defined (one definition is in file %file%)"
+                     END
+                    END ELSE BEGIN
+                       SPRINT $array("%MATCH1%") "%MATCH2%"
+                    END
+                  END
+                  ""
+           BUT_ONLY
+        END
+   END
+
+END
+
+DEFINE_ACTION_FUNCTION process_d_file
+  STR_VAR dialog_file=""
+          dialog_filespec=""
+          destination=""
+BEGIN
+     ACTION_TO_LOWER dialog_file
+     COPY - "%dialog_filespec%" "%workspace%"
+        LPF get_d_entries RET_ARRAY "%dialog_file%"=string_array END
+     BUT_ONLY
+     ACTION_PHP_EACH language_list AS language=>null BEGIN
+        LAF write_d_entries STR_VAR destination dialog_file language END
+     END
+END
+
+
+DEFINE_PATCH_FUNCTION  get_d_entries
+RET_ARRAY string_array
+BEGIN
+   SPRINT atsymbol ~@~
+   SPRINT $string_array("-100") ""
+   REPLACE_EVALUATE "%atsymbol%\([0-9]+\)[^0-9]"
+   BEGIN
+     SPRINT $string_array("%MATCH1%") ""
+   END
+   ""
+   SORT_ARRAY_INDICES string_array NUMERICALLY
+END
+
+
+DEFINE_ACTION_FUNCTION write_d_entries
+STR_VAR dialog_file=""
+        language=""
+        destination=""
+BEGIN
+    OUTER_SPRINT atsymbol ~@~
+    OUTER_SPRINT file "%destination%/%language%/%dialog_file%.tra"
+    COPY ".../stratagems-inline/blank" "%workspace%/temp_file"
+    ACTION_PHP_EACH "%dialog_file%" AS strref=>discard BEGIN
+       ACTION_IF strref>=0 BEGIN
+          OUTER_SPRINT string $"%language%"("%strref%")
+          APPEND_OUTER "%workspace%/temp_file" "%atsymbol%%strref% = ~%string%~%WNL%" KEEP_CRLF
+       END
+    END
+    COPY + "%workspace%/temp_file" "%file%"
+END
+
+DEFINE_ACTION_FUNCTION remap_epilog_strrefs BEGIN
+
+   OUTER_SPRINT atsymbol ~@~
+   ACTION_CLEAR_ARRAY epilog_remap
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY epilog_remap BEGIN
+        4001 => 82714 // Aerie
+        4002 => 82715 // Aerie (romance)
+        4003 => 82716 // Anomen
+        4004 => 82717 // Anomen (romance)
+        4005 => 82718 // Cernd
+        4006 => "Edwin" // Edwin
+        4007 => 82720 // Haer'dalis
+        4008 => 82731 // Imoen
+        4009 => 82721 // Jaheira
+        4010 => 82722 // Jaheira (romance)
+        4011 => "Jan" // Jan
+        4012 => "Keldorn" // Keldorn
+        4013 => "Korgan" // Korgan
+        4014 => 82723 // Mazzy
+        4015 => "Minsc" // Minsc
+        4016 => 82724 // Nalia
+        4017 => 82726 // Sarevok (evil)
+        4018 => 82725 // Sarevok (good)
+        4019 => 82727 // Valygar
+        4020 => 82728 // Viconia (evil)
+        4021 => 82729 // Viconia (nonevil)
+        4022 => 82732 // Viconia (romance)
+        4023 => 82760 // Balthazar
+        4024 => 82785 // Bodhi
+   END
+
+   OUTER_SPRINT destination "%MOD_FOLDER%/lang"
+   ACTION_FOR_EACH language IN
+         czech english french german italian polish russian schinese spanish tchinese
+   BEGIN
+         MKDIR "%destination%/%language%"
+         ACTION_CLEAR_ARRAY epilog_entries
+         COPY + ".../stratagems-inline/blank" "%workspace%/epilogues.tra"
+         COPY + "%destination%/%language%/ascension.tra" "%destination%/%language%"
+            REPLACE_EVALUATE "%atsymbol%\(827[0-9][0-9]\) *= *~\([^~]*\)~" BEGIN
+              SPRINT $epilog_entries("%MATCH1%") "%MATCH2%"
+            END
+            ""
+         BUT_ONLY
+         OUTER_FOR (num=4001;num<=4024;num+=1) BEGIN
+             OUTER_SPRINT num_old $epilog_remap("%num%")
+             ACTION_IF IS_AN_INT num_old BEGIN
+                ACTION_IF VARIABLE_IS_SET $epilog_entries("%num_old%") BEGIN
+                   OUTER_SPRINT data $epilog_entries("%num_old%")
+                   OUTER_SPRINT data "~%data%~"
+                END ELSE BEGIN
+                   OUTER_SPRINT data "null"
+                END
+             END ELSE BEGIN
+                OUTER_SPRINT data "~~ // %num_old% (not altered in Ascension)"
+             END
+             ACTION_IF "%data%" STRING_COMPARE_CASE "" BEGIN
+                APPEND_OUTER "%workspace%/epilogues.tra" "%atsymbol%%num% = %data%%WNL%" KEEP_CRLF
+             END
+         END
+         COPY + "%workspace%/epilogues.tra" "%destination%/%language%"
+
+   END
+
+
+
+END 
+
+DEFINE_ACTION_FUNCTION move_setup_strings_out_of_harms_way BEGIN
+
+    OUTER_SPRINT atsymbol ~@~
+    ACTION_FOR_EACH language IN
+         czech english french german italian polish russian schinese spanish tchinese
+    BEGIN
+       COPY + "%MOD_FOLDER%/lang/%language%/setup.tra" "%MOD_FOLDER%/lang/%language%"
+           REPLACE_TEXTUALLY "%atsymbol%\([0-9][0-9][0-9][0-9]\)" "%atsymbol%10\1"
+
+    END
+    
+    COPY + "%MOD_FOLDER%/ascension.tp2" "%MOD_FOLDER%"
+           REPLACE_TEXTUALLY "%atsymbol%\([0-9][0-9][0-9][0-9]\)" "%atsymbol%10\1"
+
+
+END

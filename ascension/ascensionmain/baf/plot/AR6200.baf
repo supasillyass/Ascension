@@ -1,0 +1,554 @@
+//////////////////////////////////////////////////////////////////////
+//
+// Note that vanilla ar6200.bcs is purely epilogue scenes - everything
+// is handled through trigger scripts and Melissan's dialog/script.
+//
+// So we have more or less free reign here
+//
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+/// Plot-advancing conversations once the Irenicus/Imoen battle is over
+///
+/// Check for that battle being over is:
+/// (i) Irenicus is dead
+/// (ii) Bodhi is either dead or in the party
+/// (iii) the Solars are dead
+/// (iv) Imoen is either dead or back to human
+/// (v) Exists([ENEMY]) is false, as a check for summons
+//////////////////////////////////////////////////////////////////////
+
+// general check that battle is over
+// (replicated in IMOSLAY, more or less)
+
+IF
+     !Global("FIN_irenicus_fight_over","AR6200",1)
+     OR(2)
+          !Exists("finiren")
+          Dead("finiren") 
+     OR(3)
+          !Exists("finbodh")
+          Dead("finbodh")
+          Global("BodhiFights","GLOBAL",1)
+     OR(2)
+          !Exists("finsolar")
+          Dead("finsolar")
+     OR(2)
+          !Exists("finsola2")
+          Dead("finsola2")
+     OR(2)
+          !Exists("finsola3")
+          Dead("finsola3")
+     OR(3)
+		Global("ImoenBackToHuman","GLOBAL",2)
+		Dead("Imoen2")
+		!Exists("Imoen2")
+     !Exists([ENEMY])
+THEN
+    RESPONSE #100
+             SetGlobal("FIN_irenicus_fight_over","AR6200",1)
+             SetGlobalTimer("FIN_irenicus_epilog","AR6200",5)
+END
+
+// if Balthazar is allied to the party and active, he banters
+// Here and below, the OR(2) block guards against edge cases (e.g.,
+// Balthazar in a Timestop) where the dialog can't be triggered.
+// FinalFight=4 is used by the dialog as a check of whether it can
+// fire, so we need to set it, but the dialog advances FinalFight
+// to 5, so with the OR(), this block just keeps firing until we
+// get the conversation.
+
+IF
+        OR(2)
+             Global("FinalFight","AR6200",3)
+             Global("FinalFight","AR6200",4)
+        !GlobalTimerNotExpired("FIN_irenicus_epilog","AR6200")
+        Global("FIN_irenicus_fight_over","AR6200",1)
+	Global("BalthazarFights","GLOBAL",1)
+	!Dead("balth2")
+	!StateCheck("balth2",STATE_STUNNED)
+	!StateCheck("balth2",STATE_SLEEPING)
+	!StateCheck("balth2",STATE_SILENCED)
+	!StateCheck("balth2",STATE_CONFUSED)
+THEN
+    RESPONSE #100
+		SetGlobal("FinalFight","AR6200",4)
+		ActionOverride("balth2",Dialogue(Player1))
+END
+
+// if Bodhi is allied to the party and active, *she* banters
+
+IF
+        OR(2)
+             Global("FinalFight","AR6200",3)
+             Global("FinalFight","AR6200",4)
+        !GlobalTimerNotExpired("FIN_irenicus_epilog","AR6200")
+        Global("FIN_irenicus_fight_over","AR6200",1)
+        Global("BodhiFights","GLOBAL",1)
+	!Dead("finbodh")
+	!StateCheck("finbodh",STATE_STUNNED)
+	!StateCheck("finbodh",STATE_SLEEPING)
+	!StateCheck("finbodh",STATE_SILENCED)
+	!StateCheck("finbodh",STATE_CONFUSED)
+THEN
+    RESPONSE #100
+		SetGlobal("FinalFight","AR6200",4)
+		ActionOverride("finbodh",Dialogue(Player1))
+END
+
+// if neither condition holds, self-banter
+
+IF
+        OR(2)
+             Global("FinalFight","AR6200",3)
+             Global("FinalFight","AR6200",4)
+        !GlobalTimerNotExpired("FIN_irenicus_epilog","AR6200")
+        !StateCheck(Player1,CD_STATE_NOTVALID)
+        !Allegiance(Player1,ENEMY) // not dominated by Bodhi
+        Global("FIN_irenicus_fight_over","AR6200",1)
+THEN
+    RESPONSE #100
+		SetGlobal("FinalFight","AR6200",4)
+		ActionOverride(Player1,StartDialog("player1",Player1))
+END
+
+//////////////////////////////////////////////////////////////////////
+/// Set up the pools (i.e., make them player-passable)
+/// once FinalFight is set to 5 in dialog
+//////////////////////////////////////////////////////////////////////
+
+
+IF
+  Global("FinalFight","AR6200",5)
+  Global("SetUpPools","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SetUpPools","AR6200",1)
+    OpenDoor("DOOR03")
+    OpenDoor("DOOR02")
+    OpenDoor("DOOR01")
+END
+
+
+//////////////////////////////////////////////////////////////////////
+/// Trigger Melissan once the pools-set MelissanComes timer is expired
+//////////////////////////////////////////////////////////////////////
+
+IF
+  Global("FinalFight","AR6200",5)
+  GlobalTimerExpired("MelissanComes","AR6200")
+THEN
+  RESPONSE #100
+    SetGlobal("FinalFight","AR6200",6)
+    SetGlobal("IMPRISON","GLOBAL",0)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("finmel2")
+END
+
+//////////////////////////////////////////////////////////////////////////
+/// Check for any of the Five (well, Seven) being <20 hp. If so, mark them
+/// as dead and inflict feedback on Melissan.
+//////////////////////////////////////////////////////////////////////////
+
+// Balthazar 
+
+IF
+  HPLT("finbalth",20)
+  Global("DeathScriptBalth","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptBalth","AR6200",1)
+    ClearActions("finbalth")
+    CreateVisualEffectObject("ICRMPARI","finbalth")
+    CreateVisualEffectObject("SPROTECT","finbalth")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finbalth"))  // finbalth
+    ReallyForceSpellDeadRES("melspl10","finmel01")
+    Kill("finbalth")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","finbalth")
+    ActionOverride("finbalth",DestroySelf())
+END
+
+// Sendai
+
+IF
+  HPLT("finsend",20)
+  Global("DeathScriptSend","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptSend","AR6200",1)
+    ClearActions("finsend")
+    CreateVisualEffectObject("ICRMPARI","finsend")
+    CreateVisualEffectObject("SPROTECT","finsend")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finsend"))
+    ReallyForceSpellDeadRES("melspl10","finmel01")
+    Kill("finsend")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","finsend")
+    ActionOverride("finsend",DestroySelf())
+END
+
+// Abazigal
+
+IF
+  HPLT("finabaz",20)
+  Global("DeathScriptAbaz","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptAbaz","AR6200",1)
+    ClearActions("finabaz")
+    CreateVisualEffectObject("ICRMPARI","finabaz")
+    CreateVisualEffectObject("SPROTECT","finabaz")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finabaz"))
+    ReallyForceSpellDeadRES("MELSPL10","finmel01")
+    Kill("finabaz")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","finabaz")
+    ActionOverride("finabaz",DestroySelf())
+END
+
+// Yaga Shura
+
+IF
+  HPLT("finyaga",20)
+  Global("DeathScriptYaga","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptYaga","AR6200",1)
+    ClearActions("finyaga")
+    CreateVisualEffectObject("ICRMPARI","finyaga")
+    CreateVisualEffectObject("SPROTECT","finyaga")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finyaga"))
+    ReallyForceSpellDeadRES("MELSPL10","finmel01")
+    Kill("finyaga")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","finyaga")
+    ActionOverride("finyaga",DestroySelf())
+END
+
+// Illasera
+
+IF
+  HPLT("finilla",20)
+  Global("DeathScriptIlla","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptIlla","AR6200",1)
+    ClearActions("finilla")
+    CreateVisualEffectObject("ICRMPARI","finilla")
+    CreateVisualEffectObject("SPROTECT","finilla")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finilla"))
+    ReallyForceSpellDeadRES("melspl10","finmel01")
+    Kill("finilla")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","finilla")
+    ActionOverride("finilla",DestroySelf())
+END
+
+// Gromnir - removes Balthazar item
+
+IF
+  HPLT("fingrom",20)
+  Global("DeathScriptGrom","AR6200",0)
+THEN
+  RESPONSE #100
+    SetGlobal("DeathScriptGrom","AR6200",1)
+    ClearActions("fingrom")
+    CreateVisualEffectObject("ICRMPARI","fingrom")
+    CreateVisualEffectObject("SPROTECT","fingrom")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ActionOverride("finmel01",DestroyItem("finbalth"))  // finbalth
+    ReallyForceSpellDeadRES("melspl10","finmel01")
+    Kill("fingrom")
+    Wait(1)
+    CreateVisualEffectObject("SPDUSTY2","fingrom")
+    ActionOverride("fingrom",DestroySelf())
+END
+
+// Sarevok - no item removed
+
+IF
+  HPLT("finsarev",20)
+  Global("DeathScriptSare","AR6200",0)
+  Global("fin_sarevok_external_friendly","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("DeathScriptSare","AR6200",1)
+    ClearActions("finsarev")
+    CreateVisualEffectObject("ICRMPARI","finsarev")
+    CreateVisualEffectObject("SPROTECT","finsarev")
+    ActionOverride("finmel01",ClearActions(Myself))
+    ReallyForceSpellDeadRES("melspl10","finmel01")
+    Kill("finsarev")
+    Wait(1)
+    ActionOverride("finsarev",DestroySelf())
+END
+
+//////////////////////////////////////////////////////////////////////////
+/// Keep count of how many of the Five are dead (reversing the count
+/// if anyone comes back through Freedom)
+//////////////////////////////////////////////////////////////////////////
+
+IF
+	Dead("finilla")
+	Global("IllaseraDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("IllaseraDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",2)
+END
+
+IF
+	!Dead("finilla")
+	Global("IllaseraDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("IllaseraDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-2)
+END
+
+IF
+	Dead("finabaz")
+	Global("AbazigalDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AbazigalDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",1)
+END
+
+IF
+	!Dead("finabaz")
+	Global("AbazigalDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AbazigalDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-1)
+END
+
+IF
+	Dead("finyaga")
+	Global("YagaDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YagaDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",1)
+END
+
+IF
+	!Dead("finyaga")
+	Global("YagaDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("YagaDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-1)
+END
+
+IF
+	Dead("finsend")
+	Global("SendaiDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SendaiDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",2)
+END
+
+IF
+	!Dead("finsend")
+	Global("SendaiDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("SendaiDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-2)
+END
+
+IF
+	Dead("finbalth")
+	Global("BalthazarFights","GLOBAL",0)
+	Global("BalthDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BalthDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",2)
+END
+
+IF
+	!Dead("finbalth")
+	Global("BalthazarFights","GLOBAL",0)
+	Global("BalthDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("BalthDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-2)
+END
+
+IF
+	Dead("fingrom")
+	Global("GromnirDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("GromnirDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",1)
+END
+
+IF
+	!Dead("fingrom")
+	Global("GromnirDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("GromnirDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-1)
+END
+
+IF
+	Dead("finsarev")
+	Global("SarevokDead","AR6200",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokDead","AR6200",1)
+		IncrementGlobal("FiveDead","AR6200",1)
+END
+
+IF
+	!Dead("finsarev")
+	Global("SarevokDead","AR6200",1)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokDead","AR6200",0)
+		IncrementGlobal("FiveDead","AR6200",-1)
+END
+
+//////////////////////////////////////////////////////////////////////////
+/// Spawn Mel once enough of the Five are dead
+//////////////////////////////////////////////////////////////////////////
+
+IF
+  DifficultyLT(NORMAL)
+  GlobalGT("FiveDead","AR6200",3)
+  Global("FinalFight","AR6200",7)
+THEN
+  RESPONSE #100
+    SetGlobal("FinalFight","AR6200",8)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("melcomes")
+END
+
+IF
+  Difficulty(NORMAL)
+  GlobalGT("FiveDead","AR6200",2)
+  Global("FinalFight","AR6200",7)
+THEN
+  RESPONSE #100
+    SetGlobal("FinalFight","AR6200",8)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("melcomes")
+END
+
+IF
+  Difficulty(HARD)
+  GlobalGT("FiveDead","AR6200",1)
+  Global("FinalFight","AR6200",7)
+THEN
+  RESPONSE #100
+    SetGlobal("FinalFight","AR6200",8)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("melcomes")
+END
+
+IF
+  Difficulty(HARDEST)
+  GlobalGT("FiveDead","AR6200",0)
+  Global("FinalFight","AR6200",7)
+THEN
+  RESPONSE #100
+    SetGlobal("FinalFight","AR6200",8)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("melcomes")
+END
+
+//////////////////////////////////////////////////////////////////////////
+/// See if all 5 are dead
+//////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("BalthazarFights","GLOBAL",0)
+  Global("IllaseraDead","AR6200",1)
+  Global("AbazigalDead","AR6200",1)
+  Global("YagaDead","AR6200",1)
+  Global("SendaiDead","AR6200",1)
+  Global("BalthDead","AR6200",1)
+  OR(2)
+     Global("SarevokDead","AR6200",1)
+     Global("SarevokFights","GLOBAL",0)
+  Global("allfive","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",1)
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("BalthazarFights","GLOBAL",1)
+  !DifficultyLT(NORMAL)
+  Global("IllaseraDead","AR6200",1)
+  Global("AbazigalDead","AR6200",1)
+  Global("YagaDead","AR6200",1)
+  Global("SendaiDead","AR6200",1)
+  OR(2)
+      Global("SarevokDead","AR6200",1)
+      Global("SarevokFights","GLOBAL",0)
+  Global("GromnirDead","AR6200",1)
+  Global("allfive","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",1)
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("BalthazarFights","GLOBAL",1)
+  DifficultyLT(NORMAL)
+  Global("IllaseraDead","AR6200",1)
+  Global("AbazigalDead","AR6200",1)
+  Global("YagaDead","AR6200",1)
+  Global("SendaiDead","AR6200",1)
+  OR(2)
+      Global("SarevokDead","AR6200",1)
+      Global("SarevokFights","GLOBAL",0)
+  Global("allfive","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",1)
+END
+
+//////////////////////////////////////////////////////////////////////////
+/// Trigger player self-banter to warn about Mel's immortality, if
+/// neither Balth nor Sarevok are available
+//////////////////////////////////////////////////////////////////////////
+
+IF
+  OR(2)
+     Global("SarevokFights","GLOBAL",1)
+     Dead("sarevok")  // ~Sarevok~
+  OR(2)
+     Dead("balth2")  // balth2
+     Global("BalthazarFights","GLOBAL",0)
+  Global("MelStillImmortal","AR6200",2)
+  Delay(6)
+THEN
+  RESPONSE #100
+    SetGlobal("MelStillImmortal","AR6200",3)
+    ActionOverride(Player1,StartDialogue("player1",Player1))
+END
+

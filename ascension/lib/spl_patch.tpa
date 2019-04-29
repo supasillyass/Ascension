@@ -1,0 +1,33 @@
+   DEFINE_PATCH_FUNCTION SPL_patch
+   INT_VAR spell_type=~-1~ primary=~-1~ secondary=~-1~ level=~-1~ casting_animation=~-1~ hostile=~-1~ no_los_required=~-1~ allow_spotting=~-1~ outdoors_only=~-1~ ignore_dead_wild_magic=~-1~ ignore_wild_surge=~-1~ non_combat=~-1~ can_target_invisible=~-1~ castable_when_silenced=~-1~ exclude_chaotic=~-1~ exclude_berserker=~-1~
+   BEGIN
+      PATCH_IF spell_type>=0 BEGIN WRITE_SHORT 0x1c spell_type END
+PATCH_IF primary>=0 BEGIN WRITE_BYTE 0x25 primary END
+PATCH_IF secondary>=0 BEGIN WRITE_BYTE 0x27 secondary END
+PATCH_IF level>=0 BEGIN WRITE_LONG 0x34 level END
+PATCH_IF casting_animation>=0 BEGIN WRITE_SHORT 0x22 casting_animation END
+ PATCH_IF hostile=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 4) END
+ PATCH_IF hostile=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 253) END
+ PATCH_IF no_los_required=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 8) END
+ PATCH_IF no_los_required=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 252) END
+ PATCH_IF allow_spotting=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 16) END
+ PATCH_IF allow_spotting=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 251) END
+ PATCH_IF outdoors_only=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 32) END
+ PATCH_IF outdoors_only=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 250) END
+ PATCH_IF ignore_dead_wild_magic=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 64) END
+ PATCH_IF ignore_dead_wild_magic=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 249) END
+ PATCH_IF ignore_wild_surge=1 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BOR 128) END
+ PATCH_IF ignore_wild_surge=0 BEGIN WRITE_BYTE 25 ((BYTE_AT 25) BAND 248) END
+ PATCH_IF non_combat=1 BEGIN WRITE_BYTE 26 ((BYTE_AT 26) BOR 1) END
+ PATCH_IF non_combat=0 BEGIN WRITE_BYTE 26 ((BYTE_AT 26) BAND 255) END
+ PATCH_IF can_target_invisible=1 BEGIN WRITE_BYTE 27 ((BYTE_AT 27) BOR 1) END
+ PATCH_IF can_target_invisible=0 BEGIN WRITE_BYTE 27 ((BYTE_AT 27) BAND 255) END
+ PATCH_IF castable_when_silenced=1 BEGIN WRITE_BYTE 27 ((BYTE_AT 27) BOR 2) END
+ PATCH_IF castable_when_silenced=0 BEGIN WRITE_BYTE 27 ((BYTE_AT 27) BAND 254) END
+ PATCH_IF exclude_chaotic=1 BEGIN WRITE_BYTE 30 ((BYTE_AT 30) BOR 1) END
+ PATCH_IF exclude_chaotic=0 BEGIN WRITE_BYTE 30 ((BYTE_AT 30) BAND 255) END
+ PATCH_IF exclude_berserker=1 BEGIN WRITE_BYTE 30 ((BYTE_AT 30) BOR 1) END
+ PATCH_IF exclude_berserker=0 BEGIN WRITE_BYTE 30 ((BYTE_AT 30) BAND 255) END
+
+   END
+   
