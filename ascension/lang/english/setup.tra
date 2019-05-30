@@ -6,6 +6,10 @@
 @101001 = ~You must have ToB installed or use Enhanced Edition to install the Ascension mod.~
 @101002 = ~Cannot install without Ascension main component.~
 @101003 = ~You must have BG2Fixpack installed or use Enhanced Edition to install this version of the Ascension mod.~
+@101004 = ~Ascension must be installed BEFORE Spell Revisions. Uninstall Spell Revisions, install Ascension, then reinstall Spell Revisions.~
+@101005 = ~Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems.~
+@101006 = ~Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of Prophecy, install Ascension, then reinstall Wheels of Prophecy.~
+
 
 @102000 = ~Tougher Throne of Bhaal battles~
 @102100 = ~Tougher Abazigal~

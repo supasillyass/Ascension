@@ -50,7 +50,9 @@ DEFINE_ACTION_FUNCTION abazigal_tamah BEGIN
   - immunity to Imprisonment, petrification, polymorph, death effects, INT drain, poison, Bigby's Hand spells, and Resilient Sphere
   - 'Sarevimm'
   - usual dragon immunities delivered via dragring
-  We just need to implement a few of these more consistently.
+  We just need to implement a few of these more consistently. 
+  
+  Also, Tamah doesn't get basic BG1 proficiencies (standard otherwise for dragons). I'm not 100% sure it matters but let's play it safe.
   */
 
   COPY "%abaz_loc%/abazdg02.cre" override
@@ -59,7 +61,10 @@ DEFINE_ACTION_FUNCTION abazigal_tamah BEGIN
      LPF polymorph_immunity END
      LPF death_immunity END
      LPF imprisonment_immunity END
-     LPF poison_immunity END
+     LPF poison_immunity END         
+     FOR (ind=0x6e;ind<0x76;ind+=1) BEGIN
+         WRITE_BYTE ind 5
+     END
 
   /* Weapon
   
@@ -68,7 +73,7 @@ DEFINE_ACTION_FUNCTION abazigal_tamah BEGIN
 
   Has a 50% chance of slowing target. We add icon and string.
 
-  Also fix off-by-one errors
+  Also fix off-by-one errors, and add the flag to use STR bonus (currently omitted)
   */
   
   COPY "%abaz_loc%/dragpur1.itm" override
@@ -78,7 +83,8 @@ DEFINE_ACTION_FUNCTION abazigal_tamah BEGIN
      LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=12 parameter1=0 parameter2=0 timing=4 dicenumber=1 dicesize=8 END // knockback damage
      LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=142 parameter2=41 END
      LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=139 parameter1=14668 END
-  
+     LPF ALTER_ITEM_HEADER INT_VAR flag_strength=1 END
+
   /* breath weapon
   
   50% chance of sleep for 2 rounds, with no saving throw
@@ -168,7 +174,7 @@ DEFINE_ACTION_FUNCTION abazigal_drakes BEGIN
        END
    BUT_ONLY
    
-   COPY "%abaz_loc%/drake01.baf" override
+   COPY "%abaz_loc%/drake01.baf" "override/drake01.bcs"
       COMPILE_BAF_TO_BCS
       
    COPY "%abaz_loc%/drake01.spl" override
@@ -635,6 +641,7 @@ harmless if they're installed in 'tougher Abazigal')
 
     COPY "%abaz_loc%/abaz01.spl" override
        SAY NAME1 @9
+       WRITE_SHORT 0x1c 4
        LPF DELETE_EFFECT INT_VAR match_opcode=264 END
        PATCH_IF enhanced_edition BEGIN
           LPF DELETE_EFFECT INT_VAR match_opcode=12 match_parameter2=4*0x10000 match_target=2 match_save_vs_spell=0 END
@@ -650,6 +657,7 @@ that way on EE.
 
     COPY "%abaz_loc%/abaz02.spl" override
        SAY NAME1 @10
+       WRITE_SHORT 0x1c 4
        PATCH_IF enhanced_edition BEGIN
           LPF DELETE_EFFECT INT_VAR match_opcode=17 END
           LPF ALTER_EFFECT INT_VAR match_opcode=12 match_parameter2=64*0x10000 drain_hp_to_caster=1 END

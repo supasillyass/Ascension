@@ -64,7 +64,7 @@ IF
   RandomNum(2,1)
   !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
   !StateCheck(Myself,STATE_INVISIBLE)
-  !CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_RESIST_FEAR)
+  !CheckStatGT(NearestEnemyOf(Myself),0,RESIST_FEAR)
   !GlobalTimerNotExpired("BalorFear","LOCALS")
   !GlobalTimerNotExpired("Running","LOCALS")
 THEN

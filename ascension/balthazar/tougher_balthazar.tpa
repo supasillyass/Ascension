@@ -39,6 +39,7 @@ DEFINE_ACTION_FUNCTION tougher_balthazar BEGIN
    // Balth himself
    
    COPY "%balth_loc%/baf/balthazar.baf" "override/balthft2.bcs"
+      LPF handle_awkward_ds END
       // remove redundant checks
       REPLACE_TEXTUALLY ~Global("balth_is_tougher","GLOBAL",1)~ ~~
       REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",0)~ ~~

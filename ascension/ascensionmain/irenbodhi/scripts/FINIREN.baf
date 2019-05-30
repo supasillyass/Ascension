@@ -1431,7 +1431,7 @@ IF
     !GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("TimeStop","LOCALS")
   HaveSpell(WIZARD_GREATER_MALISON)
-  !CheckStatGT(LastSeenBy(Myself),0,WIZARD_GREATER_MALISON)
+  !CheckStatGT(LastSeenBy(Myself),0,MALISON)
   !GlobalTimerNotExpired("Malison","LOCALS")
 THEN
   RESPONSE #50

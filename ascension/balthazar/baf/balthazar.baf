@@ -317,7 +317,7 @@ END
 IF
   !GlobalTimerNotExpired("Spell","LOCALS")
   HaveSpellRES("balth07")
-  CheckStat(ThirdNearestEnemyOf(Myself),0,WIZARD_GREATER_MALISON)
+  CheckStat(ThirdNearestEnemyOf(Myself),0,MALISON)
   See(ThirdNearestEnemyOf(Myself))
   False()
 THEN
@@ -328,7 +328,7 @@ END
 IF
   !GlobalTimerNotExpired("Spell","LOCALS")
   HaveSpellRES("balth07")
-  CheckStat(SecondNearestEnemyOf(Myself),0,WIZARD_GREATER_MALISON)
+  CheckStat(SecondNearestEnemyOf(Myself),0,MALISON)
   See(SecondNearestEnemyOf(Myself))
   False()
 THEN
@@ -339,7 +339,7 @@ END
 IF
   !GlobalTimerNotExpired("Spell","LOCALS")
   HaveSpellRES("balth07")
-  CheckStat(NearestEnemyOf(Myself),0,WIZARD_GREATER_MALISON)
+  CheckStat(NearestEnemyOf(Myself),0,MALISON)
   See(NearestEnemyOf(Myself))
   False()
 THEN
@@ -352,7 +352,7 @@ IF
   !GlobalTimerNotExpired("Spell","LOCALS")
   HaveSpellRES("balth07")
   Allegiance(LastSeenBy(Myself),EVILCUTOFF)
-  CheckStat(LastSeenBy(Myself),0,WIZARD_GREATER_MALISON)
+  CheckStat(LastSeenBy(Myself),0,MALISON)
   See(LastSeenBy(Myself))
 THEN
   RESPONSE #100
@@ -367,7 +367,7 @@ IF
   !GlobalTimerNotExpired("Spell","LOCALS")
   HaveSpellRES("balth07")
   Allegiance(LastSeenBy(Myself),GOODCUTOFF)
-  CheckStat(LastSeenBy(Myself),0,WIZARD_GREATER_MALISON)
+  CheckStat(LastSeenBy(Myself),0,MALISON)
   See(LastSeenBy(Myself))
 THEN
   RESPONSE #100

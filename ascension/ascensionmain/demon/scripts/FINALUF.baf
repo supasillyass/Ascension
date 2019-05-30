@@ -267,7 +267,7 @@ IF
   CheckStatGT(SixthNearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(SixthNearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(SixthNearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(SixthNearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(SixthNearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(SixthNearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(SixthNearestEnemyOf(Myself))
 THEN
@@ -282,7 +282,7 @@ IF
   CheckStatGT(FifthNearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(FifthNearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(FifthNearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(FifthNearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(FifthNearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(FifthNearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(FifthNearestEnemyOf(Myself))
 THEN
@@ -297,7 +297,7 @@ IF
   CheckStatGT(FourthNearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(FourthNearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(FourthNearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(FourthNearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(FourthNearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(FourthNearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(FourthNearestEnemyOf(Myself))
 THEN
@@ -312,7 +312,7 @@ IF
   CheckStatGT(ThirdNearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(ThirdNearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(ThirdNearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(ThirdNearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(ThirdNearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(ThirdNearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(ThirdNearestEnemyOf(Myself))
 THEN
@@ -327,7 +327,7 @@ IF
   CheckStatGT(SecondNearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(SecondNearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(SecondNearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(SecondNearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(SecondNearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(SecondNearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(SecondNearestEnemyOf(Myself))
 THEN
@@ -342,7 +342,7 @@ IF
   CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_SPELL_TURNING)
   CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_SPELL_DEFLECTION)
   CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_SPELL_IMMUNITY)
-  CheckStatGT(NearestEnemyOf(Myself),0,WIZARD_SPELL_SHIELD)
+  CheckStatGT(NearestEnemyOf(Myself),0,SPELL_SHIELD)
   CheckStatGT(NearestEnemyOf(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
   See(NearestEnemyOf(Myself))
 THEN

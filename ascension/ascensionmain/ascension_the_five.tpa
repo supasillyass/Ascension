@@ -65,6 +65,7 @@ DEFINE_ACTION_FUNCTION ascension_the_five BEGIN
      BUT_ONLY
 
      COPY "%MOD_FOLDER%/balthazar/baf/balthazar.baf" "override/finbalth.bcs"
+      LPF handle_awkward_ds END
       // remove redundant checks
       REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",0)~ ~~
       REPLACE_TEXTUALLY ~Global("balth_is_tougher","GLOBAL",0)~ ~~
@@ -233,7 +234,8 @@ BEGIN
    /////////////////////////////
 
    ACTION_IF "%bhaalspawn_final%" STRING_COMPARE_CASE finbalth BEGIN
-      COMPILE "%MOD_FOLDER%/ascensionmain/thefive/scripts/%bhaalspawn_final%.baf"
+      COPY "%MOD_FOLDER%/ascensionmain/thefive/scripts/%bhaalspawn_final%.baf" "override/%bhaalspawn_final%.bcs"
+          LPF handle_awkward_ds END
    END
 
 

@@ -41,6 +41,56 @@
         APPEND ~spell.ids~  ~2705 WIZARD_KHELBENS_WARDING_WHIP~ UNLESS ~WIZARD_KHELBENS_WARDING_WHIP~
 
 
+        // install ToBEx on appropriate systems (for better DS management and to turn off difficulty-based damage scaling)
+        
+        ACTION_IF !enhanced_edition BEGIN
+            LAF check_ini STR_VAR ini=skip_tobex RET value END
+            ACTION_IF ( value || !(FILE_EXISTS "bgmain.exe") ) BEGIN
+               OUTER_SET tobex_present=0
+            END ELSE BEGIN
+               OUTER_SET tobex_present=1 
+               ACTION_IF !FILE_EXISTS "tobex_ini/tobextweak.ini" BEGIN // if ToBex isn't present already, install it
+                 OUTER_SPRINT ~TOBEX_MOD_DIRECTORY~ ~%MOD_FOLDER%~
+                 LOAD_TRA ~%MOD_FOLDER%/tobex_redist/tobex.tra~
+                 INCLUDE ~%MOD_FOLDER%/tobex_redist/tobex.tpa~
+                 SILENT
+               END
+            END
+        END
+
+        // disable difficulty-based damage scaling (code borrowed from SCS)
+
+        // This is easy on EE (just edit the ini to trigger already-present functionality), trickier on Windows non-EE (it needs
+        // ToBEX) and impossible on non-Windows version of vanilla BG2
+
+        LAF check_ini STR_VAR ini="enable_difficulty_based_damage_changes" RET value END
+        ACTION_IF !value BEGIN
+            ACTION_IF enhanced_edition BEGIN
+                 ACTION_IF FILE_EXISTS "%USER_DIRECTORY%/baldur.lua" BEGIN
+                       COPY "%USER_DIRECTORY%/baldur.lua" "%USER_DIRECTORY%"
+                            REPLACE_TEXTUALLY ~SetPrivateProfileString('Game Options','Suppress Extra Difficulty Damage','0')~ ~SetPrivateProfileString('Game Options','Suppress Extra Difficulty Damage','1')~
+                       BUT_ONLY
+                 END
+            END ELSE BEGIN
+                ACTION_IF tobex_present BEGIN // are we on ToBEx? If not, do nothing
+                        // adjust to switch off difficulty
+      <<<<<<<< .../ascension-inline/diffmod.2da
+2DA V1.0
+0
+	DAMAGE_MOD	LUCK_MOD
+EASIEST	0               0
+EASY	0               0
+NORMAL	0	        0
+HARD	0	        0
+HARDEST	0	        0
+      >>>>>>>>
+                    COPY ".../ascension-inline/diffmod.2da" override
+               END
+           END
+      END
+
+
+
         // mark this version of Ascension as having working DS (some versions of DS try to fix Ascension)
 
         ACTION_IF !FILE_EXISTS_IN_GAME ~dw#fixasc~ BEGIN

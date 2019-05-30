@@ -446,7 +446,9 @@ BUT_ONLY
 /// Scripting
 /////////////////////////////
 
-    COMPILE "%mel_loc%/scripts/finmel.baf"
+    COPY "%mel_loc%/scripts/finmel.baf" "override/finmel.bcs"
+       LPF handle_awkward_ds END
+       COMPILE_BAF_TO_BCS
     COMPILE "%mel_loc%/scripts/melrat.baf"
 
 END

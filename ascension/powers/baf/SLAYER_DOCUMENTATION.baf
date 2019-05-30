@@ -1,34 +1,41 @@
 IF
-  GlobalGT("FINSPROG","GLOBAL",0)
   GlobalLT("FINSPROG","GLOBAL",2)
   !XPLT(Player1,%threshold_1%)
   XPLT(Player1,%threshold_2%)
+  HaveSpellParty(SLAYER_START)
 THEN
     RESPONSE #100
          ApplySpellRES("finslgr",Player1)
+         SetGlobal("FINSPROG","GLOBAL",2)
          DisplayStringHead(Player1,@1048)
          Continue()
 END
 
 IF
-  GlobalGT("FINSPROG","GLOBAL",0)
   GlobalLT("FINSPROG","GLOBAL",3)
   !XPLT(Player1,%threshold_2%)
   XPLT(Player1,%threshold_3%)
+  OR(2)
+      HaveSpellParty(SLAYER_START)
+      GlobalGT("FINGRANT","GLOBAL",0)
 THEN
     RESPONSE #100
          ApplySpellRES("finslgr",Player1)
+         SetGlobal("FINSPROG","GLOBAL",3)
          DisplayStringHead(Player1,@1048)
          Continue()
 END
 
 IF
-  GlobalGT("FINSPROG","GLOBAL",0)
   GlobalLT("FINSPROG","GLOBAL",4)
   !XPLT(Player1,%threshold_3%)
+  OR(2)
+      HaveSpellParty(SLAYER_START)
+      GlobalGT("FINGRANT","GLOBAL",0)
 THEN
     RESPONSE #100
          ApplySpellRES("finslgr",Player1)
+         SetGlobal("FINSPROG","GLOBAL",4)
          DisplayStringHead(Player1,@1048)
          Continue()
 END

@@ -68,9 +68,28 @@ LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
 
 BEGIN test DESIGNATED 99
 
-INCLUDE "ascension/lib/testing_suite.tpa"
-LAF testing_suite END
+COPY_EXISTING
+    "cutspy.cre" "override/finspy.cre"
+    "cutspy.cre" "override/finspy2.cre"
+  WRITE_ASCII SCRIPT_OVERRIDE finspy (8)
+  WRITE_ASCII DEATHVAR "%DEST_RES%" (0x20)
 
+<<<<<<<<
+IF
+  GlobalGT("finalfight","MYAREA",6)
+THEN
+    RESPONSE #100
+             DestroySelf()
+END
+>>>>>>>>
+
+ACTION_FOR_EACH script IN finmel3a finmel3b finmel3c BEGIN
+   COPY_EXISTING "%script%.bcs" override
+       DECOMPILE_BCS_TO_BAF
+          REPLACE_TEXTUALLY cutspy finspy
+       COMPILE_BAF_TO_BCS
+   BUT_ONLY
+END
 
 
 //////////////////////////////////////////////////////////////////////
@@ -87,7 +106,10 @@ LAF testing_suite END
 BEGIN @104001 DESIGNATED 0 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
-     //   WARN "this component has not passed its playtest yet"
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 	INCLUDE ~ascension/ascensionmain/ascension_main.tpa~
         LAF ascension_main END
 
@@ -98,6 +120,10 @@ BEGIN @104001 DESIGNATED 0 GROUP @101000
 BEGIN @104009 DESIGNATED 10 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE ~ascension/balthazar/redeemable_balthazar.tpa~
         LAF redeemable_balthazar END
@@ -109,6 +135,10 @@ BEGIN @104009 DESIGNATED 10 GROUP @101000
 BEGIN @104002 DESIGNATED 20 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE ~ascension/npc/sarevok_npc.tpa~
         LAF sarevok_npc END
@@ -120,6 +150,10 @@ BEGIN @104002 DESIGNATED 20 GROUP @101000
 BEGIN @104003 DESIGNATED 30 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE ~ascension/npc/imoen_npc.tpa~
         LAF imoen_npc END
@@ -131,6 +165,10 @@ BEGIN @104003 DESIGNATED 30 GROUP @101000
 BEGIN @104000 DESIGNATED 40 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
 	INCLUDE ~ascension/powers/bhaalspawn_powers.tpa~
 	LAF bhaalspawn_powers END
@@ -142,6 +180,10 @@ BEGIN @104000 DESIGNATED 40 GROUP @101000
 BEGIN @104010 DESIGNATED 50 GROUP @101000
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
 	INCLUDE ~ascension/powers/improved_slayer_powers.tpa~
         LAF slayer_powers_main END
@@ -155,6 +197,10 @@ BEGIN @104010 DESIGNATED 50 GROUP @101000
 BEGIN @104005 DESIGNATED 60 GROUP @101000 SUBCOMPONENT @104004
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/npc/epilogues.tpa"
         LAF epilogues END
@@ -180,6 +226,10 @@ BEGIN @104006 DESIGNATED 61 GROUP @101000 SUBCOMPONENT @104004
 BEGIN @102100 DESIGNATED 1000 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/tougher/abazigal.tpa"
         LAF tougher_abazigal END
@@ -191,6 +241,10 @@ BEGIN @102100 DESIGNATED 1000 GROUP @102000
 BEGIN @102600 DESIGNATED 1100 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/balthazar/tougher_balthazar.tpa"
         LAF tougher_balthazar END
@@ -202,6 +256,10 @@ BEGIN @102600 DESIGNATED 1100 GROUP @102000
 BEGIN @102200 DESIGNATED 1200 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/tougher/demogorgon.tpa"
         LAF tougher_demogorgon END
@@ -213,6 +271,10 @@ BEGIN @102200 DESIGNATED 1200 GROUP @102000
 BEGIN @102300 DESIGNATED 1300 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/tougher/gromnir.tpa"
         LAF tougher_gromnir END
@@ -224,6 +286,10 @@ BEGIN @102300 DESIGNATED 1300 GROUP @102000
 BEGIN @102400 DESIGNATED 1400 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/tougher/illasera.tpa"
         LAF tougher_illasera END
@@ -235,6 +301,10 @@ BEGIN @102400 DESIGNATED 1400 GROUP @102000
 BEGIN @102500 DESIGNATED 1500 GROUP @102000
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
 
         INCLUDE "ascension/tougher/yagashura.tpa"
         LAF tougher_yagashura END
@@ -250,6 +320,11 @@ BEGIN @102500 DESIGNATED 1500 GROUP @102000
 /////////////////////////////////
 
 BEGIN @103010 DESIGNATED 2000 GROUP @103000
+	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
 
         LAF portrait_npc STR_VAR source=abodhi source_path="%MOD_FOLDER%/ascport/altbodhi" destination=nbodhi END
 
@@ -258,6 +333,11 @@ BEGIN @103010 DESIGNATED 2000 GROUP @103000
 ///////////////////////////////////////////
 
 BEGIN @103020 DESIGNATED 2100 GROUP @103000
+	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
 
         LAF portrait_npc STR_VAR source=cbaltha source_path="%MOD_FOLDER%/ascport/cuvbalth" destination=balthaz END
 
@@ -266,6 +346,12 @@ BEGIN @103020 DESIGNATED 2100 GROUP @103000
 ///////////////////////////////////////////
 
 BEGIN @105200 DESIGNATED 2200 GROUP @103000
+	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
       	
       	INCLUDE "ascension/npc/shawne_ee.tpa"
@@ -276,6 +362,12 @@ BEGIN @105200 DESIGNATED 2200 GROUP @103000
 ///////////////////////////////////////////
 
 BEGIN @105210 DESIGNATED 2300 GROUP @103000
+	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
 
       	ACTION_FOR_EACH portrait IN gromnirs abazhals abazfuls BEGIN
@@ -287,6 +379,12 @@ BEGIN @105210 DESIGNATED 2300 GROUP @103000
 ///////////////////////////////////////////
 
 BEGIN @105230 DESIGNATED 2400 GROUP @103000
+	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
+	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
+        FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
+        FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
+        FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
 
         INCLUDE "%MOD_FOLDER%/cutscenes/dw_cutscenes.tpa"

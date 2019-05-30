@@ -1,6 +1,9 @@
 //////////////////////////////////////////
 /// A few bespoke bits of detection for 
 /// Ascension
+///
+/// (none use core 'detectable spells'
+/// functionality)
 //////////////////////////////////////////
 
 DEFINE_ACTION_FUNCTION ds_extra BEGIN

@@ -28,7 +28,9 @@ COPY "%demon_loc%/finaluf.cre" override
    LPF CRE_patch INT_VAR resist_magic_damage=25 END
 // BUT_ONLY
 
-COMPILE "%demon_loc%/scripts/finaluf.baf"
+COPY "%demon_loc%/scripts/finaluf.baf" "override/finaluf.bcs"
+   LPF handle_awkward_ds END
+   COMPILE_BAF_TO_BCS
 
 ///////////////////
 // Babau
@@ -61,7 +63,9 @@ COPY "%demon_loc%/finbabau.itm" override
 // BUT_ONLY
 END
 
-COMPILE "%demon_loc%/scripts/finbabau.baf"
+COPY "%demon_loc%/scripts/finbabau.baf" "override/finbabau.bcs"
+   LPF handle_awkward_ds END
+   COMPILE_BAF_TO_BCS
 
 ////////////////
 // Balor
@@ -128,8 +132,9 @@ COPY_EXISTING "%CLERIC_AURA_OF_FLAMING_DEATH%d.spl" "override/balaura.spl"
     LPF ALTER_EFFECT INT_VAR power=0 dicenumber=4 dicesize=6 END
 // BUT_ONLY
 
-COMPILE "%demon_loc%/scripts/finbalor.baf"
-
+COPY "%demon_loc%/scripts/finbalor.baf" "override/finbalor.bcs"
+   LPF handle_awkward_ds END
+   COMPILE_BAF_TO_BCS
 
 ////////////////
 // Cambion

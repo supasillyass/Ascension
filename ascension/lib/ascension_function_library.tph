@@ -643,5 +643,32 @@ BEGIN
     COPY ~%source_path%/%source%_170.bmp~ ~override/%destination%m.bmp~
     COPY ~%source_path%/%source%_60.bmp~  ~override/%destination%s.bmp~ 
   END	    
-    
+
 END  // end function define
+
+/////////////////////////////////////////////////////
+// Handle awkward DS states
+//
+// Stats 176-182 are used in old versions of DS, but
+// shouldn't be, as they fight with hardcoded stat effects.
+// When these appear in Ascension (as they do for RESIST_FEAR,
+// MALISON, and SPELL_SHIELD) we want to swap to a ToBEx extended
+// stat or an EE SPLSTATE. The latter requires a scripting substitution
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION handle_awkward_ds BEGIN
+  PATCH_IF enhanced_edition BEGIN
+   REPLACE_TEXTUALLY 
+   "CheckStatGT(\([^,]*\),0,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "CheckStat(\([^,]*\),1,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "CheckStat(\([^,]*\),0,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "!CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "!!"
+   ""
+  END
+END

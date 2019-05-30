@@ -20,6 +20,7 @@ DEFINE_ACTION_FUNCTION redeemable_balthazar BEGIN
    // scripting 
 
    COPY "%balth_loc%/baf/balthazar.baf" "override/balth2.bcs"
+      LPF handle_awkward_ds END
       // remove redundant checks
       REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",1)~ ~~
       // remove difficulty settings (they are for Ascension only)

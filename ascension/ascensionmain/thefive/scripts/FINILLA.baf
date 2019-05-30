@@ -200,7 +200,7 @@ END
 IF
   OR(2)
     CheckStatLT(Myself,50,RESISTMAGIC)
-    CheckStatGT(Myself,0,WIZARD_GREATER_MALISON)
+    CheckStatGT(Myself,0,MALISON)
 THEN
   RESPONSE #100
     SetGlobal("BecomeEthereal","LOCALS",1)
@@ -808,7 +808,7 @@ IF
     CheckStatGT(LastSeenBy(Myself),0,MINORGLOBE)
     CheckStatGT(LastSeenBy(Myself),0,WIZARD_SPELL_DEFLECTION)
     CheckStatGT(LastSeenBy(Myself),0,CLERIC_SHIELD_OF_THE_ARCHONS)
-    CheckStatGT(LastSeenBy(Myself),0,WIZARD_SPELL_SHIELD)
+    CheckStatGT(LastSeenBy(Myself),0,SPELL_SHIELD)
     CheckStatGT(LastSeenBy(Myself),0,WIZARD_SPELL_IMMUNITY)
     CheckStatGT(LastSeenBy(Myself),0,PROTECTION_FROM_EVIL)
     CheckStatGT(LastSeenBy(Myself),0,SCRIPTINGSTATE5)

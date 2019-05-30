@@ -136,7 +136,7 @@ This component entirely replaces Chapter 10 of Throne of Bhaal, substantially af
 <p>This component ensures that the key interactions with Imoen, likewise, actually happen; they trigger (if not before) on resting after: (i) you start Throne of Bhaal; (ii) Yaga-Shura is defeated; (iii) Balthazar is first encountered.</p>
 <p><strong>Restored Bhaalspawn Powers</strong></p>  
 <p>Throne of Bhaal contains unimplemented content granting the player some new Bhaalspawn powers; this component restores them. Powers are awarded after each of the Pocket Plane challenges (except the fourth), with a good or evil flavor according to the attitude you express in your conversations with the Solar.</p>
-<p>This implementation also has code by DavidW restoring your <b>original</b> Bhaalspawn powers (since it doesn't make much sense that you gain new powers but never get those back even once your soul is restored. If you don't want this, see under <a href="#customisation">customisation</a> for how to turn it off.</p>
+<p>(This implementation originally had code by DavidW restoring your <b>original</b> Bhaalspawn powers (since it doesn't make much sense that you gain new powers but never get those back even once your soul is restored. I've deprecated this because it duplicates functionality present in other mods (notably Unfinished Businiess), but if you want it anyway, see under <a href="#customisation">customisation</a> for how to turn it on.)</p>
 <p>Detailed information on the powers can be found <a href="ascension-additional.html#bhaalspawn_powers">here</a>; they are also documented in-game, by right-clicking on the power in Enhanced Edition, or as a journal entry in original BG2.</p>
 <p><strong>Improved Slayer Transformation</strong></p>
 <div class="spell_description">
@@ -274,7 +274,7 @@ As of version 2.0, Ascension permits a significant amount of "fine tuning" over 
 
 <p>These affect the various powers acquired by the player (except the Slayer form).</p>
 <ul>
-<li>no_restored_bg1_powers (0) - set this to 1 if you don't want the original Bhaalspawn powers (taken from you in Spellhold) to be regained at the start of Throne of Bhaal.</li>
+<li>no_restored_bg1_powers (1) - set this to 0 if you want the original Bhaalspawn powers (taken from you in Spellhold) to be regained at the start of Throne of Bhaal (and haven't already installed a component of another mod that does it).</li>
 <li>demon_control_battle_duration (3) - this determines the length, in seconds, of the mental battle that the player fights with demons in the final chapter. In original Ascension it's 6 seconds, with a 50% chance of success, but removing the player from play for a full round in exchange for a 50% chance of controlling a demon seems underpowered (and much weaker than Melissan's comparable ability). So I've tweaked the default values to make it a bit more effective, matching Melissan's.</li>
 <li>demon_control_success_probability (75) - this is the percentage probability of the player's demon control power works. (The original Ascension default, as noted above, is 50%.) </li>
 <li>unleash_dice_number (20) - this is the number of d12 rolled to determine the damage of the player's 'unleash' power, with a save for half. In original Ascension it's 10d12, but I think that's underpowered for this ability (especially given its disadvantages) so I've tweaked it up by default.</li>

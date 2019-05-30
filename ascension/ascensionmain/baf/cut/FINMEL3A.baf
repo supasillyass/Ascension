@@ -13,8 +13,9 @@ THEN
     CreateCreature("FINYAGA",[979.961],14)  // FINYAGA
     CreateCreature("FINSEND",[820.1021],12)  // FINSEND
     Wait(2)
-    ActionOverride("cutspy",DestroySelf())
     MoveViewPoint([1666.979],10)
+    ActionOverride("cutspy",DestroySelf())
+    SmallWait(1)
     CreateCreature("cutspy",[1666.979],0)
     Wait(1)
     CreateVisualEffect("SPPORTAL",[1566.961])
@@ -30,8 +31,9 @@ THEN
     SetGlobal("TheFiveAreHere","AR6200",1)
     Wait(2)
     MoveViewObject("FINMEL01",10)
-    ActionOverride("cutspy",DestroySelf())
     Wait(1)
+    ActionOverride("cutspy",DestroySelf())
+    SmallWait(1)
     ActionOverride("finmel01",StartDialogNoSet(Player1))
 END
 

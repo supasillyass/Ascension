@@ -164,8 +164,11 @@ COPY "%iren_bodhi_loc%/finirat.cre" override
    /// Scripting
    //////////////////////////////////////
 
-   ACTION_FOR_EACH script IN finbodh finbodhi finirat finiren imoslay2 BEGIN
+   ACTION_FOR_EACH script IN finbodh finbodhi finirat imoslay2 BEGIN
       COMPILE "%iren_bodhi_loc%/scripts/%script%.baf"
    END
+   COPY "%iren_bodhi_loc%/scripts/finiren.baf" "override/finiren.bcs"
+      LPF handle_awkward_ds END
+      COMPILE_BAF_TO_BCS
 
 END

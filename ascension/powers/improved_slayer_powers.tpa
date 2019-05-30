@@ -529,21 +529,18 @@ DEFINE_ACTION_FUNCTION slayer_upgrade_documentation BEGIN
    LAF create_basic_spell STR_VAR spell=finslg1 END
    COPY_EXISTING finslg1.spl override
        LPF ADD_SPELL_EFFECT INT_VAR opcode=171 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END
-       LPF ADD_SPELL_EFFECT INT_VAR opcode=265 target=2 timing=1 parameter1=1 STR_VAR resource=FINSPROG END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=265 target=2 timing=1 parameter1=1 STR_VAR resource=FINGRANT END
    BUT_ONLY
    COPY_EXISTING finslg1.spl "override/finslg2.spl"
        LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls2 END
-       LPF ALTER_EFFECT INT_VAR match_opcode=265 parameter1=2 END
        LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END // remove power 1
    BUT_ONLY
    COPY_EXISTING finslg2.spl "override/finslg3.spl"
        LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls3 END
-       LPF ALTER_EFFECT INT_VAR match_opcode=265 parameter1=3 END
        LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="finsls2" END // remove power 2
    BUT_ONLY
    COPY_EXISTING finslg3.spl "override/finslg4.spl"
        LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls4 END
-       LPF ALTER_EFFECT INT_VAR match_opcode=265 parameter1=4 END
        LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="finsls3" END // remove power 3
    BUT_ONLY
    // get an 'XP <' splprot entry
