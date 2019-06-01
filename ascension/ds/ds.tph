@@ -105,6 +105,7 @@ WIZARD_PROTECTION_FROM_ENERGY           WIZARD_PROTECTION_FROM_ENERGY
 WIZARD_IMPROVED_ALUCRITY                WIZARD_IMPROVED_ALACRITY
 SPWISH17                                WIZARD_IMPROVED_ALACRITY
 WIZARD_GLITTERDUST                      CANNOT_TURN_INVISIBLE
+WIZARD_SHIELD                           WIZARD_SHIELD
 >>>>>>>>
 
 
@@ -419,6 +420,8 @@ END
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// The core function
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 DEFINE_ACTION_FUNCTION ds_make_detectable
@@ -440,18 +443,26 @@ BEGIN
    ACTION_IF !"%resource%" STRING_CONTAINS_REGEXP  "\." BEGIN // it's a full resource
       OUTER_SPRINT filespec "%resource%"
    END ELSE BEGIN
+   // check for a suffix
+      OUTER_SPRINT suffix ""
+      OUTER_INNER_PATCH_SAVE resource "%resource%" BEGIN
+         REPLACE_EVALUATE "^\(.*\):\(.*\)$" BEGIN
+          SPRINT suffix "%MATCH2%"
+         END
+         "%MATCH1%"
+      END
       OUTER_SET spell_num=IDS_OF_SYMBOL (spell "%resource%")
       ACTION_IF spell_num>=0 BEGIN
          LAF RES_NAME_OF_SPELL_NUM INT_VAR spell_num RET spell_res END
-         ACTION_IF FILE_EXISTS_IN_GAME "%spell_res%.spl" BEGIN
-             OUTER_SPRINT filespec "%spell_res%.spl"
+         ACTION_IF FILE_EXISTS_IN_GAME "%spell_res%%suffix%.spl" BEGIN
+             OUTER_SPRINT filespec "%spell_res%%suffix%.spl"
          END
       END ELSE BEGIN
-         ACTION_IF FILE_EXISTS_IN_GAME "%resource%.spl" BEGIN
-            OUTER_SPRINT filespec "%resource%.spl"
+         ACTION_IF FILE_EXISTS_IN_GAME "%resource%%suffix%.spl" BEGIN
+            OUTER_SPRINT filespec "%resource%%suffix%.spl"
          END ELSE
-         ACTION_IF FILE_EXISTS_IN_GAME "%resource%.itm" BEGIN
-            OUTER_SPRINT filespec "%resource%.itm"
+         ACTION_IF FILE_EXISTS_IN_GAME "%resource%%suffix%.itm" BEGIN
+            OUTER_SPRINT filespec "%resource%%suffix%.itm"
          END
       END
    END
@@ -461,13 +472,13 @@ BEGIN
       LAF ds_resolve_stat STR_VAR id RET stat_param stat_opcode END
    // patch
       COPY_EXISTING "%filespec%" override
-           LPF DELETE_EFFECT INT_VAR match_opcode=stat_opcode match_parameter2=stat_param END // clear out any previous version
-           LPF CLONE_EFFECT INT_VAR silent=!complain multi_match=1 match_opcode match_parameter2 opcode=stat_opcode duration timing parameter1=stat_value parameter2=stat_param special=(opcode=328) STR_VAR match_resource END
+              LPF DELETE_EFFECT INT_VAR match_opcode=stat_opcode match_parameter2=stat_param END // clear out any previous version
+              LPF CLONE_EFFECT INT_VAR silent=!complain multi_match=1 match_opcode match_parameter2 opcode=stat_opcode duration timing parameter1=stat_value parameter2=stat_param special=(opcode=328) STR_VAR match_resource END
       BUT_ONLY
 
    END ELSE BEGIN
           ACTION_IF complain BEGIN
-            WARN "DS tried to add detectable data to %resource%, but there is no such resource"
+            WARN "DS tried to add detectable data to %resource%%suffix%, but there is no such resource"
           END
    END
 END
@@ -491,7 +502,7 @@ DEFINE_ACTION_FUNCTION ds_add_entry
   STR_VAR id="" file=""
   RET stat_ind
 BEGIN
- ACTION_CLEAR_ARRAY ds_add_entry_array
+ ACTION_CLEAR_ARRAY ds_2da_array
  COPY_EXISTING "%file%.ids" override
   READ_2DA_ENTRIES_NOW ds_2da_array 2
   FOR (i=0;i<ds_2da_array;i+=1) BEGIN
@@ -622,11 +633,17 @@ WIZARD_KHELBENS_WARDING_WHIP => 132
 CLERIC_DEFENSIVE_HARMONY => 133
 EXTRAPROFICIENCY20 => 134
 SCRIPTINGSTATE1 => 156
+WING_BUFFET => 156
 SCRIPTINGSTATE2 => 157
+DEATH_WARD => 157
 SCRIPTINGSTATE3 => 158
+LEVEL_DRAIN_IMMUNITY =>158
 SCRIPTINGSTATE4 => 159
+OFFENSIVE_MODIFIER => 159
 SCRIPTINGSTATE5 => 160
+DEFENSIVE_MODIFIER =>  160
 SCRIPTINGSTATE6 => 161
+STRENGTH_MODIFIER => 161
 WIZARD_SPELL_IMMUNITY => 162
 WIZARD_PROTECTION_FROM_ENERGY => 163
 WIZARD_SPELL_TRAP => 164
@@ -793,7 +810,7 @@ END
 
 
 //////////////////////////////////////////////////////////////////////////////////////
-//  Legacy code (from Ardanis DS v3)                                     //////////////
+//  Legacy code (adapted from Ardanis DS v3)                                     //////////////
 //////////////////////////////////////////////////////////////////////////////////////
 
 // Warding Whip can be broken by older versions of DS. Check it up.
@@ -818,6 +835,7 @@ COPY_EXISTING ~spwi705.spl~ override
     READ_SHORT ab_off+i*0x28+0x1e ef_num
     total+=ef_num
   END
+  total+=SHORT_AT 0x70
   PATCH_IF SOURCE_SIZE != ef_off+total*0x30 BEGIN
     repair=1
     PATCH_PRINT ~Detectable Spells: SPWI705.SPL is broken, attempting to repair the file~
@@ -907,19 +925,23 @@ BUT_ONLY
 
 ACTION_IF fubar BEGIN
   COPY_EXISTING ~spwi705.spl~ override
-    DELETE_BYTES 0x72 (SOURCE_SIZE - 0x72)
-    WRITE_LONG 0x64 0x72
-    WRITE_LONG 0x6a 0x72
-    WRITE_SHORT 0x68 0
-    WRITE_SHORT 0x6e 0
-    WRITE_SHORT 0x70 0
-    
-  COPY_EXISTING ~spwi705.spl~ override
-    LPF ~ADD_SPELL_HEADER~
-      INT_VAR type=2 location=2 target=1 range=20 required_level=1 speed=7 projectile=211
-      STR_VAR icon=~SPWI705B~
-    END
-
+    READ_ASCII 0x0 data (0x64)
+  BUT_ONLY
+  
+  CREATE SPL "spwi705"
+    WRITE_ASCIIE 0x0 "%data%"
+    WRITE_SHORT 0x68 1
+    WRITE_LONG 0x6a 0x9a
+    INSERT_BYTES 0x72 0x28
+    WRITE_SHORT 0x72 2
+    WRITE_SHORT (0x72+2) 2
+    WRITE_ASCII (0x72+4) "SPWI705B"
+    WRITE_BYTE (0x72 + 0xc) 1
+    WRITE_SHORT (0x72 + 0x10) 1
+    WRITE_SHORT (0x72 + 0x12) 7
+    WRITE_SHORT (0x72 + 0x22) 1
+    WRITE_SHORT (0x72 + 0x24) 1
+    WRITE_SHORT (0x72 + 0x26) 221
     LPF ~ADD_SPELL_EFFECT~ INT_VAR opcode=230 parameter1=8 parameter2=1 timing=1 duration=0 target=2 power=7 resist_dispel=2 END
     LPF ~ADD_SPELL_EFFECT~ INT_VAR opcode=215 parameter1=0 parameter2=1 timing=0 duration=3 target=2 power=7 resist_dispel=2
                            STR_VAR resource=~spattck1~ END
@@ -937,6 +959,7 @@ ACTION_IF fubar BEGIN
                            STR_VAR resource=~spattck1~ END
     LPF ~ADD_SPELL_EFFECT~ INT_VAR opcode=139 parameter1=40690 parameter2=0 timing=4 duration=13 target=2 power=7 resist_dispel=2 END
     LPF ~ADD_SPELL_EFFECT~ INT_VAR opcode=240 parameter1=0 parameter2=28 timing=4 duration=13 target=2 power=7 resist_dispel=2 END
+
 
 END
 

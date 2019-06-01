@@ -65,31 +65,9 @@ LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
 
 // test component
 
+// BEGIN test DESIGNATED 99
 
-BEGIN test DESIGNATED 99
 
-COPY_EXISTING
-    "cutspy.cre" "override/finspy.cre"
-    "cutspy.cre" "override/finspy2.cre"
-  WRITE_ASCII SCRIPT_OVERRIDE finspy (8)
-  WRITE_ASCII DEATHVAR "%DEST_RES%" (0x20)
-
-<<<<<<<<
-IF
-  GlobalGT("finalfight","MYAREA",6)
-THEN
-    RESPONSE #100
-             DestroySelf()
-END
->>>>>>>>
-
-ACTION_FOR_EACH script IN finmel3a finmel3b finmel3c BEGIN
-   COPY_EXISTING "%script%.bcs" override
-       DECOMPILE_BCS_TO_BAF
-          REPLACE_TEXTUALLY cutspy finspy
-       COMPILE_BAF_TO_BCS
-   BUT_ONLY
-END
 
 
 //////////////////////////////////////////////////////////////////////

@@ -72,7 +72,7 @@ DEFINE_ACTION_FUNCTION ascension_imoen_powers BEGIN
    ///////////////////////////////////////////////////////
 
    COPY_EXISTING "%SLAYER_BACK_TO_HUMAN%.spl" "override/imoslay2.spl"
-        LPF ALTER_EFFECT INT_VAR match_opcode=321 STR_VAR resource=imoslay1 END // on EE, this makes it remove the effect (on non-EE we're covered by the sectype move anyway)
+        LPF ALTER_EFFECT INT_VAR silent=1 match_opcode=321 STR_VAR resource=imoslay1 END // on EE, this makes it remove the effect (on non-EE we're covered by the sectype move anyway)
    BUT_ONLY
 
    ///////////////////////////////////////////////
