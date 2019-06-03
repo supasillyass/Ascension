@@ -114,6 +114,7 @@ COPY_EXISTING vamp3.itm "override/finbodbt.itm"
 COPY "%iren_bodhi_loc%/spinkrva.spl" override
      WRITE_LONG NAME1 11826
      WRITE_LONG UNIDENTIFIED_DESC 100387
+     LPF DELETE_EFFECT INT_VAR match_opcode=135 END // remove polymorph effect
      LPF ADD_SPELL_EFFECT INT_VAR opcode=112 target=1 STR_VAR resource=finbodbt END
      LPF ADD_SPELL_EFFECT INT_VAR opcode=112 target=1 STR_VAR resource=finbodgf END
 // BUT_ONLY
