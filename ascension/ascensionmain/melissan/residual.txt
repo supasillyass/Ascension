@@ -1,0 +1,24 @@
+/*
+
+I coded this but in fact Melissan doesn't use these at all, they're cruft!
+
+// Melissan's darts:
+// - range reduced to 20
+// - Stun duration reduced from 30 to 15 secs, probability reduced to 50%, saving throw vs polymorph
+//   rather than vs spell
+// - disease effect now has power 8 (but I suspect that's a bug), has duration 15 secs, has probability
+//   50% (i.e.51-100, stun on 1-50), and grants a save vs poison at -4
+// - additional disease effect coming in at 76-100: 1 point of Con drain, save as above.
+
+COPY_EXISTING dartmel.itm override
+     LPF ALTER_ITEM_HEADER INT_VAR range=20 END // range
+     LPF ALTER_EFFECT INT_VAR match_opcode=45 probability1=49 savingthrow=16 duration=15 END // stun effect
+     LPF ALTER_EFFECT INT_VAR match_opcode=142 match_parameter2=55 probability1=49 savingthrow=16 duration=15 END // stun icon
+     LPF ALTER_EFFECT INT_VAR match_opcode=139 probability1=49 savingthrow=16 duration=15 END // stun string
+     LPF ALTER_EFFECT INT_VAR match_opcode=78 probability2=50 savingthrow=4 savebonus="-4" duration=15 END // disease effect
+     LPF ALTER_EFFECT INT_VAR match_opcode=142 match_parameter2=7 probability2=50 savingthrow=4 savebonus="-4" duration=15 END // disease icon
+     LPF CLONE_EFFECT INT_VAR match_opcode=78 probability2=75 duration=30 parameter2=6 END // new poison effect
+     LPF CLONE_EFFECT INT_VAR match_opcode=142 match_parameter2=7 duration=30 END // new poison icon
+BUT_ONLY
+
+*/

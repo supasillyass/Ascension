@@ -1,1 +1,0 @@
-ADD_TRANS_ACTION ILLASERA BEGIN 8 END BEGIN 0 END ~ActionOverride("zilmag01",Enemy()) ActionOverride("zilarc01",Enemy()) ActionOverride("zilfgt01",Enemy()) ActionOverride("zilfgt01",Enemy())~

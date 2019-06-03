@@ -1,0 +1,667 @@
+DEFINE_ACTION_FUNCTION tougher_yagashura BEGIN
+
+LOAD_TRA "%ascension_tra_loc%/english/tougher.tra"  "%ascension_tra_loc%/%LANGUAGE%/tougher.tra"
+
+
+    INCLUDE "%MOD_FOLDER%/tougher/tougher_shared.tpa"
+
+    LAF set_marker STR_VAR marker=fin_tougher_yagashura END
+    LAF yagashura_main END
+    LAF run_once STR_VAR function=yagashura_resources END
+    LAF yagashura_lieutenants END
+    LAF yagashura_army END
+    LAF yagashura_plot END
+    LAF run_once STR_VAR function=tougher_shared_ai END
+
+
+END
+
+///////////////////////////////////////////////////////////
+/// Tweaks to the army that supports Yaga-Shura
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yagashura_army BEGIN
+
+  ////////////////////////////////////////////////
+  /// General: script to make sure they don't get
+  /// lost
+  ////////////////////////////////////////////////
+  
+  COMPILE "%MOD_FOLDER%/tougher/yagashura/finyagar.baf"
+
+
+  ////////////////////////////////////////////////
+  /// yssold01-04 and ysfire01-02:
+  /// - clean out some cruft scripts/dialogs
+  /// - use gpmerc as default script
+  /// - adjust XP, ability scores, specifics=20
+  /// - gear upgrades: each gets basic weapons and armor
+  /// - change some from human to orc
+  ////////////////////////////////////////////////
+
+  /// fix for all
+  
+  ACTION_FOR_EACH creature IN yssold01 yssold02 yssold03 yssold04 ysfire01 ysfire02 BEGIN
+     COPY_EXISTING "%creature%.cre" override
+          LPF CRE_patch
+            INT_VAR specifics=20
+            STR_VAR script_override=finyagar
+                    script_default=gpmerc
+                    dialog=""
+          END
+     BUT_ONLY
+  END
+  
+  // specific fixes
+
+  COPY_EXISTING yssold01.cre override
+      LPF CRE_patch 
+         INT_VAR str=18
+                 str_ex=20
+                 dex=14
+                 con=17
+                 xp_value=650
+      END
+      ADD_CRE_ITEM helm01 #0 #0 #0 none helmet
+      ADD_CRE_ITEM shld05 #0 #0 #0 none shield
+      ADD_CRE_ITEM plat01 #0 #0 #0 none armor
+      ADD_CRE_ITEM rndtre02 #0 #0 #0 none inv
+  BUT_ONLY
+
+  COPY_EXISTING yssold02.cre override
+     LPF CRE_patch
+        INT_VAR str=15
+                dex=16
+                con=15
+                xp_value=650
+                race=143
+                class=181 // for complicated reasons, you can't have a ranged creature using the 'orc' animation but the 'fighter' class
+                animation_code=59440
+        STR_VAR script_override=finyagar
+     END
+     ADD_CRE_ITEM chan04 #0 #0 #0 none armor
+     REPLACE_CRE_ITEM bow01 #0 #0 #0 none weapon1
+     ADD_CRE_ITEM sw1h04 #0 #0 #0 none weapon2
+     ADD_CRE_ITEM rndtre01 #0 #0 #0 none inv
+  BUT_ONLY
+  
+  COPY_EXISTING yssold03.cre override
+     LPF CRE_patch
+        INT_VAR str=17
+                dex=17
+                con=15
+                int=14
+                wis=13
+                cha=15
+                xp_value=1400
+        STR_VAR script_override=finyagar
+     END
+     REPLACE_CRE_ITEM plat01 #0 #0 #0 none armor
+     ADD_CRE_ITEM helm01 #0 #0 #0 none helmet
+     REMOVE_CRE_ITEM sw1h01
+     ADD_CRE_ITEM sw2h02 #0 #0 #0 none weapon1 EQUIP TWOHANDED
+     ADD_CRE_ITEM potn55 #4 #0 #0 none qitem
+     ADD_CRE_ITEM potn11 #0 #0 #0 none qitem
+     ADD_CRE_ITEM rndtre03 #0 #0 #0 none inv
+  BUT_ONLY
+  
+
+  COPY_EXISTING ysfire01.cre override
+      LPF CRE_patch STR_VAR script_override=finyagar END
+      REPLACE_TEXTUALLY giafir2 giafir (8)
+      ADD_CRE_ITEM misc38 #0 #0 #0 none inv
+      ADD_CRE_ITEM misc41 #0 #0 #0 none inv
+      ADD_CRE_ITEM rndtre03 #0 #0 #0 none inv
+      ADD_CRE_ITEM rndtre05 #0 #0 #0 none inv
+  BUT_ONLY
+  
+  COPY_EXISTING ysfire02.cre override
+       LPF CRE_patch
+         INT_VAR dex=13
+                 con=17
+                 cha=9
+         STR_VAR script_override=finyagar
+       END
+       REPLACE_TEXTUALLY ax1h03 giafir2 (8)
+       ADD_CRE_ITEM rndtre03 #0 #0 #0 none inv
+
+  BUT_ONLY
+
+  ////////////////////////////////////////////////
+  /// ysmage01
+  /// - change some anomalous ability scores
+  /// - set specifics=20
+  /// - new scripts
+  /// - swap fireball for an extra haste
+  /// - add some gear (in vAsc that includes a Wand
+  ///   of Monster Summoning with 4 charges, but
+  ///   they are not scripted to use it so we remove)
+  ////////////////////////////////////////////////
+
+  COPY_EXISTING ysmage01.cre override
+       LPF CRE_patch
+          INT_VAR hp_max=33
+                  hp_current=33
+                  str=11
+                  dex=15
+                  con=8
+                  int=17
+                  wis=12
+                  cha=8
+                  color_skin=87
+                  color_hair=0
+                  specifics=20
+          STR_VAR script_override=finyagar
+                  script_class=""
+                  script_general=spseq12a
+                  script_default=gpmage2
+                  add_spells="HASTE"
+       END
+       REMOVE_MEMORIZED_SPELL "%WIZARD_FIREBALL%"
+       ADD_CRE_ITEM ring12 #0 #0 #0 none ring
+       ADD_CRE_ITEM potn55 #2 #0 #0 none qitem
+       ADD_CRE_ITEM staf07 #0 #0 #0 none weapon1 EQUIP
+       ADD_CRE_ITEM dart02 #10 #0 #0 none weapon2
+       ADD_CRE_ITEM rndtre04 #0 #0 #0 none inv
+  BUT_ONLY
+
+  ////////////////////////////////////////////////////
+  // yscler01 is bespoke
+  //
+  // but needs a better name
+  /////////////////////////////////////////////////////
+
+
+  COPY "%MOD_FOLDER%/tougher/yagashura/yscler01.cre" override
+        LPF FJ_CRE_VALIDITY END
+        LPF CRE_patch STR_VAR script_override=finyagar END
+        LPF check_ini STR_VAR ini=yagashura_cleric_rename RET value END
+        PATCH_IF value BEGIN
+           SAY NAME1 @11
+           SAY NAME2 @11
+        END
+
+END
+
+///////////////////////////////////////////////////////////
+/// Yaga-Shura's lieutenants
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yagashura_lieutenants BEGIN
+
+//////////////////////////////////////////////////////////
+/// General: the lieutenants have a habit of getting lost.
+/// Add to their shared 'yaga02' script an instruction to avoid
+/// it.
+//////////////////////////////////////////////////////////
+
+<<<<<<<< .../ascension-inline/yaga02_add.baf
+IF
+	!Dead("Yaga01")
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+	      MoveToObject("yaga01")
+END
+>>>>>>>>
+
+EXTEND_TOP yaga02.bcs ".../ascension-inline/yaga02_add.baf"
+
+//////////////////////////////////////////////////////////
+/// Yaga02 - 'lieutenant mage'
+///
+/// Stat changes: INT -> 18
+/// resistance changes: loses backstab immunity, gains +2 casting speed
+/// item changes: loses helmnoan, gains rndtre05, potn55, undroppable ring07, undroppable clck17
+/// spell changes: we redo the spells from scratch, since the script (gpmage1)
+/// assumes a fixed spell set
+/// script changes: gain spseq16a, replace cmage20a with gpmage1
+/// specifics=20
+//////////////////////////////////////////////////////////
+
+    COPY_EXISTING yaga02.cre override
+        REMOVE_MEMORIZED_SPELLS
+        LPF CRE_patch
+           INT_VAR int=18
+                   immunity_to_backstab=0
+                   increase_casting_speed=2
+                   specifics=20
+           STR_VAR add_spells="MAGIC_MISSILE(4) SHIELD AGANNAZAR_SCORCHER MIRROR_IMAGE VOCALIZE(2) RAY_OF_ENFEEBLEMENT FIREBALL LIGHTNING_BOLT HASTE(2) IMPROVED_INVISIBILITY STONE_SKIN(2) EMOTION_HOPELESSNESS SPIDER_SPAWN SUN_FIRE MONSTER_SUMMONING_3 CHAOS MINOR_SPELL_TURNING FEEBLEMIND FLESH_TO_STONE WIZARD_TRUE_SIGHT DISINTEGRATE DEATH_SPELL PIERCE_MAGIC SUMMON_NISHRUU CHAIN_LIGHTNING TENSERS_TRANSFORMATION SPELL_TURNING WIZARD_FINGER_OF_DEATH SUMMON_EFREET MANTLE SPHERE_OF_CHAOS MORDENKAINENS_SWORD(2) ABI_DALZIMS_HORRID_WILTING WIZARD_SYMBOL_STUN WIZARD_SYMBOL_FEAR POWER_WORD_BLIND TIME_STOP(2) WAIL_OF_THE_BANSHEE SPELL_TRAP BLACK_BLADE_OF_DISASTER"
+                   script_override=""
+                   script_race=spseq16a
+                   script_default="gpmage1"
+        END
+        REMOVE_CRE_ITEM "helmnoan"
+        ADD_CRE_ITEM "ring07" #0 #0 #0 "unstealable&undroppable" LRING
+        ADD_CRE_ITEM "clck17" #0 #0 #0 "unstealable&undroppable" ARMOR
+        ADD_CRE_ITEM rndtre05 #0 #0 #0 none INV
+        ADD_CRE_ITEM potn55 #0 #0 #0 none QITEM
+    BUT_ONLY
+
+//////////////////////////////////////////////////////////
+/// Yaga03 - 'lieutenant fighter'
+///
+/// resistance changes: loses backstab immunity
+/// item changes: plat01->plat14, offhand weapon ->sw1h09 (shortsword+2), onhand weapon ->sw1h55 (katana+2), potn52->potn55
+/// (in vAsc, it's plat05, not plat14 - but they're functionally identical and plat05 is supposed to be unique)
+/// gain 3 uses of whirlwind attack
+/// script changes: lose grpsht01 (override), replace default script with GPKENSAI
+/// proficiency changes: 3* in katana (was 0), 3* in shortsword (was 0), 3* in 2-weapon (was 2), 0 in wakizashi (was 5)
+/// specifics=20, morale_break->6, hp->135
+//////////////////////////////////////////////////////////
+
+    COPY_EXISTING "yaga03.cre" override
+        LPF CRE_patch
+           INT_VAR specifics=20
+                   morale_break=6
+                   hp_max=135
+                   hp_current=135
+                   immunity_to_backstab=0
+           STR_VAR script_override=""
+                   script_default=gpkensai
+                   add_spells="WARRIOR_WHIRLWIND(3)"
+        END
+        REPLACE_TEXTUALLY plat01 plat14 (8)
+        REPLACE_TEXTUALLY potn52 potn55 (8)
+        REPLACE_CRE_ITEM sw1h09 #0 #0 #0 none SHIELD
+        REPLACE_CRE_ITEM sw1h55 #0 #0 #0 none WEAPON1
+        SET_BG2_PROFICIENCY proficiencykatana 3
+        SET_BG2_PROFICIENCY proficiencyshortsword 3        
+        SET_BG2_PROFICIENCY proficiencyscimitarwakisashininjato 0
+        SET_BG2_PROFICIENCY proficiency2weapon 3
+
+    BUT_ONLY
+
+//////////////////////////////////////////////////////////
+/// Yaga04 - 'lieutenant cleric'
+///
+/// resistance changes: loses backstab immunity
+/// item changes: loses helmnoan, gains shld06
+/// script changes: lose grpsht01 (override), replace default script with GPHEALER
+/// specifics=20 (eeAsc sets it to 2, but that's a typo)
+/// STR->16 (eeAsc sets WIS to 17, but I don't think there's a very good justification)
+/// some color changes
+/// no spell changes (eeAsc rebuilds the spell system, but I don't see why since old
+/// and new are identical
+//////////////////////////////////////////////////////////
+
+    COPY_EXISTING "yaga04.cre" override
+           LPF CRE_patch
+              INT_VAR str=16
+                      specifics=20
+                      backstab_immunity=0
+                      color_minor=240
+                      color_major=239
+                      color_skin=87
+                      color_hair=0
+              STR_VAR script_override=""
+                      script_default=gphealer
+           END
+           REMOVE_CRE_ITEM helmnoan
+           ADD_CRE_ITEM shld06 #0 #0 #0 none SHIELD
+    BUT_ONLY
+
+//////////////////////////////////////////////////////////
+/// Yaga05 - 'lieutenant thief'
+///
+/// loses backstab immunity
+/// item changes: loses helmnoan, loses offhand weapon, changes onhand weapon to
+/// undroppable shortsword of backstabbing (sw1h10), swaps leat02 to leat07,
+/// potn52->potn55, gains rndtre04, rndtre05, oil of speed
+/// acquires 10 darts of stunning and 10 undroppable darts of stunning (vAsc puts
+/// them in a quiver slot, causing infamous crash bug)
+/// script changes: lose grpsht01 (override), replace default script with GPTHIEF
+/// specifics=20, str=15, dex=19
+/// cosmetic changes: becomes female elf, some color changes
+/// HLAs gained: assassination, avoid death, evasion
+//////////////////////////////////////////////////////////
+    COPY_EXISTING "yaga05.cre" override
+        LPF CRE_patch
+           INT_VAR str=15
+                   dex=19
+                   specifics=20
+                   color_minor=63
+                   color_major=63
+                   color_skin=108
+                   color_leather=95
+                   color_armor=27
+                   color_hair=3
+                   sex=2
+                   race=2
+                   animation_code=25361
+                   immunity_to_backstab=0
+           STR_VAR script_override=""
+                   script_default=gpthief
+                   add_spells="ROGUE_EVASION ROGUE_ASSASINATION ROGUE_AVOID_DEATH"
+        END
+        LPF DELETE_EFFECT INT_VAR match_opcode=233 END
+        SAY 0xa4 #61892          //Initial Meeting
+        SAY 0xb8 #61899          //Unhappy
+        SAY 0xc8 #61895          //BattleCry1
+        SAY 0x10c #61894         //SELECT COMMON
+        SAY 0x110 #61892         //SELECT COMMON
+        SAY 0x114 #61893         //SELECT COMMON
+        REMOVE_CRE_ITEM helmnoan dagg15
+        ADD_CRE_ITEM sw1h09 #0 #0 #0 "unstealable&undroppable" WEAPON1 EQUIP
+        ADD_CRE_ITEM dart03 #10 #0 #0 "unstealable&undroppable" WEAPON2
+        ADD_CRE_ITEM dart03 #10 #0 #0 none WEAPON3
+        ADD_CRE_ITEM rndtre04 #0 #0 #0 none INV
+        ADD_CRE_ITEM rndtre05 #0 #0 #0 none INV
+        ADD_CRE_ITEM potn14 #0 #0 #0 none QITEM
+        REPLACE_TEXTUALLY leat02 leat07 (8)
+        REPLACE_TEXTUALLY potn52 potn55 (8)
+    BUT_ONLY
+
+
+END
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/// Tweaks to AR5203, its script, and YS dialog
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yagashura_plot BEGIN
+
+///////////////////////////////////////////////////////////
+// Y-S himself is slightly moved
+///////////////////////////////////////////////////////////
+
+   COPY_EXISTING ar5203.are override
+         GET_OFFSET_ARRAY act_arr ARE_V10_ACTORS
+         PHP_EACH act_arr AS ind=>act_off BEGIN
+            READ_ASCII (act_off + 0x80) resource
+            PATCH_MATCH "%resource%" WITH yaga01 BEGIN
+                WRITE_LONG (act_off+0x20) 905
+                WRITE_LONG (act_off+0x22) 1965
+                WRITE_LONG (act_off+0x24) 905
+                WRITE_LONG (act_off+0x26) 1965
+            END
+            DEFAULT
+            END
+         END
+   BUT_ONLY
+   
+////////////////////////////////////////////////////////////////////////////////////////
+// The area script controls the army spawning, through three blocks. We can identify them uniquely via the
+// creatures they spawn:
+// block1: yssold01
+// block2: yssold03
+// block3: yssold04
+// the whole group can be identified by looking for EXTRACOUNT
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// tweaks to all blocks: 
+/// - max number spawned is 60 (up from 35)
+/// - an area variable ('YagaShuraSpawn') controls whether spawning should happen: if it's set (i.e., if YS is back), it doesn't
+/// - all probabilities become #100
+
+LAF ALTER_SCRIPT_BLOCK
+   STR_VAR script=ar5203
+           match=EXTRACOUNT
+           swap_out1=35
+           swap_in1=60
+           swap_out2=~!Dead("yaga01")~
+           swap_in2=~!Dead("yaga01")!Global("YagaShuraSpawn","AR5203",1)~
+           swap_out3="#[0-9][0-9]"
+           swap_in3="#100"
+END
+// tweaks to block 1
+// - spawn if EXTRACOUNT<7 (was <4)
+
+LAF ALTER_SCRIPT_BLOCK
+   STR_VAR script=ar5203
+           match=yssold01
+           swap_out=~("EXTRACOUNT","MYAREA",4)~
+           swap_in=~("EXTRACOUNT","MYAREA",7)~
+END
+
+// tweaks to block 2
+// - spawn if EXTRACOUNT2<4 (was <2)
+// - more spawns: originally spawned either yssold03 or ysfire01, now allow also for yscler01 or ysmage01
+
+LAF ALTER_SCRIPT_BLOCK
+   STR_VAR script=ar5203
+           match=yssold03
+           patch=ar5203_patch
+           swap_out=~("EXTRACOUNT2","MYAREA",2)~
+           swap_in=~("EXTRACOUNT2","MYAREA",4)~
+END
+
+// tweaks to block 3
+// - correct a vanilla/EE error that refers to EXTRACOUNT2 and not EXTRACOUNT3
+
+LAF ALTER_SCRIPT_BLOCK
+   STR_VAR script=ar5203
+           match=yssold04
+           swap_out=EXTRACOUNT2
+           swap_in=EXTRACOUNT3
+END
+
+//////////////////////////////////////
+// Y-S's dialog controls
+// how long it takes before
+// he comes back; extend that time
+// from 15 secs to 100 secs
+//////////////////////////////////////
+
+COPY_EXISTING yaga01.dlg override
+   DECOMPILE_AND_PATCH BEGIN
+        REPLACE_TEXTUALLY ~SetGlobalTimer("YagaReturnTimer","AR5203",[^)]*)~ ~SetGlobalTimer("YagaReturnTimer","AR5203",100)~
+   END
+BUT_ONLY
+
+//////////////////////////////////////
+// Y-S's lieutenants should spawn
+// after his speech, not when he does
+//////////////////////////////////////
+
+LAF REPLACE_SCRIPT_BLOCK
+    STR_VAR script=ar5203
+            match1=yaga02
+            match2=yaga03
+            match3=yaga04
+            match4=yaga05
+            insert="%MOD_FOLDER%/tougher/yagashura/lieutenants.baf"
+END
+
+
+END
+
+////// helper function for yagashura_plot
+
+DEFINE_PATCH_FUNCTION ar5203_patch BEGIN
+   REPLACE_TEXTUALLY "\(%WNL%\|%LNL%\|%MNL%\)" " "
+   REPLACE_EVALUATE "THEN\(.*\)END"
+   BEGIN
+         SPRINT old_responses "%MATCH1%"
+         INNER_PATCH_SAVE new_responses "%old_responses%" BEGIN
+            REPLACE_TEXTUALLY YSSOLD03 YSMAGE01
+            REPLACE_TEXTUALLY YSFIRE01 YSCLER01
+         END
+   END
+   "THEN %old_responses%%new_responses% END"
+
+END
+
+
+///////////////////////////////////////////////////////////
+/// Yaga-Shura himself (in his original incarnation)
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yagashura_main BEGIN
+
+   COPY_EXISTING yaga01.cre override
+        LPF yagashura_cre_patch END
+   BUT_ONLY
+   
+   // 'bhaalimm' item
+   
+   LAF run_once STR_VAR function=bhaalimm END
+
+   // scripting
+   COMPILE "%MOD_FOLDER%/tougher/yagashura/yagaft.baf"
+
+END
+
+///////////////////////////////////////////////////////////
+/// Spell-type resources used by Y-S
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION yagashura_resources BEGIN
+   LAF set_marker STR_VAR marker=fin_yagashura_resources END
+
+   // Yaga-Shura's undroppable hammer
+   // Built from 'giafir.itm' (default undroppable hammer), but:
+   // speed 6 (not 7)
+   // +5 to hit (not +3)
+   // fire damage is 1d10, not 1d6
+   // 50% chance per hit of doing: -1 str, -1 con, slow (18 sec each), save vs spell at -4 to avoid
+   // 10% chance of a 1-sec pause on Yaga-Shura, together with knockback and brief unconsciousness
+   // 100% chance of applying the 'yagaund' effect to undead. Yagaund (which is actually missing from
+   // vAsc Tougher Yaga, though present in Ascension) does 12 points of magic damage to undead
+   //
+   // may as well rebuild from scratch, adding a couple of missing icons and fixing off-by-one errors
+
+   COPY_EXISTING "giafir.itm" "override/yagawh.itm"
+      // modifications to core attack
+      LPF ALTER_ITEM_HEADER INT_VAR speed=6 thac0_bonus=5 END
+      // more fire damage
+      LPF ALTER_EFFECT INT_VAR match_opcode=12 dicesize=10 END
+      // 50% change effect
+      LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=44 power=6 target=2 parameter1="-1" duration=18 probability1=49 resist_dispel=1 save_vs_spell=1 save_bonus="-4" END
+      LPF CLONE_EFFECT INT_VAR match_opcode=44 opcode=10 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=44 opcode=40 parameter1=0 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=44 opcode=142 parameter1=0 parameter2=41 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=142 parameter2=91 END
+      // 10% chance effect
+      LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=235 target=2 parameter1=15 parameter2=2 duration=2 probability1=9 save_vs_poison=1 save_bonus="-4" END
+      LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=39 target=2 parameter1=0 parameter2=0 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=142 target=2 parameter1=0 parameter2=14 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=165 target=1 parameter1=0 parameter2=0 duration=1 END
+      // anti-undead effect
+      LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=177 target=2 parameter1=4 parameter2=3 timing=1 STR_VAR resource=yagaund END
+   BUT_ONLY
+   
+   // the anti-undead effect
+   COPY "%MOD_FOLDER%/tougher/yagashura/yagaund.eff" override
+
+   // 'yagweak' reduces Y-S resistances by 2 per round (it's applied by script, 1/rd)
+
+   COPY "%MOD_FOLDER%/tougher/yagashura/yagweak.spl" override
+   
+   // 'yaga01' is a fireball/impact effect (1d10 crushing damage, no save; 8d10
+   // fire damage, save vs breath for half) that also applies a wing-buffet
+   // effect. On EE, it needs save-for-half-ing.
+   //
+   // in addition: the vAsc version knocks targets unconscious for 3 rds with a save vs. paralysation
+   // at -2 to avoid. That's both annoying and very out of line with other knockbacks. We match Wing
+   // Buffet, with the saving throw penalty increased to -10 but the duration nerfed to 3 secs (ini-gated)
+   
+   COPY "%MOD_FOLDER%/tougher/yagashura/yaga01.spl" override
+      SAY NAME1 @8
+      SAY NAME2 @8
+      PATCH_IF enhanced_edition BEGIN
+         LPF DELETE_EFFECT INT_VAR match_opcode=12 match_dicenumber=4 match_save_vs_breath=0 END
+         LPF ALTER_EFFECT INT_VAR match_opcode=12 match_dicenumber=4 dicenumber=8 save_for_half=1 END
+      END
+      LPF check_ini STR_VAR ini=lava_bomb_tweak RET value END
+      PATCH_IF value BEGIN
+         LPF ALTER_EFFECT INT_VAR match_opcode=39 duration=3 savebonus="-10" END
+      END
+
+
+END
+
+///////////////////////////////////////////////////////////
+/// The main patch applied to Y-S
+///////////////////////////////////////////////////////////
+
+/*
+
+Compared to baseline:
+  - XP 30,000 -> 45,000
+  - hp 150 -> 350
+  - AC -5 -> -8
+  - APR 2 -> 3
+  - saves get one point worse, from 3/5/4/4/6 to 4/6/5/5/7
+  - fire resistance goes to 127 (from 110)
+  - cold resistance goes to 50 (from 0)
+  - all other resistances (including MDR) go to 99 (from 0)
+  - race: dwarf(!) -> Giant (fixed by EEAsc, not in vAsc)
+  - specific -> 20
+  - five proficiencies in hammer (was 4), three in dual-wield (was zero)
+  - bespoke 'yagaft' combat script, replacing cfigh20b
+  - regenerate 7 hp/sec
+  - +2 casting speed
+  - +4 movement
+  - remove immunity to backstab
+  - on EE, we'd better add the 177 effects that implement gnome/dwarf AC bonuses
+    vs giants
+ 
+ 
+ I am a little worried that Y-S's regeneration is overtuned, given his DR
+ (and given that Ascension playtesting had no regeneration). So I turn it off,
+ but allow an ini option to turn it back on.
+*/
+  
+DEFINE_PATCH_FUNCTION yagashura_cre_patch BEGIN
+    LPF check_ini STR_VAR ini=yaga_shura_regenerates RET value END
+    PATCH_IF value BEGIN
+       SET regen_rate=7
+    END ELSE BEGIN
+       SET regen_rate=0
+    END
+    LPF CRE_patch
+       INT_VAR xp_value=45000
+               hp_max=350
+               hp_current=350
+               ac_natural="-8"
+               ac_effective="-8"
+               attacks=3
+               resist_fire=127
+               resist_magic_fire=127
+               resist_cold=50
+               resist_magic_cold=50
+               resist_acid=99
+               resist_electricity=99
+               resist_magic_damage=99
+               resist_piercing=99
+               resist_slashing=99
+               resist_crushing=99
+               resist_missile=99
+               save_vs_death=4
+               save_vs_wand=6
+               save_vs_poly=5
+               save_vs_breath=5
+               save_vs_spell=7
+               immunity_to_backstab=0 
+               specifics=20
+               regeneration=regen_rate  
+               increase_casting_speed=2
+       STR_VAR
+               add_spells="BERSERKER_RAGE(7)"
+               script_default=yagaft
+               script_class=""
+               immunity_to_spells="yaga01" // immune to own Lava Bombs
+    END
+    WRITE_BYTE 0x272 142 // giant, not dwarf
+    SET_BG2_PROFICIENCY proficiencywarhammer 5
+    SET_BG2_PROFICIENCY proficiency2weapon 3
+    LPF ADD_CRE_EFFECT INT_VAR opcode=126 target=1 timing=1 parameter1=4 END // movement bonus
+    REMOVE_CRE_ITEM hamm10 // remove existing copy of shuruppak's hammer
+    REMOVE_CRE_ITEM helmnoan // remove resistance to critical hits
+    ADD_CRE_ITEM hamm10 #0 #0 #0 NONE SHIELD // shuruppak's hammer dual-wielded; shield moves to inventory
+    REPLACE_CRE_ITEM yagawh #0 #0 #0 NONE WEAPON1 // new undroppable hammer
+    ADD_CRE_ITEM rndtre05 #0 #0 #0 NONE INV // new loot
+    ADD_CRE_ITEM bhaalimm #0 #0 #0 NONE AMULET // Bhaal-immunity item
+    REPLACE_TEXTUALLY potn52 potn55 // potion upgrade
+    PATCH_IF enhanced_edition BEGIN
+      PATCH_FOR_EACH resource IN giant1 giant2 giant3 BEGIN
+       LPF ADD_CRE_EFFECT INT_VAR opcode=177 target=2 parameter2=4 timing=9 STR_VAR resource END
+      END
+    END
+END
+
+
+

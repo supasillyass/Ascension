@@ -1,0 +1,63 @@
+/// Romance, player ascends
+
+IF
+     Global("StartEndBios","AR6200",1)
+     Global("DornRomanceActive","GLOBAL",2)
+     Global("PlayerChoseEssence","GLOBAL",1)
+     InParty("Dorn")
+     Global("OHD_bio","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_bio","GLOBAL",1)
+        TextScreen("OHDDORN4")
+        SmallWait(1)
+        Continue()
+END
+
+/// Romance, player doesn't ascend
+
+IF
+     Global("StartEndBios","AR6200",1)
+     Global("DornRomanceActive","GLOBAL",2)
+     Global("PlayerChoseEssence","GLOBAL",0)
+     InParty("Dorn")
+     Global("OHD_bio","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_bio","GLOBAL",1)
+        TextScreen("OHDDORN2")
+        SmallWait(1)
+        Continue()
+END
+
+// No romance, not fallen
+
+IF
+     Global("StartEndBios","AR6200",1)
+     !Global("DornRomanceActive","GLOBAL",2)
+     InParty("Dorn")
+     Global("OHD_bio","GLOBAL",0)
+     !FallenPaladin("Dorn")
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_bio","GLOBAL",1)
+        TextScreen("OHDDORN")
+        SmallWait(1)
+        Continue()
+END
+
+// No romance, fallen
+
+IF
+     Global("StartEndBios","AR6200",1)
+     !Global("DornRomanceActive","GLOBAL",2)
+     InParty("Dorn")
+     Global("OHD_bio","GLOBAL",0)
+     FallenPaladin("Dorn")
+THEN
+    RESPONSE #100
+        SetGlobal("OHD_bio","GLOBAL",1)
+        TextScreen("OHDDORN3")
+        SmallWait(1)
+        Continue()
+END

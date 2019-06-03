@@ -1,0 +1,572 @@
+OUTER_SPRINT grom_loc "%MOD_FOLDER%/tougher/gromnir"
+
+DEFINE_ACTION_FUNCTION tougher_gromnir BEGIN
+
+   LAF set_marker STR_VAR marker=fin_tougher_gromnir END
+   INCLUDE "%MOD_FOLDER%/tougher/tougher_shared.tpa"
+
+   // overall setup
+   LAF gromnir_plot END
+
+   // gromnir himself
+   LAF gromnir_main END
+   LAF run_once STR_VAR function=gromnir_resources END
+
+   // gromnir's guards and allies
+   LAF gromnir_flunkies END
+
+
+
+END
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/// Overall area and area-script patching
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION gromnir_plot BEGIN
+
+//////////////////////////////////////////////////////////
+// Area tweaks:
+// - Gromnir is slightly moved
+// - add Gromnir's pet cat Ramazith
+//   (vAsc does this via script, but there's no real need to
+//   given modern modding tech)
+// - remove a redundant area-granted script on the battle mage
+///////////////////////////////////////////////////////////
+
+   COPY_EXISTING ar5002.are override
+         // move Gromnir
+         GET_OFFSET_ARRAY act_arr ARE_V10_ACTORS
+         PHP_EACH act_arr AS ind=>act_off BEGIN
+            READ_ASCII (act_off + 0x80) resource
+            PATCH_MATCH "%resource%" WITH gromnir BEGIN
+                WRITE_LONG (act_off+0x20) 344
+                WRITE_LONG (act_off+0x22) 648
+                WRITE_LONG (act_off+0x24) 344
+                WRITE_LONG (act_off+0x26) 648
+            END
+            DEFAULT
+            END
+         END
+         // add Ramazith
+         LPF ADD_ARE_ACTOR
+           INT_VAR loc_x=319
+                   loc_y=616
+           STR_VAR name=Ramazith         
+                   resref="ramaz"
+                   orientation="SE"
+         END
+         // remove that script
+         REPLACE_TEXTUALLY "TSIGHT" "" (8)
+   BUT_ONLY
+
+//////////////////////////////////////////////////////////
+// Gromnir's dialog is tweaked to set a 'reinforce' timer,
+// to spawn more guards, and to make everyone hostile.
+// Both vanilla and (to a lesser extent) vAsc use a Shout
+// to do this, but we may as well just override everyone,
+// since we know who's actually here. (vAsc also sets 
+// gromg09, gromg10 hostile here, but since they only spawn
+// for this fight they might as well start hostile)
+///////////////////////////////////////////////////////////
+
+COPY_EXISTING "gromnir.dlg" override
+      DECOMPILE_AND_PATCH BEGIN
+         REPLACE_TEXTUALLY "SHOUT([^)]*)" "SHOUT(ALERT)"
+         REPLACE_TEXTUALLY ~ActionOverride("gromg03",Enemy())~ ~SetGlobalTimer("reinfg","GLOBAL",TWO_MINUTES)ActionOverride("gromg03",Enemy())ActionOverride("gromg04",Enemy())ActionOverride("gromg05",Enemy())ActionOverride("gromg08",Enemy())~
+      END
+BUT_ONLY
+
+//////////////////////////////////////////////////////////
+// Area script needs to spawn reinforcements
+///////////////////////////////////////////////////////////
+
+<<<<<<<< .../ascension-inline/gromnir_insert.baf
+IF
+	GlobalTimerExpired("reinfg","GLOBAL")
+	!Dead("Gromnir")
+	!Global("FIN_TIME_STOP_RUNNING","GLOBAL",1)
+	Global("fin_grom_reinforce","AR5002",0) // previous version overloads an already-used variable, 'EnteredArea', but that's a bit compatibility-unfriendly
+THEN
+	RESPONSE #100
+		SetGlobal("fin_grom_reinforce","AR5002",1)
+		CreateCreature("grommin",[848.894],NW)
+		CreateCreature("jumjum",[894.841],NW)
+END
+>>>>>>>>
+
+   LAF INSERT_SCRIPT_BLOCK
+     INT_VAR insert_above=1
+     STR_VAR script=ar5002
+            match=~SetGlobal("AddXP","AR5002",1)~
+            insert=".../ascension-inline/gromnir_insert.baf"
+   END
+
+
+END
+
+
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/// Gromnir's allies
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION gromnir_flunkies BEGIN
+
+   //// general scripting -  most creatures use the gpxxxx AI
+
+   LAF run_once STR_VAR function=tougher_shared_ai END
+
+///////////////////////////////////////////////////////////
+////  The cat!
+////
+////  Wields a weapon that gives immunity to slow, stun and
+////  the animations associated with web, grease, entangle. I'm
+////  treating this as a messed-up implementation of immunity to
+////  movement-impairing effects generally (i.e., free action,
+////  but without the haste-removal). I implement this by giving out
+////  freering. The weapon also puts 3 rounds
+////  of luck penalty on the target or 3 rounds of luck bonus on
+////  Ramazith, 50% of each (we have an off-by-one error to fix)
+////
+////  has a script that gets it to follow Gromnir, go berserk if
+////  he dies, and go hostile when he does
+///////////////////////////////////////////////////////////
+
+COPY "%grom_loc%/ramaz.cre" override
+   ADD_CRE_ITEM freering #0 #0 #0 none lring
+
+COPY "%grom_loc%/ramaz.itm" override
+   LPF DELETE_EFFECT INT_VAR match_opcode=101 END
+   LPF ALTER_EFFECT INT_VAR match_probability1=50 probability1=49 END
+   LPF ALTER_EFFECT INT_VAR match_probability2=51 probability2=50 END
+
+COMPILE "%grom_loc%/ramaz.baf"
+
+///////////////////////////////////////////////////////////
+////  The throne room mages:
+////  gromg05 (battle mage), gromg08 (Karun the Black)
+////
+////  (there are two guards present, but they escort Mel
+////  away in a cutscene)
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
+///  battle-mage:
+///  - becomes female
+///  - INT=18
+///  - (level drops to 16 in vAsc, but that seems to be an error - she has and uses Timestop)
+///  - AC boosted to 5
+///  - script changes
+///  - item changes: gain potion and random treasure, lose quarterstaff (vAsc put cloak in wrong slot, we don't repeat this)
+///  - redone spell set
+///////////////////////////////////////////////////////////
+
+COPY_EXISTING gromg05.cre override
+     REMOVE_MEMORIZED_SPELLS
+     LPF CRE_patch
+      INT_VAR
+        sex=2
+        gender=2
+        int=18
+        ac_natural=5
+        ac_effective=5
+        animation_code=25104
+      STR_VAR
+        script_class=""
+        script_general=spseq16a
+        script_default=gpmage1
+        add_spells="MAGIC_MISSILE(5) VOCALIZE(2) INVISIBILITY(2) RAY_OF_ENFEEBLEMENT(2) LIGHTNING_BOLT(3) HASTE(2) WIZARD_CONFUSION MINOR_GLOBE_OF_INVULNERABILITY EMOTION_HOPELESSNESS GREATER_MALISON POLYMORPH_OTHER WIZARD_DOMINATION SHADOW_DOOR SPELL_SHIELD PHANTOM_BLADE WIZARD_TRUE_SIGHT IMPROVED_HASTE POWER_WORD_SILENCE GLOBE_OF_INVULNERABILITY PRISMATIC_SPRAY WARDING_WHIP WIZARD_FINGER_OF_DEATH ABI_DALZIMS_HORRID_WILTING SIMULACRUM TIME_STOP"
+     END
+     WRITE_LONG 0xa4 61993 // soundset tweaks (I use a slightly different one from vAsc, which for curious reasons uses a townswoman)
+     WRITE_LONG 0x10c 61993
+     REMOVE_CRE_ITEM staf18
+     ADD_CRE_ITEM potn55 #2 #0 #0 none qitem
+     ADD_CRE_ITEM rndtre05 #0 #0 #0 none inv
+BUT_ONLY
+
+///////////////////////////////////////////////////////////
+///  Karun the Black:
+///  level=20, hp=56, int=19, con=15
+///  alignment changes to CN
+///  script changes
+///  undroppable items: robe of neutral archmagi (replaces clck14), guard's ring +2, amulet of power
+///  gains 2 potions of superior healing and rndtre05
+///  4-point boost to casting speed (+1 from amulet)
+///  spells redone
+///  hair changes color
+///////////////////////////////////////////////////////////
+
+COPY_EXISTING gromg08.cre override
+     REMOVE_MEMORIZED_SPELLS
+     LPF CRE_patch
+        INT_VAR 
+           alignment=IDS_OF_SYMBOL (align CHAOTIC_NEUTRAL)
+           level=20
+           hp_max=56
+           hp_current=56
+           int=19
+           con=15
+           increase_casting_speed=4
+           color_hair=0
+        STR_VAR 
+           script_default=gpmage1
+           script_general=spseq16b // this is actually new, so we can leave the name in place
+           script_class=""
+           add_spells="AGANNAZAR_SCORCHER MIRROR_IMAGE VOCALIZE(2) BLUR FIREBALL LIGHTNING_BOLT HASTE SLOW MINOR_SPELL_DEFLECTION IMPROVED_INVISIBILITY(2) MINOR_GLOBE_OF_INVULNERABILITY STONE_SKIN GREATER_MALISON SUN_FIRE FEEBLEMIND CONE_OF_COLD CHAOS BREACH WIZARD_TRUE_SIGHT DISINTEGRATE DEATH_SPELL PROTECTION_FROM_MAGIC_WEAPONS IMPROVED_HASTE SPELL_TURNING WIZARD_FINGER_OF_DEATH MORDENKAINENS_SWORD SPHERE_OF_CHAOS SUMMON_DJINNI ABI_DALZIMS_HORRID_WILTING(2) MAZE SPELL_TRAP METEOR_SWARM TIME_STOP"
+     END
+     REPLACE_CRE_ITEM clck16 #0 #0 #0 "unstealable&undroppable" ARMOR
+     ADD_CRE_ITEM ring07 #0 #0 #0 "unstealable&undroppable" RRING
+     ADD_CRE_ITEM amul21 #0 #0 #0 "unstealable&undroppable" amulet
+     ADD_CRE_ITEM potn55 #2 #0 #0 none qitem
+     ADD_CRE_ITEM rndtre05 #0 #0 #0 none inv
+BUT_ONLY
+
+///////////////////////////////////////////////////////////
+////  The initially-spawned reinforcements: gromg03 (archer),
+////  gromg09 (Eler Had), gromg10 (Berena Elkan)
+///////////////////////////////////////////////////////////
+
+//////////////////////////////////
+//// gromg03: L15 fighter with bow
+//// and called-shot ability
+////
+//// +2 STR, 3 APR
+//// gear changes: helmet, melee weapon, 2 arrows of dispelling,
+//// 6 arrows of piercing
+//// proficiencies: quadruple-specialisation with bow, double with bastard sword, double with single weapon
+//// script change
+//////////////////////////////////
+
+   COPY_EXISTING gromg03.cre override
+       LPF CRE_patch
+          INT_VAR str=15 
+                  attacks=3
+          STR_VAR script_default=gparcher
+       END
+       SET_BG2_PROFICIENCY PROFICIENCYBASTARDSWORD 2
+       SET_BG2_PROFICIENCY PROFICIENCYSINGLEWEAPON 2
+       SET_BG2_PROFICIENCY PROFICIENCYLONGBOW 4
+       ADD_CRE_ITEM helm01 #0 #0 #0 none helmet
+       ADD_CRE_ITEM sw1h01 #0 #0 #0 none weapon2
+       REPLACE_CRE_ITEM arow07 #2 #0 #0 none qitem1
+       REPLACE_CRE_ITEM arow10 #6 #0 #0 none qitem2
+       ADD_CRE_ITEM potn55 #0 #0 #0 none inv
+   BUT_ONLY
+
+///////////////////////////////////////////////////////
+//// gromg09: thief (oddly, with the 'berserker' kit)
+//// - str->17, dex->19, int->14, AC->
+//// - becomes an elf
+//// - color changes
+//// - movement rate bonus
+//// - script changes
+//// - immune to poison and magic damage
+//// - 50% resistance to fire and cold (implementation a bit weird, only affects the 'magic' ones but I assume it's intended to cover both)
+//// - gains a buckler (shld17), a new weapon 'eler', 20 unstealable-undroppable poisoned throwing daggers and 4 normal ones, and swaps potn52 for potn55
+//// - two uses of 'assassination' HLA
+//// - single proficiency in dagger and sword/shield
+///////////////////////////////////////////////////////
+
+   COPY_EXISTING gromg09.cre override
+        LPF CRE_patch
+           INT_VAR allegiance=255
+                   str=17
+                   dex=19
+                   int=14
+                   race=3
+                   ac_natural=7
+                   ac_effective=7
+                   ac_missile=4
+                   animation_code=21249
+                   resist_magic_damage=100
+                   resist_cold=50
+                   resist_magic_cold=50
+                   resist_fire=50
+                   resist_magic_fire=50
+                   color_minor=63
+                   color_major=46
+                   color_skin=14
+                   color_hair=0
+           STR_VAR script_class=""
+                   script_default=gpthief
+                   add_spells="ROGUE_ASSASINATION(2)"
+        END
+        ADD_CRE_ITEM shld17 #0 #0 #0 none shield 
+        ADD_CRE_ITEM eler #0 #0 #0 "unstealable&undroppable" weapon1 EQUIP
+        ADD_CRE_ITEM dagg16 #20 #0 #0 "unstealable&undroppable" weapon2
+        ADD_CRE_ITEM dagg16 #4 #0 #0 none weapon3
+        REPLACE_TEXTUALLY potn52 potn55
+        SET_BG2_PROFICIENCY proficiencydagger 1
+        SET_BG2_PROFICIENCY proficiencyswordandshield 1
+        LPF ADD_CRE_EFFECT INT_VAR opcode=126 target=1 timing=1 parameter1=3 END // movement bonus
+   BUT_ONLY
+
+   ///////////
+   /// Eler's weapon is a +1 poisoned shortsword (save or suffer 2 seconds of slowing, 10 seconds of 2 hp/rd)
+   ///////////
+   
+   COPY "%grom_loc%/eler.itm" override
+
+///////////////////////////////////////////////////////
+//// gromg10: wizard slayer
+//// - 3 hp/sec regeneration
+//// -level->18, hp->145, dex->16, con->18, thac0->2, apr->3, MR->36, +2 luck
+//// -script changes
+//// -color changes
+//// -change kit to Wizard Slayer (left as Berserker in vAsc)
+//// -lose berserker powers, gain Resist Magic and Hardiness HLAs
+//// -swap armor to full plate+1 (plat14); lose potion; gain rndtre05; new undroppable weapon 'berena
+//// -proficiencies: 5 spear, 2 2-handed
+//// -immunity to death magic
+///////////////////////////////////////////////////////
+
+   COPY_EXISTING gromg10.cre override
+        REMOVE_MEMORIZED_SPELLS
+        LPF CRE_patch
+           INT_VAR allegiance=255
+                   level=18
+                   hp_max=145
+                   hp_current=145
+                   dex=16
+                   con=18
+                   thac0=2
+                   attacks=3
+                   luck=2
+                   resist_magic=36
+                   kit=IDS_OF_SYMBOL (kit WIZARDSLAYER)
+                   regeneration=3
+                   color_minor=62
+                   color_major=66
+                   color_skin=13
+                   color_hair=76
+           STR_VAR script_class=""
+                   script_default=gpwslay
+                   add_spells="WARRIOR_RESIST_MAGIC WARRIOR_HARDINESS"
+        END
+        REPLACE_CRE_ITEM plat14 #0 #0 #0 none armor
+        ADD_CRE_ITEM berena #0 #0 #0 "unstealable&undroppable" weapon1 EQUIP TWOHANDED
+        REMOVE_CRE_ITEM potn52
+        ADD_CRE_ITEM rndtre05 #0 #0 #0 none inv
+        SET_BG2_PROFICIENCY proficiencyspear 5
+        SET_BG2_PROFICIENCY proficiency2handed 2
+        LPF death_immunity END
+   BUT_ONLY
+   
+   ////////////////////
+   /// Berena's spear - removes specific/combat protections, induces casting failure
+   ////////////////////
+
+   COPY "%grom_loc%/berena.itm" override
+
+   ////////////////////
+   /// Berena's bespoke script
+   ////////////////////
+
+   COMPILE "%grom_loc%/gpwslay.baf"
+
+///////////////////////////////////////////////////////////
+////  The second group of reinforcements: grommin ('Halbazzer Drin')
+////  and jumjum ('Lashar'ra')
+////
+////  Since the original 'tougher' components didn't permit
+////  dialog changes, these are reused strings: Halbazzer is
+////  a shopkeeper mage in BG1, Lashar'ra is a spider in Sendai's
+////  lair. We don't have that limitation, so I'll introduce
+////  new generic names - Il-Khan Battle-Priest and Il-Khan Medusa.
+////  (Gated by ini)
+///////////////////////////////////////////////////////////
+
+     LAF check_ini STR_VAR ini=gromnir_ally_renames RET rename=value END
+     ACTION_IF rename BEGIN
+        LOAD_TRA "%ascension_tra_loc%/english/tougher.tra" "%ascension_tra_loc%/%LANGUAGE%/tougher.tra"
+     END
+
+//////////////////////////
+///  Grommin
+///
+///  Minotaur with cleric
+///  spells. Fine as-is
+/////////////////////////
+
+    COPY "%grom_loc%/grommin.cre" override
+        PATCH_IF rename BEGIN
+            SAY NAME1 @1
+            SAY NAME2 @1
+        END
+    // BUT_ONLY
+
+//////////////////////////
+///  Jumjum
+///
+///  Medusa. Her melee weapon
+///  has an 80% chance of poisoning
+///  and a 20% chance of petrifying. It
+///  has off-by-one errors to fix and is
+///  otherwise fine
+///
+///  Her once-per-round bespoke gaze
+///  attack requires a save vs. poly at -2 or
+///  turn to stone, and a save vs. spell at -2 or
+///  be slowed. It needs a little tidying up.
+///
+///  Her script casts her gaze as ReallyForceSpell,
+/// which functions during Timestop. We redo it as 
+///  ForceSpell and grant interruption immunity.
+///
+///  Cre file is fine, except that poison immunity
+///  needs a cleaner implementation, and she needs
+///  immunity to interruption.
+////////////////////////////////
+
+   COPY "%grom_loc%/jumjum.cre" override
+      PATCH_IF rename BEGIN
+         SAY NAME1 @2
+         SAY NAME2 @2
+      END
+      LPF poison_immunity END
+      LPF CRE_patch STR_VAR immunity_to_opcodes=60 END
+   // BUT_ONLY
+   
+   COMPILE "%grom_loc%/jumjum.baf"
+   
+   COPY "%grom_loc%/jumjum.itm" override
+      LPF ALTER_EFFECT INT_VAR match_probability1=80 probability1=79 END
+      LPF ALTER_EFFECT INT_VAR match_probability2=81 probability2=80 END
+   BUT_ONLY
+
+   COPY "%grom_loc%/basilisk.spl" override
+      LPF ALTER_EFFECT INT_VAR save_vs_spell=0 save_vs_polymorph=1 savebonus="-2" STR_VAR match_function="opcode_is(174 215)" END
+      LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=142 parameter1=0 parameter2=41 END // 'slow' icon
+      LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=139 parameter1=14668 parameter2=0 END // 'slowed' string
+   BUT_ONLY
+
+
+END
+
+///////////////////////////////////////////////////////////
+/// Gromnir himself (in his original incarnation)
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION gromnir_main BEGIN
+   
+   COPY_EXISTING gromnir.cre override
+        LPF gromnir_cre_patch END
+   BUT_ONLY
+
+   // immunity amulet
+
+   LAF run_once STR_VAR function=bhaalimm END
+
+   // scripting
+   COMPILE "%MOD_FOLDER%/tougher/gromnir/gromnir.baf"
+
+END
+
+///////////////////////////////////////////////////////////
+/// Resources used by gromnir
+///////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION gromnir_resources BEGIN
+   LAF set_marker STR_VAR marker=fin_gromnir_resources END
+
+   //////////////////////////////////////////////////
+   /// Gromnir's mace: bespoke version of Ice Star that
+   /// inflicts a 2-round Slow disease effect unless you save
+   /// vs poison at -6, a 10-round 3-hp-per-sec damage disease
+   /// effect unless you save vs poison at -4 , and (25%) a 10-round 1-point Strength
+   /// penalty (save at -2). All are dispellable
+   /// and don't penetrate MR.
+   ///
+   /// The poison.vvc animation plays on a hit (whether or not the save
+   /// is successful). There is a slow icon associated with the slow effect
+   /// and a disease icon with the disease effect. (This is slightly awkward
+   /// in that 'cure disease' removes the slow effect but presumably doesn't
+   /// remove the 'slowed' icon. I think we should just tolerate this on non-EE.
+   /// On EE we'll throw a 321 to get rid of it.)
+   /// We'll add a 'slowed' string and a 'stricken with a foul disease' string.
+   //////////////////////////////////////////////////
+
+   COPY_EXISTING blun35.itm "override/gromnir.itm"
+        LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=78 target=2 timing=0 duration=12 parameter2=10 savebonus="-6" resist_dispel=1 END
+        LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=78 target=2 timing=0 duration=60 parameter1=3 parameter2=3 savebonus="-4" resist_dispel=1 END
+        LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=78 target=2 timing=0 duration=60 parameter1="-1" parameter2=4 savebonus="-2" resist_dispel=1 END
+        LPF ALTER_EFFECT INT_VAR match_opcode=78 save_vs_poison=1 END // ADD_ITEM_EFFECT doesn't take saving throws as input
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=10 opcode=142 parameter2=41 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=10 opcode=139 parameter1=14668 parameter2=0 END
+        LPF CLONE_EFFECT INT_VAR match_parameter1=14668 opcode=267 STR_VAR insert=below END
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=3 opcode=142 parameter2=7 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=3 opcode=139 parameter1=39752 parameter2=0 END
+        LPF CLONE_EFFECT INT_VAR match_parameter1=39752 opcode=267 STR_VAR insert=below END
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=4 opcode=142 parameter2=7 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=78 match_parameter2=10 opcode=139 parameter1=7924 parameter2=0 END
+        LPF CLONE_EFFECT INT_VAR match_parameter1=7924 opcode=267 STR_VAR insert=below END
+   BUT_ONLY
+
+   ACTION_IF enhanced_edition BEGIN
+     ACTION_FOR_EACH spell IN "%CLERIC_CURE_DISEASE%" "%CLERIC_NEUTRALIZE_POISON%" "%CLERIC_HEAL%" DEVAHEAL "%CLERIC_RESTORATION%" BEGIN
+         COPY_EXISTING "%spell%.spl" override
+              LPF CLONE_EFFECT INT_VAR match_opcode=79 opcode=321 timing=0 STR_VAR resource=gromnir END
+         BUT_ONLY
+     END
+   END
+
+END
+
+
+// the main patch for Gromnir (who is a weird berserker/barbarian crossbreed that I won't try to disentangle). Changes are:
+//
+// - resistances etc: lose backstab immunity; gain invisibility detection; 50% MDR; immunity to disease (implemented via a power of his weapon in vAsc)
+// - +3 to movement rate
+// - hp increase to 240, level increase to 22; AC goes to 6
+// - 25% physical resistance and MR
+//   (on vAsc, 50% resistance to magic cold/fire, but fingrom has no immunities so probably dev intent is no resistance)
+// - morale recovery ->10 (from 60)
+// - THAC0 increased to -2 (from fingrom)
+// - loses shout script; bespoke script replaces his combat script
+// - kit changed (wrongly in vAsc) to Berserker
+// - loses barbarian rage; gains 2xberserker rage, 2xhardiness HLA, 3xwhirlwind HLA (3 is from 'fingrom')
+// - item changes: loses offhand weapon (blun34), loses potn52, gains undroppable copy of the ice star with disease ability
+// - gains BHAALIMM (this is a tweak from vAsc, based on the fact that the final-five version gets them and that there's some small prospect
+//   for mildly breaking things if he doesn't get them; gated via ini
+
+DEFINE_PATCH_FUNCTION gromnir_cre_patch BEGIN
+    LPF FJ_CRE_VALIDITY END
+    REMOVE_MEMORIZED_SPELLS
+    LPF CRE_patch
+       INT_VAR hp_max=240
+               hp_current=240
+               level=22
+               ac_natural=6
+               ac_effective=6
+               thac0="-2"
+               resist_piercing=25
+               resist_slashing=25
+               resist_crushing=25
+               resist_missile=25
+               resist_magic=25
+               resist_magic_damage=50
+               morale_recovery=10
+               kit=IDS_OF_SYMBOL (kit berserker)
+               immunity_to_backstab=0
+               detect_invisible=1
+       STR_VAR script_class=""
+               script_default=gromnir
+               add_spells="BERSERKER_ENRAGE(2) WARRIOR_HARDINESS(2) WARRIOR_WHIRLWIND(3)"
+    END
+    LPF ADD_CRE_EFFECT INT_VAR opcode=126 target=1 timing=1 parameter1=3 END // movement bonus
+    LPF disease_immunity END
+    SET_BG2_PROFICIENCY proficiencyflailmorningstar 4
+    SET_BG2_PROFICIENCY proficiencysingleweapon 2
+    SET_BG2_PROFICIENCY proficiency2weapon 0
+    SET_BG2_PROFICIENCY proficiencyaxe 0
+    REMOVE_CRE_ITEM blun34 potn52
+    ADD_CRE_ITEM gromnir #0 #0 #0 "unstealable&undroppable" weapon1 EQUIP
+    LPF check_ini STR_VAR ini=gromnir_immunities RET value END
+    PATCH_IF value BEGIN
+       ADD_CRE_ITEM bhaalimm #0 #0 #0 none amulet
+    END
+END

@@ -1,0 +1,21 @@
+//////////////////////////////////////
+// AI control
+//////////////////////////////////////
+
+IF
+  HotKey(%sarev_hotkey%)
+  Global("ai_inactive","LOCALS",1)
+THEN
+    RESPONSE #100
+             SetGlobal("ai_inactive","LOCALS",0)
+             DisplayStringHead(Myself,@1067)
+END
+
+IF
+  HotKey(%sarev_hotkey%)
+  Global("ai_inactive","LOCALS",0)
+THEN
+    RESPONSE #100
+             SetGlobal("ai_inactive","LOCALS",1)
+             DisplayStringHead(Myself,@1066)
+END

@@ -1,0 +1,174 @@
+     OUTER_SPRINT iren_bodhi_loc "%MOD_FOLDER%/ascensionmain/irenbodhi"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/////    Bodhi and Irenicus (also includes Imoen)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_bodhi_irenicus BEGIN
+
+     LAM load_ascension_tras
+     LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra" // doesn't clash with ascension.tra, non-overlapping namespace
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/////    Bodhi's CRE file
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+////   Her protections:
+////   - first and second level spells
+////   - turn undead immunity
+////   - regeneration 10 hp/sec (!)
+////   - 50% resistance to cold, electricity
+////   - 75% resistance to magic
+////   - 25% resistance to physical damage
+////    (this is not Bodhi's resistance suite from SoA - she has 100% resistance to cold and electricity
+////    - but perhaps that reflects them worrying about OP-ness as a party ally. Anyway, it's pretty
+////      obviously deliberate.)
+////    - she also has an immune3 ring, and ring95, a standard undead-protection item
+////
+////    She has no bespoke items.
+////
+////    Not much to do here, just implement level immunity a bit more robustly, put in a missing on-appearence color glow, and fix her regeneration
+
+COPY "%iren_bodhi_loc%/finbodh.cre" override
+    LPF CRE_first_level_immunity END
+    LPF CRE_second_level_immunity END
+    LPF CRE_regeneration INT_VAR value=10 END
+    LPF ADD_CRE_EFFECT INT_VAR opcode=50 target=1 timing=0 duration=2 parameter1=(400*0x10000 + 93*0x1000000) parameter2=(25*0x10000) END
+
+// BUT_ONLY
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/////    Bodhi's spell resources
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+//// She has three, all shapeshift powers.
+
+//// - BODGASF turns her into gaseous form, gaining 100% resistance to acid, cold and electricity,
+////   50% resistance to fire, a 75% increment to her MDR, 100% resistance to physical damage,
+////   immunity to poison (no point, though, since she's immune anyway as a vampire), collision avoidance, 
+////   a bonus to movement, and a sick (20 hp/sec) regeneration.
+////   The polymorph effect itself is keyed off GASFORM4, but it's appearence-only.
+////   All this lasts for 18 sec.
+
+//// - SPINKRBT transforms into a bat (and sets the KRBODBAT global as a casting effect). This uses 171/172
+////   methods to swap SPINKRBT out and SPINKRVA in. There are no associated powers, only those acquired
+////   from the polymorph template. That's bespoke: KRBODBAT.cre, which is (close enough) Bodhi's original
+////   form with the BAT animation. 
+
+//// - SPINKRVA just inverts SPINKRVA, slightly confusingly using KRBODVAM as a template rather than Bodhi
+////   herself. It does 171/172 and unsets KRBODBAT.
+
+////   So: SPINKRBT and SPINKRVA are pretty much cosmetic. BODGASF is a major defensive cooldown. Bodhi's script
+////   uses SPINKRVA to reverse BODGASF too, but I *seriously* doubt this is robust.
+
+////   Also, the naming of these is mixed up. BODGASF is unnamed. SPINKRVA is misnamed 'shapeshift gaseous form'.
+
+////   Strategy:
+////   - remap BODGASF to a safer and more stable equippable-item-based shapeshift, as per modern best practice.
+////     Have BODGASF remove SPINKRBT.
+////   - remap SPINKRBT likewise, to a bat template based off Bodhi's own creature file.
+////   - remake SPINKRVA as a natural-form spell, stripping itself and regranting SPINKRBT.
+
+// gaseous-form spell
+
+COPY "%iren_bodhi_loc%/bodgasf.spl" override
+     WRITE_LONG NAME1 6522
+     LPF DELETE_EFFECT STR_VAR match_function="opcode_is_not(215)" END  // clear everything non-visual out
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=111 target=1 duration=18 STR_VAR resource=finbodgf END // new weapon
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=172 timing=1 target=1 STR_VAR resource=spinkrbt END  // remove bat power
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=172 timing=1 target=1 STR_VAR resource=spinkrva END  // remove and restore normal-form power
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=171 timing=1 target=1 STR_VAR resource=spinkrva END
+// BUT_ONLY
+
+// gaseous-form weapon
+
+COPY_EXISTING bearbr.itm "override/finbodgf.itm"
+     LPF item_power_patch INT_VAR resist_acid=100 resist_cold=100 resist_electricity=100 resist_fire=50 resist_magic_damage=75 resist_physical=100 resist_magic=0 END
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=98 target=1 parameter1=20 parameter2=2 timing=2 END  // regeneration
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=135 target=1 parameter2=1 timing=2 STR_VAR resource=gasform4 END // polymorph-appearance only
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=300 target=1 parameter2=1 timing=2  END // collision avoidance
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=126 target=1 parameter1=7 timing=2 END // movement rate bonus
+// BUT_ONLY
+
+// bat-form spell
+
+COPY "%iren_bodhi_loc%/spinkrbt.spl" override
+     SAY NAME1 @1003
+     SAY UNIDENTIFIED_DESC @20
+     LPF DELETE_EFFECT INT_VAR match_opcode=135 END // remove polymorph effect
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=111 target=1 duration=360000 STR_VAR resource=finbodbt END // new weapon
+// BUT_ONLY
+
+// bat-form weapon
+
+COPY_EXISTING vamp3.itm "override/finbodbt.itm"
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=135 target=1 parameter2=1 timing=2 STR_VAR resource=c6bat END // polymorph-appearance only
+     LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=126 target=1 parameter1=6 timing=2 STR_VAR resource=gasform4 END // movement rate bonus
+// BUT_ONLY
+
+// natural-form spell
+
+COPY "%iren_bodhi_loc%/spinkrva.spl" override
+     WRITE_LONG NAME1 11826
+     WRITE_LONG UNIDENTIFIED_DESC 100387
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=112 target=1 STR_VAR resource=finbodbt END
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=112 target=1 STR_VAR resource=finbodgf END
+// BUT_ONLY
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+/////    Irenicus's CRE file
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+//// His protections:
+//// - immunity to panic, int drain, slay, polymorph, imprisonment, disintegrate, charm
+//// - MDR 25
+//// - an opcode-managed MDR of 40 which is redundant given his CRE file already sets it
+//// - 50% poison resistance, but not poison immunity
+//// - regeneration 5 hp/sec
+//// - a precast-Stoneskin item
+//// - undroppable copy of the Robe of Vecna
+//// - several bespoke undroppable items, duplicated from in-game items but tweaked in various ways - we might as well just copy them over
+//// He also has a potion of superior healing that he's not scripted to use; he is scripted to use 'finipotn', an undroppable version. We'll
+//// substitute that.
+
+COPY "%iren_bodhi_loc%/finiren.cre" override
+  LPF devour_brain_immunity END
+  LPF polymorph_immunity END
+  LPF disintegrate_immunity END
+  LPF fear_immunity END
+  LPF imprisonment_immunity END
+  LPF charm_immunity END
+  LPF DELETE_EFFECT INT_VAR match_opcode=166 END
+  LPF CRE_regeneration INT_VAR value=5 END
+  REPLACE_TEXTUALLY "potn55" "finipotn" (8)
+// BUT_ONLY
+
+ACTION_FOR_EACH item IN finir0m finir0r irenbrch irenprce finirobe finipotn BEGIN // nb: finirobe is used by simulacrum
+    COPY "%iren_bodhi_loc%/%item%.itm" override
+END
+
+// we also use an invisible creature 'finirat'
+
+COPY "%iren_bodhi_loc%/finirat.cre" override
+
+   //////////////////////////////////////
+   /// Imoen's CRE file
+   //////////////////////////////////////
+
+   COPY "%iren_bodhi_loc%/finimoen.cre" override
+
+   //////////////////////////////////////
+   /// Scripting
+   //////////////////////////////////////
+
+   ACTION_FOR_EACH script IN finbodh finbodhi finirat imoslay2 BEGIN
+      COMPILE "%iren_bodhi_loc%/scripts/%script%.baf"
+   END
+   COPY "%iren_bodhi_loc%/scripts/finiren.baf" "override/finiren.bcs"
+      LPF handle_awkward_ds END
+      COMPILE_BAF_TO_BCS
+
+END

@@ -1,0 +1,81 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+///
+///  Imoen's control script: this appends to the top of her normal script, and applies
+///  whether or not she's in the party (but not if she's the slayer)
+///
+///  Control variables:
+///
+///  - ImoenBackToHuman (global): 0=still the slayer, 1=changed back by imoslay script,
+///    2=has had post-returning-to-human conversation
+///
+///  - IMODUST (local): set to 1 by the IMOSLAY1/IMOSLAY3 spell, and to 0 by the IMOSLAY2/IMOSLAY4
+///    spell, i.e. it's 1 when she's the slayer.
+///
+//////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////
+// If killed in slayer form, disintegrate (DW fix, was not working properly in vAsc
+// since the block was in the wrong script and since you can't apply the 'disintegrate'
+// spell to a dead pc.)
+/////////////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("IMODUST","LOCALS",1)
+  StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+  RESPONSE #100
+    SetGlobal("IMODUST","LOCALS",2)
+    CreateVisualEffectObject("SPROTECT",Myself)
+    CreateVisualEffectObject("SPDUSTY2",Myself)
+    LeaveParty()
+    DestroySelf()
+END
+
+/////////////////////////////////////////////////////////////////////////////////
+// Talk to CHARNAME after returning to human form
+//
+// I think the original version has Dialog and StartDialogNoSet inverted. For
+// safety and robustness we'll do it direct with a StartDialogNoSet
+/////////////////////////////////////////////////////////////////////////////////
+
+IF
+  Delay(2)
+  Allegiance(Myself,NEUTRAL)
+  Global("ImoenBackToHuman","GLOBAL",1)
+        !StateCheck(Player1,CD_STATE_NOTVALID)
+        !Allegiance(Player1,ENEMY) // not dominated by Bodhi
+THEN
+  RESPONSE #100
+    StartDialogNoSet(Player1)
+END
+
+/////////////////////////////////////////////////////////////////////////////////
+// If for some reason not neutral in the gap between returning to human form and
+// talking to CHARNAME, reset to neutral
+/////////////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("FinalFight","AR6200",3)
+  !Allegiance(Myself,NEUTRAL)
+  Global("ImoenBackToHuman","GLOBAL",1)
+  !InParty(Myself)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+/////////////////////////////////////////////////////////////////////////////////
+// If the fight is still going on for some reason, just wander around in a panic
+// (shouldn't fire)
+/////////////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("FinalFight","AR6200",3)
+  !InParty(Myself)
+  AreaCheck("AR6200")
+  Global("ImoenBackToHuman","GLOBAL",1) // not after conversation (DW addition, for cosmetic reasons - messes with her DRYAD_TELEPORT)
+THEN
+  RESPONSE #100
+    RandomWalkContinuous()
+END
+

@@ -1,0 +1,60 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   Balthazar's flunkies' resources
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION balthazar_monk_resources BEGIN
+
+///   Balthazar's Adherents (BALELIT1-4) are built from BALELITE, with these differences:
+///   - lose immunity to Haste; I'm not sure why this is. (I just remove the opcode and don't worry about unpicking the secondary bits)
+///   - hp->185
+///   - THAC0 goes to -4 (from 3)
+///   - AC goes to -2 (from 0)
+///   - 27% physical damage resistance and magic damage resistance
+///   - save vs death goes to 1 (from 4)
+///   - get undroppable STAF08
+///   - get HLAs: 1-2 get 1 Hardiness, 3-4 get Whirlwind Attack
+///   - bespoke scripts and dvs matching their CRE names
+///   - called 'Adherent' (43636)
+
+///   As for scripting, the elites differ thus: compared to BALELIT1:
+///   BALELIT2 uses Shadowless Kick instead of Dragon Fist and uses Stunning blow at slightly different range
+///   BALELIT3 uses Tiger Strike instead of Dragon fist, and Whirlwind instead of Hardiness, and uses Stunning blow at slightly different range
+///   BALELIT4 uses Hand of Murder instead of Dragon fist, and Whirlwind instead of Hardiness, and uses Stunning blow at slightly different range
+
+  COPY_EXISTING balelite.cre override // make base changes to the (otherwise-unused) BALELITE
+      LPF CRE_patch
+         INT_VAR hp_max=185
+                 hp_current=185
+                 name1_string=43636
+                 name2_string=43636
+                 thac0="-4"
+                 ac_natural="-2"
+                 ac_effective="-2"
+                 resist_piercing=27
+                 resist_slashing=27
+                 resist_crushing=27
+                 resist_missile=27
+                 resist_magic_damage=27
+                 save_vs_death=1
+      END
+      ADD_CRE_ITEM staf08 #0 #0 #0 "unstealable&undroppable" weapon2
+      LPF DELETE_EFFECT INT_VAR match_opcode=101 match_parameter2=16 END
+  BUT_ONLY
+
+  ACTION_FOR_EACH monk IN balelit1 balelit2 balelit3 balelit4 BEGIN
+   COPY_EXISTING "balelite.cre" "override/%monk%.cre"
+       PATCH_MATCH "%monk%" WITH
+       balelit1 balelit2 BEGIN
+          SPRINT add_spells WARRIOR_HARDINESS
+       END
+       DEFAULT
+          SPRINT add_spells WARRIOR_WHIRLWIND
+       END
+       LPF CRE_patch
+          STR_VAR dv="%monk%"
+                  script_default="%monk%"
+                  add_spells
+       END
+   BUT_ONLY
+  END
+END

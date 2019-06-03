@@ -1,0 +1,112 @@
+
+
+///////////////////////////////////////////////////////////////////
+///  If Sarevok swore an oath, that decreases his 'will I become good?'
+///  score by 1.
+///////////////////////////////////////////////////////////////////
+
+IF
+  Global("SarevokOath","GLOBAL",1)
+  Global("LowerChange","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("LowerChange","LOCALS",1)
+    IncrementGlobal("SarevokChange","GLOBAL",-1)
+END
+
+/////////////////////////////////////////////////////////////////////////
+/// Sarevok's dialog interjections
+/////////////////////////////////////////////////////////////////////////
+
+
+IF
+  HasItem("sw2h16",Myself)
+  Global("SarevokHasSword","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("SarevokHasSword","LOCALS",1)
+    ReallyForceSpellRES("reavimm",Myself)
+    StartDialogNoSet([PC])
+END
+
+IF
+  InParty(Myself)
+  PartyRested()
+  See(Player1)
+  Global("ExpBSarevok10","GLOBAL",0)
+  Global("ForceTalk1","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk1","LOCALS",1)
+    RealSetGlobalTimer("SarevokTalkPC1","GLOBAL",60)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  Dead("gromnir")
+  Global("ExpBSarevok10","GLOBAL",1)
+  Global("ForceTalk2","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk2","LOCALS",1)
+    RealSetGlobalTimer("SarevokTalkPC2","GLOBAL",90)
+END
+
+IF
+  InParty(Myself)
+  See(Player1)
+  GlobalGT("Enclave","GLOBAL",0)
+  Global("ExpBSarevok10","GLOBAL",2)
+  Global("ForceTalk3","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk3","LOCALS",1)
+    RealSetGlobalTimer("SarevokTalkPC3","GLOBAL",120)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("SarevokTalkPC1","GLOBAL")
+  !StateCheck(Player1,STATE_SLEEPING)
+  Global("ExpBSarevok10","GLOBAL",0)
+  Global("ForceTalk1","LOCALS",1)
+  See(Player1)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk1","LOCALS",2)
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("SarevokTalkPC2","GLOBAL")
+  !StateCheck(Player1,STATE_SLEEPING)
+  Global("ExpBSarevok10","GLOBAL",1)
+  Global("ForceTalk2","LOCALS",1)
+  See(Player1)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk2","LOCALS",2)
+    Interact(Player1)
+END
+
+IF
+  InParty(Myself)
+  RealGlobalTimerExpired("SarevokTalkPC3","GLOBAL")
+  !StateCheck(Player1,STATE_SLEEPING)
+  Global("ExpBSarevok10","GLOBAL",2)
+  Global("ForceTalk3","LOCALS",1)
+  See(Player1)
+  !See([ENEMY])
+  !Range([NEUTRAL],10)
+THEN
+  RESPONSE #100
+    SetGlobal("ForceTalk3","LOCALS",2)
+    Interact(Player1)
+END
+

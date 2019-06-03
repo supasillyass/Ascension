@@ -1,0 +1,226 @@
+DEFINE_ACTION_FUNCTION ascension_imoen_powers BEGIN
+
+   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra"
+
+
+   //////////////////////////////////////
+   //////////////////////////////////////
+   /// Slayer powers
+   //////////////////////////////////////
+   //////////////////////////////////////
+
+   ///////////////////////////////////
+   // start with a solid baseline
+   ///////////////////////////////////
+
+
+   INCLUDE ~ascension/powers/improved_slayer_powers.tpa~
+
+
+   LAF run_once STR_VAR function=slayer_powers_baseline END
+
+   /////////////////////////////////////////////////////////////
+   /// Make weapons for the enhanced powers
+   /////////////////////////////////////////////////////////////
+
+   LAF run_once STR_VAR function=slayer_weapon_enhancements END
+
+
+   /////////////////////////////////////////////////////////////
+   /// Imoen needs:
+   /// - 'imoslay1' - involuntary slayer change
+   /// - 'imoslay2' - restore after imoslay1
+   /// - 'imoslay3' - voluntary slayer change
+   /// - 'imoslay4' - restore after imoslay3
+   /// - 'finimohd' - new (DW) power that paralyses her during
+   ///                the cutscene
+   /////////////////////////////////////////////////////////////
+
+   ACTION_IF !enhanced_edition BEGIN
+         ADD_SECTYPE SlayerSectype ""
+   END
+
+   ///////////////////////////////////////////////
+   // imoslay1 - use SLAYER_CHANGE_CUT_SCENE as a baseline
+   // changes: 
+   // - level 2 slayer power
+   // - Imoen gets an 18-second minhp1
+   // - apply Dispel Magic
+   // - strip spell protections
+   // - cure the paralysis effect from finimohd
+   // - include the holy-light effect
+   // - weapon effect (and any other stray effects) lasts 72 seconds
+   //   (60 secs is how long it takes for official effect to end)
+   ///////////////////////////////////////////////////////
+
+   COPY_EXISTING "%SLAYER_CHANGE_CUT_SCENE%.spl" "override/imoslay1.spl"
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=2 timing=1 target=1 END
+        LPF ALTER_EFFECT INT_VAR match_opcode=111 STR_VAR resource=finslay2 END
+        LPF ALTER_EFFECT INT_VAR match_timing=0 duration=72 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=58 target=2 timing=1 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=221 target=2 timing=1 parameter1=9 parameter2=1 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=221 parameter2=2 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=208 target=2 parameter1=1 duration=18 END
+        PATCH_IF !enhanced_edition BEGIN // just to clean up, apply sectype magic to remove
+             WRITE_BYTE 0x27 SlayerSectype
+        END
+        LPF ALTER_SPELL_HEADER INT_VAR projectile=255 END
+   BUT_ONLY
+
+   ///////////////////////////////////////////////
+   // imoslay2 - use SLAYER_BACK_TO_HUMAN as a baseline
+   ///////////////////////////////////////////////////////
+
+   COPY_EXISTING "%SLAYER_BACK_TO_HUMAN%.spl" "override/imoslay2.spl"
+        LPF ALTER_EFFECT INT_VAR silent=1 match_opcode=321 STR_VAR resource=imoslay1 END // on EE, this makes it remove the effect (on non-EE we're covered by the sectype move anyway)
+   BUT_ONLY
+
+   ///////////////////////////////////////////////
+   // imoslay3 - use SLAYER_CHANGE_TWO as a baseline
+   // changes:
+   // - needs icon
+   // - documentation (for EE)
+   // - imoen never goes berserk
+   // - needs to grant imoslay4 as the remove power
+   // - because we do a 321 (or 221) to strip imoslay3
+   // - when Imoen returns to human, we need to use imoslay4
+   // to regrant her slayer ability - we can't do it here
+   // - set IMODUST to 1 (controls whether she disintegrates
+   // on death)
+   // - IMOETH not usable when in slayer form
+   // - remove ethereality
+   ///////////////////////////////////////////////////////
+
+
+
+   COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" "override/imoslay3.spl"
+       LPF slayer_desc_patch INT_VAR tra_ref=13 END
+       LPF ALTER_SPELL_HEADER STR_VAR icon=spin822b END
+       LPF DELETE_EFFECT STR_VAR match_resource="%SLAYER_START%" END
+       LPF ALTER_EFFECT STR_VAR match_resource="%SLAYER_BACK_TO_HUMAN%" resource=imoslay4 END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=309 target=2 timing=1 parameter1=1 STR_VAR resource=IMODUST END
+       LPF DELETE_EFFECT INT_VAR match_opcode=146 END
+       LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=1 opcode=172 STR_VAR resource=imoeth END
+   BUT_ONLY
+
+   ///////////////////////////////////////////////
+   // imoslay4 - use SLAYER_BACK_TO_HUMAN as a baseline
+   // changes: regrants the power, unsets IMODUST, regrants ethereality
+   ///////////////////////////////////////////////////////
+
+   COPY_EXISTING "%SLAYER_BACK_TO_HUMAN%.spl" "override/imoslay4.spl"
+        SAY UNIDENTIFIED_DESC @6
+        PATCH_IF enhanced_edition BEGIN
+            LPF ALTER_EFFECT INT_VAR match_opcode=321 STR_VAR resource=imoslay3 END // on EE, this makes it remove the effect (on non-EE we're covered by the sectype move anyway)
+        END
+        LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=1 opcode=172 STR_VAR resource=imoslay3 END
+        LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=4 duration=186 opcode=171 STR_VAR resource=imoslay3 END
+        LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=1 opcode=171 STR_VAR resource=imoeth END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=309 target=2 timing=1 parameter1=0 STR_VAR resource=IMODUST END
+   BUT_ONLY
+   
+   ///////////////////////////////////////////////
+   // finimohd - built from HELL_HOLD
+   ///////////////////////////////////////////////
+
+   COPY_EXISTING "%HELL_HOLD%.spl" "override/finimohd.spl"
+        LPF DELETE_EFFECT INT_VAR match_opcode=206 END
+        LPF ALTER_EFFECT INT_VAR opcode=39 parameter1=0 parameter2=0 timing=0 duration=20 END
+   BUT_ONLY
+
+   ///////////////////////////////////////////////
+   // finimocr - built from finimohd
+   ///////////////////////////////////////////////
+
+   COPY_EXISTING finimohd.spl "override/finimocr.spl"
+     //   LPF ALTER_EFFECT INT_VAR match_opcode=39 opcode=2 timing=1 END
+      LPF ALTER_EFFECT INT_VAR match_opcode=39 opcode=321 parameter1=1 parameter2=1 timing=0 STR_VAR resource=finimohd END
+   BUT_ONLY
+
+   //////////////////////////////////////
+   //////////////////////////////////////
+   /// Ethereality
+   //////////////////////////////////////
+   //////////////////////////////////////
+
+   ///////////////////////////////////////////////////////////////////////////
+   /// As documented, the power should:
+   /// - grant complete invisibility and immunity from harm for 1 round, during
+   /// which time spells and abilities cannot be used
+   /// - grant a further 2 rounds invisible and 50% immune to damage
+   /// - give 3 rounds ability to see invisible creatures
+   /// - block Slayer Change for 10 rounds
+   /// - be usable once per 10 rounds
+   ///
+   /// The implementation is a little shaky in a couple of places; we'll redo
+   /// it from scratch
+   ///////////////////////////////////////////////////////////////////////////
+
+   COPY_EXISTING "%WIZARD_IMPROVED_INVISIBILITY%.spl" "override/imoeth.spl"
+         WRITE_LONG 0x8 23359
+         SAY 0x50 @1
+         LPF SPL_patch INT_VAR spell_type=4 casting_animation=0 END
+         FOR (i=2;i<50;i+=1) BEGIN
+            LPF DELETE_SPELL_HEADER INT_VAR min_level=i END
+         END
+         LPF ALTER_SPELL_HEADER INT_VAR speed=1 location=4 target=5 speed=0 END
+         // remove lighting effects
+         LPF DELETE_EFFECT INT_VAR match_opcode=141 END
+         // alter durations and powers, and make undispellable
+         LPF ALTER_EFFECT INT_VAR power=0 resist_dispel=0 END
+         LPF ALTER_EFFECT INT_VAR match_duration=60 duration=18 END
+         // cosmetic effects
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=215 target=1 duration=2 STR_VAR resource=spfleshs END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=66 target=1 parameter1=90 duration=18 END // translucency
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=291 target=1 parameter1=1 duration=18 END
+         // one round immunity to harm
+         // we implement as:
+         // - immunity to the damage opcode
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=101 target=1 duration=6 parameter2=12 END
+         // - immunity to spells of levels 1-9
+         FOR (level=1;level<=9;level+=1) BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=102 target=1 parameter1=level duration=6 END
+         END
+         // - immunity to weapons, magical and nonmagical
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=120 target=1 parameter2=1 duration=6 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=120 target=1 parameter2=2 duration=6 END
+         // one-round loss of abilities
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=145 target=1 parameter2=0 duration=6 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=145 target=1 parameter2=2 duration=6 END
+         // 3 rounds of 50% damage reduction
+         PATCH_FOR_EACH opcode IN 31 84 85 27 28 29 30 86 87 88 89 BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode target=1 duration=18 parameter1=50 END
+         END
+         // 3 rounds of detect-invisible-by-script
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=193 target=1 duration=18 END
+         // 3 rounds of 10% casting failure
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=60 target=1 parameter1=10 duration=18 END
+         // remove and regrant slayer power
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=1 STR_VAR resource=imoslay3 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=171 target=1 timing=4 duration=60 STR_VAR resource=imoslay3 END
+         // remove and regrant ethereality power
+         LPF ADD_SPELL_CFEFFECT INT_VAR opcode=172 target=1 STR_VAR resource=imoeth END
+         LPF ADD_SPELL_CFEFFECT INT_VAR opcode=171 target=1 timing=4 duration=60 STR_VAR resource=imoeth END
+   BUT_ONLY
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+/// Build a power to grant the slayer-change and ethereal powers to 
+/// Imoen (in vAsc they're given as side-effects of imoslay2, but that
+/// makes their appearance rather obscure to the player)
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+
+    COPY_EXISTING "%GIVE_SLAYER_POWER%.spl" "override/finimogr.spl"
+          LPF ALTER_EFFECT INT_VAR match_opcode=139 parameter1=RESOLVE_STR_REF (@15) END
+          LPF ALTER_EFFECT INT_VAR silent=1 match_opcode=146 opcode=171 parameter2=0 END // revert change in Slayer-powers component, if present
+          LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=imoslay3 END
+          LPF CLONE_EFFECT INT_VAR match_opcode=171 STR_VAR resource=imoeth END
+    BUT_ONLY
+
+
+
+END

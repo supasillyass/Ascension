@@ -1,0 +1,15 @@
+DEFINE_ACTION_FUNCTION imoen_npc BEGIN
+
+    OUTER_SPRINT npc_loc "%MOD_FOLDER%/npc"
+
+    // change weights and triggers in Imoen's banter
+
+    COMPILE "%npc_loc%/d/bimoen25.d"
+    
+    // Imoen's script autotriggers banters at appropriate points
+    
+    EXTEND_TOP imoe25.bcs "%npc_loc%/baf/imoe25.baf"
+
+END
+
+

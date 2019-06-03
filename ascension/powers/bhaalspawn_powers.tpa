@@ -1,0 +1,256 @@
+DEFINE_ACTION_FUNCTION bhaalspawn_powers BEGIN
+
+LAM load_ascension_tras
+
+//////////////////////////////////////////////////////////////////////////////////////
+// Extend the Pocket Plane script (this applies all the changes)
+//
+// On EE, we don't need the journal entries, which just serve to document the powers
+//////////////////////////////////////////////////////////////////////////////////////
+
+     EXTEND_TOP ar4500.bcs "%MOD_FOLDER%/powers/baf/ar4500.baf"
+          PATCH_IF enhanced_edition BEGIN
+             REPLACE_TEXTUALLY "AddJournalEntry([^)]*)" " "
+          END
+
+//////////////////////////////////////////////////////////////////////////////////////
+// The actual powers
+//
+// These powers are already in game, but require a few fixes
+//////////////////////////////////////////////////////////////////////////////////////
+
+// Dark Taint - saving throws aren't reliably correct, a couple of malformed details
+
+COPY_EXISTING "bhaal2b.spl" override
+   GET_OFFSET_ARRAY ab_array SPL_V10_HEADERS
+   PHP_EACH ab_array AS ind=>ab_off BEGIN
+      // get level
+      READ_SHORT (0x10+ab_off) min_level
+      // on the top-level header, patch the projectile
+      PATCH_IF min_level=25 BEGIN
+         WRITE_SHORT (0x26 + ab_off) 237
+      END
+      // cycle through effects
+      GET_OFFSET_ARRAY2 fx_array ab_off SPL_V10_HEAD_EFFECTS
+      PHP_EACH fx_array AS ind2=>fx_off BEGIN
+         // enforce correct saving throw
+         PATCH_IF !(BYTE_AT (0x24 + fx_off)=0) BEGIN // effect grants saving throw
+            PATCH_IF min_level < 15 BEGIN
+               WRITE_LONG (0x28 + fx_off) "-2"
+            END ELSE BEGIN
+               WRITE_LONG (0x28 + fx_off) "-4"
+            END
+         END
+      END
+      // remove the L19 ability section, which isn't needed according to the description
+      LPF DELETE_SPELL_HEADER INT_VAR min_level=19 END
+   END
+
+// Hand of Murder - applies a level-dependent MeleeHitEffect that applies an effect that in turn applies a spell.
+// In EE, the effects are missing, though the spells are present. This code taken directly from EEAsc.
+
+//COPY FILES
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override~
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override/bh3b2.eff~
+  WRITE_ASCII   0x30 "BH3B2" #8
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override/bh3b3.eff~
+  WRITE_ASCII   0x30 "BH3B3" #8
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override/bh3b4.eff~
+  WRITE_ASCII   0x30 "BH3B4" #8
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override/bh3b5.eff~
+  WRITE_ASCII   0x30 "BH3B5" #8
+COPY ~ascension/powers/resource/bh3b1.eff~  ~override/balth01a.eff~ //Balthazar can now have Hand of Murder?
+  WRITE_ASCII   0x30 "BALTH01A" #8
+ 
+// on EE, hand of murder's payload spells may as well use 'drain hp to target'
+
+ACTION_IF enhanced_edition BEGIN
+   ACTION_FOR_EACH spell IN bh3b1 bh3b2 bh3b3 bh3b4 bh3b5 BEGIN
+      COPY_EXISTING "%spell%.spl" override
+           LPF DELETE_EFFECT INT_VAR match_opcode=17 END
+           LPF ALTER_EFFECT INT_VAR match_opcode=12 drain_hp_to_caster=1 END
+      BUT_ONLY
+   END
+END
+
+// hand of murder re-uses the 'draw upon holy might' icon; recolor it.
+
+LAF hand_of_murder_bam END
+
+
+
+// bhaal2a (draw upon holy might) is, boringly, the only power that just duplicates a BG1 power. We replace it with the similar
+// but slightly more powerful Divine Gift (ini gated)
+
+LAF check_ini STR_VAR ini=replace_duhm RET value END
+ACTION_IF value BEGIN
+   LAF divine_gift END
+END
+
+// bhaal3a (energy drain) and bhaal4b (damage resistance) are granted passive abilities, but could
+// usefully advertise their presence better. We do this through a tweak of the ar4500 script.
+
+//////////////////////////////////////////////////////////////////////////////////////
+// The descriptions
+//
+// They only matter on EE, and for the most part are patched in already. But Resurrection
+// and Regeneration are fobbed off with spell clones; give them their own.
+//////////////////////////////////////////////////////////////////////////////////////
+
+WITH_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%LANGUAGE%/description.tra" BEGIN
+
+COPY_EXISTING "bhaal1b.spl" override
+      SAY 0x50 @7
+BUT_ONLY
+COPY_EXISTING "bhaal4a.spl" override
+      SAY 0x50 @8
+BUT_ONLY
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////
+/// restore lost BG1 powers
+//////////////////////////////////////////////////////////////////////////////////////
+
+  LAF check_ini STR_VAR ini=no_restored_bg1_powers RET value END
+  ACTION_IF !value BEGIN
+      LAF bg1_bhaalspawn_powers END
+  END
+  
+////////////////////
+/// end of function
+////////////////////
+
+END
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+/// DavidW's function to restore lost BG1 Bhaal powers at the start of ToB (i.e., 
+/// as soon as you defeat Irenicus)
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION bg1_bhaalspawn_powers BEGIN
+
+// in SoA, powers are controlled by 'abstart.2da'. We parse it, and construct nine spells, one for
+// each alignment, that restore the powers
+
+COPY_EXISTING abstart.2da "%workspace%"
+    READ_2DA_ENTRIES_NOW bhaal_powers 7
+    FOR (row=0;row<bhaal_powers;row+=1) BEGIN
+      READ_2DA_ENTRY_FORMER bhaal_powers row 0 align
+      FOR (col=1;col<7;col+=1) BEGIN
+         READ_2DA_ENTRY_FORMER bhaal_powers row col spell
+         SPRINT $bhaal_power("%col%") "%spell%"
+      END
+      INNER_ACTION BEGIN
+           COPY_EXISTING "%LOSE_ALL%.spl" "override/finpo%align%.spl"
+               WRITE_LONG NAME1 "-1"
+               WRITE_LONG NAME2 "-1"
+               LPF DELETE_EFFECT END
+               LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=1 parameter1=RESOLVE_STR_REF(@1044) END
+               FOR (entry=1;entry<7;entry+=1) BEGIN
+                  SPRINT resource $bhaal_power("%entry%")
+                  LPF ADD_SPELL_EFFECT INT_VAR opcode=171 target=2 timing=1 STR_VAR resource END
+               END
+           BUT_ONLY
+      END
+    END
+BUT_ONLY
+
+ACTION_FOR_EACH lc_align IN LAWFUL NEUTRAL CHAOTIC BEGIN
+   ACTION_FOR_EACH ge_align IN GOOD NEUTRAL EVIL BEGIN
+      OUTER_SPRINT alignment "%lc_align%_%ge_align%"
+      OUTER_INNER_PATCH_SAVE spell "%alignment%" BEGIN
+           REPLACE_TEXTUALLY "^\([LNC]\)[^_]*_\([GNE]\).*$" "FINPO\1_\2"
+      END
+      ACTION_IF "%alignment%" STRING_EQUAL_CASE "NEUTRAL_NEUTRAL" BEGIN
+         OUTER_SPRINT alignment NEUTRAL
+      END
+
+      <<<<<<<< .../stratagems-inline/extend.baf
+      IF
+        !Global("fin_bg1_powers_restored","GLOBAL",1)
+        Alignment(Player1,%alignment%)
+      THEN
+          RESPONSE #100
+                   SetGlobal("fin_bg1_powers_restored","GLOBAL",1)
+                   ApplySpellRES("%spell%",Player1)
+                   Continue()
+      END
+      >>>>>>>>
+      EXTEND_BOTTOM "ar4000.bcs" ".../stratagems-inline/extend.baf" EVALUATE_BUFFER
+      EXTEND_BOTTOM "ar3000.bcs" ".../stratagems-inline/extend.baf" EVALUATE_BUFFER // allow for SCS change of start location
+   END
+END
+
+
+
+
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+/// DavidW's function to rewrite BHAAL2A (currently, boringly, just Draw Upon Holy Might)
+/// as a more powerful version (one that sets STR/CON/DEX to 25)
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION divine_gift BEGIN
+  WITH_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%LANGUAGE%/description.tra" BEGIN
+   COPY_EXISTING bhaal2a.spl override
+          SAY NAME1 @1062
+          SAY UNIDENTIFIED_DESC @21
+          WRITE_ASCII 0x3a SPPR412C // divine power
+          FOR (min_level=2;min_level<50;min_level+=1) BEGIN
+              LPF DELETE_SPELL_HEADER INT_VAR header_type="-1" min_level END
+          END
+          LPF ALTER_SPELL_HEADER STR_VAR icon=SPPR412B END
+          LPF ALTER_EFFECT INT_VAR match_opcode=132 parameter1="-1" END
+   BUT_ONLY
+
+  END
+
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+/// Main and helper functions to recolor the Hand of Murder
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+DEFINE_ACTION_FUNCTION hand_of_murder_bam BEGIN
+
+   COPY_EXISTING sppr214b.bam "override/finmurb.bam"
+       LPF patch_colors STR_VAR condition=is_blue action=col_swap END
+   BUT_ONLY
+
+   COPY_EXISTING "bhaal3b.spl" override
+        REPLACE_TEXTUALLY sppr214b finmurb (8)
+   BUT_ONLY
+END
+
+DEFINE_PATCH_FUNCTION col_swap
+    INT_VAR red=0 green=0 blue=0
+    RET red green blue
+BEGIN
+    SET blue_old=blue
+    SET red_old=red
+    SET green_old=green
+    SET red=blue_old
+    SET blue=red / 2
+    SET green=red / 2
+END
+
+DEFINE_PATCH_FUNCTION is_blue
+    STR_VAR red=0 green=0 blue=0
+    RET value
+BEGIN
+    SET value=(blue - red)>=50
+END
+
+

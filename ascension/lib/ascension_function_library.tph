@@ -1,0 +1,674 @@
+/////////////////////////////////////////////////////
+//   Functions written specifically for Ascension
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+//// Load the core translation files
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_MACRO load_ascension_tras
+BEGIN
+ ACTION_IF !VARIABLE_IS_SET asc_tras_loaded BEGIN
+   LOAD_TRA "%ascension_tra_loc%/english/ascension.tra" "%ascension_tra_loc%/%language%/ascension.tra"
+   ACTION_IF enhanced_edition BEGIN
+        LOAD_TRA "%ascension_tra_loc%/english/ee.tra" "%ascension_tra_loc%/%language%/ee.tra"  // ee-style descriptions for two items
+   END
+   OUTER_SET asc_tras_loaded=1
+ END
+END
+
+
+/////////////////////////////////////////////////////
+//// Compile a dialog file with its tra file
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION compile_dialog
+   STR_VAR dialog=""
+           root=""
+BEGIN
+   WITH_TRA "%ascension_tra_loc%/english/%dialog%.tra" "%ascension_tra_loc%/%LANGUAGE%/%dialog%.tra" BEGIN
+      COMPILE "%root%/%dialog%.d"
+   END
+END
+
+/////////////////////////////////////////////////////
+//// Create a dialog file if it doesn't exist already
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION make_dialog
+   STR_VAR dialog=""
+BEGIN
+<<<<<<<< .../stratagems-inline/make_dialog.d
+BEGIN "%dialog%"
+>>>>>>>>
+   ACTION_IF !FILE_EXISTS_IN_GAME "%dialog%.dlg" BEGIN
+       COMPILE ".../stratagems-inline/make_dialog.d" EVALUATE_BUFFER
+   END
+END
+
+/////////////////////////////////////////////////////
+//// Set up an epilogue textscreen
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION edit_epilogue
+   INT_VAR text_tra_ref="-1"
+   STR_VAR file=""
+           portrait=""
+           text=""
+BEGIN
+   ACTION_IF text_tra_ref>0 BEGIN
+       OUTER_SET strref=RESOLVE_STR_REF ((AT text_tra_ref ))
+   END ELSE 
+   ACTION_IF "%string%" STRING_COMPARE "" BEGIN
+       OUTER_SET strref=RESOLVE_STR_REF ("%text%")
+   END ELSE BEGIN
+       OUTER_SET strref="-1"
+   END
+   ACTION_IF !FILE_EXISTS_IN_GAME "%file%.2da" BEGIN
+      COPY_EXISTING "anomend1.2da" "override/%file%.2da"
+      ACTION_IF "%portrait%" STRING_EQUAL "" BEGIN
+         WARN "Making epilogue file %file%; this is a new file, but no portrait has been defined"
+      END
+      ACTION_IF strref<0 BEGIN
+          WARN "making epilogue file %file%, but no epilogue text has been defined"
+      END
+   END
+   COPY_EXISTING "%file%.2da" override
+         PATCH_IF strref>=0 BEGIN
+            SET_2DA_ENTRY 1 2 3 strref
+         END
+         PATCH_IF "%portrait%" STRING_COMPARE "" BEGIN
+            REPLACE_TEXTUALLY "\*.*$" "*%portrait%"
+         END
+   BUT_ONLY
+END
+
+/////////////////////////////////////////////////////
+//// Insert a new epilogue at the start of the relevant
+//// bit of AR6200 script
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION insert_epilogue 
+         STR_VAR guard=""
+                 var=""
+                 textscreen=""
+BEGIN
+
+<<<<<<<< .../stratagems-inline/epilogue.baf
+IF
+	Global("StartEndBios","AR6200",1)
+	%guard%
+	Global("%var%","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("%var%","GLOBAL",1)
+		TextScreen("%textscreen%")
+		SmallWait(1)
+		Continue()
+END
+>>>>>>>>
+
+     LAF INSERT_SCRIPT_BLOCK 
+           INT_VAR insert_above=1 
+                   only_once=1
+           STR_VAR insert=".../stratagems-inline/epilogue.baf"
+                   script=ar6200
+                   match1="StartEndBios"
+                   match2="TextScreen"
+     END
+END
+
+/////////////////////////////////////////////////////
+//// Add an actor (mostly a wrap for fj_are_struct)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+  ADD_ARE_ACTOR
+      INT_VAR loc_x="-1"
+              loc_y="-1"
+              dest_x ="-1"
+              dest_y ="-1"
+              animation=57376
+          STR_VAR name=""
+                  resref=""
+                  orientation="S"
+BEGIN
+   PATCH_IF dest_x<0 BEGIN
+      SET dest_x=loc_x
+   END
+   PATCH_IF dest_y<0 BEGIN
+      SET dest_y=loc_y
+   END
+   LPF fj_are_structure
+       INT_VAR fj_loc_x=loc_x
+               fj_loc_y=loc_y
+               fj_dest_x=dest_x
+               fj_dest_y=dest_y
+               fj_animation=animation
+               fj_orientation=IDS_OF_SYMBOL(dir "%orientation%")
+       STR_VAR
+               fj_cre_resref="%resref%"
+               fj_name="%name%"
+               fj_structure_type=actor
+   END
+END
+
+/////////////////////////////////////////////////////
+//// Immunity to Mind Flayers' devour-brain ability
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+       devour_brain_immunity
+   INT_VAR value=1
+BEGIN
+      LPF immunity_to_opcode INT_VAR value STR_VAR arguments=19 END
+      LPF immunity_to_icon INT_VAR value STR_VAR arguments=86 END
+      LPF remove_icon INT_VAR value STR_VAR arguments=86 END
+      LPF immunity_to_string INT_VAR value STR_VAR arguments=32089 END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Polymorph Self
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        polymorph_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_spell INT_VAR value STR_VAR arguments="%WIZARD_POLYMORPH_OTHER% SPWM113 %WIZARD_SPHERE_OF_CHAOS%" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=135 END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Petrification
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        petrify_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=134 END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14665" END
+
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to death magic
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        death_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments="51" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="13 55 209" END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14026 64285" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Entangle and Web (also grease)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        entangle_web_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_spell INT_VAR value STR_VAR arguments="%CLERIC_ENTANGLE% %WIZARD_WEB% %WIZARD_GREASE%" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="154 157" END
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments="129 144" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Charm
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        charm_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14007 17427" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=5 END
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments="0 1 43" END
+   LPF immunity_to_animation INT_VAR value STR_VAR arguments="SPFLAYER SPNWCHRM" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Fear
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        fear_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14780 14672 8364" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="24" END
+   LPF DELETE_EFFECT STR_VAR match_function="opcode_is(23 106 161)" END
+   PATCH_IF value BEGIN
+         PATCH_IF "%SOURCE_EXT%" STRING_EQUAL_CASE "itm" BEGIN
+            LPF ADD_ITEM_EQEFFECT INT_VAR target=1 timing=2 opcode=23 END
+            LPF ADD_ITEM_EQEFFECT INT_VAR target=1 timing=2 opcode=161 END
+            LPF ADD_ITEM_EQEFFECT INT_VAR target=1 timing=2 opcode=106 parameter1=1 parameter2=1 END
+         END ELSE BEGIN
+            LPF ADD_CRE_EFFECT INT_VAR target=1 timing=9 opcode=23 END
+            LPF ADD_CRE_EFFECT INT_VAR target=1 timing=9 opcode=161 END
+            LPF ADD_CRE_EFFECT INT_VAR target=1 timing=9 opcode=106 parameter1=1 parameter2=1 END
+         END
+   END
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments=36 END
+   LPF immunity_to_animation INT_VAR value STR_VAR arguments="CDHORROR" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Imprisonment
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        imprisonment_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_spell INT_VAR value STR_VAR arguments="%WIZARD_IMPRISONMENT%" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=211 END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Disintegrate
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        disintegrate_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_spell INT_VAR value STR_VAR arguments="SPWI616" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=238 END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Silence
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        silence_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments=34 END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=38 END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14676 14002" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Stun
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        stun_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments=55 END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="210 45"  END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14043 1280" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Sleep
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        sleep_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments=14 END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="39 217" END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14001" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Poison
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        poison_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_spell INT_VAR value STR_VAR arguments="SPWI616" END
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=25 END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14017 14662" END
+   LPF DELETE_EFFECT INT_VAR match_opcode=173 END
+   PATCH_IF value BEGIN
+     READ_ASCII 0x0 SOURCE_EXT (3)
+     PATCH_IF "%SOURCE_EXT%" STRING_EQUAL_CASE "ITM" BEGIN
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode=173 target=1 timing=2 parameter1=100 END
+      LPF DELETE_EFFECT INT_VAR match_opcode=11 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode=11 target=1 timing=1 END
+     END ELSE BEGIN
+      LPF ADD_CRE_EFFECT INT_VAR opcode=173 target=1 timing=9 parameter1=100 END
+     END
+   END ELSE BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=173 END
+   END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to Disease
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        disease_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments="78" END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="39752" END
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments="7" END
+   LPF remove_icon INT_VAR value STR_VAR arguments="7" END
+   PATCH_IF value BEGIN
+     READ_ASCII 0x0 SOURCE_EXT (3)
+     PATCH_IF "%SOURCE_EXT%" STRING_EQUAL_CASE "ITM" BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=79 END
+      LPF ADD_ITEM_EQEFFECT INT_VAR opcode=79 target=1 timing=1 END
+     END
+   END ELSE BEGIN
+      LPF DELETE_EFFECT INT_VAR opcode=79 END
+   END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to level drain
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+        level_drain_immunity
+   INT_VAR value=1
+BEGIN
+   LPF immunity_to_opcode INT_VAR value STR_VAR arguments=216 END
+   LPF immunity_to_icon INT_VAR value STR_VAR arguments=59 END
+   LPF remove_icon INT_VAR value STR_VAR arguments=59 END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="41495 40968 40969 40979 41616" END
+END
+
+/////////////////////////////////////////////////////
+/// Immunity to first level / second level
+/// (this is not invertible)
+///
+/// borrowing the coding from finmel01
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+   CRE_first_level_immunity
+BEGIN
+   LPF immunity_to_spell STR_VAR arguments="SPPR105 " END
+   LPF DELETE_EFFECT INT_VAR match_opcode=102 match_parameter1=1 END
+   LPF ADD_SPELL_EFFECT INT_VAR opcode=102 target=1 timing=9 parameter1=1 END
+END
+
+DEFINE_PATCH_FUNCTION
+   CRE_second_level_immunity
+BEGIN
+   LPF immunity_to_spell STR_VAR arguments="SPPR211 SPWI213 SPWI215" END
+   LPF DELETE_EFFECT INT_VAR match_opcode=102 match_parameter1=2 END
+   LPF ADD_SPELL_EFFECT INT_VAR opcode=102 target=1 timing=9 parameter1=2 END
+END
+
+/////////////////////////////////////////////////////
+/// Free action (can't be ungranted)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+    free_action
+BEGIN
+   READ_ASCII 0x0 SOURCE_EXT (3)
+   LPF immunity_to_spell STR_VAR arguments="%WIZARD_HASTE% %VORTEX_WEB% %WIZARD_SLOW% %BEHOLDER_SLOW% %GOLEM_SLOW% %CLERIC_ENTANGLE% %BLACK_DRAGON_PLANT%" END
+   LPF immunity_to_spell STR_VAR arguments="SPRA301 SPWISH25 SPWM164 CDSW1H58 CDMOUND CDHGNYA1 SPWM111" END
+   LPF immunity_to_string STR_VAR arguments="14023 14102 14668 14000" END
+   LPF immunity_to_opcode STR_VAR arguments="16 40 109 126 154 157 158 175 176" END
+   LPF immunity_to_icon STR_VAR arguments="13 38 41 129 144 145 195" END
+   LPF remove_icon STR_VAR arguments="13 38 41 129 144 145 195" END
+   LPF immunity_to_animation STR_VAR arguments="spmindat spflayer" END
+   PATCH_FOR_EACH opcode IN 46 162 163 BEGIN
+      LPF DELETE_EFFECT INT_VAR match_opcode=opcode END
+      PATCH_IF "%SOURCE_EXT%" STRING_EQUAL_CASE ITM BEGIN
+         LPF ADD_ITEM_EQEFFECT INT_VAR opcode target=1 timing=1 END
+      END ELSE BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode target=1 timing=1 END
+      END
+   END
+   LPF DELETE_EFFECT INT_VAR match_opcode=126 END
+   LPF DELETE_EFFECT INT_VAR match_opcode=142 match_parameter2=19 END
+   PATCH_IF "%SOURCE_EXT%" STRING_EQUAL_CASE ITM BEGIN
+         LPF ADD_ITEM_EQEFFECT INT_VAR opcode=126 target=1 timing=2 parameter1=100 parameter2=2 END
+         LPF ADD_ITEM_EQEFFECT INT_VAR opcode=142 target=1 timing=2 parameter2=19 END
+   END ELSE BEGIN
+         LPF ADD_CRE_EFFECT INT_VAR opcode=126 target=1 timing=9 parameter1=100 parameter2=2 END
+         LPF ADD_CRE_EFFECT INT_VAR opcode=142 target=1 timing=9 parameter2=19 END
+   END
+
+END
+
+
+
+
+/////////////////////////////////////////////////////
+/// Grant the current item a suite of powers
+/// (intended for use with polymorph, use Set)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION item_power_patch
+    INT_VAR
+           thac0="-99"
+           attacks="-99"
+           resist_fire="-99"
+           resist_nonmagic_fire="-99"
+           resist_magic_fire="-99"
+           resist_cold="-99"
+           resist_nonmagic_cold="-99"
+           resist_magic_cold="-99"
+           resist_electricity="-99"
+           resist_acid="-99"
+           resist_magic="-99"
+           resist_magic_damage="-99"
+           resist_slashing="-99"
+           resist_piercing="-99"
+           resist_crushing="-99"
+           resist_missile="-99"
+           resist_physical="-99"
+           resist_elemental="-99"
+           save_vs_spell="-99"
+           save_vs_breath="-99"
+           save_vs_wand="-99"
+           save_vs_poison="-99"
+           save_vs_polymorph="-99"
+           hp_bonus="-99"
+BEGIN
+   // meta-settings
+   PATCH_IF resist_elemental>"-99" BEGIN
+      SET resist_fire=resist_elemental
+      SET resist_cold=resist_elemental
+      SET resist_electricity=resist_elemental
+      SET resist_acid=resist_elemental
+   END
+   PATCH_IF resist_fire>"-99" BEGIN
+      SET resist_nonmagic_fire=resist_fire
+      SET resist_magic_fire=resist_fire
+   END
+   PATCH_IF resist_cold>"-99" BEGIN
+      SET resist_nonmagic_cold=resist_cold
+      SET resist_magic_cold=resist_cold
+   END
+   PATCH_IF resist_physical>"-99" BEGIN
+      SET resist_slashing=resist_physical
+      SET resist_crushing=resist_physical
+      SET resist_piercing=resist_physical
+      SET resist_missile=resist_physical
+   END
+   // actual implementation
+   CLEAR_ARRAY itm_resist_maps
+   DEFINE_ASSOCIATIVE_ARRAY itm_resist_maps BEGIN
+      thac0=>54
+      attacks=>1
+      save_vs_spell=>37
+      save_vs_breath=>36
+      save_vs_wand=>34
+      save_vs_poison=>33
+      save_vs_polymorph=>35
+      resist_nonmagic_fire=>30
+      resist_magic_fire=>84
+      resist_nonmagic_cold=>28
+      resist_magic_cold=>85
+      resist_electricity=>29
+      resist_acid=>27
+      resist_magic=>166
+      resist_magic_damage=>31
+      resist_slashing=>86
+      resist_crushing=>87
+      resist_piercing=>88
+      resist_missile=>89
+   END
+   PHP_EACH itm_resist_maps AS var=>opcode BEGIN
+      SET parameter1=EVAL "%var%"
+      PATCH_IF parameter1>"-99" BEGIN
+         LPF DELETE_EFFECT INT_VAR match_opcode=opcode END
+         LPF ADD_ITEM_EQEFFECT INT_VAR insert_point="-1" opcode target=1 timing=2 parameter1 parameter2=1 END
+      END
+   END
+END
+
+
+/////////////////////////////////////////////////////
+// Make all items carried by a creature undroppable and unstealable
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION make_everything_undroppable
+BEGIN
+     GET_OFFSET_ARRAY item_arr CRE_V10_ITEMS
+     PHP_EACH item_arr AS ind=>item_off BEGIN
+        WRITE_BYTE (0x10 + item_off) (0b1010 BOR SHORT_AT (0x10 + item_off))
+     END
+END
+
+//////////////////////////////////////////////////////////////////////////////////////
+// make and set markers
+//
+// don't use for install checks, only to know if some task has been done already
+//////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION set_marker 
+   STR_VAR marker=""
+BEGIN
+   COPY_EXISTING "sw1h01.itm" "%marker_loc%/%marker%.mrk"
+END
+
+DEFINE_ACTION_FUNCTION check_marker
+   INT_VAR sanity_check=1
+   STR_VAR marker=""
+   RET value 
+BEGIN
+   ACTION_IF FILE_EXISTS "%marker_loc%/%marker%.mrk" BEGIN
+      OUTER_SET value=1
+   END ELSE BEGIN
+      OUTER_SET value=0
+   END
+   ACTION_IF sanity_check BEGIN
+    ACTION_IF !VARIABLE_IS_SET $marker_list("%marker%") BEGIN
+      WARN "marker %marker% is checked but not set"
+    END
+   END
+END
+
+DEFINE_PATCH_FUNCTION check_marker
+   STR_VAR marker=""
+   RET value 
+BEGIN
+   INNER_ACTION BEGIN
+      LAF check_marker STR_VAR marker RET value END
+   END
+END
+
+/////////////////////////////////////////////////////
+// if marker 'blah' isn't set, set it and run 'blah'
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION run_once
+  STR_VAR function=""
+BEGIN
+  OUTER_SPRINT marker "fin_%function%"
+  LAF check_marker INT_VAR sanity_check=0 STR_VAR marker RET value END
+  ACTION_IF !value BEGIN
+     LAF "%function%" END
+     LAF set_marker STR_VAR marker END
+  END
+END
+
+
+/////////////////////////////////////////////////////
+// collect all markers that are set, as an error-catching
+// mechanism to make sure we don't check nonexistant markers
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION audit_markers RET_ARRAY marker_list BEGIN
+      OUTER_SPRINT $marker_list("null") ""
+      ACTION_FOR_EACH directory IN ascensionmain balthazar powers tougher npc BEGIN
+          ACTION_BASH_FOR "%MOD_FOLDER%/%directory%" ".*\.tpa" BEGIN
+             COPY - "%BASH_FOR_FILESPEC%" "%workspace%"
+                  REPLACE_EVALUATE "LAF set_marker STR_VAR marker=\([^ ]*\) " BEGIN
+                    SPRINT $marker_list("%MATCH1%") ""
+                  END
+                  ""
+             BUT_ONLY
+          END
+      END
+END
+
+/////////////////////////////////////////////////////
+// Install NPC portraits
+//
+// This is a minor variant on CamDawg's 'cd_portrait_npc'
+// allowing for the fact that the EEs hot-scale their
+// images, so that they might as well be included at the
+// largest resolution
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION portrait_npc // used to copy new portraits for mod npcs
+  STR_VAR 
+    source = ""
+    destination = ""
+    source_path = "%MOD_FOLDER%/portraits"
+BEGIN
+
+  ACTION_IF ("%destination%" STRING_COMPARE_CASE "" = 0) BEGIN OUTER_SPRINT destination "%source%" END
+
+  COPY ~%source_path%/%source%_330.bmp~ ~override/%destination%l.bmp~ 
+  
+  ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ BEGIN // EEs
+    COPY ~%source_path%/%source%_330.bmp~ ~override/%destination%m.bmp~
+    COPY ~%source_path%/%source%_330.bmp~  ~override/%destination%s.bmp~
+  END ELSE BEGIN	
+    COPY ~%source_path%/%source%_170.bmp~ ~override/%destination%m.bmp~
+    COPY ~%source_path%/%source%_60.bmp~  ~override/%destination%s.bmp~ 
+  END	    
+
+END  // end function define
+
+/////////////////////////////////////////////////////
+// Handle awkward DS states
+//
+// Stats 176-182 are used in old versions of DS, but
+// shouldn't be, as they fight with hardcoded stat effects.
+// When these appear in Ascension (as they do for RESIST_FEAR,
+// MALISON, and SPELL_SHIELD) we want to swap to a ToBEx extended
+// stat or an EE SPLSTATE. The latter requires a scripting substitution
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION handle_awkward_ds BEGIN
+  PATCH_IF enhanced_edition BEGIN
+   REPLACE_TEXTUALLY 
+   "CheckStatGT(\([^,]*\),0,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "CheckStat(\([^,]*\),1,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "CheckStat(\([^,]*\),0,\(MALISON\|SPELL_SHIELD\|RESIST_FEAR\))"
+   "!CheckSpellState(\1,\2)"
+   REPLACE_TEXTUALLY
+   "!!"
+   ""
+  END
+END

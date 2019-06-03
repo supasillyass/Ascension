@@ -1,0 +1,107 @@
+DEFINE_ACTION_FUNCTION tougher_balthazar BEGIN
+
+   LAM load_ascension_tras
+   OUTER_SPRINT balth_loc "%MOD_FOLDER%/balthazar"
+
+   // Tougher Balthazar doesn't do anything complicated: just a bunch of resources,
+   // upgrades to the CRE file, upgrades to the monks in his throne room, and new
+   // scripting
+
+   // resources
+
+   INCLUDE "%balth_loc%/balthazar_monk_resources.tpa"
+   LAF balthazar_monk_resources END
+   INCLUDE "%balth_loc%/balthazar_resources.tpa"
+   LAF run_once STR_VAR function=balthazar_resources END
+
+   // patch the monks into the throne room
+   
+   COPY_EXISTING cut242a.bcs override
+     SET var=0
+     DECOMPILE_AND_PATCH BEGIN
+        REPLACE_EVALUATE CASE_INSENSITIVE "balelite"
+        BEGIN var+=1 END
+        "balelit%var%"
+     END
+   BUT_ONLY
+
+   // CRE file
+
+   INCLUDE "%balth_loc%/balthazar_creature.tpa"
+   LAF balthazar_cre_tougher END
+
+   // scripting
+   
+   // the monks
+   ACTION_FOR_EACH script IN balelit1 balelit2 balelit3 balelit4 BEGIN
+        COMPILE "%balth_loc%/baf/%script%.baf"
+   END
+   // Balth himself
+   
+   COPY "%balth_loc%/baf/balthazar.baf" "override/balthft2.bcs"
+      LPF handle_awkward_ds END
+      // remove redundant checks
+      REPLACE_TEXTUALLY ~Global("balth_is_tougher","GLOBAL",1)~ ~~
+      REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",0)~ ~~
+      // remove difficulty settings (they are for Ascension only)
+      REPLACE_TEXTUALLY "Difficulty\(G\|L\)?T?([^)]*)" ""
+      // set teleport locations for AR5505 
+      REPLACE_TEXTUALLY throneR_loc "[1401.700]"
+      REPLACE_TEXTUALLY throneC_loc "[764.556]"
+      REPLACE_TEXTUALLY throneL_loc "[370.1023]"
+      // compile
+      COMPILE_BAF_TO_BCS
+      
+   LAF DELETE_SCRIPT_BLOCK 
+      STR_VAR script=balthft2
+              match=~Global("balth_is_friendly","GLOBAL",1)~
+   END
+
+   // area fix
+   
+   LAF balthazar_area_patch END
+
+END
+
+DEFINE_ACTION_FUNCTION balthazar_area_patch BEGIN
+
+   //Area Patching
+//Fixed bug in vertex offsets (was writing old instead of new coordinates)
+COPY_EXISTING ~ar5505.are~ ~override~
+  READ_SHORT 0x5a reg_cnt //Regions count
+  READ_LONG 0x5c reg_off //Regions offset
+  READ_LONG 0x7c vert_off //Vertices offset
+  FOR (i = 0; i < reg_cnt; i += 1) BEGIN //Cycle through regions
+    READ_ASCII (reg_off + (i * 0xc4)) reg_nm (32) NULL //Region name
+    PATCH_IF (~%reg_nm%~ STRING_EQUAL_CASE ~ThroneR~ = 1) BEGIN
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x22) 1385 //Bounding box left (was 1010)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x24) 679 //Bounding box top (was 386)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x26) 1417 //Bounding box right (was 1010)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x28) 703 //Bounding box bottom (was 424)
+      READ_LONG   (reg_off + (i * 0xc4) + 0x2c) vertr //First vertex index
+      WRITE_SHORT (vert_off + (vertr * 4)) 1385      //Vertex 0 X (was 1022)
+      WRITE_SHORT (vert_off + (vertr * 4) + 2) 703   //Vertex 0 Y (was 386)
+      WRITE_SHORT (vert_off + (vertr * 4) + 4) 1405  //Vertex 1 X (was 1010)
+      WRITE_SHORT (vert_off + (vertr * 4) + 6) 679   //Vertex 1 Y (was 424)
+      WRITE_SHORT (vert_off + (vertr * 4) + 8) 1417  //Vertex 2 X (was 1043)
+      WRITE_SHORT (vert_off + (vertr * 4) + 0xa) 700 //Vertex 2 Y (was 402)
+    END
+    PATCH_IF (~%reg_nm%~ STRING_EQUAL_CASE ~ThroneL~ = 1) BEGIN
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x22) 344 //Bounding box left (was 434)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x24) 1000 //Bounding box top (was 603)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x26) 375 //Bounding box right (was 461)
+      WRITE_SHORT (reg_off + (i * 0xc4) + 0x28) 1041 //Bounding box bottom (was 648)
+      READ_LONG   (reg_off + (i * 0xc4) + 0x2c) vertl  //First vertex index
+      WRITE_SHORT (vert_off + (vertl * 4)) 344        //Vertex 0 X (was 434)
+      WRITE_SHORT (vert_off + (vertl * 4) + 2) 1041   //Vertex 0 Y (was 645)
+      WRITE_SHORT (vert_off + (vertl * 4) + 4) 361    //Vertex 1 X (was 454)
+      WRITE_SHORT (vert_off + (vertl * 4) + 6) 1000   //Vertex 1 Y (was 603)
+      WRITE_SHORT (vert_off + (vertl * 4) + 8) 375    //Vertex 2 X (was 461)
+      WRITE_SHORT (vert_off + (vertl * 4) + 0xa) 1023 //Vertex 2 Y (was 648)
+    END
+  END
+BUT_ONLY
+
+
+
+END

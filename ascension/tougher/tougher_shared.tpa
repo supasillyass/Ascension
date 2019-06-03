@@ -1,0 +1,153 @@
+////////////////////////////////////////////////////////////////////////////////
+/// Edit the 'bhaalimm' and 'bhaalhp1' items to protect from INT drain
+////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION bhaalimm BEGIN
+
+     ACTION_FOR_EACH item IN bhaalimm bhaalhp1 BEGIN
+        COPY_EXISTING "%item%.itm" override
+              LPF devour_brain_immunity END
+        BUT_ONLY
+     END
+
+END
+
+////////////////////////////////////////////////////////////////
+//// Ascension versions of the "GPxxxx" set of combat scripts, used
+//// throughout ToB and providing somewhat more sophisticated AI
+//// than the basic WTASIGHT-style AI in the original SoA scripts.
+//// Also includes some spell-sequencer scripts, notably spseq12a, spseq16a
+////
+//// Basic principle for this rewrite: from long experience, AI scripts
+//// don't like being messed around. It's more important to make sure it's
+//// definitely working than to incorporate third-party tweaks, especially
+//// as these are 'pure' AI, i.e. contain no plot content.
+////////////////////////////////////////////////////////////////////
+
+
+DEFINE_ACTION_FUNCTION tougher_shared_ai BEGIN
+
+  ////////////////////////////////////////////
+  /// Most of the GPxxxx scripts are (a) tweaked
+  /// very little by Ascension, and (b) also
+  /// tweaked, in a more sophisticated way, in the
+  /// EE. So for these, we start by copying over the EE
+  /// versions if we're not on EE.
+  ///
+  /// This applies to: gparcher, gphealer, gpkensai,
+  /// gpmage2, gpmerc.
+  /////////////////////////////////////////////////
+  
+  ACTION_IF !enhanced_edition BEGIN
+     ACTION_FOR_EACH script IN gparcher gphealer gpkensai gpmage2 gpmerc BEGIN
+          COPY "%MOD_FOLDER%/tougher/shared/ee/%script%.baf" "override/%script%.bcs"
+             LPF remove_ee_baf END
+             COMPILE_BAF_TO_BCS
+     END
+  END
+  
+  /// at present, the EE version of GPHEALER has some malformed STATE entries (look for STATE_NORMAL, where it should be STATE_INVISIBLE or STATE_IMPROVEDINVISIBILITY)
+  /// so copy those one over whatever
+  
+  ACTION_IF enhanced_edition BEGIN
+          COMPILE "%MOD_FOLDER%/tougher/shared/ee/gphealer.baf"
+  END
+
+  ////////////////////////////////////////////
+  /// gpthief has slightly more material tweaks:
+  /// its combat block includes ranged attacks.
+  ///
+  /// The simplest thing here is to build my
+  /// own copy, starting with the EE version and
+  /// substituting in the Asc ranged-attack block.
+  //////////////////////////////////////////////
+
+  COPY "%MOD_FOLDER%/tougher/shared/gpthief.baf" "override/gpthief.bcs"
+     PATCH_IF !enhanced_edition BEGIN
+        LPF remove_ee_baf END
+     END
+     COMPILE_BAF_TO_BCS
+
+
+  ////////////////////////////////////////////
+  /// gpmage1 has significantly tweaked spell-combat
+  /// content.
+  ///
+  /// The simplest thing here is to build my
+  /// own copy, starting with the EE version and
+  /// substituting in the Asc ranged-attack block.
+  //////////////////////////////////////////////
+
+  COPY "%MOD_FOLDER%/tougher/shared/gpmage1.baf" "override/gpmage1.baf"
+     PATCH_IF !enhanced_edition BEGIN
+        LPF remove_ee_baf END
+     END
+     COMPILE_BAF_TO_BCS
+
+  /////////////////////////////////////////////////
+  //  What residual tweaking there is is a bunch
+  //  of ActionListEmpty() blocks, that I think are
+  //  a rudimentary way to stop creatures standing
+  //  around when their aura is on cooldown. We'll do
+  //  this - for all the scripts - in a slightly more
+  //  sophisticated cast'n'attack way
+  /////////////////////////////////////////////////
+
+  ACTION_FOR_EACH script IN gparcher gphealer gpkensai gpmage1 gpmage2 gpmerc gpthief BEGIN
+     LAF ALTER_SCRIPT_BLOCK STR_VAR script match_function=has_casting patch=cast_and_attack END
+  END
+
+  ////////////////////////////////////////////
+  /// The various mage sequencer scripts are radically
+  /// altered and may as well be installed direct
+  //////////////////////////////////////////////
+
+  ACTION_FOR_EACH script IN spseq12a spseq16a spseq16b BEGIN
+     COMPILE "%MOD_FOLDER%/tougher/shared/%script%.baf"
+  END
+
+  ////////////////////////////////////////////
+  /// We need to assign a script to any Mislead illusion
+  /// created
+  //////////////////////////////////////////////
+
+       LAF create_basic_spell STR_VAR spell=finillu END
+     COPY_EXISTING "finillu.spl" override
+          LPF ALTER_SPELL_HEADER INT_VAR projectile=158 END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=177 target=2 parameter1=IDS_OF_SYMBOL (gender illusionary) parameter2=7 STR_VAR resource=finillu END
+     BUT_ONLY
+     
+     CREATE EFF finillu
+      WRITE_LONG 0x10 82
+      WRITE_LONG 0x14 2
+      WRITE_LONG 0x24 9
+      WRITE_SHORT 0x2c 100
+      WRITE_ASCII 0x30 mage18am
+
+
+END
+
+DEFINE_PATCH_FUNCTION has_casting 
+RET value
+BEGIN
+     SET value=0
+     REPLACE_EVALUATE "\(Spell(\|SpellNoDec(\|UseItem(\|SpellRES(\)" BEGIN
+        SET value=1
+     END
+     "%MATCH1%"
+END
+
+DEFINE_PATCH_FUNCTION cast_and_attack
+BEGIN
+   REPLACE_TEXTUALLY CASE_INSENSITIVE "IF" ~IF !GlobalTimerNotExpired("castspell","LOCALS")~
+   REPLACE_TEXTUALLY CASE_INSENSITIVE "RESPONSE #\([0-9]+\)\([^0-9]\)" ~RESPONSE #\1 SetGlobalTimer("castspell","LOCALS",6) \2~
+END
+
+DEFINE_PATCH_FUNCTION remove_ee_baf
+BEGIN
+             REPLACE_TEXTUALLY "MoveToSavedLocation([^)]*)" "Continue()"
+             REPLACE_TEXTUALLY ~SetGlobalTimerRandom(\([^,]*\),"locals",\([^,]*\),\([^,]*\))~ ~SetGlobalTimer(\1,"locals",\3)~
+             REPLACE_TEXTUALLY ~NearSavedLocation([^)]*)~ ~~
+             REPLACE_TEXTUALLY ~RunAwayFromNoInterruptNoLeaveArea([^,]*,[^,]*)~ ~RandomWalkContinuous()~
+             REPLACE_TEXTUALLY ~Kit(Myself,SHADOWDANCER)~ ~False()~
+END

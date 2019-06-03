@@ -1,0 +1,20 @@
+// we need to wait a second for the engine to hard-grant the slayer power
+
+IF
+  Global("FINSPROG","GLOBAL",0)
+
+THEN
+    RESPONSE #100
+          SetGlobalTimer("fin_slayer_init","MYAREA",1)
+          Continue()
+END
+
+IF
+  Global("FINSPROG","GLOBAL",0)
+  GlobalTimerExpired("fin_slayer_init","MYAREA")
+
+THEN
+    RESPONSE #100
+          ApplySpellRES("finslgr",Player1)
+          Continue()
+END

@@ -1,0 +1,454 @@
+OUTER_SPRINT mel_loc "%MOD_FOLDER%/ascensionmain/melissan"
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   Melissan cre/item/spell/combat scripting resources
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_melissan BEGIN
+LAM load_ascension_tras
+/////////////////////////
+// main CRE file
+////////////////////////
+
+COPY_EXISTING finmel01.cre override
+    LPF FJ_CRE_VALIDITY END
+    LPF CRE_patch
+      INT_VAR hp_max=500
+              hp_current=500
+              ac_natural="-10"
+              ac_effective="-10"
+              attacks=4
+              save_vs_death=2
+              save_vs_poly=4
+              save_vs_breath=4
+              save_vs_spells=0
+              resist_fire=50
+              resist_magic_fire=50
+              resist_magic_cold=50
+              resist_cold=50
+              resist_electricity=50
+              resist_acid=50
+              resist_magic=70
+              resist_slashing=75
+              resist_crushing=75
+              resist_piercing=75
+              resist_missile=75
+              resist_poison=100
+              resist_magic_damage=50
+              specifics=99
+              increase_casting_speed=6
+      STR_VAR script_default=finmel
+              delete_opcodes="292 206 267 101"
+              immunity_to_opcode="60" // casting failure
+    END
+    REPLACE_CRE_ITEM finbalth #0 #0 #0 NONE HELMET
+    ADD_CRE_ITEM finsend #0 #0 #0 NONE GLOVES
+    REPLACE_CRE_ITEM allfive #0 #0 #0 NONE LRING // I'm 90% sure this is pointless: it's just a min-hp item, and she gets that from her amulet
+    ADD_CRE_ITEM finabaz #0 #0 #0 NONE RRING
+    REPLACE_CRE_ITEM finilla #0 #0 #0 NONE BELT
+    REPLACE_CRE_ITEM finyaga #0 #0 #0 NONE BOOTS
+    SET_BG2_PROFICIENCY PROFICIENCYSPEAR 1
+    SET_BG2_PROFICIENCY PROFICIENCYDART 1
+    SET_BG2_PROFICIENCY PROFICIENCY2HANDED 2
+    LPF ALTER_EFFECT INT_VAR target=1 END
+    LPF ADD_CRE_EFFECT INT_VAR opcode = 16 target=1 timing=9 parameter2=2 END  // haste
+BUT_ONLY
+
+////////////////////
+/// Melissan's gear
+///////////////////
+
+// Melissan wears one undroppable protective item for each of the Five. They're removed by
+// script when that member is dead. Each gives her +100 hp; in addition, they have these powers:
+
+// finabaz: +45% electrical resistance (so total 95%), immunity to +3 and +4 weapons
+// finbalth: +15% to all physical resistances (so total 90%), immunity to backstab
+// finilla: +45% magic damage resistance (so total 95%)
+// finsend: +25% magic resistance (so total 95%), immunity to 3rd and 4th level spells, +4 to save vs spells
+// finyaga: +45% fire resistance (so total 95%), +2 saves vs death
+
+ACTION_FOR_EACH file IN finabaz finbalth finsend finilla finyaga BEGIN
+    COPY "%mel_loc%/%file%.itm" override
+END
+
+// Melissan's darts are shipped (and modified) in vAsc, but she doesn't actually use them
+
+// Melissan's protective amulet:
+// - removes immunity to Hold/Stun, but I think that's a mistake - it can block scripting
+// - removes immunity to Sarevok's deathbringer power, which is clearly intentional
+// - grants immunity to her own spell MELS545
+//  (previously granted immunity to MELSPL04, but it doesn't exist; previously granted immunity to
+//   MELSPL07, but no longer needed - see the spell description)
+// - no collision detection
+// - immune to nonmagical weapons and <= +3 weapons
+
+COPY_EXISTING finmel01.itm override
+     LPF DELETE_EFFECT STR_VAR match_resource=SAREVEFF END // Deathbringer
+     LPF ADD_ITEM_EQEFFECT INT_VAR opcode=206 target=1 timing=2 STR_VAR resource=MELS545 END // spell immunity
+     LPF ADD_ITEM_EQEFFECT INT_VAR opcode=120 target=1 parameter2=2 timing=2 END // nonmagical weapons
+     PATCH_FOR_EACH parameter1 IN 1 2 3 BEGIN
+         LPF ADD_ITEM_EQEFFECT INT_VAR opcode=120 target=1 parameter1 timing=2 END // +1-3 weapons
+     END
+     LPF ADD_ITEM_EQEFFECT INT_VAR opcode=184 target=1 parameter2=1 timing=2 END // no collision detection
+BUT_ONLY
+
+// Melissan's spear:
+// speed is 3
+// Damage type is slashing, not piercing
+// stun effect duration is reduced to 15 sec, chance of it triggering is reduced from 26% to 16% 
+//  (note associated icon), save is polymorph rather than spell and save penalty is -2, not -4
+// slow effect is removed (along with icon)
+// MR-reduction effect is removed
+// cold damage now grants a saving throw vs spells at -4 for half damage
+// DEATH effect on undead grants a save vs death and has a level limit of 8
+// the DEATH effect on summons is replaced by a DESTSELF on illusions
+// a new effect, YAGAUND, is applied, targetting RACE=DEMONIC (it inflicts 12 points of magic damage)
+// DW addition: add a Malison icon as feedback about the save reduction
+
+COPY_EXISTING spermel.itm override
+     LPF ALTER_ITEM_HEADER INT_VAR damage_type=3 speed=3 END
+     LPF DELETE_EFFECT INT_VAR match_opcode=40 END // slow
+     LPF DELETE_EFFECT INT_VAR match_opcode=142 match_parameter2=41 END  // slow icon
+     LPF DELETE_EFFECT INT_VAR match_opcode=166 END // MR reduction
+     LPF ALTER_EFFECT INT_VAR match_probability1=25 probability1=14 save_vs_spell=0 save_vs_polymorph=1 savebonus="-4" END  // reduce stun chance, change saving throw
+     PATCH_IF enhanced_edition BEGIN
+         LPF ALTER_EFFECT INT_VAR match_opcode=12 save_for_half=1 save_vs_spell=1 savebonus="-4" END
+     END ELSE BEGIN
+         LPF ALTER_EFFECT INT_VAR match_opcode=12 dicenumber=1 END
+         LPF CLONE_EFFECT INT_VAR match_opcode=12 save_vs_spell=1 savebonus="-4" END
+     END
+     LPF ALTER_EFFECT INT_VAR match_opcode=177 match_parameter1=4 match_parameter2=3 save_vs_poison=1 END // save for undead
+     LPF ALTER_EFFECT INT_VAR match_opcode=177 match_parameter1=6 match_parameter2=7 parameter1=7 STR_VAR resource=DESTSELF END // illusion-dispel
+     LPF ADD_ITEM_EFFECT INT_VAR opcode=177 target=2 parameter1=121 parameter2=4 timing=1 resist_dispel=2 STR_VAR resource=yagaund END // anti-demon
+     LPF ADD_ITEM_EFFECT INT_VAR opcode=142 target=2 duration=12 resist_dispel=3 parameter2=45 END // malison icon
+BUT_ONLY
+
+//////////////////////////////////
+//// Melissan's existing spells
+///////////////////////////////////
+
+// Melissan's Bone Blades spell:
+// - power=8
+// - target=creature
+// - range=30
+// - speed=7
+// - Globe of Blades rather than BlBarr animation
+// - pause target 3 seconds (save vs poly to avoid)
+// - announcement about being paused (DW addition)
+// - needs slow icon
+// - needs slow report (DW addition)
+// - needs Ability Drained icon/report (DW addition)
+
+COPY_EXISTING melis01.spl override
+   LPF ALTER_SPELL_HEADER INT_VAR range=30 speed=7 target=1 END
+   LPF ALTER_EFFECT INT_VAR power=8 END
+   LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=142 parameter1=0 parameter2=41 END // Slow icon
+   LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=139 timing=1 duration=0 parameter1=14668 parameter2=0 END // Slow announcement
+   LPF CLONE_EFFECT INT_VAR match_opcode=15 opcode=142 parameter1=0 parameter2=91 END // Ability Drain icon
+   LPF CLONE_EFFECT INT_VAR match_opcode=15 opcode=139 timing=1 duration=0 parameter1=8320 parameter2=0 END // Ability Drain announcement
+   LPF ADD_SPELL_EFFECT INT_VAR opcode=165 target=2 power=8 duration=3 save_vs_polymorph=1 savebonus="-4" resist_dispel=2 // pause target 3 seconds, save to avoid
+   parameter1=RESOLVE_STR_REF (@1041) END
+   LPF CLONE_EFFECT INT_VAR match_opcode=165 opcode=139 timing=1 duration=0 parameter1 parameter2=0 END // pause-target announcement
+   LPF DELETE_EFFECT STR_VAR match_resource=SPBLDBTM END
+   LPF ALTER_EFFECT STR_VAR match_resource=SPBLDTOP resource=SPGLBBLD END
+BUT_ONLY
+
+// Melissan's Blade Barrier grants Poison/Death, not Spell, saves, and with a -2 save
+// penalty and with a power of 8
+
+COPY_EXISTING melis02.spl override
+    LPF ALTER_EFFECT INT_VAR power=8 END
+BUT_ONLY
+
+COPY_EXISTING melis02b.spl override
+    LPF ALTER_EFFECT INT_VAR match_save_vs_spell=1 save_vs_spell=0 save_vs_poison=1 savebonus="-2" END
+    LPF ALTER_EFFECT INT_VAR power=8 END
+BUT_ONLY
+
+// Melissan's 'dgwhirl' knockback is tweaked to have a delayed and weaker knockback (I think this is largely cosmetic) and 
+// has power set to 0
+
+COPY_EXISTING "dgwhirl.spl" override
+     LPF ALTER_EFFECT INT_VAR power=0 END
+     LPF ALTER_EFFECT INT_VAR match_opcode=235 parameter1=1 timing=3 END
+     LPF ALTER_EFFECT INT_VAR match_opcode=39 timing=3 duration=2 END
+BUT_ONLY
+
+/////////////////////////////////////////////////
+/// Melissan's MELSPLx array of new powers
+/////////////////////////////////////////////////
+
+/// MELSPL01, 'Divine Mantle' - a renamed, slower-casting-time, cosmetically changed Absolute Immunity
+
+COPY_EXISTING "%WIZARD_ABSOLUTE_IMMUNITY%.spl" "override/melspl01.spl"
+     SAY NAME1 @1016
+     WRITE_SHORT 0x1c 2 // priest type
+     WRITE_SHORT 0x22 25 // casting animation
+     LPF ALTER_SPELL_HEADER INT_VAR speed=8 projectile=66 END
+// BUT_ONLY
+
+// MELSPL02, 'Draw Power' - bespoke ability representing Mel drawing Bhaalspawn energy. Visual effects,
+// very long casting time, restores hp to 100% and MR to 70, sets a scripting variable.
+
+COPY "%mel_loc%/melspl02.spl" override
+    SAY NAME1 @1017
+// BUT_ONLY
+    
+// MELSPL03, 'Divine Spell Shield' - renamed, slightly-slower-casting-time Spell Trap 
+// that actually turns 10 levels of L1-3 spells
+// this patch clears up a glitch in dispellability in vAsc - the spell turning is
+// dispellable even though the main power isn't, and that's fairly clearly a bug
+
+COPY_EXISTING "%WIZARD_SPELL_TRAP%.spl" "override/melspl03.spl"
+    SAY NAME1 @1018
+    WRITE_SHORT 0x1c 2 // priest type
+    LPF ALTER_SPELL_HEADER INT_VAR speed=9 END
+    PATCH_FOR_EACH match_parameter2 IN 1 2 3 BEGIN
+       LPF CLONE_EFFECT INT_VAR match_opcode=259 match_parameter2 opcode=200 parameter1=10 END
+    END
+BUT_ONLY
+
+// there is no MELSPL04
+
+// MELSPL05, 'Command Demon'. Single target spell that pauses caster for 3 seconds and displays
+// the 'mental combat' string, and dumps a bunch of effects (POOLx) on the target, gated by the
+// DEMON, most of which appear to be short-duration immunities. (See the player power description
+// for more details.) After 3 seconds, 75% chance that the target gets the "control" local variable set to 1
+// and 25% chance it gets zapped by the "BOLTDEM" and "MELSPL5A" eff files. BOLTDEM is a vanilla
+// effect that does 10d6 magic damage; MELSPL5A is a graphic (it plays the SPBOLTGL animation).
+//
+// Our implementation is borrowed from the implementation of the closely-related player power. See
+// there for more documentation and for the core function we use.
+
+// first copy over the spell
+
+COPY "%mel_loc%/melspl05.spl" override
+   SAY NAME1 @1019
+// BUT_ONLY
+
+// then set up the main content
+
+INCLUDE "%MOD_FOLDER%/ascensionmain/ascension_player_powers.tpa"
+LAF demon_control_core
+         INT_VAR success_probability=75 control_duration=3 success_strref=RESOLVE_STR_REF(@1052) failure_strref=RESOLVE_STR_REF(@1053) success_ea=255
+         STR_VAR outer_filename=melspl05 payload_filename=finctrb
+END
+
+// then apply BOLTDEM and MELSPL5A effects (Patch the first one into the spell direct; melspl5a needs to be done by eff file so we can do a delay/limited)
+
+COPY_EXISTING finctrb.spl override
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=12 target=2 timing=4 duration=3 probability2=75 probability1=100 parameter2=0x400000 dicenumber=10 dicesize=6 END
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=177 target=2 timing=4 duration=3 probability2=75 probability1=100 STR_VAR resource=melspl5a END
+BUT_ONLY
+COPY "%mel_loc%/melspl5a.eff" override
+
+// MELSPL06, 'Banish', is a bespoke creature-unsummoning power
+
+COPY "%mel_loc%/melspl06.spl" override
+   SAY NAME1 @1020
+// BUT_ONLY
+
+// MELSPL07, 'Taint of the Slayer', is a tweaked version of Greater Malison
+// - range reduced to 30ft
+// - projectile changed to INAREANP (value=159)
+// - additional visual effects on party
+// - weirdly, caster is paused 2 seconds and has some visual effects - but
+//   Melissan is *immune* to this spell!
+//   My working theory of developer intent is: this is a later hack because the 
+//   pause effect on Melissan was a mistake. (The other effects don't matter, they're
+//   party-friendly.) So I implement by removing her immunity, removing the pause caster,
+//   removing the caster graphic.
+// - power increased to 8
+// - duration fixed at 90 sec - originally it was 84 just because that's the minimum caster
+//   level, but that's clearly not intentional and rather telegraphs its origin!
+//   (original version uses the 'Cursed' rather than 'Malison' icon, but I think that's
+//   unnecessarily confusing)
+//   We need to make sure this power, vanilla Malison, and Balthazar's version of Malison
+//   all protect from one another
+
+COPY_EXISTING "%WIZARD_GREATER_MALISON%.spl" "override/melspl07.spl"
+    LPF DELETE_SPELL_HEADER INT_VAR min_level=2 END
+    LPF ALTER_SPELL_HEADER INT_VAR range=30 projectile=159 END
+    LPF ALTER_EFFECT INT_VAR power=8 END
+    LPF ALTER_EFFECT INT_VAR match_duration=84 duration=90 END
+    LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_GREATER_MALISON%" resource=melspl07 END // clone any 206/321 resource, one of which should already be present
+    LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_GREATER_MALISON%" resource=balth07 END
+    LPF CLONE_EFFECT STR_VAR match_resource=magres resource=wonder END // extra graphical overlay on target
+// BUT_ONLY
+
+COPY_EXISTING "%WIZARD_GREATER_MALISON%.spl" override
+   LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_GREATER_MALISON%" resource=melspl07 END // clone protection onto original Malison
+BUT_ONLY
+
+// MELSPL08/MELSPL09, 'Unleash'. This is bespoke: it has a party-friendly AoE, and it:
+// - puts enemies to sleep for 3 secs (save vs Death at -4 negates)
+// - buffets them away for 2 secs (save vs Death at -4 negates)
+// - inflicts 8d12 magic damage (save vs Death at -4 for 1/2)
+// - plays some graphics
+// - does something weird to the caster's attacks (*probably* intended to be -1 to attacks, *probably* works) for 2 rds
+// - halves the caster's movement rate for 2 rds
+// - reduces the caster's Strength by 3 for 2 rds
+//
+// - the difference is that MELSPL08 is AoE, and casts MELSPL8a on the caster, which is a visual effect
+//   (I'm not sure why it's hived off to another spell)
+
+// - DW version implements EE save-for-half
+
+ACTION_FOR_EACH spell IN melspl08 melspl09 BEGIN
+ COPY  "%mel_loc%/%spell%.spl" override
+   SAY NAME1 @1022
+   PATCH_IF enhanced_edition BEGIN
+      LPF ALTER_EFFECT INT_VAR match_opcode=12 match_save_vs_poison=1 dicenumber=8 save_for_half=1 END
+      LPF DELETE_EFFECT INT_VAR match_opcode=12 match_save_vs_poison=0 END
+   END
+  // BUT_ONLY
+END
+
+COPY "%mel_loc%/melspl8a.spl" override
+
+// MELSPL10, 'Feedback', the bespoke punishment spell cast on Mel every time one of the Five 
+// dies with her on-screen
+//  The vAsc version:
+// - sets the DRAW local variable, turns it off 6 seconds later
+// - deactivates her resistance to magic damage permanently, then increments 
+//   (NB not sets) it by 70 after 3 seconds
+// - deals 100 hp of magic damage
+// - does some visual and string-display stuff
+// - sets the FEEDBACK local variable to 1
+//
+// all of these are Instant/Permanent or Delay/Permanent effects but they have
+// durations, which makes me think there was some glitching in the design of this spell
+//
+// on doing some testing, the original version exploits some quite subtle glitch in the game.
+// The Set and Increment settings for opcode 31 (MDR) stack, whichever order you apply them, 
+// so that iterated applications of Feedback ought to leave Mel's MDR at 70 (or more) even
+// given that it's supposedly set to 0. It doesn't work that way - she does take the full
+// 100 points of feedback damage - which I think is because the damage follows immediately upon
+// the SET being applied, before the engine reapplies the INCREMENT.
+// The subsequent Increment is not harmless, though. It means Mel's MR stacks, whereas it's clearly
+// actually there just to let Feedback damage through her MDR.
+//
+// After further testing, I think the simplest and most elegant thing to do is just strip the second
+// (increment) MDR entirely, and apply the first as a temporary duration-1 effect. It'll hang around
+// just long enough to let the Feedback damage through, then Mel's normal MDR will reassert itself.
+
+
+COPY "%mel_loc%/melspl10.spl" override
+    SAY NAME1 @1024
+    LPF DELETE_EFFECT INT_VAR match_opcode=31 match_timing=4 END
+    LPF ALTER_EFFECT INT_VAR match_opcode=31 match_timing=1 timing=0 duration=1 END
+// BUT_ONLY
+
+// MELSPL11, 'Divine Restoration', is based on Negative Plane Protection, but it adds an additional
+// Restoration opcode and a heal-to-full-strength effect. Range is reduced to 30 and CT decreased to 3.
+// For reasons that escape me, but that I'll replicate on Chesterton's-fence grounds, its ability type is
+// shifted to Melee. Its power increases to 9.
+// There is an on-casting effect that reduces Mel's strength by 1 for 120 seconds and inflicts 100 points
+// of magic damage on her, though it doesn't reduce her MDR so mostly she won't be much affected. I'm
+// unclear whether and to what extent this is intentional, but given that Mel's script tells her not to use
+// this power if she's at <50% hit points, I think it's a mistake - she has 500 hp, after all!
+// 
+// I do a 1-second gap in MDR (see MELSPL10 for technical discussion), and also add a string noting the negative
+// plane protection, which is not otherwise obvious.
+
+COPY_EXISTING "%CLERIC_NEGATIVE_PLANE_PROTECTION%.spl" "override/melspl11.spl"
+        SAY NAME1 @1025
+        LPF ALTER_SPELL_HEADER INT_VAR new_header_type=1 range=30 speed=3 END
+        LPF ALTER_EFFECT INT_VAR power=9 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=224 target=2 power=9 timing=1 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=17 target=2 power=9 parameter1=100 timing=9 resist_dispel=2 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=1 duration=0 parameter1=55842 END // NPP announcement
+        LPF ADD_SPELL_CFEFFECT INT_VAR opcode=31 target=1 parameter1=0 parameter2=1 timing=0 duration=1 resist_dispel=2 END
+        LPF ADD_SPELL_CFEFFECT INT_VAR opcode=12 target=1 parameter1=0 parameter2=1 timing=0 duration=2 resist_dispel=2 END
+        LPF ADD_SPELL_CFEFFECT INT_VAR opcode=41 target=1 parameter1=100 parameter2=64 timing=1 resist_dispel=2 END
+        LPF ADD_SPELL_CFEFFECT INT_VAR opcode=44 target=1 parameter1="-1" timing=1 duration=120 resist_dispel=2 END
+// BUT_ONLY
+
+// MELSPL12, 'Divine Cleansing', is a bespoke self-restore spell that:
+// - resets Melissan's MDR to 70
+// - resets her AC to -10
+// - resets her THAC0 to -7
+// - resets her APR to 4
+// - resets her save vs spell (but not other saves, oddly) to 0
+// - applies a permanent Vocalize (that's just how the spell works, it's a one-off effect in
+//   the L2 wizard spell too)
+// - grants 5 rounds immunity to Slow and Silence
+// - applies a hard Dispel effect to her
+// - pauses her for 2 secs
+// - reduces her max hp by 25
+// - does some cosmetic stuff.
+
+// this is mostly fine, but it needs to give immunity to various strings associated with the Slow
+// and Silence opcodes, and I'm reasonably confident leaving out the other saving throws is an 
+// omission (especially given the hard Dispel) so we'll restore them.
+
+COPY "%mel_loc%/melspl12.spl" override
+      SAY NAME1 @1026
+      LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=38 opcode=267 parameter1=14676 parameter2=0 END // immunity to silence strings
+      LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=38 opcode=267 parameter1=14002 parameter2=0 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=40 opcode=267 parameter1=14668 parameter2=0 END // immunity to slow strings
+      LPF CLONE_EFFECT INT_VAR match_opcode=101 match_parameter2=40 opcode=267 parameter1=14000 parameter2=0 END
+      LPF CLONE_EFFECT INT_VAR match_opcode=37 opcode=33 parameter1=2 END // poison
+      LPF CLONE_EFFECT INT_VAR match_opcode=37 opcode=34 parameter1=4 END // wands
+      LPF CLONE_EFFECT INT_VAR match_opcode=37 opcode=35 parameter1=3 END // polymorph
+      LPF CLONE_EFFECT INT_VAR match_opcode=37 opcode=36 parameter1=4 END // breath
+// BUT_ONLY
+
+// MELSPL13 is unused (hence no tra string); we remove it
+
+////////////////////////////
+//// Other resources
+/////////////////////////////
+
+// 'melrat', used for targetting
+     COPY "%mel_loc%/melrat.cre" override
+
+// 'mels545' (spwi545 in vAsc), Mel's 'Symbol, Slow' spell.
+// Can come across more-or-less as-is, but we need to insulate against cumulative-slow issues,
+// and ensure it's blocked by Free Action
+
+    COPY "%mel_loc%/mels545.spl" override
+       SAY NAME1 @1031
+       PATCH_IF enhanced_edition BEGIN
+          LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=321 timing=1 duration=0 STR_VAR resource=mels545 insert=first END
+          PATCH_FOR_EACH spell IN "%WIZARD_SLOW%" SPWISH25 SPWM164 FINSLOW BEGIN
+             LPF ADD_SPELL_EFFECT INT_VAR match_opcode=40 opcode=321 timing=1 duration=0 STR_VAR resource="%spell%" insert=first END
+             INNER_ACTION BEGIN
+                COPY_EXISTING "%spell%.spl" override
+                    LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=321 timing=1 duration=0 STR_VAR resource=mels545 insert=first END
+                BUT_ONLY
+             END
+          END
+       END ELSE BEGIN
+          LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=206 STR_VAR resource=mels545 insert=last END
+          PATCH_FOR_EACH spell IN "%WIZARD_SLOW%" SPWISH25 SPWM164 FINSLOW BEGIN
+             LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=206 STR_VAR resource="%spell%" insert=first END
+             INNER_ACTION BEGIN
+                COPY_EXISTING "%spell%.spl" override
+                    LPF CLONE_EFFECT INT_VAR match_opcode=40 opcode=206 STR_VAR resource=mels545 insert=first END
+                BUT_ONLY
+             END
+          END
+       END
+       
+    // allow for the spell in various Free Action resources
+
+COPY_EXISTING_REGEXP
+  ".*\.spl" override
+  ".*\.itm" override
+     PATCH_IF INDEX_BUFFER ("%WIZARD_SLOW%")>=0 BEGIN
+         LPF CLONE_EFFECT INT_VAR silent=1 STR_VAR match_function="opcode_is(321 206)" match_resource="%WIZARD_SLOW%" resource=mels545 END
+
+     END
+BUT_ONLY
+
+
+/////////////////////////////
+/// Scripting
+/////////////////////////////
+
+    COPY "%mel_loc%/scripts/finmel.baf" "override/finmel.bcs"
+       LPF handle_awkward_ds END
+       COMPILE_BAF_TO_BCS
+    COMPILE "%mel_loc%/scripts/melrat.baf"
+
+END

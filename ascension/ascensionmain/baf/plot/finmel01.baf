@@ -1,0 +1,245 @@
+///////////////////////////////////////////////////////////////////////////
+///   Initial conversation upon arriving in the Abyss
+///////////////////////////////////////////////////////////////////////////
+
+IF
+	Global("MelissanSpeaksFirst","LOCALS",0)
+	!Global("fin_test_disable_melissan_initial","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("MelissanSpeaksFirst","LOCALS",1)
+		StartDialogueNoSet(Player1)
+END
+
+///////////////////////////////////////////////////////////////////////////
+///  Quick banter if she's made mortal
+///////////////////////////////////////////////////////////////////////////
+
+
+IF
+  Global("allfive","GLOBAL",1)
+  Global("MelissanIsMortal","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("MelissanIsMortal","LOCALS",1)
+    SetInterrupt(FALSE)
+    ClearActions(Myself)
+    ApplySpell(Myself,HEAL_NO_VISUAL)
+    StartDialogNoSet(Player1)
+END
+
+///////////////////////////////////////////////////////////////////////////
+///  endgame
+///////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BalthazarFights","GLOBAL",0)
+  Global("BodhiFights","GLOBAL",0)
+  Global("fin_sarevok_external_friendly","GLOBAL",0)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233g")
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BalthazarFights","GLOBAL",1)
+  Global("fin_sarevok_external_friendly","GLOBAL",0)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233ga")
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BodhiFights","GLOBAL",1)
+  Global("fin_sarevok_external_friendly","GLOBAL",0)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233gb")
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BalthazarFights","GLOBAL",0)
+  Global("BodhiFights","GLOBAL",0)
+  Global("fin_sarevok_external_friendly","GLOBAL",1)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233gc")
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BalthazarFights","GLOBAL",1)
+  Global("fin_sarevok_external_friendly","GLOBAL",1)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233gd")
+END
+
+IF
+  Global("FinalFight","AR6200",8)
+  Global("allfive","GLOBAL",1)
+  Global("BodhiFights","GLOBAL",1)
+  Global("fin_sarevok_external_friendly","GLOBAL",1)
+  HPLT(Myself,20)
+THEN
+  RESPONSE #100
+    SetGlobal("allfive","GLOBAL",2)
+    ClearAllActions()
+    StartCutSceneMode()
+    StartCutScene("cut233ge")
+END
+
+///////////////////////////////////////////////////////////////////////////
+///   If reduced to <20 hp when allfive is not set, retreat for a bit,
+///   increment MelStillImmortal
+///
+///   (this block moved from finmel to finmel01 by David)
+///////////////////////////////////////////////////////////////////////////
+
+IF
+  HPLT(Myself,20)
+  Global("allfive","GLOBAL",0)
+  Global("Draw","LOCALS",0)
+  !GlobalTimerNotExpired("Retreat","LOCALS")
+THEN
+  RESPONSE #100
+    SetGlobal("Draw","LOCALS",1)
+    SetInterrupt(FALSE)
+    SetGlobalTimer("Retreat","LOCALS",15)
+    IncrementGlobal("MelStillImmortal","AR6200",1)
+    DisplayStringHead(Myself,67805)  // ~No!  Too strong!  Damn you!  I must take more essence...I must have more power!!~ [FINMEL27]
+    ForceSpellPointRES("dimdoor",[1286.1122])
+    Face(8)
+    ForceSpellRES("melspl02",Myself)  // melspl02
+    SetInterrupt(TRUE)
+END
+
+///////////////////////////////////////////////////////////////////////////
+///   This variable is set when she's hit with the Feedback spell by an
+///   ally's death
+///////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("feedback","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("feedback","LOCALS",0)
+    SetInterrupt(FALSE)
+    ClearActions(Myself)
+    PlayDead(90)
+    SetInterrupt(TRUE)
+END
+
+///////////////////////////////////////////////////////////////////////////
+///   Catch up with dead allies once spawned - get rid of items
+///////////////////////////////////////////////////////////////////////////
+
+IF
+  Global("DeathScriptIllasera","AR6200",1)
+  HasItem("finilla",Myself)  // finilla
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finilla")  // finilla
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  Global("DeathScriptAbaz","AR6200",1)
+  HasItem("finabaz",Myself)  // finabaz
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finabaz")  // finabaz
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  Global("DeathScriptYaga","AR6200",1)
+  HasItem("finyaga",Myself)  // finyaga
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finyaga")  // finyaga
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  Global("DeathScriptSendai","AR6200",1)
+  HasItem("finsend",Myself)  // finsend
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finsend")  // finsend
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  Global("DeathScriptBalth","GLOBAL",0)
+  HasItem("finbalth",Myself)  // finbalth
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finbalth")  // finbalth
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+IF
+  Global("DeathScriptGrom","GLOBAL",1)
+  HasItem("finbalth",Myself)  // finbalth
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("fingrom")  // finbalth
+    SetInterrupt(TRUE)
+    Continue()
+END
+
+// get rid of Balth item if we're allied to him and on a low enough difficulty that only the Four turn up
+
+IF
+  Global("BalthazarFights","GLOBAL",1)
+  DifficultyLT(NORMAL)
+  HasItem("finbalth",Myself)  // finbalth
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    DestroyItem("finbalth")  // finbalth
+    SetInterrupt(TRUE)
+    Continue()
+END
+

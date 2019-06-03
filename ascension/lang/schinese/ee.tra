@@ -1,0 +1,25 @@
+@3001 = ~沙洛弗克的混乱之剑
+<CHARNAME>的兄弟，沙洛弗克的兵器。在博得之门发生的最后一战中，沙洛弗克被<CHARNAME>击败，他想在剑湾发起战争的计划也随之破产。现在沙洛弗克加入了<CHARNAME>的队伍，并使这把剑恢复了原来的一些能力。然而没有了巴尔之子的灵魂，沙洛弗克的剑无法达到像原来的那样强大，但它仍是一件可怕的武器。沙洛弗克说不是死亡使者的人最好不要碰这把剑。
+
+状态：
+能力：每级吸取一到五点生命，吸取的生命不会超过生命最大值。持用者获得10%魔法防御。
+
+伤害：1d10 + 4
+命中：+ 4有利
+重量：10
+速度因素：8
+武器种类：双手剑
+持用方式：双手
+属性需求：14强壮，18体质
+不可使用：
+牧师
+法师
+圣骑士
+游侠
+德鲁依
+非混乱阵营~
+@3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
+
+STATISTICS:
+
+Weight: 1~

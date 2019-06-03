@@ -1,0 +1,92 @@
+DEFINE_ACTION_FUNCTION ascension_area_patch BEGIN
+
+//////////////////////////////////////////////////////////////////////////
+/// DW code: bridge ambients start on
+////////////////////////////////////////////////////////////////////////////
+
+COPY_EXISTING ar6200.are override
+      GET_OFFSET_ARRAY amb_arr ARE_V10_AMBIENTS
+      PHP_EACH amb_arr AS ind=>amb_off BEGIN
+         READ_ASCII amb_off name
+         PATCH_MATCH "%name%" WITH
+            Bridge1 Bridge2 Bridge3 BEGIN
+                SET offset=0x90+amb_off
+                WRITE_BYTE offset ((BYTE_AT offset) BOR 0b00000001)
+            END
+            DEFAULT
+         END
+      END
+BUT_ONLY
+
+//////////////////////////////////////////////////////////////////////////
+/// Unmodified code
+////////////////////////////////////////////////////////////////////////////
+
+
+COPY_EXISTING ~ar6200.are~ ~override~
+  READ_LONG 0x54 act_off //Actors offset
+  READ_SHORT 0x58 act_cnt //Actors count
+  FOR (i = 0; i < act_cnt; i += 1) BEGIN //Cycle through actors
+    READ_ASCII (act_off + (i * 0x110) + 0x80) act_cre //Actor CRE file
+    PATCH_IF (~%act_cre%~ STRING_EQUAL_CASE ~finmel01~ = 1) BEGIN //If Melissan
+      WRITE_SHORT (act_off + (i * 0x110) + 0x20) 1286 //Current X coordinate (was 1280)
+      WRITE_SHORT (act_off + (i * 0x110) + 0x22) 1068 //Current Y coordinate (was 1127)
+      WRITE_SHORT (act_off + (i * 0x110) + 0x24) 1286 //Destination X coordinate (was 1280)
+      WRITE_SHORT (act_off + (i * 0x110) + 0x26) 1068 //Destination Y coordinate (was 1127)
+      i = act_cnt
+    END
+  END
+  LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 1307
+    fj_box_top      = 627
+    fj_box_right    = 1322
+    fj_box_bottom   = 657
+    fj_cursor_idx   = 0   //gauntlet
+    fj_loc_x        = 1300
+    fj_loc_y        = 788
+    fj_vertex_0     = 1317 + (627 << 16)
+    fj_vertex_1     = 1307 + (657 << 16)
+    fj_vertex_2     = 1322 + (656 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = ThroneC
+  END
+  LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 1589
+    fj_box_top      = 1103
+    fj_box_right    = 1607
+    fj_box_bottom   = 1130
+    fj_cursor_idx   = 0   //gauntlet
+    fj_loc_x        = 1300
+    fj_loc_y        = 980
+    fj_vertex_0     = 1589 + (1129 << 16)
+    fj_vertex_1     = 1600 + (1103 << 16)
+    fj_vertex_2     = 1607 + (1130 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = ThroneR
+  END
+  LPF fj_are_structure
+    INT_VAR
+    fj_type         = 1    //info
+    fj_box_left     = 854
+    fj_box_top      = 993
+    fj_box_right    = 873
+    fj_box_bottom   = 1017
+    fj_cursor_idx   = 0   //gauntlet
+    fj_loc_x        = 1044
+    fj_loc_y        = 980
+    fj_vertex_0     = 854 + (1016 << 16)
+    fj_vertex_1     = 865 + (993 << 16)
+    fj_vertex_2     = 873 + (1017 << 16)
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = ThroneL
+  END
+BUT_ONLY
+
+END

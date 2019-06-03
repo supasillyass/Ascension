@@ -1,0 +1,104 @@
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   Misc item/ability/spell resources//////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION ascension_misc_resources BEGIN
+
+     LAM load_ascension_tras
+     LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra" // doesn't clash with ascension.tra, non-overlapping namespace
+
+///////////////////////////////////////////////////////////////////////////
+/// Copy across a couple of purely cosmetic spells used in the cutscenes
+///////////////////////////////////////////////////////////////////////////
+
+      ACTION_FOR_EACH spell IN resimoen finsarev BEGIN
+         COPY "%MOD_FOLDER%/ascensionmain/misc/%spell%.spl" override
+      END
+
+///////////////////////////////////////////////////////////////////////////
+/// Create the invisible creature that controls the pool dialog
+///////////////////////////////////////////////////////////////////////////
+
+     COPY_EXISTING "ppguy01.cre" "override/ppguy02.cre"
+        LPF CRE_patch
+           STR_VAR script_override=ppguy02
+                   script_race=""
+                   script_class=""
+                   script_general=""
+                   script_default=""
+                   dialog="ppguy02"
+                   dv="ppguy02"
+        END
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////   Common function used to make various demon-control resources
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+DEFINE_ACTION_FUNCTION demon_control_core
+    INT_VAR control_duration=0
+            success_probability=0
+            success_strref=0
+            failure_strref=0
+            success_ea=0
+    STR_VAR payload_filename=""
+            outer_filename=""
+BEGIN
+
+     // make the application effect
+
+     CREATE EFF "%payload_filename%"
+         WRITE_LONG 0x10 146
+         WRITE_LONG 0x14 2
+         WRITE_LONG 0x20 1
+         WRITE_LONG 0x24 1
+         WRITE_SHORT 0x2c 100
+         WRITE_ASCIIE 0x30 "%payload_filename%"
+         
+     // make the payload spell
+     
+     LAF create_basic_spell STR_VAR spell="%payload_filename%" END
+     COPY_EXISTING "%payload_filename%.spl" override
+         // immunities
+         PATCH_FOR_EACH parameter2 IN 39 45 109 175 210 213 217 BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=101 target=2 parameter2 timing=0 duration=control_duration END
+         END
+         PATCH_FOR_EACH parameter1 IN 1280 109 14001 14043 BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=267 target=2 parameter1 timing=0 duration=control_duration END
+         END
+         PATCH_FOR_EACH resource IN SPMINDAT SPFLAYER SPNWCHRM BEGIN
+            LPF ADD_SPELL_EFFECT INT_VAR opcode=296 target=2 timing=0 duration=control_duration STR_VAR resource END
+         END
+         // mental combat
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=165 target=2 timing=0 duration=control_duration END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=215 target=2 timing=0 duration=control_duration parameter2=1 STR_VAR resource=SPELEMND END
+         // actual control: success
+         SET probability1=success_probability - 1
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=72 target=2 timing=4 duration=control_duration parameter1=success_ea parameter2=0 probability1 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=174 target=2 timing=4 duration=control_duration probability1 STR_VAR resource=EFF_M82 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=4 parameter1=success_strref duration=control_duration probability1 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=309 target=2 timing=4 duration=control_duration probability1 STR_VAR resource=CONTROL END
+         // actual control: failure
+         SET probability2=success_probability
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=174 target=2 timing=4 duration=control_duration probability1=100 probability2 STR_VAR resource=EFF_P81 END
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=4 parameter1=failure_strref duration=control_duration probability1=100 probability2 END
+     BUT_ONLY
+     
+     // set up the original spell
+
+    COPY "%MOD_FOLDER%/ascensionmain/player/ctrldem.spl" "override/%outer_filename%.spl"
+         SAY 0x8 @1013
+         LPF DELETE_EFFECT INT_VAR match_opcode=177 END // remove existing payload effects
+         LPF DELETE_EFFECT INT_VAR match_opcode=309 END // remove existing payload effects
+         LPF ALTER_EFFECT INT_VAR match_duration=6 duration=control_duration END // adjust duration of stun
+         LPF ADD_SPELL_EFFECT INT_VAR opcode=177 target=2 parameter1=121 parameter2=4 STR_VAR resource="%payload_filename%" END // apply payload
+     BUT_ONLY
+
+
+
+END

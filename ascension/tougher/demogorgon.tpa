@@ -1,0 +1,114 @@
+DEFINE_ACTION_FUNCTION tougher_demogorgon BEGIN
+
+   LOAD_TRA "%ascension_tra_loc%/english/tougher.tra"  "%ascension_tra_loc%/%LANGUAGE%/tougher.tra"
+
+
+   /* cre file
+  - hp 290 ->390
+  - 10 hp/sec regeneration (up from 6hp/sec in vanilla, though of course that
+   was nonfunctional)
+  - strip a nonfunctional AC bonus=0 EFF (DW fix, clearly a vanilla bug)
+   */
+
+   COPY_EXISTING demogor2.cre override
+       LPF CRE_patch
+          INT_VAR regeneration=10
+                  hp_max=390
+                  hp_current=390
+       END
+       LPF DELETE_EFFECT INT_VAR match_opcode=0 END
+   BUT_ONLY
+
+   /* 'beguile' spell
+   Only change is to restrict to humanoids - but both Fixpack and EE already enforce this
+   */
+
+   /* 'demochm' spell
+   This is really a fix to a vanilla bug. "demochm", the spell Demogorgon uses to take control
+   of demons, uses the Charm opcode, but most demons are immune to that opcode. Instead,
+   vAsc uses a 177-delivered change-allegiance effect.
+
+   That said, the vAsc implementation is *also* broken, because it has IDS target=213 ('unknown'), not
+   0 (EA.ids)
+   
+   Since this is a single-target spell cast direct at demons by script, we may as well deliver
+   the payload direct rather than in an EFF
+   */
+   
+   COPY_EXISTING demochm.spl override
+        LPF ALTER_EFFECT INT_VAR match_opcode=5 opcode=72 parameter1=255 parameter2=0 END
+   BUT_ONLY
+   
+   /* Demogorgon's Gate spell
+   
+   The vanilla version always summons four glabrezus ('dglab01' eff file). The vAsc version 
+   has a 50% chance of summoning two glabrezus, a 30% chance of summoning a marilith ('demosum1'),
+   and a 20% chance of summoning a balor ('demosum2')
+   */
+
+   COPY_EXISTING "%DEMOGORGON_GATE%.spl" override
+       LPF ALTER_EFFECT INT_VAR match_opcode=177 probability1=100 END // preemptive fix against possible future off-by-one corrections
+       LPF ALTER_EFFECT INT_VAR multi_match=2 match_opcode=177 probability1=49 STR_VAR resource=demosum3 END // first two 177s still summon glabrezu; adjust probability; shift from dglab01 to the identical demosum3 for later convenience
+       LPF ALTER_EFFECT INT_VAR multi_match=1 match_opcode=177 match_probability1=100 probability2=50 probability1=79 STR_VAR resource=demosum1 END // third 177 summons marilith
+       LPF ALTER_EFFECT INT_VAR match_opcode=177 match_probability1=100 probability2=80 probability1=100 STR_VAR resource=demosum2 END // third 177 summons balor
+   BUT_ONLY
+   
+   /* Demogorgon's 'Summon the Infernal Host' spell
+
+   Implement EEAsc's lore fix: should be 'Summon the Abyssal Host' - but we only do it if the 'tougher.tra' file
+   exists in the user's language, and we gate it with an ini check.
+   
+   Old version summons two mariliths (demosum1). New version summons one marilith, one balor (demosum2), two glabrezu (demosum3), one cambion (demosum4)
+   */
+   
+   COPY_EXISTING "%SUMMON_INFERNAL_HOST%.spl" override
+        LPF check_ini STR_VAR ini=abyssal_host RET value END
+        SPRINT atsymbol "@"
+        PATCH_IF (value && FILE_CONTAINS "%ascension_tra_loc%/%LANGUAGE%/tougher.tra" "%atsymbol%7") BEGIN
+             SAY NAME1 @7
+             SAY NAME2 @7
+        END
+        LPF ALTER_EFFECT INT_VAR match_opcode=177 multi_match=1 STR_VAR resource=demosum2 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=177 multi_match=1 STR_VAR resource=demosum3 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=177 multi_match=1 STR_VAR resource=demosum3 END
+        LPF CLONE_EFFECT INT_VAR match_opcode=177 multi_match=1 STR_VAR resource=demosum4 END
+   BUT_ONLY
+
+   // scripting
+   
+   COMPILE "%MOD_FOLDER%/tougher/demogorgon/demogor2.baf"
+
+   /* aesthetic changes to the Gate spells
+   
+   Demogorgon's gated fiends don't use the usual Gate animation; they just appear. Summon the Infernal Host plays that animation, but the timing is off,
+   so that the fiends just appear as the gate is initially starting to form. Demogorgon_gate doesn't play an animation at all.
+
+   I fix this; it's gated by an ini, partly just for purists and partly because the 3-second summoning delay has minor tactical implications.
+
+   */
+
+   LAF check_ini STR_VAR ini=demogorgon_gate_aesthetics RET value END
+   ACTION_IF value BEGIN
+
+        // set centrally for tweaking purposes
+        OUTER_SET timing=4
+        OUTER_SET duration=3
+
+        // infernal host
+        COPY_EXISTING "%SUMMON_INFERNAL_HOST%.spl" override
+             LPF ALTER_EFFECT INT_VAR match_opcode=177 timing duration END
+        BUT_ONLY
+
+        // gate
+
+        COPY_EXISTING "%DEMOGORGON_GATE%.spl" override
+             LPF ALTER_EFFECT INT_VAR match_opcode=177 timing duration END
+             LPF ADD_SPELL_EFFECT INT_VAR opcode=215 target=1 parameter2=1 duration=4 STR_VAR resource=spsumgte END
+        BUT_ONLY
+
+
+
+   END
+
+
+END

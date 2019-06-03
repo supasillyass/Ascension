@@ -1,0 +1,769 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Functions to construct the underlying slayer powers
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// The core ability set for the player's transformation
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION slayer_powers_main BEGIN
+
+   LAM load_ascension_tras
+
+   ///////////////////////////////////
+   // start with a solid baseline
+   ///////////////////////////////////
+
+   LAF check_marker STR_VAR marker=fin_slayer_powers_baseline RET value END
+   ACTION_IF !value BEGIN
+      LAF slayer_powers_baseline END
+   END
+
+   /////////////////////////////////////////////////////////////
+   /// Make weapons for the enhanced powers
+   /////////////////////////////////////////////////////////////
+
+   LAF check_marker STR_VAR marker=fin_slayer_weapon_enhancements RET value END
+   ACTION_IF !value BEGIN
+      LAF slayer_weapon_enhancements END
+   END
+
+   /////////////////////////////////////////////////////////////
+   /// Duplicate SLAYER_CHANGE_TWO for the enhanced powers
+   /////////////////////////////////////////////////////////////
+
+   ACTION_FOR_EACH number IN 2 3 4 BEGIN
+      COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" "override/slayer%number%.spl"
+         LPF ALTER_EFFECT INT_VAR match_opcode=111 STR_VAR resource="finslay%number%" END
+      BUT_ONLY
+   END
+
+   // on Enhanced Edition, we need to 321 these duplicate powers when we return to human form
+   
+   ACTION_IF enhanced_edition BEGIN
+     COPY_EXISTING
+      "%SLAYER_BACK_TO_HUMAN%.spl" override
+      "%SLAYER_BACK_TO_HUMAN_NOVIS%.spl" override
+          LPF CLONE_EFFECT INT_VAR match_opcode=321 STR_VAR match_resource="%SLAYER_CHANGE_TWO%" resource=slayer2 END
+          LPF CLONE_EFFECT INT_VAR match_opcode=321 STR_VAR match_resource="%SLAYER_CHANGE_TWO%" resource=slayer3 END
+          LPF CLONE_EFFECT INT_VAR match_opcode=321 STR_VAR match_resource="%SLAYER_CHANGE_TWO%" resource=slayer4 END
+     BUT_ONLY
+   END
+
+   /////////////////////////////////////////////////////////////
+   /// Get the XP thresholds from the ini (default: 2M/4M/6M)
+   /////////////////////////////////////////////////////////////
+   
+   LAF check_ini STR_VAR ini=slayer_enhancement_threshold_1 RET threshold_1=value END
+   LAF check_ini STR_VAR ini=slayer_enhancement_threshold_2 RET threshold_2=value END
+   LAF check_ini STR_VAR ini=slayer_enhancement_threshold_3 RET threshold_3=value END
+
+   /////////////////////////////////////////////////////////////
+   /// Apply edits to the core power-granting dialogue
+   /////////////////////////////////////////////////////////////
+
+   LAF slayer_upgrade_dialog_edit END
+
+   /////////////////////////////////////////////////////////////
+   /// Document changes
+   /////////////////////////////////////////////////////////////
+
+   ACTION_IF enhanced_edition BEGIN
+      LAF slayer_upgrade_documentation END
+   END
+
+   /////////////////////////////////////////////
+   /// Changes: the feedback effects
+   ///
+   /// feedback effects for the subsequent effects 
+   /// kick in at 36/42/48/54/60 sec, not 
+   /// 20/26/32/38/44 sec (or, in my version,
+   /// 24/30/36/42/48 sec)
+   /////////////////////////////////////////////
+
+   ACTION_FOR_EACH spell IN slayer2 slayer3 slayer4 BEGIN
+     COPY_EXISTING "%spell%.spl" override
+       LPF ALTER_EFFECT STR_VAR match_function="opcode_is(12 31 139)" function="add_to_duration(12)" END
+     BUT_ONLY
+   END
+
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /// Changes: going berserk
+   ///
+   /// The pattern in vAsc is pretty weird, but reading between the lines, I'm fairly sure this is the intended
+   /// implementation:
+   ///
+   /// Baseline slayer: Chance per round of losing control for 1 rd is 10%, increasing 10% per round as the slayer.
+   /// Level 2 upgrade: Chance per round of losing control for 1 rd is 10%, increasing 5% per round as the slayer.
+   /// Level 3 upgrade: Chance of 1-round loss of control is 5% cumulative per 2 rounds
+   /// Ravager: first round is fine, after that, 40%+5% per round
+   ///
+   /// We implement this more smoothly by creating twenty copies of the BERSERK spell used, with differing probabilities
+   /// of applying. & we do what the documentation says, but the vAsc implementation doesn't honor: guarantee the player
+   /// a round of clarity before feedback kills them
+   ///
+   /// (the functions here are in ascension_function_library, since Imoen's slayer power also needs them)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   LAF slayer_berserk_resources END
+   
+   COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
+        LPF slayer_berserk INT_VAR first_time=6 last_time=36 initial=10 increment=10 END
+   BUT_ONLY
+
+   COPY_EXISTING slayer2.spl override
+        LPF slayer_berserk INT_VAR first_time=6 last_time=48 initial=10 increment=5 END
+   BUT_ONLY
+
+   COPY_EXISTING slayer3.spl override
+        LPF slayer_berserk INT_VAR first_time=6 last_time=48 initial=5 increment=5 step=2 END
+   BUT_ONLY
+   
+   COPY_EXISTING slayer4.spl override
+        LPF slayer_berserk INT_VAR first_time=6 last_time=48 initial=40 increment=5 END
+   BUT_ONLY
+
+END // end of MAIN block
+
+
+DEFINE_ACTION_FUNCTION slayer_weapon_enhancements BEGIN
+
+     LAF set_marker STR_VAR marker=fin_slayer_weapon_enhancements END
+
+
+// convenient to separate this off so that Imoen can use it too
+
+   // get general info on whether hit points are set or incremented
+   
+   LAF check_ini STR_VAR ini=additive_slayer_hitpoints RET value END
+   ACTION_IF value BEGIN
+       OUTER_SET hp_param2=0
+   END ELSE BEGIN
+       OUTER_SET hp_param2=1
+   END
+
+   /////////////////////////////
+   /// Improvements: level 2
+   ///
+   /// - Additional +4 to hit (THAC0 -4)
+   ///- damage increases to 2d6 + 4 cold damage
+   ///- 15% resistance to physical damage
+   ///- 30% resistance to energy damage
+   ///- MR increases to 50%
+   ///- 150 hp
+   ///- 2 hp/sec regen, matching Imoen version
+   /// (gated by ini)
+   /////////////////////////////
+
+
+    COPY_EXISTING slayerw3.itm "override/finslay2.itm"
+       LPF item_power_patch INT_VAR thac0="-4" resist_elemental=30 resist_physical=15 resist_magic=50 END // general patch
+       LPF ALTER_EFFECT INT_VAR parameter1=150 parameter2=hp_param2 match_opcode=17 END // hit points
+       LPF ALTER_EFFECT INT_VAR parameter1=150 parameter2=hp_param2 match_opcode=18 END // hit points
+       LPF ALTER_EFFECT INT_VAR match_opcode=12 parameter1=4 END // cold damage
+       LPF ALTER_ITEM_HEADER INT_VAR dicenumber=2 dicesize=6 END // hit damage
+       LPF check_ini STR_VAR ini=slayer_2_regeneration RET rate=value END
+       PATCH_IF rate>0 BEGIN
+            LPF ADD_ITEM_EQEFFECT INT_VAR opcode=98 target=1 parameter1=rate parameter2=2 timing=2 END
+       END
+    BUT_ONLY
+
+   /////////////////////////////
+   /// Improvements: level 3
+   ///
+   /// - Additional +4 to hit (THAC0 -8)
+   ///- damage increases to 2d8 + 8 cold damage, plus antimagic effect: 10% of hits apply Dispel Magic and a -10% MR effect
+   /// (controllable by INI, vAsc is 5%)
+   ///- 30% resistance to physical damage
+   ///- 50% resistance to energy damage
+   ///- MR increases to 60%
+   ///- 200 hp
+   ///- immunity to disease, poison
+   ///- free action
+   /// - regeneration increases to 3/rd
+   /////////////////////////////
+
+   LAF check_ini STR_VAR ini=slayer_mr_reduction RET mr_reduction=value END
+   ACTION_GET_STRREF 32875 mr_string
+   OUTER_INNER_PATCH_SAVE mr_string "%mr_string%" BEGIN
+      REPLACE_TEXTUALLY "30" "%mr_reduction%"
+   END
+
+
+   COPY_EXISTING slayerw3.itm "override/finslay3.itm"
+       LPF item_power_patch INT_VAR thac0="-8" resist_elemental=50 resist_physical=30 resist_magic=60 END // general patch
+       LPF ALTER_EFFECT INT_VAR parameter1=200 parameter2=hp_param2 match_opcode=17  END // hit points
+       LPF ALTER_EFFECT INT_VAR parameter1=200 parameter2=hp_param2 match_opcode=18  END // hit points
+       LPF ALTER_EFFECT INT_VAR match_opcode=12 parameter1=8 END // cold damage
+       LPF ALTER_ITEM_HEADER INT_VAR dicenumber=2 dicesize=8 END // hit damage
+       LPF poison_immunity END
+       LPF disease_immunity END
+       LPF free_action END
+       LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=58 target=2 parameter1=1 timing=1 resist_dispel=2 probability1=9 END
+       PATCH_IF mr_reduction>=0 BEGIN
+          SET mr_actual = 0 - mr_reduction
+          LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=166 match_timing=0 target=2 parameter1=mr_actual duration=30 resist_dispel=2 probability1=9 END
+          LPF CLONE_EFFECT INT_VAR match_opcode=166 match_timing=0 opcode=139 parameter1=RESOLVE_STR_REF("%mr_string%") parameter2=0 timing=1 duration=0 END //string
+          LPF CLONE_EFFECT INT_VAR match_opcode=166 match_timing=0 opcode=142 parameter1=0 parameter2=106 END //icon
+       END
+       LPF check_ini STR_VAR ini=slayer_3_regeneration RET rate=value END
+       PATCH_IF rate>0 BEGIN
+            LPF ADD_ITEM_EQEFFECT INT_VAR opcode=98 target=1 parameter1=rate parameter2=2 timing=2 END
+       END
+       LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=215 target=2 parameter2=1 probability1=9 STR_VAR resource=spdispma END // vAsc actually fails to attach the resource, so this is a guess
+    BUT_ONLY
+
+   /////////////////////////////
+   /// Improvements: level 4
+   ///
+   /// - Additional +4 to hit (THAC0 -12)
+   /// - 1 extra attack per round
+   ///- damage increases to 3d8 + 8 cold damage, plus antimagic effect as before.
+   ///  In vAsc, the slayer also gets a knockback ability. Given how many bugs
+   /// that has tended to generate in SCS, I think this is a bad idea; instead
+   /// I'll increase the chance of an antimagic hit to 20%. (ini override)
+   ///- 50% resistance to physical damage
+   ///- 50% resistance to energy damage
+   ///- MR increases to 75%
+   ///- 50% resistance to magic damage
+   ///- immunity as per level 3
+   /// - 250 hp
+   /// - ravager form
+   /// - 5 hp/sec regeneration, matching original Ravager
+   /// (not in vAsc, gated by ini)
+   /////////////////////////////
+
+   // make a polymorph template
+   
+   COPY_EXISTING slayer.cre "override/finraver.cre"
+        WRITE_LONG 0x28 32558
+   BUT_ONLY
+
+   // here we use finslay3 as a baseline
+
+   COPY_EXISTING finslay3.itm "override/finslay4.itm"
+        LPF item_power_patch INT_VAR thac0="-12" resist_magic_damage=50 resist_magic=75 resist_physical=50 attacks=5 END
+       LPF ALTER_EFFECT INT_VAR parameter1=250 parameter2=hp_param2 match_opcode=17  END // hit points
+       LPF ALTER_EFFECT INT_VAR parameter1=250 parameter2=hp_param2 match_opcode=18  END // hit points
+        LPF ALTER_ITEM_HEADER INT_VAR dicenumber=3 END // hit damage
+        LPF check_ini STR_VAR ini=ravager_knockback RET value END
+        PATCH_IF value BEGIN
+           LPF ADD_ITEM_EFFECT INT_VAR type=99 opcode=235 target=2 parameter1=20 parameter2=2 duration=1 probability1=24 save_vs_breath=1 savebonus="-4" END
+           LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=39 parameter1=0 parameter2=0 duration=2 END
+           LPF CLONE_EFFECT INT_VAR match_opcode=235 opcode=12 parameter1=0 parameter2=0 dicenumber=1 dicesize=8 END
+           LPF CLONE_EFFECT INT_VAR match_opcode=39 parameter1=0 parameter2=19 END
+        END ELSE BEGIN
+           LPF ALTER_EFFECT INT_VAR match_probability1=9 probability1=19 END // increase probability of MR effect
+        END
+        LPF DELETE_EFFECT INT_VAR match_opcode=98 END
+        LPF check_ini STR_VAR ini=ravager_regeneration RET rate=value END
+        PATCH_IF rate>0 BEGIN
+            LPF ADD_ITEM_EQEFFECT INT_VAR type=99 opcode=98 target=1 parameter1=rate parameter2=2 timing=2 END
+        END
+        LPF ALTER_EFFECT INT_VAR match_opcode=135 STR_VAR resource=finraver END
+   BUT_ONLY
+
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Get the existing slayer power into a solid form prior to any alterations
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION slayer_powers_baseline BEGIN
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Start by considering how Slayer Change is implemented in BG2EE and vBG2.
+///
+/// The player's innate power just triggers a conversation. Choosing the conversation casts the payload power, 
+/// SLAYER_CHANGE_TWO (SPIN823).
+/// That power:
+/// - removes any leftover shapeshift-related powers from the player
+/// - plays the visual/sound effects associated with the shapeshift
+/// - grants the weapon "slayerw3"
+/// - grants the power to change out of slayer form (SPIN718)
+/// - removes the slayer power and gives it back on a delay timer (the usual way to implement a cooldown power)
+/// - inflicts damage on the player after 20 seconds (initially 5 points, then doubling each round - 10, 20, 40 - and
+///   killing you at 80, after 44 seconds. (It also forces your MDR to zero at 44 seconds.) At the first infliction of
+///   damage it displays the 'you feel your control slipping' string.
+/// - blocks the ability to rest or save
+/// - strips away any Fear effects still on the character
+///
+/// So you can see that the power is just enforcing various external features of the shapeshift. The core payload is
+/// outsourced to the granted weapon. (This is standard good practice in IE).
+///
+/// The weapon itself, SLAYERW3, has a plethora of effects on it:
+/// - it applies the Polymorph opcode, using SLAYER as its template. This sets the character's APR, AC, STR, DEX, and
+///   resistances to match the template creature. (I think that's the lot; it's not well documented on IESDP.)
+/// - it sets the character's saving throws all to 2, the character's THAC0 to 0, and (for reasons less clear to me)
+///   enforces a minimum AC of 5.
+/// - it applies a maximum hit point bonus of 100 and then fully heals the PC to that level
+/// - it applies the Slayer's protection powers, which appear to be: immunity to Charm/Domination, Sleep, Stun,
+///   Finger of Death, Fear, Imprisonment, level drain, and all missile attacks.
+/// - it grants immunity to a vast number of shapeshift spells, so that you can't shapeshift as the Slayer.
+///
+/// Finally, the weapon also has a simple attack structure: 1d8 damage, +2 cold. (It lacks a name, which on EE 
+/// causes minor UI problems.)
+///
+/// Slayer change is permanent (until it kills you!) but can be reversed by SPIN718. This:
+/// - removes the slayer-form weapon, thus removing the core shapeshift effects)
+/// - removes a ton of 'shapeshift natural form' spells (I think this is just belt-and-braces on the part of the EE
+///   team)
+/// - applies the visual/sound effects
+/// - applies a null Polymorph effect
+/// - imposes 4 points of fatigue
+/// - sets SLAYER10 to zero (it is set by the dialog)
+/// - presumably to play it safe, runs a 321 to zap any residual effects of SPIN823
+/// - regrants the Slayer Change ability (presumably because the previous granting was stripped by the 321)
+///
+/// The vBG2 implementation is messier. Some of the immunity effects live on the spell rather than the item,
+/// as does the Polymorph effect itself. The weapon is SLAYERWP, not SLAYERW3 (at a guess, the latter is an EE
+/// clone). Absent 321, there are some manual moves to implement stripdown - notably we have to manually
+/// remove the MDR block, and the method is broken (it gives 44 seconds of immunity to MDR, and in any case vBG2
+/// didn't impose that effect). Only SPIN718 itself is removed, not all the Natural Form abilities
+/// (though I think that's harmless).
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   LAF set_marker STR_VAR marker=fin_slayer_powers_baseline END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Start by getting the vBG2 implementation solid.
+///
+/// We'll mostly copy the EE formula. We'll ignore the edge case of removing fear effects and stray shapeshift
+/// powers, and we'll use sectype trickery (i.e. a bespoke secondary school and opcode 221) to emulate EE's
+/// 321 opcode.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ACTION_IF !enhanced_edition BEGIN
+
+   // just copy over an unmodified copy of SLAYERW3.itm - it doesn't have any EE-specific features
+
+   COPY "%MOD_FOLDER%/powers/resource/slayerw3.itm" override
+
+   // bespoke slayer-change sectype
+
+   ADD_SECTYPE SlayerSectype ""
+
+   // edit SLAYER_CHANGE_TWO to get it up to code
+   
+   COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
+        WRITE_BYTE 0x27 SlayerSectype                               // the new secondary type
+        REPLACE_TEXTUALLY "slayerwp" "slayerw3" (8)                 // replace old with new slayer weapon
+        PATCH_FOR_EACH match_opcode IN 101 135 169 BEGIN        // remove any immunities that ought to be outsourced to the weapon, along with
+             LPF DELETE_EFFECT INT_VAR match_opcode END   // the Polymorph effect
+        END
+        // apply the MDR=0% effect that EE uses
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=31  // Magic damage resist
+                                     target=1
+                                     parameter2=1 // 'set'
+                                     timing=4     // delay
+                                     duration=44  // come in just as the final backlash hits
+                                     insert_point=0 // apply at the start, so it's in place in time
+        END
+   BUT_ONLY
+
+   // edit SPIN718 (and also the variant SPIN667) to delete the slayer effects via 221 and remove the broken MDR effect
+   
+   COPY_EXISTING 
+      "%SLAYER_BACK_TO_HUMAN%.spl" override
+      "%SLAYER_BACK_TO_HUMAN_NOVIS%.spl" override
+        LPF DELETE_EFFECT INT_VAR match_opcode=31 END
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=221 target=1 parameter1=9 parameter2=SlayerSectype timing=1 END
+   BUT_ONLY
+
+END
+
+   // correct an edge-case bug in EE where the NOVIS version of SLAYER_BACK_TO_HUMAN doesn't do a 321 removal
+   // of the slayer effects (if the player is in slayer form when this is applied, they'll die of feedback)
+   
+   ACTION_IF enhanced_edition BEGIN
+      COPY_EXISTING "%SLAYER_BACK_TO_HUMAN_NOVIS%.spl" override
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=321 target=2 timing=0 parameter2=2 STR_VAR resource="%SLAYER_CHANGE_TWO%" END
+      BUT_ONLY
+   END
+
+/////////////////////////
+/// handle restoration of the slayer power
+///
+/// we need to remove the power when the PC is
+/// the slayer, and give it back later. To facilitate
+/// later goals (notably the quite complicated interchange
+/// between slayer-power upgrade, EE in-game documentation,
+/// and the Ascension Unleash power (that blocks transformation
+/// to the Slayer for 30 seconds) we do this via indirection:
+/// a new spell removes the slayer ability, and another gives
+/// it back on a delay timer. (This indirection means that the
+/// new spell is not in turn deleted when we remove the 
+/// slayer change via 221/321.)
+/////////////////////////
+
+
+   // the removal spell
+   LAF create_basic_spell STR_VAR spell=finslrm END
+   COPY_EXISTING "finslrm.spl" override
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END
+
+   // the granting spells
+   LAF create_basic_spell STR_VAR spell=finslgr END
+   COPY_EXISTING "finslgr.spl" override
+     LPF ADD_SPELL_EFFECT INT_VAR opcode=171 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END
+
+   COPY_EXISTING "finslgr.spl" "override/finslgd.spl" 
+     LPF ALTER_EFFECT INT_VAR timing=4 duration=180 END
+     LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=0 duration=179 opcode=318 STR_VAR resource=finslg2 END // Unleash's grant ability
+
+
+   COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=2 parameter1=1 parameter2=1 STR_VAR resource=finslrm END
+       LPF CLONE_EFFECT STR_VAR match_resource=finslrm resource=finslgd END
+   BUT_ONLY
+   
+   // remove any granting coming from SLAYER_BACK_TO_HUMAN or SLAYER_CHANGE_TWO
+   
+   COPY_EXISTING
+        "%SLAYER_BACK_TO_HUMAN%.spl" override
+        "%SLAYER_CHANGE_TWO%.spl" override
+       LPF DELETE_EFFECT STR_VAR match_resource="%SLAYER_START%" END
+   BUT_ONLY
+
+/////////////////////////
+/// now some small tweaks
+/////////////////////////
+
+
+COPY_EXISTING slayerw3.itm override
+   WRITE_LONG NAME1 10348
+   WRITE_LONG NAME2 10348
+
+// tweaks to the spell
+COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
+
+     // synchrony with the going berserk will work a lot better
+     // if things happen after a fixed number of rounds.
+     LPF ALTER_EFFECT STR_VAR match_function="opcode_is(139 12 31)" function="add_to_duration(4)" END
+     
+     // make sure we don't get two copies of the string 'You feel your control slipping' displaying at the same time
+     LPF CLONE_EFFECT INT_VAR match_opcode=139 opcode=267 timing=0 duration=1 END // to avoid two copies of the string displaying at once
+
+
+BUT_ONLY
+
+// tweaks to the CRE file
+COPY_EXISTING slayerw3.itm override
+     LPF CRE_patch INT_VAR resist_magic=0 END // move resistances onto the item
+BUT_ONLY
+
+// tweaks to the item file
+COPY_EXISTING "slayerw3.itm" override
+     WRITE_LONG NAME1 10348  // the weapon is unnamed, which has (cosmetic) problems, e.g. in EE UI, it appears as ": 1d8"
+     WRITE_LONG NAME2 10348  // Give it the usual generic 'attack' name that polymorph items get
+     // remove the random Finger of Death effect
+     LPF DELETE_EFFECT STR_VAR match_resource=spwi713 END
+     LPF DELETE_EFFECT STR_VAR match_resource=sppr708 END
+     LPF item_power_patch INT_VAR resist_magic=40 END
+     // sort out hitpoints
+     LPF check_ini STR_VAR ini=additive_slayer_hitpoints RET value END
+     PATCH_IF value BEGIN
+        LPF ALTER_EFFECT INT_VAR match_opcode=17 parameter2=0 END
+        LPF ALTER_EFFECT INT_VAR match_opcode=18 parameter2=0 END
+     END
+BUT_ONLY
+
+// tweaks to the summoning process - it assigns graphics even when you don't change, which is a bit weird,
+// and those graphics are partially duplicated in the full change,
+// but also it has a delay that is really painful from a tactical POV. Remove the delay.
+// There is a Holy Light projectile associated with the change, but I *suspect* it's a bug
+// (it's 255, which would be -1 if the projectile field were a byte, and it's not thematically appropriate)
+// - however, it's established enough (and intentionally replicated in Ascension) that I'll include it.
+// Logically, though, it ought to associate with the transformation, not the choice. We move the projectile,
+// and redo the player1 script so as to get ReallyForceSpell, not ApplySpell
+
+COPY_EXISTING "%SLAYER_START%.spl" override
+     LPF DELETE_EFFECT STR_VAR match_function="opcode_is_not(265)" END
+     LPF ALTER_EFFECT INT_VAR timing=1 duration=0 END
+     LPF ALTER_SPELL_HEADER INT_VAR projectile=0 speed=0 END
+BUT_ONLY
+COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
+     LPF ALTER_SPELL_HEADER INT_VAR projectile=255 END
+BUT_ONLY
+COPY_EXISTING player1.dlg override
+        DECOMPILE_AND_PATCH BEGIN
+           REPLACE_TEXTUALLY ~ApplySpell(Player1,SLAYER_CHANGE_TWO)~ ~ReallyForceSpell(Player1,SLAYER_CHANGE_TWO)~
+        END
+END
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// On EE, Make the spell that regrants the slayer-start power, and sort out in-game documentation
+///
+/// What makes this complicated is that we want to be able (on EE games) to have in-game documentation of the
+/// slayer change. Because the initial power just sets a variable that triggers a dialog, and since various 
+/// resources delete and reapply that power, this requires a little care.
+/// So:
+///
+/// - on EE only, we make copies of the slayer-start power, differing only in their documentation.
+///
+/// - We edit 'finslgr', to grant the XP-appropriate power, 'finslgd' to apply 'finslgr' with a delay,
+///   and 'finslrm' to remove them.
+///
+/// - we edit baldur.baf and baldur25.baf (they already control the slayer-change conversation) to add the 
+///   doc updates. (Yes, it's bad form to edit the main script, but I don't think it's readily avoidable.)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION slayer_upgrade_documentation BEGIN
+
+   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra"
+
+   // make the copies
+   COPY_EXISTING "%SLAYER_START%.spl" "override"
+       LPF slayer_desc_patch INT_VAR tra_ref=9 END
+   COPY_EXISTING "%SLAYER_START%.spl" "override/finsls2.spl"
+       LPF slayer_desc_patch INT_VAR tra_ref=10 END
+   COPY_EXISTING "%SLAYER_START%.spl" "override/finsls3.spl"
+       LPF slayer_desc_patch INT_VAR tra_ref=11 END
+   COPY_EXISTING "%SLAYER_START%.spl" "override/finsls4.spl"
+       LPF slayer_desc_patch INT_VAR tra_ref=12 END
+
+   // make the individual granting powers
+   LAF create_basic_spell STR_VAR spell=finslg1 END
+   COPY_EXISTING finslg1.spl override
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=171 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=265 target=2 timing=1 parameter1=1 STR_VAR resource=FINGRANT END
+   BUT_ONLY
+   COPY_EXISTING finslg1.spl "override/finslg2.spl"
+       LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls2 END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="%SLAYER_START%" END // remove power 1
+   BUT_ONLY
+   COPY_EXISTING finslg2.spl "override/finslg3.spl"
+       LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls3 END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="finsls2" END // remove power 2
+   BUT_ONLY
+   COPY_EXISTING finslg3.spl "override/finslg4.spl"
+       LPF ALTER_EFFECT INT_VAR match_opcode=171 STR_VAR resource=finsls4 END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=172 target=2 timing=1 STR_VAR resource="finsls3" END // remove power 3
+   BUT_ONLY
+   // get an 'XP <' splprot entry
+   LAF resolve_splprot_entry INT_VAR stat=44 value="-1" STR_VAR relation=greater_than RET splprot_num=value END
+   // make an XP-gated spell to grant them
+   COPY_EXISTING finslgr.spl override
+      LPF DELETE_EFFECT END
+      LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 timing=1 STR_VAR resource=finslg1 END
+      LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 timing=1 parameter1=threshold_1 parameter2=splprot_num STR_VAR resource=finslg2 END
+      LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 timing=1 parameter1=threshold_2 parameter2=splprot_num STR_VAR resource=finslg3 END
+      LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 timing=1 parameter1=threshold_3 parameter2=splprot_num STR_VAR resource=finslg4 END
+   BUT_ONLY
+   // cast it with a delay
+   COPY_EXISTING finslgr.spl "override/finslgd.spl"
+       LPF DELETE_EFFECT END
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=326 target=2 timing=4 duration=180 STR_VAR resource=finslgr END
+   BUT_ONLY
+   // add the other effects to the removal spell
+   COPY_EXISTING finslrm.spl override
+       PATCH_FOR_EACH resource IN finsls2 finsls3 finsls4 BEGIN
+          LPF CLONE_EFFECT STR_VAR match_resource="%SLAYER_START%" resource END
+       END
+   BUT_ONLY
+
+   // edit the scripts
+   
+   OUTER_SPRINT insert "%MOD_FOLDER%/powers/baf/slayer_documentation.baf"
+   ACTION_FOR_EACH script IN baldur baldur25 BEGIN
+      LAF INSERT_SCRIPT_BLOCK STR_VAR script match="Slayer10" insert END
+   END
+   
+   // edit the power that originally grants your slayer ability, to apply the new granter spell instead
+   
+   COPY_EXISTING "%GIVE_SLAYER_POWER%.spl" override
+        LPF ALTER_EFFECT INT_VAR match_opcode=171 opcode=146 parameter2=1 STR_VAR resource=finslgr END
+   BUT_ONLY
+
+   // area additions for ar4000 and (for SCS compatibility) ar3000, for players who start in ToB and need the 2M-4M XP power
+   
+   EXTEND_TOP "ar3000.bcs" "%MOD_FOLDER%/powers/baf/tob_start.baf"
+   EXTEND_TOP "ar4000.bcs" "%MOD_FOLDER%/powers/baf/tob_start.baf"
+
+END
+
+DEFINE_PATCH_FUNCTION slayer_desc_patch
+    INT_VAR tra_ref=0
+BEGIN
+   LPF check_ini STR_VAR ini=additive_slayer_hitpoints RET additive=value END
+   PATCH_IF additive BEGIN
+      SPRINT PLUS_SIGN_PLACEHOLDER "+"
+   END ELSE BEGIN
+      SPRINT PLUS_SIGN_PLACEHOLDER ""
+   END
+   SPRINT desc (AT tra_ref)
+   INNER_PATCH_SAVE desc "%desc%" BEGIN REPLACE_TEXTUALLY PLUS_SIGN_PLACEHOLDER "%PLUS_SIGN_PLACEHOLDER%" END
+   SAY 0x50 "%desc%"
+END
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Slayer upgrade dialog edit
+///
+/// We need to take the existing dialogue (monologue really!) in player1.dlg, which gives the player the choice of
+/// becoming the slayer, and edit it so the choice has different consequences at different XP levels (and includes
+/// the option of the Ravager at high enough XP).
+///
+/// This means we need to clone and selectively edit specific transitions, in order to allow for (admittedly
+/// hypothetical) third-party edits to that block of player1, or subsequent EE fixes. (There is a bd_ achievement
+/// global in the EE version at the moment, for instance, which straight use of the vAsc version would miss.)
+///
+/// I don't think this can be done in .d format, so we do a very delicate bit of surgery directly on the decompiled
+/// text file...
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION slayer_upgrade_dialog_edit BEGIN
+
+WITH_TRA "%ascension_tra_loc%/english/slayer_dialog.tra" "%ascension_tra_loc%/%LANGUAGE%/slayer_dialog.tra" BEGIN
+ 
+ ACTION_FOR_EACH number IN 1 2 3 4 BEGIN
+    OUTER_SPRINT ini "slayer_reputation_penalty_%number%"
+    LAF check_ini STR_VAR ini RET value END
+    ACTION_IF !IS_AN_INT value BEGIN
+       FAIL "Slayer reputation penalty must be an integer >=0"
+    END
+    ACTION_IF value=0 BEGIN
+       OUTER_SPRINT "rep_string_%number%" ""
+    END ELSE BEGIN
+       OUTER_SPRINT "rep_string_%number%" "ReputationInc(-%value%)"
+    END
+ END
+
+
+ OUTER_SET ravager_strref=RESOLVE_STR_REF(@317)
+ OUTER_SPRINT atsymbol "@"
+ COPY_EXISTING player1.dlg override
+   DECOMPILE_AND_PATCH BEGIN
+       REPLACE_EVALUATE "\(IF +~\([^~]*\)~ THEN REPLY #55325\)" 
+       BEGIN // extract the full starting string of the original slayer command, along with its trigger
+        PATCH_IF INDEX (~False()~ "%MATCH2%")<0 BEGIN
+           SPRINT start_text "%MATCH1%"
+           SPRINT trigger_original "%MATCH2%"
+           INNER_PATCH_SAVE trigger_original_trimmed "%trigger_original%" BEGIN
+                 REPLACE_TEXTUALLY "True()" ""
+           END
+        END
+       END
+       "%MATCH1%"
+       // extract the full string of the original slayer command
+       SET start = INDEX_BUFFER ("%start_text%")
+       SET end = INDEX_BUFFER ("EXIT" start) + 4
+       READ_ASCII start full_string (end - start)
+
+       // make the trigger for power 1 - activates with XPLT first threshold, reputation -1
+       INNER_PATCH_SAVE new_trigger_1 "%full_string%" BEGIN
+          REPLACE_TEXTUALLY "%trigger_original%" "%trigger_original_trimmed%XPLT(Player1,%threshold_1%)"
+          REPLACE_TEXTUALLY "ReputationInc([^)]*)" "%rep_string_1%"
+       END
+       // make the trigger for power 2 - activates with XPLT second threshold, !XPLT first threshold, reputation -1
+       INNER_PATCH_SAVE new_trigger_2 "%full_string%" BEGIN
+          REPLACE_TEXTUALLY "%trigger_original%" "%trigger_original_trimmed%XPLT(Player1,%threshold_2%)!XPLT(Player1,%threshold_1%)"
+          REPLACE_TEXTUALLY "ReputationInc([^)]*)" "%rep_string_2%"
+          REPLACE_TEXTUALLY ~ReallyForceSpell(Player1,SLAYER_CHANGE_TWO)~ ~ReallyForceSpellRES("slayer2",Player1)~
+          REPLACE_TEXTUALLY ~ApplySpell(Player1,SLAYER_CHANGE_TWO)~ ~ApplySpellRES("slayer2",Player1)~
+          PATCH_IF !enhanced_edition BEGIN  // Ascension's clunky documentation in journal isn't needed in EE
+             REPLACE_TEXTUALLY EXIT "JOURNAL @314 EXIT"
+          END
+       END
+       // make the trigger for power 3 - activates with !XPLT second threshold, reputation -2
+       INNER_PATCH_SAVE new_trigger_3 "%full_string%" BEGIN
+          REPLACE_TEXTUALLY "%trigger_original%" "%trigger_original_trimmed%!XPLT(Player1,%threshold_2%)"
+          REPLACE_TEXTUALLY "ReputationInc([^)]*)" "%rep_string_3%"
+          REPLACE_TEXTUALLY ~ReallyForceSpell(Player1,SLAYER_CHANGE_TWO)~ ~ReallyForceSpellRES("slayer3",Player1)~
+          REPLACE_TEXTUALLY ~ApplySpell(Player1,SLAYER_CHANGE_TWO)~ ~ApplySpellRES("slayer3",Player1)~
+          PATCH_IF !enhanced_edition BEGIN
+             REPLACE_TEXTUALLY EXIT "JOURNAL @315 EXIT"
+          END
+       END
+       // make the trigger for power 4 - activates with !XPLT third threshold, reputation -3, new string
+       INNER_PATCH_SAVE new_trigger_4 "%full_string%" BEGIN
+          REPLACE_TEXTUALLY "%trigger_original%" "%trigger_original_trimmed%!XPLT(Player1,%threshold_3%)"
+          REPLACE_TEXTUALLY "ReputationInc([^)]*)" "%rep_string_4%"
+          REPLACE_TEXTUALLY ~ReallyForceSpell(Player1,SLAYER_CHANGE_TWO)~ ~ReallyForceSpellRES("slayer4",Player1)~
+          REPLACE_TEXTUALLY ~ApplySpell(Player1,SLAYER_CHANGE_TWO)~ ~ApplySpellRES("slayer4",Player1)~
+          REPLACE_TEXTUALLY 55325 "%ravager_strref%"
+          PATCH_IF !enhanced_edition BEGIN
+             REPLACE_TEXTUALLY EXIT "JOURNAL @316 EXIT"
+          END
+       END
+       // patch these in
+       REPLACE_TEXTUALLY "%full_string%" "%new_trigger_1%%WNL%%new_trigger_2%%WNL%%new_trigger_3%%WNL%%new_trigger_4%"
+   END
+BUT_ONLY
+END
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Make the spells we need to grant an increasing chance of going berserk
+///
+/// The complexity here is all about finding a way to display 'you feel your control slipping' at the start,
+/// and a recovery string at the end, of a berserk period, without knowing in advance how long it will be!
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION slayer_berserk_resources
+BEGIN
+  ACTION_IF !FILE_EXISTS_IN_GAME "berserk.spl" BEGIN // guard against doing it twice
+     // start with a spell whose only job is to display a 'player has recovered' string
+     LAF create_basic_spell STR_VAR spell="finbrec" END
+     COPY_EXISTING finbrec.spl override
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=139 target=2 timing=1 parameter1=RESOLVE_STR_REF (@1045) END
+
+     // now edit the payload spell
+     COPY "%MOD_FOLDER%/powers/resource/berserk.spl" "override"
+             LPF ADD_SPELL_EFFECT INT_VAR opcode=267 target=2 timing=0 duration=7 parameter1=5381 END // to avoid consecutive copies of the 'you feel your control slipping' displaying
+             LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=2 timing=4 duration=6 parameter2=1 STR_VAR resource=finbrec END // apply the recovery string
+
+     // now build the template for the variable-probability effects
+     LAF create_basic_spell STR_VAR spell=finb100 END
+     COPY_EXISTING finb100.spl override
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=267 target=2 timing=0 duration=3 parameter1=RESOLVE_STR_REF (@1045) END // immunity to the recovery string, granted by the *next* control-slipping effect, if it's applied
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=2 timing=4 duration=1 parameter2=1 STR_VAR resource=berserk END // the payload, with a 1-second delay
+     BUT_ONLY
+     // duplicate other copies, with lower probability
+
+     OUTER_FOR (probability=5;probability<100;probability+=5) BEGIN
+          COPY_EXISTING finb100.spl "override/finb%probability%.spl"
+             SET probability1 = probability - 1 // usual off-by-one issue
+             LPF ALTER_EFFECT INT_VAR probability1 END
+          BUT_ONLY
+     END
+  END
+
+END
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Helper function to impose slayer berserk effects
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION slayer_berserk
+     INT_VAR first_time=0
+             last_time=0
+             initial=0 // initial probability of transforming
+             increment=0 // which increases by this amount...
+             step=1 // ... every this-many rounds
+BEGIN
+    SET prob=initial
+    SET steps_yet=0
+    FOR (time=first_time;time<=last_time;time+=6) BEGIN
+       SET prob = prob>100 ? 100 : prob
+       SET timing = (time=0)? 1 : 4
+       LPF ADD_SPELL_EFFECT INT_VAR opcode=146 target=1 parameter1=1 parameter2=1 timing duration=time STR_VAR resource="finb%prob%" END
+       SET steps_yet +=1
+       PATCH_IF steps_yet=step BEGIN
+          SET steps_yet=0
+          SET prob += increment
+       END
+    END
+END

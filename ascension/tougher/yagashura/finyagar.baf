@@ -1,0 +1,31 @@
+///////////////////////////////////////////////////////
+// Yaga-Shura's army has a habit of getting lost
+// offscreen; this makes sure they get found again
+///////////////////////////////////////////////////////
+
+IF
+  !GlobalGT("YagaShuraHeart","GLOBAL",3)
+  !Detect(NearestEnemyOf(Myself))
+  AreaCheck("ar5203")
+THEN
+    RESPONSE #100
+             MoveToObject(Player1)
+END
+
+IF
+  Global("YagaShuraHeart","GLOBAL",4)
+  !Detect(NearestEnemyOf(Myself))
+  !Dead("yaga01")
+  AreaCheck("ar5203")
+THEN
+    RESPONSE #100
+             MoveToObject("yaga01")
+END
+
+IF
+  Dead("yaga01")
+  AreaCheck("ar5203")
+THEN
+    RESPONSE #100
+       EscapeArea()
+END

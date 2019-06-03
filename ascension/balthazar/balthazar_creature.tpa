@@ -1,0 +1,121 @@
+OUTER_SPRINT balth_loc "%MOD_FOLDER%/balthazar"
+////////////////////////////////////////////////////////////
+////// Tougher chapter-9 balthazar
+////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION balthazar_cre_tougher BEGIN
+   
+   LAF set_marker STR_VAR marker=fin_tougher_balthazar END
+
+   COPY_EXISTING balth.cre override
+        LPF balthazar_cre_patch END
+   BUT_ONLY
+   
+   INCLUDE "%MOD_FOLDER%/tougher/tougher_shared.tpa"
+   LAF run_once STR_VAR function=bhaalimm END
+END
+
+////////////////////////////////////////////////////////////
+////// Friendly balthazar
+////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION balthazar_cre_friendly BEGIN
+
+// build a template version, if 'tougher' isn't installed
+COPY_EXISTING balth.cre "%workspace%"
+      LPF check_marker STR_VAR marker=fin_tougher_balthazar RET value END
+      PATCH_IF !value BEGIN
+          LPF balthazar_cre_patch END
+      END
+//BUT_ONLY
+
+// BALTH2 (friendly Balthazar) is built off BALTH, with these alterations:
+// loses his BHAALIMM immunity item
+// gets his (ALLFIVE-equivalent) immunities direct on his CRE file
+// loses all gold and droppable items except his healing potion
+// Allegiance is ALLY
+// gets the Clear Fog of War power
+// script name is balth2
+// different scripts
+// ignores Nightmare mode
+
+
+COPY "%workspace%/balth.cre" "override/balth2.cre"
+   LPF CRE_patch
+        INT_VAR gold=0
+        STR_VAR dv=balth2
+                dialog=balth2
+                script_class=balth2 // don't put in override: it'll overwrite his regeneration
+                script_default=""
+   END
+   PATCH_IF enhanced_edition BEGIN
+      WRITE_BYTE 0x12 ((BYTE_AT 0x12) BOR 0b01000000)  // ignore nightmare mode
+   END
+   WRITE_BYTE 0x270 4 // allegiance
+   REMOVE_CRE_ITEM bhaalimm potn05 rndtre05 misc42 misc43 misc44
+   LPF ADD_CRE_EFFECT INT_VAR opcode=268 target=1 timing=9 END 
+        LPF fear_immunity END
+        LPF charm_immunity END
+        LPF death_immunity END
+        LPF disintegrate_immunity END
+        LPF petrify_immunity END
+        LPF polymorph_immunity END
+        LPF fear_immunity END
+        LPF poison_immunity END
+        LPF devour_brain_immunity END
+BUT_ONLY
+
+END
+
+////////////////////////////////////////////////////////////
+////// General balthazar CRE patch
+////////////////////////////////////////////////////////////
+
+// balthazar's immunities, compared to Baseline BG2, are:
+// REMOVE immunity to 1st and 2nd level spells
+// REMOVE immunity to backstab
+// REMOVE immunity to poison, just because it's covered by his items anyway
+// REMOVE invisibility detection by script
+// REMOVE melee hit effects
+// REMOVE immunity to Sarevok (though this version has a SAREVIMM belt so it's pointless)
+// REDUCE movement rate bonus to 6
+// REDUCE number of 'Quivering Blow' memorised to 5
+// ADD regeneration 8
+// ADD MDR 90
+// ADD permanent improved haste
+// (vASC removes his BG1 proficiencies, but I think that has to be an error - they
+// don't give him any BG2 proficiencies)
+
+DEFINE_PATCH_FUNCTION balthazar_cre_patch
+BEGIN
+    LPF CRE_patch
+       INT_VAR
+         str=19
+         str_ex=0
+         hp_max=300
+         hp_current=300
+         wis=15
+         thac0="-10"
+         attacks=4
+         resist_slashing=10
+         resist_crushing=10
+         resist_piercing=10
+         resist_missile=10
+         resist_magic_damage=90
+         regeneration=8
+       STR_VAR script_default=BALTHFT2
+               add_spells="balth01 balth02 balth03 balth04 balth05 balth08 balth09 balth10 balth11"
+    END
+    LPF DELETE_EFFECT STR_VAR match_function="opcode_is(102 292 173 248)" END
+    LPF immunity_to_spell INT_VAR value=0 STR_VAR arguments="%CLERIC_SILENCE_15_FOOT% %WIZARD_STINKING_CLOUD% %WIZARD_WEB% %CLERIC_ENTANGLE%" END
+    LPF charm_immunity INT_VAR value=0 END
+    LPF fear_immunity INT_VAR value=0 END
+    LPF poison_immunity INT_VAR value=0 END
+    LPF DELETE_EFFECT STR_VAR match_resource=SAREVEFF END
+    LPF ADD_CRE_EFFECT INT_VAR opcode=16 target=1 parameter2=1 timing=9 END // haste
+    LPF ALTER_EFFECT INT_VAR match_opcode=126 parameter1=6 END // movement rate
+    REMOVE_MEMORIZED_SPELL SPCL811 // in vAsc, he has 5, but is not scripted to use it (and has plenty more to do)
+    REMOVE_CRE_ITEM  helmnoan
+    REPLACE_CRE_ITEM ~mfist8~ #0 #0 #0 ~UNSTEALABLE&UNDROPPABLE~ ~WEAPON1~ EQUIP
+    ADD_CRE_ITEM     ~staf20~ #0 #0 #0 ~UNSTEALABLE&UNDROPPABLE~ ~WEAPON2~
+END
