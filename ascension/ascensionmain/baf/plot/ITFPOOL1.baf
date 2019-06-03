@@ -34,8 +34,8 @@ THEN
     SetGlobalTimer("Pool1Timer","AR6200",3)
     SetGlobal("fin_pool_talker","AR6200",1)
     SmallWait(7)
-    CreateCreatureObject("PPGuy02",Player1,0,0,0)
-    ActionOverride("PPGuy02",StartDialogueNoSet(Player1))
+    CreateCreatureObject("PPGuy02",LastTrigger,0,0,0)
+    ActionOverride("PPGuy02",StartDialogueNoSet(LastTrigger))
 END
 
 IF
@@ -50,8 +50,8 @@ THEN
     SetGlobalTimer("Pool1Timer","AR6200",3)
     SetGlobal("fin_pool_talker","AR6200",7)
     SmallWait(7)
-    CreateCreatureObject("PPGuy02","Imoen2",0,0,0)
-    ActionOverride("PPGuy02",StartDialogueNoSet("Imoen2"))
+    CreateCreatureObject("PPGuy02",LastTrigger,0,0,0)
+    ActionOverride("PPGuy02",StartDialogueNoSet(LastTrigger))
 END
 
 IF
