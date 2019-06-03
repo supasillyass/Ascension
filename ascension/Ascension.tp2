@@ -5,12 +5,12 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0~
+VERSION ~2.0.0~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"
 
-ALWAYS 
+ALWAYS
    OUTER_SPRINT MOD_FOLDER ascension // overriding baseline, since we do an immutable install
    INCLUDE "ascension/lib/always.tpa"
 END
@@ -23,31 +23,31 @@ END
 // are translation files that should be loaded immediately,
 // because they contain the translated names of the modules the user will install.
 
-LANGUAGE ~English~    
-         ~english~ 
+LANGUAGE ~English~
+         ~english~
          ~ascension/lang/english/setup.tra~
 
 LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
-         ~german~ 
+         ~german~
          ~ascension/lang/german/setup.tra~
 
 LANGUAGE ~Francais (traduction de Ly Meng)~
-         ~french~ 
+         ~french~
          ~ascension/lang/french/setup.tra~
 
 LANGUAGE ~Traducción al Español (hecha por Clan REO)~
          ~spanish~
          ~ascension/lang/spanish/setup.tra~
 
-LANGUAGE ~Chinese Translation (by kalabaka)~ 
+LANGUAGE ~Chinese Translation (by kalabaka)~
          ~schinese~
          ~ascension/lang/schinese/setup.tra~
 
-LANGUAGE ~Traditional Chinese Translation (by kalabaka)~ 
+LANGUAGE ~Traditional Chinese Translation (by kalabaka)~
          ~tchinese~
          ~ascension/lang/tchinese/setup.tra~
 
-LANGUAGE ~Polski jezyk (Przetlumaczony przez Damian Staniszewski)~ 
+LANGUAGE ~Polski jezyk (Przetlumaczony przez Damian Staniszewski)~
          ~polish~
          ~ascension/lang/polish/setup.tra~
 
@@ -331,10 +331,10 @@ BEGIN @105200 DESIGNATED 2200 GROUP @103000
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
 
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
-      	
+
       	INCLUDE "ascension/npc/shawne_ee.tpa"
       	LAF shawne_ee END
-      	
+
 ///////////////////////////////////////////
 // DavidW's sharpened NPC portraits      //
 ///////////////////////////////////////////
