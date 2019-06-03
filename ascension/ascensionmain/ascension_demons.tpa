@@ -48,6 +48,7 @@ COPY "%demon_loc%/scripts/finaluf.baf" "override/finaluf.bcs"
 
 COPY "%demon_loc%/finbabau.cre" override
    SAY NAME1 @500 // 'Babau' is the only demon name not present in vBG2
+   SAY NAME2 @500 // 'Babau' is the only demon name not present in vBG2
    LPF poison_immunity INT_VAR value=0 END
    LPF CRE_patch INT_VAR regeneration=2 END
 // BUT_ONLY

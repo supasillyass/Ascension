@@ -92,7 +92,7 @@ BEGIN
      // set up the original spell
 
     COPY "%MOD_FOLDER%/ascensionmain/player/ctrldem.spl" "override/%outer_filename%.spl"
-         SAY 0x8 @1013
+         SAY NAME1 @1013
          LPF DELETE_EFFECT INT_VAR match_opcode=177 END // remove existing payload effects
          LPF DELETE_EFFECT INT_VAR match_opcode=309 END // remove existing payload effects
          LPF ALTER_EFFECT INT_VAR match_duration=6 duration=control_duration END // adjust duration of stun

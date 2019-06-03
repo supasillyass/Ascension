@@ -157,7 +157,7 @@ DEFINE_ACTION_FUNCTION ascension_imoen_powers BEGIN
    ///////////////////////////////////////////////////////////////////////////
 
    COPY_EXISTING "%WIZARD_IMPROVED_INVISIBILITY%.spl" "override/imoeth.spl"
-         WRITE_LONG 0x8 23359
+         WRITE_LONG NAME1 23359
          SAY 0x50 @1
          LPF SPL_patch INT_VAR spell_type=4 casting_animation=0 END
          FOR (i=2;i<50;i+=1) BEGIN

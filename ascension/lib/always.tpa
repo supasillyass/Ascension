@@ -1,7 +1,7 @@
 
 	// initialise
 
-        OUTER_SPRINT MOD_VERSION "2.0.2" // in due course WEIDU will do this automatically
+        OUTER_SPRINT MOD_VERSION "2.0.3" // in due course WEIDU will do this automatically
         OUTER_SET always_initialised=1
 
         // include function libraries (note that 'sfo_lite' also builds and sets a few SFO files/variables)

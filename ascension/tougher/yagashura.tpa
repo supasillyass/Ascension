@@ -40,7 +40,7 @@ DEFINE_ACTION_FUNCTION yagashura_army BEGIN
   ////////////////////////////////////////////////
 
   /// fix for all
-  
+
   ACTION_FOR_EACH creature IN yssold01 yssold02 yssold03 yssold04 ysfire01 ysfire02 BEGIN
      COPY_EXISTING "%creature%.cre" override
           LPF CRE_patch
@@ -560,7 +560,6 @@ DEFINE_ACTION_FUNCTION yagashura_resources BEGIN
    
    COPY "%MOD_FOLDER%/tougher/yagashura/yaga01.spl" override
       SAY NAME1 @8
-      SAY NAME2 @8
       PATCH_IF enhanced_edition BEGIN
          LPF DELETE_EFFECT INT_VAR match_opcode=12 match_dicenumber=4 match_save_vs_breath=0 END
          LPF ALTER_EFFECT INT_VAR match_opcode=12 match_dicenumber=4 dicenumber=8 save_for_half=1 END

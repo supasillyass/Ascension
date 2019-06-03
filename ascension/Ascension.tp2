@@ -5,7 +5,7 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0.2~
+VERSION ~2.0.3~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"

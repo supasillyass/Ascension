@@ -236,6 +236,7 @@ BEGIN
    ACTION_IF "%bhaalspawn_final%" STRING_COMPARE_CASE finbalth BEGIN
       COPY "%MOD_FOLDER%/ascensionmain/thefive/scripts/%bhaalspawn_final%.baf" "override/%bhaalspawn_final%.bcs"
           LPF handle_awkward_ds END
+          COMPILE_BAF_TO_BCS
    END
 
 
