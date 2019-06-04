@@ -1,5 +1,6 @@
 IF
-  Global("FinEnteredArea","AR6005",0)
+  AreaCheck("ar6005")
+  !Global("FinEnteredArea","AR6005",2)
 THEN
     RESPONSE #100
              NoAction()
@@ -7,6 +8,7 @@ END
 
 
 IF
+        AreaCheck("ar6005")
 	OR(3)
 		AttackedBy([GOODCUTOFF],DEFAULT)
 		HitBy([GOODCUTOFF],CRUSHING)
@@ -18,7 +20,9 @@ THEN
 END
 
 IF
-	Heard([EVILCUTOFF],151)
+
+        AreaCheck("ar6005")
+        Heard([EVILCUTOFF],151)
 	!Allegiance(Myself,ENEMY)
 THEN
 	RESPONSE #100

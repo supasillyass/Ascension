@@ -168,7 +168,7 @@ Detailed information on the Slayer form can be found <a href="ascension-addition
 <div align="right"><p><b>David Gaider</b></p></div>
 </div>
 <p>A note about this version: the modding tools available when this component was originally written made it extremely difficult to add new names for creatures, so the drakes added use rather strange names re-used from minor peasants and shopkeepers in the original Baldur's Gate (and are not identified in game as drakes at all). I (DavidW) took the opportunity to give them more evocative and meaningful names: Earth Drake, Fire Drake, Ice Drake, Shadow Drake. (If you prefer the originals, you can disable this; see under <a href="#customisation">customisation</a>.) Technically this is also true for the purple dragon, 'Tamah': she is named for an incredibly minor character in BG1. But Tamah has rather better name recognition, so I've left this alone.</p>
-<p>This version also adds to 'tougher Abazigal' one change to Ascension Abazigal's gear: his sword does magical and electrical damage, and slightly heals Abazigal with each hit. Again, see under <a href="#customisation">customisation</a> for how to turn it off.</p>
+<p>This version also modifies the humanoid-form version Abazigal to include his much more sophisticated script and powers from the Final-Five battle (minus the Spell Trigger and Chain Contingency that he saves to use in dragon form), rather than the very rudimentary script in the original 'tougher enemies', and to use the magical/electrical damage sword he wields in that battle. Again, see under <a href="#customisation">customisation</a> for how to turn these choices off.</p>
 <p><strong>Tougher Balthazar</strong></p>
 <p>This component enhances Balthazar and his monks when you encounter them late in Chapter 9, and improves their AI. It is extracted from the original 'Ascension' component (it is not the original, ancient 'tougher Balthazar' which Gaider wrote before Ascension).</p>
 <p><strong>Tougher Demogorgon</strong></p>
@@ -288,7 +288,8 @@ As of version 2.0, Ascension permits a significant amount of "fine tuning" over 
 <li>gromnir_ally_renames (1): if this is 1, then Gromnir's minotaur and medusa allies get new names; if it is zero, they continue to use recycled names from elsewhere in BG and BG2.</li>
 <li>abazigal_drake_renames (1): similarly, set this to 0 to get Abazigal's drakes to revert to using names borrowed from elsewhere in BG and BG2, rather than new names of their own.</li>
 <li>yagashura_cleric_rename (1): if this is 1, then the army clerics in Yaga-Shura's army are named as 'Yaga-Shura Cleric', along the lines of the rest of his army. If it is zero, they continue to use a recycled name from elsewhere in BG2 ('Cleric of Talos').</li>
-tougher_abazigal_uses_sword (1): set it to 0 if you don't want Abazigal (when originally encountered) to use the undroppable variant on his sword that he carries in the Final-Five battle.</li>
+<li>tougher_abazigal_uses_finale_script (1): set it to 0 if you want Abazigal (when originally encountered) to use the original 'tougher enemies' version of his script, not the Final-Five version.</li>
+<li>tougher_abazigal_uses_sword (1): set it to 0 if you don't want Abazigal (when originally encountered) to use the undroppable variant on his sword that he carries in the Final-Five battle.</li>
 <li>lava_bomb_tweak (1): v2.0 of Ascension tweaks Lava Bomb's knockback to be more in line with similar effects elsewhere, so that it knocks its targets unconscious for 3 seconds if they fail to save at -10, rather than for 18 seconds if they fail to save at -2. Set this to 0 to revert to the classic behavior.</li>
 
 </ul>
@@ -389,6 +390,14 @@ tougher_abazigal_uses_sword (1): set it to 0 if you don't want Abazigal (when or
 <ul>
 <li>Fixed critical bug whereby some of the Five weren't getting their scripts</li>
 <li>Babau now have the correct names</li>
+</ul>
+<p>x June 2019: 2.0.4</p>
+<ul>
+<li>Added some guards against Fallen Solars using spells on their allies</li>
+<li>Tightened up the logic of Tougher Abazigal's initial cutscene</li>
+<li>Final-Five Abazigal wasn't getting his spells</li>
+<li>Final-Five Abazigal should use the wizard version of stoneskin, not the dragon version</li>
+<li>Tougher Abazigal now uses the script and resources of the Final-Five version (can be overridden via the ini)</li>
 </ul>
 
 </div>

@@ -598,8 +598,23 @@ DEFINE_ACTION_FUNCTION abazigal_main BEGIN
    LAF run_once STR_VAR function=bhaalimm END
 
    // scripting - EEAsc does a cunning substitution but I think for pure-AI scripts it's safer to overwrite
-   COMPILE "%abaz_loc%/abaz2.baf"
+   
+   LAF check_ini STR_VAR ini=tougher_abazigal_uses_finale_script RET value END
 
+   ACTION_IF value BEGIN
+      COPY "%MOD_FOLDER%/ascensionmain/thefive/scripts/finabaz.baf" "override/abaz2.bcs"
+         REPLACE_TEXTUALLY ~AreaCheck("ar6005")~ ~~ // irrelevant
+         REPLACE_TEXTUALLY ~Difficulty\(GT\|LT\)?([^)]*)~ ~~  // no difficulty checks in 'tougher'
+         COMPILE_BAF_TO_BCS
+
+      LAF DELETE_SCRIPT_BLOCK STR_VAR script=abaz2 match=sendai END
+      LAF DELETE_SCRIPT_BLOCK STR_VAR script=abaz2 match=IMPRISON END
+      LAF DELETE_SCRIPT_BLOCK STR_VAR script=abaz2 match=ChainContingency END
+      LAF DELETE_SCRIPT_BLOCK STR_VAR script=abaz2 match=SpellTrigger END
+
+   END ELSE BEGIN
+       COMPILE "%abaz_loc%/abaz2.baf"
+   END
 
 END
 
@@ -684,6 +699,9 @@ END
   3-point movement bonus
   Gains immunity to timestop and to wing buffet
   Gains two uses of Greater Deathblow
+  The finale version gets lots more spells, and it's convenient to add them too:
+  2x stoneskin, 2x lower resistance, 2x breach, 2x disintegrate, 2x PW:silence,
+  2x maze. (And some other spells that aren't scripted to be used)
 */
 
 DEFINE_PATCH_FUNCTION abazigal_cre_patch BEGIN
@@ -693,7 +711,7 @@ DEFINE_PATCH_FUNCTION abazigal_cre_patch BEGIN
                immunity_to_timestop=1
                immunity_to_backstab=0
        STR_VAR immunity_to_opcodes=235
-               add_spells="WARRIOR_GREATER_DEATHBLOW(2)"
+               add_spells="WARRIOR_GREATER_DEATHBLOW(2) WIZARD_STONE_SKIN(2) WIZARD_BREACH(2) WIZARD_DISINTEGRATE(2) WIZARD_POWER_WORD_SILENCE(2) WIZARD_MAZE(2)"
     END
     LPF DELETE_EFFECT INT_VAR match_opcode=190 END
     LPF ADD_CRE_EFFECT INT_VAR opcode=126 target=1 timing=1 parameter1=3 END // movement bonus

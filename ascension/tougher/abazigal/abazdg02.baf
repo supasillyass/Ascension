@@ -1,5 +1,5 @@
 IF
-  Global("FinEnteredArea","AR6005",0)
+  !Global("FinEnteredArea","AR6005",2)
 THEN
     RESPONSE #100
              NoAction()
