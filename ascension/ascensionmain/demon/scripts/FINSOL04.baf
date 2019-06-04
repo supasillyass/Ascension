@@ -309,6 +309,8 @@ IF
   OR(2)
     CheckStatGT(LastSeenBy(Myself),19999,XPVALUE)
     CheckStatGT(LastSeenBy(Myself),119,MAXHITPOINTS)
+  Allegiance(Myself,ENEMY)
+  Allegiance(LastSeenBy(Myself),EVILCUTOFF)
 THEN
   RESPONSE #100
     SetInterrupt(FALSE)
@@ -379,6 +381,7 @@ IF
   Gender(LastSeenBy(Myself),SUMMONED)
   LevelLT(LastSeenBy(Myself),11)
   !GlobalTimerNotExpired("SolarDeathSpell","LOCALS")
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #50
     SetGlobalTimer("MelissanDeathSpell","LOCALS",30)
@@ -456,6 +459,7 @@ END
 
 IF
   Global("random","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #25
     SetGlobal("SolarCreepDoom","LOCALS",1)
@@ -482,6 +486,7 @@ IF
   HPPercentGT(LastSeenBy(Myself),50)
   !InPartySlot(LastSeenBy(Myself),0)
   Global("SolarImprisonment","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #66
     SetGlobal("SolarImprisonment","LOCALS",1)
@@ -496,10 +501,10 @@ END
 IF
   Global("random","LOCALS",1)
   !GlobalTimerNotExpired("spell","LOCALS")
-  See(NearestEnemyOf(Myself))
   HPPercentGT(LastSeenBy(Myself),50)
   !InPartySlot(LastSeenBy(Myself),0)
   Global("SolarImprisonment","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #66
     SetGlobal("SolarImprisonment","LOCALS",1)
@@ -516,6 +521,7 @@ IF
   GlobalGT("random","LOCALS",6)
   !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
   Global("SolarCreepDoom","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #50
     SetGlobal("SolarCreepDoom","LOCALS",1)
@@ -536,6 +542,7 @@ IF
     GlobalGT("random","LOCALS",8)
   !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
   Global("SolarFinger","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #100
     SetGlobal("SolarFinger","LOCALS",1)
@@ -550,6 +557,7 @@ IF
   NumCreatureLT([EVILCUTOFF],3)
   !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
   Global("SolarFirestorm","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #100
     SetGlobal("SolarFirestorm","LOCALS",1)
@@ -563,6 +571,7 @@ IF
   HPPercentGT(Myself,50)
   !Range(LastSeenBy(Myself),5)
   Global("SolarSpray","LOCALS",0)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #100
     SetGlobal("SolarSpray","LOCALS",1)
@@ -577,6 +586,7 @@ IF
   HPPercentGT(Myself,50)
   !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
   GlobalLT("SolarEarthquake","LOCALS",3)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #60
     IncrementGlobal("SolarEarthquake","LOCALS",1)
@@ -627,6 +637,7 @@ IF
     StateCheck(LastSeenBy(Myself),STATE_DRAWUPONHOLYMIGHT)
     StateCheck(LastSeenBy(Myself),STATE_BLUR)
     StateCheck(LastSeenBy(Myself),STATE_MIRRORIMAGE)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #40
     SetGlobalTimer("spell","LOCALS",6)
@@ -671,6 +682,7 @@ IF
   !StateCheck(LastSeenBy(Myself),STATE_CONFUSED)
   !StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
   GlobalLT("SolarConfuse","LOCALS",3)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #70
     IncrementGlobal("SolarConfuse","LOCALS",1)
@@ -686,6 +698,7 @@ IF
   !GlobalTimerNotExpired("spell","LOCALS")
   !StateCheck(LastSeenBy(Myself),STATE_CHARMED)
   GlobalLT("SolarCharm","LOCALS",3)
+  Allegiance(LastSeenBy(Myself),GOODCUTOFF)
 THEN
   RESPONSE #100
     IncrementGlobal("SolarCharm","LOCALS",1)
