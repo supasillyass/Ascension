@@ -210,7 +210,7 @@ END // end of APPEND
 
 /// Irenicus interjections into Bodhi dialog
 /// (one of these is added by David, since
-/// Irenicus now comments only one one of the
+/// Irenicus now comments only on one of the
 /// two paths and I think that's an error).
 
 INTERJECT_COPY_TRANS finbodh bodhi_sarevok FinBodhiIrenInter == irenic2 @455 END

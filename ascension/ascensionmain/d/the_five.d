@@ -29,7 +29,8 @@ APPEND_EARLY finmel01 // APPEND_EARLY just because we APPEND_EARLY some other st
 IF ~Global("FinalFight","AR6200",6)Global("TheFiveAreHere","AR6200",1)~ THEN BEGIN mel_five_here
   SAY @616 /* ~I was going to resurrect them anyway, to serve as my conquering avatars.  And I prefer them far better this way...completely servile, obeying every order without question.~ #74355 */
   IF ~Global("BalthazarFights","GLOBAL",1)DifficultyGT(EASY)~ THEN GOTO mel_gromnir_too
-  IF ~OR(2)Global("BalthazarFights","GLOBAL",0)DifficultyLT(NORMAL)~ THEN GOTO mel_not_gromnir
+  IF ~Global("BalthazarFights","GLOBAL",0)~ THEN GOTO mel_not_gromnir   // split this up to facilitate SCS substitution of the difficulty check
+  IF ~DifficultyLT(NORMAL)~ THEN GOTO mel_not_gromnir
 END
 
 IF ~~ THEN BEGIN mel_gromnir_too
@@ -48,7 +49,8 @@ IF ~~ THEN BEGIN mel_sarevok_checkpoint
   SAY @619 /* ~Perhaps.  But already I am immortal, which means I cannot be killed even by you.  And there is still more of your father's essence for me to take.~ #80486 */
   IF ~Dead("sarevok")~ THEN GOTO mel_exit_no_sarevok
   IF ~InPartyAllowDead("sarevok")!Dead("sarevok")~ THEN GOTO mel_sarev_offer_inparty
-  IF ~!InPartyAllowDead("sarevok")!Dead("sarevok")OR(3)!Global("fin_sarev_redeemed","GLOBAL",0)DifficultyGT(2)Global("BalthazarFights","GLOBAL",1)~ THEN GOTO mel_summon_sarevok
+  IF ~!InPartyAllowDead("sarevok")!Dead("sarevok")OR(2)!Global("fin_sarev_redeemed","GLOBAL",0)Global("BalthazarFights","GLOBAL",1)~ THEN GOTO mel_summon_sarevok // split this up to facilitate SCS substitution
+  IF ~!InPartyAllowDead("sarevok")!Dead("sarevok")DifficultyGT(2)~ THEN GOTO mel_summon_sarevok
   IF ~!InPartyAllowDead("sarevok")!Dead("sarevok")DifficultyLT(3)Global("BalthazarFights","GLOBAL",0)Global("fin_sarev_redeemed","GLOBAL",0)~ THEN GOTO mel_exit_no_sarevok
 END
 
