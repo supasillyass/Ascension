@@ -3250,10 +3250,6 @@ msgstr ""
 msgid "Slightly improved cutscenes, by DavidW"
 msgstr ""
 
-#: setup.tra:109999
-msgid "Testting 1"
-msgstr ""
-
 #: shawnesepilogues.tra:4001
 msgid ""
 "Driven to oppose slavery in all its forms, Aerie continued adventuring after"

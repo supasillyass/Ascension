@@ -3288,10 +3288,6 @@ msgstr ""
 msgid "Slightly improved cutscenes, by DavidW"
 msgstr ""
 
-#: setup.tra:109999
-msgid "Testting 1"
-msgstr ""
-
 #: shawnesepilogues.tra:4001
 msgid "Driven to oppose slavery in all its forms, Aerie continued adventuring after leaving <CHARNAME>'s side. She made several attempts to gather a larger group around her, as <CHARNAME> had done, but each time the company would collapse into infighting and betrayal. Aerie's compassion had grown tainted by her need for vengeance, and she could neither command nor inspire loyalty in others. She might have lost herself entirely, had she not stumbled across a group of avariel slaves in Cormyr. Upon their release, they guided Aerie back to Faenya-Dail, the home she had been stolen from. She learned much during her stay, and came to understand that she was no longer truly an avariel, at last accepting the loss of her wings. Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had often spoken of. He had been her true family, and it was among his people that she finally found peace."
 msgstr "Poté, co opustila společnost <CHARNAME>, pokračovala Aerie v putování a na svých cestách bojovala proti jakékoli formě otrokářství. Několikrát se pokusila kolem sebe shromáždit skupinu zkušených dobrodruhů, tak jak to dělal <CHARNAME>, ale vždy to skončilo neúspěchem, protože nebyla dostatečně zkušeným vůdcem. Její soucit poskvrnila pomsta; pomsta za to, co jí vzali, když byla v řetězech. Snad by své pomstě úplně propadla, kdyby nenarazila na skupinu okřídlených elfů Avariel uvězněných v Cormyru. Ti ji zavedli do Faenya-Dail, domova, odkud byla unesena, a tam se mnoho dozvěděla. Nejdůležitější bylo, že pochopila, že již není jednou z Avariel, a přestala toužit po svých ztracených křídlech. Nakonec se Aerie stala nejvyšší kněžkou v Understone, gnómské vesnici, o níž často mluvil její opatrovník Quayle. To on byl její skutečná rodina a mezi jeho lidmi konečně nalezla své štěstí a rodinu, po kterém vždy toužila. "
