@@ -16,9 +16,40 @@
 @1025 = ~Ristorare Divino~
 @1026 = ~Purificare Divino~
 @1027 = ~Paralisi Aura~
+@1029 = ~Bomba di Lava~
 @1031 = ~Simbolo di Lentezza~
 @1037 = ~Cambiamento del Distruttore~
 @1038 = ~Melissan: Comanda i Tirapiedi dell'Abisso~
+@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+@1041 = ~Transfixed~
+@1042 = ~Weapons weakened by Babau slime~
+@1043 = ~Grabbed~
+@1044 = ~Regains Bhaal powers~
+@1045 = ~You have regained control for now.~
+@1046 = ~Magic Resistance lowered by 5%~
+@1047 = ~Magic Resistance lowered by 5%~
+@1048 = ~Slayer transformation enhanced~
+@1049 = ~The demon bows to your will~
+@1050 = ~The demon defies your will~
+@1051 = ~This power only affects demons~
+@1052 = ~The demon bows to Melissan's will~
+@1053 = ~The demon defies Melissan's will~
+@1054 = ~Bhaalspawn Power gained: Unleash~
+@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+@1057 = ~Bhaalspawn Power gained: Dimension Door~
+@1058 = ~Bhaalspawn Power gained: Control Demons~
+@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+@1060 = ~Bhaalspawn Power gained: Focus~
+@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
+@1062 = ~Manto Divino~
+@1063 = ~Magic Resistance Restored~
+@1064 = ~Antimagic Protections Removed~
+@1065 = ~Combat Protections Removed~
+@1066 = ~AI deactivated~
+@1067 = ~AI activated~
+@1068 = ~Lunar Malison~
 @2000 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
@@ -116,6 +147,7 @@ Come l'incantesimo di 5° livello Rianimare Morti, Resurrezione riporta in vita u
 @2007 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito una resistenza pari al 25% ai danni fisici (tagliente, perforante, contundente e da proiettile).~
+@2008 = ~Slayer Change ability improved~
 @3000 = ~Spada del Caos di Sarevok~
 @3001 = ~La spada di Sarevok, il fratello di <CHARNAME>, usata nella battaglia combattuta nella lontana Baldur's Gate. <CHARNAME> prevalse, distruggendo i piani di Sarevok e salvando la Costa della Spada dal baratro della guerra. Ora Sarevok si è unito alla causa di <CHARNAME> e la sua lama gli è stata riconsegnata. Sarevok la descrive come l'arma di un Latore di Morte e ha ripristinato alcuni dei precedenti poteri della spada. Tuttavia, senza la sua essenza di progenie di Bhaal che scorre nella lama, non può raggiungere il potere che un tempo aveva. Resta comunque un'arma formidabile... una che secondo Sarevok sarebbe difficile da brandire da chi non è mai stato un Latore di Morte, se non del tutto impossibile.
 
@@ -148,22 +180,3 @@ Druido
 Allineamenti Non Caotici~
 @3002 = ~Pozione di Sendai~
 @3003 = ~Forse un infuso realizzato da Sendai in persona, questa è una pozione di guarigione incredibilmente potente capace di ripristinare i Punti Ferita di chi la usa.~
- ~Aerie continuò a fare l’avventuriera per anni dopo avere lasciato la compagnia di <CHARNAME>, viaggiando con un gruppo più numeroso ma a volte proseguendo per conto suo al fine di impiegare il suo potere contro la schiavitù nei Reami. La sua compassione cominciò però ad essere minata dalla vendetta - vendetta per ciò che le era stato portato via mentre era in catene e che non avrebbe mai potuto esserle restituito. Si racconta che Aerie, invasata dalla furia della giustizia, abbia distrutto da sola un’enclave di schiavisti nelle colline a nord del Cormyr. Fu sorpresa nel trovare un gruppo di elfi avariel che erano stati imprigionati; li liberò subito e in cambio fu invitata a ritornare nella sua casa di Faenya-Dail che non vedeva da tanto tempo. Imparò molto durante la sua permanenza. Soprattutto, capì che non era più una vera avariel e rinunciò per sempre alle ali che aveva perso. Faenya-Dail non era più la sua casa e, con un miscuglio di emozioni, le disse addio. Si dice che Aerie divenne infine un’alta sacerdotessa ad Understone, un villaggio di gnomi di cui il suo mentore Quayle le aveva talvolta parlato. Quayle era stato la sua vera famiglia e tra il popolo di lui trovò finalmente la pace e la famiglia che aveva sempre desiderato. Si dice anche che Aerie pregasse per la sua vecchia amica <CHARNAME> ogni notte in cui le stelle apparivano nel cielo. Sperava sinceramente che la sua amica avesse avuto la fortuna di trovare la pace che lei aveva… perché senza <CHARNAME>, per lei non sarebbe mai stato possibile trovarla.~
-
-
-
-
-
-
-
- ~I pericoli che Mazzy Fentan affrontò al fianco di <CHARNAME> non placarono la sua sete di avventura. Infatti, non molto tempo dopo gli eventi nel Tethyr, formò i Cavalieri di Fentan, una coraggiosa banda di eroi che disseminò molti racconti per tutti i Reami. Mazzy invocava sempre il nome di <CHARNAME> per spronare i suoi compagni al valore o quando dovevano combattere dubbi e tentazioni. <CHARNAME> era la più grande donna che Mazzy avesse mai conosciuto e il cavaliere halfling sentiva che era suo dovere vivere all’altezza della sua vecchia amica. I Cavalieri di Fentan combatterono contro troll per salvare città in pericolo, respinsero orde di orchi per preservare antiche foreste e affrontarono un malvagio drago nella sua stessa tana al solo scopo di rendere il mondo un posto migliore. La loro leggenda assunse dimensioni maggiori delle loro vere vite, soprattutto nel caso di Mazzy, tanto che era solita dire che se il suo valore si fosse misurato in centimetri, sarebbe stata alta sei metri. È ben risaputo che il coronamento più importante di Mazzy fu il giorno in cui venne investita come paladina onoraria nella grande sala del Cuore Radioso. La prima halfling nella storia, la prima non umana, le sue silenziose lacrime di orgoglio caddero liberamente sul suo volto quando l'anziano Prelato stese sulle sue spalle le più grandi onorificenze dell'Ordine. Si dice che Mazzy scrutò spesso la folla durante la cerimonia e tra tutti i vecchi amici che riuscirono ad essere presenti, il viso che cercò di più fu quello di <CHARNAME>. Dopo tutti i rischi corsi in vita, alla fine Mazzy si spense in pace in tarda età. Non si sistemò mai e non ebbe figli, ma la sua fu un’eredità che avrebbe ispirato la sua gente per molte generazioni.~
-
- ~Negli anni successivi alla sua resurrezione da parte di <CHARNAME>, Sarevok trascorse molto tempo viaggiando per i Reami Dimenticati, rimanendo raramente a lungo in un solo posto. Si dice che a Berdusk respinse un'armata di orchi invasori, mostrando uno spaventoso potere e una furia tale che i terrorizzati abitanti del posto non sapevano chi temere di più... solo per scomparire nel silenzio senza pretendere una ricompensa. A Westgate giunse come un conquistatore, imponendo brutalmente il suo volere sulla città per poi scomparire misteriosamente mesi dopo, lasciando i suoi stessi uomini sbigottiti alla mercé della folla infuriata. Agiva come un uomo che non conoscesse se stesso e tutti i racconti concordano sul fatto che fosse un'anima tormentata, in bilico tra la vita e la morte, senza mai raggiungerne una. Coloro che lo conoscevano bene, cioè pochi, affermano che il tormentato guerriero a volte maledisse la leggendaria <CHARNAME> per avergli dato una seconda occasione... e che a volte la ringraziasse. Alla fine, scomparse del tutto dai Reami. Si dice che si fosse lanciato all'assalto dello stesso Abisso o che si fosse tolto la vita. In realtà, viaggiò per Kara-Tur per seppellire il suo unico vero amore, la guerriera Tamoko. Non tornò mai più, sebbene le storie su di lui persistano.~
-
-
-
-
-
-
- ~Dopo essere ritornato ad Amkethran, Balthazar iniziò a portare cambiamenti per il meglio. Aveva ben imparato dalla sua amica e sorella il significato della parola "Bontà". Portò sempre con sé le sue colpe; un ricordo per non ricommettere mai più gli stessi errori. Ciò che ancora rimaneva di criminale fu velocemente estirpato dall'avamposto, il quale attrasse nuovi coloni e mercanti. Con gli anni, Amkethran divenne una città fiorente e il centro culturale dell'intera regione, nota per la sua pace e per la sua compassione verso i poveri. Balthazar fu anche di centrale importanza nella creazione delle Guardia Monastica, un gruppo di paladini e di monaci d'elite che giurò di proteggere il popolo da qualsiasi forma di tirannia. Le sue azioni gli fecero presto guadagnare il rispetto e la fiducia della sua gente. In età avanzata, il suo lavoro finì e si dice che fu spesso trovato ad ammirare il cielo ricordando <CHARNAME>. In seguito, Balthazar lasciò Amkethran per sempre per un pellegrinaggio a Candlekeep… per ringraziarla un'ultima volta per la pace che aveva trovato e per vedere le umili origini di una leggenda.~
-

@@ -1,4 +1,3 @@
-
 @477 = ~C'est... C'est fini... je suis à nouveau humaine. Ohhhh, maintenant je sais ce que tu as traversé, <CHARNAME> ! Je ne crois pas que je veuille à nouveau revivre ça !~
 @478 = ~Et je n'arrive pas à croire ce que tu as dit ! 'Vas-y tues-la' ? Après tout ce que nous avons vécu, c'est tout ce que tu trouves à dire pour ma défense ?!~
 @479 = ~J'étais en train d'essayer de convaincre Mélissane de te laisser tranquille, Imoen !~
@@ -25,3 +24,4 @@ Pour les deux rounds suivants, Imoen peut rester en 'demi-phase'... partiellemen
 @493 = ~Je vois que nous sommes encore en plein combat. As-tu besoin de moi dans ton groupe ? Je pourrais... quitter le Trône, je pense... je pense que j'ai des pouvoirs assez semblables aux tiens maintenant. Je combattrais à nouveau à tes côtés si tu le désires.~
 @494 = ~Cesse de me distraire en plein milieu du combat je t'ai dit ! Reviens dans le groupe !~
 @495 = ~Oui <PRO_SIRMAAM> ! (clin d'oeil !) Il est temps de botter les fesses de quelqu'un, hein ?~
+@1000 = ~Bhaalspawn powers granted~

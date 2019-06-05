@@ -1,4 +1,3 @@
-
 @26 = ~¿Quién? Melissan. Y <CHARNAME>, nada menos. Y pensar que me había resignado a no formar parte de este pequeño juego. ¿Quién me trajo aquí? ¿Y por qué llevo mi vieja armadura?~
 @27 = ~¿Luchar contra <CHARNAME>? Sí... lo haré.~
 @28 = ~Así que morís otra vez, también. Perfecto.~
@@ -29,7 +28,7 @@
 @624 = ~Oh, si que están, Sarevok. Os hice una oferta hace tiempo, y la oferta sigue en pie. Uníos a mi ahora, abandonad a este patético cachorro, y ocupad vuestro lugar a mi lado.~
 @625 = ~El conjuro de obligación que ese loco os puso en el corazón no es nada. Podría quitároslo con facilidad. De hecho, voy a hacerlo ahora. Ya está... haz lo que quieras.~
 @626 = ~Quizás. Pero sois un gran guerrero... y podríais ser un buen general para comandar mis tropas terrestres. Poder, riquezas, respeto... todo lo que deseáis.  Incluyendo la devolución de la esencia de Bhaal que perdísteis. Vamos, Sarevok... sed el demonio que fuísteis una vez. Poneos a mi servicio.~
-@627 = ~¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestro <PRO_BROTHERSISTER>, ¡qué tan merecida tiene la venganza!~
-@628 = ~¡Entonces morid con el estúpido de vuestro <PRO_BROTHERSISTER>, si eso es lo que queréis! ¡Los Cinco acabarán con vosotros dos!~
+@627 = ~¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestro <PRO_BROTHERSISTER>, ¡qué tan merecida tiene la venganza!~ ~¡Entonces lucharéis por mi! Y vuestra primera víctima será vuestra <PRO_BROTHERSISTER>, ¡qué tan merecida tiene la venganza!~
+@628 = ~¡Entonces morid con el estúpido de vuestro <PRO_BROTHERSISTER>, si eso es lo que queréis! ¡Los Cinco acabarán con vosotros dos!~ ~¡Entonces morid con la estúpida de vuestra <PRO_BROTHERSISTER>, si eso es lo que queréis! ¡Los Cinco acabarán con vosotros dos!~
 @629 = ~Yo os traje aquí, Sarevok. Para daros una segunda oportunidad. Uníos a mi y luchad contra <CHARNAME> y os devolveré el poder que perdísteis, el poder que tanto ansíais. Os convertiré en el hombre que fuísteis.~
 @1008 = ~Sois una estúpida, Melissan. Deberíais haber mantenido la energía divina que teníais para vos, y no distribuirla entre vuestros sirvientes. Será vuestra perdición.~

@@ -16,9 +16,40 @@
 @1025 = ~Boské zotavení~
 @1026 = ~Boská oèista~
 @1027 = ~Aura ochromení~
+@1029 = ~Lávová bomba~
 @1031 = ~Symbol moci: Zpomal~
 @1037 = ~Promìna v nièitele~
 @1038 = ~Melissan: Vláda nad pøisluhovaèi Propasti~
+@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+@1041 = ~Transfixed~
+@1042 = ~Weapons weakened by Babau slime~
+@1043 = ~Grabbed~
+@1044 = ~Regains Bhaal powers~
+@1045 = ~You have regained control for now.~
+@1046 = ~Magic Resistance lowered by 5%~
+@1047 = ~Magic Resistance lowered by 5%~
+@1048 = ~Slayer transformation enhanced~
+@1049 = ~The demon bows to your will~
+@1050 = ~The demon defies your will~
+@1051 = ~This power only affects demons~
+@1052 = ~The demon bows to Melissan's will~
+@1053 = ~The demon defies Melissan's will~
+@1054 = ~Bhaalspawn Power gained: Unleash~
+@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+@1057 = ~Bhaalspawn Power gained: Dimension Door~
+@1058 = ~Bhaalspawn Power gained: Control Demons~
+@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+@1060 = ~Bhaalspawn Power gained: Focus~
+@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
+@1062 = ~Boskı pláš~
+@1063 = ~Magic Resistance Restored~
+@1064 = ~Antimagic Protections Removed~
+@1065 = ~Combat Protections Removed~
+@1066 = ~AI deactivated~
+@1067 = ~AI activated~
+@1068 = ~Lunar Malison~
 @2000 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
@@ -122,6 +153,7 @@ Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot jedné postav
 @2007 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má 25% odolnost na fyzická zranìní (seèná, bodná, drtivá a støelná).~
+@2008 = ~Slayer Change ability improved~
 @3000 = ~Meè Chaosu~
 @3001 = ~Obouruèní meè +4: Sarevokùv meè Chaosu 
 
@@ -149,22 +181,3 @@ Váha: 10~
 @3002 = ~Lektvar Sendai~
 @3003 = ~Lektvar Sendai
 Tohle je neuvìøitelnì silnı hojivı lektvar, kterı moná uvaøila samotná Sendai.  Je schopnı úplnì obnovit ivoty toho, kdo jej pouije.~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

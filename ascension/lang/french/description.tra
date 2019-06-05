@@ -1,0 +1,299 @@
+@1 = ~Imoen a survécu
+
+Imoen a réussi à survivre à la tentative de Mélissane de la condamner à la forme d'Ecorcheuse. Il semble que ce faisant, Imoen a vu la maîtrise de son essence progresser de façon considérable. Elle peut désormais non seulement prendre la même forme d'Ecorcheur que celle que j'avais revêtu à Spellhold... mais a aussi acquis la capacité de devenir éthérée pour de brèves périodes.
+
+Ethérée
+-------------
+Imoen peut à présent entrer dans le plan éthéré pour de brèves périodes. Cette capacité est utilisable une fois par minute, et son utilisation l'empêche de prendre la forme d'Ecorcheuse pendant une minute également. Imoen peut rester complètement éthérée et intangible sur ce plan pour un round complet... au cours duquel elle est invisible et complètement immunisée aux dégâts. Pendant ce round, elle est également dans l'impossibilité de jeter des sorts ou d'utiliser d'autres capacités.
+Pour les deux rounds suivants, Imoen peut rester en 'demi-phase'... partiellement éthérée et partiellement dans ce plan. Elle est toujours invisible mais ne reçoit que la moitié des dégâts de n'importe quelle source. Dans cet état, il y a une faible chance (10%) qu'elle puisse rater un sort. Pour la totalité des trois rounds, elle est capable de voir les cibles invisibles.~
+@6 = ~End Slayer Change
+
+This ability allows Imoen to cancel her transformation and return to her usual form.~
+@7 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Régénération (Nécromancie)
+
+Portée : Contact
+Durée : 1 round par tranche de 2 niveaux
+Temps d'incantation : 7
+Zone d'effet : Créature ciblée
+Jet de Sauvegarde : Aucun 
+
+Cette puissante capacité permet à l'Enfant de Bhaal de prodiguer la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 3 points de vie par seconde. La durée du sort est fixée à un nombre maximum de rounds égal à la moitié du niveau du lanceur. Par exemple, un prêtre de 14ème niveau régénérera ainsi 18 points de vie par round pendant 7 rounds.~
+@8 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
+Résurrection (Nécromancie)
+
+Portée : Contact
+Durée : permanent
+Temps d'incantation : 1
+Zone d'effet : Créature ciblée
+Jet de Sauvegarde : Aucun
+
+Tout comme le sort de 5ème niveau de prêtre Rappel à la vie, Résurrection ramène un personnage à la vie. Il est cependant ressuscité avec le maximum de ses points de vie.~
+@9 = ~Slayer Change
+
+When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+
+The Slayer form grants the following benefits:
+
+- Strength and Dexterity set to 25
+- Effective AC set to -9
+- Magic Resistance set to 40%
+- Saving Throws set to 2
+- Attacks per round set to 4 (1d8 crushing, 2 cold)
+- THAC0 set to 0
+- PLUS_SIGN_PLACEHOLDER 100 Hit Points
+- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+
+The Slayer can be difficult to control: after the first round, you have a 10% cumulative chance per round of losing control of yourself for a round.~
+@10 = ~Slayer Change
+
+When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+
+The Slayer form has increased in power with your own, and now grants the following benefits:
+
+- Strength and Dexterity set to 25
+- Effective AC set to -9
+- Magic Resistance set to 50%
+- Resistance to physical damage set to 15%
+- Resistance to elemental damage set to 30%
+- Saving Throws set to 2
+- Attacks per round set to 4 (2d6 crushing, 4 cold)
+- THAC0 set to -4
+- PLUS_SIGN_PLACEHOLDER 150 Hit Points
+- Regenerate 2 Hit Points per second
+- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+- Chance of losing control: 10%, plus a cumulative 5% per round
+~
+@11 = ~Slayer Change
+
+When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by two points, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+
+The Slayer form has increased in power with your own, and now grants the following benefits:
+
+- Strength and Dexterity set to 25
+- Effective AC set to -9
+- Magic Resistance set to 60%
+- Resistance to physical damage set to 30%
+- Resistance to elemental damage set to 40%
+- Saving Throws set to 2
+- Attacks per round set to 4 (2d8 crushing, 8 cold)
+- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
+- THAC0 set to -8
+- PLUS_SIGN_PLACEHOLDER 200 Hit Points
+- Regenerate 3 Hit Points per second
+- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
+- Free action
+- Chance of losing control: a cumulative 5% per two rounds~
+@12 = ~Ravager Change
+
+You now have the ability to take on the form either of the Slayer, or of the Ravager - a terrible manifestation of Bhaal. Using this ability reduces your reputation by two points for the Slayer, or a full three points for the Ravager.
+
+As the Slayer, you have the following benefits:
+
+- Strength and Dexterity set to 25
+- Effective AC set to -9
+- Magic Resistance set to 60%
+- Resistance to physical damage set to 30%
+- Resistance to elemental damage set to 50%
+- Saving Throws set to 2
+- Attacks per round set to 4 (2d8 crushing, 8 cold)
+- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
+- THAC0 set to -8
+- PLUS_SIGN_PLACEHOLDER 200 Hit Points
+- Regenerate 3 Hit Points per second
+- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
+- Free action
+- Chance of losing control: a cumulative 5% per two rounds
+
+As the Ravager, you get the following additional benefits:
+
+- Magic Resistance set to 75%
+- Resistance to physical damage set to 50%
+- Resistance to elemental damage set to 50%
+- Resistance to magic damage set to 50%
+- Attacks per round set to 5 (3d8 crushing, 8 cold)
+- Chance of dispelling on hit increases to 20%
+- THAC0 set to -12
+- PLUS_SIGN_PLACEHOLDER 250 hit points
+- Regenerate 5 Hit Points per second
+- Chance of losing control increases to 40% plus a cumulative 10% chance per round~
+@13 = ~Slayer Change
+
+When Imoen uses this ability, she takes on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws.
+
+The Slayer form grants the following benefits:
+
+- Strength and Dexterity set to 25
+- Effective AC set to -9
+- Magic Resistance set to 40%
+- Saving Throws set to 2
+- Attacks per round set to 4 (1d8 crushing, 2 cold)
+- THAC0 set to 0
+- PLUS_SIGN_PLACEHOLDER 100 Hit Points
+- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+
+Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
+@14 = ~Bhaalspawn powers granted~
+@15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
+@16 = ~Nouveau pouvoir acquis : "Contrôle de Démons "
+
+Cette capacité permet à l'Enfant de Bhaal de disputer le contrôle d'un démon à Mélissane et d'en faire son allié. L'Enfant de Bhaal s'engage dans un combat mental avec le démon pendant un round, à la fin duquel le démon a une chance de devenir son allié. Le démon n'est pas sous le contrôle direct de l'Enfant de Bhaal cependant. Cette capacité peut être utilisée une fois tous les 3 rounds.
+
+Nouveau pouvoir acquis : "Porte Dimensionnelle "
+
+L'Enfant de Bhaal peut désormais se déplacer librement à travers l'espace et les plans. Ce pouvoir de téléportation est utilisable une fois par round.~
+@17 = ~Nouveau pouvoir acquis : "Décharge"
+
+La capacité de "Décharge" relâche vos pouvoirs intérieurs sur des cibles au corps à corps, leur infligeant 10d12 points de dégâts magiques (la moitié seulement si le Jet de sauvegarde contre la Mort est réussi), les propulse loin de vous et les rend certaines fois inconscients pour une courte période. Cette capacité ne peut être utilisée qu'une fois toutes les 30 secondes... et après l'avoir utilisée, l'Enfant de Bhaal sera incroyablement fatigué et aura 25% de chance de rater tous ses sorts pour 2 rounds. En raison de la quantité d'essence divine utilisée, la forme d'Ecorcheur sera également inutilisable pour 30 secondes.~
+@18 = ~Nouveau pouvoir acquis : "Focalisation"
+
+Cette capacité permet à l'Enfant de Bhaal de focaliser son énergie en lui pour résister aux sorts extérieurs. Pour une durée de 30 secondes, l'Enfant de Bhaal devient immunisé aux sorts Transformation de la Chair en Pierre, Désintégration et Arrêt du Temps. Les sorts des niveaux 1 à 3 n'affecteront pas non plus l'Enfant de Bhaal. Cette capacité est utilisable une fois par minute.~
+@19 = ~Dimension Door
+
+Range: Infinite
+Casting Time: 0
+Duration: Instant
+Area of Effect: Caster
+Saving Throw: None
+
+The Bhaalspawn may now move freely through space and the planes. This teleportation power is useable once per round.~
+@20 = ~Shapeshift: Bat
+
+This ability allows Bodhi to shapeshift into bat form.~
+@21 = ~Pouvoirs de l'Enfant de Bhaal
+
+<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
+Puiser dans la puissance divine (Invocation)
+
+Portée : 0 
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : lanceur
+Jet de Sauvegarde : Aucun 
+
+L'enfant de Bhaal sollicite l'essence de son père pour augmenter ses pouvoirs pendant une courte durée. Sa Force, sa Constitution et sa Dextérité gagnent alors 1 point par 3 niveaux du lanceur. Un lanceur du 3ème niveau verra ainsi ses caractéristiques gagner 1 point, alors qu'un lanceur du 12ème niveau les verra augmenter de +4.~
+@22 = ~Flip Resistances
+
+Range: 0
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: None
+
+With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage increases to 90%; his normal 90% resistance to magic, magic damage and elemental damage drops to 10%.
+
+Balthazar may flip his resistances at will.~
+@23 = ~Flip Resistances
+
+Range: 0
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: None
+
+With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage is restored; so is his normal 90% resistance to magic, magic damage and elemental damage.
+
+Balthazar may flip his resistances at will.~
+@24 = ~Solar Stance
+
+Range: 0
+Duration: 3 hours
+Casting Time: 1
+Area of Effect: Balthazar, plus any creatures within 30ft
+Saving Throw: None
+
+By entering the Solar Stance, Balthazar calls on the power of the sun to enhance his mystical abilities. He gains 127% resistance to fire (even when using Flip Resistance) and all of his attacks deal an additional 1d10 fire damage; this damage actually heals Balthazar. Upon entering the Solar Stance, Balthazar releases a blast of flame which deals 12d6 fire damage (save vs. spell for 1/2) and 1d8 crushing damage to all with 30ft, blasting any nearby creatures away from him.
+
+Balthazar can have only one stance active at a time: entering the Solar Stance cancels all other stances. The Solar Stance can be removed by effects such as Breach.~
+@25 = ~Lunar Stance
+
+Range: 0
+Duration: 3 hours
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: None
+
+By entering the Lunar Stance, Balthazar calls on the power of the moon to enhance his mystical abilities. While in the Lunar Stance, Balthazar is immune to energy drain, Imprisonment and Time Stop, and receives one use of the Lunar Malison ability. Upon entering the Lunar Stance, all enemies adjacent to Balthazar are blinded for four rounds (save vs. spells to avoid).
+
+Balthazar can have only one stance active at a time: entering the Lunar Stance cancels all other stances. The Lunar Stance can be removed by effects such as Breach.~
+@26 = ~Shadow Stance
+
+Range: 0
+Duration: 3 hours
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: None
+
+By entering the Shadow Stance, Balthazar calls on the power of the Plane of Shadow to enhance his mystical abilities. While in the Shadow Stance, Balthazar is protected by Improved Invisibility (and is completely invisible for the first 15 seconds, or until he attacks). In addition to the already-significant defensive advantages of Improved Invisibility, the cloak of shadows grants Balthazar an additional +6 bonus to Armor Class.
+
+Balthazar can have only one stance active at a time: entering the Shadow Stance cancels all other stances. The Shadow Stance can be removed by effects such as Oracle or True Sight.~
+@27 = ~Faster than the Eye
+
+Range: Sight
+Duration: Instant
+Casting Time: 0
+Area of Effect: Balthazar
+Saving Throw: None
+
+In the blink of an eye, Balthazar transports himself anywhere in sight.
+
+This power can be used once per two rounds.~
+@28 = ~Dragon Fist
+
+Range: Touch
+Duration: Special
+Casting Time: 0
+Area of Effect: Creature hit
+Saving Throw: None
+
+By channeling ki energy into a blow, Balthazar rips through his opponent's magical defenses. The Dragon Fist has a 25% chance of destroying all combat protections and boosts below 9th level, a 25% chance of destroying all antimagic effects below 9th level, and a 50% chance of destroying both. It also slows its target (causing a -4 penalty to AC and attack rolls) for two rounds.
+
+This power can be used once per three rounds.~
+@29 = ~Tiger Strike
+
+Range: 0
+Duration: 2 rounds
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: None
+
+While Tiger Strike is active, Balthazar has a 50% chance per hit of a critical hit; in addition, any hit sends its victim flying backwards, stunning them for 1 round.
+
+This power can be used once per four rounds.~
+@30 = ~Hand of Murder
+
+Range: 0
+Duration: 1 round
+Casting Time: 1
+Area of Effect: Balthazar
+Saving Throw: Special
+
+Through combining his Ki with his Bhaalspawn essence, all of Balthazar's attacks for one round are automatic critical hits. For the first three second after he activates the power, anyone hit drops dead (save vs. spells to negate).
+
+This power can be used once per three rounds.~
+@31 = ~Shadowless Kick
+
+Range: Touch
+Duration: 4 seconds
+Casting Time: 0
+Area of Effect: Creature kicked
+Saving Throw: None
+
+With a powerful kick, Balthazar knocks his opponent away, sending them flying; they take 4d8 damage from the impact and are knocked unconscious for a few seconds.
+
+This power can be used once per two rounds.~
+@32 = ~Lunar Malison
+
+Range: 30 ft.
+Duration: special
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Special
+
+The creature affected by Lunar Malison suffers a -4 penalty to all saving throws for a period of 40 rounds. Additionally, they must save vs. spells at a -2 penalty or be slowed (taking a -4 penalty to AC and attack rolls) for 2 rounds.
+
+Balthazar receives one use of this ability whenever he enters the Lunar Stance.~

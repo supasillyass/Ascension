@@ -16,9 +16,40 @@
 @1025 = ~Göttliche Genesung~
 @1026 = ~Göttliche Reinigung~
 @1027 = ~Aura der Lähmung~
+@1029 = ~Lava Bombe~
 @1031 = ~Symbol: Verlangsamen~
 @1037 = ~Verwandlung zum Wüter~
 @1038 = ~Melissan: Rufe die Diener der Abyss~
+@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+@1041 = ~Transfixed~
+@1042 = ~Weapons weakened by Babau slime~
+@1043 = ~Grabbed~
+@1044 = ~Regains Bhaal powers~
+@1045 = ~You have regained control for now.~
+@1046 = ~Magic Resistance lowered by 5%~
+@1047 = ~Magic Resistance lowered by 5%~
+@1048 = ~Slayer transformation enhanced~
+@1049 = ~The demon bows to your will~
+@1050 = ~The demon defies your will~
+@1051 = ~This power only affects demons~
+@1052 = ~The demon bows to Melissan's will~
+@1053 = ~The demon defies Melissan's will~
+@1054 = ~Bhaalspawn Power gained: Unleash~
+@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+@1057 = ~Bhaalspawn Power gained: Dimension Door~
+@1058 = ~Bhaalspawn Power gained: Control Demons~
+@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+@1060 = ~Bhaalspawn Power gained: Focus~
+@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
+@1062 = ~Göttlicher Schutzmantel~
+@1063 = ~Magic Resistance Restored~
+@1064 = ~Antimagic Protections Removed~
+@1065 = ~Combat Protections Removed~
+@1066 = ~AI deactivated~
+@1067 = ~AI activated~
+@1068 = ~Lunar Malison~
 @2000 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
@@ -108,6 +139,7 @@ Dieser Zauber ähnelt dem Zauber des 5. Grades, Tote erwecken. Allerdings heilt A
 @2007 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat eine 25%ige Resistenz gegenüber physikalischen Schaden (also Schaden durch Stich-, Hieb-, Wucht- und Geschosswaffen) erhalten.~
+@2008 = ~Slayer Change ability improved~
 @3000 = ~Schwert des Chaos +4~
 @3001 = ~Sarevoks Schwert des Chaos
 Die Klinge von Sarevok, <CHARNAME>s Bruder, die er im Kampf im fernen Baldurs Tor benutzte. <CHARNAME> siegte, vereitelte Sarevoks Pläne und bewahrte die Schwertküste vor einem Krieg. Nun kämpft Sarevok an <CHARNAME>s Seite, und die Klinge wurde ihm zurückgegeben. Sarevok bezeichnet die Waffe als Klinge eines Todesbringers und hat etwas von ihrer alten Macht wiederhergestellt. Ohne dass die Essenz der Bhaalbrut durch sie fließt, verfügt sie zwar nicht über ihre früheren Fähigkeiten; dennoch ist sie eine tödliche Waffe... und Sarevok warnt, dass sie schwer zu führen sein wird für einen, der kein Todesbringer ist - wenn er sie überhaupt tragen kann.
@@ -136,22 +168,3 @@ Charakteren ohne chaotische Gesinnung~
 @3002 = ~Trank der Heilung~
 @3003 = ~Trank der Heilung
 Womöglich von Sendai selbst gebraut, ist dieses ein ungeheuer mächtiger Heiltrank, der die kompletten Trefferpunkte desjenigen, der ihn zu sich nimmt, wiederherstellt.~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

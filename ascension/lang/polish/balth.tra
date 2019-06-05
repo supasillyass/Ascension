@@ -1,4 +1,3 @@
-
 @1060 = ~Szkoda, ¿e nie mogê sobie przypisaæ zas³ugi za ten wspania³y podstêp. Ale wygl¹da na to, ¿e nie tylko ja spoœród Pi¹tki planowa³em œmieræ pozosta³ych.~
 @1072 = ~Nie ty pierwszy próbujesz mnie uœmierciæ... i pewnie nie jesteœ ostatni!~
 @1074 = ~To prawda. Jest w tobie dobro, <CHARNAME>, i twoje stanowisko wobec z³a jest niepodwa¿alne. Twoje opieranie siê skazie naszego ojca jest godne pochwa³y.~
@@ -7,7 +6,8 @@
 @1077 = ~Nie wyczuwam w tobie wrodzonego dobra, <CHARNAME>. Nie myœlê te¿, aby twoje czyny œwiadczy³y o tobie inaczej. Wyczuwam jedynie duszê, która opiera siê skazie swego ojca, tak jak moja.~
 @1078 = ~Prawdê mówi¹c, jestem idealn¹ osob¹ do s¹dzenia, <CHARNAME>. We mnie równie¿ istnieje skaza naszego ojca. Ja równie¿ czu³em têsknotê za krwi¹, jej wysi³ki przeœladowa³y mnie przez ca³e ¿ycie. Uda³o mi siê j¹ jednak opanowaæ... ale ledwo. Zbyt dobrze wiem, do czego jest zdolna.~
 @1079 = ~Naturalnie. Nasza skaza nie przynosi nam spokoju, czy¿ nie, <CHARNAME>? Walczymy w samoobronie a mimo to nadal zabijamy, nadal przynosimy zniszczenie. Mo¿emy twierdziæ o braku obecnoœci odpowiedzialnoœci, powinniœmy tak robiæ, ale zbyt dobrze wiem do czego zdolna jest ta skaza. Tylko z ledwoœci¹ uda³o mi siê nad ni¹ zapanowaæ.~
-@1080 = ~Nie spodziewa³em siê innej odpowiedzi od mojego brata. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.~
+@1080 = ~Nie spodziewa³em siê innej odpowiedzi od mojego brata. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.~ ~Nie spodziewa³em siê innej odpowiedzi od mojej siostry. Zbyt dobrze znam pragnienie œmierci, które powodowane jest przez skazê wewn¹trz nas. Mi uda³o siê j¹ opanowaæ, choæ z ledwoœci¹... szkoda mi jednak tych, którzy stali siê jej niewolnikami.
+~
 @1081 = ~Nie rozœmieszaj mnie, <CHARNAME>. Jeœli oczekujesz, ¿e uwierzê i¿ istniejesz po to by walczyæ ze z³em to siê grubo mylisz.~
 @1082 = ~Ale niezale¿nie od naszych pragnieñ, nasze przeznaczenie zosta³o ju¿ nam spisane, <CHARNAME>. Niektórzy mog¹ od niego uciekaæ lub nie przyjmowaæ go do wiadomoœci, podczas gdy inni mog¹ je przyjmowaæ... w ka¿dym razie ka¿dy Pomiot Bhaala ma w sobie nasienie, które owocuje krwi¹ i œmierci¹. Czy zaprzeczasz temu?~
 @1083 = ~Czy chcesz powiedzieæ, ¿e ty jesteœ inny, Balthazarze?~
@@ -63,7 +63,7 @@
 @1134 = ~Muszê oprzeæ siê temu. Zrobiê to. Nie mam wyboru.~
 @1135 = ~Ale... ty równie¿ okaza³eœ wielk¹ si³ê woli. Pomimo skazy na twej duszy, walczy³eœ z ni¹ tak samo jak ja. Co czyni mnie godniejszym? Nie, nie mogê odpowiadaæ sobie na to pytanie! Nie teraz!~
 @1136 = ~Z pewnoœci¹ nie bêdziesz w stanie oprzeæ siê takiej pokusie, <CHARNAME>. Wolê zaufaæ sobie ni¿ tobie. Dopuszczenie ciê do Tronu mog³oby zniweczyæ wszystko w co wierzy³em.~
-@1137 = ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samemu sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~
+@1137 = ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samemu sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~ ~Si³a jest niczym, <CHARNAME>. Mo¿esz zwyciê¿yæ mnie, mo¿esz nawet zwyciê¿yæ Melissanê. Ale nigdy nie podo³asz samej sobie. Si³a nie przyniesie ci spokoju... tego jestem pewien. I to jest powód dla którego muszê byæ ostatni.~
 @1138 = ~Jestem zmêczony walkami, które przysz³o mi stoczyæ, <CHARNAME>. Jestem zmêczony udrêkami, które przysz³o mi znieœæ. Jestem zmêczony umieszczaniem dobra ogó³u nad dobrem innych, swoim czy mojej nieœmiertelnej duszy. Wystarczy mi, ¿e spuœcizna po Bhaalu zostanie zniszczona.~
 @1139 = ~Ale ja tak. To jest moje przeznaczenie. Jaki mam inny wybór?~
 @1140 = ~Zawsze jest inny wybór, Balthazar. Nie b¹dŸ niewolnikiem przepowiedni Alaundo! Ja walczy³em przeciw niej odk¹d dowiedzia³em siê o moim dziedzictwie i *nie* zamierzam siê poddaæ!~

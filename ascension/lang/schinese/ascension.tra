@@ -16,9 +16,40 @@
 @1025 = ~非凡恢复~
 @1026 = ~非凡净化~
 @1027 = ~麻痹光环~
+@1029 = ~熔岩炸弹~
 @1031 = ~法印：缓慢~
 @1037 = ~变形终结者~
 @1038 = ~深渊爪牙~
+@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+@1041 = ~Transfixed~
+@1042 = ~Weapons weakened by Babau slime~
+@1043 = ~Grabbed~
+@1044 = ~Regains Bhaal powers~
+@1045 = ~You have regained control for now.~
+@1046 = ~Magic Resistance lowered by 5%~
+@1047 = ~Magic Resistance lowered by 5%~
+@1048 = ~Slayer transformation enhanced~
+@1049 = ~The demon bows to your will~
+@1050 = ~The demon defies your will~
+@1051 = ~This power only affects demons~
+@1052 = ~The demon bows to Melissan's will~
+@1053 = ~The demon defies Melissan's will~
+@1054 = ~Bhaalspawn Power gained: Unleash~
+@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+@1057 = ~Bhaalspawn Power gained: Dimension Door~
+@1058 = ~Bhaalspawn Power gained: Control Demons~
+@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+@1060 = ~Bhaalspawn Power gained: Focus~
+@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
+@1062 = ~非凡防御~
+@1063 = ~Magic Resistance Restored~
+@1064 = ~Antimagic Protections Removed~
+@1065 = ~Combat Protections Removed~
+@1066 = ~AI deactivated~
+@1067 = ~AI activated~
+@1068 = ~Lunar Malison~
 @2000 = ~巴尔之子的新能力
 <CHARNAME>获得了这个能力，每天可以使用一次: 
 群体治疗（死灵系）
@@ -91,6 +122,7 @@
 类似第七级神术复兴，这个能力同样可以将死去的队友以最佳状态带回人世。~
 @2007 = ~巴尔之子的新能力
 <CHARNAME>获得25%的物理免疫能力。~
+@2008 = ~Slayer Change ability improved~
 @3000 = ~混乱之剑+4~
 @3001 = ~沙洛弗克的混乱之剑
 <CHARNAME>的兄弟，沙洛弗克的兵器。在博得之门发生的最后一战中，沙洛弗克被<CHARNAME>击败，他想在剑湾发起战争的计划也随之破产。现在沙洛弗克加入了<CHARNAME>的队伍，并使这把剑恢复了原来的一些能力。然而没有了巴尔之子的灵魂，沙洛弗克的剑无法达到像原来的那样强大，但它仍是一件可怕的武器。沙洛弗克说不是死亡使者的人最好不要碰这把剑。
@@ -115,22 +147,3 @@
 @3002 = ~仙黛的药剂~
 @3003 = ~仙黛的药剂
 可能是仙黛自己做的药剂，任何人喝了他都会完全恢复健康。~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
