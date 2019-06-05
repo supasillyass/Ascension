@@ -3075,6 +3075,10 @@ msgstr ""
 msgid "Slightly improved cutscenes, by DavidW"
 msgstr ""
 
+#: setup.tra:109999
+msgid "Testting 1"
+msgstr ""
+
 #: shawnesepilogues.tra:4001
 msgid "Driven to oppose slavery in all its forms, Aerie continued adventuring after leaving <CHARNAME>'s side. She made several attempts to gather a larger group around her, as <CHARNAME> had done, but each time the company would collapse into infighting and betrayal. Aerie's compassion had grown tainted by her need for vengeance, and she could neither command nor inspire loyalty in others. She might have lost herself entirely, had she not stumbled across a group of avariel slaves in Cormyr. Upon their release, they guided Aerie back to Faenya-Dail, the home she had been stolen from. She learned much during her stay, and came to understand that she was no longer truly an avariel, at last accepting the loss of her wings. Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had often spoken of. He had been her true family, and it was among his people that she finally found peace."
 msgstr ""
