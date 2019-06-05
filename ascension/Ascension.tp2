@@ -1,8 +1,8 @@
 // Ascension
-// https://weidu.org/asc.html ( outdated, use https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee )
+// orginal site https://weidu.org/asc.html outdated, use https://www.gibberlings3.net/forums/forum/207-ascension/
 
 BACKUP ~weidu_external/backup/ascension~
-SUPPORT "https://forums.beamdog.com/discussion/66702/ascension-for-bg2-ee"
+SUPPORT "https://www.gibberlings3.net/forums/forum/207-ascension/"
 
 // use Semantic Versioning - http://semver.org
 VERSION ~2.0.3~
