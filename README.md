@@ -7,7 +7,7 @@
 </a>
 
 [__Download__](https://github.com/BiGWorldProject/Ascension/releases/latest)
- | [__Discussion__](https://forums.beamdog.com/discussion/comment/916526)
+ | [__Discussion__](https://www.gibberlings3.net/forums/forum/207-ascension/)
  | [__Help translating__](https://tra.bgforge.net/projects/baldurs-gate/ascension/)
 
 Ascension mod update for Enhanced Edition
