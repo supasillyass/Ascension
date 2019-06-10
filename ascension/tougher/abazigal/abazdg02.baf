@@ -1,9 +1,4 @@
-IF
-  !Global("FinEnteredArea","AR6005",2)
-THEN
-    RESPONSE #100
-             NoAction()
-END
+
 
 
 IF

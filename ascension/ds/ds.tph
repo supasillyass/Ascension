@@ -12,7 +12,7 @@ BEGIN
    ACTION_FOR_EACH table_name IN ds_simple ds_142_variable ds_other_clone buff_misc BEGIN
       LAF ds_process_table INT_VAR complain=0 STR_VAR table=".../ds-inline/%table_name%.2da" END
    END
-   ACTION_FOR_EACH table_name IN BUFF_PRO_WEAPONS BUFF_PRO_DAMAGE BUFF_PRO_SPELLS BUFF_PRO_EFFECTS BUFF_ENHANCEMENT BEGIN
+   ACTION_FOR_EACH table_name IN BUFF_PRO_WEAPONS BUFF_PRO_DAMAGE BUFF_PRO_SPELLS BUFF_PRO_EFFECTS BUFF_ENHANCEMENT STATE_ENRAGED BEGIN
       LAF ds_process_table INT_VAR complain=0 STR_VAR table=".../ds-inline/%table_name%.2da" default_stat="%table_name%" END
    END
    ACTION_IF fix_khelben BEGIN
@@ -43,7 +43,7 @@ ASSASSIN_POISON                         POISON_WEAPON
 KENSAI_KIA                              KENSAI_KIA
 SPDWD02                                 DEFENSIVE_STANCE
 ARCHER_CALL_SHOT                        ARCHER_CALL_SHOT
-WIZARD_CHAOS_SHIELD                     CHAOS_SHIELD
+WIZARD_CHAOS_SHIELD                     SPLSTATE:CHAOS_SHIELD
 WIZARD_IMPROVED_CHAOS_SHIELD            IMPROVED_CHAOS_SHIELD
 SPCL542A                                SKALD_SONG
 SPCL751A                                JESTER_SONG
@@ -67,6 +67,7 @@ CLERIC_FAERIE_FIRE                      FAERIE_FIRE
 CLERIC_BARKSKIN                         BARKSKIN
 CLERIC_MISCAST_MAGIC                    MISCAST_MAGIC
 CLERIC_DEATH_WARD                       DEATH_WARD
+CLERIC_DEATH_WARD                       SPLSTATE:DEATH_WARD
 CLERIC_HOLY_POWER                       HOLY_POWER
 WIZARD_GLITTERDUST                      GLITTERDUST
 WIZARD_FIRE_SHIELD_BLUE                 BLUE_FIRESHIELD
@@ -471,10 +472,12 @@ BEGIN
    // get the data for the stat
       LAF ds_resolve_stat STR_VAR id RET stat_param stat_opcode END
    // patch
-      COPY_EXISTING "%filespec%" override
+      ACTION_IF stat_opcode>=0 BEGIN // return value of -1 means we can't patch this (probably because TOBEX is missing)
+        COPY_EXISTING "%filespec%" override
               LPF DELETE_EFFECT INT_VAR match_opcode=stat_opcode match_parameter2=stat_param END // clear out any previous version
               LPF CLONE_EFFECT INT_VAR silent=!complain multi_match=1 match_opcode match_parameter2 opcode=stat_opcode duration timing parameter1=stat_value parameter2=stat_param special=(opcode=328) STR_VAR match_resource END
-      BUT_ONLY
+        BUT_ONLY
+      END
 
    END ELSE BEGIN
           ACTION_IF complain BEGIN
@@ -521,11 +524,12 @@ END
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 DEFINE_PATCH_FUNCTION ds_add_entry
+  INT_VAR min=0
   STR_VAR id="" file=""
   RET stat_ind
 BEGIN
    INNER_ACTION BEGIN
-      LAF ds_add_entry STR_VAR id file RET stat_ind END
+      LAF ds_add_entry INT_VAR min STR_VAR id file RET stat_ind END
    END
 END
 
@@ -537,12 +541,27 @@ DEFINE_PATCH_FUNCTION ds_resolve_stat STR_VAR id="" RET stat_ind stat_param stat
 BEGIN
    // initialise
    INNER_ACTION BEGIN
+      CLEAR_IDS_MAP
       LAF ds_set_vars RET is_tobex enhanced_edition END
    END
+   // see if it's forced
+   SET enforce_splstate=0
 
+   INNER_PATCH "%id%" BEGIN
+      REPLACE_EVALUATE "^\(.*\):\(.*\)$" BEGIN
+         PATCH_IF "%MATCH1%" STRING_EQUAL_CASE "splstate" BEGIN
+            SPRINT id "%MATCH2%"
+            SET enforce_splstate=1
+         END ELSE BEGIN
+            SET enforce_splstate=0
+            PATCH_WARN "unrecognised naming convention for state '%id%' in DS"
+         END
+      END
+      ""
+   END
    // first, see if it's in stats.ids
    SET check_stats = IDS_OF_SYMBOL (stats "%id%")
-   PATCH_IF ( check_stats >=89 && (check_stats<=134 || check_stats>=156) && ( check_stats<256 || is_tobex ) ) BEGIN
+   PATCH_IF (!enforce_splstate && ( check_stats >=89 && (check_stats<=134 || check_stats>=156) && ( check_stats<256 || is_tobex ) )) BEGIN
        SET stat_ind=check_stats
        SPRINT stat_type stats
        PATCH_IF stat_ind>387 BEGIN
@@ -576,11 +595,19 @@ BEGIN
            SET stat_opcode=328
            SET stat_param=stat_ind
        END ELSE BEGIN
-          // get a new value
-          LPF ds_add_entry STR_VAR id file=stats RET stat_ind END
-          SPRINT stat_type stats
-          SET stat_opcode=318
-          SET stat_param=stat_ind + 0x10000
+          // if we're not ToBEx, quit
+          PATCH_IF is_tobex BEGIN
+             // get a new value
+             LPF ds_add_entry INT_VAR min=401 STR_VAR id file=stats RET stat_ind END
+             SPRINT stat_type stats
+             SET stat_opcode=318
+             SET stat_param=stat_ind + 0x10000
+          END ELSE BEGIN
+             SPRINT stat_type null
+             SET stat_opcode="-1"
+             SET stat_param="-1"
+             SET stat_ind="-1"
+          END
        END
    END
 END
@@ -606,7 +633,7 @@ LAF ds_set_vars RET is_tobex enhanced_edition END
 
 COPY_EXISTING spell.ids override
 ACTION_IF !FILE_CONTAINS_EVALUATED ("override/spell.ids" "4213[ %TAB%]+PALADIN_PROTECTION_FROM_EVIL") BEGIN
-         APPEND "stats.ids" "4213 PALADIN_PROTECTION_FROM_EVIL"
+         APPEND "spell.ids" "4213 PALADIN_PROTECTION_FROM_EVIL"
       END
 
 ACTION_CLEAR_ARRAY stats_array
@@ -1028,3 +1055,60 @@ END BUT_ONLY
 END // end of function
 
 
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+// Tightly based on Nythrun's ~fj_spl_itm_reindex~ patch 
+
+DEFINE_PATCH_FUNCTION ~FJ_SPL_ITM_REINDEX~ BEGIN
+
+PATCH_IF !(~%SOURCE_FILE%~ STRING_MATCHES_REGEXP ~^.+\.spl~) BEGIN
+  hs = 0x28
+  WRITE_LONG 0xc ~-1~ //Identified name
+  WRITE_LONG 0x54 ~-1~ //Identified description
+  PATCH_FOR_EACH tz IN 0x44 0x48 0x58 0x5c BEGIN
+    WRITE_LONG tz 0
+  END
+END ELSE PATCH_IF !(~%SOURCE_FILE%~ STRING_MATCHES_REGEXP ~^.+\.itm~) BEGIN
+  hs = 0x38
+END
+READ_LONG 0x64 hf //Extended header offset
+READ_SHORT 0x68 hc //Extended header count
+READ_LONG 0x6a fb //Feature block table offset
+READ_SHORT 0x70 fc //Feature block count
+PATCH_IF ((hf > fb) AND (hc > 0)) BEGIN
+  READ_ASCII hf ~eh~ ELSE ~fail~ (hs * hc)
+  PATCH_IF (~%eh%~ STRING_EQUAL ~fail~) BEGIN
+    WHILE ((~%eh%~ STRING_EQUAL ~fail~) AND (hc > 0)) BEGIN
+      READ_ASCII hf ~eh~ ELSE ~fail~ (hs * hc)
+      hc -= 1
+    END
+  END
+  DELETE_BYTES hf (hs * hc)
+  hf = 0x72
+  WRITE_LONG 0x64 hf
+  WRITE_SHORT 0x68 hc
+  fb = (0x72 + (hs * hc))
+  WRITE_LONG 0x6a fb
+  PATCH_IF !(~%eh%~ STRING_EQUAL ~fail~) BEGIN
+    INSERT_BYTES hf (hs * hc)
+    WRITE_ASCIIE hf ~%eh%~
+  END
+END ELSE PATCH_IF ((hf != 0x72) AND (hc = 0)) BEGIN
+  hf = 0x72
+  WRITE_LONG 0x64 hf
+END
+FOR (i1 = 0; i1 < (hs * hc); i1 += hs) BEGIN
+  WRITE_SHORT (hf + i1 + 0x20) fc
+  READ_SHORT (hf + i1 + 0x1e) cx
+  fc += cx
+END
+PATCH_IF (SOURCE_SIZE > (0x72 + (hs * hc) + (0x30 * fc))) BEGIN
+  DELETE_BYTES (0x72 + (hs * hc) + (0x30 * fc)) (SOURCE_SIZE - (0x72 + (hs * hc) + (0x30 * fc)))
+END
+
+// added by Ardanis
+WRITE_SHORT 0x6e 0
+
+END // end of function
