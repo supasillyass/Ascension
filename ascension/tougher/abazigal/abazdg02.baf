@@ -5,7 +5,6 @@ THEN
              NoAction()
 END
 
-
 IF
   OR(3)
   See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
