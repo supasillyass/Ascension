@@ -611,10 +611,6 @@ msgstr ""
 "Potion de Sendai\n"
 "Certainement confectionnée par Sendai elle-même, c'est une potion de soin d'une incroyable puissance capable de restaurer complètement les points de vie de celui qui la boit."
 
-#: ascension.tra:5000
-msgid "text"
-msgstr ""
-
 #: balth.tra:1060
 #, fuzzy
 #| msgid "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I was not the only member of the Five who plotted the downfall of the others."

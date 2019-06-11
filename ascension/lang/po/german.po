@@ -612,10 +612,6 @@ msgstr ""
 "Trank der Heilung\n"
 "Womöglich von Sendai selbst gebraut, ist dieses ein ungeheuer mächtiger Heiltrank, der die kompletten Trefferpunkte desjenigen, der ihn zu sich nimmt, wiederherstellt."
 
-#: ascension.tra:5000
-msgid "text"
-msgstr ""
-
 #: balth.tra:1060
 #, fuzzy
 #| msgid "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I was not the only member of the Five who plotted the downfall of the others."

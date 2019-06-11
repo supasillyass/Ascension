@@ -575,10 +575,6 @@ msgstr ""
 "仙黛的藥劑\n"
 "可能是仙黛自己做的藥劑﹐任何人喝了他都會完全恢復健康。"
 
-#: ascension.tra:5000
-msgid "text"
-msgstr ""
-
 #: balth.tra:1060
 #, fuzzy
 #| msgid "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I was not the only member of the Five who plotted the downfall of the others."

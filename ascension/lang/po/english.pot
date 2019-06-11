@@ -386,10 +386,6 @@ msgid ""
 "Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it."
 msgstr ""
 
-#: ascension.tra:5000
-msgid "text"
-msgstr ""
-
 #: balth.tra:1060
 msgid ""
 "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was"
