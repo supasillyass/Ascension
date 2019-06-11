@@ -534,6 +534,10 @@ msgstr ""
 "Poción de Sendai\n"
 "Posiblemente un brebaje propiedad de Sendai, es una poción increíblemente potente de curación capaz de restaurar completamente los puntos de golpe de cualquiera que la use."
 
+#: ascension.tra:5000
+msgid "text"
+msgstr ""
+
 #: balth.tra:1060
 msgid "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was not the only member of the Five who plotted the downfall of the others."
 msgstr "Ojalá pudiera atribuirme esta estratagema, <CHARNAME>. Pero parece que no fuí el único miembro de los Cinco que planeó la caida de los otros."
