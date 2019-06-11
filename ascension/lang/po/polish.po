@@ -522,6 +522,10 @@ msgstr ""
 "Mikstura Sendai\n"
 "Ta niezwykle potężna mikstura uzdrawiająca, będąca najprawdopodobniej dziełem samej Sendai, jest zdolna przywrócić pełnię punktów życia pijącej ją osobie."
 
+#: ascension.tra:5000
+msgid "text"
+msgstr ""
+
 #: balth.tra:1060
 msgid "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was not the only member of the Five who plotted the downfall of the others."
 msgstr "Szkoda, że nie mogę sobie przypisać zasługi za ten wspaniały podstęp. Ale wygląda na to, że nie tylko ja spośród Piątki planowałem śmierć pozostałych."

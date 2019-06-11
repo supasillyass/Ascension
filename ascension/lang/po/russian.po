@@ -522,6 +522,10 @@ msgstr ""
 "Зелье Сендай\n"
 "Похоже, Сендай сама изготовила это зелье. Это - невероятно сильное снадобье лечения, способное полностью восстановить все здоровье любого, кто используют его."
 
+#: ascension.tra:5000
+msgid "text"
+msgstr ""
+
 #: balth.tra:1060
 msgid "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was not the only member of the Five who plotted the downfall of the others."
 msgstr "Я бы хотел иметь возможность взять реванш за эту уловку, <CHARNAME>. Но, похоже, я был не единственным из Пятерых, кто замышлял падение остальных."

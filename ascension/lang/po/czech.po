@@ -625,6 +625,10 @@ msgstr ""
 "Lektvar Sendai\n"
 "Tohle je neuvěřitelně silný hojivý lektvar, který možná uvařila samotná Sendai.  Je schopný úplně obnovit životy toho, kdo jej použije."
 
+#: ascension.tra:5000
+msgid "text"
+msgstr ""
+
 #: balth.tra:1060
 #, fuzzy
 #| msgid "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I was not the only member of the Five who plotted the downfall of the others."

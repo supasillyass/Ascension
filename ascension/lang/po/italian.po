@@ -533,6 +533,10 @@ msgid ""
 "Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it."
 msgstr "Forse un infuso realizzato da Sendai in persona, questa è una pozione di guarigione incredibilmente potente capace di ripristinare i Punti Ferita di chi la usa."
 
+#: ascension.tra:5000
+msgid "text"
+msgstr ""
+
 #: balth.tra:1060
 msgid "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was not the only member of the Five who plotted the downfall of the others."
 msgstr "Vorrei potermi prendere il merito di questo stratagemma, <CHARNAME>, ma pare che io non sia l'unico membro dei Cinque ad avere tramato la caduta degli altri."
