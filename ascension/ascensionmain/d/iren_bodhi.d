@@ -187,7 +187,7 @@ SAY @453 /* ~Enough, sister.  We do as Melissan bids, with her servants at our s
       ~ClearAllActions()StartCutSceneMode()StartCutScene("irenic2b")~ EXIT
 END
 
-IF ~~ THEN BEGIN iren_exit_bodhihostile_eventually
+IF ~Global("dw_irenicus_block_12_ID","GLOBAL",0)~ THEN BEGIN iren_exit_bodhihostile_eventually
   SAY @456 /* ~So my ungrateful sister, you finally stand by my side.  I shall deal with your treachery afterwards.  As for you, <CHARNAME>, Mellisan has granted me the power to rip the divinity from your body.  The first thing I shall feel in an eon shall be pleasure as I watch your corpse turn to dust.~ */
   IF ~Global("BalthazarFights","GLOBAL",1)DifficultyLT(4)~ THEN DO
       ~ClearAllActions()StartCutSceneMode()StartCutScene("irenic2a")~ EXIT

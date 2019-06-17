@@ -182,6 +182,12 @@ DEFINE_ACTION_FUNCTION redeemable_balthazar BEGIN
        END
    END
 
+   ///////////////////////////////////////////////
+   /// compatibility
+   ///////////////////////////////////////////////
+
+   INCLUDE "%MOD_FOLDER%/balthazar/balthazar_compatibility.tpa"
+   LAF balthazar_compatibility END
 
 END
 

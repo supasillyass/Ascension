@@ -1204,7 +1204,7 @@ END
 ////Add a sectype with no associated string
 ////////////////////////////////////////////////////////////////////////////////
 
-DEFINE_ACTION_FUNCTION add_silent_sectype 
+DEFINE_ACTION_FUNCTION add_silent_sectype
    STR_VAR sectype=""
    RET sectype_value
 BEGIN
@@ -1214,5 +1214,4 @@ BEGIN
        REPLACE_TEXTUALLY "%sectype%\( \|%TAB%\)+[0-9]+\(%WNL%\|%LNL%\|%MNL%\)" "%sectype% -1"
    BUT_ONLY
 END
-
 

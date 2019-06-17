@@ -1,0 +1,24 @@
+DEFINE_ACTION_FUNCTION ascension_compatibility BEGIN
+
+
+
+   // Iylos - interjection into Irenicus, and Balth's pool banter
+   
+   ACTION_IF MOD_IS_INSTALLED "iylos.tp2" 0 BEGIN
+      LAF FIND_DLG_BLOCK
+                STR_VAR dialog=irenic2
+                        match=dw_irenicus_block_12_ID
+                RET iylos_irenicus=block_number
+      END
+      LAF FIND_DLG_BLOCK
+                STR_VAR dialog=balth2
+                        match=~SetGlobal("FinalFight","AR6200",5)~
+                RET iylos_balth2_1=block_number
+      END
+      WITH_TRA "iylos/translations/english/ascension.tra" "iylos/translations/%LANGUAGE%/ascension.tra " BEGIN
+         COMPILE "%MOD_FOLDER%/ascensionmain/compat/iylos.d" EVALUATE_BUFFER
+      END
+
+   END
+
+END

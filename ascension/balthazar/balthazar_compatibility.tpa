@@ -1,0 +1,42 @@
+DEFINE_ACTION_FUNCTION balthazar_compatibility BEGIN
+
+   // Edwin - we just need to turn off his Solar banter if he's romanced
+
+   ACTION_IF MOD_IS_INSTALLED "setup-edwinromance.tp2" 0 BEGIN
+      LAF ALTER_DLG_BLOCK 
+                STR_VAR dialog=balth2
+                        match="EXTERN ~FINSOL01~ 28" 
+                        swap_out=~IsValidForPartyDialog?u?e("Edwin")~ 
+                        swap_in=~IsValidForPartyDialog("Edwin")!Global("EdwinRomanceActive","GLOBAL",2)~ 
+      END
+   END
+
+   ACTION_IF MOD_IS_INSTALLED "iylos.tp2" 0 BEGIN
+   // Iylos - banter with Balth (a bit tricky to identify the exact block)
+      LAF FIND_DLG_BLOCK
+                STR_VAR dialog=finsol01
+                        match=~dw_balth_happy_ID~
+                RET solar_block=block_number
+      END
+      LAF FIND_DLG_BLOCK
+                STR_VAR dialog=balth2
+                        match="EXTERN ~FINSOL01~ %solar_block%"
+                RET iylos_balth2_2=block_number
+      END
+      WITH_TRA "iylos/translations/english/ascension.tra" "iylos/translations/%LANGUAGE%/ascension.tra " BEGIN
+         COMPILE "%MOD_FOLDER%/balthazar/compat/iylos.d" EVALUATE_BUFFER
+      END
+   END
+
+
+
+
+
+
+
+
+
+
+
+
+END

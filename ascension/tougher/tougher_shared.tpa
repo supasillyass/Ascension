@@ -78,7 +78,7 @@ DEFINE_ACTION_FUNCTION tougher_shared_ai BEGIN
   /// substituting in the Asc ranged-attack block.
   //////////////////////////////////////////////
 
-  COPY "%MOD_FOLDER%/tougher/shared/gpmage1.baf" "override/gpmage1.baf"
+  COPY "%MOD_FOLDER%/tougher/shared/gpmage1.baf" "override/gpmage1.bcs"
      PATCH_IF !enhanced_edition BEGIN
         LPF remove_ee_baf END
      END

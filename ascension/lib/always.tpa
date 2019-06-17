@@ -10,6 +10,7 @@
 	INCLUDE ~ascension/lib/ascension_function_library.tph~ // functions built just for Ascension. No live code.
         INCLUDE "ascension/lib/alter_effect.tpa"  // edited version of Cam's DELETE/ALTER/CLONE_EFFECT suite; no live code
         INCLUDE "ascension/lib/alter_script.tpa"  // DavidW's family of script-editing functions; no live code.
+        INCLUDE "ascension/lib/alter_dlg.tpa"  // DavidW's family of dialog-editing functions; no live code.
 
 	// Read INI
 
