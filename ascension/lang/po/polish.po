@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2019-06-05 11:58+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/ascension/pl/>\n"
+"PO-Revision-Date: 2019-06-27 14:12+0000\n"
+"Last-Translator: Adam Fandrejewski <adam_fandrejewski@windowslive.com>\n"
+"Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/pl/>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
@@ -35,8 +37,6 @@ msgid "Telekinesis"
 msgstr "Telekineza"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Reversed Resistances"
 msgid "Flip Resistances"
 msgstr "Odwrócone odporności"
 
@@ -93,10 +93,8 @@ msgid "Lava Bomb"
 msgstr "Wybuch lawy"
 
 #: ascension.tra:1031
-#, fuzzy
-#| msgid "Symbol Slow"
 msgid "Symbol, Slow"
-msgstr "Symbol: spowolnienie"
+msgstr "Symbol: Spowolnienie"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
@@ -120,7 +118,7 @@ msgstr ""
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
-msgstr ""
+msgstr "Bronie osłabione przez śluz Babau"
 
 #: ascension.tra:1043
 msgid "Grabbed"
@@ -128,7 +126,7 @@ msgstr ""
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "Odzyskuje moce Bhaala"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
@@ -136,35 +134,35 @@ msgstr ""
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
-msgstr ""
+msgstr "Odporność na magię obniżona o 5%"
 
 #: ascension.tra:1048
 msgid "Slayer transformation enhanced"
-msgstr ""
+msgstr "Przemiana w Zabójcę została ulepszona"
 
 #: ascension.tra:1049
 msgid "The demon bows to your will"
-msgstr ""
+msgstr "Demon poddaje się twojej woli"
 
 #: ascension.tra:1050
 msgid "The demon defies your will"
-msgstr ""
+msgstr "Demon opiera się twojej woli"
 
 #: ascension.tra:1051
 msgid "This power only affects demons"
-msgstr ""
+msgstr "Ta moc wpływa jedynie na demony"
 
 #: ascension.tra:1052
 msgid "The demon bows to Melissan's will"
-msgstr ""
+msgstr "Demon poddaje się woli Melissany"
 
 #: ascension.tra:1053
 msgid "The demon defies Melissan's will"
-msgstr ""
+msgstr "Demon opiera się woli Melissany"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Uwolnienie"
 
 #: ascension.tra:1055
 msgid "Bhaalspawn Power gained: immunity to death magic"
@@ -176,11 +174,11 @@ msgstr ""
 
 #: ascension.tra:1057
 msgid "Bhaalspawn Power gained: Dimension Door"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Drzwi poprzez wymiary"
 
 #: ascension.tra:1058
 msgid "Bhaalspawn Power gained: Control Demons"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Kontrola demonów"
 
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
@@ -188,7 +186,7 @@ msgstr ""
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Skupienie"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
@@ -212,11 +210,11 @@ msgstr ""
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr ""
+msgstr "AI wyłączone"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr ""
+msgstr "AI włączone"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
@@ -449,7 +447,7 @@ msgstr ""
 
 #: ascension.tra:2008
 msgid "Slayer Change ability improved"
-msgstr ""
+msgstr "Umiejętność przemiany w Zabójcę została udoskonalona"
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
@@ -1119,22 +1117,11 @@ msgid ""
 "\n"
 "This ability allows Imoen to cancel her transformation and return to her usual form."
 msgstr ""
+"Zakończ przemianę w Zabójcę\n"
+"\n"
+"Pozwala Imoen przerwać przemianę i powrócić do zwykłej postaci."
 
 #: description.tra:7
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Regeneration\n"
 "\n"
@@ -1146,11 +1133,8 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
-"Moce Bhaala\n"
+"Regeneracja\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie: \n"
-"\n"
-"Regeneracja (Nekromancja)\n"
 "Poziom: 4\n"
 "Sfera: Leczenie\n"
 "Zasięg: dotyk\n"
@@ -1159,23 +1143,14 @@ msgstr ""
 "Obszar działania: 1 istota\n"
 "Rzut obronny: brak\n"
 "\n"
-"Ten potężny czar umożliwia osobie go rzucającej nadanie wybranej istocie zdolności regeneracyjnych, dzięki czemu może ona uleczyć rany, a nawet zregenerować stracone kończyny. Istota pod wpływem czaru odzyskuje 3 punkty życia na sekundę. Efekt utrzymuje się przez jedną rundę na każde dwa poziomy rzucającego czar lub do momentu rozproszenia. Dla przykładu, kapłan 14. poziomu odzyskiwałby 18 punktów życia na rundę przez siedem rund."
+"Ten potężny czar umożliwia osobie go rzucającej nadanie wybranej istocie "
+"zdolności regeneracyjnych, dzięki czemu może ona uleczyć rany, a nawet "
+"zregenerować stracone kończyny. Istota pod wpływem czaru odzyskuje 3 punkty "
+"życia na sekundę. Efekt utrzymuje się przez jedną rundę na każde dwa poziomy "
+"rzucającego czar lub do momentu rozproszenia. Dla przykładu, kapłan 14. "
+"poziomu odzyskiwałby 18 punktów życia na rundę przez siedem rund."
 
 #: description.tra:8
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Resurrection (Necromancy)\n"
-#| "Range: Touch\n"
-#| "Duration: Permanent\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: Creature Touched\n"
-#| "Saving Throw: None\n"
-#| "\n"
-#| "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgid ""
 "Resurrection\n"
 "\n"
@@ -1187,18 +1162,17 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
-"Moce Bhaala\n"
+"Zmartwychwstanie\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, mogąc jej używać raz dziennie: \n"
-"\n"
-"Zmartwychwstanie (Nekromancja)\n"
 "Zasięg: dotyk\n"
 "Czas działania: stały\n"
 "Czas rzucania: 1\n"
 "Obszar działania: dotknięta istota\n"
 "Rzut obronny: brak\n"
 "\n"
-"Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklęcie to może przywrócić daną istotę do życia. Jednak w tym przypadku istota ta odzyskuje dodatkowo pełnię punktów życia i gotowa jest na dalsze przygody."
+"Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklęcie to może "
+"przywrócić daną istotę do życia. Jednak w tym przypadku istota ta odzyskuje "
+"dodatkowo pełnię punktów życia i gotowa jest na dalsze przygody."
 
 #: description.tra:9
 msgid ""
@@ -1325,7 +1299,7 @@ msgstr ""
 
 #: description.tra:14 imoen_after.tra:1000
 msgid "Bhaalspawn powers granted"
-msgstr ""
+msgstr "Uzyskano moce Bhaala"
 
 #: description.tra:15
 msgid "Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute"
@@ -1421,6 +1395,9 @@ msgid ""
 "\n"
 "This ability allows Bodhi to shapeshift into bat form."
 msgstr ""
+"Przemiana w nietoperza\n"
+"\n"
+"Ta zdolność pozwala Bodhi przybrać formę nietoperza."
 
 #: description.tra:21
 #, fuzzy
@@ -1847,10 +1824,28 @@ msgid "Upon returning to Amkethran, Balthazar began to implement changes for the
 msgstr "Po powrocie do Amkethran, Balthazar zaczął wprowadzać w życie zmiany na lepsze. <CHARNAME>, jego <PRO_BROTHERSISTER> nauczył<PRO_HESHE> go znaczenia słowa \"Dobro\". Zawsze pamiętał o swoich winach, które przypominały mu by nigdy więcej nie popełniać takich błędów. Zbrodnicze pierwiastki, które znajdowały się w jego placówce, szybko zostały wygnane, co przyciągnęło kupców i osadników. W ciągu kilku lat, Amkethran urosło do miana prosperującego miasta i kulturalnego ośrodka całej krainy, znanego z ciszy i spokoju. Balthazar był również odpowiedzialny za stworzenie Monasterów, elitarnej grupy paladynów i mnichów, którzy przysięgli strzec zwykłych ludzi przed tyranią w jakiejkolwiek formie. Jego czyny szybko wzbudziły szacunek i zaufanie wśród ludzi. W następnych latach, praca Balthazara dobiegła końca, mówi się również, że większość swego czasu spędzał wtedy wpatrując się w niebo i przypominając sobie osobę, dzięki której odnalazł spokój, osobę znaną pod imieniem <CHARNAME>. Później, Balthazar na zawsze opuścił Amkethran i zdecydował się na pielgrzymkę do Candlekeep... aby pokornie podziękować za pokój, który w końcu odnalazł."
 
 #: epilogues.tra:4024
-#, fuzzy
-#| msgid "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambiton, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death."
 msgid "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambition, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death."
-msgstr "Bodhi zakosztowała boskiej potęgi w formie duszy pomiotu Bhaala o imieniu <CHARNAME>. Kiedy ostatnie pozostałości po tej potędze zanikły, Bodhi pragnęła więcej, co doprowadziło do gorzkiej nienawiści i stało się jej obsesją by osiągnąć taką moc ponownie. Ludzie wzdłuż i wszerz Wybrzeża Mieczy poznali strach przed Bodhi, która kąpała się w ich krwi, nasycającą swe pragnienie dla chaosu i śmierci. Z czasem całe wioski zaczęły pozostawiać związanych ludzi przy drogach jako ofiarę temu, co prześladowało noc. Jej imię było odpowiednikiem dla terroru w świątyniach, które bezskutecznie starały się na nią zapolować. Wielu potężnych kapłanów zostało potem odnalezionych wyssanych z krwi, na twarzach których widać było bladość i agonię. Z czasem Bodhi odczuła lodowaty uścisk klątwy, która w niej tkwiła. Desperacja zmieszała się wtedy ze strachem, który w niej tkwił. Żądza chaosu zagasła i raz ponownie walczyła po to, by utrzymać się przy życiu. Ambicja, która nakłoniła ją do wysłuchania marzeń swego brata o potędze, przywiodła ją teraz do miejsca, które dawno temu nazywała domem, do Suldanessellar. Przy jego bramach czekała na nią Ellesime. Przy jego bramach Bodhi zatańczyła swój taniec po raz ostatni. Chęć zemsty paliła je obie od wewnątrz i wołała o krew. Moc Drzewa Życia nawoływała do Bodhi, zaś pamięć o Jonie nawoływała do Ellesime. Obie objęły się, i choć to zemście było przeznaczone zwyciężyć, osikowy kołek przebił czarne serce Bodhi."
+msgstr ""
+"Bodhi zakosztowała boskiej potęgi w formie duszy pomiotu Bhaala o imieniu "
+"<CHARNAME>. Kiedy ostatnie pozostałości po tej potędze zanikły, Bodhi "
+"pragnęła więcej, co doprowadziło do gorzkiej nienawiści i stało się jej "
+"obsesją by osiągnąć taką moc ponownie. Ludzie wzdłuż i wszerz Wybrzeża "
+"Mieczy poznali strach przed Bodhi, która kąpała się w ich krwi, nasycającą "
+"swe pragnienie dla chaosu i śmierci. Z czasem całe wioski zaczęły "
+"pozostawiać związanych ludzi przy drogach jako ofiarę temu, co prześladowało "
+"noc. Jej imię było odpowiednikiem dla terroru w świątyniach, które "
+"bezskutecznie starały się na nią zapolować. Wielu potężnych kapłanów zostało "
+"potem odnalezionych wyssanych z krwi, na twarzach których widać było bladość "
+"i agonię. Z czasem Bodhi odczuła lodowaty uścisk klątwy, która w niej "
+"tkwiła. Desperacja zmieszała się wtedy ze strachem, który w niej tkwił. "
+"Żądza chaosu zagasła i raz ponownie walczyła po to, by utrzymać się przy "
+"życiu. Ambicja, która nakłoniła ją do wysłuchania marzeń swego brata o "
+"potędze, przywiodła ją teraz do miejsca, które dawno temu nazywała domem, do "
+"Suldanessellar. Przy jego bramach czekała na nią Ellesime. Przy jego bramach "
+"Bodhi zatańczyła swój taniec po raz ostatni. Chęć zemsty paliła je obie od "
+"wewnątrz i wołała o krew. Moc Drzewa Życia nawoływała do Bodhi, zaś pamięć o "
+"Jonie nawoływała do Ellesime. Obie objęły się, i choć to zemście było "
+"przeznaczone zwyciężyć, osikowy kołek przebił czarne serce Bodhi."
 
 #: imoen_after.tra:477
 msgid "It... it's gone... I'm human again. Ohhhh, now I know what you went through, <CHARNAME>! I don't know if I ever want to go through that again!"
@@ -2121,10 +2116,13 @@ msgid "You think to betray me, Bodhi? Foolish girl. Melissan is the one who hold
 msgstr "Myślisz, że możesz mnie zdradzić, Bodhi? Głupia dziewczyna. Melissana jest tą, która ma tu moc, a ty zamierzasz szukać wsparcia u tego szczenięcia? Stań u mego boku lub zgiń z <PRO_HIMHER>!"
 
 #: iren_bodhi.tra:456
-#, fuzzy
-#| msgid "So my ungrateful sister, you finally stand by my side. I shall deal with your treachery afterwards. As for you, <CHARNAME>, Mellisan has granted me the power to rip the divinity from your body. The first thing I shall feel in an eon shall be pleasure as I watch your corpse turn to dust."
 msgid "So my ungrateful sister, you finally stand by my side. I shall deal with your treachery afterwards. As for you, <CHARNAME>, Melissan has granted me the power to rip the divinity from your body. The first thing I shall feel in an eon shall be pleasure as I watch your corpse turn to dust."
-msgstr "Tak więc moja niewdzięczna siostro, ostatecznie stanęłaś u mego boku. Rozprawię się z tobą później. Co do ciebie, <CHARNAME>, Melissana dała mi moc, dzięki której będę w stanie oddzielić twą duszę od ciała. Pierwszą rzeczą od eonów, która mnie rozweseli będzie patrzenie jak twoje ciało zmienia się w pył."
+msgstr ""
+"Tak więc moja niewdzięczna siostro, ostatecznie stanęłaś u mego boku. "
+"Rozprawię się z tobą później. Co do ciebie, <CHARNAME>, Melissana dała mi "
+"moc, dzięki której będę w stanie oddzielić twą duszę od ciała. Pierwszą "
+"rzeczą od eonów, która mnie rozweseli będzie patrzenie jak twoje ciało "
+"zmienia się w pył."
 
 #: iren_bodhi.tra:457
 msgid "I see. So you leave me, sister, just as *she* left me."
@@ -2337,20 +2335,22 @@ msgid "There, there, Imoen. I command the essence within you. Let's see just how
 msgstr "Dobrze, Imoen. Rozkazuję esencji, która znajduje się w tobie. Zobaczmy ile masz w sobie mocy, dobrze?"
 
 #: pool_banter.tra:91
-#, fuzzy
-#| msgid "Goodbye, brother. Your self-destructive ways have cost you dearly. You were a fool to oppose such power and I will not suffer in the abyss with you this time."
 msgid "Goodbye, brother. Your self-destructive ways have cost you dearly. You were a fool to oppose such power and I will not suffer in the Abyss with you this time."
-msgstr "Żegnaj, bracie. Twoje niszczycielskie zapędy drogo cię kosztowały. Byłeś głupcem, sprzeciwiając się tak wielkiej potędze, a ja nie mam zamiaru cierpieć z tobą katuszy w Otchłani."
+msgstr ""
+"Żegnaj, bracie. Twoje niszczycielskie zapędy drogo cię kosztowały. Byłeś "
+"głupcem, sprzeciwiając się tak wielkiej potędze, a ja nie mam zamiaru "
+"cierpieć z tobą katuszy w Otchłani."
 
 #: pool_banter.tra:92
 msgid "It would seem our prey intends to cower inside the magics of this place, <CHARNAME>. I have no patience for her games. I will have my soul!"
 msgstr "Wygląda na to, że nasza ofiara zamierza kryć się pod osłoną magii, którą spowite jest to miejsce. Nie mam cierpliwości na takie gierki. Odzyskam swoją duszę!"
 
 #: pool_banter.tra:93
-#, fuzzy
-#| msgid "These pools around us have the stench of magic, if we sever their connection to Melissan she will be forced to confront us. This is the realm of all bhaalspawn, <CHARNAME>, your blood will serve you well."
 msgid "These pools around us have the stench of magic, if we sever their connection to Melissan she will be forced to confront us. This is the realm of all Bhaalspawn, <CHARNAME> - your blood will serve you well."
-msgstr "Te sadzawki wokół nas aż cuchną od magii. Jeśli odetniemy Melissanie do nich dostęp, będzie zmuszona stanąć z nami do walki. To jest domena dzieci Bhaala, <CHARNAME>, i twoja boska krew bardzo ci się tu przysłuży."
+msgstr ""
+"Te sadzawki wokół nas aż cuchną od magii. Jeśli odetniemy Melissanie do nich "
+"dostęp, będzie zmuszona stanąć z nami do walki. To jest domena dzieci "
+"Bhaala, <CHARNAME> - twoja boska krew bardzo ci się tu przysłuży."
 
 #: pool_banter.tra:396
 msgid "With the initial battle now over, you consider your options. In the stream of energy within the center of the Throne, Melissan appears to be invulnerable to harm... and growing in power every second. She must be drawn out willingly in order to defeat her."
@@ -2417,11 +2417,6 @@ msgid "You place your hand within the energies of the pool and draw the essence 
 msgstr "Wkładasz rękę do wiru energii znajdującego się w sadzawce i pobierasz z niej esencję, odbierając ją Melissanie. Nieograniczona moc wypełnia cię przez krótką chwilę i podczas gdy jej większość ulatnia się... to spora część pozostaje w tobie. Uzyskałeś zdolność skupienia w sobie energii, która przez krótką chwilę zabezpiecza cię przed takimi czarami jak Zatrzymanie czasu, Dezintegracja i Zamiana ciała w kamień."
 
 #: pool_powers.tra:9
-#, fuzzy
-#| msgid ""
-#| "New power gained: \"Focus\"\n"
-#| "\n"
-#| "This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute."
 msgid ""
 "New power gained: \"Focus\"\n"
 "\n"
@@ -2429,7 +2424,11 @@ msgid ""
 msgstr ""
 "Uzyskano nową zdolność: \"Skupienie\"\n"
 "\n"
-"Zdolność ta pozwala Dziecku Bhaala na skupienie w sobie energii, dającej odporność na specyficzne efekty czarów. Przez okres 30 sekund, Dziecko Bhaala staje się niewrażliwe na Zamianę ciała w kamień, Dezintegrację i Zatrzymanie Czasu. Wszystkie czary od 1 do 3 poziomu także nie będą miały wpływu na Dziecko Bhaala. Zdolność ta może być użyta raz na minutę."
+"Zdolność ta pozwala Dziecku Bhaala na skupienie w sobie energii, dającej "
+"odporność na specyficzne efekty czarów. Przez okres 30 sekund, Dziecko "
+"Bhaala staje się niewrażliwe na Zamianę ciała w kamień, Dezintegrację i "
+"Zatrzymanie Czasu. Wszystkie czary od 1 do 3 poziomu także nie będą miały "
+"wpływu na Dziecko Bhaala. Zdolność ta może być użyta raz na minutę."
 
 #: pool_powers.tra:10
 msgid "The final pool has been stilled. The light of the energy column has begun to ebb. You have only moments to prepare for what is surely the final confrontation..."
@@ -2466,28 +2465,35 @@ msgstr "Musisz zainstalować BG2Fixpack lub skorzystać z Enhanced Edition aby z
 #: setup.tra:101004
 msgid "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell Revisions, install Ascension, then reinstall Spell Revisions."
 msgstr ""
+"Ascension musi być zainstalowane PRZED Spell revisions. Odinstaluj Spell "
+"revisions, zainstaluj Ascension, a potern zainstaluj ponownie Spell "
+"Revisions."
 
 #: setup.tra:101005
 msgid "Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems."
 msgstr ""
+"Ascension musi być zainstalowane PRZED Sword Coast Stratagems. Odinstaluj "
+"Sword Coast Stratagems, zainstaluj Ascension, a potern zainstaluj ponownie "
+"Sword Coast Stratagems."
 
 #: setup.tra:101006
 msgid "Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of Prophecy, install Ascension, then reinstall Wheels of Prophecy."
 msgstr ""
+"Ascension musi być zainstalowane PRZED Wheels of Prophecy. Odinstaluj Wheels "
+"of Prophecy, zainstaluj Ascension, a potern zainstaluj ponownie Wheels of "
+"Prophecy."
 
 #: setup.tra:102000
 msgid "Tougher Throne of Bhaal battles"
-msgstr ""
+msgstr "Trudniejsze bitwy w Tronie Bhaala"
 
 #: setup.tra:102100
 msgid "Tougher Abazigal"
 msgstr "Silniejszy Abazigal"
 
 #: setup.tra:102200
-#, fuzzy
-#| msgid "Tougher Gromnir"
 msgid "Tougher Demogorgon"
-msgstr "Mocniejszy Gromnir"
+msgstr "Mocniejszy Demogorgon"
 
 #: setup.tra:102300
 msgid "Tougher Gromnir"
@@ -2502,72 +2508,66 @@ msgid "Tougher Yaga-Shura"
 msgstr "Mocniejszy Yaga-Shura"
 
 #: setup.tra:102600
-#, fuzzy
-#| msgid "Tougher Abazigal"
 msgid "Tougher Balthazar"
-msgstr "Silniejszy Abazigal"
+msgstr "Silniejszy Balthazar"
 
 #: setup.tra:103000
 msgid "Additional Content (not part of original Ascension mod)"
-msgstr ""
+msgstr "Dodatkowa zawartość (niebędąca częścią oryginalnego modu Ascension)"
 
 #: setup.tra:103010
 msgid "Full-body portrait for Bodhi"
-msgstr ""
+msgstr "Portret całej sylwetki dla Bodhi"
 
 #: setup.tra:103020
 msgid "Alternate Balthazar portrait, by Cuv"
-msgstr ""
+msgstr "Alternatywny portret Balthazara, autor Cuv"
 
 #: setup.tra:104000
-#, fuzzy
-#| msgid "Restored Bhaalspawn Powers by David Gaider"
 msgid "Restored Bhaalspawn Powers"
-msgstr "Przywrocone Moce Bhaala, autor David Gaider"
+msgstr "Przywrócone Moce Bhaala"
 
 #: setup.tra:104001
 msgid "Rewritten Final Chapter of Throne of Bhaal"
-msgstr ""
+msgstr "Przepisany finalny rozdział Tronu Bhaala"
 
 #: setup.tra:104002
 msgid "Improved Sarevok-Player Interactions"
-msgstr ""
+msgstr "Ulepszone interakcje między Sarevokiem a postacią gracza"
 
 #: setup.tra:104003
 msgid "Improved Imoen-Player Interactions in Throne of Bhaal"
-msgstr ""
+msgstr "Ulepszone interakcje między Imoen a postacią gracza w Tronie Bhaala"
 
 #: setup.tra:104004
-#, fuzzy
-#| msgid "Extended Epilogues for original Bioware NPCs by shawne"
 msgid "Expanded Epilogues for Bioware NPCs"
 msgstr "Rozszerzone Epilogi dla oryginalnych NPC Bioware, autor shawne"
 
 #: setup.tra:104005
 msgid "David Gaider's expanded epilogues for Bioware NPCs"
-msgstr ""
+msgstr "Rozszerzone epilogi Davida Gaidera dla oryginalnych NPC Bioware"
 
 #: setup.tra:104006
 msgid "Alternate epilogues by Shawne"
-msgstr ""
+msgstr "Alternatywne epilogi stworzone przez Shawne"
 
 #: setup.tra:104009
 msgid "Balthazar can be redeemed"
-msgstr ""
+msgstr "Balthazar może zostać ocalony"
 
 #: setup.tra:104010
 msgid "Improved Slayer Transformation"
-msgstr ""
+msgstr "Ulepszona przemiana w Zabójcę"
 
 #: setup.tra:105200
-#, fuzzy
-#| msgid "Extended Epilogues for additional Beamdog NPCs by shawne"
 msgid "Extended Epilogues for additional Beamdog NPCs, by shawne"
 msgstr "Rozszerzone Epilogi dla dodatkowych NPC Beamdog, autor shawne"
 
 #: setup.tra:105210
 msgid "Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by DavidW"
 msgstr ""
+"Wyostrzone portrety Abazigal i Gromnira dla Edycji Rozszerzonej (BG2:EE), "
+"autor DawidW"
 
 #: setup.tra:105220
 msgid "This component is only for BG2:EE or EET"
@@ -2575,7 +2575,7 @@ msgstr "Ten komponent jest tylko dla BG2:EE lub EET"
 
 #: setup.tra:105230
 msgid "Slightly improved cutscenes, by DavidW"
-msgstr ""
+msgstr "Lekko ulepszone przerywniki filmowe, autor DavidW"
 
 #: shawnesepilogues.tra:4001
 msgid "Driven to oppose slavery in all its forms, Aerie continued adventuring after leaving <CHARNAME>'s side. She made several attempts to gather a larger group around her, as <CHARNAME> had done, but each time the company would collapse into infighting and betrayal. Aerie's compassion had grown tainted by her need for vengeance, and she could neither command nor inspire loyalty in others. She might have lost herself entirely, had she not stumbled across a group of avariel slaves in Cormyr. Upon their release, they guided Aerie back to Faenya-Dail, the home she had been stolen from. She learned much during her stay, and came to understand that she was no longer truly an avariel, at last accepting the loss of her wings. Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had often spoken of. He had been her true family, and it was among his people that she finally found peace."
@@ -2893,7 +2893,7 @@ msgstr "Jesteś głupia, Melissan. Powinnaś zachować energię, którą miała�
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
-msgstr ""
+msgstr "Kapłan Yaga-Shury"
 
 #~ msgid "After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faerûn and becoming a common sight in the area of Waterdeep. Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family's estate that he had always desired. Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city. For many years, Valygar's was the name spat by every criminal or slaver who dared to place a foot within the city. Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect. Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect... though most considered the ranger the victor even then. Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married. His only son, the pride of his life, took the lessons of his father to heart. Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride. Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well."
 #~ msgstr "Po zakończeniu przygód Dziecka Bhaala, Valygar jeszcze przez kilka lat przemierzał Zapomniane Krainy w poszukiwaniu przygód. Często widywano go w okolicach Waterdeep. Po pewnym czasie powrócił do Athkatli i rozpoczął spokojne życie jakiego zawsze pragnął w swoim rodzinnym majątku. Jednak jego zwolennicy spośród szlachty nie dali mu odpocząć. Nakłonili go do przyjęcia tytułu Głównego Inspektora, na co początkowo nie miał ochoty, jednak korupcja w mieście tak się rozpleniła, że wyraził zgodę. W ten sposób stał się sprawnym przywódcą. Przez wiele lat imię Valygara wymawiane było z odrazą przez każdego zbrodniarza lub handlarza niewolnikami, który odważył się postawić stopę w mieście. Valygar był jednak nieustraszony, przemienił miejski garnizon w siłę, którą nawet najbardziej wierzący w swe umiejętności złodziej musiał szanować. Valygar i Złodzieje Cienia ścierali się wiele razy, ostatecznie poprzestając na wzajemnym szacunku...  choć wielu i tak uważało łowcę za zwycięzcę. To właśnie w czasie jego rządów rodzina Corthala znowu powróciła do swojej niegdysiejszej chwały. Valygar ożenił się, a jego jedyny syn, duma życia, wziął sobie nauki ojca głęboko do serca, z czasem zostając przywódcą Zakapturzonych Czarodziejów i stając się inicjatorem wielkich reform w tej organizacji. Pamiętając człowieka jakim kiedyś był, uciekającego przed swą historią do najgłębszych lasów Amn, łowca był wdzięczny, że <CHARNAME> wkroczył<PRO_HESHE> w jego życie i z uśmiechem na twarzy wspominał wspólne przygody."
