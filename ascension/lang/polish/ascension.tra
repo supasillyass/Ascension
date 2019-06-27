@@ -17,38 +17,38 @@
 @1026 = ~Boskie oczyszczenie~
 @1027 = ~Parali¿uj¹ca aura~
 @1029 = ~Wybuch lawy~
-@1031 = ~Symbol: spowolnienie~
+@1031 = ~Symbol: Spowolnienie~
 @1037 = ~Przemiana w Pustoszyciela~
 @1038 = ~Melissana: Rozkazywanie s³ugom Otch³ani~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
 @1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
 @1041 = ~Transfixed~
-@1042 = ~Weapons weakened by Babau slime~
+@1042 = ~Bronie os³abione przez œluz Babau~
 @1043 = ~Grabbed~
-@1044 = ~Regains Bhaal powers~
+@1044 = ~Odzyskuje moce Bhaala~
 @1045 = ~You have regained control for now.~
-@1046 = ~Magic Resistance lowered by 5%~
-@1047 = ~Magic Resistance lowered by 5%~
-@1048 = ~Slayer transformation enhanced~
-@1049 = ~The demon bows to your will~
-@1050 = ~The demon defies your will~
-@1051 = ~This power only affects demons~
-@1052 = ~The demon bows to Melissan's will~
-@1053 = ~The demon defies Melissan's will~
-@1054 = ~Bhaalspawn Power gained: Unleash~
+@1046 = ~Odpornoœæ na magiê obni¿ona o 5%~
+@1047 = ~Odpornoœæ na magiê obni¿ona o 5%~
+@1048 = ~Przemiana w Zabójcê zosta³a ulepszona~
+@1049 = ~Demon poddaje siê twojej woli~
+@1050 = ~Demon opiera siê twojej woli~
+@1051 = ~Ta moc wp³ywa jedynie na demony~
+@1052 = ~Demon poddaje siê woli Melissany~
+@1053 = ~Demon opiera siê woli Melissany~
+@1054 = ~Zyskano moc Bhaala: Uwolnienie~
 @1055 = ~Bhaalspawn Power gained: immunity to death magic~
 @1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
-@1057 = ~Bhaalspawn Power gained: Dimension Door~
-@1058 = ~Bhaalspawn Power gained: Control Demons~
+@1057 = ~Zyskano moc Bhaala: Drzwi poprzez wymiary~
+@1058 = ~Zyskano moc Bhaala: Kontrola demonów~
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
-@1060 = ~Bhaalspawn Power gained: Focus~
+@1060 = ~Zyskano moc Bhaala: Skupienie~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
 @1062 = ~Boski Dar~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
-@1066 = ~AI deactivated~
-@1067 = ~AI activated~
+@1066 = ~AI wy³¹czone~
+@1067 = ~AI w³¹czone~
 @1068 = ~Lunar Malison~
 @2000 = ~Moce Bhaala
 
@@ -140,7 +140,7 @@ Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ 
 @2007 = ~Moce Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> 25% odpornoœci na obra¿enia fizyczne (np. sieczne, k³ute, obuchowe oraz pociski).~
-@2008 = ~Slayer Change ability improved~
+@2008 = ~Umiejêtnoœæ przemiany w Zabójcê zosta³a udoskonalona~
 @3000 = ~Miecz Chaosu Sarevoka +4~
 @3001 = ~Miecz Chaosu Sarevoka
 Sarevok i <CHARNAME> byli onegdaj rodzeñstwem. Tej w³aœnie klingi dobywa³ Sarevok, gdy starli siê ze sob¹ w odleg³ych Wrotach Baldura. Wówczas <CHARNAME> zwyciê¿y³<PRO_HESHE>, grzebi¹c plany Sarevoka i ratuj¹c Wybrze¿e Mieczy przed zbli¿aj¹c¹ siê nieuchronnie wojn¹. Teraz gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazwa³ swój miecz Zwiastunem Œmierci, uwalniaj¹c przy tym niektóre z jego dawnych zdolnoœci. Niestety, ze wzglêdu na brak esencji Bhaala, ³¹cz¹cej niegdyœ w³aœciciela z jego ostrzem, broñ nie uzyska³a mocy, jak¹ posiada³a dawniej. Mimo to miecz nadal stanowi niebezpieczn¹ broñ... choæ Sarevok ostrzeg³, ¿e nie³atwo ni¹ bêdzie w³adaæ komuœ, kto nie by³ wczeœniej Zwiastunem Œmierci.
