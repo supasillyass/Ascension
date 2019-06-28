@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2019-06-27 14:12+0000\n"
+"PO-Revision-Date: 2019-06-28 14:13+0000\n"
 "Last-Translator: Adam Fandrejewski <adam_fandrejewski@windowslive.com>\n"
 "Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/pl/>\n"
@@ -110,11 +110,11 @@ msgstr ""
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
-msgstr ""
+msgstr "Zyskano moc Bhaala: 25% odporności na obrażenia fizyczne"
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr ""
+msgstr "Porażony"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
@@ -122,7 +122,7 @@ msgstr "Bronie osłabione przez śluz Babau"
 
 #: ascension.tra:1043
 msgid "Grabbed"
-msgstr ""
+msgstr "Pochwycony"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
