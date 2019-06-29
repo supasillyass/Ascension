@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2019-06-28 14:13+0000\n"
-"Last-Translator: Adam Fandrejewski <adam_fandrejewski@windowslive.com>\n"
+"PO-Revision-Date: 2019-06-29 14:12+0000\n"
+"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
 "Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/pl/>\n"
 "Language: polish\n"
@@ -249,20 +249,6 @@ msgstr ""
 "Używając tej zdolności, Dziecko Bhaala musi wyobrazić sobie dokładnie oblicza swych towarzyszy i skupić się na jedności całej drużyny. Kiedy cały rytuał dobiegnie końca, wszyscy członkowie drużyny, znajdujący się w promieniu 10 metrów odzyskują 2k8 + 2 punkty życia/poziom. Uleczone zostają także inne negatywne efekty: zmęczenie, otrucie, choroba, ślepota i głuchota."
 
 #: ascension.tra:2001
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -279,7 +265,7 @@ msgid ""
 msgstr ""
 "Moce Bhaala\n"
 "\n"
-"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie: \n"
+"<CHARNAME> uzyskał<PRO_HESHE> tę zdolność, używaną raz dziennie:\n"
 "\n"
 "Regeneracja (Nekromancja)\n"
 "Poziom: 4\n"
@@ -290,7 +276,12 @@ msgstr ""
 "Obszar działania: 1 istota\n"
 "Rzut obronny: brak\n"
 "\n"
-"Ten potężny czar umożliwia osobie go rzucającej nadanie wybranej istocie zdolności regeneracyjnych, dzięki czemu może ona uleczyć rany, a nawet zregenerować stracone kończyny. Istota pod wpływem czaru odzyskuje 3 punkty życia na sekundę. Efekt utrzymuje się przez jedną rundę na każde dwa poziomy rzucającego czar lub do momentu rozproszenia. Dla przykładu, kapłan 14. poziomu odzyskiwałby 18 punktów życia na rundę przez siedem rund."
+"Ten potężny czar umożliwia osobie go rzucającej nadanie wybranej istocie "
+"zdolności regeneracyjnych, dzięki czemu może ona uleczyć rany, a nawet "
+"zregenerować stracone kończyny. Istota pod wpływem czaru odzyskuje 3 punkty "
+"życia na sekundę. Efekt utrzymuje się przez jedną rundę na każde dwa poziomy "
+"rzucającego czar lub do momentu rozproszenia. Dla przykładu, kapłan 14. "
+"poziomu odzyskiwałby 18 punktów życia na rundę przez siedem rund."
 
 #: ascension.tra:2002
 msgid ""
@@ -1613,11 +1604,11 @@ msgid "Well, your plan didn't work out quite like you thought. Balthazar is stil
 msgstr "Cóż, twój plan się nie powiódł. Balthazar wciąż żyje."
 
 #: dream_mel.tra:422
-#, fuzzy
-#| msgctxt "MELISS23"
-#| msgid "Do you dare come and face me there? Or shall I have to hunt you down like the sorry dog that you are? Because make no mistake... one way or another, every last drop of that divine essence will be *mine*."
 msgid "Do you dare come and face me there? Or shall I have to hunt you down like the sorry dog that you are? Because make no mistake... one way or another, every last drop of that divine essence will be *mine*."
-msgstr "Masz na tyle odwagi, by przyjść tam i stawić mi czoła? A może będę musiała polować na ciebie jak na nędznego psa? W ten czy inny sposób i tak każda kropla boskiej esencji będzie *moja*."
+msgstr ""
+"Masz na tyle odwagi, by przyjść tam i stawić mi czoła? A może będę musiała "
+"polować na ciebie jak na nędznego psa? W ten czy inny sposób i tak każda "
+"kropla boskiej esencji będzie *moja*."
 
 #: dream_mel.tra:433
 msgid "As long as you did what you were required to and kill the Five, then I care little for what you think you know, fool."
@@ -1628,18 +1619,16 @@ msgid "So you managed to corral Balthazar into co-operating with you? I'm surpri
 msgstr "Tak więc udało ci się przekonać Balthazara do współpracy? Jestem zaskoczona. Mimo wszystko, esencja jednego pomiotu Bhaala czy dwóch znaczy teraz dla mnie niewiele."
 
 #: dream_solar.tra:230
-#, fuzzy
-#| msgctxt "SOLAR66"
-#| msgid "The one you know as Melissan was never a true member of the Five, godchild. She is no child of Bhaal."
 msgid "The one you know as Melissan was never a true member of the Five, godchild. She is no child of Bhaal."
-msgstr "Ta, którą znasz jako Melissanę, nie należy do Piątki. Ona nie jest Dzieckiem Bhaala."
+msgstr ""
+"Ta, którą znasz jako Melissanę, nie należy do Piątki. Ona nie jest Dzieckiem "
+"Bhaala."
 
 #: dream_solar.tra:231
-#, fuzzy
-#| msgctxt "SOLAR67"
-#| msgid "The dead god, Bhaal, has not been resurrected and, indeed, may never be. You must understand what awaits you now at the end of your journey, godchild... and for this, the one you know as Melissan will explain for herself."
 msgid "The dead god, Bhaal, has not been resurrected and, indeed, may never be. You must understand what awaits you now at the end of your journey, godchild... and for this, the one you know as Melissan will explain for herself."
-msgstr "Martwy bóg, Bhaal, nie został wskrzeszony. Musisz zrozumieć, co cię czeka na końcu tej podróży... a to wyjaśni ci ta, którą znasz pod imieniem Melissany."
+msgstr ""
+"Martwy bóg, Bhaal, nie został wskrzeszony. Musisz zrozumieć, co cię czeka na "
+"końcu tej podróży... a to wyjaśni ci ta, którą znasz pod imieniem Melissany."
 
 #: dream_solar.tra:239
 msgid "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides yourself, god-child. You are to be commended. Your journey is nearly at its end."
@@ -1818,10 +1807,24 @@ msgid "Viconia and <CHARNAME> continued their adventuring careers for several ye
 msgstr "Viconia i <CHARNAME> kontynuowali swoje awanturnicze jeszcze przez kilka lat, zyskując znaczną sławę po tym jak odegrali główne role w dwóch wojnach rozgrywających się na Wybrzeżu Mieczy. Z czasem <CHARNAME> stał się ważną osobistością w Krainach, a jego mroczna ukochana zawsze stała u jego boku. Ostatecznie, kiedy Viconia zaszła w ciążę ze swym towarzyszem, wydarzenie to wywołało sporo zamieszania pomiędzy nimi, co doprowadziło do krótkiej separacji. Jednakże narodziny syna zmieniły Viconię nie do poznania. Powróciła do swego ukochanego i przekonała go by zamieszkali we Wrotach Baldura, po czym poświęciła się wychowaniu chłopca, ucząc go zarówno zwyczajów drowów, jak i ludzi. Cieszyła się, widząc w oczach syna błysk zrozumienia, jednak nie dane jej było doczekać tego, aż stanie się on dorosłym mężczyzną. Viconia była potężną kapłanką niewrażliwą na zwykłe trucizny, ale jadowi Pajęczej Królowej nie można łatwo się oprzeć, a jej zasięg działania jest daleki. Viconia zginąła zatruta przez pewnego sługę Lolth, <CHARNAME> zaś złorzeczył kiedy najpotężniejsza magia nie była w stanie pomóc jego chorującej żonie. Ostatnie słowa Viconii zostały wypowiedziane mu na ucho, zanim ostatecznie umarła i nie są one nikomu znane... ale często opowiadana historia mówi jak <CHARNAME> trzymał ciało swej mrocznej ukochanej i opłakiwał je, podczas gdy całe miasto płakało z nim, cierpiąc nad stratą czegoś cennego co mieli, a o czym nigdy nie mieli okazję się przekonać. Wściekły <CHARNAME> opuścił Wrota Baldura i wychował swego syna potajemnie. O tym jaki był tego rezultat krażą różne opowieści. Niektórzy powiadają, że razem z synem wyruszył do Podmroku na krucjatę przeciw drowom, niektórzy mówią, że stał się bohaterem na północnych ziemiach... a niektórzy powiadają nawet, że <CHARNAME> prowadził wojnę przeciw Lolth w Pajęczej Otchłani... ale wszyscy są zgodni co do tego, że niegdysiejszy Syn Bhaala nigdy nie zapomniał o miłości swojej mrocznej ukochanej. A co z ich synem, wychowanym przez dwie z najpotężniejszych istot w Krainach? Stworzył on legendę, która rywalizowała z opowieściami o jego ojcu. To jednak, jest już całkiem inna historia..."
 
 #: epilogues.tra:4023
-#, fuzzy
-#| msgid "Upon returning to Amkethran, Balthazar began to implement changes for the better. He had learned well from his friend and sibling the meaning of the word \"Good\". He carried his guilt with him always, a reminder never to make the same mistakes again. The remaining criminal elements were quickly driven from his outpost, which attracted new settlers and merchants. Over the years, Amkethran grew into a thriving city and the cultural center of the entire region, renown for its peace and compassion. Balthazar was also central in the creation of the Monastic Guard, an elite group of Paladins and Monks that were sworn to protect the common folk from tyranny in any form. His deeds quickly earned him the respect and trust of his people. In Balthazar's advanced years, his work finished, it was said he could be found most often gazing at the night sky and remembering <CHARNAME>. Later, Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep... to give a final thanks for the peace he had found and to see for himself the humble beginnings of a legend."
 msgid "Upon returning to Amkethran, Balthazar began to implement changes for the better. He had learned well from his friend and <PRO_BROTHERSISTER> the meaning of the word \"Good\". He carried his guilt with him always, a reminder never to make the same mistakes again. The remaining criminal elements were quickly driven from his outpost, which attracted new settlers and merchants. Over the years, Amkethran grew into a thriving city and the cultural center of the entire region, renowned for its peace and compassion. Balthazar was also central in the creation of the Monastic Guard, an elite group of Paladins and Monks who were sworn to protect the common folk from tyranny in any form. His deeds quickly earned him the respect and trust of his people. In Balthazar's advanced years, his work finished, it was said he could be found most often gazing at the night sky and remembering <CHARNAME>. Later, Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep... to give a final thanks for the peace he had found and to see for himself the humble beginnings of a legend."
-msgstr "Po powrocie do Amkethran, Balthazar zaczął wprowadzać w życie zmiany na lepsze. <CHARNAME>, jego <PRO_BROTHERSISTER> nauczył<PRO_HESHE> go znaczenia słowa \"Dobro\". Zawsze pamiętał o swoich winach, które przypominały mu by nigdy więcej nie popełniać takich błędów. Zbrodnicze pierwiastki, które znajdowały się w jego placówce, szybko zostały wygnane, co przyciągnęło kupców i osadników. W ciągu kilku lat, Amkethran urosło do miana prosperującego miasta i kulturalnego ośrodka całej krainy, znanego z ciszy i spokoju. Balthazar był również odpowiedzialny za stworzenie Monasterów, elitarnej grupy paladynów i mnichów, którzy przysięgli strzec zwykłych ludzi przed tyranią w jakiejkolwiek formie. Jego czyny szybko wzbudziły szacunek i zaufanie wśród ludzi. W następnych latach, praca Balthazara dobiegła końca, mówi się również, że większość swego czasu spędzał wtedy wpatrując się w niebo i przypominając sobie osobę, dzięki której odnalazł spokój, osobę znaną pod imieniem <CHARNAME>. Później, Balthazar na zawsze opuścił Amkethran i zdecydował się na pielgrzymkę do Candlekeep... aby pokornie podziękować za pokój, który w końcu odnalazł."
+msgstr ""
+"Po powrocie do Amkethran, Balthazar zaczął wprowadzać w życie zmiany na "
+"lepsze. <CHARNAME>, jego <PRO_BROTHERSISTER> nauczył<PRO_HESHE> go znaczenia "
+"słowa \"Dobro\". Zawsze pamiętał o swoich winach, które przypominały mu by "
+"nigdy więcej nie popełniać takich błędów. Zbrodnicze pierwiastki, które "
+"znajdowały się w jego placówce, szybko zostały wygnane, co przyciągnęło "
+"kupców i osadników. W ciągu kilku lat, Amkethran urosło do miana "
+"prosperującego miasta i kulturalnego ośrodka całej krainy, słynnego z ciszy "
+"i spokoju. Balthazar był również odpowiedzialny za stworzenie Monasterów, "
+"elitarnej grupy paladynów i mnichów, którzy przysięgli strzec zwykłych ludzi "
+"przed tyranią w jakiejkolwiek formie. Jego czyny szybko wzbudziły szacunek i "
+"zaufanie wśród ludzi. W następnych latach, praca Balthazara dobiegła końca, "
+"mówi się również, że większość swego czasu spędzał wtedy wpatrując się w "
+"niebo i przypominając sobie osobę, dzięki której odnalazł spokój, osobę "
+"znaną pod imieniem <CHARNAME>. Później, Balthazar na zawsze opuścił "
+"Amkethran i zdecydował się na pielgrzymkę do Candlekeep... aby pokornie "
+"podziękować za pokój, który w końcu odnalazł."
 
 #: epilogues.tra:4024
 msgid "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambition, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death."
@@ -2273,9 +2276,6 @@ msgid "You're collecting my leavings, Melissan? How very sad for you."
 msgstr "Kolekcjonujesz moje ofiary, Melissano? Jakież to smutne."
 
 #: mel_iren_imoen.tra:470
-#, fuzzy
-#| msgctxt "IMOEN18"
-#| msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgstr "Nnngh! Ach, to boli! <CHARNAME>, zatrzymaj ją... to... to boli!"
 
@@ -2304,11 +2304,12 @@ msgid "I'm not going anywhere with you! And nobody's touching my soul! Not again
 msgstr "Nigdzie z tobą nie idę! I nikt już nie będzie więcej dotykał mojej duszy! O nie!"
 
 #: mel_iren_imoen.tra:597
-#, fuzzy
-#| msgctxt "FINMEL25"
-#| msgid "Bah! I should not be wasting time on you. I still have to absorb the Bhaalspawn essences... and there is more than enough power in this plane to keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> dares to oppose while I take what is mine!"
 msgid "Bah! I should not be wasting time on you. I still have to absorb the Bhaalspawn essences... and there is more than enough power in this plane to keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> dares to oppose while I take what is mine!"
-msgstr "Nie powinnam marnować na ciebie czasu. Wciąż muszę jeszcze wchłonąć esencję potomstwa Bhaala... a w tej sferze jest dość mocy, by cię na długo zająć. Irenicus...Imoen... pokażcie jak karze się tych, którzy ośmielają mi się przeciwstawić!"
+msgstr ""
+"Nie powinnam marnować na ciebie czasu. Wciąż muszę jeszcze wchłonąć esencję "
+"potomstwa Bhaala... a w tej sferze jest dość mocy, by cię na długo zająć. "
+"Irenicus...Imoen... pokażcie jak karze się tych, którzy ośmielają mi się "
+"przeciwstawić!"
 
 #: mel_iren_imoen.tra:607
 msgid "Irenicus, I believe you called him. So easily culled as my own, since you abandoned him here recently... and such a valuable source of information on you, <CHARNAME>. After all... I believe you did share a soul, once, no? Say hello to the dear <PRO_MANWOMAN>, Irenicus."
