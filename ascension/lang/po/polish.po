@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2019-06-29 14:12+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
+"PO-Revision-Date: 2019-07-01 14:13+0000\n"
+"Last-Translator: Adam Fandrejewski <adam_fandrejewski@windowslive.com>\n"
 "Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/pl/>\n"
 "Language: polish\n"
@@ -106,7 +106,7 @@ msgstr "Melissana: Rozkazywanie sługom Otchłani"
 
 #: ascension.tra:1039
 msgid "Bhaalspawn Power gained: Immunity to Energy Drain"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Odporność na Wysączenie Energii"
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
@@ -130,7 +130,7 @@ msgstr "Odzyskuje moce Bhaala"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
-msgstr ""
+msgstr "Odzyskano kontrolę."
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
@@ -190,7 +190,7 @@ msgstr "Zyskano moc Bhaala: Skupienie"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
-msgstr ""
+msgstr "Zyskano moc Bhaala: Odporność na Skazę Zabójcy"
 
 #: ascension.tra:1062
 msgid "Divine Gift"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr ""
+msgstr "Usunięto Odporności Antymagiczne"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
@@ -2669,10 +2669,34 @@ msgstr ""
 #: shawnesepilogues.tra:4023
 msgid "In his short time with <CHARNAME>, Balthazar reached a new enlightenment. He understood that vigilance must be tempered with compassion, justice with mercy. Resolved to never again repeat the mistakes of his past, Balthazar returned to his monastery and drove out the remaining criminal elements, making the outpost safe for new settlers and merchants. As the years passed, Amkethran became the jewel of Tethyr, renowned for its cultural richness and the serenity it offered. Balthazar himself was instrumental in creating the Monastic Guard, an elite group of paladins and monks sworn to protect the common folk from tyranny. When his work was done, and he had earned the respect and love of his people many times over, Balthazar embarked on a pilgrimage to Candlekeep. There he studied <CHARNAME>'s humble beginnings, and gave thanks for the peace his <PRO_BROTHERSISTER> had brought."
 msgstr ""
+"Czas spędzony z <CHARNAME> oświecił Balthazara. Zrozumiał on, że czujność "
+"musi być łagodzona współczuciem, a sprawiedliwość litością. Postanowiwszy "
+"nigdy nie powtarzać błędów z przeszłości, Balthazar powrócił do swojego "
+"klasztoru aby wypędzić resztę bandytów i uczynić go bezpiecznym schronieniem "
+"dla osadników i kupców. Po latach Amkethran stał się klejnotem Tethyru, "
+"oferując bogactwo kultury i spokojne schronienie. Balthazar odegrał kluczową "
+"rolę w stworzeniu Straży Klasztornej, elitarnej grupy mnichów i paladynów, "
+"którzy zaprzysięgli chronić lud przed tyranią. Wysiłki Balthazara zyskały mu "
+"miłość i szacunek otoczenia. Po latach wybrał się na pielgrzymkę do "
+"Candlekeep, gdzie poznał skromne początki <CHARNAME>, i podziękował za "
+"pokój, który przyniosło mu spotkanie z <CHARNAME>."
 
 #: shawnesepilogues.tra:4024
 msgid "In the end, it was Bodhi's ambition that sealed her fate. Her dealings with <CHARNAME> had given her a brief taste of divinity, and when it faded she became obsessed with recapturing that glory. She stalked the shadows of the Sword Coast, bathing in the blood of countless victims, and every attempt to hunt her down ended the same way: with the drained corpses of clerics and knights scattered about, and no trace of the vampire herself. But this time Bodhi's thirst was without end, without satisfaction. At last her frenzy drove her back to Suldanessellar, and at the gates of the city she found Ellesime waiting for her. They fought all through the night, both driven by memories of the past, until Bodhi's fangs found the queen's throat just as a stake pierced her black heart. As Bodhi fell to dust for the last time, she could hear her brother's voice raised in mocking laughter, following her into oblivion."
 msgstr ""
+"Tym co przypięczętowało los Bodhi były jej ambicje. Spotkanie z <CHARNAME> "
+"dało jej przedsmak boskiej mocy. Kiedy tej mocy zabrakło, odzyskanie jej na "
+"nowo stało się obsesją Bodhi. Podróżowała ciemnymi zaułkami Wybrzeża Mieczy, "
+"skąpana w krwi niezmierzonej liczby ofiar. Każda próba pochwycenia jej "
+"kończyła się tak samo - rozrzuconymi wyssanymi ciałami kapłanów i "
+"wojowników, bez śladów i tropów prowadzących do wampira. Ale pragnienie "
+"Bodhi nie mogło zostać nigdy zaspokojone. Jej szał poprowadził ją z powrotem "
+"do Suldanessellar, gdzie u bram miasta spotkała Ellesime czekającą na nią. "
+"Walczyły całą noc, prowadzone żadzą zemsty i wspomnieniami, dopóki kły Bodhi "
+"nie dosięgły gardła królowej, dokładnie w tym samym momencie kiedy kołek "
+"przebił ciemne serce Bodhi. Gdy Bodhi rozpadła się w pył po raz ostatni, "
+"mogła usłyszeć jeszcze podniesiony głos brata szydzącego z niej, głos, który "
+"towarzyszył jej w drodze do zaświatów."
 
 #: shawnesepilogues_eenpc.tra:5001
 msgid "With no one to temper his wrath, it was inevitable that Dorn il-Khan would come to a bad end. Though he had escaped the fury of the gods, there were others whose retribution could not be avoided. Hunted down and captured by the \"Freelance Jurist\" Mercy Whitedove, Dorn was taken back to Luskan to stand trial. He was found guilty of the mass slaughter of every man, woman, and child in the village of Barrow, where his dark path began. Sentenced to death, Dorn broke free of the prison on three occasions before the sentence could be carried out. Twice, he was tracked down by Whitedove and returned. When they met for the third and last time, Dorn’s patron commanded him to stand his ground, forcing Whitedove to slay the so-called \"Butcher of Barrow\". Tales of Dorn il-Khan were told for decades afterwards, both by parents with unruly children in need of discipline and by those vile men and women who admired the half-orc's deeds."
@@ -2693,10 +2717,29 @@ msgstr ""
 #: shawnesepilogues_eenpc.tra:5005
 msgid "With her obligations to Larloch and <CHARNAME> fulfilled, Hexxat struck out on her own. She had lost her last chance at humanity, but gained a new understanding of what the world had to offer thanks to her time with the Bhaalspawn. She eventually returned to Athkatla, rallying the shattered remnants of Bodhi's organization, like Hexxat, the few remaining vampires sought a new purpose, and they saw in her a leader who would value them as more than just tools. Combining her undead powers with her knowledge of long-forgotten Chultan traditions, Hexxat came to be revered as queen of the city’s underworld."
 msgstr ""
+"Po wypełnieniu zobowiązań wobec Larlocha i <CHARNAME>, Hexxat podążyła "
+"własną drogą. Spędziwszy czas z potomstwem Bhaala utraciła szansę na "
+"odzyskanie człowieczeństwa, ale zrozumiała na nowo co świat ma jej do "
+"zaoferowania. Powróciła do Athkatli, zbierając rozproszonych członków "
+"organizacji Bodhi. Podobnie jak Hexxat, garstka pozostałych wampirów zaczęła "
+"poszukiwać nowego celu. Zobaczyli w Hexxat przywódczynię, która nie tylko "
+"nie traktuje ich jako ślepe narzędzia, ale darzy szacunkiem. Łącząc jej "
+"niezwykłe zdolności i wiedzę na temat zapomnianych Chultańskich tradycji, "
+"Hexxat została królową podziemnego świata Athkatli."
 
 #: shawnesepilogues_eenpc.tra:5006
 msgid "Though it's likely Hexxat and <CHARNAME> had many adventures after the conclusion of the Bhaalspawn Crisis, reliable reports of those adventures are hard to come by. In their place is an endless chain of rumors, many of them gleefully spread by Cabrina: the lovers had gone to Waterdeep, becoming key players in the city's noble and criminal fraternities, they had pulled off the heist of the century, cleaning out the coffers of Menzoberranzan's Tier Breche, they had adopted a clan of kobolds and taught them to pick locks. The wildest tales claimed that <CHARNAME> was no longer seen without a scarf or high collar, and that she and Hexxat would stalk the night together, for all eternity."
 msgstr ""
+"Mimo że Hexxat i <CHARNAME> przeżyli wiele przygód po zakończeniu kryzysu "
+"związanego z potomstwem Bhaala, trudno znaleźć wiarygodne świadectwa ich "
+"czynów. Zamiast tego znajdujemy nieskończone sploty domysłów i plotek, wiele "
+"z nich świadomie propagowanych przez Cabrinę: Kochankowie dotarli do "
+"Waterdeep, zostając kluczowymi postaciami w środowisku elit i półświatka "
+"tego miasta. Dokonali kradzieży stulecia, czyszcząc z kosztowności kufry "
+"Tier Breche w Menzoberranzan. Adopotowali klan koboldów ucząc je otwierania "
+"zamków wytrychami. Najdziwniejsza opowieść mówi, że <CHARNAME> nie można już "
+"zobaczyć bez szala i wysokiego kołnierza - będą wraz z Hexxat będą "
+"przemierzać ciemności nocy przez całą wieczność."
 
 #: shawnesepilogues_eenpc.tra:5007
 msgid "Neera traveled north, stopping at inns and taverns along the way, always listening happily as bards wove tales both true and false of her adventures with <CHARNAME>. When she reached the High Forest, she was welcomed back as a hero and personally congratulated by Turlang the treant. Within days she was bored again, and circled back around to Amn where she reunited with the surviving wild mages of the Hidden Refuge, hoping to find happiness in their company. But Neera's restlessness was matched only by her power, and she departed once more, heading to the Moonsea. With the help of a wild surge or two, she sank three Thayan slaver ships single-handedly, driving them from the city of Melvaunt. This attracted Thay's attention, and Neera found herself hounded once again by the Red Wizards. It was a chase she enjoyed, for a time, especially when it led to another alliance of convenience with Szass Tam. While the outcomes of her adventures were as unpredictable as her wild magic, one thing was certain: Neera would live a very interesting life."
@@ -2705,6 +2748,16 @@ msgstr ""
 #: shawnesepilogues_eenpc.tra:5008
 msgid "With <CHARNAME> at her side, it seemed as though Neera meant to find some stability, perhaps by returning to the High Forest. But it soon became clear that neither of them wanted a quiet life, and though the Order of Eight Staves was no more, the machinations of Thay still loomed on the horizon. As <CHARNAME> cheered her on, Neera used her wild magic to sink three Thayan slaver ships off the coast of Melvaunt. The city celebrated their heroic victory until dawn, and when <CHARNAME> awoke Neera was gone. She had left no note, given no sign of departure. But he just smiled. No matter where her restless wanderings would take her, he knew they would find each other again."
 msgstr ""
+"Wydawało się że Neera odnalazła równowagę i spokój z <CHARNAME> przy boku, "
+"planując nawet powrócić do Wysokiego Lasu. Ale szybko okazało się, że żadne "
+"z nich nie pragnęło spokojnego, ułożonego życia. Zakon Ośmiu Kosturów "
+"przestał istnieć, ale na horyzoncie wciąż majaczyły machinacje Thay. Gdy "
+"<CHARNAME> próbował ją rozweselić, Neera użyła swej Dzikiej Magii aby "
+"zatopić trzy statki niewolnicze Thay na wybrzeżu Melvaunt. Miasto święciło "
+"zwycięstwo do świtu, a gdy <CHARNAME> obudził się, Neery już nie było. Nie "
+"pozostawiła żadnego listu, ani nie wyjaśniła powodów odejścia. Ale <CHARNAME>"
+" tylko się uśmiechnął. Niezależnie gdzie poprowadzi ją jej niespokojny duch, "
+"<CHARNAME> wiedział, że prędzej czy później ponownie się spotkają."
 
 #: shawnesepilogues_eenpc.tra:5009
 msgid "After the events of the Bhaalspawn Saga, Rasaad yn Bashir was no longer content to live as a fugitive. Having driven Alorgoth into hiding after their battle in the Deepstone Mines, Rasaad returned to Calimshan, determined to prove his loyalty to the Order of the Sun Soul. But he was unable to convince the hierarchy that he had not abandoned their teachings, and was summarily cast out. Rasaad denounced the judgment, proclaiming his innocence and refusing to leave. The stories say he fought off more than a hundred Sun Soul monks before succumbing to their superior numbers. Haraan Sixscar herself struck the final blow. In the aftermath of Rasaad's death, those present were shocked to realize that not one of his opponents had been killed. He had remained true to Selune's ways until his dying breath."
@@ -2721,6 +2774,17 @@ msgstr ""
 #: shawnesepilogues_eenpc.tra:5012
 msgid "Among those who speak the animal tongues, the name of Wilson is well-known and well-loved. A defender of the weak and a tireless crusader for peace in a violent world, Wilson's courage and heroism inspired many in the animal kingdom to follow in his footsteps. The legend, passed down through the generations, grows with each telling. After ending his own kind's murderous rampage against fish, he was the first and only mammal ever to be made a saint to the salmon. But perhaps his greatest triumph came when he forged a lasting armistice in the ages-old conflict between cats and dogs. For all these accomplishments and more, Wilson is remembered fondly by all good and steadfast members of the wild. He died peacefully during hibernation at the age of thirty-seven, surrounded by family and friends."
 msgstr ""
+"Pośród władających językami zwierząt, imię Wilson jest dobrze znane i "
+"lubiane. Będąc obrońcą słabszych i niezmordowanym orędownikiem pokoju w "
+"brutalnym świecie, Wilson przez swoją odwagę i heroizm zainspirował wielu w "
+"królestwie zwierząt do podążenia za jego przykładem. Legenda przekazywana "
+"przez pokolenia rosła za każdym razem gdy była opowiadana. Po zakończeniu "
+"morderczego szału skierowanego przeciwko rybom, został on jedynym ssakiem w "
+"historii uznanym za świętego przez łososie. Ale jego największym triumfem "
+"był prawdopodobnie rozejm w odwiecznym konflikcie między psami i kotami. Za "
+"te i inne osiągnięcia Wilson został zapamiętany przez wszystkie dobre i "
+"wierne istoty dziczy. Zmarł spokojnie podczas snu zimowego w wieku "
+"trzydziestu siedmiu lat, w otoczeniu rodziny i przyjaciół."
 
 #: slayer_dialog.tra:314
 msgid ""
