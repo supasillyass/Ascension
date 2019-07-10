@@ -7,7 +7,7 @@ DEFINE_ACTION_FUNCTION ascension_compatibility BEGIN
    ACTION_IF MOD_IS_INSTALLED "iylos.tp2" 0 BEGIN
       LAF FIND_DLG_BLOCK
                 STR_VAR dialog=irenic2
-                        match=dw_irenicus_block_12_ID
+                        match=dw_irenicus_block_12_id
                 RET iylos_irenicus=block_number
       END
       LAF FIND_DLG_BLOCK
@@ -19,6 +19,16 @@ DEFINE_ACTION_FUNCTION ascension_compatibility BEGIN
          COMPILE "%MOD_FOLDER%/ascensionmain/compat/iylos.d" EVALUATE_BUFFER
       END
 
+   END
+   
+   // strip identifier blocks
+  
+   ACTION_FOR_EACH dialog IN irenic2 finmel01 BEGIN
+    COPY_EXISTING "%dialog%.dlg" override
+      DECOMPILE_AND_PATCH BEGIN
+           REPLACE_TEXTUALLY ~Global("dw_[^"]*_id",[^)]*)~ ~~
+      END
+    BUT_ONLY
    END
 
 END

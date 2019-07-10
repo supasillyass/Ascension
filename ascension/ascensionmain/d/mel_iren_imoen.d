@@ -33,12 +33,12 @@ IF ~~ THEN BEGIN mel_call_imoen
   THEN GOTO mel_imoen_summon
 END
 
-IF ~Global("dw_mel_imoen1_id","GLOBAL",0)~ THEN BEGIN mel_imoen_inparty  // if Imoen is in the party, just talk to her
+IF ~Global("dw_mel_imoen1_id","GLOBAL",1)~ THEN BEGIN mel_imoen_inparty  // if Imoen is in the party, just talk to her
   SAY @609 /* ~Come, Imoen.  I command the essence within you.  You are not ready to be here...and yet here you are.  Let's see just how much of my power is contained in your young little soul, hmm?~  */
   IF ~~ THEN EXTERN imoen25j imoenj_response
 END
 
-IF ~Global("dw_mel_imoen2_id","GLOBAL",0)~ THEN BEGIN mel_imoen_summon // if Imoen is not in the party, or is in the party, but dead (edge case, since the PC has just arrived in the Abyss), summon her
+IF ~Global("dw_mel_imoen2_id","GLOBAL",1)~ THEN BEGIN mel_imoen_summon // if Imoen is not in the party, or is in the party, but dead (edge case, since the PC has just arrived in the Abyss), summon her
   SAY @610 /* ~It seems you've misplaced your darling little Imoen, haven't you?  But her essence is easy enough to command.  Let's see what she has to say, shall we?~ */
   IF ~InPartyAllowDead("Imoen2")~ THEN DO ~ClearAllActions()StartCutSceneMode()StartCutScene("resimo1")~ EXIT
   IF ~!InPartyAllowDead("Imoen2")~ THEN DO ~ClearAllActions()StartCutSceneMode()StartCutScene("resimo2")~ EXIT

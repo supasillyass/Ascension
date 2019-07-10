@@ -61,7 +61,7 @@ DEFINE_ACTION_FUNCTION ascension_the_five BEGIN
      ///////////////////
 
      COPY_EXISTING finbalth.cre override
-        LPF CRE_patch STR_VAR script_override=balthdie END
+        LPF CRE_patch STR_VAR script_class=balthdie END // don't put it in override, it could overwrite regeneration
      BUT_ONLY
 
      COPY "%MOD_FOLDER%/balthazar/baf/balthazar.baf" "override/finbalth.bcs"

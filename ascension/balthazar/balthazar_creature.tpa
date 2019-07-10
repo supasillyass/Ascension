@@ -83,11 +83,14 @@ END
 // ADD regeneration 8
 // ADD MDR 90
 // ADD permanent improved haste
+// move his script into the 'class' slot, to leave room for regeneration
 // (vASC removes his BG1 proficiencies, but I think that has to be an error - they
 // don't give him any BG2 proficiencies)
 
 DEFINE_PATCH_FUNCTION balthazar_cre_patch
 BEGIN
+    WRITE_ASCII 0x248 ~~ (8)
+    WRITE_ASCII 0x250 balth (8)
     LPF CRE_patch
        INT_VAR
          str=19

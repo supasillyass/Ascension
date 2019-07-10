@@ -478,6 +478,18 @@ ACTION_FOR_EACH script IN finmel3a finmel3b finmel3c BEGIN
    COMPILE "%cutscripts%/%script%.baf"
 END
 
+//  The original Ascension puts Sendai and Illasera out of sight, which cosmetically messes with the cutscene.
+//  After experimenting unsuccessfully with cutspies, I find the most robust option is just to move them slightly.
+//
+               ACTION_FOR_EACH cutscene IN finmel3a finmel3b finmel3c BEGIN
+                  COPY_EXISTING "%cutscene%.bcs" override
+                       DECOMPILE_AND_PATCH BEGIN
+                          REPLACE_TEXTUALLY ~\[820\.1021\]~ ~[851.1104]~
+                          REPLACE_TEXTUALLY ~\[1771\.1014\]~ ~[1689.1187]~
+                       END
+                  BUT_ONLY
+               END
+
 // Mel's second conversation (gated by FinalFight=6 and TheFiveAreHere=1) has an exit cutscene depending
 // on Sarevok's state. Firstly we check if Sarevok is Dead; if he is, we just exit at finmel4.
 //
@@ -595,6 +607,23 @@ ACTION_FOR_EACH script IN cut233g cut233ga cut233gb cut233gc cut233gd cut233ge B
    COMPILE "%cutscripts%/%script%.baf"
 END
 
+// DW addition -  we want to remove any random demons still cluttering up the cutscene, so Mel's script autocasts a demon-removal spell
+// when it triggers the final CS
+
+     LAF create_basic_spell STR_VAR spell=finrmde END
+     COPY_EXISTING "finrmde.spl" override
+          LPF ALTER_SPELL_HEADER INT_VAR projectile=158 END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=177 target=2 parameter1=IDS_OF_SYMBOL (race demonic) parameter2=4 STR_VAR resource=finrmde END
+     BUT_ONLY
+     
+     CREATE EFF finrmde
+      WRITE_LONG 0x10 68
+      WRITE_LONG 0x14 2
+      WRITE_SHORT 0x2c 100
+      WRITE_ASCII 0x30 none
+      
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// The denouement: FinalFight=9
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -613,6 +642,7 @@ ACTION_FOR_EACH script IN bodhif01 bodhif02 bodhif03 BEGIN
 END
 
 // You exit the Solar conversation through one of three unmodified vanilla-game cutscenes.
+
 
 
 END

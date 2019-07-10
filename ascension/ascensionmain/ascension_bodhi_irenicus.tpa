@@ -151,9 +151,24 @@ ACTION_FOR_EACH item IN finir0m finir0r irenbrch irenprce finirobe finipotn BEGI
     COPY "%iren_bodhi_loc%/%item%.itm" override
 END
 
-// we also use an invisible creature 'finirat'
+// handle Irenicus's image clones
+// (this is DW code, more robust than the vAsc version)
 
-COPY "%iren_bodhi_loc%/finirat.cre" override
+     LAF create_basic_spell STR_VAR spell=finirsi END
+     COPY_EXISTING "finirsi.spl" override
+          LPF ALTER_SPELL_HEADER INT_VAR projectile=158 END
+          LPF ADD_SPELL_EFFECT INT_VAR opcode=177 target=2 parameter1=IDS_OF_SYMBOL (class mage) parameter2=5 STR_VAR resource=finirsi END
+     BUT_ONLY
+     
+     CREATE EFF finirsi
+      WRITE_LONG 0x10 82
+      WRITE_LONG 0x14 2
+      WRITE_LONG 0x24 9
+      WRITE_SHORT 0x2c 100
+      WRITE_ASCII 0x30 finiren
+
+    COPY_EXISTING "finirsi.spl" "override/finirpr.spl"
+         LPF ALTER_EFFECT INT_VAR match_opcode=177 parameter2=IDS_OF_SYMBOL (gender illusionary) END
 
    //////////////////////////////////////
    /// Imoen's CRE file
@@ -165,7 +180,7 @@ COPY "%iren_bodhi_loc%/finirat.cre" override
    /// Scripting
    //////////////////////////////////////
 
-   ACTION_FOR_EACH script IN finbodh finbodhi finirat imoslay2 BEGIN
+   ACTION_FOR_EACH script IN finbodh finbodhi imoslay2 BEGIN
       COMPILE "%iren_bodhi_loc%/scripts/%script%.baf"
    END
    COPY "%iren_bodhi_loc%/scripts/finiren.baf" "override/finiren.bcs"

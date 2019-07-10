@@ -508,6 +508,9 @@ END
 ///
 /// - we edit baldur.baf and baldur25.baf (they already control the slayer-change conversation) to add the 
 ///   doc updates. (Yes, it's bad form to edit the main script, but I don't think it's readily avoidable.)
+///
+/// - because the game is hardcoded(!) to grant the slayer power on loading, we have to remove the original if it's
+/// - been upgraded
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

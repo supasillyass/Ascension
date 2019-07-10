@@ -1,4 +1,14 @@
 IF
+  OnCreation()
+  GlobalGT("FINSPROG","GLOBAL",1)
+  HaveSpellParty(SLAYER_START)
+THEN
+    RESPONSE #100
+        ActionOverride(Player1,RemoveSpell(SLAYER_START)
+        Continue()
+END
+
+IF
   GlobalLT("FINSPROG","GLOBAL",2)
   !XPLT(Player1,%threshold_1%)
   XPLT(Player1,%threshold_2%)
@@ -39,3 +49,5 @@ THEN
          DisplayStringHead(Player1,@1048)
          Continue()
 END
+
+

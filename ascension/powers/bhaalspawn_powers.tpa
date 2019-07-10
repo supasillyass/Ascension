@@ -136,13 +136,21 @@ DEFINE_ACTION_FUNCTION bg1_bhaalspawn_powers BEGIN
 // in SoA, powers are controlled by 'abstart.2da'. We parse it, and construct nine spells, one for
 // each alignment, that restore the powers
 
+// because, irritatingly, ToB is hardcoded to remove the powers, we have to make copies of the powers
+
 COPY_EXISTING abstart.2da "%workspace%"
     READ_2DA_ENTRIES_NOW bhaal_powers 7
     FOR (row=0;row<bhaal_powers;row+=1) BEGIN
       READ_2DA_ENTRY_FORMER bhaal_powers row 0 align
       FOR (col=1;col<7;col+=1) BEGIN
          READ_2DA_ENTRY_FORMER bhaal_powers row col spell
-         SPRINT $bhaal_power("%col%") "%spell%"
+         INNER_PATCH_SAVE spell_new "%spell%" BEGIN
+            REPLACE_TEXTUALLY SPIN FINP
+         END
+         INNER_ACTION BEGIN 
+            COPY_EXISTING "%spell%.spl" "override/%spell_new%.spl"
+         END
+         SPRINT $bhaal_power("%col%") "%spell_new%"
       END
       INNER_ACTION BEGIN
            COPY_EXISTING "%LOSE_ALL%.spl" "override/finpo%align%.spl"

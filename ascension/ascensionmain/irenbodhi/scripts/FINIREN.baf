@@ -1,4 +1,13 @@
 IF
+  Global("fin_test_irenicus","GLOBAL",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+    RESPONSE #100
+             SetGlobal("fin_test_irenicus","GLOBAL",0)
+             Enemy()
+END
+
+IF
   StateCheck(Myself,STATE_REALLY_DEAD)
 THEN
     RESPONSE #100
@@ -16,28 +25,38 @@ THEN
 END
 
 IF
-  !GlobalTimerNotExpired("LockTarget","LOCALS")
   Global("copy","LOCALS",1)
-  See(SecondNearest([ENEMY.HUMANOID.ELF.MAGE.0.MALE]))
-  !Specifics(SecondNearest([ENEMY.HUMANOID.ELF.MAGE.0.MALE]),2001)
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
-  !Range(LastSeenBy(Myself),0)
 THEN
-  RESPONSE #100
-    DisplayStringHead(LastSeenBy(Myself),26234)  // ~Simulacrum~
-    ChangeSpecifics(LastSeenBy(Myself),2001)
-    ActionOverride(LastSeenBy(Myself),ChangeAIScript("finiren",OVERRIDE))
+    RESPONSE #100
+       SetGlobal("copy","LOCALS",0)
+       ReallyForceSpellRES("finirsi",Myself)
+       Continue()
 END
 
 IF
-  OR(2)
-    Specifics(Myself,2001)
-    Gender(Myself,ILLUSIONARY)
-  Global("sim-gear","LOCALS",0)
+  Global("set_as_copy","LOCALS",0)
+  CheckStat(Myself,3,PUPPETMASTERTYPE)
+THEN
+    RESPONSE #100
+       DisplayStringHead(Myself,26234)  // ~Simulacrum~
+       ChangeSpecifics(Myself,2001)
+       Continue()
+END
+
+IF
+  Global("set_as_copy","LOCALS",0)
+  CheckStat(Myself,2,PUPPETMASTERTYPE)
+THEN
+    RESPONSE #100
+       DisplayStringHead(Myself,8296)  // ~Project Image~
+       Continue()
+END
+
+IF
+  !Global("set_as_copy","LOCALS",1)
+  CheckStatGT(Myself,0,PUPPETMASTERTYPE)
 THEN
   RESPONSE #100
-    SetGlobal("sim-gear","LOCALS",1)
     GiveItemCreate("FINIROBE",Myself,0,0,0)  // FINIROBE
     FillSlot(SLOT_ARMOR)
     GiveItemCreate("STONSKIN",Myself,0,0,0)
@@ -49,6 +68,7 @@ THEN
     GiveItemCreate("FINIPOTN",Myself,5,1,1)  // FINIPOTN
     GiveItemCreate("IRENBRCH",Myself,5,1,1)  // IRENBRCH
     GiveItemCreate("IRENPRCE",Myself,5,1,1)  // IRENPRCE
+    SetGlobal("set_as_copy","LOCALS",1)
 END
 
 IF
@@ -145,8 +165,7 @@ IF
   !GlobalTimerNotExpired("WeapProt","LOCALS")
   !GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("ChainContingency","LOCALS")
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
+  CheckStat(Myself,0,PUPPETMASTERTYPE)
 THEN
   RESPONSE #100
     SetGlobalTimer("ChainContingency","LOCALS",1000)
@@ -163,8 +182,7 @@ IF
   Exists(NearestEnemyOf(Myself))
   !GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("SpellSequencer","LOCALS")
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
+  CheckStat(Myself,0,PUPPETMASTERTYPE)
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellSequencer","LOCALS",1000)
@@ -179,8 +197,7 @@ IF
   HPPercentLT(Myself,70)
   !CheckStatGT(Myself,0,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
   !GlobalTimerNotExpired("Alacrity","LOCALS")
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
+  CheckStat(Myself,0,PUPPETMASTERTYPE)
   !GlobalTimerNotExpired("Contingency","LOCALS")
 THEN
   RESPONSE #100
@@ -193,8 +210,7 @@ IF
   Exists(NearestEnemyOf(Myself))
   !GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("SpellTrigger","LOCALS")
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
+  CheckStat(Myself,0,PUPPETMASTERTYPE)
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellTrigger","LOCALS",1000)
@@ -209,8 +225,7 @@ IF
   Exists(NearestEnemyOf(Myself))
   !GlobalTimerNotExpired("Alacrity","LOCALS")
   !GlobalTimerNotExpired("MinorSequencer","LOCALS")
-  !Specifics(Myself,2001)
-  !Gender(Myself,ILLUSIONARY)
+  CheckStat(Myself,0,PUPPETMASTERTYPE)
   !HasItemEquiped("CLCK26",NearestEnemyOf(Myself))
 THEN
   RESPONSE #100
@@ -285,9 +300,9 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
-    CreateCreatureObject("FINIRAT",Myself,0,0,0)  // FINIRAT
     RemoveSpell(WIZARD_PROJECT_IMAGE)
     ForceSpell(Myself,WIZARD_PROJECT_IMAGE)
+    SetGlobal("copy","LOCALS",1)
 END
 
 IF
@@ -500,9 +515,9 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
-    CreateCreatureObject("FINIRAT",Myself,0,0,0)  // FINIRAT
     RemoveSpell(WIZARD_PROJECT_IMAGE)
     ForceSpell(Myself,WIZARD_PROJECT_IMAGE)
+    SetGlobal("copy","LOCALS",1)
 END
 
 IF
@@ -538,10 +553,10 @@ IF
 THEN
   RESPONSE #100
     SetGlobalTimer("SpellCast","LOCALS",6)
-    CreateCreatureObject("FINIRAT",Myself,0,0,0)  // FINIRAT
     RemoveSpell(WIZARD_PROJECT_IMAGE)
     ApplySpell(Myself,WIZARD_IMPROVED_INVISIBILITY)
     ForceSpell(Myself,WIZARD_PROJECT_IMAGE)
+    SetGlobal("copy","LOCALS",1)
 END
 
 IF
@@ -967,7 +982,7 @@ IF
   See(NearestEnemyOf(Myself))
   OR(2)
     True()
-    See(LastSeenBy("finbodhi"))  // finbodhi
+    See(LastSeenBy("finbodh"))  // finbodhi
   CheckStatLT(LastSeenBy(Myself),1,STONESKINS)
   OR(2)
     True()
@@ -975,11 +990,11 @@ IF
   CheckStatLT(LastSeenBy(Myself),1,STONESKINS)
   OR(2)
     True()
-    See(LastSeenBy("finimoen"))  // finimoen
+    See(LastSeenBy("imoen2"))  // finimoen
   CheckStatLT(LastSeenBy(Myself),1,STONESKINS)
   OR(2)
     True()
-    See(LastSeenBy("finbodhi"))  // finbodhi
+    See(LastSeenBy("finbodh"))  // finbodhi
   CheckStatLT(LastSeenBy(Myself),1,STONESKINS)
   See(NearestEnemyOf(Myself))
   CheckStatLT(LastSeenBy(Myself),1,STONESKINS)

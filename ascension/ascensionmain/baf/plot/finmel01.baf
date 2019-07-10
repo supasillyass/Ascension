@@ -33,6 +33,17 @@ END
 ///////////////////////////////////////////////////////////////////////////
 
 IF
+	Global("FinalFight","AR6200",8)
+	Global("allfive","GLOBAL",1)
+	HPLT(Myself,20)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("finrmde",Myself)  // No such index
+		SmallWait(1)
+		Continue()
+END
+
+IF
   Global("FinalFight","AR6200",8)
   Global("allfive","GLOBAL",1)
   Global("BalthazarFights","GLOBAL",0)
@@ -224,7 +235,7 @@ IF
 THEN
   RESPONSE #100
     SetInterrupt(FALSE)
-    DestroyItem("fingrom")  // finbalth
+    DestroyItem("finbalth")  // finbalth
     SetInterrupt(TRUE)
     Continue()
 END
