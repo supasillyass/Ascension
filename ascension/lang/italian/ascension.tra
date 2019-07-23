@@ -3,7 +3,7 @@
 @1006 = ~Onda d'Urto~
 @1007 = ~Aura Elettrica~
 @1009 = ~Telecinesi~
-@1012 = ~Cambio di Resistenze~
+@1012 = ~Flip Resistances~
 @1013 = ~Controlla Demone~
 @1014 = ~Focalizzare~
 @1016 = ~Manto Divino~
@@ -17,7 +17,7 @@
 @1026 = ~Purificare Divino~
 @1027 = ~Paralisi Aura~
 @1029 = ~Bomba di Lava~
-@1031 = ~Simbolo di Lentezza~
+@1031 = ~Symbol, Slow~
 @1037 = ~Cambiamento del Distruttore~
 @1038 = ~Melissan: Comanda i Tirapiedi dell'Abisso~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
@@ -43,7 +43,7 @@
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
 @1060 = ~Bhaalspawn Power gained: Focus~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Manto Divino~
+@1062 = ~Divine Gift~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
@@ -63,19 +63,18 @@ Area d'effetto: Raggio di 9 metri
 Tiro-salvezza: Nessuno
 
 Quando usa questa abilità, la progenie di Bhaal deve visualizzare chiaramente i volti dei suoi compagni e concentrarsi sull'unità del gruppo. Una volta completato l'incantesimo, tutti i membri del gruppo in un raggio di 9 metri dal lanciatore sono curati di 2d8+2 Punti Ferita per livello. Vengono guarite anche altre condizioni sofferte dal gruppo: fatica, veleno, malattia, cecità e sordità.~
-@2001 = ~Poteri della progenie di Bhaal
+@2001 = ~Bhaalspawn Powers
 
-<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
+<CHARNAME> has gained the ability, usable once per day: 
 
-Rigenerazione
-(Necromanzia)
-Raggio d'azione: Tocco
-Durata: 1 round ogni 2 livelli
-Tempo di lancio: 7
-Area d'effetto: 1 creatura
-Tiro-salvezza: Nessuno
+Regeneration (Necromancy)
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
 
-Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round.~
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
 @2002 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 

@@ -3,7 +3,7 @@
 @1006 = ~Onde de Choc~
 @1007 = ~Aura électrique~
 @1009 = ~Télékinésie~
-@1012 = ~Changement de Résistances~
+@1012 = ~Flip Resistances~
 @1013 = ~Contrôle de Démon~
 @1014 = ~Focalisation~
 @1016 = ~Manteau Divin~
@@ -17,7 +17,7 @@
 @1026 = ~Eclaircissement Divin~
 @1027 = ~Aura de Paralysie~
 @1029 = ~Bombe de Lave~
-@1031 = ~Symbole : Lenteur~
+@1031 = ~Symbol, Slow~
 @1037 = ~Changement en Ravageur~
 @1038 = ~Mélissane : Commande les Créatures des Abysses~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
@@ -43,68 +43,67 @@
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
 @1060 = ~Bhaalspawn Power gained: Focus~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Manteau Divin~
+@1062 = ~Divine Gift~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
 @1066 = ~AI deactivated~
 @1067 = ~AI activated~
 @1068 = ~Lunar Malison~
-@2000 = ~Pouvoirs de l'Enfant de Bhaal
+@2000 = ~Bhaalspawn Powers
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Soin de masse (Nécromancie)
+<CHARNAME> has gained the ability, usable once per day: 
 
-Portée : Champ visuel du lanceur
-Durée : permanente 
-Temps d'incantation : 1
-Zone d'effet : rayon de 6 m
-Jet de Sauvegarde : Aucun 
+Mass Healing (Necromancy)
+Range: Sight of caster 
+Duration: Permanent 
+Casting Time: 1
+Area of Effect: 30 foot radius
+Saving Throw: None 
 
-Lorsqu'il utilise cette capacité, l'enfant de Bhaal doit se concentrer sur les visages de ses compagnons et sur l'unité du groupe. Une fois l'incantation achevée, tous les membres du groupe dans un rayon de 6 m reçoivent 2d8 points de vie + 2 / niveau. Ce soin concerne également : la fatigue, le poison, la maladie, la cécité et la surdité.~
-@2001 = ~Pouvoirs de l'Enfant de Bhaal
+When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group. Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points. Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness.~
+@2001 = ~Bhaalspawn Powers
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Régénération (Nécromancie)
+<CHARNAME> has gained the ability, usable once per day: 
 
-Portée : Contact
-Durée : 1 round par tranche de 2 niveaux
-Temps d'incantation : 7
-Zone d'effet : Créature ciblée
-Jet de Sauvegarde : Aucun 
+Regeneration (Necromancy)
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
 
-Cette puissante capacité permet à l'Enfant de Bhaal de prodiguer la capacité de régénération à une créature. Toutes ses blessures seront guéries et même les membres sectionnés repousseront grâce à ce sort. Le bénéficiaire récupérera 3 points de vie par seconde. La durée du sort est fixée à un nombre maximum de rounds égal à la moitié du niveau du lanceur. Par exemple, un prêtre de 14ème niveau régénérera ainsi 18 points de vie par round pendant 7 rounds.~
-@2002 = ~Pouvoirs de l'Enfant de Bhaal
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
+@2002 = ~Bhaalspawn Powers
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Puiser dans la puissance divine (Invocation)
+<CHARNAME> has gained the ability, usable once per day: 
 
-Portée : 0 
-Durée : 1 tour
-Temps d'incantation : 1
-Zone d'effet : lanceur
-Jet de Sauvegarde : Aucun 
+Draw Upon Holy Might (Invocation) 
+Range: 0 
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster 
+Saving Throw: None 
 
-L'enfant de Bhaal sollicite l'essence de son père pour augmenter ses pouvoirs pendant une courte durée. Sa Force, sa Constitution et sa Dextérité gagnent alors 1 point par 3 niveaux du lanceur. Un lanceur du 3ème niveau verra ainsi ses caractéristiques gagner 1 point, alors qu'un lanceur du 12ème niveau les verra augmenter de +4.~
-@2003 = ~Pouvoirs de l'Enfant de Bhaal
+The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4.~
+@2003 = ~Bhaalspawn Powers
 
-<CHARNAME> a acquis la capacité, utilisable une fois par jour : 
-Souffle de Bhaal (Nécromancie)
+<CHARNAME> has gained the ability, usable once per day: 
 
-Portée : 7 mètres
-Durée : 1 tour
-Temps d'incantation : 1
-Zone d'effet : 1 créature
-Jet de Sauvegarde : Annule
+Dark Taint (Necromancy) 
+Range: 20 feet
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Negates
 
-Cette capacité permet à l'enfant de Bhaal d'envelopper la victime dans le souffle vicié de son père. Cette dernière peut échapper à l'empoisonnement si elle réussit un jet de sauvegarde contre la mort. Les effets dépendent du niveau du lanceur :
-
-Niveaux 7 à 9 : 2D8 +2 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 10 à 12 : 3D8 +3 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 13 à 14 : 4D8 +4 / round, lenteur pendant 12 secondes, -2 au jet de sauvegarde
-Niveaux 15 à 16 : 6D8 +5 / round, lenteur pendant 24 secondes, -2 au jet de sauvegarde
-Niveaux 17 à 21 : 8D8 +6 / round, lenteur pendant 24 secondes, -4 au jet de sauvegarde
-Niveau 25 et plus : 8D8 +6 / round, lenteur pendant 36 secondes, -4 au jet de sauvegarde, un groupe entier de cibles est affecté~
+Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death. The effects depend upon the caster's level and are detailed below:
+7-9th level: 2d8 + 2/round, slow for 12 seconds, save at -2
+10-12th level: 3d8 + 3/round, slow for 12 seconds, save at -2
+13-14th level: 4d8 + 4/round, slow for 12 seconds, save at -2
+15-16th level: 6d8 + 5/round, slow for 24 seconds, save at -2
+17-21st level: 8d8 + 6/round, slow for 24 seconds, save at -4
+25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets~
 @2004 = ~Pouvoirs de l'Enfant de Bhaal
 
 <CHARNAME> a gagné la Protection Permanente Contre le Plan Négatif (par exemple, <CHARNAME> ne peut se faire drainer ses niveaux) et 5% de résistance magique.~
@@ -124,47 +123,49 @@ Niveau 15 : 3 rounds, 6 points de dégâts supplémentaires, 6 points de vie guéris
 Niveau 20 : 4 rounds, 8 points de dégâts supplémentaires, 8 points de vie guéris
 Niveau 25 : 5 rounds, 10 points de dégâts supplémentaires, 10 points de vie guéris
 Niveau 30 : 6 rounds, 12 points de dégâts supplémentaires, 12 points de vie guéris~
-@2006 = ~Pouvoirs de l'Enfant de Bhaal
+@2006 = ~Bhaalspawn Powers
 
-<CHARNAME>  a acquis la capacité, utilisable une fois par jour : 
-Résurrection (Nécromancie)
+<CHARNAME> has gained the ability, usable once per day: 
 
-Portée : Contact
-Durée : permanent
-Temps d'incantation : 1
-Zone d'effet : Créature ciblée
-Jet de Sauvegarde : Aucun
+Resurrection (Necromancy)
+Range: Touch
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Creature Touched
+Saving Throw: None
 
-Tout comme le sort de 5ème niveau de prêtre Rappel à la vie, Résurrection ramène un personnage à la vie. Il est cependant ressuscité avec le maximum de ses points de vie.~
+Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
 @2007 = ~Pouvoirs de l'Enfant de Bhaal
 
 <CHARNAME> a gagné 25% de résistance aux dégâts physiques (par exemple aux dégâts tranchants, perforants, contondants et aux Projectiles).~
 @2008 = ~Slayer Change ability improved~
 @3000 = ~Epée du Chaos +4~
-@3001 = ~Lame du Chaos de Sarevok
-Il s'agit de l'arme de Sarevok, frère de <CHARNAME>, qui fut utilisée dans la bataille de la Porte de Baldur. <CHARNAME> a gagné, ruinant ainsi les plans de Sarevok, et sauvant la Côte des Epées de la guerre. Maintenant, Sarevok s'est joint à la cause de <CHARNAME> et son épée lui a été rendue. Sarevok décrit cette arme comme une Lame Fatale et a restauré une partie des anciens pouvoirs de cet objet. Cependant, sans son essence d'Enfant de Bhaal pour nourrir l'épée, il n'a pu lui rendre la totalité du pouvoir qu'elle possédait autrefois. Quoiqu'il en soit, elle reste une arme formidable... et Sarevok prévient qu'elle deviendrait très difficile à utiliser dans les mains de quelqu'un qui ne fût pas un Porteur de Mort, voire impossible à utiliser.
+@3001 = ~Sarevok's Sword of Chaos
+The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
 
-PARAMETRES :
+STATISTICS:
 
-Capacités de combat : chaque coup porté draine de 1 à 5 points de vie de la cible et les transfère au porteur (qui ne peut pas dépasser son maximum).
+Combat abilities:
+- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
 
-La lame procure également +10% de Résistance à la Magie lorsqu'elle est équipée.
+Equipped abilities:
+- Magic Resistance: +10%
 
-Dégâts : 1D10 +4
-TAC0 : +4
-Type de dégâts : tranchant
-Poids : 10
-Facteur de Vitesse : 8
-Type de compétence : Epée à 2 mains
-Type :  à 2 mains
-Prérequis : 14 en Force, 18 en Constitution
-Inutilisable par :
-Clerc
+Damage: 1D10 +4
+THAC0: +4 bonus
+Damage type: slashing
+Speed Factor: 8
+Proficiency Type: Two Handed sword
+Type: 2-handed
+Requires: 14 Strength, 18 Constitution
+Weight: 10
+Not Usable By:
+Cleric
 Mage
 Paladin
-Rôdeur
-Druide
-Personnages d'alignement Non Chaotiques~
+Ranger
+Druid
+non-Chaotic aligned~
 @3002 = ~Potion de Sendai~
 @3003 = ~Potion de Sendai
 Certainement confectionnée par Sendai elle-même, c'est une potion de soin d'une incroyable puissance capable de restaurer complètement les points de vie de celui qui la boit.~

@@ -3,7 +3,7 @@
 @1006 = ~Ударная волна~
 @1007 = ~Аура молний~
 @1009 = ~Телекинез~
-@1012 = ~Обращение Сопротивления~
+@1012 = ~Flip Resistances~
 @1013 = ~Управление демоном~
 @1014 = ~Фокусировка~
 @1016 = ~Божественная накидка~
@@ -17,7 +17,7 @@
 @1026 = ~Божественное искупление~
 @1027 = ~Аура парализации~
 @1029 = ~Лавовая бомба~
-@1031 = ~Символ Замедления~
+@1031 = ~Symbol, Slow~
 @1037 = ~Превратиться в Разрушителя~
 @1038 = ~Мелисса: Власть над любимцами Ада~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
@@ -43,7 +43,7 @@
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
 @1060 = ~Bhaalspawn Power gained: Focus~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Божественная накидка~
+@1062 = ~Divine Gift~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
@@ -62,18 +62,18 @@
 Спасбросок: нет
 
 При использовании данной способности Потомок Баала должен ясно видеть своих спутников и сфокусировать заклинание на всей группе. По его завершении все члены группы в радиусе 30 футов от заклинателя исцеляются на 2D8 + 2/уровень пунктов здоровья. Остальные ухудшения состояния, такие как усталость, яд, болезнь, слепота и глухота, также излечиваются.~
-@2001 = ~Силы Потомка Баала
+@2001 = ~Bhaalspawn Powers
 
-Приобретена особая способность, используемая один раз в день:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Регенерация (Некромантия)
-Расстояние: касание
-Длительность: 1 раунд / 2 уровня
-Время чтения: 7
-Зона действия: 1 существо
-Спасбросок: нет
+Regeneration (Necromancy)
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
 
-Данная способность позволяет Потомку Баала наделить одно существо способностью к регенерации. Регенерация излечивает любые раны и даже восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня восстановит 18 пунктов здоровья за раунд в течение 7 раундов.~
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
 @2002 = ~Силы Потомка Баала
 
 Приобретена особая способность, используемая один раз в день:

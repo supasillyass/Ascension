@@ -1,30 +1,29 @@
-@1 = ~
-爱蒙复活
-爱蒙解除了梅丽珊造成的杀戮者状态，不过看起来爱蒙的天赋力量也因此而增强，她现在可以像我在禁魔监狱里那样随心转变成杀戮者形态，而且获的了新能力“虚无灵体”，使得她可以进入灵界一段时间。
-爱蒙的新能力“虚无灵体”
-爱蒙现在可以在短期内进入灵界，每十轮可以使用一次此能力，并且在十轮内爱蒙无法变成杀戮者。使用后在开始的一轮内，爱蒙处于隐形状态并免疫一切伤害，但无法使用任何法术及特殊能力。接下来的两轮内，爱蒙处于半位移状态，一半处于主物质界，一半处于灵界，隐形且对所有伤害都有一半的免疫能力，但有十分之一的施法失败几率。在这三轮内，她能看到所有隐形的目标。~
+@1 = ~Ethereal
+
+Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+
+For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
-再生（死灵系） 
-射程：触摸
-时效：1轮/2级
-施法时间：7
-有效范围：目标生物
-豁免鉴定：无
-这个超强的能力给予目标生物快速再生的能力，这个能力甚至可以恢复已经残废了的肢体。目标生物每秒恢复三点生命，被解咒前，每二等级可以持续效果一轮。例如，十四级的效果是七轮内每轮恢复十八点生命。~
-@8 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
+@7 = ~Regeneration
 
-复兴（死灵系）
-射程：触摸
-时效：永久
-施法时间：1
-有效范围：被触摸生物
-豁免鉴定：无
-类似第七级神术复兴，这个能力同样可以将死去的队友以最佳状态带回人世。~
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
+
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
+@8 = ~Resurrection
+
+Range: Touch
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Creature Touched
+Saving Throw: None
+
+Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -131,17 +130,33 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~
-获得新能力：“控制恶魔”
-这个能力允许巴尔之子从梅丽珊的控制下夺取一个恶魔的控制权，在使用后，巴尔之子必须和目标恶魔做一轮的思想斗争，成功后恶魔会成为巴尔之子的同盟，但并不受其直接控制，每三轮可以使用此能力一次。
-获得新能力：“时空门”
-这个能力允许巴尔之子自由的穿越时空的限制，每轮可以使用一次。~
-@17 = ~
-获得新能力：“能量释放”
-“能量释放”这个能力能够将你内在的能量在短程内释放出来，目标会受到10d12魔法能量伤害（通过死亡豁免则伤害减半），并被推开一段距离，每五轮可使用这个能力一次......在使用后，会造成二轮的自身的疲倦以及施法失败。由于内在的天赋被释放，在使用此能力后，无论内无法变身杀戮者。~
-@18 = ~
-获得新能力：“能量聚焦”
-这个能力允许巴尔之子将内在的能量聚集起来以抵抗外来的法术攻击，使用后在五轮之内，巴尔之子免疫石化，解离，时间暂停以及所有一到三级法术，每十轮可以使用一次这个能力。~
+@16 = ~Control Demon
+
+Range: sight
+Casting time: 1
+Duration: special
+Area of Effect: 1 demon
+Saving Throw: none
+
+This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
+@17 = ~Unleash
+
+Range: 5ft
+Casting Time: 1
+Duration: Instant
+Area of Effect: 1 creature
+Saving Throw: 1/2 plus special
+
+The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
+@18 = ~Focus
+
+Range: 0
+Casting Time: 1
+Duration: 5 rounds
+Area of Effect: Caster
+Saving Throw: None
+
+This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -154,16 +169,16 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~巴尔之子的新能力
-<CHARNAME>获得了这个能力，每天可以使用一次: 
+@21 = ~Divine Gift
+(Invocation)
 
-召唤圣力（塑能系）
-射程：0
-时效：1回合
-施法时间：1
-有效范围：施法者
-豁免鉴定：无
-巴尔之子利用血液中的力量使自己在短期内变得更强壮。使用这个能力的效果是，<PRO_HISHER>的每三个等级可以提高强壮，体制，敏捷一点。十二级的施法者可以提高四点。~
+Range: 0
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
 @22 = ~Flip Resistances
 
 Range: 0

@@ -3,7 +3,7 @@
 @1006 = ~Abazigals Schockwelle~
 @1007 = ~Aura der Blitze~
 @1009 = ~Telekinese~
-@1012 = ~Resistenzen wechseln~
+@1012 = ~Flip Resistances~
 @1013 = ~Dämon beherrschen~
 @1014 = ~Fokus~
 @1016 = ~Göttlicher Schutzmantel~
@@ -17,7 +17,7 @@
 @1026 = ~Göttliche Reinigung~
 @1027 = ~Aura der Lähmung~
 @1029 = ~Lava Bombe~
-@1031 = ~Symbol: Verlangsamen~
+@1031 = ~Symbol, Slow~
 @1037 = ~Verwandlung zum Wüter~
 @1038 = ~Melissan: Rufe die Diener der Abyss~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
@@ -43,67 +43,67 @@
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
 @1060 = ~Bhaalspawn Power gained: Focus~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Göttlicher Schutzmantel~
+@1062 = ~Divine Gift~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
 @1066 = ~AI deactivated~
 @1067 = ~AI activated~
 @1068 = ~Lunar Malison~
-@2000 = ~Bhaalspross-Fähigkeiten
+@2000 = ~Bhaalspawn Powers
 
-<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Gruppenheilung (Nekromantie)
-Reichweite: Sichtweite des Zaubernden
-Wirkungsdauer: Permanent
-Zeitaufwand: 5
-Wirkungsbereich: 9 m Radius
-Rettungswurf: Nein
+Mass Healing (Necromancy)
+Range: Sight of caster 
+Duration: Permanent 
+Casting Time: 1
+Area of Effect: 30 foot radius
+Saving Throw: None 
 
-Wenn das Kind Bhaals diese Fähigkeit einsetzt, stellt es sich die Gesichter seiner Gruppenmitglieder vor und konzentriert sich auf die Einheit in der Gruppe. Sobald der Zauber gewirkt wurde, erhält jedes Gruppenmitglied innerhalb 9 m Radius 2W8 +2 Trefferpunkte pro Stufe des Zaubernden zurück. Der Zauber heilt außerdem Erschöpfung, Vergiftung, Krankheiten, Blindheit und Taubheit.~
-@2001 = ~Bhaalspross-Fähigkeiten
+When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group. Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points. Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness.~
+@2001 = ~Bhaalspawn Powers
 
-<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Regeneration (Nekromantie)
-Reichweite: Berührung
-Wirkungsdauer: 1 Runde pro 2 Stufen
-Zeitaufwand: 7
-Wirkungsbereich: Das berührte Wesen
-Rettungswurf: Nein
+Regeneration (Necromancy)
+Range: Touch
+Duration: 1 round/ 2 levels
+Casting Time: 7
+Area of Effect: Target Creature
+Saving Throw: None 
 
-Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde.   Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird.  Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
-@2002 = ~Bhaalspross-Fähigkeiten
+This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
+@2002 = ~Bhaalspawn Powers
 
-<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Heilige Macht entlehnen (Anrufung)
-Reichweite: 0
-Wirkungsdauer: 1 Phase
-Zeitaufwand: 1
-Wirkungsbereich: Der Zaubernde
-Rettungswurf: Nein
+Draw Upon Holy Might (Invocation) 
+Range: 0 
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster 
+Saving Throw: None 
 
-Das Kind Bhaals zapft die Energien seines mächtigen Blutes an, um so für kurze Zeit außergewöhnliche Macht zu erlangen. Das Kind Bhaals erhält dadurch für je 3 Stufen +1 auf Stärke, Geschicklichkeit und Konstitution. Bei einem Zaubernden der 3. Stufe würden diese Attribute beispielsweise um +1 erhöht werden, während bei einem Zaubernden der 12. Stufe die Attributwerte um +4 erhöht werden würden.~
-@2003 = ~Bhaalspross-Fähigkeiten
+The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4.~
+@2003 = ~Bhaalspawn Powers
 
-<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Dunkle Essenz aussenden (Nekromantie)
-Reichweite: 6 m
-Wirkungsdauer: 1 Phase
-Zeitaufwand: 1
-Wirkungsbereich: 1 Wesen
-Rettungswurf: Keine Wirkung
+Dark Taint (Necromancy) 
+Range: 20 feet
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: Negates
 
-Mit Hilfe dieses Zaubers kann das Kind Bhaals die dunkle Essenz seines bösen Vaters aus seinem Körper strömen lassen und dadurch ein Ziel vergiften, wenn diesem ein Rettungswurf gegen Tod misslingt. Die Auswirkungen hängen von der Zauberstufe ab und sind wie folgt:
-7. bis 9. Stufe: 2W8 +2 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
-10. bis 12. Stufe: 3W8 + 3 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
-13. bis 14. Stufe: 4W8 + 4 Schadenspunkte pro Runde, Verlangsamung für 12 Sekunden, Rettungswurf -2
-15. bis 16. Stufe: 6W8 + 5 Schadenspunkte pro Runde, Verlangsamung für 24 Sekunden, Rettungswurf -2
-17. bis 21. Stufe: 8W8 + 6 Schadenspunkte pro Runde, Verlangsamung für 24 Sekunden, Rettungswurf -4
-25. Stufe: 8W8 + 6 Schadenspunkte pro Runde, Verlangsamung für 36 Sekunden, Rettungswurf -4, betrifft eine ganze Gruppe von Gegnern~
+Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death. The effects depend upon the caster's level and are detailed below:
+7-9th level: 2d8 + 2/round, slow for 12 seconds, save at -2
+10-12th level: 3d8 + 3/round, slow for 12 seconds, save at -2
+13-14th level: 4d8 + 4/round, slow for 12 seconds, save at -2
+15-16th level: 6d8 + 5/round, slow for 24 seconds, save at -2
+17-21st level: 8d8 + 6/round, slow for 24 seconds, save at -4
+25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets~
 @2004 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat einen permanenten Schutz vor Lebenskraftentzug sowie 5% Magieresistenz erhalten.~
@@ -125,46 +125,49 @@ Ab der 15. Stufe: 3 Runden, +6 Schadenspunkte pro Schlag, Kind Bhaals heilt 6 Tr
 Ab der 20. Stufe: 4 Runden, +8 Schadenspunkte pro Schlag, Kind Bhaals heilt 8 Trefferpunkte
 Ab der 25. Stufe: 5 Runden, +10 Schadenspunkte pro Schlag, Kind Bhaals heilt 10 Trefferpunkte
 Ab der 30. Stufe: 6 Runden, +12 Schadenspunkte pro Schlag, Kind Bhaals heilt 12 Trefferpunkte~
-@2006 = ~Bhaalspross-Fähigkeiten
+@2006 = ~Bhaalspawn Powers
 
-<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+<CHARNAME> has gained the ability, usable once per day: 
 
-Auferstehung (Nekromantie)
-Reichweite: Berührung
-Wirkungsdauer: Permanent
-Zeitaufwand: 1 Phase
-Wirkungsbereich: Das berührte Wesen
-Rettungswurf: Nein
-Dieser Zauber ähnelt dem Zauber des 5. Grades, Tote erwecken. Allerdings heilt Auferstehung den wiederbelebten Charakter auch gleich vollständig, so dass er sich sofort wieder ins Abenteuer stürzen kann.~
+Resurrection (Necromancy)
+Range: Touch
+Duration: Permanent
+Casting Time: 1
+Area of Effect: Creature Touched
+Saving Throw: None
+
+Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
 @2007 = ~Bhaalspross-Fähigkeiten
 
 <CHARNAME> hat eine 25%ige Resistenz gegenüber physikalischen Schaden (also Schaden durch Stich-, Hieb-, Wucht- und Geschosswaffen) erhalten.~
 @2008 = ~Slayer Change ability improved~
 @3000 = ~Schwert des Chaos +4~
-@3001 = ~Sarevoks Schwert des Chaos
-Die Klinge von Sarevok, <CHARNAME>s Bruder, die er im Kampf im fernen Baldurs Tor benutzte. <CHARNAME> siegte, vereitelte Sarevoks Pläne und bewahrte die Schwertküste vor einem Krieg. Nun kämpft Sarevok an <CHARNAME>s Seite, und die Klinge wurde ihm zurückgegeben. Sarevok bezeichnet die Waffe als Klinge eines Todesbringers und hat etwas von ihrer alten Macht wiederhergestellt. Ohne dass die Essenz der Bhaalbrut durch sie fließt, verfügt sie zwar nicht über ihre früheren Fähigkeiten; dennoch ist sie eine tödliche Waffe... und Sarevok warnt, dass sie schwer zu führen sein wird für einen, der kein Todesbringer ist - wenn er sie überhaupt tragen kann.
+@3001 = ~Sarevok's Sword of Chaos
+The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
 
-SPEZIFISCHE EIGENSCHAFTEN:
+STATISTICS:
 
-Besondere Fähigkeiten: jeder Treffer raubt dem Opfer einen bis fünf Trefferpunkte und überträgt ihn auf den Träger des Schwertes. Dadurch kann er aber nicht mehr Trefferpunkte als sein Maximum erhalten.
+Combat abilities:
+- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
 
-Die Klinge gewährt zusätzlich +10% Magieresistenz, wenn sie getragen wird.
+Equipped abilities:
+- Magic Resistance: +10%
 
-Schaden:  1W10 +4 (Klingenwaffe)
-ETW0: -4
-
-Gewicht: 10
-Initiativefaktor: 8
-Waffenfertigkeit: Zweihänder
-Waffentyp: Beidhändig
-Benötigt: Stärke 14, Konstitution 18
-Kann nicht verwendet werden von:
-Klerikern
-Magiern
-Paladinen
-Waldläufern
-Druiden
-Charakteren ohne chaotische Gesinnung~
+Damage: 1D10 +4
+THAC0: +4 bonus
+Damage type: slashing
+Speed Factor: 8
+Proficiency Type: Two Handed sword
+Type: 2-handed
+Requires: 14 Strength, 18 Constitution
+Weight: 10
+Not Usable By:
+Cleric
+Mage
+Paladin
+Ranger
+Druid
+non-Chaotic aligned~
 @3002 = ~Trank der Heilung~
 @3003 = ~Trank der Heilung
 Womöglich von Sendai selbst gebraut, ist dieses ein ungeheuer mächtiger Heiltrank, der die kompletten Trefferpunkte desjenigen, der ihn zu sich nimmt, wiederherstellt.~
