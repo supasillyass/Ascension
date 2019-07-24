@@ -4,8 +4,6 @@ backup/
 temp/
 tmp/
 
-readme.md
-
 .*
 !/.gitignore
 !/.gitattributes
