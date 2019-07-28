@@ -27,41 +27,41 @@ LANGUAGE ~English~
          ~english~
          ~ascension/lang/english/setup.tra~
 
-LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
-         ~german~
-         ~ascension/lang/german/setup.tra~
-
-LANGUAGE ~Francais (traduction de Ly Meng)~
-         ~french~
-         ~ascension/lang/french/setup.tra~
-
-LANGUAGE ~Traducción al Español (hecha por Clan REO)~
-         ~spanish~
-         ~ascension/lang/spanish/setup.tra~
-
-LANGUAGE ~Chinese Translation (by kalabaka)~
-         ~schinese~
-         ~ascension/lang/schinese/setup.tra~
-
-LANGUAGE ~Traditional Chinese Translation (by kalabaka)~
-         ~tchinese~
-         ~ascension/lang/tchinese/setup.tra~
-
+//LANGUAGE ~Deutsche Sprache (sbersetzung durch Dyara & Falk Swoboda)~
+//         ~german~
+//         ~ascension/lang/german/setup.tra~
+//
+//LANGUAGE ~Francais (traduction de Ly Meng)~
+//         ~french~
+//         ~ascension/lang/french/setup.tra~
+//
+//LANGUAGE ~Traducción al Español (hecha por Clan REO)~
+//         ~spanish~
+//         ~ascension/lang/spanish/setup.tra~
+//
+//LANGUAGE ~Chinese Translation (by kalabaka)~
+//         ~schinese~
+//         ~ascension/lang/schinese/setup.tra~
+//
+//LANGUAGE ~Traditional Chinese Translation (by kalabaka)~
+//         ~tchinese~
+//         ~ascension/lang/tchinese/setup.tra~
+//
 LANGUAGE ~Polski jezyk (Przetlumaczony przez Damian Staniszewski)~
          ~polish~
          ~ascension/lang/polish/setup.tra~
 
-LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~
-         ~russian~
-         ~ascension/lang/russian/setup.tra~
-
-LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~
-         ~czech~
-         ~ascension/lang/czech/setup.tra~
-
-LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
-         ~italian~
-         ~ascension/lang/italian/setup.tra~
+//LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~
+//         ~russian~
+//         ~ascension/lang/russian/setup.tra~
+//
+//LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~
+//         ~czech~
+//         ~ascension/lang/czech/setup.tra~
+//
+//LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
+//         ~italian~
+//         ~ascension/lang/italian/setup.tra~
 
 // test component
 
