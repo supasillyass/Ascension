@@ -1,0 +1,4 @@
+The *.tra files can no longer be used in order to update translation.
+Please use online translation system: https://tra.bgforge.net/projects/infinity-engine/ascension
+How to use it: https://forums.bgforge.net/viewtopic.php?f=2&t=25
+Official doc: https://docs.weblate.org/en/latest/user/translating.html
