@@ -1,8 +1,8 @@
-@1 = ~Ethereal
+@1 = ~Etéreo
 
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+Imoen puede ahora entrar en el Plano Etéreo por cortos periodos de tiempo. La habilidad puede ser usada una vez por minuto, y su uso también la previene de asumir la forma del Asesino durante un minuto. Imoen puede permanecer etérea e intocable a las fuerzas de este plano durante todo un turno... durante el cual es invisible y completamente inmune al daño. Durante ese turno, ella tampoco puede lanzar conjuros o usar habilidades.
 
-For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+Durante los dos turnos posteriores, Imoen puede permanecer 'en semi-fase'... ella es parcialmente en el plano etéreo y parcialmente en este plano. Es aún invisible, pero recibe la mitad de daño de cualquier origen. En este estado, hay una pequeña probabilidad (10%) de que calcule mal un conjuro. Durante tres turnos, ella puede ver objetivos invisibles.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
@@ -143,15 +143,15 @@ Duración: especial
 Tirada de Salvación: no
 
 Esta habilidad permite a los hijos de Bhaal intentar arrebatar el control de un demonio de Melissan, y hacerlo aliado suyo. El hijo de Bhaal se enzarza en un combate mental durante DURATION_PLACEHOLDER segundos, al final de la cual, el demonio tiene SUCCESS_CHANCE_PLACEHOLDER% de la probabilidad de ser su aliado. Sin embargo, el demonio no esta bajo el control directo del hijo de Bhaal. Esta habilidad sólo puede ser usada cada 3 turnos.~
-@17 = ~Unleash
+@17 = ~Liberar
 
-Range: 5ft
-Casting Time: 1
-Duration: Instant
-Area of Effect: 1 creature
-Saving Throw: 1/2 plus special
+Alcance: 5 pies
+Tiempo de lanzamiento: 1
+Duración: Instantáneo
+Área de efecto: Criatura objetivo
+Tirada de salvación: 1/2 + especial
 
-The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
+La habilidad de "Liberar" os permite soltar vuestro poder interior hacia un objetivo que este dentro del rango de contacto, golpeándole con un DICENUMBER_PLACEHOLDERd12 puntos de daño mágico (la mitad si supera una tirada de salvación contra muerte a -4) y le envía volando en dirección contraria a vos, e incluso puede dejarlo inconsciente durante un corto periodo de tiempo. Esta habilidad sólo deberíais usarla una vez cada treinta segundos... y después de usarla los hijos de Bhaal se fatigan enormemente y tienen un 25% de errar conjuro en todos los hechizos durante 2 turnos. Debido a la cantidad de esencia divina usada, la forma del Asesino no estará disponible durante treinta segundos.~
 @18 = ~Focus
 
 Range: 0
