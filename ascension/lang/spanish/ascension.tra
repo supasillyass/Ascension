@@ -17,7 +17,7 @@
 @1026 = ~Purificación divina~
 @1027 = ~Aura de paralización~
 @1029 = ~Bomba de lava~
-@1031 = ~Symbol, Slow~
+@1031 = ~Símbolo, Ralentizamiento~
 @1037 = ~Transformación en el Saqueador~
 @1038 = ~Melissan: Dominar las huestes del Abismo~
 @1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
@@ -43,7 +43,7 @@
 @1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
 @1060 = ~Bhaalspawn Power gained: Focus~
 @1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Divine Gift~
+@1062 = ~Regalo Divino~
 @1063 = ~Magic Resistance Restored~
 @1064 = ~Antimagic Protections Removed~
 @1065 = ~Combat Protections Removed~
@@ -64,18 +64,20 @@ Tirada de salvación: No
 DESCRIPCIÓN:
 
 Cuando utiliza esta aptitud, el Engendro de Bhaal debe tener en la mente los rostros de sus compañeros del grupo claramente y concentrarse en la unidad del grupo. Al finalizar, todos los miembros del grupo en un radio de 9 metros del lanzador recuperarán 2d8 + 2/nivel puntos de golpe. Otras condiciones que afecten al grupo son curadas también, como la fatiga, el veneno, la enfermedad, la ceguera y la sordera.~
-@2001 = ~Bhaalspawn Powers
+@2001 = ~Poderes de Engendro de Bhaal
 
-<CHARNAME> has gained the ability, usable once per day: 
+<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: 
 
-Regeneration (Necromancy)
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+Regeneración (Nigromancia)
+Alcance: Toque
+Duración: 1 asalto/2 niveles
+Tiempo de lanzamiento: 7
+Área de efecto: Criatura objetivo
+Tirada de salvación: No
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
+DESCRIPCIÓN:
+
+Esta poderosa aptitud permite al Engendro de Bhaal imbuir a una criatura con la habilidad de regenerarse. Esta regeneración curará cualquier herida e incluso regenerará extremidades perdidas. La criatura afectada recuperará 3 puntos de golpe por segundo. El efecto permanece 1 asalto por cada 2 niveles del lanzador o hasta que sea disipado. Por ejemplo, un personaje de nivel 14 regeneraría 18 puntos de golpe por asalto durante 7 asaltos.~
 @2002 = ~Poderes de Engendro de Bhaal
 
 <CHARNAME> ha obtenido la aptitud, utilizable una vez por día: 

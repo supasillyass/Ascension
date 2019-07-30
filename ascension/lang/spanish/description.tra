@@ -6,24 +6,28 @@ For another two rounds afterwards, Imoen remains 'half-phased'...she is partiall
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Regeneration
+@7 = ~Regeneración
 
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+Alcance: Toque
+Duración: 1 asalto/2 niveles
+Tiempo de lanzamiento: 7
+Área de efecto: Criatura objetivo
+Tirada de salvación: No
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
-@8 = ~Resurrection
+DESCRIPCIÓN:
 
-Range: Touch
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Creature Touched
-Saving Throw: None
+Esta poderosa aptitud permite al Engendro de Bhaal imbuir a una criatura con la habilidad de regenerarse. Esta regeneración curará cualquier herida e incluso regenerará extremidades perdidas. La criatura afectada recuperará 3 puntos de golpe por segundo. El efecto permanece 1 asalto por cada 2 niveles del lanzador o hasta que sea disipado. Por ejemplo, un personaje de nivel 14 regeneraría 18 puntos de golpe por asalto durante 7 asaltos.~
+@8 = ~Resurrección
 
-Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
+Alcance: Toque
+Duración: Permanente
+Tiempo de lanzamiento: 1
+Área de efecto: Criatura tocada
+Tirada de salvación: No
+
+DESCRIPCIÓN:
+
+Al igual que el conjuro de 5º nivel Revivir a los muertos, Resurrección devolverá a la vida a un personaje. Sin embargo, Resurrección también curará por completo al resucitado, permitiéndole estar listo para vivir nuevas aventuras.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -130,15 +134,15 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Control Demon
+@16 = ~Controlar Demonio
 
-Range: sight
-Casting time: 1
-Duration: special
-Area of Effect: 1 demon
-Saving Throw: none
+Alcance:  visión
+Tiempo de Lanzamiento: 1
+Duración: especial
+Área de Efecto: un demonio
+Tirada de Salvación: no
 
-This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
+Esta habilidad permite a los hijos de Bhaal intentar arrebatar el control de un demonio de Melissan, y hacerlo aliado suyo. El hijo de Bhaal se enzarza en un combate mental durante DURATION_PLACEHOLDER segundos, al final de la cual, el demonio tiene SUCCESS_CHANCE_PLACEHOLDER% de la probabilidad de ser su aliado. Sin embargo, el demonio no esta bajo el control directo del hijo de Bhaal. Esta habilidad sólo puede ser usada cada 3 turnos.~
 @17 = ~Unleash
 
 Range: 5ft
