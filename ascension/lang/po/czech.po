@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2017-12-03 07:52+0000\n"
+"PO-Revision-Date: 2019-08-01 15:04+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Czech <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/cs/>\n"
 "Language: czech\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
 msgid "Babau"
@@ -3290,7 +3291,20 @@ msgstr ""
 
 #: shawnesepilogues.tra:4001
 msgid "Driven to oppose slavery in all its forms, Aerie continued adventuring after leaving <CHARNAME>'s side. She made several attempts to gather a larger group around her, as <CHARNAME> had done, but each time the company would collapse into infighting and betrayal. Aerie's compassion had grown tainted by her need for vengeance, and she could neither command nor inspire loyalty in others. She might have lost herself entirely, had she not stumbled across a group of avariel slaves in Cormyr. Upon their release, they guided Aerie back to Faenya-Dail, the home she had been stolen from. She learned much during her stay, and came to understand that she was no longer truly an avariel, at last accepting the loss of her wings. Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had often spoken of. He had been her true family, and it was among his people that she finally found peace."
-msgstr "Poté, co opustila společnost <CHARNAME>, pokračovala Aerie v putování a na svých cestách bojovala proti jakékoli formě otrokářství. Několikrát se pokusila kolem sebe shromáždit skupinu zkušených dobrodruhů, tak jak to dělal <CHARNAME>, ale vždy to skončilo neúspěchem, protože nebyla dostatečně zkušeným vůdcem. Její soucit poskvrnila pomsta; pomsta za to, co jí vzali, když byla v řetězech. Snad by své pomstě úplně propadla, kdyby nenarazila na skupinu okřídlených elfů Avariel uvězněných v Cormyru. Ti ji zavedli do Faenya-Dail, domova, odkud byla unesena, a tam se mnoho dozvěděla. Nejdůležitější bylo, že pochopila, že již není jednou z Avariel, a přestala toužit po svých ztracených křídlech. Nakonec se Aerie stala nejvyšší kněžkou v Understone, gnómské vesnici, o níž často mluvil její opatrovník Quayle. To on byl její skutečná rodina a mezi jeho lidmi konečně nalezla své štěstí a rodinu, po kterém vždy toužila. "
+msgstr ""
+"Poté, co opustila společnost <CHARNAME>, pokračovala Aerie v putování a na "
+"svých cestách bojovala proti jakékoli formě otrokářství. Několikrát se "
+"pokusila kolem sebe shromáždit skupinu zkušených dobrodruhů, tak jak to "
+"dělal <CHARNAME>, ale vždy to skončilo neúspěchem, protože nebyla dostatečně "
+"zkušeným vůdcem. Její soucit poskvrnila pomsta; pomsta za to, co jí vzali, "
+"když byla v řetězech. Snad by své pomstě úplně propadla, kdyby nenarazila na "
+"skupinu okřídlených elfů Avariel uvězněných v Cormyru. Ti ji zavedli do "
+"Faenya-Dail, domova, odkud byla unesena, a tam se mnoho dozvěděla. "
+"Nejdůležitější bylo, že pochopila, že již není jednou z Avariel, a přestala "
+"toužit po svých ztracených křídlech. Nakonec se Aerie stala nejvyšší kněžkou "
+"v Understone, gnómské vesnici, o níž často mluvil její opatrovník Quayle. To "
+"on byl její skutečná rodina a mezi jeho lidmi konečně nalezla své štěstí a "
+"rodinu, po kterém vždy toužila."
 
 #: shawnesepilogues.tra:4002
 #, fuzzy
@@ -3394,7 +3408,18 @@ msgstr "Po odchodu z Tethyru Viconia a <CHARNAME> dlouho společně putovali. On
 
 #: shawnesepilogues.tra:4023
 msgid "In his short time with <CHARNAME>, Balthazar reached a new enlightenment. He understood that vigilance must be tempered with compassion, justice with mercy. Resolved to never again repeat the mistakes of his past, Balthazar returned to his monastery and drove out the remaining criminal elements, making the outpost safe for new settlers and merchants. As the years passed, Amkethran became the jewel of Tethyr, renowned for its cultural richness and the serenity it offered. Balthazar himself was instrumental in creating the Monastic Guard, an elite group of paladins and monks sworn to protect the common folk from tyranny. When his work was done, and he had earned the respect and love of his people many times over, Balthazar embarked on a pilgrimage to Candlekeep. There he studied <CHARNAME>'s humble beginnings, and gave thanks for the peace his <PRO_BROTHERSISTER> had brought."
-msgstr "Během svého krátkého času s <CHARNAME>, dosáhl Balthazar nového osvícení. Pochopil, že bdělost musí být spojena se soucitem a spravedlnost s milosrdenstvím. Rozhodl se už nikdy neopakovat chyby své minulosti. Vrátil se do svého kláštera a vyhnal zbývající kriminální živly, takže oblast se opět stala bezpečnou pro nové osadníky a obchodníky. Jak plynuly roky, Amkethran se stal klenotem Tethyr, známý pro své kulturní bohatství a klid který nabízel. Balthazar sám byl zodpovědný za stvoření klášterní gardy, elitní skupiny paladinů a mnichů, kteří přísahali chránit obyčejné lidi před tyranií. Když byla jeho práce hotova, a on si získal respekt a lásku svého lidu, vydal se Balthazar na pouť do Svítící tvrze. Tam studoval skromné začátky <CHARNAME>, a vzdal díky za mír který mu jeho sourozenec přinesl. "
+msgstr ""
+"Během svého krátkého času s <CHARNAME>, dosáhl Balthazar nového osvícení. "
+"Pochopil, že bdělost musí být spojena se soucitem a spravedlnost s "
+"milosrdenstvím. Rozhodl se už nikdy neopakovat chyby své minulosti. Vrátil "
+"se do svého kláštera a vyhnal zbývající kriminální živly, takže oblast se "
+"opět stala bezpečnou pro nové osadníky a obchodníky. Jak plynuly roky, "
+"Amkethran se stal klenotem Tethyr, známý pro své kulturní bohatství a klid "
+"který nabízel. Balthazar sám byl zodpovědný za stvoření klášterní gardy, "
+"elitní skupiny paladinů a mnichů, kteří přísahali chránit obyčejné lidi před "
+"tyranií. Když byla jeho práce hotova, a on si získal respekt a lásku svého "
+"lidu, vydal se Balthazar na pouť do Svítící tvrze. Tam studoval skromné "
+"začátky <CHARNAME>, a vzdal díky za mír který mu jeho sourozenec přinesl."
 
 #: shawnesepilogues.tra:4024
 #, fuzzy
@@ -3436,11 +3461,30 @@ msgstr "Neera cestoval na sever a jen občas se zastavovala v hostincích a hosp
 
 #: shawnesepilogues_eenpc.tra:5008
 msgid "With <CHARNAME> at her side, it seemed as though Neera meant to find some stability, perhaps by returning to the High Forest. But it soon became clear that neither of them wanted a quiet life, and though the Order of Eight Staves was no more, the machinations of Thay still loomed on the horizon. As <CHARNAME> cheered her on, Neera used her wild magic to sink three Thayan slaver ships off the coast of Melvaunt. The city celebrated their heroic victory until dawn, and when <CHARNAME> awoke Neera was gone. She had left no note, given no sign of departure. But he just smiled. No matter where her restless wanderings would take her, he knew they would find each other again."
-msgstr " S <CHARNAME> po jejím boku, se zdálo, že si Neera přeje najít nějakou stabilitu a možná se vrátí do Vysokém lesa. Ale brzy se ukázalo, že ani jeden z nich neměl zájem o klidný život, a i když byl Řád Osmi Holí zničen, zdaleka tím neskočili všechny machinace čarodějů z Thay. Za podpory <CHARNAME>, Neera použíla svou divokou magii, aby potopila tři Thayské otrokářské lodě u pobřeží Melvaunt. Město slavilo její hrdinské vítězství až do rána, a když <CHARNAME> vzbudil Neera byla pryč. Nenechala mu žádný dopis ani vzkaz. Ale on se jen usmál. Bez ohledu na to, kam jí její putování zavede, věděl, že se zase setkají."
+msgstr ""
+"S <CHARNAME> po jejím boku, se zdálo, že si Neera přeje najít nějakou "
+"stabilitu a možná se vrátí do Vysokém lesa. Ale brzy se ukázalo, že ani "
+"jeden z nich neměl zájem o klidný život, a i když byl Řád Osmi Holí zničen, "
+"zdaleka tím neskočili všechny machinace čarodějů z Thay. Za podpory "
+"<CHARNAME>, Neera použíla svou divokou magii, aby potopila tři Thayské "
+"otrokářské lodě u pobřeží Melvaunt. Město slavilo její hrdinské vítězství až "
+"do rána, a když <CHARNAME> vzbudil Neera byla pryč. Nenechala mu žádný dopis "
+"ani vzkaz. Ale on se jen usmál. Bez ohledu na to, kam jí její putování "
+"zavede, věděl, že se zase setkají."
 
 #: shawnesepilogues_eenpc.tra:5009
 msgid "After the events of the Bhaalspawn Saga, Rasaad yn Bashir was no longer content to live as a fugitive. Having driven Alorgoth into hiding after their battle in the Deepstone Mines, Rasaad returned to Calimshan, determined to prove his loyalty to the Order of the Sun Soul. But he was unable to convince the hierarchy that he had not abandoned their teachings, and was summarily cast out. Rasaad denounced the judgment, proclaiming his innocence and refusing to leave. The stories say he fought off more than a hundred Sun Soul monks before succumbing to their superior numbers. Haraan Sixscar herself struck the final blow. In the aftermath of Rasaad's death, those present were shocked to realize that not one of his opponents had been killed. He had remained true to Selune's ways until his dying breath."
-msgstr " Po událostech s Bhaalovými potomky, Rasaad yn Bashir odmítl nadále žít jako uprchlík. Protože se Alorgoth po jejich poslední bitvě začal skrývat, vrátil se zpět do Calimshanu, odhodlaný prokázat svou věrnost řádu Sluneční Duše. Nebyl však schopen přesvědčit hierarchii, že ve skutečnosti nikdy neopustil jejich učení a byl oficiálně vyhoštěn z řádu. Rasaad rozsudek odmítl, prohlásil se za nevinného a odmítl odejít. Příběhy říkají, že bojoval s více než stovkou mnichů Sluneční Duše, než podlehl jejich přesile. Haraan Sixscar mu sama zasadila poslední ránu. Po Rasaadově smrti byli všichni z přítomných šokováni, když si uvědomili, že ani jeden z jeho soupeřů nebyl zabit. Zůstal věrný učení Selune až do posledního dechu."
+msgstr ""
+"Po událostech s Bhaalovými potomky, Rasaad yn Bashir odmítl nadále žít jako "
+"uprchlík. Protože se Alorgoth po jejich poslední bitvě začal skrývat, vrátil "
+"se zpět do Calimshanu, odhodlaný prokázat svou věrnost řádu Sluneční Duše. "
+"Nebyl však schopen přesvědčit hierarchii, že ve skutečnosti nikdy neopustil "
+"jejich učení a byl oficiálně vyhoštěn z řádu. Rasaad rozsudek odmítl, "
+"prohlásil se za nevinného a odmítl odejít. Příběhy říkají, že bojoval s více "
+"než stovkou mnichů Sluneční Duše, než podlehl jejich přesile. Haraan Sixscar "
+"mu sama zasadila poslední ránu. Po Rasaadově smrti byli všichni z přítomných "
+"šokováni, když si uvědomili, že ani jeden z jeho soupeřů nebyl zabit. Zůstal "
+"věrný učení Selune až do posledního dechu."
 
 #: shawnesepilogues_eenpc.tra:5010
 msgid "Though Alorgoth eventually resurfaced after their battle in the Deepstone Mines, Rasaad yn Bashir was no longer interested in avenging his brother. He had finally found peace as a devotee of the Twofold Trust, offering a more tolerant and less dogmatic path to worshippers who had grown disenchanted with Shar and Selune - or, at least, the clergy that claimed to represent them. Renouncing violence, Rasaad and his followers retreated to a remote monastery in the Cloud Peak mountain, where he would live out his life in quiet contemplation."
