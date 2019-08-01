@@ -1,24 +1,27 @@
-@3001 = ~The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
+@3001 = ~Sarevoks Schwert des Chaos
+Die Klinge von Sarevok, <CHARNAME>s Bruder, die er im Kampf im fernen Baldurs Tor benutzte. <CHARNAME> siegte, vereitelte Sarevoks Pläne und bewahrte die Schwertküste vor einem Krieg. Nun kämpft Sarevok an <CHARNAME>s Seite, und die Klinge wurde ihm zurückgegeben. Sarevok bezeichnet die Waffe als Klinge eines Todesbringers und hat etwas von ihrer alten Macht wiederhergestellt. Ohne dass die Essenz der Bhaalbrut durch sie fließt, verfügt sie zwar nicht über ihre früheren Fähigkeiten; dennoch ist sie eine tödliche Waffe... und Sarevok warnt, dass sie schwer zu führen sein wird für einen, der kein Todesbringer ist - wenn er sie überhaupt tragen kann.
 
-STATISTICS:
+SPEZIFISCHE EIGENSCHAFTEN:
 
-Combat abilities:
-- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
+Besondere Fähigkeiten: jeder Treffer raubt dem Opfer einen bis fünf Trefferpunkte und überträgt ihn auf den Träger des Schwertes. Dadurch kann er aber nicht mehr Trefferpunkte als sein Maximum erhalten.
 
-Equipped abilities:
-- Magic Resistance: +10%
+Die Klinge gewährt zusätzlich +10% Magieresistenz, wenn sie getragen wird.
 
-THAC0: +4
-Damage: 1d10+4 (slashing)
-Speed Factor: 8
-Proficiency Type: Two-handed Sword
-Type: Two-handed
+Schaden:  1W10 +4 (Klingenwaffe)
+ETW0: -4
 
-Requires:
-14 Strength
-18 Constitution
-
-Weight: 10~
+Gewicht: 10
+Initiativefaktor: 8
+Waffenfertigkeit: Zweihänder
+Waffentyp: Beidhändig
+Benötigt: Stärke 14, Konstitution 18
+Kann nicht verwendet werden von:
+Klerikern
+Magiern
+Paladinen
+Waldläufern
+Druiden
+Charakteren ohne chaotische Gesinnung~
 @3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
 
 STATISTICS:

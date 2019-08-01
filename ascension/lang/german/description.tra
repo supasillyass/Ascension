@@ -1,29 +1,37 @@
-@1 = ~Ethereal
+@1 = ~Imoen hat überlebt
 
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+Imoen hat es geschafft zu überleben, als Melissan versuchte, sie in die Gestalt des Berserkerschlächters zu zwingen.  Es scheint, als sei Imoen dadurch in ihrem Makel ein großes Stück vorangeschritten.  Sie kann sich nicht nur in dieselbe Schlächtergestalt verwandeln, die bei mir damals in der Zauberfeste erschien... sondern sie erhielt auch die Fähigkeit, für kurze Zeit ätherisch zu werden.
 
-For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+Ätherisch
+-------------
+Imoen ist es nun möglich, für kurze Zeit die Ätherische Ebene zu betreten.  Diese Fähigkeit kann einmal pro Minute benutzt werden, und sie wird dadurch ebenfalls für eine Minute daran gehindert, die Gestalt des Schlächters anzunehmen.  Imoen kann für eine Runde völlig ätherisch und unerreichbar für Kräfte dieser Ebene werden.  In dieser Zeit ist sie unsichtbar und vollständig immun gegenüber schädlichen Einflüssen; sie kann aber auch keine Zauber sprechen oder andere Fähigkeiten einsetzen.
+Für zwei weitere Runden danach kann Imoen "halbzerteilt" sein: sie ist teilweise ätherisch und teilweise auf dieser Ebene.  Sie ist immer noch unsichtbar, erleidet aber halben Schaden von allen Angriffen.  In diesem Zustand besteht eine geringe Chance (10%), dass ein von ihr gesprochener Zauber versagt.  In allen drei Runden kann sie alle unsichtbaren Ziele sehen.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Regeneration
+@7 = ~Bhaalspross-Fähigkeiten
 
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
-@8 = ~Resurrection
+Regeneration (Nekromantie)
+Reichweite: Berührung
+Wirkungsdauer: 1 Runde pro 2 Stufen
+Zeitaufwand: 7
+Wirkungsbereich: Das berührte Wesen
+Rettungswurf: Nein
 
-Range: Touch
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Creature Touched
-Saving Throw: None
+Mit Hilfe dieser mächtigen Fähigkeit verleiht das Bhaalkind einem Wesen die Fähigkeit, zu regenerieren. Erlittene Verletzungen heilen, und selbst verlorene Gliedmassen bilden sich neu. Die Fähigkeit regeneriert 3 Trefferpunkte pro Sekunde.   Die Wirkung hält an für eine Runde pro zwei Stufen des Bhaalsprosses oder bis sie gebannt wird.  Auf Stufe 14 regeneriert ein Charakter beispielsweise sieben Runden lang jeweils 18 Trefferpunkte.~
+@8 = ~Bhaalspross-Fähigkeiten
 
-Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
+
+Auferstehung (Nekromantie)
+Reichweite: Berührung
+Wirkungsdauer: Permanent
+Zeitaufwand: 1 Phase
+Wirkungsbereich: Das berührte Wesen
+Rettungswurf: Nein
+Dieser Zauber ähnelt dem Zauber des 5. Grades, Tote erwecken. Allerdings heilt Auferstehung den wiederbelebten Charakter auch gleich vollständig, so dass er sich sofort wieder ins Abenteuer stürzen kann.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -130,33 +138,19 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Control Demon
+@16 = ~Neue Fähigkeit erhalten: "Dämon beherrschen"
 
-Range: sight
-Casting time: 1
-Duration: special
-Area of Effect: 1 demon
-Saving Throw: none
+Diese Fähigkeit erlaubt es dem Bhaalkind zu versuchen, die Herrschaft über einen Dämon von Melissan zu erringen und ihn zu einem Verbündeten zu machen.  Das Bhaalkind kämpft für 1 Runde mit dem Dämon um geistige Herrschaft, und am Ende der Runde besteht die Möglichkeit, dass der Dämon Euer Verbündeter wird.  Er ist jedoch nicht unter Eurer direkten Kontrolle.  Die Fähigkeit kann einmal je 3 Runden eingesetzt werden.
 
-This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
-@17 = ~Unleash
+Neue Fähigkeit erhalten: "Dimensionstor"
 
-Range: 5ft
-Casting Time: 1
-Duration: Instant
-Area of Effect: 1 creature
-Saving Throw: 1/2 plus special
+Das Bhaalkind kann sich nun frei durch den Raum und die Ebenen bewegen.  Diese Fähigkeit der Teleportation kann einmal pro Runde eingesetzt werden.~
+@17 = ~Neue Fähigkeit erhalten: "Entfesseln"
 
-The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
-@18 = ~Focus
+Die Fähigkeit "Entfesseln" setzt Eure innere Kraft frei und trifft ein Ziel in Nahkampfreichweite, wobei 10W10 Schadenspunkte verursacht werden (ein erfolgreicher Rettungswurf gegen Zauber halbiert den Schaden) und das Opfer zurückgestoßen und möglicherweise für eine kurze Zeit bewusstlos wird.  Diese Fähigkeit kann einmal je 30 Sekunden eingesetzt werden... und danach ist das Bhaalkind sehr stark ermüdet und erleidet für 2 Runden eine 25%ige Chance, dass Zauber fehlschlagen.  Aufgrund der verbrauchten Menge an göttlicher Essenz steht Euch auch die Verwandlung in den Schlächter 30 Sekunden lang nicht zur Verfügung.~
+@18 = ~Neue Fähigkeit erhalten: "Fokus"
 
-Range: 0
-Casting Time: 1
-Duration: 5 rounds
-Area of Effect: Caster
-Saving Throw: None
-
-This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
+Diese Fähigkeit erlaubt es dem Bhaalkind, die inneren Energien zu fokussieren, um äußeren Zauberwirkungen zu widerstehen.  Für eine Dauer von 30 Sekunden wird das Bhaalkind immun gegen die Zauber Fleisch zu Stein, Auflösung und Zeitstop.  Auch alle Zauber der Grade 1 bis 3 haben keine Auswirkungen.  Diese Fähigkeit kann einmal pro Minute angewendet werden.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -169,16 +163,18 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Divine Gift
-(Invocation)
+@21 = ~Bhaalspross-Fähigkeiten
 
-Range: 0
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
+<CHARNAME> hat die folgende Fähigkeit erhalten, die einmal am Tag eingesetzt werden kann:
 
-The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
+Heilige Macht entlehnen (Anrufung)
+Reichweite: 0
+Wirkungsdauer: 1 Phase
+Zeitaufwand: 1
+Wirkungsbereich: Der Zaubernde
+Rettungswurf: Nein
+
+Das Kind Bhaals zapft die Energien seines mächtigen Blutes an, um so für kurze Zeit außergewöhnliche Macht zu erlangen. Das Kind Bhaals erhält dadurch für je 3 Stufen +1 auf Stärke, Geschicklichkeit und Konstitution. Bei einem Zaubernden der 3. Stufe würden diese Attribute beispielsweise um +1 erhöht werden, während bei einem Zaubernden der 12. Stufe die Attributwerte um +4 erhöht werden würden.~
 @22 = ~Flip Resistances
 
 Range: 0

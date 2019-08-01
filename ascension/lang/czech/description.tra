@@ -1,29 +1,42 @@
-@1 = ~Ethereal
+@1 = ~Imoen pøežila
 
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+Imoen se podaøilo pøežít útok Melissan, pøi kterém ji vnutila podobu zabijáka. Zdá se, že to probodilo její skrytý potenciál. Nejen, že se teï dokáže promìnit ve stejnou formu zabijáka, ve kterého jsem se zaèal v Èarotvrzi promìòovat... ale také získala schopnost, pomocí které se mùže stát na chvíli éterickou.
 
-For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+Éterická
+-------------
+Imoen je teï na chvíli schopná vstoupit do éterické sféry. Schopnost je použitelná jednou po každou minutu a hodí se pro zamezení její promìny v zabijáka, která také trvá minutu. Imoen zùstane jedno kolo úplnì éterickou a nezasažitelnou silou této sféry... v jeho prùbìhu je neviditelná a zcela imunní na poškození. V prùbìhu tohoto kola však nemùže kouzlit, nebo používat speciální schopnosti.  
+Pozdìji, za další dvì kola, zùstává v "polofázi". Je èásteènì éterickou a èásteènì v této sféøe. Poøád je neviditelná, pøesto obdrží polovinu poškození ze všech zdrojù. V tomto stadiu je malá šance (10%), že se jí nepovede seslat kouzlo. Imoen je také po všechna tøi kola schopna uvidìt jakýkoliv neviditelný cíl.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Regeneration
+@7 = ~Schopnosti Bhaalova zplozence
 
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+<CHARNAME> má vrozenou schopnost, použitelnou jednou dennì: 
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
-@8 = ~Resurrection
+Regenerace 
+(Nekromancie) 
 
-Range: Touch
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Creature Touched
-Saving Throw: None
+Dosah: dotyk
+Trvání: 1 kolo/2 úrovnì
+Doba sesílání: 7
+Oblast pùsobení: dotknutá bytost
+Záchranný hod: není 
 
-Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
+Tato mocná schopnost umožòuje Bhaalovu zplozenci pøedat 1 bytosti schopnost regenerace.  Tato regenerace zahojí rány a vždy obnoví ztracené konèetiny.  Ovlivnìná bytost získá 3 životy za sekundu.  Úèinek trvá 1 kolo za každé 2 úrovnì sesilatele, nebo do rozptýlení kouzla.  Napøíklad postava 14. úrovnì regeneruje 18 životù za kolo po dobu 7 kol.~
+@8 = ~Schopnosti Bhaalova zplozence
+
+<CHARNAME> má vrozenou schopnost, použitelnou jednou dennì: 
+
+Vzkøíšení 
+(Nekromancie)
+
+Dosah: dotyk
+Trvání: trvale
+Doba sesílání: 1
+Oblast pùsobení: dotknutá bytost
+Záchranný hod: není
+
+Podobnì jako kouzlo 5. úrovnì Oživ mrtvého, i Vzkøíšení vrátí život jedné postavì.  Avšak Vzkøíšení ji také vyléèí, takže je pøipravena na další dobrodružství.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -130,33 +143,19 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Control Demon
+@16 = ~Získána nová schopnost: "Ovládnutí démona"
 
-Range: sight
-Casting time: 1
-Duration: special
-Area of Effect: 1 demon
-Saving Throw: none
+Tato schopnost Bhaalovu zplozenci umožní ovládnout démony, kteøí jsou od Melissan vzdáleni a uèinit z nich spojence. V duševním souboji, který trvá 1 kolo, zamìstná Bhaalùv zplozenec démona, který se tak mùže stát na konci kola jeho spojencem. Nicménì není pod jeho pøímou kontrolou. Tato schopnost mùže být použita každé 3 kola.
 
-This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
-@17 = ~Unleash
+Získána nová schopnost: "Dimenzionální dveøe"
 
-Range: 5ft
-Casting Time: 1
-Duration: Instant
-Area of Effect: 1 creature
-Saving Throw: 1/2 plus special
+Nyní se mùže Bhaalùv zplozenec volnì pohybovat mezi prostorem a sférami. Tato teleportaèní síla je použitelná jednou za kolo.~
+@17 = ~Získána nová schopnost: "Utržení ze øetìzu"
 
-The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
-@18 = ~Focus
+Schopnost "Utržení ze øetìzu" vrhne na cíl tvou vnitøní sílu s dosahem boje na blízko, zasáhne jej 10k12 magickým zranìním (polovina pøi úspìšné záchranì proti smrti), odhodí jej zpìt a obèas na chvíli zpùsobí bezvìdomí. Tato schopnost mùže být použita každých 30 sekund. Po jejím použití se Bhaalùv zplozenec cítí neuvìøitelnì unavenì a po 2 kola obdrží 25% šanci na selhání kouzla. Pøemìna v zabijáka není možná po 30 sekund, vzhledem k množství použité božské esence.~
+@18 = ~"Ohnisko"
 
-Range: 0
-Casting Time: 1
-Duration: 5 rounds
-Area of Effect: Caster
-Saving Throw: None
-
-This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
+Tato schopnost umožní Bhaalovu zplozenci soustøedit svoji energii, aby odolal kouzlùm, které pùsobí na venkovní prostor. Po dobu 30 sekund se Bhaalùv zplozenec stává imunním na kouzla Maso na kámen, Rozložení a Zastav èas. Všechna kouzla 1. - 3. úrovnì nebudou mít na Bhaalova zplozence vliv. Tahle schopnost je použitelná jednou za minutu.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -169,16 +168,20 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Divine Gift
-(Invocation)
+@21 = ~Schopnosti Bhaalova zplozence
 
-Range: 0
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
+<CHARNAME> má vrozenou schopnost, použitelnou jednou dennì: 
 
-The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
+Posílení svatou mocí 
+(Vzývání) 
+
+Dosah: 0 
+Trvání: 1 tah
+Doba sesílání: 1
+Oblast pùsobení: sesilatel 
+Záchranný hod: není 
+
+Bhaalùv zplozenec povolá moc své krve, aby mu poskytla na krátkou dobu moc.  Když tak uèiní, jeho síla, odolnost a obratnost se zvýší o 1 bod za každé 3 úrovnì sesilatele.  Sesilateli na 3. úrovni se zvýší schopnosti o 1, zatímco sesilateli na 12. úrovni se zvýší schopnosti o 4.~
 @22 = ~Flip Resistances
 
 Range: 0

@@ -1,29 +1,38 @@
-@1 = ~Ethereal
+@1 = ~Имоен выжила 
 
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+Имоен сумела пережить попытку Мелиссы превратить ее в неистовую форму Губителя. Кажется, что при этом скверна Баала сильно развилась в Имоен. Теперь она может не только превращаться в ту же форму Губителя, что и я после Спеллхолда... но и переходить на эфирный план на короткие промежутки времени. 
 
-For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+Эфирный план 
+------------- 
+Теперь Имоен способна войти в Эфирный План на небольшие периоды времени. Эту способность можно использовать раз в минуту, при этом ее использование предотвращает Имоен от превращения в форму Губителя в течение минуты. Имоен может остаться полностью эфирной и неподвластной силам на этом плане в течение целого раунда... при этом она остается невидимой и полностью иммунной к вреду. В течение этого раунда она не может колдовать или использовать другие способности. 
+В течение следующих двух раундов Имоен может остаться "полупрозрачной"... она находится частично в эфирном и частично в этом плане. Она все еще невидима, но при этом получает половину ущерба любого вида. В этом состоянии есть небольшой шанс (10 %) что читаемое ею заклинание не удастся. В течение всех трех раундов, она способна видеть любые невидимые цели.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Regeneration
+@7 = ~Силы Потомка Баала
 
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+Приобретена особая способность, используемая один раз в день:
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
-@8 = ~Resurrection
+Регенерация (Некромантия)
+Расстояние: касание
+Длительность: 1 раунд / 2 уровня
+Время чтения: 7
+Зона действия: 1 существо
+Спасбросок: нет
 
-Range: Touch
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Creature Touched
-Saving Throw: None
+Данная способность позволяет Потомку Баала наделить одно существо способностью к регенерации. Регенерация излечивает любые раны и даже восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня восстановит 18 пунктов здоровья за раунд в течение 7 раундов.~
+@8 = ~Силы Потомка Баала
 
-Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
+Приобретена особая способность, используемая один раз в день:
+
+Воскрешение (Некромантия) 
+Расстояние: касание
+Длительность: постоянно
+Время чтения: 1
+Зона действия: 1 существо
+Спасбросок: нет
+
+Эта способность дает Потомку Баала возможность возврата к жизни членов <PRO_HISHER> группы. При этом, данная способность полностью исцеляет персонаж, делая его готовым к дальнейшим действиям.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -130,33 +139,19 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Control Demon
+@16 = ~Получена новая сила: "Контроль Демона"
 
-Range: sight
-Casting time: 1
-Duration: special
-Area of Effect: 1 demon
-Saving Throw: none
+Эта способность позволяет потомку Баала попытаться перехватить контроль Мелиссы над демонами и сделать их союзниками. Потомок Баала в умственном сражении в течение 1 раунда принуждает демона, в конце которого демон может стать союзником. Однако демон будет не при прямом контроле потомка Баала. Эту способность можно использовать один раз в 3 раунда.
 
-This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
-@17 = ~Unleash
+Получена новая сила: "Дверь Измерения"
 
-Range: 5ft
-Casting Time: 1
-Duration: Instant
-Area of Effect: 1 creature
-Saving Throw: 1/2 plus special
+Потомок Баала теперь может свободно передвигаться сквозь пространство и планы. Телепортацией можно пользоваться раз в раунд.~
+@17 = ~Получена новая сила: "Высвобождение"
 
-The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
-@18 = ~Focus
+Способность "Высвобождение" направляет вашу внутреннюю энергию на цель в пределах физической досягаемости , поражая ее на 10d12 единиц магического повреждения (половину при успешном спасброске на Смерть) и отбрасывая ее назад, возможно, в бессознательном состоянии, на короткий период. Эту способность можно использовать раз в тридцать секунд... и после ее использования, потомок Баала будет невероятно утомлен, получая 25% шанс провала всех заклинаний в течение 2 раундов. Из-за количества потраченной божественной сущности, форма Губителя также будет недоступна в течение тридцати секунд.~
+@18 = ~Получена новая сила: "Сосредоточение"
 
-Range: 0
-Casting Time: 1
-Duration: 5 rounds
-Area of Effect: Caster
-Saving Throw: None
-
-This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
+Эта способность позволяет потомку Баала сосредотачивать свою энергию внутри себя и сопротивляться внешним эффектам заклинаний. В течение 30-секунд потомок Баала становится иммунным к заклинаниям Плоть в камень, Распыление и Остановка Времени. Все низкоуровневые заклинания с 1-го по 3-ий уровни также не будут приносить ему вред. Эту способность можно использовать раз в минуту.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -169,16 +164,18 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Divine Gift
-(Invocation)
+@21 = ~Силы Потомка Баала
 
-Range: 0
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
+Приобретена особая способность, используемая один раз в день:
 
-The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
+Призыв Силы Крови (Взывание)
+Расстояние: 0
+Длительность: 1 ход (60 секунд)
+Время чтения: 1
+Зона действия: заклинатель
+Спасбросок: нет
+
+Потомок Баала призывает силу своей крови, чтобы увеличить на короткий период свои физические возможности. После того, как <PRO_HESHE> сделает это, <PRO_HISHER> Сила, Телосложение и Ловкость увеличиваются на 1 пункт за каждые 3 уровня заклинателя. Например, персонаж 3-го уровня увеличит свои характеристики на 1, а персонаж 12-го уровня - на 4.~
 @22 = ~Flip Resistances
 
 Range: 0

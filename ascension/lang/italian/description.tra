@@ -1,29 +1,40 @@
-@1 = ~Ethereal
+@1 = ~Imoen è Sopravissuta
 
-Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.
+Imoen è riuscita a sopravvivere al tentativo di Melissan di costringerla a trasformarsi nell'Uccisore. Nel fare ciò, sembra che Imoen abbia compiuto progressi considerevoli nella sua corruzione. Adesso non solo è capace di trasformarsi nello stesso Uccisore che ho sperimentato per la prima volta a Spellhold... ma ha anche guadagnato l'abilità di diventare eterea per brevi periodi di tempo.
 
-For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets.~
+Eterea
+-------------
+Imoen è ora in grado di entrare nel Piano Etereo per brevi periodi di tempo. L'abilità è utilizzabile una volta ogni minuto e il suo uso evita anche la sua trasformazione nell'Uccisore per un minuto. Imoen può rimanere totalmente eterea e immateriale per le forze su questo piano per un round intero... durante il quale è invisibile e completamente immune al danno. Durante il round, non può lanciare incantesimi o usare abilità.
+Per i due successivi round, Imoen può rimanere "tra i piani": è in parte eterea, in parte su questo piano. È ancora invisibile, ma riceve metà dei danni da tutte le fonti. In questo stato, c'è una piccola possibilità (10%) che sbagli il lancio di un incantesimo. Per tutti e tre i round, è in grado di vedere qualsiasi creatura invisibile.~
 @6 = ~End Slayer Change
 
 This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Regeneration
+@7 = ~Poteri della progenie di Bhaal
 
-Range: Touch
-Duration: 1 round/ 2 levels
-Casting Time: 7
-Area of Effect: Target Creature
-Saving Throw: None 
+<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
 
-This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds.~
-@8 = ~Resurrection
+Rigenerazione
+(Necromanzia)
+Raggio d'azione: Tocco
+Durata: 1 round ogni 2 livelli
+Tempo di lancio: 7
+Area d'effetto: 1 creatura
+Tiro-salvezza: Nessuno
 
-Range: Touch
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Creature Touched
-Saving Throw: None
+Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round.~
+@8 = ~Poteri della progenie di Bhaal
 
-Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more.~
+<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
+
+Resurrezione
+(Necromanzia)
+Raggio d'azione: Tocco
+Durata: Permanente
+Tempo di lancio: 1
+Area d'effetto: 1 creatura
+Tiro-salvezza: Nessuno
+
+Come l'incantesimo di 5° livello Rianimare Morti, Resurrezione riporta in vita un personaggio. Tuttavia, Resurrezione guarisce anche il personaggio in modo che sia subito pronto per nuove avventure.~
 @9 = ~Slayer Change
 
 When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
@@ -130,33 +141,19 @@ The Slayer form grants the following benefits:
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Control Demon
+@16 = ~Ottenuto Nuovo Potere: "Controllare Demone"
 
-Range: sight
-Casting time: 1
-Duration: special
-Area of Effect: 1 demon
-Saving Throw: none
+Questa abilità permette alla progenie di Bhaal di tentare di strappare il controllo di un demone a Melissan e di renderlo un alleato. Il figlio di Bhaal ingaggia una battaglia mentale con il demone per 1 round, alla fine del quale il demone può diventare un alleato. Il demone non è tuttavia sotto il controllo diretto della progenie di Bhaal. Questa abilità può essere utilizzata una volta ogni 3 round.
 
-This ability allows the Bhaalspawn to attempt to wrest control of a demon away from Melissan and make them an ally. The Bhaalspawn engages the demon in mental combat for DURATION_PLACEHOLDER seconds, at the end of which the demon has a SUCCESS_CHANCE_PLACEHOLDER% chance of becoming an ally. (There is no further saving throw, nor is magic resistance checked.) The demon is not under the Bhaalspawn's direct control, however. This ability may be used once every 3 rounds.~
-@17 = ~Unleash
+Ottenuto Nuovo Potere: "Porta Dimensionale"
 
-Range: 5ft
-Casting Time: 1
-Duration: Instant
-Area of Effect: 1 creature
-Saving Throw: 1/2 plus special
+La progenie di Bhaal può ora muoversi liberamente attraverso lo spazio e i piani. Questo potere di teletrasporto è utilizzabile una volta per round.~
+@17 = ~Ottenuto Nuovo Potere: "Scatenare il Potere"
 
-The "Unleash" ability releases your inner power upon a target that is within melee range, hitting them for DICENUMBER_PLACEHOLDERd12 magic damage (half on a successful save vs. Death at -4) and sending them flying back and perhaps unconscious for a short period. This ability may only be used once ever thirty seconds... and after using it the Bhaalspawn will be incredibly fatigued, and have a 25% miscast chance on all spells, for 2 rounds. Due to the amount of divine essence used, the Slayer form will also not be available for thirty seconds.~
-@18 = ~Focus
+L'abilità "Scatenare il Potere" rilascia la tua forza interiore su un bersaglio a portata di combattimento da mischia, colpendolo per 10d12 punti di danno da magia (dimezzato se effettua con successo un tiro-salvezza contro Morte), facendolo volare via e rendendolo forse inconsapevole per un breve periodo di tempo. Questa abilità può essere attivata una volta ogni trenta secondi. Dopo averla utilizzata, la progenie di Bhaal sarà incredibilmente affaticato e avrà il 25% di possibilità di fallire il lancio di qualsiasi incantesimo per 2 round. A causa della quantità di essenza divina usata, la forma dell'Uccisore non sarà disponibile per trenta secondi.~
+@18 = ~Ottenuto Nuovo Potere: "Focalizzare"
 
-Range: 0
-Casting Time: 1
-Duration: 5 rounds
-Area of Effect: Caster
-Saving Throw: None
-
-This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
+Questa abilità permette alla progenie di Bhaal di focalizzare l'energia dentro di sé per resistere agli effetti degli incantesimi ostili. Per 30 secondi, il figlio di Bhaal diventa immune agli incantesimi Carne in Pietra, Disintegrazione e Fermare il Tempo. Tutti gli incantesimi minori dal 1° al 3° livello non avranno inoltre effetto sulla progenie di Bhaal. Questa abilità è utilizzabile una volta al minuto.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -169,16 +166,19 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Divine Gift
-(Invocation)
+@21 = ~Poteri della progenie di Bhaal
 
-Range: 0
-Duration: 1 turn
-Casting Time: 1
-Area of Effect: The caster
-Saving Throw: None
+<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
 
-The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
+Convocare la Sacra Potenza
+(Evocazione)
+Raggio d'azione: 0
+Durata: 1 turno
+Tempo di lancio: 1
+Area d'effetto: Il lanciatore
+Tiro-salvezza: Nessuno
+
+La progenie di Bhaal si appella alla forza del suo sangue per ottenere potere per un breve periodo. Così facendo, la sua Forza, Costituzione e Destrezza sono aumentate di un punto ogni tre livelli del lanciatore. Un personaggio di 3° livello vedrà le proprie caratteristiche aumentare di 1, mentre quelle di un personaggio di 12° livello crescerebbero di 4.~
 @22 = ~Flip Resistances
 
 Range: 0
