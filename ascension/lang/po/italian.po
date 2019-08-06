@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-05-03 16:22+0000\n"
+"PO-Revision-Date: 2019-08-06 14:13+0000\n"
 "Last-Translator: Davide Rossini <davidewmilan@alice.it>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Italian <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/it/>\n"
 "Language: italian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
 msgid "Babau"
@@ -35,14 +36,12 @@ msgid "Telekinesis"
 msgstr "Telecinesi"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Reversed Resistances"
 msgid "Flip Resistances"
-msgstr "Cambio di Resistenze"
+msgstr "Inversione di Resistenze"
 
 #: ascension.tra:1013
 msgid "Control Demon"
-msgstr "Controlla Demone"
+msgstr "Controllare Demone"
 
 #: ascension.tra:1014
 msgid "Focus"
@@ -70,7 +69,7 @@ msgstr "Scaccia"
 
 #: ascension.tra:1022
 msgid "Unleash"
-msgstr "Sprigiona"
+msgstr "Scatenare il Potere"
 
 #: ascension.tra:1024
 msgid "Feedback"
@@ -93,8 +92,6 @@ msgid "Lava Bomb"
 msgstr "Bomba di Lava"
 
 #: ascension.tra:1031
-#, fuzzy
-#| msgid "Symbol Slow"
 msgid "Symbol, Slow"
 msgstr "Simbolo di Lentezza"
 
@@ -109,120 +106,123 @@ msgstr "Melissan: Comanda i Tirapiedi dell'Abisso"
 #: ascension.tra:1039
 msgid "Bhaalspawn Power gained: Immunity to Energy Drain"
 msgstr ""
+"Poteri della progenie di Bhaal Ottenuto: Immunità al Risucchio di Energia"
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
 msgstr ""
+"Poteri della progenie di Bhaal Ottenuto: Resistenza al Danno Fisico +25%"
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr ""
+msgstr "Folgorato"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
-msgstr ""
+msgstr "Armi indebolite dalla fanghiglia di Babau"
 
 #: ascension.tra:1043
 msgid "Grabbed"
-msgstr ""
+msgstr "Afferrato"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "Poteri di Bhaal riacquisiti"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
-msgstr ""
+msgstr "Hai riacquisito il controllo per adesso."
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
-msgstr ""
+msgstr "Resistenza alla Magia Abbassata del 5%"
 
 #: ascension.tra:1048
 msgid "Slayer transformation enhanced"
-msgstr ""
+msgstr "Trasformazione dell'Uccisore migliorata"
 
 #: ascension.tra:1049
 msgid "The demon bows to your will"
-msgstr ""
+msgstr "Il demone s'inchina al tuo volere"
 
 #: ascension.tra:1050
 msgid "The demon defies your will"
-msgstr ""
+msgstr "Il demone si ribella al tuo volere"
 
 #: ascension.tra:1051
 msgid "This power only affects demons"
-msgstr ""
+msgstr "Il potere ha effetti solo sui demoni"
 
 #: ascension.tra:1052
 msgid "The demon bows to Melissan's will"
-msgstr ""
+msgstr "Il demone s'inchina al volere di Melissan"
 
 #: ascension.tra:1053
 msgid "The demon defies Melissan's will"
-msgstr ""
+msgstr "Il demone si ribella al volere di Melissan"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
-msgstr ""
+msgstr "Potere della Progenie di Bhaal Ottenuto: Rilascio"
 
 #: ascension.tra:1055
 msgid "Bhaalspawn Power gained: immunity to death magic"
 msgstr ""
+"Potere della Progenie di Bhaal Ottenuto: Immunità alla magia della morte"
 
 #: ascension.tra:1056
 msgid "Bhaalspawn Power gained: immunity to vorpal effects"
-msgstr ""
+msgstr "Potere della Progenie di Bhaal Ottenuto: Immunità agli effetti vorpal"
 
 #: ascension.tra:1057
 msgid "Bhaalspawn Power gained: Dimension Door"
-msgstr ""
+msgstr "Potere della Progenie di Bhaal Ottenuto: Porta dimensionale"
 
 #: ascension.tra:1058
 msgid "Bhaalspawn Power gained: Control Demons"
-msgstr ""
+msgstr "Potere della Progenie di Bhaal Ottenuto: Controllo sui demoni"
 
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
 msgstr ""
+"Potere della Progenie di Bhaal Ottenuto: Immunità a LAbirinto e Imprigionare"
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
-msgstr ""
+msgstr "Potere della Progenie di Bhaal Ottenuto: Focalizzazione"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
 msgstr ""
+"Potere della Progenie di Bhaal Ottenuto: Immuinità a Marchio dell'Uccisore"
 
 #: ascension.tra:1062
-#, fuzzy
-#| msgid "Divine Mantle"
 msgid "Divine Gift"
-msgstr "Manto Divino"
+msgstr "Dono Divino"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
-msgstr ""
+msgstr "Resistenza alla Magia Ripristinata"
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr ""
+msgstr "Protezioni dalla Magia Rimosse"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
-msgstr ""
+msgstr "Protezioni di Combattimento Rimosse"
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr ""
+msgstr "IA disattivata"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr ""
+msgstr "IA attivata"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
-msgstr ""
+msgstr "Penalità Lunare"
 
 #: ascension.tra:2000
 msgid ""
@@ -254,20 +254,6 @@ msgstr ""
 "Quando usa questa abilità, la progenie di Bhaal deve visualizzare chiaramente i volti dei suoi compagni e concentrarsi sull'unità del gruppo. Una volta completato l'incantesimo, tutti i membri del gruppo in un raggio di 9 metri dal lanciatore sono curati di 2d8+2 Punti Ferita per livello. Vengono guarite anche altre condizioni sofferte dal gruppo: fatica, veleno, malattia, cecità e sordità."
 
 #: ascension.tra:2001
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -294,7 +280,12 @@ msgstr ""
 "Area d'effetto: 1 creatura\n"
 "Tiro-salvezza: Nessuno\n"
 "\n"
-"Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round."
+"Questa potente abilità consente alla progenie di Bhaal di conferire a una "
+"creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni "
+"ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio "
+"recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli "
+"del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14°"
+" livello potrebbe rigenerare 18 Punti Ferita a round per 7 round."
 
 #: ascension.tra:2002
 msgid ""
@@ -458,7 +449,7 @@ msgstr ""
 
 #: ascension.tra:2008
 msgid "Slayer Change ability improved"
-msgstr ""
+msgstr "Trasformazione dell'Uccisore migliorata"
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
@@ -610,10 +601,12 @@ msgid "No. I have brought my share of death and destruction to this land. But I 
 msgstr "No. Ho portato la mia parte di morte e distruzione in questa terra, ma vedo uno scopo più grande dietro tutto ciò... Io cerco di porre fine per sempre alla possibilità che Bhaal ritorni e di ripulire questa terra dalla sua corruzione."
 
 #: balth.tra:1091
-#, fuzzy
-#| msgid "I have mastered the power within me and held the evil in check, but I know as well... if not better... then most of my brethren the threat that it holds for all of FaerÃ»n. I will not allow this. I have dedicated my life to preventing it."
 msgid "I have mastered the power within me and held the evil in check, but I know as well... if not better... then most of my brethren the threat that it holds for all of Faerun. I will not allow this. I have dedicated my life to preventing it."
-msgstr "Ho dominato il potere dentro di me e ho mantenuto il male sotto controllo, ma conosco bene... se non meglio... della maggior parte dei miei fratelli la minaccia che porta per tutto il Faerùn. Non lo permetterò. Ho dedicato tutta la mia vita a questo."
+msgstr ""
+"Ho dominato il potere dentro di me e ho mantenuto il male sotto controllo, "
+"ma conosco bene... se non meglio... della maggior parte dei miei fratelli la "
+"minaccia che porta per tutto il Faerùn. Non lo permetterò. Ho dedicato "
+"l'intera mia vita a questo."
 
 #: balth.tra:1092
 msgid "If only we had met under other circumstances, <CHARNAME>...I would have liked to sit and compare the paths that have brought us to this point. If we had not been forced by destiny to bear this taint upon our souls, what would have become of us? I regret what I must do, yet I know it must be done."
@@ -888,10 +881,11 @@ msgid "You have considerable charisma, <CHARNAME>...but it is because we are sib
 msgstr "Hai un carisma notevole, <CHARNAME>... ma siamo fratelli e non possiamo collaborare. Sai bene quanto me ciò che cerca l'essenza e non sarà soddisfatta finché il nostro destino non sarà compiuto."
 
 #: balth.tra:1161
-#, fuzzy
-#| msgid "I make no judgement upon you, <CHARNAME>. You are what you were born to be. I can only trust myself to hold to the path of good that will lead to the destruction of the true evil that threatens FaerÃ»n. There is no other path for me."
 msgid "I make no judgement upon you, <CHARNAME>. You are what you were born to be. I can only trust myself to hold to the path of good that will lead to the destruction of the true evil that threatens Faerun. There is no other path for me."
-msgstr "Non ti giudico, <CHARNAME>. Sei ciò per cui sei nato. Posso solo fidarmi di me stesso per mantenere fede al sentiero del bene che porterà alla distruzione del vero male che minaccia Faerùn. Non c'è nessun altro sentiero per me."
+msgstr ""
+"Non ti giudico, <CHARNAME>. Sei ciò per cui sei nato. Posso solo fidarmi di "
+"me stesso per tenere fede al sentiero del bene che porterà alla distruzione "
+"del vero male che minaccia Faerùn. Non c'è nessun altro sentiero per me."
 
 #: balth.tra:1162
 msgid "Look at the suffering you have brought to Amkethran! Your monks terrorize the innocent at your command! You hire soulless mercenaries that cut down the innocent at the slightest provocation! And all for nothing! You call these the actions of a good man?"
@@ -1030,10 +1024,11 @@ msgid "The choice is your own. You know yourself better than I. I simply ask tha
 msgstr "La decisione è tua. Conosci te stesso meglio di me. Ti chiedo solo di immaginare la vita che avresti potuto condurre, la vita da mortale, se la corruzione non ti avesse mai afflitto sin da Candlekeep. Io non vedo l'ora della mia."
 
 #: balth_finsol.tra:1016
-#, fuzzy
-#| msgid "And so it is done. I believe you have made the right choice. I look forward to meeting you again on FaerÃ»n, <CHARNAME>...as a mortal and a true <PRO_BROTHERSISTER>."
 msgid "And so it is done. I believe you have made the right choice. I look forward to meeting you again on Faerun, <CHARNAME>...as a mortal and a true <PRO_BROTHERSISTER>."
-msgstr "E così è fatta. Credo che tu abbia preso la scelta giusta. Non vedo l'ora di incontrarti di nuovo nel Faerùn, <CHARNAME>... come mortale e come vero fratello."
+msgstr ""
+"E dunque è fatta. Credo che tu abbia preso la scelta giusta. Non vedo l'ora "
+"di incontrarti di nuovo nel Faerùn, <CHARNAME>... come mortale e come vero "
+"fratello."
 
 #: balth_finsol.tra:1017
 msgid "And so you take the road less traveled, <CHARNAME>. I cannot say I envy you. I hope the power brings you what you expect and desire, my friend. When I look up at the heavens and see the brightest star in the sky, I shall think of you and offer a prayer."
@@ -1104,16 +1099,6 @@ msgid "While it fills me with distaste that you would even bring such a creature
 msgstr "Sebbene mi riempia di disgusto il fatto che tu voglia portare una simile creatura malvagia davanti a me, devi ricordare, figlio degli dèi, che in questo posto un giuramento vale più delle semplici parole con cui è pronunciato. Non sei ancora un dio... e anche se preferirei distruggere questa cosa non morta, è mio compito far rispettare la promessa che hai fatto."
 
 #: description.tra:1
-#, fuzzy
-#| msgid ""
-#| "Imoen Has Survived\n"
-#| "\n"
-#| "Imoen managed to survive Melissan's attempt to force her into berserk Slayer form. It seems that in doing so, Imoen has had her own progress in the taint advanced considerably. She now not only can turn into the same Slayer form that I began to back in Spellhold... but has also gained the ability to go ethereal for brief periods of time.\n"
-#| "\n"
-#| "Ethereal\n"
-#| "-------------\n"
-#| "Imoen is now able to enter the Ethereal Plane for brief periods of time. The ability is useable once every minute, and its use prevents her from assuming the Slayer form for a minute, as well. Imoen can remain fully ethereal and intangible to forces on this plane for a full round... during which she is invisible and completely immune to harm. During that round, she also cannot cast spells or use abilities.\n"
-#| "For another two rounds afterwards, Imoen can remain 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets."
 msgid ""
 "Ethereal\n"
 "\n"
@@ -1121,14 +1106,19 @@ msgid ""
 "\n"
 "For another two rounds afterwards, Imoen remains 'half-phased'...she is partially ethereal and partially in this plane. She is still invisible, but takes half damage from all sources. In this state, there is a small chance (10%) that she will miscast a spell. For all three rounds, she is able to see any invisible targets."
 msgstr ""
-"Imoen è Sopravissuta\n"
-"\n"
-"Imoen è riuscita a sopravvivere al tentativo di Melissan di costringerla a trasformarsi nell'Uccisore. Nel fare ciò, sembra che Imoen abbia compiuto progressi considerevoli nella sua corruzione. Adesso non solo è capace di trasformarsi nello stesso Uccisore che ho sperimentato per la prima volta a Spellhold... ma ha anche guadagnato l'abilità di diventare eterea per brevi periodi di tempo.\n"
-"\n"
 "Eterea\n"
 "-------------\n"
-"Imoen è ora in grado di entrare nel Piano Etereo per brevi periodi di tempo. L'abilità è utilizzabile una volta ogni minuto e il suo uso evita anche la sua trasformazione nell'Uccisore per un minuto. Imoen può rimanere totalmente eterea e immateriale per le forze su questo piano per un round intero... durante il quale è invisibile e completamente immune al danno. Durante il round, non può lanciare incantesimi o usare abilità.\n"
-"Per i due successivi round, Imoen può rimanere \"tra i piani\": è in parte eterea, in parte su questo piano. È ancora invisibile, ma riceve metà dei danni da tutte le fonti. In questo stato, c'è una piccola possibilità (10%) che sbagli il lancio di un incantesimo. Per tutti e tre i round, è in grado di vedere qualsiasi creatura invisibile."
+"Imoen è ora in grado di entrare nel Piano Etereo per brevi periodi di tempo. "
+"L'abilità è utilizzabile una volta ogni minuto e il suo uso evita anche la "
+"sua trasformazione nell'Uccisore per un minuto. Imoen può rimanere "
+"totalmente eterea e immateriale per le forze su questo piano per un round "
+"intero... durante il quale è invisibile e completamente immune al danno. "
+"Durante il round, non può lanciare incantesimi o usare abilità.\n"
+"Per i due successivi round, Imoen può rimanere \"tra i piani\": è in parte "
+"eterea, in parte su questo piano. È ancora invisibile, ma riceve metà dei "
+"danni da tutte le fonti. In questo stato, c'è una piccola possibilità (10%) "
+"che sbagli il lancio di un incantesimo. Per tutti e tre i round, è in grado "
+"di vedere qualsiasi creatura invisibile."
 
 #: description.tra:6
 msgid ""
@@ -1136,22 +1126,12 @@ msgid ""
 "\n"
 "This ability allows Imoen to cancel her transformation and return to her usual form."
 msgstr ""
+"Fine Cambiamento in Uccisore\n"
+"\n"
+"Questa abilità consente a Imoen di annullare la sua trasformazione e tornare "
+"alla sua solita forma."
 
 #: description.tra:7
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Regeneration\n"
 "\n"
@@ -1163,10 +1143,6 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
-"Poteri della progenie di Bhaal\n"
-"\n"
-"<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: \n"
-"\n"
 "Rigenerazione\n"
 "(Necromanzia)\n"
 "Raggio d'azione: Tocco\n"
@@ -1175,23 +1151,14 @@ msgstr ""
 "Area d'effetto: 1 creatura\n"
 "Tiro-salvezza: Nessuno\n"
 "\n"
-"Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round."
+"Questa potente abilità consente alla progenie di Bhaal di conferire ad una "
+"creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni "
+"ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio "
+"recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli "
+"del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14°"
+" livello potrebbe rigenerare 18 Punti Ferita a round per 7 round."
 
 #: description.tra:8
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Resurrection (Necromancy)\n"
-#| "Range: Touch\n"
-#| "Duration: Permanent\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: Creature Touched\n"
-#| "Saving Throw: None\n"
-#| "\n"
-#| "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgid ""
 "Resurrection\n"
 "\n"
@@ -1203,10 +1170,6 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
-"Poteri della progenie di Bhaal\n"
-"\n"
-"<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: \n"
-"\n"
 "Resurrezione\n"
 "(Necromanzia)\n"
 "Raggio d'azione: Tocco\n"
@@ -1215,7 +1178,9 @@ msgstr ""
 "Area d'effetto: 1 creatura\n"
 "Tiro-salvezza: Nessuno\n"
 "\n"
-"Come l'incantesimo di 5° livello Rianimare Morti, Resurrezione riporta in vita un personaggio. Tuttavia, Resurrezione guarisce anche il personaggio in modo che sia subito pronto per nuove avventure."
+"Come l'incantesimo di 5° livello Rianimare Morti, Resurrezione riporta in "
+"vita un personaggio. Tuttavia, Resurrezione guarisce anche il personaggio in "
+"modo che sia subito pronto per nuove avventure."
 
 #: description.tra:9
 msgid ""
@@ -1342,11 +1307,13 @@ msgstr ""
 
 #: description.tra:14 imoen_after.tra:1000
 msgid "Bhaalspawn powers granted"
-msgstr ""
+msgstr "Poteri della Progenie di Bhaal attribuiti"
 
 #: description.tra:15
 msgid "Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute"
 msgstr ""
+"Imoen ora può cambiare a piacimento e può entrare nel Piano Etereo una volta "
+"al minuto"
 
 #: description.tra:16
 #, fuzzy
@@ -1438,6 +1405,9 @@ msgid ""
 "\n"
 "This ability allows Bodhi to shapeshift into bat form."
 msgstr ""
+"Mutare Forma in Pipistrello\n"
+"\n"
+"Questa abilità permette a Bodhi di trasformarsi in pipistrello."
 
 #: description.tra:21
 #, fuzzy
@@ -1494,6 +1464,19 @@ msgid ""
 "\n"
 "Balthazar may flip his resistances at will."
 msgstr ""
+"Inversione di Resistenze\n"
+"Raggio d'Azione: 0\n"
+"Durata: Permanente\n"
+"Tempo di lancio: 1 turno\n"
+"Area d'Effetto: Balthazar\n"
+"Tiro-salvezza: Nessuno\n"
+"\n"
+"Con questa abilità, Balthazar inverte le sue resistenze innate. La sua "
+"normale resistenza ai danni fisici del 10% aumenta fino al 90%, la sua "
+"normale resistenza alla magia, al danno magico e al danno elementale del 90% "
+"si riduce al 10%.\n"
+"\n"
+"Balthazar può invertire le sue resistenze a volontà."
 
 #: description.tra:23
 msgid ""
@@ -1509,6 +1492,19 @@ msgid ""
 "\n"
 "Balthazar may flip his resistances at will."
 msgstr ""
+"Inversione di Resistenze\n"
+"Raggio d'Azione: 0\n"
+"Durata: Permanente\n"
+"Tempo di lancio: 1 turno\n"
+"Area d'Effetto: Balthazar\n"
+"Tiro-salvezza: Nessuno\n"
+"\n"
+"Con questa abilità, Balthazar inverte le sue resistenze innate. La sua "
+"normale resistenza ai danni fisici del 10% viene ripristinata, così come la "
+"sua normale resistenza alla magia, al danno magico e al danno elementale del "
+"90%.\n"
+"\n"
+"Balthazar può invertire le sue resistenze a volontà."
 
 #: description.tra:24
 msgid ""
@@ -1654,11 +1650,11 @@ msgid "Well, your plan didn't work out quite like you thought. Balthazar is stil
 msgstr "Beh, il tuo piano non è andato esattamente come pensavi. Balthazar è ancora vivo."
 
 #: dream_mel.tra:422
-#, fuzzy
-#| msgctxt "MELISS23"
-#| msgid "Do you dare come and face me there? Or shall I have to hunt you down like the sorry dog that you are? Because make no mistake... one way or another, every last drop of that divine essence will be *mine*."
 msgid "Do you dare come and face me there? Or shall I have to hunt you down like the sorry dog that you are? Because make no mistake... one way or another, every last drop of that divine essence will be *mine*."
-msgstr "Osi venire ad affrontarmi là? O dovrò darti la caccia come il miserabile cane che sei? Perché sia chiaro... In un modo o nell'altro, ogni singola goccia di quell'essenza divina sarà MIA."
+msgstr ""
+"Osi venire ad affrontarmi là? O dovrò darti la caccia come il miserabile "
+"cane che sei? Perché sia chiaro... in un modo o nell'altro, ogni singola "
+"goccia di quell'essenza divina sarà MIA."
 
 #: dream_mel.tra:433
 msgid "As long as you did what you were required to and kill the Five, then I care little for what you think you know, fool."
@@ -1669,18 +1665,18 @@ msgid "So you managed to corral Balthazar into co-operating with you? I'm surpri
 msgstr "Quindi sei riuscito a spingere Balthazar a collaborare con te? Sono sorpresa. Alla fine, comunque, l'essenza di uno o due figli di Bhaal conta davvero poco."
 
 #: dream_solar.tra:230
-#, fuzzy
-#| msgctxt "SOLAR66"
-#| msgid "The one you know as Melissan was never a true member of the Five, godchild. She is no child of Bhaal."
 msgid "The one you know as Melissan was never a true member of the Five, godchild. She is no child of Bhaal."
-msgstr "Colei che conosci come Melissan non è mai stata un vero membro dei Cinque, figlio degli dèi. Lei non è una figlia di Bhaal."
+msgstr ""
+"Colei che conosci come Melissan non è mai stata un vero membro dei Cinque, "
+"figlio degli dèi. Lei non è una figlia di Bhaal."
 
 #: dream_solar.tra:231
-#, fuzzy
-#| msgctxt "SOLAR67"
-#| msgid "The dead god, Bhaal, has not been resurrected and, indeed, may never be. You must understand what awaits you now at the end of your journey, godchild... and for this, the one you know as Melissan will explain for herself."
 msgid "The dead god, Bhaal, has not been resurrected and, indeed, may never be. You must understand what awaits you now at the end of your journey, godchild... and for this, the one you know as Melissan will explain for herself."
-msgstr "Il dio morto, Bhaal, non è stato resuscitato, anzi, possa non esserlo mai. Ora devi comprendere ciò che ti aspetta alla fine del tuo viaggio, figlio degli dèi... e per questo, colei che conosci come Melissan si spiegherà da sé."
+msgstr ""
+"Il dio morto, Bhaal, non è stato resuscitato, anzi, possa non esserlo mai. "
+"Ora devi comprendere ciò che ti aspetta alla fine del tuo viaggio, figlio "
+"degli dèi... e per questo, colei che conosci come Melissan si spiegherà da "
+"sé."
 
 #: dream_solar.tra:239
 msgid "You have parleyed with Balthazar, the greatest of the Bhaalspawn besides yourself, god-child. You are to be commended. Your journey is nearly at its end."
@@ -1777,20 +1773,57 @@ msgid "Aerie continued adventuring after years after leaving <CHARNAME>'s compan
 msgstr "Aerie continuò a fare l’avventuriera per anni dopo avere lasciato la compagnia di <CHARNAME>, viaggiando con un gruppo più numeroso ma a volte proseguendo per conto suo al fine di impiegare il suo potere contro la schiavitù nei Reami. La sua compassione cominciò però ad essere minata dalla vendetta - vendetta per ciò che le era stato portato via mentre era in catene e che non avrebbe mai potuto esserle restituito. Si racconta che Aerie, invasata dalla furia della giustizia, abbia distrutto da sola un’enclave di schiavisti nelle colline a nord del Cormyr. Fu sorpresa nel trovare un gruppo di elfi avariel che erano stati imprigionati; li liberò subito e in cambio fu invitata a ritornare nella sua casa di Faenya-Dail che non vedeva da tanto tempo. Imparò molto durante la sua permanenza. Soprattutto, capì che non era più una vera avariel e rinunciò per sempre alle ali che aveva perso. Faenya-Dail non era più la sua casa e, con un miscuglio di emozioni, le disse addio. Si dice che Aerie divenne infine un’alta sacerdotessa ad Understone, un villaggio di gnomi di cui il suo mentore Quayle le aveva talvolta parlato. Quayle era stato la sua vera famiglia e tra il popolo di lui trovò finalmente la pace e la famiglia che aveva sempre desiderato. Si dice anche che Aerie pregasse per il suo vecchio amico <CHARNAME> ogni notte in cui le stelle apparivano nel cielo. Sperava sinceramente che il suo amico avesse avuto la fortuna di trovare la pace che lei aveva… perché senza <CHARNAME>, per lei non sarebbe mai stato possibile trovarla."
 
 #: epilogues.tra:4002
-#, fuzzy
-#| msgid "Aerie and <CHARNAME> would prove inseparable, continuing their adventuring for many years into the future. Aerie's zest for travel brought the pair over much of FaerÃ»n and even further. Their young son was always in tow, making <CHARNAME> smile with his wide-eyed awe at the wonders of the world. Eventually the pair would settle, subsequently giving birth to a beautiful daughter that was the second joy of their lives. Only rarely would trouble cause <CHARNAME> and Aerie to bring their great power to bear against the evil of the world, though the tales of their battles would become legendary. Their later years would hold one last great trek, as Aerie still felt a sadness from her time of enslavement and the loss of her wings. Together she and <CHARNAME> sought the Avariel of Faenya-Dail, the winged elves she was stolen from so long ago. They discovered not only her people, but loving parents that had spent years searching for their lost child. Aerie had finally found her family. With no more mystery or confusion to cloud their lives, it was there, among the clouds, that Aerie and <CHARNAME> would finally be married. Their union, it is said, was blessed by the presence of Aerdrie Faenya and Baervan Wildwanderer both. As for the children of <CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, their own destiny would be a tale to rival their father's..."
 msgid "Aerie and <CHARNAME> would prove inseparable, continuing their adventuring for many years into the future. Aerie's zest for travel brought the pair over much of Faerun and even further. Their young son was always in tow, making <CHARNAME> smile with his wide-eyed awe at the wonders of the world. Eventually the pair would settle, subsequently giving birth to a beautiful daughter that was the second joy of their lives. Only rarely would trouble cause <CHARNAME> and Aerie to bring their great power to bear against the evil of the world, though the tales of their battles would become legendary. Their later years would hold one last great trek, as Aerie still felt a sadness from her time of enslavement and the loss of her wings. Together she and <CHARNAME> sought the Avariel of Faenya-Dail, the winged elves she was stolen from so long ago. They discovered not only her people, but loving parents that had spent years searching for their lost child. Aerie had finally found her family. With no more mystery or confusion to cloud their lives, it was there, among the clouds, that Aerie and <CHARNAME> would finally be married. Their union, it is said, was blessed by the presence of Aerdrie Faenya and Baervan Wildwanderer both. As for the children of <CHARNAME> and Aerie, tutored by two of the Realm's most powerful beings, their own destiny would be a tale to rival their father's..."
-msgstr "Aerie e <CHARNAME> si rivelarono inseparabili, continuando le loro avventure per molti anni. L’entusiasmo di Aerie per il viaggio portò la coppia per tutto Faerûn e anche oltre. Il loro giovane figlio fu sempre al loro seguito, facendo sorridere <CHARNAME> con i suoi grandi occhi spalancati davanti alle meraviglie del mondo. Alla fine, la coppia si sistemò in seguito alla nascita di una bellissima figlia che fu la seconda gioia delle loro vite. Solo di rado <CHARNAME> ed Aerie si scomodarono per scontrarsi con il male del mondo, sebbene le storie delle loro battaglie divennero leggendarie. Gli anni successivi portarono un ultimo e grande viaggio, dato che Aerie provava ancora tristezza per il tempo passato come schiava e per la perdita delle sue ali. Insieme, lei e <CHARNAME> cercarono gli Avariel di Faenya-Dail, gli elfi alati dai quali era stata strappata molto tempo prima. Trovarono non solo il suo popolo, ma anche amorevoli genitori che avevano trascorso anni a cercare la loro figlia scomparsa. Aerie aveva finalmente trovato la sua famiglia. Senza più mistero o confusione che annebbiassero le loro vite, fu lì, tra le nuvole, che Aerie e <CHARNAME> finalmente si sposarono. La loro unione, si dice, fu benedetta dalla presenza di Aerdrie Faenya e Baervan Wildwanderer. Quanto a i figli di <CHARNAME> e di Aerie, allevati da due delle persone più potenti dei Reami, il loro destino forgiò una leggenda capace di competere con quella del padre..."
+msgstr ""
+"Aerie e <CHARNAME> si rivelarono inseparabili, continuando le loro avventure "
+"per molti anni. L’entusiasmo di Aerie per il viaggio portò la coppia per "
+"tutto Faerûn e anche oltre. Il loro giovane figlio fu sempre al loro "
+"seguito, facendo sorridere <CHARNAME> con i suoi grandi occhi spalancati "
+"davanti alle meraviglie del mondo. Alla fine, la coppia si sistemò in "
+"seguito alla nascita di una bellissima figlia che fu la seconda gioia delle "
+"loro vite. Solo di rado <CHARNAME> ed Aerie si scomodarono per scontrarsi "
+"con il male del mondo, sebbene le storie delle loro battaglie divennero "
+"leggendarie. Gli anni successivi portarono un ultimo e grande viaggio, dato "
+"che Aerie provava ancora tristezza per il tempo passato come schiava e per "
+"la perdita delle sue ali. Insieme, lei e <CHARNAME> cercarono gli Avariel di "
+"Faenya-Dail, gli elfi alati dai quali era stata strappata molto tempo prima. "
+"Trovarono non solo il suo popolo, ma anche amorevoli genitori che avevano "
+"trascorso anni a cercare la loro figlia scomparsa. Aerie aveva finalmente "
+"trovato la sua famiglia. Senza più mistero o confusione che annebbiassero le "
+"loro vite, fu lì, tra le nuvole, che Aerie e <CHARNAME> finalmente si "
+"sposarono. La loro unione, si dice, fu benedetta dalla presenza di Aerdrie "
+"Faenya e Baervan Wildwanderer. Quanto a i figli di <CHARNAME> e di Aerie, "
+"allevati da due delle persone più potenti dei Reami, il loro destino forgiò "
+"una leggenda capace di competere con quella del padre..."
 
 #: epilogues.tra:4003
 msgid "Eventually parting ways with his companions, Anomen would enter the hierarchy of Helm's church, over time rising to the rank of High Watcher. He remained restless and dissatisfied, remembering his days adventuring with <CHARNAME>...and though many friends would urge him otherwise, Anomen never felt that the church was his true home. He remained in his position for a year until finally he could bear it no more. He left active duty in the church and, for a time, wandered the new land of Maztica as a missionary. Anomen remained a troubled soul, still never content even though his prowess earned him great respect from the new friends he encountered. When the powerful evil priest Yamash summoned a horde of demons in an effort to rid Maztica of all life, Anomen would at last find his purpose. He alone was responsible for organizing the tattered remnants of the Amnish soldiers and local Mazticans into a united army that stood against the dark priest. In the great battle that followed, Anomen was seen plainly by all to plunge into combat single-handedly against Yamash. He did not have <CHARNAME> or other companions beside him: alone he stood against the tide of evil, and for once he was not found wanting. He was last seen from afar, shedding tears of joy as he engaged Yamash and shouted out to Helm while chanelling a blinding flash of power. When it cleared, both the priest and Anomen were gone. The battle was won and Maztica was saved. Anomen would forever after be regarded as a hero, inspiring the creation of a protective order of knights in his name. A new order for a new land."
 msgstr "Dopo avere lasciato i suoi compagni, Anomen entrò nella gerarchia della chiesa di Helm, raggiungendo con il tempo il rango di Alto Osservatore. Continuò a essere irrequieto e insoddisfatto, ricordando i giorni d’avventura con <CHARNAME>... e nonostante i suoi amici lo spronassero, Anomen non sentì mai la chiesa come la sua vera casa. Mantenne la sua posizione per un anno finché alla fine non ne poté più. Lasciò il suo ruolo attivo nella chiesa e, per un periodo, viaggiò nella terra di Maztica come missionario. Anomen rimase uno spirito inquieto, sempre insoddisfatto anche quando il suo valore militare gli faceva guadagnare grande rispetto da parte dei nuovi amici che incontrava. Quando il potente e malvagio sacerdote Yamash evocò un'orda di demoni nel tentativo di cancellare ogni forma di vita in tutta Maztica, Anomen trovò finalmente il suo scopo. Da solo, organizzò gli sparpagliati resti dei soldati dell'Amn e gli abitanti di Maztica in un'armata unita che fronteggiasse l'oscuro sacerdote. Nella grande battaglia che seguì, Anomen fu visto chiaramente da tutti scagliarsi da solo in un combattimento contro Yamash. Non aveva <CHARNAME> o altri compagni al suo fianco: fronteggiò da solo l'ondata del male e per una volta non fu trovato in difetto. Venne visto per l'ultima volta da lontano, mentre versava lacrime di gioia poco prima di attaccare Yamash, invocando ad alta voce Helm e aprendo un canale di potere dalla luce accecante. Quando si poté di nuovo vedere, sia il sacerdote sia Anomen erano scomparsi. La battaglia fu vinta e Maztica fu salvata. Anomen sarebbe stato ricordato per sempre come un eroe, ispirando la creazione di un ordine di cavalieri in suo nome. Un nuovo ordine per una nuova terra."
 
 #: epilogues.tra:4004
-#, fuzzy
-#| msgid "Anomen and <CHARNAME> continued adventuring until they were known as heroes almost everywhere they went. Many were the grand tales of the Shining Knight and his utter devotion to his great lady. <CHARNAME>'s past as the terrible Bhaalspawn was forgotten forever as new deeds replaced old and a legacy was created that far outstripped anything granted by godly blood. So prolific were their careers that the proposed date of their wedding kept getting moved back, either due to impending crisis or some lucrative adventure that one or the other would insist on investigating. Finally a date approached that both <CHARNAME> and her beloved were determined to keep, and the much heralded event drew heroes and dignitaries from across FaerÃ»n. The couple had touched the lives of many, and those people arrived in droves to watch Elminster himself unite the two in one of the grandest ceremonies the city of Baldur's Gate had ever seen. Anomen and <CHARNAME> retired from public life shortly after the celebrated birth of their daughter, although if tales be true, their adventures never truly ended. Anomen would rise high in the hierarchy of his church, and <CHARNAME> would continue to be the center of strange events throughout their lives. So, too, would their daughter, tutored by two of the greatest heroes in the Realms, forge a legend to rival that of her mother's. That, however, is another story completely..."
 msgid "Anomen and <CHARNAME> continued adventuring until they were known as heroes almost everywhere they went. Many were the grand tales of the Shining Knight and his utter devotion to his great lady. <CHARNAME>'s past as the terrible Bhaalspawn was forgotten forever as new deeds replaced old and a legacy was created that far outstripped anything granted by godly blood. So prolific were their careers that the proposed date of their wedding kept getting moved back, either due to impending crisis or some lucrative adventure that one or the other would insist on investigating. Finally a date approached that both <CHARNAME> and her beloved were determined to keep, and the much heralded event drew heroes and dignitaries from across Faerun. The couple had touched the lives of many, and those people arrived in droves to watch Elminster himself unite the two in one of the grandest ceremonies the city of Baldur's Gate had ever seen. Anomen and <CHARNAME> retired from public life shortly after the celebrated birth of their daughter, although if tales be true, their adventures never truly ended. Anomen would rise high in the hierarchy of his church, and <CHARNAME> would continue to be the center of strange events throughout their lives. So, too, would their daughter, tutored by two of the greatest heroes in the Realms, forge a legend to rival that of her mother's. That, however, is another story completely..."
-msgstr "Anomen e <CHARNAME> continuarono le loro avventure sino ad essere conosciuti come eroi quasi ovunque andassero. Molti furono i racconti del Cavaliere Senza Macchia e Senza Paura e della sua assoluta devozione per la sua grande signora. Il passato di <CHARNAME> quale terribile progenie di Bhaal fu dimenticato per sempre quando nuove imprese sostituirono le vecchie e quando prese forma una nuova eredità che superò di gran lunga la fama del suo sangue divino. Le loro carriere furono così prolifiche che la data del loro matrimonio fu continuamente posticipata a causa di un’imminente crisi o di qualche vantaggiosa avventura che l'uno o l'altra insisteva nell’intraprendere. Finalmente, si avvicinò una data che sia <CHARNAME> sia il suo amato erano decisi a mantenere; il tanto sospirato evento attirò eroi e dignitari da tutto Faerûn. La coppia aveva toccato la vita di molti e centinaia di persone vennero per vedere lo stesso Elminster unire i due in una delle più maestose cerimonie che la città di Baldur's Gate avesse mai visto. Anomen e <CHARNAME> si ritirarono a vita privata poco dopo la celebrata nascita della loro figlia ma, se le storie sono vere, le loro avventure non terminarono mai veramente. Anomen avanzò nella gerarchia della sua chiesa e <CHARNAME> continuò ad essere al centro di strani eventi per tutta la sua vita. La loro figlia, allevata da due dei più grandi eroi dei Reami, forgiò una leggenda capace di rivaleggiare con quella della madre. Questa però è un'altra storia..."
+msgstr ""
+"Anomen e <CHARNAME> continuarono le loro avventure sino ad essere conosciuti "
+"come eroi quasi ovunque andassero. Molti furono i racconti del Cavaliere "
+"Senza Macchia e Senza Paura e della sua assoluta devozione per la sua grande "
+"signora. Il passato di <CHARNAME> quale terribile progenie di Bhaal fu "
+"dimenticato per sempre quando nuove imprese sostituirono le vecchie e quando "
+"prese forma una nuova eredità che superò di gran lunga la fama del suo "
+"sangue divino. Le loro carriere furono così prolifiche che la data del loro "
+"matrimonio fu continuamente posticipata a causa di un’imminente crisi o di "
+"qualche vantaggiosa avventura che l'uno o l'altra insisteva nell’"
+"intraprendere. Finalmente, si avvicinò una data che sia <CHARNAME> sia il "
+"suo amato erano decisi a mantenere; il tanto sospirato evento attirò eroi e "
+"dignitari da tutto Faerûn. La coppia aveva toccato la vita di molti e "
+"centinaia di persone vennero per vedere lo stesso Elminster unire i due in "
+"una delle più maestose cerimonie che la città di Baldur's Gate avesse mai "
+"visto. Anomen e <CHARNAME> si ritirarono a vita privata poco dopo la "
+"celebrata nascita della loro figlia ma, se le storie sono vere, le loro "
+"avventure non terminarono mai veramente. Anomen avanzò nella gerarchia della "
+"sua chiesa e <CHARNAME> continuò ad essere al centro di strani eventi per "
+"tutta la sua vita. La loro figlia, allevata da due dei più grandi eroi dei "
+"Reami, forgiò una leggenda capace di rivaleggiare con quella della madre. "
+"Questa però è un'altra storia..."
 
 #: epilogues.tra:4005
 msgid "Cernd left the adventuring life to return to his grove in Tethyr, promising to take up his responsibility and raise his son, Ahsdale, as he believed a father should. Cernd would eventually become the Grand Druid and make a name for himself throughout the realms by not only fighting for the balance of his grove but in protecting the sanctity of life in all realms and in all peoples. Cernd would discover in time, to his regret, that in his attention to his duty he had forgotten his promise to Ahsdale. His son had left the grove long before and Cernd learned that Ahsdale had become an evil and twisted wizard in command of a power that threatened the Sword Coast. Determined that this was his burden alone to face, Cernd solemnly abdicated as Grand Druid and sought out his son. He engaged in many battles with the forces of his son, wielding the forces of nature with a great fierceness that would be regarded as legendary by all who saw it. Cernd finally confronted Ahsdale himself deep in the Forest of Tethyr, and made a final effort to convince him to turn away from his path. Ahsdale refused, and Cernd fought his only son in a long and terrible battle that eventually saw both of their deaths. With his last breath, Cernd would crawl along the ground to clasp Ahsdale's dead hand, tears flowing down his face as he begged his son's forgiveness. Cernd's spirit would enter that of a great oak within the forest, and it is believed that this immortal oak still stands, and that around it has grown a wondrous grove of great beauty that is home to the rarest of the Realm's magical creatures. Each fall the great oak and the grove around it would turn the grimmest shade of red, a reminder that even the most flawed amongst us may eventually find their balance."
@@ -1800,23 +1833,48 @@ msgstr "Cernd lasciò la vita d'avventuriero per tornare nel suo bosco nel Tethy
 #: epilogues.tra:4006 epilogues.tra:4011 epilogues.tra:4012 epilogues.tra:4013
 #: epilogues.tra:4015
 msgid " "
-msgstr ""
+msgstr "."
 
 #: epilogues.tra:4007
 msgid "Haer'Dalis found traveling with <CHARNAME> a fine introduction to the Realms, and once they parted company he was eager to see more. He visited such varied locales as Waterdeep, Neverwinter, and Thay, spreading the tales of his deeds with <CHARNAME>...and somehow always managing to find himself in the midst of as many adventures as he once had. Eventually Haer'Dalis would find himself immersed in local troubles on one side or another, and that would lead to him being back on the road once again. Which was fine by him, although the bard would admit to himself that he only rarely understood some of the peculiarities of these Primes and longed for the remembered grandeur of the planes. In time, he would befriend a wandering female Cambion and gladly returned with her to the Abyss... only to unintentionally end up leading a revolt on several layers of the hells. Afterward, the tiefling would be amused to hear stories that he had forced the great Graa'zt to the negotiating table, an awkward position for such a great demon lord... though Haer'Dalis would never verify the truth of the tale. For a time afterward, Haer'Dalis was the most-hunted man among the planes... but the ire of his enemies could not match his wanderlust, and he eventually found his way back to the city of Sigil unharmed in any permanent fashion. There he rejoined his beloved Raelis and her acting troupe, pleased to finally settle down for once. Until the next misunderstanding occurred, of course."
 msgstr "Haer'Dalis trovò il viaggiare con <CHARNAME> una buona introduzione ai Reami. Una volta che la compagnia si divise, fu ansioso di vedere di più. Visitò varie località come Waterdeep, Neverwinter e Thay, diffondendo le storie delle sue imprese con <CHARNAME>... e in qualche modo riuscendo sempre a ritagliarsi un ruolo di primo piano. In un modo o nell’altro, alla fine Haer'Dalis si ritrovava immerso nei problemi del posto, cosa che lo conduceva di nuovo sul sentiero dell’avventura. Il che gli andava bene, sebbene il bardo ammettesse che solo raramente capiva alcune delle peculiarità dei Primevi e che gli mancava molto la grandiosità che ricordava dei Piani. Col tempo, fece amicizia con una cambion girovaga e ritornò con piacere con lei nell'Abisso... solo per finire col guidare involontariamente una rivolta su parecchi livelli degli Inferi. In seguito, il tiefling si divertì nell'ascoltare storie secondo cui avrebbe costretto il grande Graa'zt al tavolo dei negoziati, una posizione imbarazzante per un signore dei demoni tanto grande... benché Haer'Dalis non confermasse mai la veridicità della storia. Per un po' di tempo, Haer'Dalis fu l'uomo più ricercato tra i Piani... ma l'ira dei suoi nemici non poteva eguagliare il suo desiderio di vagabondare e alla fine trovò il modo per tornare alla città di Sigil senza danni permanenti. Lì si riunì alla sua amata Raelis e alla sua compagnia teatrale, lieto per una volta di potersi finalmente stabilire... fino al successivo malinteso, ovviamente."
 
 #: epilogues.tra:4008
-#, fuzzy
-#| msgid ""
-#| "And what of Imoen, the eternal child? She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
-#| "Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across FaerÃ»n for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
 msgid ""
 "And what of Imoen, the eternal child? She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
 "Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across Faerun for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
 msgstr ""
-"E che ne è stato di Imoen, l'eterna bambina? Ne aveva passate tante durante i suoi viaggi con <CHARNAME>, cose di cui in seguito si sarebbe rifiutata di parlare, ma il suo spirito non venne mai meno. Si separò dai suoi compagni per cercare il proprio destino, fuori dall'ombra di suo fratello. Per un breve periodo ritornò a Candlekeep, dove la sua formidabile abilità nella magia le permise di apprezzare i tomi della biblioteca molto più che in passato. Qui poté ricordare i tempi spensierati con <CHARNAME> e Gorion e si sentì felice di avere seguito le orme del suo padre adottivo. Sebbene le avessero chiesto di rimanere, alla fine Imoen decise che Candlekeep era molto più piccola di come la ricordava e la lasciò per proseguire le sue avventure per i Reami.\n"
-"Sono tante le storie sull'arcimaga che Imoen divenne. Nel corso della sua vita assunse molti nomi, alcuni misteriosi e profetici, altri bizzarri e ironici, considerato il potere che questa grande donna possedeva. Chiunque avesse conosciuto Imoen nella sua giovinezza l'avrebbe comunque riconosciuta subito a prescindere dal nome... Né il tempo né la saggezza avrebbero potuto mascherare lo scintillio malizioso nei suoi occhi o il pronto sorriso nel salutare un amico. Diventò la confidente di Khelben \"Bastone Nero\" Arunson e fu spesso associata ad una storia riguardante il grande Elminster, presumibilmente borseggiando le tasche del saggio e poi conducendolo in un'allegra caccia magica per Faerûn per quattro mesi. L'esatta verità della storia è sconosciuta... ma sarebbe proprio da Imoen l'incoraggiare un vecchio strambo a non fare tanto il difficile e la sua successiva amicizia con Elminster è ben documentata. Altre storie raccontano che Imoen fondò una gilda di ladri che operava su tutte le vie per Neverwinter, bisticciando con i Ladri delle Ombre e con gli Zhentarim, e che addirittura combatté da sola contro un drago perché (così dice la storia) \"era stato scortese\". A volte, Imoen fu scorta a ripensare al suo vecchio amico, <CHARNAME>, e a sorridere tristemente... e subito dopo cadere in preda di un pensiero maliziosamente divertente che l'avrebbe spinta verso il suo prossimo progetto. Sembra che certe persone, fortunatamente, non cambino mai."
+"E che ne è stato di Imoen, l'eterna bambina? Ne aveva passate tante durante "
+"i suoi viaggi con <CHARNAME>, cose di cui in seguito si sarebbe rifiutata di "
+"parlare, ma il suo spirito non venne mai meno. Si separò dai suoi compagni "
+"per cercare il proprio destino, fuori dall'ombra di suo fratello. Per un "
+"breve periodo ritornò a Candlekeep, dove la sua formidabile abilità nella "
+"magia le permise di apprezzare i tomi della biblioteca molto più che in "
+"passato. Qui poté ricordare i tempi spensierati con <CHARNAME> e Gorion e si "
+"sentì felice di avere seguito le orme del suo padre adottivo. Sebbene le "
+"avessero chiesto di rimanere, alla fine Imoen decise che Candlekeep era "
+"molto più piccola di come la ricordava e la lasciò per proseguire le sue "
+"avventure per i Reami.\n"
+"Sono tante le storie sull'arcimaga che Imoen divenne. Nel corso della sua "
+"vita assunse molti nomi, alcuni misteriosi e profetici, altri bizzarri e "
+"ironici, considerato il potere che questa grande donna possedeva. Chiunque "
+"avesse conosciuto Imoen nella sua giovinezza l'avrebbe comunque riconosciuta "
+"subito a prescindere dal nome... Né il tempo né la saggezza avrebbero potuto "
+"mascherare lo scintillio malizioso nei suoi occhi o il pronto sorriso nel "
+"salutare un amico. Diventò la confidente di Khelben \"Bastone Nero\" Arunson "
+"e fu spesso associata ad una storia riguardante il grande Elminster, "
+"presumibilmente borseggiando le tasche del saggio e poi conducendolo in "
+"un'allegra caccia magica per Faerûn per quattro mesi. L'esatta verità della "
+"storia è sconosciuta... ma sarebbe proprio da Imoen l'incoraggiare un "
+"vecchio strambo a non fare tanto il difficile e la sua successiva amicizia "
+"con Elminster è ben documentata. Altre storie raccontano che Imoen fondò una "
+"gilda di ladri che operava su tutte le vie per Neverwinter, bisticciando con "
+"i Ladri delle Ombre e con gli Zhentarim, e che addirittura combatté da sola "
+"contro un drago perché (così dice la storia) \"era stato scortese\". A "
+"volte, Imoen fu scorta a ripensare al suo vecchio amico, <CHARNAME>, e a "
+"sorridere tristemente... e subito dopo cadere in preda di un pensiero "
+"maliziosamente divertente che l'avrebbe spinta verso il suo prossimo "
+"progetto. Sembra che certe persone, fortunatamente, non cambino mai."
 
 #: epilogues.tra:4009
 msgid ""
@@ -1857,10 +1915,29 @@ msgid "In the years following his resurrection by <CHARNAME>, Sarevok spent many
 msgstr "Negli anni successivi alla sua resurrezione da parte di <CHARNAME>, Sarevok trascorse molto tempo viaggiando per i Reami Dimenticati, rimanendo raramente a lungo in un solo posto. Si dice che a Berdusk respinse un'armata di orchi invasori, mostrando uno spaventoso potere e una furia tale che i terrorizzati abitanti del posto non sapevano chi temere di più... solo per scomparire nel silenzio senza pretendere una ricompensa. A Westgate giunse come un conquistatore, imponendo brutalmente il suo volere sulla città per poi scomparire misteriosamente mesi dopo, lasciando i suoi stessi uomini sbigottiti alla mercé della folla infuriata. Agiva come un uomo che non conoscesse se stesso e tutti i racconti concordano sul fatto che fosse un'anima tormentata, in bilico tra la vita e la morte, senza mai raggiungerne una. Coloro che lo conoscevano bene, cioè pochi, affermano che il tormentato guerriero a volte maledisse il leggendario <CHARNAME> per avergli dato una seconda occasione... e che a volte lo ringraziasse. Alla fine, scomparse del tutto dai Reami. Si dice che si fosse lanciato all'assalto dello stesso Abisso o che si fosse tolto la vita. In realtà, viaggiò per Kara-Tur per seppellire il suo unico vero amore, la guerriera Tamoko. Non tornò mai più, sebbene le storie su di lui persistano."
 
 #: epilogues.tra:4019
-#, fuzzy
-#| msgid "After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern FaerÃ»n and becoming a common sight in the area of Waterdeep. Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family's estate that he had always desired. Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city. For many years, Valygar's was the name spat by every criminal or slaver who dared to place a foot within the city. Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect. Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect... though most considered the ranger the victor even then. Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married. His only son, the pride of his life, took the lessons of his father to heart. Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride. Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well."
 msgid "After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern Faerun and becoming a common sight in the area of Waterdeep. Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family's estate that he had always desired. Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city. For many years, Valygar's was the name spat by every criminal or slaver who dared to place a foot within the city. Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect. Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect... though most considered the ranger the victor even then. Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married. His only son, the pride of his life, took the lessons of his father to heart. Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride. Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well."
-msgstr "Dopo essersi separato da <CHARNAME>, Valygar continuò le sue avventure per diversi anni, viaggiando nelle selvagge terre a nord di Faerûn e diventando un volto comune nella zona di Waterdeep. In seguito, fu felice di tornare finalmente ad Athkatla e di ritirarsi a una vita tranquilla e contemplativa nella tenuta di famiglia che aveva sempre desiderato. Pressato dagli ammiratori nella nobiltà locale, assunse la carica di Capo Ispettore, una responsabilità che non aveva mai desiderato ma che assunse nel desiderio di combattere la crescente corruzione in città. Per molti anni, Valygar fu il nome maledetto da ogni criminale o schiavista che osasse mettere piede in città. Valygar fu impavido, trasformando le guarnigioni della città in una forza che persino il ladro più sicuro di sé fu costretto a rispettare. Valygar e i Ladri dell’Ombra si scontrarono molte volte, raggiungendo infine una condizione di reciproco rispetto... sebbene molti considerassero il ranger il vero vincitore. Sorprendendo persino se stesso, Valygar ripristinò il buon nome dei Corthala ad Athkatla e si sposò. Il suo unico figlio, l'orgoglio della sua vita, prese a cuore le lezioni del padre. Valygar lo avrebbe visto crescere e diventare il capo degli Stregoni Incappuciati nonché il suo più grande agente di riforme; per una volta nella sua vita, Valygar avrebbe provato orgoglio. Ricordando l'uomo che un tempo era stato, scappato nelle più fitte foreste dell'Amn per il suo retaggio, il ranger fu grato a <CHARNAME> e augurò ogni bene al suo vecchio amico."
+msgstr ""
+"Dopo essersi separato da <CHARNAME>, Valygar continuò le sue avventure per "
+"diversi anni, viaggiando nelle selvagge terre a nord di Faerûn e diventando "
+"un volto comune nella zona di Waterdeep. In seguito, fu felice di tornare "
+"finalmente ad Athkatla e di ritirarsi a una vita tranquilla e contemplativa "
+"nella tenuta di famiglia che aveva sempre desiderato. Pressato dagli "
+"ammiratori nella nobiltà locale, assunse la carica di Capo Ispettore, una "
+"responsabilità che non aveva mai desiderato ma che assunse nel desiderio di "
+"combattere la crescente corruzione in città. Per molti anni, Valygar fu il "
+"nome maledetto da ogni criminale o schiavista che osasse mettere piede in "
+"città. Valygar fu impavido, trasformando le guarnigioni della città in una "
+"forza che persino il ladro più sicuro di sé fu costretto a rispettare. "
+"Valygar e i Ladri dell’Ombra si scontrarono molte volte, raggiungendo infine "
+"una condizione di reciproco rispetto... sebbene molti considerassero il "
+"ranger il vero vincitore. Sorprendendo persino se stesso, Valygar ripristinò "
+"il buon nome dei Corthala ad Athkatla e si sposò. Il suo unico figlio, "
+"l'orgoglio della sua vita, prese a cuore le lezioni del padre. Valygar lo "
+"avrebbe visto crescere e diventare il capo degli Stregoni Incappuciati "
+"nonché il suo più grande agente di riforme; per una volta nella sua vita, "
+"Valygar avrebbe provato orgoglio. Ricordando l'uomo che un tempo era stato, "
+"scappato nelle più fitte foreste dell'Amn per il suo retaggio, il ranger fu "
+"grato a <CHARNAME> e augurò ogni bene al suo vecchio amico."
 
 #: epilogues.tra:4020
 msgid "Viconia traveled only for a short time after parting ways with <CHARNAME>, eventually starting a cult dedicated to Shar within the massive city of Waterdeep. One of her followers would eventually turn against her, precipitating a furious Viconia to slaughter the entire cult, herself. Shar did not forgive Viconia this trespass and removed her abilities. Viconia stubbornly refused to atone, however, and instead left Waterdeep to wander the Realms. The dark elf became known as an enigmatic and powerful figure as tales of her spread... and while it was known she no longer worshipped Shar, it was also known that her clerical powers were still great. Who the dark lady now worshipped, however, was her own secret to keep. She reportedly raised an army against the Vaasan Witch-King, viciously attempting to subvert rule over his Kingdom and only barely being defeated after several military failures. Viconia prevented an attempt by the Knights of the Shield to take over Calimport... only to take over the city herself days later and institute a reign of terror and cruelty which is spoken of even years later in shuddered tones. Viconia abandoned Calimport and, it is said, returned to the Underdark from whence she came. Hers was not a gentle return, however, as Viconia would become a conquering force amongst the drow to give even Lolth pause. Her mettle had been tested by both worlds, Viconia said, and proven herself worthy. She would make the drow strong whereas now they were weak. What eventually became of Viconia is unknown and shrouded in rumor... but it is said that even the great Spider Queen does not rest easily any more."
@@ -1879,16 +1956,49 @@ msgid "Viconia and <CHARNAME> continued their adventuring careers for several ye
 msgstr "Viconia e <CHARNAME> continuarono le loro carriere di avventurieri per diversi anni, guadagnandosi una considerevole fama dopo avere ricoperto ruoli centrali in due guerre che sconvolsero la Costa della Spada. La reputazione di <CHARNAME> nei Reami crebbe notevolmente con il passare del tempo, la sua scura signora sempre al suo fianco. Alla fine, Viconia rimase incinta del figlio di <CHARNAME>, un evento che causò molte discussioni tra la coppia, portandola velocemente ad una separazione. La nascita del figlio di <CHARNAME>, tuttavia, avrebbe cambiato Viconia per sempre. Tornò da <CHARNAME> e lo convinse a sistemarsi definitivamente a Baldur's Gate, dedicando tutta se stessa all'educazione del loro figlio e insegnandogli sia la cultura drow sia quella della gente di <CHARNAME> e meravigliandosi del potere che il ragazzo stava già dimostrando. Provò sempre un'immensa gioia nel vedere gli occhi del bambino su di lei, ma non visse abbastanza per vederlo crescere. Viconia era una potente sacerdotessa immune ai veleni comuni, ma è difficile resistere a quello della vendetta della Regina dei Ragni e nessun luogo è abbastanza lontano per sfuggirle. Avvelenata da un servo della dea Lolth, <CHARNAME> ribollì di furia quando anche le più potenti magie si mostrarono inefficaci nel curare la sua sofferente moglie. Le ultime parole di Viconia furono sussurrate a <CHARNAME>, in privato, prima che morisse e sono sconosciute... ma è ben nota la storia di come <CHARNAME> strinse a sé il corpo della sua scura signora e pianse con l’intera città vicina al suo dolore, soffrendo per la perdita di qualcosa di prezioso che non avevano mai saputo di avere. Il furioso <CHARNAME> lasciò Baldur's Gate e crebbe suo figlio in segreto in un luogo lontano. Le storie su di lui variano. Alcune dicono che iniziò una crociata contro i drow nel Sottosuolo, altre che divenne un eroe nelle lontane terre del Nord... ed altre ancora affermano con certezza che <CHARNAME> mosse guerra contro Lolth stessa nelle Fosse delle Ragnatele Demoniache... ma tutte concordano che il primo figlio di Bhaal fu per sempre cambiato dall'amore per la sua scura signora. E che fu di suo figlio, allevato da due delle più potenti figure nei Reami? Avrebbe forgiato una leggenda capace di competere con quella di suo padre. Questa, tuttavia, è un'altra storia..."
 
 #: epilogues.tra:4023
-#, fuzzy
-#| msgid "Upon returning to Amkethran, Balthazar began to implement changes for the better. He had learned well from his friend and sibling the meaning of the word \"Good\". He carried his guilt with him always, a reminder never to make the same mistakes again. The remaining criminal elements were quickly driven from his outpost, which attracted new settlers and merchants. Over the years, Amkethran grew into a thriving city and the cultural center of the entire region, renown for its peace and compassion. Balthazar was also central in the creation of the Monastic Guard, an elite group of Paladins and Monks that were sworn to protect the common folk from tyranny in any form. His deeds quickly earned him the respect and trust of his people. In Balthazar's advanced years, his work finished, it was said he could be found most often gazing at the night sky and remembering <CHARNAME>. Later, Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep... to give a final thanks for the peace he had found and to see for himself the humble beginnings of a legend."
 msgid "Upon returning to Amkethran, Balthazar began to implement changes for the better. He had learned well from his friend and <PRO_BROTHERSISTER> the meaning of the word \"Good\". He carried his guilt with him always, a reminder never to make the same mistakes again. The remaining criminal elements were quickly driven from his outpost, which attracted new settlers and merchants. Over the years, Amkethran grew into a thriving city and the cultural center of the entire region, renowned for its peace and compassion. Balthazar was also central in the creation of the Monastic Guard, an elite group of Paladins and Monks who were sworn to protect the common folk from tyranny in any form. His deeds quickly earned him the respect and trust of his people. In Balthazar's advanced years, his work finished, it was said he could be found most often gazing at the night sky and remembering <CHARNAME>. Later, Balthazar would leave Amkethran forever on a pilgrimage to Candlekeep... to give a final thanks for the peace he had found and to see for himself the humble beginnings of a legend."
-msgstr "Dopo essere ritornato ad Amkethran, Balthazar iniziò a portare cambiamenti per il meglio. Aveva ben imparato dal suo amico e fratello il significato della parola \"Bontà\". Portò sempre con sé le sue colpe; un ricordo per non ricommettere mai più gli stessi errori. Ciò che ancora rimaneva di criminale fu velocemente estirpato dall'avamposto, il quale attrasse nuovi coloni e mercanti. Con gli anni, Amkethran divenne una città fiorente e il centro culturale dell'intera regione, nota per la sua pace e per la sua compassione verso i poveri. Balthazar fu anche di centrale importanza nella creazione delle Guardia Monastica, un gruppo di paladini e di monaci d'elite che giurò di proteggere il popolo da qualsiasi forma di tirannia. Le sue azioni gli fecero presto guadagnare il rispetto e la fiducia della sua gente. In età avanzata, il suo lavoro finì e si dice che fu spesso trovato ad ammirare il cielo ricordando <CHARNAME>. In seguito, Balthazar lasciò Amkethran per sempre per un pellegrinaggio a Candlekeep… per ringraziarlo un'ultima volta per la pace che aveva trovato e per vedere le umili origini di una leggenda."
+msgstr ""
+"Dopo essere ritornato ad Amkethran, Balthazar iniziò a portare cambiamenti "
+"per il meglio. Aveva ben imparato dal suo amico e fratello il significato "
+"della parola \"Bontà\". Portò sempre con sé le sue colpe; un ricordo per non "
+"ricommettere mai più gli stessi errori. Ciò che ancora rimaneva di criminale "
+"fu velocemente estirpato dall'avamposto, il quale attrasse nuovi coloni e "
+"mercanti. Con gli anni, Amkethran divenne una città fiorente e il centro "
+"culturale dell'intera regione, nota per la sua pace e per la sua compassione "
+"verso i poveri. Balthazar fu anche di centrale importanza nella creazione "
+"delle Guardia Monastica, un gruppo di paladini e di monaci d'elite che giurò "
+"di proteggere il popolo da qualsiasi forma di tirannia. Le sue azioni gli "
+"fecero presto guadagnare il rispetto e la fiducia della sua gente. In età "
+"avanzata, il suo lavoro finì e si dice che fu spesso trovato ad ammirare il "
+"cielo ricordando <CHARNAME>. In seguito, Balthazar lasciò Amkethran per "
+"sempre per un pellegrinaggio a Candlekeep… per ringraziarlo un'ultima volta "
+"per la pace che aveva trovato e per vedere le umili origini di una leggenda."
 
 #: epilogues.tra:4024
-#, fuzzy
-#| msgid "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambiton, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death."
 msgid "Bodhi had tasted godlike power in the form of <CHARNAME>'s soul. As the last vestiges of it faded with time, she began to desire more, slipping into bitter hatred as it became her obsession to reach such heights again. People up and down the Sword Coast came to know fear as Bodhi bathed in their blood, sating her thirst for chaos and death. Villages began to leave people bound by the road as an offering to the thing that stalked the night. Her name became a byword for terror, with temples far and wide trying in vain to hunt her down. Many a mighty cleric was later found drained of blood, agony etched across their pallid features. Over time Bodhi felt the icy grip of the curse tighten its hold on her. Desperation mixed with fear clawed at the very fibre of her being. Desire for chaos faded and she fought to survive once more. Ambition, which had once prompted her to whisper dreams of power into the ear of her brother, now brought her back to the place she had long ago called home, Suldanessellar. It was at the gates that Ellesime met her. At the gates that Bodhi danced one last time. Revenge burned bright in both of them, and it called out for blood. The power of the Tree of Life drove Bodhi on, and the memory of Joneleth cried out to Ellesime. The two embraced, and it was revenge that was destined to be the victor, even as a stake pierced the still black heart of Bodhi, one who was as damned in life as she was in death."
-msgstr "Bodhi aveva assaporato il potere divino con l'anima di <CHARNAME>. Col tempo, le ultime tracce di quel potere svanirono ed ella iniziò a desiderarne ancora, scivolando in un odio più aspro quando raggiungere nuovamente una simile vetta divenne la sua ossessione. La gente di tutta la Costa della Spada conobbe la paura quando Bodhi iniziò a bagnarsi nel loro sangue, saziando la sua sete di caos e di morte. I villaggi iniziarono a lasciare gente legata al di fuori delle mura come offerta per la cosa che si aggirava di notte. Il suo nome divenne sinonimo di terrore, con templi di ogni luogo che cercarono invano di stanarla. Molti potenti sacerdoti furono trovati senza una goccia di sangue, con il terrore impresso nei loro pallidi volti. Con il trascorrere del tempo, Bodhi sentì stringere su di sé il gelido morso della sua maledizione. Disperazione mista a paura dilaniarono la stessa fibra del suo essere. Il desiderio di caos scemò e combatté di nuovo per sopravvivere. L'ambizione, che un tempo le aveva fatto sussurrare sogni di potere nelle orecchie del fratello, adesso la stava riportando al luogo che una volta era solita chiamare casa, Suldanessellar. Fu ai cancelli che Ellesime la incontrò. Fu ai cancelli che Bodhi danzò per l'ultima volta. La vendetta bruciava intensamente in entrambe e pretese sangue. Il potere dell'Albero della Vita mosse Bodhi e la memoria di Joneleth uscì ad alta voce da Ellesime. Le due si abbracciarono, poiché era destino che fosse la vendetta a vincere, anche quando un paletto perforò il nero cuore di Bodhi, colei che fu dannata tanto in vita quanto nella morte."
+msgstr ""
+"Bodhi aveva assaporato il potere divino con l'anima di <CHARNAME>. Col "
+"tempo, le ultime tracce di quel potere svanirono ed ella iniziò a "
+"desiderarne ancora, scivolando in un odio più aspro quando raggiungere "
+"nuovamente una simile vetta divenne la sua ossessione. La gente di tutta la "
+"Costa della Spada conobbe la paura quando Bodhi iniziò a bagnarsi nel loro "
+"sangue, saziando la sua sete di caos e di morte. I villaggi iniziarono a "
+"lasciare gente legata al di fuori delle mura come offerta per la cosa che si "
+"aggirava di notte. Il suo nome divenne sinonimo di terrore, con templi di "
+"ogni luogo che cercarono invano di stanarla. Molti potenti sacerdoti furono "
+"trovati senza una goccia di sangue, con il terrore impresso nei loro pallidi "
+"volti. Con il trascorrere del tempo, Bodhi sentì stringere su di sé il "
+"gelido morso della sua maledizione. Disperazione mista a paura dilaniarono "
+"la stessa fibra del suo essere. Il desiderio di caos scemò e combatté di "
+"nuovo per sopravvivere. L'ambizione, che un tempo le aveva fatto sussurrare "
+"sogni di potere nelle orecchie del fratello, adesso la stava riportando al "
+"luogo che una volta era solita chiamare casa, Suldanessellar. Fu ai cancelli "
+"che Ellesime la incontrò. Fu ai cancelli che Bodhi danzò per l'ultima volta. "
+"La vendetta bruciava intensamente in entrambe e pretese sangue. Il potere "
+"dell'Albero della Vita mosse Bodhi e la memoria di Joneleth uscì ad alta "
+"voce da Ellesime. Le due si abbracciarono, poiché era destino che fosse la "
+"vendetta a vincere, anche quando un paletto perforò il nero cuore di Bodhi, "
+"colei che fu dannata tanto in vita quanto nella morte."
 
 #: imoen_after.tra:477
 msgid "It... it's gone... I'm human again. Ohhhh, now I know what you went through, <CHARNAME>! I don't know if I ever want to go through that again!"
@@ -2159,10 +2269,13 @@ msgid "You think to betray me, Bodhi? Foolish girl. Melissan is the one who hold
 msgstr "Pensi di tradirmi, Bodhi? Stupida ragazza. Melissan è colei che detiene il potere qui e tu speri di trovare aiuto ai piedi di quello sciocco ragazzo? Stai al mio fianco o muori con lui!"
 
 #: iren_bodhi.tra:456
-#, fuzzy
-#| msgid "So my ungrateful sister, you finally stand by my side. I shall deal with your treachery afterwards. As for you, <CHARNAME>, Mellisan has granted me the power to rip the divinity from your body. The first thing I shall feel in an eon shall be pleasure as I watch your corpse turn to dust."
 msgid "So my ungrateful sister, you finally stand by my side. I shall deal with your treachery afterwards. As for you, <CHARNAME>, Melissan has granted me the power to rip the divinity from your body. The first thing I shall feel in an eon shall be pleasure as I watch your corpse turn to dust."
-msgstr "Quindi, mia ingrata sorella, alla fine stai al mio fianco. Parleremo della tua slealtà in seguito. Quanto a te, <CHARNAME>, Melissan mi ha concesso il potere di strappare la tua essenza divina dal tuo corpo. La prima cosa che proverò in un eone sarà il piacere di vedere il tuo corpo trasformarsi in polvere."
+msgstr ""
+"Quindi, mia ingrata sorella, alla fine stai al mio fianco. Parleremo della "
+"tua slealtà in seguito. Quanto a te, <CHARNAME>, Melissan mi ha concesso il "
+"potere di strappare la tua essenza divina dal tuo corpo. La prima cosa che "
+"proverò in un eone sarà il piacere di vedere il tuo corpo trasformarsi in "
+"polvere."
 
 #: iren_bodhi.tra:457
 msgid "I see. So you leave me, sister, just as *she* left me."
@@ -2313,11 +2426,8 @@ msgid "You're collecting my leavings, Melissan? How very sad for you."
 msgstr "Stai radunando i miei avanzi, Melissan? Che tristezza."
 
 #: mel_iren_imoen.tra:470
-#, fuzzy
-#| msgctxt "IMOEN18"
-#| msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
 msgid "Nnngh! Ah, it hurts! <CHARNAME>, stop her... it... it hurts!"
-msgstr "Nnngh! Ah, fa male! <CHARNAME>, fermala... Fa... fa male!"
+msgstr "Nnngh! Ah, fa male! <CHARNAME>, fermala... fa... fa male!"
 
 #: mel_iren_imoen.tra:471
 msgid "What are you doing to her?! Stop it, I demand it!"
@@ -2344,11 +2454,12 @@ msgid "I'm not going anywhere with you! And nobody's touching my soul! Not again
 msgstr "Non andrò da nessuna parte con te! E nessuno toccherà la mia anima! Non di nuovo!"
 
 #: mel_iren_imoen.tra:597
-#, fuzzy
-#| msgctxt "FINMEL25"
-#| msgid "Bah! I should not be wasting time on you. I still have to absorb the Bhaalspawn essences... and there is more than enough power in this plane to keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> dares to oppose while I take what is mine!"
 msgid "Bah! I should not be wasting time on you. I still have to absorb the Bhaalspawn essences... and there is more than enough power in this plane to keep you busy. Irenicus... Imoen... show <CHARNAME> the power <PRO_HESHE> dares to oppose while I take what is mine!"
-msgstr "Bah! Non dovrei sprecare tempo con te. Devo ancora assorbire l'essenza delle progenie di Bhaal... e c'è abbastanza potere in questo posto per tenerti occupato. Irenicus... Imoen... mostrate a <CHARNAME> il potere a cui osa opporsi mentre io prendo ciò che è mio!"
+msgstr ""
+"Bah! Non dovrei sprecare tempo con te. Devo ancora assorbire l'essenza delle "
+"progenie di Bhaal... e c'è abbastanza potere in questo posto per tenerti "
+"occupato. Irenicus... Imoen... mostrate a <CHARNAME> il potere a cui osa "
+"opporsi mentre io prendo ciò che è mio!"
 
 #: mel_iren_imoen.tra:607
 msgid "Irenicus, I believe you called him. So easily culled as my own, since you abandoned him here recently... and such a valuable source of information on you, <CHARNAME>. After all... I believe you did share a soul, once, no? Say hello to the dear <PRO_MANWOMAN>, Irenicus."
@@ -2375,20 +2486,23 @@ msgid "There, there, Imoen. I command the essence within you. Let's see just how
 msgstr "Ecco qui, Imoen. Controllo l'essenza dentro di te. Vediamo quanto del mio potere c'è in te?"
 
 #: pool_banter.tra:91
-#, fuzzy
-#| msgid "Goodbye, brother. Your self-destructive ways have cost you dearly. You were a fool to oppose such power and I will not suffer in the abyss with you this time."
 msgid "Goodbye, brother. Your self-destructive ways have cost you dearly. You were a fool to oppose such power and I will not suffer in the Abyss with you this time."
-msgstr "Arrivederci, fratello. I tuoi modi autodistruttivi ti sono costati cari. Sei stato un pazzo ad opporti a un tale potere e questa volta non soffrirò nell'abisso con te."
+msgstr ""
+"Arrivederci, fratello. I tuoi modi autodistruttivi ti sono costati cari. Sei "
+"stato un pazzo ad opporti a un tale potere e questa volta non soffrirò "
+"nell'Abisso con te."
 
 #: pool_banter.tra:92
 msgid "It would seem our prey intends to cower inside the magics of this place, <CHARNAME>. I have no patience for her games. I will have my soul!"
 msgstr "Sembrerebbe che la nostra preda intenda rannicchiarsi dentro le magie di questo posto, <CHARNAME>. Non ho pazienza per i suoi giochi. Avrò la mia anima!"
 
 #: pool_banter.tra:93
-#, fuzzy
-#| msgid "These pools around us have the stench of magic, if we sever their connection to Melissan she will be forced to confront us. This is the realm of all bhaalspawn, <CHARNAME>, your blood will serve you well."
 msgid "These pools around us have the stench of magic, if we sever their connection to Melissan she will be forced to confront us. This is the realm of all Bhaalspawn, <CHARNAME> - your blood will serve you well."
-msgstr "Queste pozze intorno a noi hanno il fetore della magia. Se interrompiamo la loro connessione con Melissan, lei sarà costretta ad affrontarci. Questo è il regno di tutte le progenie di Bhaal, <CHARNAME>, il tuo sangue ti servirà bene."
+msgstr ""
+"Queste pozze intorno a noi hanno il fetore della magia. Se interrompiamo la "
+"loro connessione con Melissan, lei sarà costretta ad affrontarci. Questo è "
+"il regno di tutte le progenie di Bhaal, <CHARNAME>, il tuo sangue ti servirà "
+"bene."
 
 #: pool_banter.tra:396
 msgid "With the initial battle now over, you consider your options. In the stream of energy within the center of the Throne, Melissan appears to be invulnerable to harm... and growing in power every second. She must be drawn out willingly in order to defeat her."
@@ -2455,11 +2569,6 @@ msgid "You place your hand within the energies of the pool and draw the essence 
 msgstr "Metti la mano nel vortice di energia nella pozza e attiri l'essenza verso di te, deviandola da Melissan. Un potere smisurato ti riempe per poco. Sebbene la maggior parte di esso ti lasci e scompaia nel cosmo, un parte di esso rimane con te. Hai ottenuto l'abilità di focalizzare l'energia dentro di te per proteggerti da incantesimi come Fermare il Tempo, Disintegrazione e Carne in Pietra per un breve periodo di tempo. L'energia ripristina anche le forze di tutti i presenti."
 
 #: pool_powers.tra:9
-#, fuzzy
-#| msgid ""
-#| "New power gained: \"Focus\"\n"
-#| "\n"
-#| "This ability allows the Bhaalspawn to focus his energy within him to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute."
 msgid ""
 "New power gained: \"Focus\"\n"
 "\n"
@@ -2467,7 +2576,12 @@ msgid ""
 msgstr ""
 "Ottenuto Nuovo Potere: \"Focalizzare\"\n"
 "\n"
-"Questa abilità permette alla progenie di Bhaal di focalizzare l'energia dentro di sé per resistere agli effetti degli incantesimi ostili. Per 30 secondi, il figlio di Bhaal diventa immune agli incantesimi Carne in Pietra, Disintegrazione e Fermare il Tempo. Tutti gli incantesimi minori dal 1° al 3° livello non avranno inoltre effetto sulla progenie di Bhaal. Questa abilità è utilizzabile una volta al minuto."
+"Questa abilità permette alla progenie di Bhaal di focalizzare l'energia "
+"dentro di sé per resistere agli effetti degli incantesimi ostili. Per 30 "
+"secondi, la progenie di Bhaal diventa immune agli incantesimi Carne in "
+"Pietra, Disintegrazione e Fermare il Tempo. Tutti gli incantesimi minori dal "
+"1° al 3° livello non avranno inoltre effetto sulla progenie di Bhaal. Questa "
+"abilità è utilizzabile una volta al minuto."
 
 #: pool_powers.tra:10
 msgid "The final pool has been stilled. The light of the energy column has begun to ebb. You have only moments to prepare for what is surely the final confrontation..."
@@ -2498,36 +2612,42 @@ msgid "Cannot install without Ascension main component."
 msgstr "Non può essere installato senza il componente principale di Ascension."
 
 #: setup.tra:101003
-#, fuzzy
-#| msgid "You must have ToB installed or use Enhanced Edition to install the Ascension mod."
 msgid "You must have BG2Fixpack installed or use Enhanced Edition to install this version of the Ascension mod."
-msgstr "Devi avere installato ToB o utilizzare l'EE per istallare Ascension."
+msgstr ""
+"Devi avere installato BG2Fixpack o utilizzare l'EE per installare questa "
+"versione di Ascension."
 
 #: setup.tra:101004
 msgid "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell Revisions, install Ascension, then reinstall Spell Revisions."
 msgstr ""
+"Ascension deve essere installato PRIMA di Spell Revisions. Disistalla Spell "
+"Revisions, installa Ascension e, infine, reinstalla Spell Revisions."
 
 #: setup.tra:101005
 msgid "Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems."
 msgstr ""
+"Ascension deve essere installato PRIMA di Sword Coast Stratagems. Disistalla "
+"Sword Coast Stratagems, installa Ascension e, infine, reinstalla Sword Coast "
+"Stratagems."
 
 #: setup.tra:101006
 msgid "Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of Prophecy, install Ascension, then reinstall Wheels of Prophecy."
 msgstr ""
+"Ascension deve essere installato PRIMA di Wheels of Prophecy. Disistalla "
+"Wheels of Prophecy, installa Ascension e, infine, reinstalla Wheels of "
+"Prophecy."
 
 #: setup.tra:102000
 msgid "Tougher Throne of Bhaal battles"
-msgstr ""
+msgstr "Battaglie di Throne of Bhaal più Difficili"
 
 #: setup.tra:102100
 msgid "Tougher Abazigal"
 msgstr "Abazigal Potenziato"
 
 #: setup.tra:102200
-#, fuzzy
-#| msgid "Tougher Gromnir"
 msgid "Tougher Demogorgon"
-msgstr "Gromnir Potenziato"
+msgstr "Demogorgon Potenziato"
 
 #: setup.tra:102300
 msgid "Tougher Gromnir"
@@ -2542,72 +2662,68 @@ msgid "Tougher Yaga-Shura"
 msgstr "Yaga-Shura Potenziato"
 
 #: setup.tra:102600
-#, fuzzy
-#| msgid "Tougher Abazigal"
 msgid "Tougher Balthazar"
-msgstr "Abazigal Potenziato"
+msgstr "Balthazar Potenziato"
 
 #: setup.tra:103000
 msgid "Additional Content (not part of original Ascension mod)"
 msgstr ""
+"Contenuto Addizionale (non fa parte del contenuto originale di Ascension)"
 
 #: setup.tra:103010
 msgid "Full-body portrait for Bodhi"
-msgstr ""
+msgstr "Ritratto a corpo intero di Bodhi"
 
 #: setup.tra:103020
 msgid "Alternate Balthazar portrait, by Cuv"
-msgstr ""
+msgstr "Ritratto Alternativo di Balthazar, di Cuv"
 
 #: setup.tra:104000
-#, fuzzy
-#| msgid "Restored Bhaalspawn Powers by David Gaider"
 msgid "Restored Bhaalspawn Powers"
-msgstr "Potere della Progenie di Bhaal Ripristinati by David Gaider"
+msgstr "Poteri della Progenie di Bhaal Ripristinati"
 
 #: setup.tra:104001
 msgid "Rewritten Final Chapter of Throne of Bhaal"
-msgstr ""
+msgstr "Capitolo Finale di Throne of Bhaal Riscritto"
 
 #: setup.tra:104002
 msgid "Improved Sarevok-Player Interactions"
-msgstr ""
+msgstr "Interazioni Migliorate tra Sarevok e il Personaggio Principale"
 
 #: setup.tra:104003
 msgid "Improved Imoen-Player Interactions in Throne of Bhaal"
 msgstr ""
+"Interazioni Migliorate tra Imoen e il Personaggio Principale in Thone of "
+"Bhaal"
 
 #: setup.tra:104004
-#, fuzzy
-#| msgid "Extended Epilogues for original Bioware NPCs by shawne"
 msgid "Expanded Epilogues for Bioware NPCs"
-msgstr "Epilogo Esteso per NPC Originali"
+msgstr "Epiloghi Estesi per PNG Bioware"
 
 #: setup.tra:104005
 msgid "David Gaider's expanded epilogues for Bioware NPCs"
-msgstr ""
+msgstr "Epiloghi estesi per PNG Bioware, di David Gaider"
 
 #: setup.tra:104006
 msgid "Alternate epilogues by Shawne"
-msgstr ""
+msgstr "Epilogi alternativi, di Shawne"
 
 #: setup.tra:104009
 msgid "Balthazar can be redeemed"
-msgstr ""
+msgstr "Balthazar si può redimere"
 
 #: setup.tra:104010
 msgid "Improved Slayer Transformation"
-msgstr ""
+msgstr "Trasformazione dell'Uccisore Migliorata"
 
 #: setup.tra:105200
-#, fuzzy
-#| msgid "Extended Epilogues for additional Beamdog NPCs by shawne"
 msgid "Extended Epilogues for additional Beamdog NPCs, by shawne"
-msgstr "Epilogo Esteso per Nuovi NPC Beamdog"
+msgstr "Epilogo Esteso per Nuovi PNG Beamdog, di shawne"
 
 #: setup.tra:105210
 msgid "Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by DavidW"
 msgstr ""
+"Ritratti più nitidi di Abazigal e Gromnir per la Enhanced Edition, di DavidW"
 
 #: setup.tra:105220
 msgid "This component is only for BG2:EE or EET"
@@ -2615,18 +2731,42 @@ msgstr "Questo componente è solo per BG2:EE o EET"
 
 #: setup.tra:105230
 msgid "Slightly improved cutscenes, by DavidW"
-msgstr ""
+msgstr "Scene finali leggermente migliorate, di DavidW"
 
 #: shawnesepilogues.tra:4001
-#, fuzzy
 msgid "Driven to oppose slavery in all its forms, Aerie continued adventuring after leaving <CHARNAME>'s side. She made several attempts to gather a larger group around her, as <CHARNAME> had done, but each time the company would collapse into infighting and betrayal. Aerie's compassion had grown tainted by her need for vengeance, and she could neither command nor inspire loyalty in others. She might have lost herself entirely, had she not stumbled across a group of avariel slaves in Cormyr. Upon their release, they guided Aerie back to Faenya-Dail, the home she had been stolen from. She learned much during her stay, and came to understand that she was no longer truly an avariel, at last accepting the loss of her wings. Aerie eventually became a high priestess in Understone, a gnomish village her mentor Quayle had often spoken of. He had been her true family, and it was among his people that she finally found peace."
-msgstr "Spinta ad opporsi alla schiavitù in tutte le sue forme, Aerie ha continuato ad avventurarsi dopo aver lasciato il fianco di <CHARNAME>. Ha compiuto diversi tentativi di riunire una compagnia più ampia intorno a lei, come aveva fatto <CHARNAME>, ma ogni volta la compagnia si è sciolta  a causa di lotte intestine e tradimenti. La compassione di Aerie è stata macchiata dal suo bisogno di vendetta e lei non poteva né comandare né ispirare la lealtà negli altri. Si sarebbe potuta perdere completamente, se non fosse inciampata in un gruppo di schiavi avariel a Cormyr. Al loro rilascio, hanno guidato Aerie di nuovo a Faenya-Dail, la casa da cui era stata rapita. Ha imparato molto durante la sua permanenza e ha capito che non era più una vera necessità, accettando finalmente la perdita delle sue ali. Aerie divenne infine un'alta sacerdotessa in Understone, un villaggio gnomico di cui il suo mentore, Quayle, aveva spesso parlato. Era stato la sua vera famiglia, ed è stato tra la sua gente che finalmente ha trovato la pace."
+msgstr ""
+"Spinta ad opporsi alla schiavitù in tutte le sue forme, Aerie ha continuato "
+"ad avventurarsi dopo aver lasciato il fianco di <CHARNAME>. Ha compiuto "
+"diversi tentativi di riunire una compagnia più ampia intorno a lei, come "
+"aveva fatto <CHARNAME>, ma ogni volta la compagnia si è sciolta  a causa di "
+"lotte intestine e tradimenti. La compassione di Aerie è stata macchiata dal "
+"suo bisogno di vendetta e lei non poteva né comandare né ispirare la lealtà "
+"negli altri. Si sarebbe potuta perdere completamente, se non fosse "
+"inciampata in un gruppo di schiavi avariel a Cormyr. Al loro rilascio, hanno "
+"guidato Aerie di nuovo a Faenya-Dail, la casa da cui era stata rapita. Ha "
+"imparato molto durante la sua permanenza e ha capito che non era più una "
+"vera necessità, accettando finalmente la perdita delle sue ali. Aerie "
+"divenne infine un'alta sacerdotessa in Understone, un villaggio gnomico di "
+"cui il suo mentore, Quayle, aveva spesso parlato. Era stato la sua vera "
+"famiglia, ed è stato tra la sua gente che finalmente ha trovato la pace."
 
 #: shawnesepilogues.tra:4002
-#, fuzzy
-#| msgid "Aerie and <CHARNAME> would prove inseparable, journeying together with their wide-eyed son always in tow. Before long, little Quayle had a sister with whom to share the delights of his parents' exploits. The family's later years would hold one last great trek, however, as Aerie was still tormented by memories of her enslavement and the loss of her wings. She and <CHARNAME> sought out her people, the winged avariel of Faenya-Dail, and there they found not only a warm welcome but Aerie’s loving parents, who had never given up hope of finding their child. With the pain of their respective pasts laid to rest, it was there among the clouds that Aerie and <CHARNAME> were finally married. It is said that their union was blessed by both Aerdrie Faenya and Baervan Wildwanderer."
 msgid "Aerie and <CHARNAME> would prove inseparable, journeying together with their wide-eyed son always in tow. Before long, little Quayle had a sister with whom to share the delights of his parents' exploits. The family's later years would hold one last great trek, however, as Aerie was still tormented by memories of her enslavement and the loss of her wings. She and <CHARNAME> sought out her people, the winged avariel of Faenya-Dail, and there they found not only a warm welcome but Aerie's loving parents, who had never given up hope of finding their child. With the pain of their respective pasts laid to rest, it was there among the clouds that Aerie and <CHARNAME> were finally married. It is said that their union was blessed by both Aerdrie Faenya and Baervan Wildwanderer."
-msgstr "Aerie e <CHARNAME> diventeranno inseparabili, le loro carriere di avventurieri lasceranno il posto alle cure di un figlio e, alla fine, anche di una figlia. E tuttavia nei loro ultimi anni intraprenderanno un ultimo grande viaggio, spinti dal fatto che Aerie non è ancora riuscita a superare lo sconforto dovuto al tempo in cui fu costretta in schiavitù e alla perdita delle sue ali. Aerie e  <CHARNAME> andranno pertanto alla ricerca degli Avariel di Faenya-Dail, gli elfi alati a cui Aerie fu sottratta lungo tempo addietro. Non solo troveranno il suo popolo, ma anche i suoi affettuosi genitori che avevano trascorso anni e anni nell'affannosa ricerca della loro bimba sperduta. Senza più ombre di mistero o confusione ad oscurare la loro vita, proprio in quel luogo, tra le nuvole, Aerie e <CHARNAME> infine si sposeranno. La loro unione, così si racconta, è stata benedetta dalle apparizioni di Aerdrie Faenya e Baervan Wildwanderer."
+msgstr ""
+"Aerie e <CHARNAME> diventeranno inseparabili, le loro carriere di "
+"avventurieri lasceranno il posto alle cure di un figlio e, alla fine, anche "
+"di una figlia. E tuttavia nei loro ultimi anni intraprenderanno un ultimo "
+"grande viaggio, spinti dal fatto che Aerie non è ancora riuscita a superare "
+"lo sconforto dovuto al tempo in cui fu costretta in schiavitù e alla perdita "
+"delle sue ali. Aerie e  <CHARNAME> andranno pertanto alla ricerca degli "
+"Avariel di Faenya-Dail, gli elfi alati a cui Aerie fu sottratta lungo tempo "
+"addietro. Non solo troveranno il suo popolo, ma anche i suoi affettuosi "
+"genitori che avevano trascorso anni e anni nell'affannosa ricerca della loro "
+"bimba sperduta. Senza più ombre di mistero o confusione ad oscurare la loro "
+"vita, proprio in quel luogo, tra le nuvole, Aerie e <CHARNAME> infine si "
+"sposeranno. La loro unione, così si racconta, è stata benedetta dalle "
+"apparizioni di Aerdrie Faenya e Baervan Wildwanderer."
 
 #: shawnesepilogues.tra:4003
 msgid "Though they had gone their separate ways, Anomen Delryn's time with <CHARNAME> still weighed heavily on his soul. He had witnessed the power of a dark god's taint firsthand, and his faith in Helm was shaken. For years, Anomen traveled without aim, until he reached the borders of Maztica. This was during the revolt of Yamash, an evil cleric who had summoned a conquering horde of demons to ravage the land. Anomen was drawn into the conflict, and did what he could to organize the besieged Maztican soldiers. But in training them, he spoke of duty and the role a guardian must play: he was teaching the doctrine of Helm, and understanding it more clearly than he ever had. In the battle that followed, Anomen sought out Yamash and faced him in single combat. He did not falter, and Maztica was saved. To this day, the Disciples of Anomen watch over the land."
@@ -2942,7 +3082,7 @@ msgstr "Sei una sciocca, Melissan. Avresti dovuto tenere quell'energia divina pe
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
-msgstr ""
+msgstr "Chierico Yaga-Shura"
 
 #, fuzzy
 #~| msgid "After parting ways with <CHARNAME>, Valygar continued his adventures for several years, traveling in the wilds of northern FaerÃ»n and becoming a common sight in the area of Waterdeep. Later he was content to finally return to Athkatla and retire to the quiet, contemplative life at his family's estate that he had always desired. Pressure from admirers within the local nobility saw him taking up the mantle of Chief Inspector, a responsibility he never desired but took on willingly to combat the growing corruption within the city. For many years, Valygar's was the name spat by every criminal or slaver who dared to place a foot within the city. Valygar was dauntless, turning the city garrison into a force even the most self-confident thief had to respect. Valygar and the Shadow Thieves sparred many times, eventually reaching a point of mutual respect... though most considered the ranger the victor even then. Surprising even himself, Valygar eventually restored the good name of the Corthalas in Athkatla and even married. His only son, the pride of his life, took the lessons of his father to heart. Valygar would watch him go on to become the head of the Cowled Wizards and its greatest agent of reform, and for once in his life Valygar would know pride. Remembering the man that he had once been, fleeing his history into the deepest woods of Amn, the ranger would be thankful that <CHARNAME> had entered his life and forever wish his old friend well."
