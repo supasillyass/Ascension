@@ -3,15 +3,15 @@
 @1006 = ~Onda d'Urto~
 @1007 = ~Aura Elettrica~
 @1009 = ~Telecinesi~
-@1012 = ~Cambio di Resistenze~
-@1013 = ~Controlla Demone~
+@1012 = ~Inversione di Resistenze~
+@1013 = ~Controllare Demone~
 @1014 = ~Focalizzare~
 @1016 = ~Manto Divino~
 @1017 = ~Poter Attinto~
 @1018 = ~Scudo Anti-incantesimi Divino~
 @1019 = ~Comanda Demone~
 @1020 = ~Scaccia~
-@1022 = ~Sprigiona~
+@1022 = ~Scatenare il Potere~
 @1024 = ~Reazione~
 @1025 = ~Ristorare Divino~
 @1026 = ~Purificare Divino~
@@ -20,36 +20,36 @@
 @1031 = ~Simbolo di Lentezza~
 @1037 = ~Cambiamento del Distruttore~
 @1038 = ~Melissan: Comanda i Tirapiedi dell'Abisso~
-@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
-@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
-@1041 = ~Transfixed~
-@1042 = ~Weapons weakened by Babau slime~
-@1043 = ~Grabbed~
-@1044 = ~Regains Bhaal powers~
-@1045 = ~You have regained control for now.~
-@1046 = ~Magic Resistance lowered by 5%~
-@1047 = ~Magic Resistance lowered by 5%~
-@1048 = ~Slayer transformation enhanced~
-@1049 = ~The demon bows to your will~
-@1050 = ~The demon defies your will~
-@1051 = ~This power only affects demons~
-@1052 = ~The demon bows to Melissan's will~
-@1053 = ~The demon defies Melissan's will~
-@1054 = ~Bhaalspawn Power gained: Unleash~
-@1055 = ~Bhaalspawn Power gained: immunity to death magic~
-@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
-@1057 = ~Bhaalspawn Power gained: Dimension Door~
-@1058 = ~Bhaalspawn Power gained: Control Demons~
-@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
-@1060 = ~Bhaalspawn Power gained: Focus~
-@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Manto Divino~
-@1063 = ~Magic Resistance Restored~
-@1064 = ~Antimagic Protections Removed~
-@1065 = ~Combat Protections Removed~
-@1066 = ~AI deactivated~
-@1067 = ~AI activated~
-@1068 = ~Lunar Malison~
+@1039 = ~Poteri della progenie di Bhaal Ottenuto: Immunità al Risucchio di Energia~
+@1040 = ~Poteri della progenie di Bhaal Ottenuto: Resistenza al Danno Fisico +25%~
+@1041 = ~Folgorato~ ~Folgorata~
+@1042 = ~Armi indebolite dalla fanghiglia di Babau~
+@1043 = ~Afferrato~ ~Afferrata~
+@1044 = ~Poteri di Bhaal riacquisiti~
+@1045 = ~Hai riacquisito il controllo per adesso.~
+@1046 = ~Resistenza alla Magia Abbassata del 5%~
+@1047 = ~Resistenza alla Magia Abbassata del 5%~
+@1048 = ~Trasformazione dell'Uccisore migliorata~
+@1049 = ~Il demone s'inchina al tuo volere~
+@1050 = ~Il demone si ribella al tuo volere~
+@1051 = ~Il potere ha effetti solo sui demoni~
+@1052 = ~Il demone s'inchina al volere di Melissan~
+@1053 = ~Il demone si ribella al volere di Melissan~
+@1054 = ~Potere della Progenie di Bhaal Ottenuto: Rilascio~
+@1055 = ~Potere della Progenie di Bhaal Ottenuto: Immunità alla magia della morte~
+@1056 = ~Potere della Progenie di Bhaal Ottenuto: Immunità agli effetti vorpal~
+@1057 = ~Potere della Progenie di Bhaal Ottenuto: Porta dimensionale~
+@1058 = ~Potere della Progenie di Bhaal Ottenuto: Controllo sui demoni~
+@1059 = ~Potere della Progenie di Bhaal Ottenuto: Immunità a LAbirinto e Imprigionare~
+@1060 = ~Potere della Progenie di Bhaal Ottenuto: Focalizzazione~
+@1061 = ~Potere della Progenie di Bhaal Ottenuto: Immuinità a Marchio dell'Uccisore~
+@1062 = ~Dono Divino~
+@1063 = ~Resistenza alla Magia Ripristinata~
+@1064 = ~Protezioni dalla Magia Rimosse~
+@1065 = ~Protezioni di Combattimento Rimosse~
+@1066 = ~IA disattivata~
+@1067 = ~IA attivata~
+@1068 = ~Penalità Lunare~
 @2000 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
@@ -75,7 +75,7 @@ Tempo di lancio: 7
 Area d'effetto: 1 creatura
 Tiro-salvezza: Nessuno
 
-Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round.~
+Questa potente abilità consente alla progenie di Bhaal di conferire a una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round.~
 @2002 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
@@ -147,7 +147,7 @@ Come l'incantesimo di 5° livello Rianimare Morti, Resurrezione riporta in vita u
 @2007 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito una resistenza pari al 25% ai danni fisici (tagliente, perforante, contundente e da proiettile).~
-@2008 = ~Slayer Change ability improved~
+@2008 = ~Trasformazione dell'Uccisore migliorata~
 @3000 = ~Spada del Caos di Sarevok~
 @3001 = ~La spada di Sarevok, il fratello di <CHARNAME>, usata nella battaglia combattuta nella lontana Baldur's Gate. <CHARNAME> prevalse, distruggendo i piani di Sarevok e salvando la Costa della Spada dal baratro della guerra. Ora Sarevok si è unito alla causa di <CHARNAME> e la sua lama gli è stata riconsegnata. Sarevok la descrive come l'arma di un Latore di Morte e ha ripristinato alcuni dei precedenti poteri della spada. Tuttavia, senza la sua essenza di progenie di Bhaal che scorre nella lama, non può raggiungere il potere che un tempo aveva. Resta comunque un'arma formidabile... una che secondo Sarevok sarebbe difficile da brandire da chi non è mai stato un Latore di Morte, se non del tutto impossibile.
 

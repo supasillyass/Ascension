@@ -1,19 +1,11 @@
-@1 = ~Imoen è Sopravissuta
-
-Imoen è riuscita a sopravvivere al tentativo di Melissan di costringerla a trasformarsi nell'Uccisore. Nel fare ciò, sembra che Imoen abbia compiuto progressi considerevoli nella sua corruzione. Adesso non solo è capace di trasformarsi nello stesso Uccisore che ho sperimentato per la prima volta a Spellhold... ma ha anche guadagnato l'abilità di diventare eterea per brevi periodi di tempo.
-
-Eterea
+@1 = ~Eterea
 -------------
 Imoen è ora in grado di entrare nel Piano Etereo per brevi periodi di tempo. L'abilità è utilizzabile una volta ogni minuto e il suo uso evita anche la sua trasformazione nell'Uccisore per un minuto. Imoen può rimanere totalmente eterea e immateriale per le forze su questo piano per un round intero... durante il quale è invisibile e completamente immune al danno. Durante il round, non può lanciare incantesimi o usare abilità.
 Per i due successivi round, Imoen può rimanere "tra i piani": è in parte eterea, in parte su questo piano. È ancora invisibile, ma riceve metà dei danni da tutte le fonti. In questo stato, c'è una piccola possibilità (10%) che sbagli il lancio di un incantesimo. Per tutti e tre i round, è in grado di vedere qualsiasi creatura invisibile.~
-@6 = ~End Slayer Change
+@6 = ~Fine Cambiamento in Uccisore
 
-This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Poteri della progenie di Bhaal
-
-<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
-
-Rigenerazione
+Questa abilità consente a Imoen di annullare la sua trasformazione e tornare alla sua solita forma.~
+@7 = ~Rigenerazione
 (Necromanzia)
 Raggio d'azione: Tocco
 Durata: 1 round ogni 2 livelli
@@ -22,11 +14,7 @@ Area d'effetto: 1 creatura
 Tiro-salvezza: Nessuno
 
 Questa potente abilità consente alla progenie di Bhaal di conferire ad una creatura l'abilità di rigenerare. Il processo di rigenerazione guarirà ogni ferita e farà persino ricrescere gli arti perduti. La creatura bersaglio recupera 3 Punti Ferita al secondo. L'effetto dura 1 round ogni 2 livelli del lanciatore o finché non viene dissolto. Ad esempio: un personaggio di 14° livello potrebbe rigenerare 18 Punti Ferita a round per 7 round.~
-@8 = ~Poteri della progenie di Bhaal
-
-<CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
-
-Resurrezione
+@8 = ~Resurrezione
 (Necromanzia)
 Raggio d'azione: Tocco
 Durata: Permanente
@@ -139,8 +127,8 @@ The Slayer form grants the following benefits:
 - Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
 
 Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
-@14 = ~Bhaalspawn powers granted~
-@15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
+@14 = ~Poteri della Progenie di Bhaal attribuiti~
+@15 = ~Imoen ora può cambiare a piacimento e può entrare nel Piano Etereo una volta al minuto~
 @16 = ~Ottenuto Nuovo Potere: "Controllare Demone"
 
 Questa abilità permette alla progenie di Bhaal di tentare di strappare il controllo di un demone a Melissan e di renderlo un alleato. Il figlio di Bhaal ingaggia una battaglia mentale con il demone per 1 round, alla fine del quale il demone può diventare un alleato. Il demone non è tuttavia sotto il controllo diretto della progenie di Bhaal. Questa abilità può essere utilizzata una volta ogni 3 round.
@@ -163,9 +151,9 @@ Area of Effect: Caster
 Saving Throw: None
 
 The Bhaalspawn may now move freely through space and the planes. This teleportation power is useable once per round.~
-@20 = ~Shapeshift: Bat
+@20 = ~Mutare Forma in Pipistrello
 
-This ability allows Bodhi to shapeshift into bat form.~
+Questa abilità permette a Bodhi di trasformarsi in pipistrello.~
 @21 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
@@ -179,28 +167,26 @@ Area d'effetto: Il lanciatore
 Tiro-salvezza: Nessuno
 
 La progenie di Bhaal si appella alla forza del suo sangue per ottenere potere per un breve periodo. Così facendo, la sua Forza, Costituzione e Destrezza sono aumentate di un punto ogni tre livelli del lanciatore. Un personaggio di 3° livello vedrà le proprie caratteristiche aumentare di 1, mentre quelle di un personaggio di 12° livello crescerebbero di 4.~
-@22 = ~Flip Resistances
+@22 = ~Inversione di Resistenze
+Raggio d'Azione: 0
+Durata: Permanente
+Tempo di lancio: 1 turno
+Area d'Effetto: Balthazar
+Tiro-salvezza: Nessuno
 
-Range: 0
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Con questa abilità, Balthazar inverte le sue resistenze innate. La sua normale resistenza ai danni fisici del 10% aumenta fino al 90%, la sua normale resistenza alla magia, al danno magico e al danno elementale del 90% si riduce al 10%.
 
-With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage increases to 90%; his normal 90% resistance to magic, magic damage and elemental damage drops to 10%.
+Balthazar può invertire le sue resistenze a volontà.~
+@23 = ~Inversione di Resistenze
+Raggio d'Azione: 0
+Durata: Permanente
+Tempo di lancio: 1 turno
+Area d'Effetto: Balthazar
+Tiro-salvezza: Nessuno
 
-Balthazar may flip his resistances at will.~
-@23 = ~Flip Resistances
+Con questa abilità, Balthazar inverte le sue resistenze innate. La sua normale resistenza ai danni fisici del 10% viene ripristinata, così come la sua normale resistenza alla magia, al danno magico e al danno elementale del 90%.
 
-Range: 0
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
-
-With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage is restored; so is his normal 90% resistance to magic, magic damage and elemental damage.
-
-Balthazar may flip his resistances at will.~
+Balthazar può invertire le sue resistenze a volontà.~
 @24 = ~Solar Stance
 
 Range: 0
