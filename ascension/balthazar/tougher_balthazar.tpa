@@ -44,6 +44,7 @@ DEFINE_ACTION_FUNCTION tougher_balthazar BEGIN
       REPLACE_TEXTUALLY ~Global("balth_is_tougher","GLOBAL",1)~ ~~
       REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",0)~ ~~
       // remove difficulty settings (they are for Ascension only)
+      REPLACE_TEXTUALLY "!Difficulty\(G\|L\)?T?([^)]*)" ""
       REPLACE_TEXTUALLY "Difficulty\(G\|L\)?T?([^)]*)" ""
       // set teleport locations for AR5505 
       REPLACE_TEXTUALLY throneR_loc "[1401.700]"

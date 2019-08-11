@@ -25,7 +25,7 @@ MKDIR "%data_loc%"
 
 OUTER_SPRINT percentage "%"
 
-OUTER_SPRINT scsroot ascension
+OUTER_SPRINT scsroot "%MOD_FOLDER%"
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
    OUTER_SET enhanced_edition=1

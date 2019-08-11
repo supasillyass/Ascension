@@ -25,6 +25,13 @@
              REPLACE_TEXTUALLY "Direction\*)" "Direction*DIR)"
         BUT_ONLY
 
+        // compatibility-friendly chapter variables
+
+        OUTER_SET chapter_delta= ( GAME_IS eet ? 12 : 0)
+        OUTER_FOR (num=1;num<=10;num +=1) BEGIN
+             OUTER_SET ~bg2_chapter_%num%~ =num + chapter_delta
+        END
+
         // add a few possibly-missing IDS entries (direct from EEAsc)
 
         APPEND ~gtimes.ids~ ~6 ONE_ROUND~                    UNLESS ~ONE_ROUND~
@@ -125,7 +132,7 @@ HARDEST	0	        0
 	// collect a list of markers
 	
 	LAF audit_markers RET_ARRAY marker_list END
-	
+
 	// if appropriate, install the testing suite
 	
 	LAF check_ini STR_VAR ini=testing_suite RET value END

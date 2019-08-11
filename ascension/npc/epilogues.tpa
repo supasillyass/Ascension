@@ -40,9 +40,34 @@ BEGIN
       viconnd2 =>	4022
       viconnd3 =>	4021
    END
+   ACTION_DEFINE_ASSOCIATIVE_ARRAY epilogue_strings_old BEGIN
+      aeriend1 =>	73916
+      aeriend2 =>	73917
+      anomend1 =>	73919
+      anomend2 =>	73920
+      cerndnd =>	73925
+      edwinnd =>        73928
+      haernd =>	        73924
+      imoennd =>	73929
+      jaheind1 =>	73931
+      jaheind2 =>	73930
+      jannd   =>        73933
+      keldornd =>       73935
+      korgand  =>       73934
+      mazzynd =>	73932
+      minscnd =>        73927
+      naliand =>	73918
+      sarevnd =>	73926
+      sarevnd2 =>	"-1"
+      valygnd =>	73923
+      viconnd1 =>	73921
+      viconnd2 =>	73922
+      viconnd3 =>	"-1"
+   END
 
    ACTION_PHP_EACH epilogue_strings AS file=>text_tra_ref BEGIN
-      LAF edit_epilogue INT_VAR text_tra_ref STR_VAR file END
+      OUTER_SET require_old=$epilogue_strings_old("%file%")
+      LAF edit_epilogue INT_VAR text_tra_ref require_old STR_VAR file END
    END
 
    // Sarevok's new entry is only if he's evil

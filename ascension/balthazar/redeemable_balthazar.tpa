@@ -24,6 +24,7 @@ DEFINE_ACTION_FUNCTION redeemable_balthazar BEGIN
       // remove redundant checks
       REPLACE_TEXTUALLY ~Global("balth_is_friendly","GLOBAL",1)~ ~~
       // remove difficulty settings (they are for Ascension only)
+      REPLACE_TEXTUALLY "!Difficulty\(G\|L\)?T?([^)]*)" ""
       REPLACE_TEXTUALLY "Difficulty\(G\|L\)?T?([^)]*)" ""
       // set teleport locations for AR6200
       REPLACE_TEXTUALLY throneR_loc "[1600.1105]"

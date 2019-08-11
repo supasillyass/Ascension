@@ -327,12 +327,23 @@ BUT_ONLY
    EXTEND_TOP finsare2.bcs "%five_loc%/scripts/finsare2_top.baf" EVALUATE_BUFFER
 
 // vAsc gives Sarevok ReallyForceSpell/RemoveSpell use of HLAs, because he has no
-// casting animation. We supply one instead.
+// casting animation. On EE, we supply one instead.
 // These are made using the sarevok_animation function, below, but we don't run 
 // it live - it's easier to distribute the finished product.
+//
+// On non-EE, we hot-edit Sarevok's script instead
 
- ACTION_FOR_EACH anim IN usar1ca usar1cae BEGIN
+ ACTION_IF enhanced_edition BEGIN
+  ACTION_FOR_EACH anim IN usar1ca usar1cae BEGIN
     COPY "%five_loc%/%anim%.bam" override
+  END
+ END ELSE BEGIN
+     COPY_EXISTING "finsarev.bcs" override
+            DECOMPILE_AND_PATCH BEGIN
+               REPLACE_TEXTUALLY "Spell(Myself,\(WARRIOR_WHIRLWIND\|WARRIOR_HARDINESS\|WARRIOR_GREATER_WHIRLWIND\))" "RemoveSpell(\1)ReallyForceSpell(Myself,\1)"
+            END
+     BUT_ONLY
+
  END
 
 END

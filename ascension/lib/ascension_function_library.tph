@@ -26,8 +26,9 @@ DEFINE_ACTION_FUNCTION compile_dialog
    STR_VAR dialog=""
            root=""
 BEGIN
+   PRINT "tra: %ascension_tra_loc%/english/%dialog%.tra"
    WITH_TRA "%ascension_tra_loc%/english/%dialog%.tra" "%ascension_tra_loc%/%LANGUAGE%/%dialog%.tra" BEGIN
-      COMPILE "%root%/%dialog%.d"
+      COMPILE "%root%/%dialog%.d" EVALUATE_BUFFER
    END
 END
 
@@ -52,14 +53,15 @@ END
 
 DEFINE_ACTION_FUNCTION edit_epilogue
    INT_VAR text_tra_ref="-1"
+           require_old="-1"
    STR_VAR file=""
            portrait=""
            text=""
 BEGIN
    ACTION_IF text_tra_ref>0 BEGIN
-       OUTER_SET strref=RESOLVE_STR_REF ((AT text_tra_ref ))
-   END ELSE 
-   ACTION_IF "%string%" STRING_COMPARE "" BEGIN
+      OUTER_SPRINT text (AT text_tra_ref)
+   END
+   ACTION_IF "%text%" STRING_COMPARE "" BEGIN
        OUTER_SET strref=RESOLVE_STR_REF ("%text%")
    END ELSE BEGIN
        OUTER_SET strref="-1"
@@ -75,7 +77,10 @@ BEGIN
    END
    COPY_EXISTING "%file%.2da" override
          PATCH_IF strref>=0 BEGIN
-            SET_2DA_ENTRY 1 2 3 strref
+            READ_2DA_ENTRY 1 2 3 current
+            PATCH_IF (current=require_old || require_old<0) BEGIN
+                SET_2DA_ENTRY 1 2 3 strref
+            END
          END
          PATCH_IF "%portrait%" STRING_COMPARE "" BEGIN
             REPLACE_TEXTUALLY "\*.*$" "*%portrait%"

@@ -51,6 +51,7 @@ COPY "%balth_loc%/resource/balth11.spl" override
         INT_VAR secondary=sectype_value
                 ignore_dead_wild_magic=1
                 castable_when_silenced=1
+                level=1
      END
      WRITE_BYTE 0x27 sectype_value
      LPF ALTER_SPELL_HEADER STR_VAR icon=balth11b END
@@ -70,6 +71,7 @@ COPY "%balth_loc%/resource/balth11.spl" override
 
 COPY_EXISTING "balth11.spl" "override/finbafl.spl"
    SAY UNIDENTIFIED_DESC @23
+   LPF SPL_patch INT_VAR level=1 END
    LPF DELETE_EFFECT STR_VAR match_function="opcode_is_not(9 174 215 139 171 172)" END // leave cosmetic bits only
    LPF ADD_SPELL_EFFECT INT_VAR opcode=221 target=1 timing=1 parameter1=10 parameter2=sectype_value END
    LPF ALTER_EFFECT INT_VAR match_opcode=172 STR_VAR resource=finbafl END
@@ -118,6 +120,7 @@ DEFINE_ACTION_FUNCTION balthazar_stances BEGIN
 
     COPY_EXISTING "balth01.spl" override
         SAY UNIDENTIFIED_DESC @24
+     LPF SPL_patch INT_VAR level=1 END
         LPF DELETE_SPELL_HEADER INT_VAR header_type="-1" min_level=2 END
         LPF ALTER_SPELL_HEADER INT_VAR target=5 END
         PATCH_IF enhanced_edition BEGIN
@@ -208,6 +211,7 @@ COPY_EXISTING balth07.spl override
   LPF SPL_patch
      INT_VAR no_los_required=1
              spell_type=4
+             level=1
   END
   LPF ALTER_SPELL_HEADER INT_VAR projectile=139 location=4 END
   LPF ADD_SPELL_EFFECT INT_VAR insert_point=0 opcode=172 timing=1 target=1 STR_VAR resource=balth07 END
@@ -244,6 +248,7 @@ COPY_EXISTING "spwi224.spl" "override/balth12.spl"
 /////////////////////////////////////////////////////////////////////////
 
 COPY_EXISTING balth10.spl override
+     LPF SPL_patch INT_VAR level=1 END
      SAY UNIDENTIFIED_DESC @26
      LPF ALTER_EFFECT INT_VAR match_duration=30 duration=1000 END
      LPF stance_helper STR_VAR this_stance="%SOURCE_RES%" END
@@ -329,6 +334,7 @@ DEFINE_ACTION_FUNCTION balthazar_attacks BEGIN
 
      COPY "%balth_loc%/resource/balth03.spl" override
          SAY UNIDENTIFIED_DESC @28
+         LPF SPL_patch INT_VAR level=1 END
          LPF general_balth_helper INT_VAR repeat=18 STR_VAR this_resource=balth03 END
          LPF ALTER_SPELL_HEADER INT_VAR speed=0 target=1 END
          LPF ADD_SPELL_EFFECT INT_VAR insert_point=0 opcode=138 target=1 timing=0 parameter2=13 END
@@ -359,7 +365,7 @@ DEFINE_ACTION_FUNCTION balthazar_attacks BEGIN
 
 COPY_EXISTING balth04.spl override
      SAY UNIDENTIFIED_DESC @29
-     WRITE_LONG 0x34 1 // level
+     LPF SPL_patch INT_VAR level=1 END
      LPF ALTER_EFFECT INT_VAR match_opcode=215 duration=3 END
      LPF ALTER_EFFECT INT_VAR match_opcode=301 parameter1=10 END
      LPF general_balth_helper INT_VAR repeat=24 STR_VAR this_resource=balth04 END
@@ -379,7 +385,7 @@ BUT_ONLY
 ///////////////////////////////////////////////////////////////////////////
 
 COPY_EXISTING balth05.spl override
-     WRITE_LONG 0x34 1 // level
+     LPF SPL_patch INT_VAR level=1 END
      SAY UNIDENTIFIED_DESC @30
      LPF ALTER_EFFECT INT_VAR power=0 END
      LPF ALTER_EFFECT INT_VAR timing=0 match_opcode=215 END
@@ -398,6 +404,7 @@ BUT_ONLY
 
 COPY_EXISTING balth09.spl override
     SAY UNIDENTIFIED_DESC @31
+     LPF SPL_patch INT_VAR level=1 END
     LPF ALTER_SPELL_HEADER INT_VAR speed=0 target=1 END
     LPF ADD_SPELL_EFFECT INT_VAR insert_point=0 opcode=138 target=1 timing=0 parameter2=12 END
     LPF general_balth_helper INT_VAR repeat=12 STR_VAR this_resource=balth09 END
@@ -416,6 +423,7 @@ DEFINE_ACTION_FUNCTION balthazar_resources_misc BEGIN
 
 COPY_EXISTING balth08.spl override
     SAY UNIDENTIFIED_DESC @27
+     LPF SPL_patch INT_VAR level=1 END
     REPLACE_TEXTUALLY CASE_INSENSITIVE SPRMPARI SPFLESHS
     LPF ALTER_SPELL_HEADER INT_VAR speed=0 END
     LPF ALTER_EFFECT INT_VAR match_opcode=124 timing=1 END
