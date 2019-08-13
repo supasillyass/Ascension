@@ -991,7 +991,7 @@ msgstr ""
 #: balth.tra:1167
 msgid ""
 "It... it is true. I paid little attention to my men's actions, but I... I "
-"knew what they were doing. I thought it a great sacridice, necessary to "
+"knew what they were doing. I thought it a great sacrifice, necessary to "
 "maintain secrecy, to attain my ultimate goal that they, in their ignorance, "
 "did not know would benefit them more in the end. But... it is how we treat "
 "the most helpless of our brethren in the worst of times that marks the "
