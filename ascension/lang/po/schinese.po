@@ -4,18 +4,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2019-08-20 14:13+0000\n"
+"Last-Translator: c4_angel <20829444@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://tra.bgforge.net/projects/"
+"infinity-engine/ascension/schinese/>\n"
+"Language: schinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: bgforge_po v.1.0.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
 msgid "Babau"
-msgstr ""
+msgstr "巴布魔"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
@@ -31,13 +33,11 @@ msgstr "闪电光环"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
-msgstr "劈空取物"
+msgstr "心灵传动"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Flip Resistances"
 msgid "Flip Resistances"
-msgstr "防御投射"
+msgstr "反转抗力"
 
 #: ascension.tra:1013
 msgid "Control Demon"
@@ -61,7 +61,7 @@ msgstr "非凡护盾"
 
 #: ascension.tra:1019
 msgid "Command Demon"
-msgstr "命令恶魔"
+msgstr "驱役恶魔"
 
 #: ascension.tra:1020
 msgid "Banish"
@@ -92,152 +92,134 @@ msgid "Lava Bomb"
 msgstr "熔岩炸弹"
 
 #: ascension.tra:1031
-#, fuzzy
-#| msgid "Symbol Slow"
 msgid "Symbol, Slow"
-msgstr "法印：缓慢"
+msgstr "缓慢法印"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
-msgstr "变形终结者"
+msgstr "变身毁灭者"
 
 #: ascension.tra:1038
 msgid "Melissan: Command the Minions of the Abyss"
-msgstr "深渊爪牙"
+msgstr "梅丽珊：驱役深渊爪牙"
 
 #: ascension.tra:1039
 msgid "Bhaalspawn Power gained: Immunity to Energy Drain"
-msgstr ""
+msgstr "获得巴尔神力：免疫能量吸取"
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
-msgstr ""
+msgstr "获得巴尔神力：物理伤害抗性提高25%"
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr ""
+msgstr "惊恐"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
-msgstr ""
+msgstr "武器被巴布魔粘液弱化"
 
 #: ascension.tra:1043
 msgid "Grabbed"
-msgstr ""
+msgstr "被抓住"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "重新获得巴尔能力"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
-msgstr ""
+msgstr "你现在已经恢复控制。"
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
-msgstr ""
+msgstr "魔法抗力降低5%"
 
 #: ascension.tra:1048
 msgid "Slayer transformation enhanced"
-msgstr ""
+msgstr "杀戮者形态增强"
 
 #: ascension.tra:1049
 msgid "The demon bows to your will"
-msgstr ""
+msgstr "恶魔屈从于你的意志"
 
 #: ascension.tra:1050
 msgid "The demon defies your will"
-msgstr ""
+msgstr "恶魔抗拒了你的意志"
 
 #: ascension.tra:1051
 msgid "This power only affects demons"
-msgstr ""
+msgstr "该能力只能影响恶魔"
 
 #: ascension.tra:1052
 msgid "The demon bows to Melissan's will"
-msgstr ""
+msgstr "恶魔屈从于梅丽珊的意志"
 
 #: ascension.tra:1053
 msgid "The demon defies Melissan's will"
-msgstr ""
+msgstr "恶魔抗拒了梅丽珊的意志"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
-msgstr ""
+msgstr "获得巴尔神力：能量释放"
 
 #: ascension.tra:1055
 msgid "Bhaalspawn Power gained: immunity to death magic"
-msgstr ""
+msgstr "获得巴尔神力：免疫即死魔法"
 
 #: ascension.tra:1056
 msgid "Bhaalspawn Power gained: immunity to vorpal effects"
-msgstr ""
+msgstr "获得巴尔神力：免疫斩首效果"
 
 #: ascension.tra:1057
 msgid "Bhaalspawn Power gained: Dimension Door"
-msgstr ""
+msgstr "获得巴尔神力：任意门"
 
 #: ascension.tra:1058
 msgid "Bhaalspawn Power gained: Control Demons"
-msgstr ""
+msgstr "获得巴尔神力：控制恶魔"
 
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
-msgstr ""
+msgstr "获得巴尔神力：免疫迷宫和禁锢"
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
-msgstr ""
+msgstr "获得巴尔神力：能量聚焦"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
-msgstr ""
+msgstr "获得巴尔神力：免疫杀戮者污秽"
 
 #: ascension.tra:1062
-#, fuzzy
-#| msgid "Divine Mantle"
 msgid "Divine Gift"
-msgstr "非凡防御"
+msgstr "非凡天赋"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
-msgstr ""
+msgstr "魔法抗力恢复"
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr ""
+msgstr "魔法防护移除"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
-msgstr ""
+msgstr "战斗防护移除"
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr ""
+msgstr "人工智能已解除"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr ""
+msgstr "人工智能已激活"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
-msgstr ""
+msgstr "月阴诅咒"
 
 #: ascension.tra:2000
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Mass Healing (Necromancy)\n"
-#| "Range: Sight of caster \n"
-#| "Duration: Permanent \n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: 30 foot radius\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group.  Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points.  Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -252,31 +234,21 @@ msgid ""
 "\n"
 "When using this ability, the Bhaalspawn must picture the faces of <PRO_HISHER> fellow party members clearly and focus on the unity of the group. Upon completion, all party members within 30 foot radius of the caster are healed 2d8 + 2/level hit points. Other conditions suffered by the party are cured, as well: fatigue, poison, disease, blindness and deafness."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
-"群体治疗（死灵系）\n"
-"射程：施法者视线以内\n"
-"时效：永久\n"
+"巴尔之子的新能力。\n"
+"\n"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：集体治疗（死灵系）\n"
+"有效距离：施法者视线所及\n"
+"持续时间：永久\n"
 "施法时间：1\n"
-"有效范围：半径30尺\n"
-"豁免鉴定：无 \n"
-"当使用此能力时，巴尔之子必须能够看清队友们的位置。完成后，所有半径30尺内的队友都会恢复2d8+2/每等级生命，并解除如下不良状态：疲劳，中毒，疾病，目盲，耳聋。"
+"影响范围：15呎方圆\n"
+"豁免检定：无\n"
+"\n"
+"使用此能力时，巴尔之子必须集中精神且清楚地在脑海中描绘队伍中每位伙伴的面貌。施展完成后，15呎方圆内的所有队友都能恢复2D8+2/"
+"级的生命点数，并解除如下不良状态：疲劳，中毒，疾病，失明以及耳聋。"
 
 #: ascension.tra:2001
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate.  This regeneration will heal any wounds and even regenerate lost limbs.  The creature affected will regain 3 hit points per second.  The effect lasts for 1 round per every 2 levels of the caster or until dispelled.  For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -291,31 +263,21 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
-"再生（死灵系） \n"
-"射程：触摸\n"
-"时效：1轮/2级\n"
+"巴尔之子的新能力。\n"
+"\n"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：再生术（死灵系）\n"
+"有效距离：碰触\n"
+"持续时间：1轮/2级\n"
 "施法时间：7\n"
-"有效范围：目标生物\n"
-"豁免鉴定：无\n"
-"这个超强的能力给予目标生物快速再生的能力，这个能力甚至可以恢复已经残废了的肢体。目标生物每秒恢复三点生命，被解咒前，每二等级可以持续效果一轮。例如，十四级的效果是七轮内每轮恢复十八点生命。"
+"影响范围：1个生物\n"
+"豁免检定：无\n"
+"\n"
+"这个超强的能力允许巴尔之子为一个目标生物灌输再生的能力，受术者的伤势会自动复原，甚至连残肢断臂都可以再生。受术者每秒恢复3点生命值，效果持续1轮/2级的时"
+"间，或是直到被解除魔法为止。举例来讲，14级的角色施展再生术的效果是7轮内每轮恢复18点生命。"
 
 #: ascension.tra:2002
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Draw Upon Holy Might (Invocation) \n"
-#| "Range: 0 \n"
-#| "Duration: 1 turn\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: The caster \n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period.  When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster.  A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -330,38 +292,21 @@ msgid ""
 "\n"
 "The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
+"巴尔之子的新能力。\n"
 "\n"
-"召唤圣力（塑能系）\n"
-"射程：0\n"
-"时效：1回合\n"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：召唤神力（神能系）\n"
+"有效距离：自身\n"
+"持续时间：1回合\n"
 "施法时间：1\n"
-"有效范围：施法者\n"
-"豁免鉴定：无\n"
-"巴尔之子利用血液中的力量使自己在短期内变得更强壮。使用这个能力的效果是，<PRO_HISHER>的每三个等级可以提高强壮，体制，敏捷一点。十二级的施法者可以提高四点。"
+"影响范围：施法者\n"
+"豁免检定：无\n"
+"\n"
+"巴尔之子利用蕴藏在血液之中的神性使自己在短期内变得更强壮。启用此能力可以提高力量，体质，敏捷各1点每3等级。例如3级的施法者可以提高各属性1点，而12级的"
+"施法者可以提高各属性4点。"
 
 #: ascension.tra:2003
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Dark Taint (Necromancy) \n"
-#| "Range: 20 feet\n"
-#| "Duration: 1 turn\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: 1 creature\n"
-#| "Saving Throw: Negates\n"
-#| "\n"
-#| "Through this spell, the Bhaalspawn can expel the taint of <PRO_HISHER> evil sire onto a victim, poisoning those who fail their save vs. death.  The effects depend upon the caster's level and are detailed below:\n"
-#| "7-9th level:  2d8  +  2/round, slow for 12 seconds, save at -2\n"
-#| "10-12th level:  3d8  + 3/round, slow for 12 seconds, save at -2\n"
-#| "13-14th level:  4d8  +  4/round, slow for 12 seconds, save at -2\n"
-#| "15-16th level:  6d8  +  5/round, slow for 24 seconds, save at -2\n"
-#| "17-21st level:  8d8  +  6/round, slow for 24 seconds, save at -4\n"
-#| "25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets"
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -382,21 +327,26 @@ msgid ""
 "17-21st level: 8d8 + 6/round, slow for 24 seconds, save at -4\n"
 "25th level: 8d8 + 6/round, slow for 36 seconds, save at -4, affects group of targets"
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
-"黑暗天赋（死灵系） \n"
-"射程：二十尺\n"
-"时效：一回合\n"
+"巴尔之子的新能力。\n"
+"\n"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：黑暗浸染（死灵系）\n"
+"有效距离：20呎\n"
+"持续时间：1回合\n"
 "施法时间：1\n"
-"有效范围：一个生物\n"
-"豁免鉴定：通过无效\n"
-"籍由这个法术，巴尔之子可以将它的邪恶天赋释放到一个敌人身上，目标若未通过死亡豁免则会中毒，具体效果由施法者等级决定：\n"
-"7--9　　　2d8 + 2每轮，缓慢12秒，豁免-2不利。\n"
-"10--12　　3d8 + 3每轮，缓慢12秒，豁免-2不利。\n"
-"13--14　　4d8 + 4每轮，缓慢12秒，豁免-2不利。\n"
-"15--16　　6d8 + 5每轮，缓慢24秒，豁免-2不利。\n"
-"17--21　　8d8 + 6每轮，缓慢24秒，豁免-4不利。\n"
-"25以上　　8d8 + 6每轮，缓慢36秒，豁免-4不利，影响群体目标。"
+"影响范围：1个生物\n"
+"豁免检定：无\n"
+"\n"
+"透过此法术，巴尔之子可以将他受邪恶力量浸染的种子寄生在受术者体内。受术者必须通过对死亡的豁免检定，否则即中毒。该能力效果依施法者等级而定，具体影响如下："
+"\n"
+"\n"
+"7-9级：2D8+2/轮，减速2轮，豁免检定-2不利\n"
+"10-12级：3D8+3/轮，减速2轮，豁免检定-2不利\n"
+"13-14级：4D8+4/轮，减速2轮，豁免检定-2不利\n"
+"15-16级：6D8+5/轮，减速4轮，豁免检定-2不利\n"
+"17-21级：8D8+6/轮，减速4轮，豁免检定-4不利\n"
+"25级：8D8+6/轮，减速6轮，豁免检定-4不利，影响群体目标"
 
 #: ascension.tra:2004
 msgid ""
@@ -404,8 +354,9 @@ msgid ""
 "\n"
 "<CHARNAME> has gained permanent negative plane protection (i.e., <CHARNAME> cannot be level-drained) and 5% magic resistance."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得负界能量防御以及5%的魔法防御。"
+"巴尔之子的新能力。\n"
+"\n"
+"<CHARNAME>获得了永久的防护负界伤害能力以及5％的魔法抗力。"
 
 #: ascension.tra:2005
 msgid ""
@@ -427,37 +378,27 @@ msgid ""
 "25th: 5 rounds, 10 hp extra damage, 10 hp healed\n"
 "30th: 6 rounds, 12 hp extra damage, 12 hp healed"
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
-"谋杀之手（死灵系） \n"
-"射程：施法者\n"
-"时效：１轮每５级\n"
-"施法时间：１\n"
-"豁免鉴定：无\n"
+"巴尔之子的新能力。\n"
 "\n"
-"籍由巴尔之子的新能力，<PRO_HESHE>可以在肉搏战中造成额外的伤害，并可以吸取目标的生命能量来治疗自己。\n"
-"具体效果如下：\n"
-"10级：2轮，4点额外伤害，治疗4点生命。\n"
-"15级：3轮，6点额外伤害，治疗6点生命。\n"
-"20级：4轮，8点额外伤害，治疗8点生命。\n"
-"25级：5轮，10点额外伤害，治疗10点生命。\n"
-"30级：6轮，12点额外伤害，治疗12点生命。"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：谋杀之手（死灵系）\n"
+"有效距离：自身\n"
+"持续时间：1轮/5级\n"
+"施法时间：1\n"
+"影响范围：施法者\n"
+"豁免检定：无\n"
+"\n"
+"当巴尔之子启用这一能力时，可以瞬间获得近战武器的额外伤害（无论是拳或者剑）。其拥有的黑暗能量会在他们的武器之中流淌，同时会吸收来自敌人的伤害以治疗自己。该"
+"能力效果依施法者等级而定，具体影响如下：\n"
+"\n"
+"10级：持续2轮，每击造成4点额外伤害，同时回复4点生命值\n"
+"15级：持续3轮，每击造成6点额外伤害，同时回复6点生命值\n"
+"20级：持续4轮，每击造成8点额外伤害，同时回复8点生命值\n"
+"25级：持续5轮，每击造成10点额外伤害，同时回复10点生命值\n"
+"30级：持续6轮，每击造成12点额外伤害，同时回复12点生命值"
 
 #: ascension.tra:2006
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Resurrection (Necromancy)\n"
-#| "Range: Touch\n"
-#| "Duration: Permanent\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: Creature Touched\n"
-#| "Saving Throw: None\n"
-#| "\n"
-#| "Like the 5th level spell Raise Dead, Resurrection will return a character back to life.  However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -472,16 +413,18 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得了这个能力，每天可以使用一次: \n"
+"巴尔之子的新能力。\n"
 "\n"
-"复兴（死灵系）\n"
-"射程：触摸\n"
-"时效：永久\n"
+"<CHARNAME>获得了这个新能力，每天可以使用1次：\n"
+"\n"
+"法术名称：起死回生（死灵系）\n"
+"有效距离：碰触\n"
+"持续时间：永久\n"
 "施法时间：1\n"
-"有效范围：被触摸生物\n"
-"豁免鉴定：无\n"
-"类似第七级神术复兴，这个能力同样可以将死去的队友以最佳状态带回人世。"
+"影响范围：被碰触生物\n"
+"豁免检定：无\n"
+"\n"
+"就像五级的法术复活死者，起死回生可以使角色恢复他们的生命。同时起死回生还将治愈该角色受到的所有伤害。因此受术者可以瞬间恢复至生前的最佳状态。"
 
 #: ascension.tra:2007
 msgid ""
@@ -489,46 +432,19 @@ msgid ""
 "\n"
 "<CHARNAME> has gained 25% resistance to physical damage (i.e., slashing, piercing, crushing and missile damage)."
 msgstr ""
-"巴尔之子的新能力\n"
-"<CHARNAME>获得25%的物理免疫能力。"
+"巴尔之子的新能力。\n"
+"\n"
+"<CHARNAME>获得了25％的物理伤害抗性（包括挥砍、穿刺、粉碎和远程伤害）。"
 
 #: ascension.tra:2008
 msgid "Slayer Change ability improved"
-msgstr ""
+msgstr "变身杀戮者能力提升"
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
-msgstr "混乱之剑+4"
+msgstr "混沌之刃+4"
 
 #: ascension.tra:3001
-#, fuzzy
-#| msgid ""
-#| "Sarevok's Sword of Chaos\n"
-#| "The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power.  Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
-#| "\n"
-#| "STATISTICS:\n"
-#| "\n"
-#| "Combat abilities:\n"
-#| "- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.\n"
-#| "\n"
-#| "Equipped abilities:\n"
-#| "- Magic Resistance: +10%\n"
-#| "\n"
-#| "Damage:  1D10 +4\n"
-#| "THAC0: +4 bonus\n"
-#| "Damage type:  slashing\n"
-#| "Speed Factor: 8\n"
-#| "Proficiency Type: Two Handed sword\n"
-#| "Type:  2-handed\n"
-#| "Requires: 14 Strength, 18 Constitution\n"
-#| "Weight: 10\n"
-#| "Not Usable By:\n"
-#| "Cleric\n"
-#| "Mage\n"
-#| "Paladin\n"
-#| "Ranger\n"
-#| "Druid\n"
-#| "non-Chaotic aligned"
 msgid ""
 "Sarevok's Sword of Chaos\n"
 "The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.\n"
@@ -557,25 +473,34 @@ msgid ""
 "Druid\n"
 "non-Chaotic aligned"
 msgstr ""
-"沙洛弗克的混乱之剑\n"
-"<CHARNAME>的兄弟，沙洛弗克的兵器。在博得之门发生的最后一战中，沙洛弗克被<CHARNAME>击败，他想在剑湾发起战争的计划也随之破产。现在沙洛弗克加入了<CHARNAME>的队伍，并使这把剑恢复了原来的一些能力。然而没有了巴尔之子的灵魂，沙洛弗克的剑无法达到像原来的那样强大，但它仍是一件可怕的武器。沙洛弗克说不是死亡使者的人最好不要碰这把剑。\n"
+"这把剑是<CHARNAME>_的兄弟，沙洛佛克的武器。在博德之门发生的最后一战中，沙洛佛克被<CHARNAME>_击败，他计划在剑湾发动战争的阴谋也随之破"
+"产。现在沙洛佛克加入了<CHARNAME>_的队伍，这把剑也被归还到他的手中。沙洛佛克把这件武器称为死亡使者，并使它恢复了原有的一些能力。虽然失去巴尔之子"
+"的灵魂已经使沙洛佛克的剑无法达到原来那般强大。但它仍然是一件可怕的武器……就像沙洛佛克所说的那样，不具备死亡使者资质的人会越来越难以运用它。\n"
 "\n"
-"状态：\n"
-"能力：每级吸取一到五点生命，吸取的生命不会超过生命最大值。持用者获得10%魔法防御。\n"
+"数据资料：\n"
 "\n"
-"伤害：1d10 + 4\n"
-"命中：+ 4有利\n"
+"战斗能力：\n"
+"-每次击中吸取敌人1-5点生命值治疗自己\n"
+"\n"
+"装备能力：\n"
+"-魔法抗力：+10%\n"
+"\n"
+"伤害力：1D10+4\n"
+"零级命中值：+4\n"
+"伤害类型：挥砍\n"
+"武器速度：8\n"
+"武器特长类型：双手剑\n"
+"使用类别：双手\n"
+"需求：力量14，体质18\n"
+"\n"
 "重量：10\n"
-"速度因素：8\n"
-"武器种类：双手剑\n"
-"持用方式：双手\n"
-"属性需求：14强壮，18体质\n"
-"不可使用：\n"
+"\n"
+"无法使用的职业：\n"
 "牧师\n"
 "法师\n"
-"圣骑士\n"
+"圣武士\n"
 "游侠\n"
-"德鲁依\n"
+"德鲁伊\n"
 "非混乱阵营"
 
 #: ascension.tra:3002
@@ -588,183 +513,128 @@ msgid ""
 "Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it."
 msgstr ""
 "仙黛的药剂\n"
-"可能是仙黛自己做的药剂，任何人喝了他都会完全恢复健康。"
+"\n"
+"这瓶药可能是仙黛自己配制的药剂，它具有相当强大的治疗效果，任何人喝了它都会完全恢复健康。"
 
 #: balth.tra:1060
-#, fuzzy
-#| msgid ""
-#| "I wish I could take the credit for this ruse, <CHARNAME>.  But it seems I "
-#| "was not the only member of the Five who plotted the downfall of the others."
 msgid ""
 "I wish I could take the credit for this ruse, <CHARNAME>. But it seems I was"
 " not the only member of the Five who plotted the downfall of the others."
-msgstr "我希望自己可以因这个计划而留名，<CHARNAME>，不过说，看起来我不是唯一有这个愿望的人。"
+msgstr "我希望自己可以为这计划尽一份力，<CHARNAME>。但看上去五裔中不只我一个人想要击垮其他人。"
 
 #: balth.tra:1072
 msgid ""
 "You won't be the first to try and kill me... and probably not the last!"
-msgstr "你不是第一个想杀我的人，也不会是最后一个！"
+msgstr "你不是第一个想要杀死我的人，也不会是最后一个！"
 
 #: balth.tra:1074
-#, fuzzy
-#| msgid ""
-#| "It is true.  You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
-#| "against evil is without question.  Your fight against the taint of our evil "
-#| "father is worthy of praise."
 msgid ""
 "It is true. You are a good <PRO_MANWOMAN>, <CHARNAME>, and your stance "
 "against evil is without question. Your fight against the taint of our evil "
 "father is worthy of praise."
-msgstr "我承认，你在各方面做的都很不错，尤其是在抵制内心邪恶天赋的方面......很值得赞赏。"
+msgstr ""
+"我承认，你是一位善良的<PRO_MANWOMAN>，<CHARNAME>。尤其是在与邪恶斗争这方面。你为了不受我们那位邪恶父亲的影响而付出了很多努力，这确"
+"实配得上赞赏。"
 
 #: balth.tra:1075
-#, fuzzy
-#| msgid ""
-#| "I sense no innate goodness within you, <CHARNAME>...though your deeds are "
-#| "hailed far and wide as above reproach.  It is... interesting that one like "
-#| "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
-#| "has done so much to fight true evil."
 msgid ""
 "I sense no innate goodness within you, <CHARNAME>...though your deeds are "
 "hailed far and wide as above reproach. It is... interesting that one like "
 "you who must struggle so much with our father's taint inside <PRO_HIMHER> "
 "has done so much to fight true evil."
-msgstr "我能感觉到你的内心......在你的旅途中，你做了很多好事，但也背上了很多坏名声。真的很有趣，你竟然能在抵抗心魔的同时摧毁了这么多的邪恶。"
+msgstr ""
+"我能感到在你的内心并没有与生俱来的善意，<CHARNAME>……尽管你的名声远播，你的行为无可指责。像你这样的人却要为对抗来自我们父亲的邪恶侵染而竭尽苦力"
+"。这真的很……有趣。"
 
 #: balth.tra:1076
-#, fuzzy
-#| msgid ""
-#| "I see the good that is within you, <CHARNAME>, but your deeds are hardly "
-#| "above reproach.  I sense only a soul that struggles with our father's taint,"
-#| " that struggles to find the good path where none exists."
 msgid ""
 "I see the good that is within you, <CHARNAME>, but your deeds are hardly "
 "above reproach. I sense only a soul that struggles with our father's taint, "
 "that struggles to find the good path where none exists."
 msgstr ""
-"你的内心......还有善良的一面，但是你做的很多事都是邪恶的，我能感觉到你的灵魂在跟自己的天赋抗衡，但的确......很难找到一条正确的道路。"
+"我看到了在你内心中善良的一面，<CHARNAME>。但你却没有为自己播下广为人知的善行。我只看到了一个苦苦与我们父亲邪恶侵染对抗的孤独灵魂，却永远无法找到"
+"能够指引自己向善的道路。"
 
 #: balth.tra:1077
-#, fuzzy
-#| msgid ""
-#| "I sense no innate goodness within you, <CHARNAME>.  I do not think your "
-#| "deeds above reproach.  I sense only a soul struggling against the taint of "
-#| "<PRO_HISHER> father, much like mine own."
 msgid ""
 "I sense no innate goodness within you, <CHARNAME>. I do not think your deeds"
 " above reproach. I sense only a soul struggling against the taint of "
 "<PRO_HISHER> father, much like mine own."
-msgstr "我感觉到......你并没有内在的美德，你的声望也证明了这一点，我只是看到一个同自己天赋作斗争的灵魂......就像我一样。"
+msgstr ""
+"我能感到在你的内心并没有与生俱来的善意，<CHARNAME>。而且我也不认为你曾经的所作所为都是无可指责的。我只能感受到你是一个不断遭受着由巴尔血脉所带来"
+"的折磨的可悲灵魂。就像我自己一样。"
 
 #: balth.tra:1078
-#, fuzzy
-#| msgid ""
-#| "Actually, I am the perfect person to judge, <CHARNAME>.  I, too, contain the"
-#| " taint of our father within me.  I, too, have felt its yearnings for blood, "
-#| "its efforts to exert chaos upon my life.  I have mastered it... but only "
-#| "barely.  Too well I know what it is capable of."
 msgid ""
 "Actually, I am the perfect person to judge, <CHARNAME>. I, too, contain the "
 "taint of our father within me. I, too, have felt its yearnings for blood, "
 "its efforts to exert chaos upon my life. I have mastered it... but only "
 "barely. Too well I know what it is capable of."
 msgstr ""
-"事实上，我就是最合适的法官，<CHARNAME>。我也容纳着我们父亲的邪恶天赋；我也同样感受着对血的饥渴；混乱同样的充斥着我的生命。我非常了解它，而且我已经掌握了它。"
+"事实上，我就是最合适的审判者，<CHARNAME>。我同样遭受着来自我们父亲的侵染，也同样感受着对血的饥渴。混乱不断充斥着我的生命。我一度理解了那力量……"
+"可程度却太有限。不过这一切已让我深知其中滋味。"
 
 #: balth.tra:1079
-#, fuzzy
-#| msgid ""
-#| "Naturally.  Our taint brings us no peace, does it, <CHARNAME>?  We fight in "
-#| "self-defense and yet still we kill, still we bring destruction.  We may "
-#| "claim an absence of responsibility, should we desire, but I know all too "
-#| "well what the taint in our soul is capable of.  Only barely do I keep it "
-#| "mastered."
 msgid ""
 "Naturally. Our taint brings us no peace, does it, <CHARNAME>? We fight in "
 "self-defense and yet still we kill, still we bring destruction. We may claim"
 " an absence of responsibility, should we desire, but I know all too well "
 "what the taint in our soul is capable of. Only barely do I keep it mastered."
 msgstr ""
-"很自然，我们的天赋决定了我们不会和平相处，不是么？<CHARNAME>，我们的自卫导致了杀戮，死亡，毁灭。尽管我们可以声称不是自己的责任，但我很清楚这个天赋会导致什么。"
+"很自然，我们拥有的邪恶血统决定了我们将永不得安宁，不是么？<CHARNAME>。我们不断地自我防卫，也在不断地招徕杀戮，死亡与毁灭。尽管我们可以声称那不是"
+"自己的责任，但我很清楚这污秽的血脉将导致什么。"
 
 #: balth.tra:1080
-#, fuzzy
-#| msgid ""
-#| "I would expect no other response from a true <PRO_BROTHERSISTER> of mine.  I"
-#| " know too well the thirst for death that comes with the taint of our sire.  "
-#| "I have mastered it, but only barely... I pity those who are a slave to it."
 msgid ""
 "I would expect no other response from a true <PRO_BROTHERSISTER> of mine. I "
 "know too well the thirst for death that comes with the taint of our sire. I "
 "have mastered it, but only barely... I pity those who are a slave to it."
-msgstr "我并未期望我的<PRO_BROTHERSISTER>会给我一个不同的回答。我很了解你们内在对死亡的饥渴，甚至还有点同情你们这些天赋的奴隶。"
+msgstr ""
+"我从未期望我的<PRO_BROTHERSISTER>会带给我任何不同的答案。来自我们父亲的血脉将招致对死亡与杀戮的崇拜。我对此已深有所感，甚至对你们这些杀"
+"戮之王的奴隶深感同情。"
 
 #: balth.tra:1081
-#, fuzzy
-#| msgid ""
-#| "Do not make me laugh, <CHARNAME>.  If you expect me to believe that your "
-#| "depraved existence exists to fight against evil in this world, then you "
-#| "expect far too much."
 msgid ""
 "Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
 "depraved existence exists to fight against evil in this world, then you "
 "expect far too much."
-msgstr "别逗我了，<CHARNAME>，你认为我会相信你么？你的存在是为了打击世上的邪恶？你想的可真远啊。"
+msgstr "你太可笑了，<CHARNAME>。你真想让我相信你这早已腐化的存在能够对抗这世间的所有邪恶么？你这是在白费力气。"
 
 #: balth.tra:1082
-#, fuzzy
-#| msgid ""
-#| "But regardless of our wishes on the matter, our destiny has been written for"
-#| " us, <CHARNAME>.  Some may run from it or deny it, while others embrace "
-#| "it... but each and every Bhaalspawn has a seed within them that has sprung "
-#| "forth a fruit laden with blood and murder.  Do you deny this?"
 msgid ""
 "But regardless of our wishes on the matter, our destiny has been written for"
 " us, <CHARNAME>. Some may run from it or deny it, while others embrace it..."
 " but each and every Bhaalspawn has a seed within them that has sprung forth "
 "a fruit laden with blood and murder. Do you deny this?"
 msgstr ""
-"但不管我们的意愿如何，我们的命运已经确定了，<CHARNAME>。有些人逃避它，有些人否认它，，也有些人拥抱它，但每一个巴尔之子都是一粒会结出鲜血与谋杀之果的种子。你否认么？"
+"但不管我们的意愿如何，我们的命运都已经注定了，<CHARNAME>。有些人逃避它，有些人否认它，也有些人想拥抱它，但每一位巴尔之子都是一颗会结出鲜血与谋杀"
+"之果的种子。你否认这点么？"
 
 #: balth.tra:1083
 msgid "Are you implying that you are somehow different, Balthazar?"
-msgstr "你是说我们有所不同么？巴尔撒扎？"
+msgstr "你是在暗示自己会有所不同么？巴萨札？"
 
 #: balth.tra:1084
 msgid "I have only ever acted when it was necessary, in self-defense."
-msgstr "我在必要的时候才使用武力，而且仅仅是自卫。"
+msgstr "我在必要的时候才使用武力，而且只是自卫。"
 
 #: balth.tra:1085
 msgid ""
 "You would make us out to be victims of circumstance rather than masters of "
 "our own destiny."
-msgstr "你的意思是：事情能改变人，而人改变不了事情？"
+msgstr "你觉得我们就应该成为自身处境的牺牲品，而不是去主动掌握自己的命运？"
 
 #: balth.tra:1086
-#, fuzzy
-#| msgid "I deny nothing.  Death comes for all who stand in my way."
 msgid "I deny nothing. Death comes for all who stand in my way."
-msgstr "我不否认，挡住我去路的全都得死。"
+msgstr "我不否认，任何阻挡我去路的人都得死。"
 
 #: balth.tra:1087
-#, fuzzy
-#| msgid ""
-#| "I am death incarnate, fool!  Not some weak fool wrapped in denial like "
-#| "yourself!"
 msgid ""
 "I am death incarnate, fool! Not some weak fool wrapped in denial like "
 "yourself!"
-msgstr "我就是死亡的化身，蠢货！不像你这种遮遮掩掩的伪君子！"
+msgstr "我就是死亡的化身，蠢货！不像你这个拒绝承认现实的孱弱小人！"
 
 #: balth.tra:1088
-#, fuzzy
-#| msgid ""
-#| "I have little doubt that you know whereof I speak.  The taint is strong "
-#| "within you... stronger than any single other spawn of our sire that I have "
-#| "seen.  You have felt the dreams, the urges, have you not?  The chaos that is"
-#| " your destiny has ripped wantonly through your life, regardless of your "
-#| "wishes, has it not?  Do you deny that you bring violence and destruction "
-#| "wherever you go, <CHARNAME>?"
 msgid ""
 "I have little doubt that you know whereof I speak. The taint is strong "
 "within you... stronger than any single other spawn of our sire that I have "
@@ -773,54 +643,34 @@ msgid ""
 "wishes, has it not? Do you deny that you bring violence and destruction "
 "wherever you go, <CHARNAME>?"
 msgstr ""
-"我有点怀疑你听没听懂我说的话，你内心的天赋非常强......是我见过巴尔之子里最强的一部分。你在梦境中感受到了那种欲望，不是么？无论你愿不愿意，混乱都充斥在你的生命历程中，不是么？你给所到之处带去的全都是暴力、毁灭，不是么？"
+"我有点怀疑你听没听懂我说的话。你内在的血脉之力非常强大……是我见过的所有巴尔之子里最强大的一个。你在梦境中感受到了那种欲望，不是么？无论你愿意与否，混乱与"
+"邪恶都在肆意地撕扯着你的生活，不是么？你给所到之处带去的都是暴力与毁灭，不是么，<CHARNAME>？"
 
 #: balth.tra:1089
-#, fuzzy
-#| msgid ""
-#| "I am nothing like you.  I exist to fight against the chaos of my taint, to "
-#| "fight against the evil that Bhaal's legacy brings to this world.  I have "
-#| "faced the evil within me and I have mastered it."
 msgid ""
 "I am nothing like you. I exist to fight against the chaos of my taint, to "
 "fight against the evil that Bhaal's legacy brings to this world. I have "
 "faced the evil within me and I have mastered it."
-msgstr "我不像你，我的存在就是为了抵抗混乱的天赋，抵抗巴尔给这个世界带来的邪恶，我敢于面对这种天赋并且我已经控制了这种天赋。"
+msgstr ""
+"我不像你，我的存在就是为了与那邪恶的血脉斗争到底，与巴尔的子嗣为这个世界带来的邪恶斗争到底。我敢于面对自身的邪恶之力，并且我已经掌控了这种力量。"
 
 #: balth.tra:1090
-#, fuzzy
-#| msgid ""
-#| "No.  I have brought my share of death and destruction to this land.  But I "
-#| "see a larger purpose behind it... I seek to end the possibility of Bhaal's "
-#| "return forever, and to wipe his taint from the land."
 msgid ""
 "No. I have brought my share of death and destruction to this land. But I see"
 " a larger purpose behind it... I seek to end the possibility of Bhaal's "
 "return forever, and to wipe his taint from the land."
-msgstr "不错，很多死亡与毁灭的确是因我而来到这片土地上，但是我还有别的目标......我要彻底消灭巴尔，并把他所留下的痕迹从这块土地上擦去。"
+msgstr ""
+"不。虽然我确实为这片土地带来了杀戮与毁灭，但我仍在为了一个更大的目标而奋斗……我要彻底抹杀巴尔复活的任何可能，并把他所留下的痕迹从这块土地上彻底清除。"
 
 #: balth.tra:1091
-#, fuzzy
-#| msgid ""
-#| "I have mastered the power within me and held the evil in check, but I know "
-#| "as well... if not better... then most of my brethren the threat that it "
-#| "holds for all of FaerÃ»n.  I will not allow this.  I have dedicated my life "
-#| "to preventing it."
 msgid ""
 "I have mastered the power within me and held the evil in check, but I know "
 "as well... if not better... then most of my brethren the threat that it "
 "holds for all of Faerun. I will not allow this. I have dedicated my life to "
 "preventing it."
-msgstr "我控制了这种力量也抑制了里面的邪恶，但是其他的兄弟姐妹正在用它威胁这个世界，我不会允许这种情况发生，我会用生命来阻止你们。"
+msgstr "我控制了这种力量并抑制了其中的邪恶，但是其他的兄弟姐妹们仍在依靠它威胁着这个世界。我不会允许这种情况发生，我会用生命来阻止此事。"
 
 #: balth.tra:1092
-#, fuzzy
-#| msgid ""
-#| "If only we had met under other circumstances, <CHARNAME>...I would have "
-#| "liked to sit and compare the paths that have brought us to this point.  If "
-#| "we had not been forced by destiny to bear this taint upon our souls, what "
-#| "would have become of us?  I regret what I must do, yet I know it must be "
-#| "done."
 msgid ""
 "If only we had met under other circumstances, <CHARNAME>...I would have "
 "liked to sit and compare the paths that have brought us to this point. If we"
@@ -828,64 +678,43 @@ msgid ""
 "would have become of us? I regret what I must do, yet I know it must be "
 "done."
 msgstr ""
-"如果我们在其他环境下见面，<CHARNAME>...我可能会坐下来跟你煮酒论英雄，如果没有天赋的影响，我们会怎样？我可能会后悔我所作的，但这必须结束！"
+"如果我们能在其他境遇下见面，<CHARNAME>……我很愿意能和你坐下来一起探讨我们共同走过的路。如果没有那邪恶血脉的影响，我们会怎样呢？我对我所做的一切"
+"感到悔恨，但我知道这又是必须去做的。"
 
 #: balth.tra:1093
-#, fuzzy
-#| msgid ""
-#| "And what becomes of Melissan, then?  Is she free to raise Bhaal and complete"
-#| " her plans?"
 msgid ""
 "And what becomes of Melissan, then? Is she free to raise Bhaal and complete "
 "her plans?"
-msgstr "梅丽珊呢？她会复活巴尔么？"
+msgstr "梅丽珊会怎样呢？她会复活巴尔然后完成自己的计划吗？"
 
 #: balth.tra:1094
-#, fuzzy
-#| msgid ""
-#| "You don't have to do this, Balthazar.  We don't have to fight each other."
 msgid ""
 "You don't have to do this, Balthazar. We don't have to fight each other."
-msgstr ".我们没必要这样，巴尔撒扎。"
+msgstr "你没必要这么做，巴萨札。我们不必互相残杀。"
 
 #: balth.tra:1095
 msgid ""
 "You don't honestly see yourself as the force of righteousness in all this, "
 "do you?"
-msgstr "你觉得自己完全是正义的化身么？"
+msgstr "老实说你还没有完全把自己当作正义的化身吧？"
 
 #: balth.tra:1096
-#, fuzzy
-#| msgid "Enough talk, then.  Let's get this over with."
 msgid "Enough talk, then. Let's get this over with."
-msgstr "够了，让我们把这件事结束吧。"
+msgstr "说得够多了，让我们把这件事结束吧。"
 
 #: balth.tra:1097
-#, fuzzy
-#| msgid ""
-#| "Of course not.  It is she that holds the key to Bhaal's resurrection.  After"
-#| " you are dead, she too must be destroyed."
 msgid ""
 "Of course not. It is she that holds the key to Bhaal's resurrection. After "
 "you are dead, she too must be destroyed."
-msgstr "当然不会，她掌握着巴尔复活的关键，你死以后，她也必须被摧毁。"
+msgstr "当然不是，她掌握着巴尔复活的关键，你死以后，她也必须被摧毁。"
 
 #: balth.tra:1098
-#, fuzzy
-#| msgid ""
-#| "Then we should fight her together!  How do you know she still can't summon "
-#| "Bhaal... everything you've fought for will be for nothing!"
 msgid ""
 "Then we should fight her together! How do you know she still can't summon "
 "Bhaal... everything you've fought for will be for nothing!"
-msgstr "那我们应该并肩作战！你怎么知道她现在还不能复活巴尔...你奋斗的目标可能会因此失败！"
+msgstr "那我们应该并肩作战！你如何保证她不会独自唤醒巴尔？……你的一切努力到头来都会白费！"
 
 #: balth.tra:1099
-#, fuzzy
-#| msgid ""
-#| "And you're going to stop her alone?  Have you given any thought to the fact "
-#| "that maybe you've been helping her all along, that she's been playing you "
-#| "like a harp?"
 msgid ""
 "And you're going to stop her alone? Have you given any thought to the fact "
 "that maybe you've been helping her all along, that she's been playing you "
@@ -893,82 +722,51 @@ msgid ""
 msgstr "你要独自阻止她么？你想过没有？你可能一直被她玩弄于股掌之间？"
 
 #: balth.tra:1100
-#, fuzzy
-#| msgid ""
-#| "Yet another death added to your tally?  And what then, once you kill her?  "
-#| "Once you have all that power and it's yours alone... you think you're going "
-#| "to resist that?"
 msgid ""
 "Yet another death added to your tally? And what then, once you kill her? "
 "Once you have all that power and it's yours alone... you think you're going "
 "to resist that?"
-msgstr "就算是吧，那你杀了她之后呢？一旦你获得了全部的能量......你能抵抗得了么？"
+msgstr "为你的屠杀记录再加上一笔？就算你杀死她，但下一步呢？等到所有能量都汇集到你身上……你认为自己能够抵抗它的影响？"
 
 #: balth.tra:1101
-#, fuzzy
-#| msgid ""
-#| "What makes you think you could kill her?  I'm the one that has defeated all "
-#| "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
-#| "making the peasants miserable."
 msgid ""
 "What makes you think you could kill her? I'm the one that has defeated all "
 "the Bhaalspawn... while you were doing nothing but hiding in this fortress "
 "making the peasants miserable."
-msgstr "你凭什么认为你杀得了她？我是唯一击败了所有巴尔之子的人...而你却一直在这里，除了压迫农民以外什么也没做。"
+msgstr "你凭什么认为自己杀得了她？我才是那个击败所有巴尔之子的人……而你只是一事无成地躲在这座要塞里，为平民带去痛苦。"
 
 #: balth.tra:1102
-#, fuzzy
-#| msgid ""
-#| "I thought you were going to kill yourself after I was dead.  Sure you won't "
-#| "see some more evil once Melissan is dead, too?  You'd probably make a "
-#| "promising Lord of Murder, you know..."
 msgid ""
 "I thought you were going to kill yourself after I was dead. Sure you won't "
 "see some more evil once Melissan is dead, too? You'd probably make a "
 "promising Lord of Murder, you know..."
-msgstr "你可能是想在我死之后自杀，这样梅丽珊死后就不会有邪恶了？你在造就另一个谋杀之王！"
+msgstr "你可能是想在我死之后自杀，以为这样就不会有任何邪恶存世了？你在造就另一个谋杀之神……"
 
 #: balth.tra:1103
-#, fuzzy
-#| msgid ""
-#| "Forget it.  This is pointless.  Let's just get this over with."
 msgid "Forget it. This is pointless. Let's just get this over with."
-msgstr "算了吧，毫无意义，让我们把这件事结束吧。"
+msgstr "算了吧，这毫无意义，让我们把这件事结束吧。"
 
 #: balth.tra:1104
 msgid "Fight her together?"
 msgstr "一起去对付她？"
 
 #: balth.tra:1105
-#, fuzzy
-#| msgid ""
-#| "No.  How could I trust you?  What if we were to vanquish Melissan, I would "
-#| "be weakened... you could end my life there and everything I have been "
-#| "working towards will be for nothing."
 msgid ""
 "No. How could I trust you? What if we were to vanquish Melissan, I would be "
 "weakened... you could end my life there and everything I have been working "
 "towards will be for nothing."
-msgstr "不，我没法信任你，就算我们击败了她，我也会被削弱...你到时就会杀了我，我所作的一切也就都没有意义了。"
+msgstr "不，我如何能信任你？就算我们击败了她，我也会被削弱……你到时就会杀了我，我所做的一切就都没有意义了。"
 
 #: balth.tra:1106
-#, fuzzy
-#| msgid ""
-#| "I had thought when this moment arrived, I would hold clearly to my purpose."
-#| "  We must... end this, <CHARNAME>.  I wish this to be over with, one way or "
-#| "the other."
 msgid ""
 "I had thought when this moment arrived, I would hold clearly to my purpose. "
 "We must... end this, <CHARNAME>. I wish this to be over with, one way or the"
 " other."
-msgstr "我想过，真到了那个时候，我会坚守我的信念。该结束了，<CHARNAME>，你或是我。"
+msgstr "我想过，真到了那个时候，我会坚守我的信念。我们必须……让一切结束，<CHARNAME>，你或者我。"
 
 #: balth.tra:1107
-#, fuzzy
-#| msgid ""
-#| "Alright, Balthazar.  If that's what you want... let's end this now."
 msgid "Alright, Balthazar. If that's what you want... let's end this now."
-msgstr "好吧，巴尔撒扎，这是你自找的。"
+msgstr "好吧，巴萨札，这就是你想要的……让我们现在就结束这一切吧。"
 
 #: balth.tra:1108
 #, fuzzy
