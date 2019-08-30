@@ -1,8 +1,11 @@
-__macosx
 $RECYCLE.BIN/
+__macosx
 backup/
 temp/
 tmp/
+
+Thumbs.db
+ehthumbs.db
 
 .*
 !/.gitignore
@@ -10,20 +13,8 @@ tmp/
 
 *.bak
 *.bat
-*.exe
 *.tmp
-
-*.7z
-*.iemod
+*.lnk
 *.rar
-*.zip
 *.tar*
-
-Thumbs.db
-ehthumbs.db
-.DS_Store
-.AppleDouble
-.LSOverride
-.AppleDB
-.AppleDesktop
-.apdisk
+*.zip
