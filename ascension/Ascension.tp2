@@ -5,7 +5,7 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://www.gibberlings3.net/forums/forum/207-ascension/"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0.8~
+VERSION ~2.0.9~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"
@@ -81,7 +81,7 @@ LANGUAGE ~Italian (Al17, Alessandro, Max, M.Inxes, Rahar and Stefano)~
 // Ascension main component: rewritten Chapter 10                   //
 //////////////////////////////////////////////////////////////////////
 
-BEGIN @104001 DESIGNATED 0 GROUP @101000
+BEGIN @104001 DESIGNATED 0 GROUP @101000 LABEL Ascension-RewrittenFinalChapterOfToB
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -95,7 +95,7 @@ BEGIN @104001 DESIGNATED 0 GROUP @101000
 // Redeemable Balthazar                                             //
 //////////////////////////////////////////////////////////////////////
 
-BEGIN @104009 DESIGNATED 10 GROUP @101000
+BEGIN @104009 DESIGNATED 10 GROUP @101000 LABEL Ascension-BalthazarCanBeRedeemed
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -110,7 +110,7 @@ BEGIN @104009 DESIGNATED 10 GROUP @101000
 // Sarevok interactions                                             //
 //////////////////////////////////////////////////////////////////////
 
-BEGIN @104002 DESIGNATED 20 GROUP @101000
+BEGIN @104002 DESIGNATED 20 GROUP @101000 LABEL Ascension-ImprovedSarevokPlayerInteractions
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -125,7 +125,7 @@ BEGIN @104002 DESIGNATED 20 GROUP @101000
 // Imoen interactions                                             //
 //////////////////////////////////////////////////////////////////////
 
-BEGIN @104003 DESIGNATED 30 GROUP @101000
+BEGIN @104003 DESIGNATED 30 GROUP @101000 LABEL Ascension-ImprovedImoenPlayerInteractions
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -140,7 +140,7 @@ BEGIN @104003 DESIGNATED 30 GROUP @101000
 // Restored Bhaalspawn Powers                 //
 ////////////////////////////////////////////////
 
-BEGIN @104000 DESIGNATED 40 GROUP @101000
+BEGIN @104000 DESIGNATED 40 GROUP @101000 LABEL Ascension-RestoredBhaalspawnPowers
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -155,7 +155,7 @@ BEGIN @104000 DESIGNATED 40 GROUP @101000
 // Enhanced slayer transformation             //
 ////////////////////////////////////////////////
 
-BEGIN @104010 DESIGNATED 50 GROUP @101000
+BEGIN @104010 DESIGNATED 50 GROUP @101000 LABEL Ascension-ImprovedSlayerTransformation
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -172,7 +172,7 @@ BEGIN @104010 DESIGNATED 50 GROUP @101000
 
 // original version
 
-BEGIN @104005 DESIGNATED 60 GROUP @101000 SUBCOMPONENT @104004
+BEGIN @104005 DESIGNATED 60 GROUP @101000 SUBCOMPONENT @104004 LABEL Ascension-DavidGaiderExpandedEpilogues
 	REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -185,7 +185,7 @@ BEGIN @104005 DESIGNATED 60 GROUP @101000 SUBCOMPONENT @104004
 
 // shawne version
 
-BEGIN @104006 DESIGNATED 61 GROUP @101000 SUBCOMPONENT @104004
+BEGIN @104006 DESIGNATED 61 GROUP @101000 SUBCOMPONENT @104004 LABEL Ascension-AlternateEpiloguesByShawne
         INCLUDE "ascension/npc/epilogues.tpa"
         LAF epilogues INT_VAR shawne=1 END
 
@@ -201,7 +201,7 @@ BEGIN @104006 DESIGNATED 61 GROUP @101000 SUBCOMPONENT @104004
 // Abazigal
 //////////////////////
 
-BEGIN @102100 DESIGNATED 1000 GROUP @102000
+BEGIN @102100 DESIGNATED 1000 GROUP @102000 LABEL Ascension-TougherAbazigal
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -216,7 +216,7 @@ BEGIN @102100 DESIGNATED 1000 GROUP @102000
 // Balthazar                                                        //
 //////////////////////////////////////////////////////////////////////
 
-BEGIN @102600 DESIGNATED 1100 GROUP @102000
+BEGIN @102600 DESIGNATED 1100 GROUP @102000 LABEL Ascension-TougherBalthazar
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -231,7 +231,7 @@ BEGIN @102600 DESIGNATED 1100 GROUP @102000
 // Demogorgon
 //////////////////////
 
-BEGIN @102200 DESIGNATED 1200 GROUP @102000
+BEGIN @102200 DESIGNATED 1200 GROUP @102000 LABEL Ascension-TougherDemogorgon
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -246,7 +246,7 @@ BEGIN @102200 DESIGNATED 1200 GROUP @102000
 //         Gromnir    //
 ////////////////////////
 
-BEGIN @102300 DESIGNATED 1300 GROUP @102000
+BEGIN @102300 DESIGNATED 1300 GROUP @102000 LABEL Ascension-TougherGromnir
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -261,7 +261,7 @@ BEGIN @102300 DESIGNATED 1300 GROUP @102000
 // Illasera
 //////////////////////
 
-BEGIN @102400 DESIGNATED 1400 GROUP @102000
+BEGIN @102400 DESIGNATED 1400 GROUP @102000 LABEL Ascension-TougherIllasera
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -276,7 +276,7 @@ BEGIN @102400 DESIGNATED 1400 GROUP @102000
 //         Yaga-Shura //
 ////////////////////////
 
-BEGIN @102500 DESIGNATED 1500 GROUP @102000
+BEGIN @102500 DESIGNATED 1500 GROUP @102000 LABEL Ascension-TougherYagaShura
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -297,7 +297,7 @@ BEGIN @102500 DESIGNATED 1500 GROUP @102000
 // Full-body Bodhi portrait    //
 /////////////////////////////////
 
-BEGIN @103010 DESIGNATED 2000 GROUP @103000
+BEGIN @103010 DESIGNATED 2000 GROUP @103000 LABEL Ascension-FullbodyPortraitForBodhi
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -310,7 +310,7 @@ BEGIN @103010 DESIGNATED 2000 GROUP @103000
 // Cuv's alternate Balthazar portrait    //
 ///////////////////////////////////////////
 
-BEGIN @103020 DESIGNATED 2100 GROUP @103000
+BEGIN @103020 DESIGNATED 2100 GROUP @103000 LABEL Ascension-AlternateBalthazarPortrait
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -323,7 +323,7 @@ BEGIN @103020 DESIGNATED 2100 GROUP @103000
 // Shawne's extended EE NPC epilogues    //
 ///////////////////////////////////////////
 
-BEGIN @105200 DESIGNATED 2200 GROUP @103000
+BEGIN @105200 DESIGNATED 2200 GROUP @103000 LABEL Ascension-ExtendedEpiloguesForEENPCbyShawne
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -339,7 +339,7 @@ BEGIN @105200 DESIGNATED 2200 GROUP @103000
 // DavidW's sharpened NPC portraits      //
 ///////////////////////////////////////////
 
-BEGIN @105210 DESIGNATED 2300 GROUP @103000
+BEGIN @105210 DESIGNATED 2300 GROUP @103000 LABEL Ascension-SharperPortraitsAbazigalGromnir
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
@@ -356,7 +356,7 @@ BEGIN @105210 DESIGNATED 2300 GROUP @103000
 // DavidW's improved cutscenes           //
 ///////////////////////////////////////////
 
-BEGIN @105230 DESIGNATED 2400 GROUP @103000
+BEGIN @105230 DESIGNATED 2400 GROUP @103000 LABEL Ascension-SlightlyImprovedCutscenes
 	REQUIRE_PREDICATE GAME_INCLUDES tob @101001 // ToB is required
 	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ OR MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~ @101003
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
