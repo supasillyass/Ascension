@@ -225,78 +225,78 @@ Entrando nella Posizione della Luna, Balthazar fa appello al potere della Luna p
 Balthazar può avere una sola posizione attiva alla volta: attivando la Posizione della Luna si annullano tutte le altre posizioni. La Posizione della Luna può essere rimossa da incantesimi come Breccia.~
 @26 = ~Posizione dell'Ombra
 
-Raggio d'azione: 0
+Raggio d'Azione: 0
 Durata: 3 ore
 Tempo di lancio: 1
-Area d'effetto: Balthazar
+Area d'Effetto: Balthazar
 Tiro-salvezza: Nessuno
 
 Entrando nella Posizione dell'Ombra, Balthazar fa appello al potere dell'Ombra per migliorare le sue abilità mistiche. Durante la Posizione dell'Ombra Balthazar è protetto dall'Invisibilità Potenziata (ed è completamente invisibile per i primi 15 secondi o finché non attacca). Oltre ai già significativi vantaggi difensivi dell'Invisibilità Potenziata, il mantello d'ombra conferisce a Balthazar un ulteriore bonus di +6 alla Classe Armatura.
 
 Balthazar può avere una sola posizione attiva alla volta: attivando la Posizione dell'Ombra si annullano tutte le altre posizioni. La Posizione dell'Ombra può essere rimossa da incantesimi come Breccia.~
-@27 = ~Faster than the Eye
+@27 = ~Più Veloce degli Occhi
 
-Range: Sight
-Duration: Instant
-Casting Time: 0
-Area of Effect: Balthazar
-Saving Throw: None
+Raggio d'Azione: Vista
+Durata: Istantanea
+Tempo di lancio: 0
+Area d'effetto: Balthazar
+Tiro-salvezza: Nessuno
 
-In the blink of an eye, Balthazar transports himself anywhere in sight.
+In un batter d'occhio, Balthazar si trasporta in un qualsiasi luogo a lui visibile.
 
-This power can be used once per two rounds.~
-@28 = ~Dragon Fist
+Questo potere può essere usato una volta ogni due round.~
+@28 = ~Pugno del Drago
 
-Range: Touch
-Duration: Special
-Casting Time: 0
-Area of Effect: Creature hit
-Saving Throw: None
+Raggio d'Azione: Tocco
+Durata: speciale
+Tempo di lancio: 0
+Area d'effetto: la creatura bersaglio
+Tiro-salvezza: Nessuno
 
-By channeling ki energy into a blow, Balthazar rips through his opponent's magical defenses. The Dragon Fist has a 25% chance of destroying all combat protections and boosts below 9th level, a 25% chance of destroying all antimagic effects below 9th level, and a 50% chance of destroying both. It also slows its target (causing a -4 penalty to AC and attack rolls) for two rounds.
+Incanalando l'energia del Ki in un colpo, Balthazar rimuove le difese magiche del suo avversario. Il Pugno del Drago ha una probabilità del 25% di distruggere tutte le protezioni da combattimento e i potenziamenti al di sotto del 9 ° livello, ha una probabilità del 25% di distruggere tutti gli effetti antimagici al di sotto del 9 ° livello e una probabilità del 50% di distruggere entrambi. Rallenta anche il bersaglio (causando una penalità di -4 a CA e tiri per colpire) per due round.
 
-This power can be used once per three rounds.~
-@29 = ~Tiger Strike
+Questo potere può essere usato una volta ogni tre round.~
+@29 = ~Colpo della Tigre
 
-Range: 0
-Duration: 2 rounds
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Raggio d'Azione: 0
+Durata: 2 round
+Tempo di lancio: 1
+Area d'Effetto: Balthazar
+Tiro-salvezza: Nessuno
 
-While Tiger Strike is active, Balthazar has a 50% chance per hit of a critical hit; in addition, any hit sends its victim flying backwards, stunning them for 1 round.
+Mentre Colpo della Tigre è attivo, Balthazar ha una probabilità del 50% che ogni colpo andato a segno sia un colpo critico. Inoltre, ogni colpo fa volare la vittima all'indietro, stordendola per 1 round.
 
-This power can be used once per four rounds.~
-@30 = ~Hand of Murder
+Questo potere può essere usato una volta ogni quattro round.~
+@30 = ~Mano dell'Omicidio 
 
-Range: 0
-Duration: 1 round
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: Special
+Raggio d'Azione: 0
+Durata: 1 round
+Tempo di lancio: 1
+Area d'Effetto: Balthazar
+Tiro-salvezza: Speciale
 
-Through combining his Ki with his Bhaalspawn essence, all of Balthazar's attacks for one round are automatic critical hits. For the first three second after he activates the power, anyone hit drops dead (save vs. spells to negate).
+Combinando il suo Ki con la sua essenza di Progenie di Bhaal tutti gli attacchi di Balthazar, per un round, sono automaticamente colpi critici. Per i primi tre secondi dopo aver attivato il potere, tutti coloro che vengono colpiti cadono morti (un Tiro-salvezza contro incantesimi riuscito nega l'effetto).
 
-This power can be used once per three rounds.~
-@31 = ~Shadowless Kick
+Questo potere può essere usato una volta ogni tre round.~
+@31 = ~Calcio Senza Ombra
 
-Range: Touch
-Duration: 4 seconds
-Casting Time: 0
-Area of Effect: Creature kicked
-Saving Throw: None
+Raggio d'Azione: Tocco
+Durata: 4 secondi
+Tempo di lancio: 0
+Area d'effetto: Creatura che subisce il calcio
+Tiro-salvezza: Nessuno
 
-With a powerful kick, Balthazar knocks his opponent away, sending them flying; they take 4d8 damage from the impact and are knocked unconscious for a few seconds.
+Con un potente calcio, Balthazar respinge il suo avversario, facendolo volare. Ogni creatura che viene colpita subisce 4d8 danni dall'impatto e rimane incosciente per alcuni secondi.
 
-This power can be used once per two rounds.~
-@32 = ~Lunar Malison
+Questo potere può essere usato una volta ogni due round.~
+@32 = ~Malia della Luna
 
-Range: 30 ft.
-Duration: special
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: Special
+Raggio d'Azione: 9 metri
+Durata: speciale
+Tempo di lancio: 1
+Area d'Effetto: 1 creatura
+Tiro- salvezza: Speciale
 
-The creature affected by Lunar Malison suffers a -4 penalty to all saving throws for a period of 40 rounds. Additionally, they must save vs. spells at a -2 penalty or be slowed (taking a -4 penalty to AC and attack rolls) for 2 rounds.
+La creatura colpita da Malia della Luna subisce una penalità di -4 a tutti i Tiri-salvezza per un periodo di 40 round. Inoltre, deve effettuare un Tiro-salvezza contro gli incantesimi con una penalità di -2 o rimanere rallentata (subendo una penalità di -4 alla CA e ai tiri per colpire) per 2 round.
 
-Balthazar receives one use of this ability whenever he enters the Lunar Stance.~
+Balthazar ottiene un utilizzo di questa abilità ogni volta che entra nella Posizione della Luna.~
