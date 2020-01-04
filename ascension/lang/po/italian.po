@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-04 10:42+0000\n"
+"PO-Revision-Date: 2020-01-04 14:13+0000\n"
 "Last-Translator: Davide Rossini <davidewmilan@alice.it>\n"
 "Language-Team: Italian <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/it/>\n"
@@ -57,7 +57,7 @@ msgstr "Potere Attinto"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr "Scudo Anti-incantesimi Divino"
+msgstr "Scudo Anti-incantesimi Divini"
 
 #: ascension.tra:1019
 msgid "Command Demon"
@@ -85,7 +85,7 @@ msgstr "Purificare Divino"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr "Paralisi Aura"
+msgstr "Aura di Paralisi"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
@@ -185,7 +185,7 @@ msgstr "Potere della Progenie di Bhaal Ottenuto: Controllo sui demoni"
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
 msgstr ""
-"Potere della Progenie di Bhaal Ottenuto: Immunità a LAbirinto e Imprigionare"
+"Potere della Progenie di Bhaal Ottenuto: Immunità a Labirinto e Imprigionare"
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
@@ -194,7 +194,7 @@ msgstr "Potere della Progenie di Bhaal Ottenuto: Focalizzazione"
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
 msgstr ""
-"Potere della Progenie di Bhaal Ottenuto: Immuinità a Marchio dell'Uccisore"
+"Potere della Progenie di Bhaal Ottenuto: Immunità a Marchio dell'Uccisore"
 
 #: ascension.tra:1062
 msgid "Divine Gift"
@@ -222,7 +222,7 @@ msgstr "IA attivata"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
-msgstr "Penalità Lunare"
+msgstr "Malia della Luna"
 
 #: ascension.tra:2000
 msgid ""
@@ -1482,10 +1482,10 @@ msgid ""
 "themselves? Who died merely because they were caught in your wake?"
 msgstr ""
 "La tua proclamazione di innocenza significherebbe qualcosa per i morti di "
-"Saradush? Se ti chiedessi delle recenti morti di Athkatla, di Baldur's Gate,"
-" di Candlekeep... non troverei molti che proclamerebbero una simile "
-"innocenza per se stessi? Quanti sono morti solo perché sopresi in mezzo al "
-"tuo passaggio?"
+"Saradush? Se ti chiedessi delle recenti morti di Athkatla, di Baldur's Gate, "
+"di Candlekeep... non troverei molti che proclamerebbero una simile innocenza "
+"per se stessi? Quanti sono morti solo perché sorpresi in mezzo al tuo "
+"passaggio?"
 
 #: balth.tra:1178
 msgid ""
@@ -1616,7 +1616,7 @@ msgid ""
 msgstr ""
 "E non c'è nulla che desideri di più. Scelgo di diventare un mortale "
 "volentieri, con tutto il mio cuore. Camminare sulla terra senza l'oscuro "
-"fardello che ingroviglia la mia anima... Io... non riesco nemmeno a "
+"fardello che avviluppa la mia anima... Io... non riesco nemmeno a "
 "immaginarlo..."
 
 #: balth_finsol.tra:1012
@@ -3634,7 +3634,7 @@ msgstr "Sicuro. Unisciti di nuovo."
 
 #: imoen_after.tra:487
 msgid "No... get out of here while you can, Imoen."
-msgstr "No... Vattene da qui finchÃ© puoi, Imoen."
+msgstr "No... Vattene da qui finché puoi, Imoen."
 
 #: imoen_after.tra:488
 msgid ""
@@ -4308,7 +4308,7 @@ msgid ""
 "forest for the trees."
 msgstr ""
 "Vero. Più perspicace di quanto mi sarei aspettata da te, <CHARNAME>. E "
-"ancora più inteligente da parte tua avermi negato l'essenza di Balthazar... "
+"ancora più intelligente da parte tua avermi negato l'essenza di Balthazar... "
 "anche se, a dire il vero, segretamente speravo che ti battesse. Cosa poco "
 "probabile, considerando che il patetico monaco riuscirebbe a stento a "
 "distinguere una foresta da un albero."
@@ -4382,7 +4382,7 @@ msgid ""
 "There must be a way to weaken her further, or we will never defeat her!"
 msgstr ""
 "Dannazione! La sgualdrina ritorna all'essenza di Bhaal come una codarda per "
-"curarsi! Dev'esserci un modo per indebolirla, altrimenti non la batteremo "
+"curarsi! Deve esserci un modo per indebolirla, altrimenti non la batteremo "
 "mai!"
 
 #: mel_immortal.tra:398
@@ -4392,7 +4392,7 @@ msgid ""
 "will never be able to defeat her."
 msgstr ""
 "Melissan continua a ripristinare la sua essenza divina alla fonte, "
-"mantenendo intatta la sua immortalità . Dev'esserci un modo per indebolirla "
+"mantenendo intatta la sua immortalità. Deve esserci un modo per indebolirla "
 "alla lunga, altrimenti non sarai mai in grado di sconfiggerla."
 
 #: mel_immortal.tra:1018
@@ -4400,9 +4400,9 @@ msgid ""
 "Melissan keeps restoring her immortal energies at the fount! There must be a"
 " way to weaken her further, or we will never defeat her!"
 msgstr ""
-"Melissan continua a ripristinare la sua energia immortale alla fonte! "
-"Dev'esserci un modo di indebolirla ulteriormente, altrimenti non la "
-"batteremo mai!"
+"Melissan continua a ripristinare la sua energia immortale alla fonte! Deve "
+"esserci un modo di indebolirla ulteriormente, altrimenti non la batteremo "
+"mai!"
 
 #: mel_initial.tra:604
 msgid ""
@@ -4563,8 +4563,8 @@ msgid ""
 "a fool to oppose such power and I will not suffer in the Abyss with you this"
 " time."
 msgstr ""
-"Arrivederci, fratello. I tuoi modi autodistruttivi ti sono costati cari. Sei"
-" stato un pazzo ad opporti a un tale potere e questa volta non soffrirò "
+"Arrivederci, fratello. I tuoi modi controproducenti ti sono costati cari. "
+"Sei stato un pazzo ad opporti a un tale potere e questa volta non soffrirò "
 "nell'Abisso con te."
 
 #: pool_banter.tra:92
@@ -4813,7 +4813,7 @@ msgid ""
 "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell "
 "Revisions, install Ascension, then reinstall Spell Revisions."
 msgstr ""
-"Ascension deve essere installato PRIMA di Spell Revisions. Disistalla Spell "
+"Ascension deve essere installato PRIMA di Spell Revisions. Disinstalla Spell "
 "Revisions, installa Ascension e, infine, reinstalla Spell Revisions."
 
 #: setup.tra:101005
@@ -4821,16 +4821,16 @@ msgid ""
 "Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword "
 "Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems."
 msgstr ""
-"Ascension deve essere installato PRIMA di Sword Coast Stratagems. Disistalla"
-" Sword Coast Stratagems, installa Ascension e, infine, reinstalla Sword "
-"Coast Stratagems."
+"Ascension deve essere installato PRIMA di Sword Coast Stratagems. "
+"Disinstalla Sword Coast Stratagems, installa Ascension e, infine, reinstalla "
+"Sword Coast Stratagems."
 
 #: setup.tra:101006
 msgid ""
 "Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of "
 "Prophecy, install Ascension, then reinstall Wheels of Prophecy."
 msgstr ""
-"Ascension deve essere installato PRIMA di Wheels of Prophecy. Disistalla "
+"Ascension deve essere installato PRIMA di Wheels of Prophecy. Disinstalla "
 "Wheels of Prophecy, installa Ascension e, infine, reinstalla Wheels of "
 "Prophecy."
 
@@ -4981,13 +4981,13 @@ msgstr ""
 "avventurieri lasceranno il posto alle cure di un figlio e, alla fine, anche "
 "di una figlia. E tuttavia nei loro ultimi anni intraprenderanno un ultimo "
 "grande viaggio, spinti dal fatto che Aerie non è ancora riuscita a superare "
-"lo sconforto dovuto al tempo in cui fu costretta in schiavitù e alla perdita"
-" delle sue ali. Aerie e  <CHARNAME> andranno pertanto alla ricerca degli "
+"lo sconforto dovuto al tempo in cui fu costretta in schiavitù e alla perdita "
+"delle sue ali. Aerie e <CHARNAME> andranno pertanto alla ricerca degli "
 "Avariel di Faenya-Dail, gli elfi alati a cui Aerie fu sottratta lungo tempo "
 "addietro. Non solo troveranno il suo popolo, ma anche i suoi affettuosi "
-"genitori che avevano trascorso anni e anni nell'affannosa ricerca della loro"
-" bimba sperduta. Senza più ombre di mistero o confusione ad oscurare la loro"
-" vita, proprio in quel luogo, tra le nuvole, Aerie e <CHARNAME> infine si "
+"genitori che avevano trascorso anni e anni nell'affannosa ricerca della loro "
+"bimba sperduta. Senza più ombre di mistero o confusione ad oscurare la loro "
+"vita, proprio in quel luogo, tra le nuvole, Aerie e <CHARNAME> infine si "
 "sposeranno. La loro unione, così si racconta, è stata benedetta dalle "
 "apparizioni di Aerdrie Faenya e Baervan Wildwanderer."
 
@@ -5156,8 +5156,8 @@ msgstr ""
 " e molto sopportò, ma il suo spirito non si spezzò mai. Libera dall'eredità "
 "di suo padre, si avventurò da sola e tornò brevemente a Candlekeep. La sua "
 "formidabile conoscenza della magia le permise un più profondo apprezzamento "
-"della grande biblioteca, ma sembrava più piccola di quanto ricordasse, e non "
-"rimase a lungo. Imoen utilizzò nomi diversi per tutta la sua vita, e "
+"della grande biblioteca, ma le sembrava più piccola di quanto ricordasse, e "
+"non rimase a lungo. Imoen utilizzò nomi diversi per tutta la sua vita, e "
 "molteplici sono i racconti che parlano di lei. Forse il più memorabile parla "
 "della storia durante la quale svuotò le tasche di Khelben \"Bastone Nero\" "
 "Arunsun, costringendolo ad un'allegra caccia magica attraverso tutta Faerun, "
@@ -6198,7 +6198,7 @@ msgstr ""
 
 #: the_five.tra:622
 msgid "There is enough essence, in fact, even for you... Sarevok."
-msgstr "Infatti c'Ã¨ abbastanza essenza anche per te... Sarevok."
+msgstr "Infatti c'è abbastanza essenza anche per te... Sarevok."
 
 #: the_five.tra:623
 msgid ""
