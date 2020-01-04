@@ -8,14 +8,14 @@
 @1014 = ~Focalizzare~
 @1016 = ~Manto Divino~
 @1017 = ~Potere Attinto~
-@1018 = ~Scudo Anti-incantesimi Divino~
+@1018 = ~Scudo Anti-incantesimi Divini~
 @1019 = ~Comanda Demone~
 @1020 = ~Scaccia~
 @1022 = ~Scatenare il Potere~
 @1024 = ~Reazione~
 @1025 = ~Ristorare Divino~
 @1026 = ~Purificare Divino~
-@1027 = ~Paralisi Aura~
+@1027 = ~Aura di Paralisi~
 @1029 = ~Bomba di Lava~
 @1031 = ~Simbolo di Lentezza~
 @1037 = ~Cambiamento del Distruttore~
@@ -40,16 +40,16 @@
 @1056 = ~Potere della Progenie di Bhaal Ottenuto: Immunità agli effetti vorpal~
 @1057 = ~Potere della Progenie di Bhaal Ottenuto: Porta dimensionale~
 @1058 = ~Potere della Progenie di Bhaal Ottenuto: Controllo sui demoni~
-@1059 = ~Potere della Progenie di Bhaal Ottenuto: Immunità a LAbirinto e Imprigionare~
+@1059 = ~Potere della Progenie di Bhaal Ottenuto: Immunità a Labirinto e Imprigionare~
 @1060 = ~Potere della Progenie di Bhaal Ottenuto: Focalizzazione~
-@1061 = ~Potere della Progenie di Bhaal Ottenuto: Immuinità a Marchio dell'Uccisore~
+@1061 = ~Potere della Progenie di Bhaal Ottenuto: Immunità a Marchio dell'Uccisore~
 @1062 = ~Dono Divino~
 @1063 = ~Resistenza alla Magia Ripristinata~
 @1064 = ~Protezioni dalla Magia Rimosse~
 @1065 = ~Protezioni di Combattimento Rimosse~
 @1066 = ~IA disattivata~
 @1067 = ~IA attivata~
-@1068 = ~Penalità Lunare~
+@1068 = ~Malia della Luna~
 @2000 = ~Poteri della progenie di Bhaal
 
 <CHARNAME> ha acquisito l'abilità, utilizzabile una volta al giorno: 
