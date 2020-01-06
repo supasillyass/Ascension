@@ -4,15 +4,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2018-07-11 07:49+0000\n"
-"Last-Translator: Magus <magus@bgforge.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-01-06 14:13+0000\n"
+"Last-Translator: Alex <alex021998@gmail.com>\n"
+"Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/ru/>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.17\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
 msgid "Babau"
@@ -108,91 +110,96 @@ msgstr "Мелисса: Власть над любимцами Ада"
 
 #: ascension.tra:1039
 msgid "Bhaalspawn Power gained: Immunity to Energy Drain"
-msgstr ""
+msgstr "Получена сила потомка Баала: Невосприимчивость к Оттоку энергии"
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
 msgstr ""
+"Получена сила потомка Баала: Сопротивление физическому урону увеличено на 25%"
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr ""
+msgstr "Потрясение"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
-msgstr ""
+msgstr "Оружие ослаблено слизью Бабау"
 
 #: ascension.tra:1043
 msgid "Grabbed"
-msgstr ""
+msgstr "В захвате"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "Возвращены силы Баала"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
-msgstr ""
+msgstr "Вы смогли вернуть контроль."
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
-msgstr ""
+msgstr "Сопротивление магии понижено на 5%"
 
 #: ascension.tra:1048
 msgid "Slayer transformation enhanced"
-msgstr ""
+msgstr "Форма Убийцы улучшена"
 
 #: ascension.tra:1049
 msgid "The demon bows to your will"
-msgstr ""
+msgstr "Демон склоняется перед вашей волей"
 
 #: ascension.tra:1050
 msgid "The demon defies your will"
-msgstr ""
+msgstr "Демон противится вашей воле"
 
 #: ascension.tra:1051
 msgid "This power only affects demons"
-msgstr ""
+msgstr "Вы можете применить эту силу только на демонов"
 
 #: ascension.tra:1052
 msgid "The demon bows to Melissan's will"
-msgstr ""
+msgstr "Демон склоняется перед волей Мелиссы"
 
 #: ascension.tra:1053
 msgid "The demon defies Melissan's will"
-msgstr ""
+msgstr "Демон противится воле Мелиссы"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
-msgstr ""
+msgstr "Получена сила потомка Баала: Высвобождение"
 
 #: ascension.tra:1055
 msgid "Bhaalspawn Power gained: immunity to death magic"
 msgstr ""
+"Получена сила потомка Баала: Невосприимчивость ко всем формам смертельной "
+"магии"
 
 #: ascension.tra:1056
 msgid "Bhaalspawn Power gained: immunity to vorpal effects"
 msgstr ""
+"Получена способность потомка Баала: невосприимчивость к эффектам убийства "
+"при попадании"
 
 #: ascension.tra:1057
 msgid "Bhaalspawn Power gained: Dimension Door"
-msgstr ""
+msgstr "Получена сила потомка Баала: Дверь измерений"
 
 #: ascension.tra:1058
 msgid "Bhaalspawn Power gained: Control Demons"
-msgstr ""
+msgstr "Получена сила потомка Баала: Контроль Демона"
 
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
-msgstr ""
+msgstr "Получена сила потомка Баала: Невосприимчивость к Лабиринту и Заключению"
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
-msgstr ""
+msgstr "Получена сила потомка Баала: Сосредоточение"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
-msgstr ""
+msgstr "Получена сила потомка Баала: невосприимчивость к Скверне Губителя"
 
 #: ascension.tra:1062
 #, fuzzy
@@ -202,27 +209,27 @@ msgstr "Божественная накидка"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
-msgstr ""
+msgstr "Сопротивление магии восстановлено"
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr ""
+msgstr "Все виды защиты от магии сняты"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
-msgstr ""
+msgstr "Все виды защиты от физического урона сняты"
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr ""
+msgstr "ИИ выключен"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr ""
+msgstr "ИИ включен"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
-msgstr ""
+msgstr "Лунное проклятие"
 
 #: ascension.tra:2000
 msgid ""
@@ -450,7 +457,7 @@ msgstr ""
 
 #: ascension.tra:2008
 msgid "Slayer Change ability improved"
-msgstr ""
+msgstr "Форма Губителя улучшена"
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
@@ -1859,6 +1866,10 @@ msgid ""
 "\n"
 "This ability allows Imoen to cancel her transformation and return to her usual form."
 msgstr ""
+"Выход из формы Губителя\n"
+"\n"
+"Эта способность позволяет Имоен обратить свое превращение и вернуться в свою "
+"исходную форму."
 
 #: description.tra:7
 #, fuzzy
@@ -1957,6 +1968,27 @@ msgid ""
 "\n"
 "The Slayer can be difficult to control: after the first round, you have a 10% cumulative chance per round of losing control of yourself for a round."
 msgstr ""
+"Превращение в Губителя\n"
+"\n"
+"Эта способность позволяет вам принимать форму жестокого воплощения Баала: "
+"неистового могущественного создания, состоящего из зубов и когтей. "
+"Использование этой способности снижает репутацию на один пункт, так как "
+"порчу, вызванную пожертвованием части своей личности в пользу инстинктов, "
+"почувствуют даже не лицезревшие это ужасающее событие.\n"
+"Форма Убийцы даёт следующие преимущества:\n"
+"\n"
+"– Сила и ловкость: 25\n"
+"– Эффективный класс защиты: -9\n"
+"– Сопротивление магии: 40%\n"
+"– Спасброски: 2\n"
+"– 4 атаки в раунд (каждая наносит дробящий урон 1d8 и 2 холодом)\n"
+"– THAC0: 0\n"
+"– PLUS_SIGN_PLACEHOLDER 100 пунктов здоровья\n"
+"– Иммунитет к заключению, откачке уровней, оглушению, страху, очарованию, "
+"замешательству, сну и метательным атакам\n"
+"\n"
+"Подчинить себе силу Губителя не так просто: каждый раунд после первого шанс "
+"потерять контроль над собой на один раунд увеличивается на 10%."
 
 #: description.tra:10
 msgid ""
@@ -1979,6 +2011,30 @@ msgid ""
 "- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks\n"
 "- Chance of losing control: 10%, plus a cumulative 5% per round\n"
 msgstr ""
+"Превращение в Губителя\n"
+"\n"
+"Эта способность позволяет вам принимать форму жестокого воплощения Баала: "
+"неистового могущественного создания, состоящего из зубов и когтей. "
+"Использование этой способности снижает репутацию на один пункт, так как "
+"порчу, вызванную пожертвованием части своей личности в пользу инстинктов, "
+"почувствуют даже не лицезревшие это ужасающее событие.\n"
+"\n"
+"Форма Губителя выросла в силе вместе с вами, и теперь даёт следующие "
+"преимущества:\n"
+"\n"
+"– Сила и ловкость: 25\n"
+"– Эффективный класс защиты: -9\n"
+"– Сопротивление магии: 50%\n"
+"– Сопротивление физическому урону: 15%\n"
+"– Сопротивление стихийному урону: 30%\n"
+"– Спасброски: 2\n"
+"– 4 атаки в раунд (каждая наносит дробящий урон 2d6 и 4 холодом)\n"
+"– THAC0: -4\n"
+"– PLUS_SIGN_PLACEHOLDER 150 пунктов здоровья\n"
+"– Восстановление 2 пунктов здоровья в раунд\n"
+"– Иммунитет к заключению, откачке уровней, оглушению, страху, очарованию, "
+"замешательству, сну и метательным атакам\n"
+"– Шанс потерять контроль над собой: 10%, дополнительные 5% каждый раунд\n"
 
 #: description.tra:11
 msgid ""
@@ -2003,6 +2059,33 @@ msgid ""
 "- Free action\n"
 "- Chance of losing control: a cumulative 5% per two rounds"
 msgstr ""
+"Превращение в Губителя\n"
+"\n"
+"Эта способность позволяет вам принимать форму жестокого воплощения Баала: "
+"неистового могущественного создания, состоящего из зубов и когтей. "
+"Использование этой способности снижает репутацию на два пункта, так как "
+"порчу, вызванную пожертвованием части своей личности в пользу инстинктов, "
+"почувствуют даже не лицезревшие это ужасающее событие.\n"
+"\n"
+"Форма Губителя выросла в силе вместе с вами, и теперь даёт следующие "
+"преимущества:\n"
+"\n"
+"– Сила и ловкость: 25\n"
+"– Эффективный класс защиты: -9\n"
+"– Сопротивление магии: 60%\n"
+"– Сопротивление физическому урону: 30%\n"
+"– Сопротивление стихийному урону: 40%\n"
+"– Спасброски: 2\n"
+"– 4 атаки в раунд (каждая наносит дробящий урон 2d8 и 8 холодом)\n"
+"– Атаки имеют шанс 10% наложить эффект Развеивания магии и понизить "
+"сопротивление магии\n"
+"– THAC0: -8\n"
+"– PLUS_SIGN_PLACEHOLDER 200 пунктов здоровья\n"
+"– Восстановление 3 пунктов здоровья в раунд\n"
+"– Иммунитет к заключению, откачке уровней, оглушению, страху, очарованию, "
+"замешательству, сну, болезням, яду и метательным атакам\n"
+"– Свобода действий\n"
+"– Шанс потерять контроль над собой: 0%, дополнительные 5% каждые два раунда"
 
 #: description.tra:12
 msgid ""
@@ -2040,6 +2123,45 @@ msgid ""
 "- Regenerate 5 Hit Points per second\n"
 "- Chance of losing control increases to 40% plus a cumulative 10% chance per round"
 msgstr ""
+"Превращение в Разрушителя\n"
+"\n"
+"Эта способность позволяет вам принимать форму одного из двух жестоких "
+"воплощений Баала: Губителя или Разрушителя. Использование этой способности "
+"снижает репутацию на два пункта при превращении в Губителя, и на три пункта "
+"при превращении в Разрушителя.\n"
+"\n"
+"Форма Губителя даёт следующие преимущества:\n"
+"\n"
+"– Сила и ловкость: 25\n"
+"– Эффективный класс защиты: -9\n"
+"– Сопротивление магии: 60%\n"
+"– Сопротивление физическому урону: 30%\n"
+"– Сопротивление стихийному урону: 40%\n"
+"– Спасброски: 2\n"
+"– 4 атаки в раунд (каждая наносит дробящий урон 2d8 и 8 холодом)\n"
+"– Атаки имеют шанс 10% наложить эффект Развеивания магии и понизить "
+"сопротивление магии при попадании\n"
+"– THAC0: -8\n"
+"– PLUS_SIGN_PLACEHOLDER 200 пунктов здоровья\n"
+"– Восстановление 3 пунктов здоровья в раунд\n"
+"– Иммунитет к заключению, откачке уровней, оглушению, страху, очарованию, "
+"замешательству, сну, болезням, яду и метательным атакам\n"
+"– Свобода действий\n"
+"– Шанс потерять контроль над собой: 0%, дополнительные 5% каждые два раунда\n"
+"\n"
+"Форма Разрушителя даёт дополнительные преимущества:\n"
+"\n"
+"– Сопротивление магии: 75%\n"
+"– Сопротивление физическому урону: 50%\n"
+"– Сопротивление стихийному урону: 50%\n"
+"– Сопротивление магическому урону: 50%\n"
+"– 5 атак в раунд (каждая наносит дробящий урон 3d8 и 8 холодом)\n"
+"– Шанс развеять магию при попадании увеличен до 20%\n"
+"– THAC0: -12\n"
+"– PLUS_SIGN_PLACEHOLDER 250 пунктов здоровья\n"
+"– Восстановление 5 пунктов здоровья в раунд\n"
+"– Шанс потерять контроль над собой увеличен до 40%, дополнительные 10% "
+"каждый раунд"
 
 #: description.tra:13
 msgid ""
@@ -2060,16 +2182,39 @@ msgid ""
 "\n"
 "Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form."
 msgstr ""
+"Превращение в Губителя\n"
+"\n"
+"Эта способность позволяет Имоен принимать форму жестокого воплощения Баала: "
+"неистового могущественного создания, состоящего из зубов и когтей.\n"
+"\n"
+"Форма Губителя даёт следующие преимущества:\n"
+"\n"
+"– Сила и ловкость: 25\n"
+"– Эффективный класс защиты: -9\n"
+"– Сопротивление магии: 40%\n"
+"– Спасброски: 2\n"
+"– 4 атаки в раунд (каждая наносит дробящий урон 1d8 и 2 холодом)\n"
+"– THAC0: 0\n"
+"– PLUS_SIGN_PLACEHOLDER 100 пунктов здоровья\n"
+"– Иммунитет к заключению, откачке уровней, оглушению, страху, очарованию, "
+"замешательству, сну и метательным атакам\n"
+"\n"
+"Так как Имоен обладает меньшей частью сущности Баала, чем <CHARANAME>, а "
+"может из-за того, что она узнала после вызволения своей сущности Мелиссой - "
+"она способна сдерживать силу Губителя, и не будет терять контроль в форме "
+"Губителя."
 
 #: description.tra:14 imoen_after.tra:1000
 msgid "Bhaalspawn powers granted"
-msgstr ""
+msgstr "Получены силы потомка Баала"
 
 #: description.tra:15
 msgid ""
 "Imoen can now change into the Slayer at will, and can enter the Ethereal "
 "plane once per minute"
 msgstr ""
+"Имоен теперь может в любой момент превращаться в Губителя, и перемещаться в "
+"Эфирный план один раз в минуту"
 
 #: description.tra:16
 #, fuzzy
@@ -2154,6 +2299,16 @@ msgid ""
 "\n"
 "The Bhaalspawn may now move freely through space and the planes. This teleportation power is useable once per round."
 msgstr ""
+"Дверь измерений\n"
+"\n"
+"Дистанция: не ограничена\n"
+"Время чтения: 0\n"
+"Длительность: мгновенно\n"
+"Зона действия: заклинатель\n"
+"Спасбросок: нет\n"
+"\n"
+"Теперь Потомок Баала может без ограничений перемещаться в пространстве и "
+"между планами. Эту способность можно использовать один раз в раунд."
 
 #: description.tra:20
 msgid ""
@@ -2161,6 +2316,9 @@ msgid ""
 "\n"
 "This ability allows Bodhi to shapeshift into bat form."
 msgstr ""
+"Превращение в Летучую Мышь\n"
+"\n"
+"Эта способность позволяет Бодхи превращаться в летучую мышь."
 
 #: description.tra:21
 #, fuzzy
@@ -2216,6 +2374,20 @@ msgid ""
 "\n"
 "Balthazar may flip his resistances at will."
 msgstr ""
+"Обращение Сопротивления\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: постоянно\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"При использовании этой способности Балтазар меняет местами свои внутренние "
+"сопротивления. Его исходное сопротивление физическому урону повышается с 10% "
+"до 90%, а исходное сопротивление магическому и стихийному урону - с 90% до "
+"10%.\n"
+"\n"
+"Балтазар может обращать свои сопротивления в любой момент."
 
 #: description.tra:23
 msgid ""
@@ -2231,6 +2403,19 @@ msgid ""
 "\n"
 "Balthazar may flip his resistances at will."
 msgstr ""
+"Обращение Сопротивления\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: постоянно\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"При использовании этой способности Балтазар меняет местами свои внутренние "
+"сопротивления. Его сопротивление физическому урону возвращается к исходным "
+"10%, а сопротивление магическому и стихийному урону - к 90%.\n"
+"\n"
+"Балтазар может обращать свои сопротивления в любой момент."
 
 #: description.tra:24
 msgid ""
@@ -2246,6 +2431,26 @@ msgid ""
 "\n"
 "Balthazar can have only one stance active at a time: entering the Solar Stance cancels all other stances. The Solar Stance can be removed by effects such as Breach."
 msgstr ""
+"Солнечная Стойка\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: 3 часа\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар и все существа в радиусе 30 футов\n"
+"Спасбросок: нет\n"
+"\n"
+"Когда Балтазар встает в Солнечную Стойку, он улучшает свои мистические "
+"способности силой солнца. Он получает 127% защиту от огня (не изменяется при "
+"использовании Обращения Сопротивления) и все его атаки наносят "
+"дополнительные 1d10 урона огнем, которые восстанавливают ему здоровье. При "
+"вставании в Солнечную Стойку Балтазар испускает волну огня, которая "
+"отбрасывает и наносит 12d6 урона огнем (спасбросок против заклинания "
+"уменьшает урон вдвое) и 1d8 дробящего урона всем существам в радиусе 30 "
+"футов.\n"
+"\n"
+"Балтазар может встать только в одну стойку одновременно: другие стойки "
+"отменяются, когда Балтазар входит в Солнечную Стойку. Солнечная Стойка может "
+"быть развеяна такими чарами, как Пролом."
 
 #: description.tra:25
 msgid ""
@@ -2261,6 +2466,23 @@ msgid ""
 "\n"
 "Balthazar can have only one stance active at a time: entering the Lunar Stance cancels all other stances. The Lunar Stance can be removed by effects such as Breach."
 msgstr ""
+"Лунная Стойка\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: 3 часа\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"Когда Балтазар встает в Лунную Стойку, он улучшает свои мистические "
+"способности силой луны. Он получает невосприимчивость к откачке энергии, "
+"Заключению и Остановке Времени, и получает одноразовое Лунное Проклятие.  "
+"При вставании в Лунную Стойку все враги рядом с Балтазаром слепнут на четыре "
+"раунда (спасбросок против заклинания отменяет ослепление).\n"
+"\n"
+"Балтазар может встать только в одну стойку одновременно: другие стойки "
+"отменяются, когда Балтазар входит в Лунную Стойку. Лунная Стойка может быть "
+"развеяна такими чарами, как Пролом."
 
 #: description.tra:26
 msgid ""
@@ -2276,6 +2498,23 @@ msgid ""
 "\n"
 "Balthazar can have only one stance active at a time: entering the Shadow Stance cancels all other stances. The Shadow Stance can be removed by effects such as Oracle or True Sight."
 msgstr ""
+"Теневая Стойка\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: 3 часа\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"Когда Балтазар встает в Теневую Стойку, он улучшает свои мистические "
+"способности силой Плана Теней. Он получает Улучшенную Невидимость (полная "
+"невидимость на 15 секунд или до следующей атаки). В дополнение к "
+"внушительной защите от Улучшенной Невидимости, Балатазар получает бонус +6 к "
+"классу защиты от плаща теней.\n"
+"\n"
+"Балтазар может встать только в одну стойку одновременно: другие стойки "
+"отменяются, когда Балтазар входит в Теневую Стойку. Теневая Стойка может "
+"быть развеяна такими чарами, как Пролом."
 
 #: description.tra:27
 msgid ""
@@ -2291,6 +2530,17 @@ msgid ""
 "\n"
 "This power can be used once per two rounds."
 msgstr ""
+"В Мгновение Ока\n"
+"\n"
+"Дистанция: в пределах видимости\n"
+"Длительность: мгновенно\n"
+"Время чтения: 0\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"Балтазар может в мгновение ока переместиться в любую обозримую точку.\n"
+"\n"
+"Эта способность может быть использована раз в два раунда."
 
 #: description.tra:28
 msgid ""
@@ -2306,6 +2556,22 @@ msgid ""
 "\n"
 "This power can be used once per three rounds."
 msgstr ""
+"Кулак Дракона\n"
+"\n"
+"Дистанция: касание\n"
+"Длительность: особое\n"
+"Время чтения: 0\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Сконцентрировав энергию ци в одном ударе, Балтазар пробивает магическую "
+"защиту своего противника. Кулак Дракона с вероятностью 25% может развеять "
+"все заклинания защиты от физического урона до 9 уровня, с вероятностью 25% "
+"снимает все заклинания защиты от магии до 9 уровня, и с вероятностью 50% "
+"применяет оба этих эффекта. Также способность замедляет цель (штраф -4 к КЗ "
+"и броскам атаки) на два раунда.\n"
+"\n"
+"Эта способность может быть использована раз в три раунда."
 
 #: description.tra:29
 msgid ""
@@ -2321,6 +2587,19 @@ msgid ""
 "\n"
 "This power can be used once per four rounds."
 msgstr ""
+"Удар Тигра\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: 2 раунда\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: нет\n"
+"\n"
+"Пока активен Удар Тигра, каждый удар Балтазара может стать критическим с "
+"вероятностью 50%. Также каждый удар отбрасывает цель назад, оглушая ее на 1 "
+"раунд.\n"
+"\n"
+"Эта способность может быть использована раз в четыре раунда."
 
 #: description.tra:30
 msgid ""
@@ -2336,6 +2615,20 @@ msgid ""
 "\n"
 "This power can be used once per three rounds."
 msgstr ""
+"Рука Убийцы\n"
+"\n"
+"Дистанция: 0\n"
+"Длительность: 1 раунд\n"
+"Время чтения: 1\n"
+"Зона действия: Балтазар\n"
+"Спасбросок: особый\n"
+"\n"
+"С помощью совмещения энергии Ци и сущности потомка Баала, все атаки "
+"Балтазара становятся критическими на один раунд. Первые три секунды после "
+"активирования любой удар убивает цель на месте (спасбросок от заклинания "
+"отменяет).\n"
+"\n"
+"Эта способность может быть использована раз в три раунда."
 
 #: description.tra:31
 msgid ""
@@ -2351,6 +2644,18 @@ msgid ""
 "\n"
 "This power can be used once per two rounds."
 msgstr ""
+"Пинок Без Тени\n"
+"\n"
+"Дистанция: касание\n"
+"Длительность: 4 секунды\n"
+"Время чтения: 0\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Мощным пинком Балтазар отбрасывает своего противника, отправляя его в полет. "
+"Он получает 4d8 урона от столкновения и лежит без сознания несколько секунд\n"
+"\n"
+"Эта способность может быть использована раз в два раунда."
 
 #: description.tra:32
 msgid ""
@@ -2366,6 +2671,20 @@ msgid ""
 "\n"
 "Balthazar receives one use of this ability whenever he enters the Lunar Stance."
 msgstr ""
+"Лунное Проклятие\n"
+"\n"
+"Дистанция: 30 футов\n"
+"Длительность: особое\n"
+"Время чтения: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: особое\n"
+"\n"
+"Существо, к которому Балтазар применил Лунное Проклятие, получает штраф -4 "
+"ко всем спасброскам на 40 раундов. Также оно должно успешно пройти "
+"спасбросок против заклинания со штрафом -2 или будет замедлено (штраф -4 к "
+"КЗ и броскам атаки) на два раунда.\n"
+"\n"
+"Балтазар получает один заряд этой способности, когда встает в Лунную Стойку."
 
 #: dream_mel.tra:419
 msgid ""
@@ -2798,7 +3117,7 @@ msgstr ""
 #: epilogues.tra:4006 epilogues.tra:4011 epilogues.tra:4012 epilogues.tra:4013
 #: epilogues.tra:4015
 msgid " "
-msgstr ""
+msgstr " "
 
 #: epilogues.tra:4007
 msgid ""
@@ -4601,22 +4920,29 @@ msgid ""
 "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell "
 "Revisions, install Ascension, then reinstall Spell Revisions."
 msgstr ""
+"Ascension должен быть установлен ПЕРЕД Spell Revisions. Удалите Spell "
+"Revisions, установите Ascension, затем установите Spell Revisions снова."
 
 #: setup.tra:101005
 msgid ""
 "Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword "
 "Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems."
 msgstr ""
+"Ascension должен быть установлен ПЕРЕД Sword Coast Stratagems. Удалите Sword "
+"Coast Stratagems, установите Ascension, затем установите Sword Coast "
+"Stratagems снова."
 
 #: setup.tra:101006
 msgid ""
 "Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of "
 "Prophecy, install Ascension, then reinstall Wheels of Prophecy."
 msgstr ""
+"Ascension должен быть установлен ПЕРЕД Wheels of Prophecy. Удалите Wheels of "
+"Prophecy, установите Ascension, затем установите Wheels of Prophecy снова."
 
 #: setup.tra:102000
 msgid "Tougher Throne of Bhaal battles"
-msgstr ""
+msgstr "Усложнение битв в Троне Баала"
 
 #: setup.tra:102100
 msgid "Tougher Abazigal"
@@ -4649,14 +4975,15 @@ msgstr "Усиленный Абазигал"
 #: setup.tra:103000
 msgid "Additional Content (not part of original Ascension mod)"
 msgstr ""
+"Дополнительные компоненты (не были частью оригинальной версии мода Ascension)"
 
 #: setup.tra:103010
 msgid "Full-body portrait for Bodhi"
-msgstr ""
+msgstr "Альтернативный портрет для Бодхи (все тело)"
 
 #: setup.tra:103020
 msgid "Alternate Balthazar portrait, by Cuv"
-msgstr ""
+msgstr "Альтернативный портрет Балтазара от Cuv"
 
 #: setup.tra:104000
 #, fuzzy
@@ -4666,15 +4993,15 @@ msgstr "Восстановленные Силы Потомка Баала от D
 
 #: setup.tra:104001
 msgid "Rewritten Final Chapter of Throne of Bhaal"
-msgstr ""
+msgstr "Переписанная последняя глава Трона Баала"
 
 #: setup.tra:104002
 msgid "Improved Sarevok-Player Interactions"
-msgstr ""
+msgstr "Улучшенное взаимодействие между Саревоком и персонажем игрока"
 
 #: setup.tra:104003
 msgid "Improved Imoen-Player Interactions in Throne of Bhaal"
-msgstr ""
+msgstr "Улучшенное взаимодействие между Имоен и персонажем игрока в Троне Баала"
 
 #: setup.tra:104004
 #, fuzzy
@@ -4684,19 +5011,19 @@ msgstr "Расширенные Эпилоги для оригинальных п
 
 #: setup.tra:104005
 msgid "David Gaider's expanded epilogues for Bioware NPCs"
-msgstr ""
+msgstr "Расширенные эпилоги для оригинальных персонажей Bioware от David Gaider"
 
 #: setup.tra:104006
 msgid "Alternate epilogues by Shawne"
-msgstr ""
+msgstr "Альтернативные эпилоги от Shawne"
 
 #: setup.tra:104009
 msgid "Balthazar can be redeemed"
-msgstr ""
+msgstr "Возможность спасти Балтазара"
 
 #: setup.tra:104010
 msgid "Improved Slayer Transformation"
-msgstr ""
+msgstr "Улучшаемое Превращение в Губителя"
 
 #: setup.tra:105200
 #, fuzzy
@@ -4709,6 +5036,7 @@ msgid ""
 "Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by "
 "DavidW"
 msgstr ""
+"Более четкие портреты для Абазигала и Громнира для Enhanced Edition от DavidW"
 
 #: setup.tra:105220
 msgid "This component is only for BG2:EE or EET"
@@ -4716,7 +5044,7 @@ msgstr "Этот компонент предназначен только для
 
 #: setup.tra:105230
 msgid "Slightly improved cutscenes, by DavidW"
-msgstr ""
+msgstr "Слегка улучшенные катсцены от DavidW"
 
 #: shawnesepilogues.tra:4001
 msgid ""
@@ -6006,7 +6334,7 @@ msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
-msgstr ""
+msgstr "Священник Яга-Шуры"
 
 #~ msgid ""
 #~ "After parting ways with <CHARNAME>, Valygar continued his adventures for "
