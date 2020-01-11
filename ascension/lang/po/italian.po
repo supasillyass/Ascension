@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-04 14:13+0000\n"
+"PO-Revision-Date: 2020-01-11 14:13+0000\n"
 "Last-Translator: Davide Rossini <davidewmilan@alice.it>\n"
 "Language-Team: Italian <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/it/>\n"
@@ -4836,7 +4836,7 @@ msgstr ""
 
 #: setup.tra:102000
 msgid "Tougher Throne of Bhaal battles"
-msgstr "Battaglie di Throne of Bhaal più Difficili"
+msgstr "Battaglie di Throne of Bhaal piu difficili"
 
 #: setup.tra:102100
 msgid "Tougher Abazigal"
@@ -4922,11 +4922,11 @@ msgid ""
 "Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by "
 "DavidW"
 msgstr ""
-"Ritratti più nitidi di Abazigal e Gromnir per la Enhanced Edition, di DavidW"
+"Ritratti piu nitidi di Abazigal e Gromnir per la Enhanced Edition, di DavidW"
 
 #: setup.tra:105220
 msgid "This component is only for BG2:EE or EET"
-msgstr "Questo componente è solo per BG2:EE o EET"
+msgstr "Questo componente e solo per BG2:EE o EET"
 
 #: setup.tra:105230
 msgid "Slightly improved cutscenes, by DavidW"
