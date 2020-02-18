@@ -1,5 +1,4 @@
 * -crlf
-* text eol=crlf
 
 # use export-ignore to skip files when downloading
 **/.* export-ignore
