@@ -1,7 +1,7 @@
 * text eol=crlf
 
 # use export-ignore to skip files when downloading
-.* export-ignore
+**/.* export-ignore
 *.gitignore text eol=crlf
 *.gitattributes text eol=crlf
 
