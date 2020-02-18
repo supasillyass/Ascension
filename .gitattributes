@@ -10,6 +10,7 @@
 *.bat text eol=crlf
 *.bmp binary
 *.command text eol=lf
+*.csv text eol=crlf
 *.dll binary
 *.eff binary
 *.exe binary
