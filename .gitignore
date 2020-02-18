@@ -4,12 +4,11 @@ backup/
 temp/
 tmp/
 
-Thumbs.db
-ehthumbs.db
-
 .*
-!/.gitignore
 !/.gitattributes
+!/.gitconfig
+!/.github
+!/.gitignore
 
 *.bak
 *.bat
@@ -19,3 +18,5 @@ ehthumbs.db
 *.tar*
 *.tmp
 *.zip
+
+Thumbs.db
