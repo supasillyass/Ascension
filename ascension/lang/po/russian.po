@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-01-06 14:13+0000\n"
-"Last-Translator: Alex <alex021998@gmail.com>\n"
-"Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/ascension/ru/>\n"
+"PO-Revision-Date: 2020-05-10 14:14+0000\n"
+"Last-Translator: prowler86 <prowler86@mail.ru>\n"
+"Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/ru/>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
@@ -35,8 +37,6 @@ msgid "Telekinesis"
 msgstr "Телекинез"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Reversed Resistances"
 msgid "Flip Resistances"
 msgstr "Обращение Сопротивления"
 
@@ -93,8 +93,6 @@ msgid "Lava Bomb"
 msgstr "Лавовая бомба"
 
 #: ascension.tra:1031
-#, fuzzy
-#| msgid "Symbol Slow"
 msgid "Symbol, Slow"
 msgstr "Символ Замедления"
 
@@ -202,10 +200,8 @@ msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
 msgstr "Получена сила потомка Баала: невосприимчивость к Скверне Губителя"
 
 #: ascension.tra:1062
-#, fuzzy
-#| msgid "Divine Mantle"
 msgid "Divine Gift"
-msgstr "Божественная накидка"
+msgstr "Божественный дар"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
@@ -260,20 +256,6 @@ msgstr ""
 "При использовании данной способности Потомок Баала должен ясно видеть своих спутников и сфокусировать заклинание на всей группе. По его завершении все члены группы в радиусе 30 футов от заклинателя исцеляются на 2D8 + 2/уровень пунктов здоровья. Остальные ухудшения состояния, такие как усталость, яд, болезнь, слепота и глухота, также излечиваются."
 
 #: ascension.tra:2001
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Bhaalspawn Powers\n"
 "\n"
@@ -299,7 +281,12 @@ msgstr ""
 "Зона действия: 1 существо\n"
 "Спасбросок: нет\n"
 "\n"
-"Данная способность позволяет Потомку Баала наделить одно существо способностью к регенерации. Регенерация излечивает любые раны и даже восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня восстановит 18 пунктов здоровья за раунд в течение 7 раундов."
+"Данная способность позволяет Потомку Баала наделить одно существо "
+"способностью к регенерации. Регенерация излечивает любые раны и даже "
+"восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 "
+"пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня "
+"заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня "
+"восстановит 18 пунктов здоровья за раунд в течение 7 раундов."
 
 #: ascension.tra:2002
 msgid ""
@@ -1351,15 +1338,6 @@ msgid "Then let's get this over with. I'm tired of talking."
 msgstr "Тогда давай покончим с этим. Я утомлен разговором."
 
 #: balth.tra:1167
-#, fuzzy
-#| msgid ""
-#| "It... it is true. I paid little attention to my men's actions, but I... I "
-#| "knew what they were doing. I thought it a great sacridice, necessary to "
-#| "maintain secrecy, to attain my ultimate goal that they, in their ignorance, "
-#| "did not know would benefit them more in the end. But... it is how we treat "
-#| "the most helpless of our brethren in the worst of times that marks the "
-#| "goodness of a man, does it not? I... I am ashamed, <CHARNAME>. I sought... "
-#| "only to do what was best for us all."
 msgid ""
 "It... it is true. I paid little attention to my men's actions, but I... I "
 "knew what they were doing. I thought it a great sacrifice, necessary to "
@@ -1871,20 +1849,6 @@ msgstr ""
 "Эта способность позволяет Имоен обратить свое превращение и вернуться в свою исходную форму."
 
 #: description.tra:7
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Regeneration (Necromancy) \n"
-#| "Range: Touch\n"
-#| "Duration: 1 round/ 2 levels\n"
-#| "Casting Time: 7\n"
-#| "Area of Effect: Target Creature\n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgid ""
 "Regeneration\n"
 "\n"
@@ -1896,18 +1860,19 @@ msgid ""
 "\n"
 "This powerful ability enables the Bhaalspawn to imbue 1 creature with the ability to regenerate. This regeneration will heal any wounds and even regenerate lost limbs. The creature affected will regain 3 hit points per second. The effect lasts for 1 round per every 2 levels of the caster or until dispelled. For example, a 14th level character would regenerate 18 hit points per round for 7 rounds."
 msgstr ""
-"Силы Потомка Баала\n"
-"\n"
-"Приобретена особая способность, используемая один раз в день:\n"
-"\n"
-"Регенерация (Некромантия)\n"
+"Регенерация \n"
 "Расстояние: касание\n"
 "Длительность: 1 раунд / 2 уровня\n"
 "Время чтения: 7\n"
 "Зона действия: 1 существо\n"
 "Спасбросок: нет\n"
 "\n"
-"Данная способность позволяет Потомку Баала наделить одно существо способностью к регенерации. Регенерация излечивает любые раны и даже восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня восстановит 18 пунктов здоровья за раунд в течение 7 раундов."
+"Данная способность позволяет Потомку Баала наделить одно существо "
+"способностью к регенерации. Регенерация излечивает любые раны и даже "
+"восстанавливает потерянные конечности. Регенерирующее существо приобретает 3 "
+"пункта здоровья каждую секунду. Эффект длится 1 раунд за каждые 2 уровня "
+"заклинателя или пока не будет рассеян. Например, персонаж 14-го уровня "
+"восстановит 18 пунктов здоровья за раунд в течение 7 раундов."
 
 #: description.tra:8
 #, fuzzy
@@ -1935,18 +1900,17 @@ msgid ""
 "\n"
 "Like the 5th level spell Raise Dead, Resurrection will return a character back to life. However, Resurrection also heals the character so that they are ready for the adventuring life once more."
 msgstr ""
-"Силы Потомка Баала\n"
+"Воскрешение \n"
 "\n"
-"Приобретена особая способность, используемая один раз в день:\n"
-"\n"
-"Воскрешение (Некромантия) \n"
 "Расстояние: касание\n"
 "Длительность: постоянно\n"
 "Время чтения: 1\n"
 "Зона действия: 1 существо\n"
 "Спасбросок: нет\n"
 "\n"
-"Эта способность дает Потомку Баала возможность возврата к жизни членов <PRO_HISHER> группы. При этом, данная способность полностью исцеляет персонаж, делая его готовым к дальнейшим действиям."
+"Эта способность дает Потомку Баала возможность возврата к жизни членов "
+"<PRO_HISHER> группы. При этом, данная способность полностью исцеляет "
+"персонаж, делая его готовым к дальнейшим действиям."
 
 #: description.tra:9
 msgid ""
@@ -2289,20 +2253,6 @@ msgstr ""
 "Эта способность позволяет Бодхи превращаться в летучую мышь."
 
 #: description.tra:21
-#, fuzzy
-#| msgid ""
-#| "Bhaalspawn Powers\n"
-#| "\n"
-#| "<CHARNAME> has gained the ability, usable once per day: \n"
-#| "\n"
-#| "Draw Upon Holy Might (Invocation) \n"
-#| "Range: 0 \n"
-#| "Duration: 1 turn\n"
-#| "Casting Time: 1\n"
-#| "Area of Effect: The caster \n"
-#| "Saving Throw: None \n"
-#| "\n"
-#| "The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant him power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> strength, constitution and dexterity all are raised by 1 point for every 3 levels of the caster. A third level caster would have <PRO_HISHER> abilities raised by 1, while a 12th level caster would have all <PRO_HISHER> abilities raised by 4."
 msgid ""
 "Divine Gift\n"
 "(Invocation)\n"
@@ -2326,7 +2276,9 @@ msgstr ""
 "Зона действия: заклинатель\n"
 "Спасбросок: нет\n"
 "\n"
-"Потомок Баала призывает силу своей крови, чтобы увеличить на короткий период свои физические возможности. После того, как <PRO_HESHE> сделает это, <PRO_HISHER> Сила, Телосложение и Ловкость увеличиваются на 1 пункт за каждые 3 уровня заклинателя. Например, персонаж 3-го уровня увеличит свои характеристики на 1, а персонаж 12-го уровня - на 4."
+"Потомок Баала призывает силу своей крови, чтобы увеличить на короткий период "
+"свои физические возможности. После того, как <PRO_HESHE> сделает это, "
+"<PRO_HISHER> Сила, Телосложение и Ловкость устанавливаются на 25."
 
 #: description.tra:22
 msgid ""
@@ -2630,12 +2582,6 @@ msgstr ""
 "Ну, твой план сработал не совсем так, как ты задумала. Балтазар все еще жив."
 
 #: dream_mel.tra:422
-#, fuzzy
-#| msgctxt "MELISS23"
-#| msgid ""
-#| "Do you dare come and face me there? Or shall I have to hunt you down like "
-#| "the sorry dog that you are? Because make no mistake... one way or another, "
-#| "every last drop of that divine essence will be *mine*."
 msgid ""
 "Do you dare come and face me there? Or shall I have to hunt you down like "
 "the sorry dog that you are? Because make no mistake... one way or another, "
@@ -4104,20 +4050,14 @@ msgstr ""
 "или умри, как и <PRO_HIMHER>!"
 
 #: iren_bodhi.tra:456
-#, fuzzy
-#| msgid ""
-#| "So my ungrateful sister, you finally stand by my side. I shall deal with "
-#| "your treachery afterwards. As for you, <CHARNAME>, Mellisan has granted me "
-#| "the power to rip the divinity from your body. The first thing I shall feel "
-#| "in an eon shall be pleasure as I watch your corpse turn to dust."
 msgid ""
 "So my ungrateful sister, you finally stand by my side. I shall deal with "
 "your treachery afterwards. As for you, <CHARNAME>, Melissan has granted me "
 "the power to rip the divinity from your body. The first thing I shall feel "
 "in an eon shall be pleasure as I watch your corpse turn to dust."
 msgstr ""
-"Итак, моя неблагодарная сестра, ты наконец-то встала на мою сторону. Я позже"
-" разберусь с твоим вероломством. Что касается тебя, <CHARNAME>, Мелисса "
+"Итак, моя неблагодарная сестра, ты наконец-то встала на мою сторону. Я позже "
+"разберусь с твоим вероломством. Что касается тебя, <CHARNAME>, Мелисса "
 "даровала мне силы вырвать божественность из твоего тела. Первая вещь, "
 "которую я почувствую в вечности, будет удовольствие наблюдать превращение "
 "твоего трупа в прах."
@@ -4582,18 +4522,13 @@ msgstr ""
 "сильна моя власть над тобой, да?"
 
 #: pool_banter.tra:91
-#, fuzzy
-#| msgid ""
-#| "Goodbye, brother. Your self-destructive ways have cost you dearly. You were "
-#| "a fool to oppose such power and I will not suffer in the abyss with you this"
-#| " time."
 msgid ""
 "Goodbye, brother. Your self-destructive ways have cost you dearly. You were "
 "a fool to oppose such power and I will not suffer in the Abyss with you this"
 " time."
 msgstr ""
 "Прощай, брат. Твой путь самоуничтожения дорого тебе обошелся. Ты был глуп, "
-"пытаять противостоять такой силе, и в этот раз я не буду страдать в бездне "
+"пытаясь противостоять такой силе, и в этот раз я не буду страдать в бездне "
 "вместе с тобой."
 
 #: pool_banter.tra:92
@@ -4877,10 +4812,8 @@ msgid "Tougher Abazigal"
 msgstr "Усиленный Абазигал"
 
 #: setup.tra:102200
-#, fuzzy
-#| msgid "Tougher Gromnir"
 msgid "Tougher Demogorgon"
-msgstr "Усиленный Громнир"
+msgstr "Усиленный Демогоргон"
 
 #: setup.tra:102300
 msgid "Tougher Gromnir"
@@ -4895,10 +4828,8 @@ msgid "Tougher Yaga-Shura"
 msgstr "Усиленный Яга-Шура"
 
 #: setup.tra:102600
-#, fuzzy
-#| msgid "Tougher Abazigal"
 msgid "Tougher Balthazar"
-msgstr "Усиленный Абазигал"
+msgstr "Усиленный Балтазар"
 
 #: setup.tra:103000
 msgid "Additional Content (not part of original Ascension mod)"
@@ -4915,10 +4846,8 @@ msgid "Alternate Balthazar portrait, by Cuv"
 msgstr "Альтернативный портрет Балтазара от Cuv"
 
 #: setup.tra:104000
-#, fuzzy
-#| msgid "Restored Bhaalspawn Powers by David Gaider"
 msgid "Restored Bhaalspawn Powers"
-msgstr "Восстановленные Силы Потомка Баала от David Gaider"
+msgstr "Восстановленные Силы Потомка Баала"
 
 #: setup.tra:104001
 msgid "Rewritten Final Chapter of Throne of Bhaal"
@@ -4934,10 +4863,8 @@ msgstr ""
 "Улучшенное взаимодействие между Имоен и персонажем игрока в Троне Баала"
 
 #: setup.tra:104004
-#, fuzzy
-#| msgid "Extended Epilogues for original Bioware NPCs by shawne"
 msgid "Expanded Epilogues for Bioware NPCs"
-msgstr "Расширенные Эпилоги для оригинальных персонажей Bioware от shawne"
+msgstr "Expanded Epilogues for Bioware NPCs"
 
 #: setup.tra:104005
 msgid "David Gaider's expanded epilogues for Bioware NPCs"
