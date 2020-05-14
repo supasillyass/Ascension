@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-05-14 03:12+0000\n"
-"Last-Translator: prowler86 <prowler86@mail.ru>\n"
+"PO-Revision-Date: 2020-05-14 14:14+0000\n"
+"Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/ru/>\n"
 "Language: russian\n"
@@ -4885,22 +4885,22 @@ msgstr "Улучшаемое Превращение в Губителя"
 
 #: setup.tra:105200
 msgid "Extended Epilogues for additional Beamdog NPCs, by shawne"
-msgstr "Extended Epilogues for additional Beamdog NPCs, by shawne"
+msgstr "Расширенные Эпилоги для дополнительных персонажей Beamdog от shawne"
 
 #: setup.tra:105210
 msgid ""
 "Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by "
 "DavidW"
 msgstr ""
-"Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by DavidW"
+"Более четкие портреты для Абазигала и Громнира для Enhanced Edition от DavidW"
 
 #: setup.tra:105220
 msgid "This component is only for BG2:EE or EET"
-msgstr "This component is only for BG2:EE or EET"
+msgstr "Этот компонент предназначен только для BG2:EE или ЕЕT"
 
 #: setup.tra:105230
 msgid "Slightly improved cutscenes, by DavidW"
-msgstr "Slightly improved cutscenes, by DavidW"
+msgstr "Слегка улучшенные катсцены от DavidW"
 
 #: shawnesepilogues.tra:4001
 msgid ""
