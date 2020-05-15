@@ -151,8 +151,9 @@ DEFINE_ACTION_FUNCTION redeemable_balthazar BEGIN
 
    // Balthazar interjections into the Solar conversation
 
-   LAF compile_dialog STR_VAR dialog=balth_finsol root="%balth_loc%/d" END
-
+   LAF compile_dialog STR_VAR dialog=balth_finsol_compat root="%balth_loc%/d" END
+      LAF compile_dialog STR_VAR dialog=balth_finsol root="%balth_loc%/d" END
+   
    ///////////////////////////////////////////////
    /// Ch.10 script edits - ONLY if
    /// Ascension main component is not installed

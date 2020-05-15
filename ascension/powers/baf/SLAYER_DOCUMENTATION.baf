@@ -9,6 +9,17 @@ THEN
 END
 
 IF
+	OnCreation()
+	Global("FINSPROG","GLOBAL",0)
+	HaveSpellParty(SLAYER_START)
+THEN
+	RESPONSE #100
+         SetGlobal("FINSPROG","GLOBAL",1)
+		 Continue()
+END
+	
+
+IF
   GlobalLT("FINSPROG","GLOBAL",2)
   !XPLT(Player1,%threshold_1%)
   XPLT(Player1,%threshold_2%)

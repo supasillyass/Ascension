@@ -91,7 +91,7 @@ THEN
     CreateVisualEffectObject("SPSTRENH",Player1)
     AddJournalEntry(@2004,INFO)
     DisplayStringHead(Player1,@1039)
-    ActionOverride(Player1,ApplySpellRES("BHAAL3A",[ANYONE]))
+    ActionOverride(Player1,ApplySpellRES("BHAAL3A",Myself))
 END
 
 // evil outcome: Hand of Murder
@@ -141,6 +141,6 @@ THEN
     CreateVisualEffectObject("SPSTRENH",Player1)
     AddJournalEntry(@2007,INFO)
     DisplayStringHead(Player1,@1040)
-    ActionOverride(Player1,ApplySpellRES("BHAAL4B",[ANYONE]))
+    ActionOverride(Player1,ApplySpellRES("BHAAL4B",Myself))
 END
 

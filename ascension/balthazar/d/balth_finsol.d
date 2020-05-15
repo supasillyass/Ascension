@@ -1,3 +1,6 @@
+
+
+
 /// Balth's interjection to advise the player
 
 INTERJECT_COPY_TRANS finsol01 27 balth_sol_1

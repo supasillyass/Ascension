@@ -20,7 +20,15 @@ SET_WEIGHT BIMOEN25 100 #-1
 // DW addition: Imoen has conditions to trigger her conversations, but
 // those triggers aren't in the dialog file itself, which can result in
 // them firing implausibly early. Add them.
+//
+// 2.0.11 change: we'll move the conditions slightly earlier, to avoid
+// a conflict with Imoen Romance. (Note that this doesn't change when
+// Ascension forces these dialogs (that's still controlled by imoe25.baf)
+// it just tolerates them showing up a little earlier.
 ///////////////////////////////////////////////////////////////////////
 
-ADD_STATE_TRIGGER bimoen25 91 ~Global("YagaShuraHeart1","GLOBAL",2)~
-ADD_STATE_TRIGGER bimoen25 101 ~Global("METBAL","GLOBAL",1)~
+
+// ADD_STATE_TRIGGER bimoen25 91 ~Global("YagaShuraHeart1","GLOBAL",2)~
+// ADD_STATE_TRIGGER bimoen25 100 ~Global("METBAL","GLOBAL",1)~
+ADD_STATE_TRIGGER bimoen25 91 ~Dead("Gromnir")~
+ADD_STATE_TRIGGER bimoen25 100 ~Dead("Yaga01")~

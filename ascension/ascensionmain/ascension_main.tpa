@@ -43,7 +43,7 @@ ACTION_FOR_EACH dialog IN
    iren_sarev mel_banter mel_immortal 
    mel_initial mel_iren_imoen
    pool_banter pool_powers the_five
-   finsarev_epilogue
+   finsarev_epilogue_compat finsarev_epilogue
 BEGIN
    LOAD_TRA "%ascension_tra_loc%/english/%dialog%.tra" "%ascension_tra_loc%/%LANGUAGE%/%dialog%.tra"
    COPY "%MOD_FOLDER%/ascensionmain/d/%dialog%.d" "%workspace%"

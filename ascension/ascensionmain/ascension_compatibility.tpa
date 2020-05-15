@@ -21,8 +21,32 @@ DEFINE_ACTION_FUNCTION ascension_compatibility BEGIN
 
    END
    
-   // strip identifier blocks
+   // Imoen Romance
+  PRINT "blook blook"
+  COPY_EXISTING "finsol01.dlg" override
+       DECOMPILE_AND_PATCH BEGIN
+			REPLACE_TEXTUALLY "\(%TAB%\|%LNL%\|%MNL%\|%WNL%\)" " "
+			REPLACE_TEXTUALLY ~~~~~IF +~ *Global("sarev_imoen_compat_hook","GLOBAL",[12])[^~]*~[^0-9]*[0-9]+~~~~~ ""
+		END
+   BUT_ONLY
+   COPY_EXISTING "finsare2.dlg" override
+	DECOMPILE_AND_PATCH BEGIN
+		REPLACE_TEXTUALLY "\(%TAB%\|%LNL%\|%MNL%\|%WNL%\)" " "
+		PATCH_IF MOD_IS_INSTALLED "setup-ImoenRomance.tp2" 0 BEGIN
+			REPLACE_TEXTUALLY ~~~~~IF +~ *Global("sarev_imoen_compat_hook","GLOBAL",[12])[^~]*~ +THEN +EXTERN +~FINSOL01~ +[0-9]+~~~~~ ""
+		END ELSE BEGIN
+			REPLACE_TEXTUALLY ~Global("sarev_imoen_compat_hook","GLOBAL",1)~ ~!Global("ImoenRomanceActive","GLOBAL",3)OR(2)Global("ImoenRomanceActive","GLOBAL",2)Global("IRTBhaalImoen","GLOBAL",1)~
+			REPLACE_TEXTUALLY ~Global("sarev_imoen_compat_hook","GLOBAL",2)~ ~!Global("ImoenRomanceActive","GLOBAL",0)~
+		END
+    END
+   BUT_ONLY
+
+
   
+   // strip identifier blocks
+   // actually leave them in place for others to use later
+
+	/*
    ACTION_FOR_EACH dialog IN irenic2 finmel01 BEGIN
     COPY_EXISTING "%dialog%.dlg" override
       DECOMPILE_AND_PATCH BEGIN
@@ -30,5 +54,6 @@ DEFINE_ACTION_FUNCTION ascension_compatibility BEGIN
       END
     BUT_ONLY
    END
+   */
 
 END

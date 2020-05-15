@@ -1,5 +1,6 @@
 // we need to wait a second for the engine to hard-grant the slayer power
 
+/*
 IF
   Global("FINSPROG","GLOBAL",0)
 
@@ -18,3 +19,4 @@ THEN
           ApplySpellRES("finslgr",Player1)
           Continue()
 END
+*/
