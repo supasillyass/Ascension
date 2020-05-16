@@ -3138,7 +3138,7 @@ msgid ""
 "version of the Ascension mod."
 msgstr ""
 
-#: setup.tra:101004
+#: setup.tra:101004 setup.tra:101008
 msgid ""
 "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell "
 "Revisions, install Ascension, then reinstall Spell Revisions."
@@ -3154,6 +3154,12 @@ msgstr ""
 msgid ""
 "Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of "
 "Prophecy, install Ascension, then reinstall Wheels of Prophecy."
+msgstr ""
+
+#: setup.tra:101007
+msgid ""
+"Ascension must be installed BEFORE Iylos. Uninstall Iylos, install "
+"Ascension, then reinstall Iylos."
 msgstr ""
 
 #: setup.tra:102000

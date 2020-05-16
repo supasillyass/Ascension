@@ -4700,7 +4700,7 @@ msgstr ""
 "Devi avere installato BG2Fixpack o utilizzare l'EE per installare questa "
 "versione di Ascension."
 
-#: setup.tra:101004
+#: setup.tra:101004 setup.tra:101008
 msgid ""
 "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell "
 "Revisions, install Ascension, then reinstall Spell Revisions."
@@ -4725,6 +4725,18 @@ msgstr ""
 "Ascension deve essere installato PRIMA di Wheels of Prophecy. Disinstalla "
 "Wheels of Prophecy, installa Ascension e, infine, reinstalla Wheels of "
 "Prophecy."
+
+#: setup.tra:101007
+#, fuzzy
+#| msgid ""
+#| "Ascension must be installed BEFORE Spell Revisions. Uninstall Spell "
+#| "Revisions, install Ascension, then reinstall Spell Revisions."
+msgid ""
+"Ascension must be installed BEFORE Iylos. Uninstall Iylos, install "
+"Ascension, then reinstall Iylos."
+msgstr ""
+"Ascension deve essere installato PRIMA di Spell Revisions. Disinstalla Spell"
+" Revisions, installa Ascension e, infine, reinstalla Spell Revisions."
 
 #: setup.tra:102000
 msgid "Tougher Throne of Bhaal battles"
