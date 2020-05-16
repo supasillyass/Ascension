@@ -109,7 +109,12 @@ COPY_EXISTING spermel.itm override
      LPF DELETE_EFFECT INT_VAR match_opcode=40 END // slow
      LPF DELETE_EFFECT INT_VAR match_opcode=142 match_parameter2=41 END  // slow icon
      LPF DELETE_EFFECT INT_VAR match_opcode=166 END // MR reduction
-     LPF ALTER_EFFECT INT_VAR match_probability1=25 probability1=14 save_vs_spell=0 save_vs_polymorph=1 savebonus="-4" END  // reduce stun chance, change saving throw
+     PATCH_IF MOD_IS_INSTALLED "setup-bg2fixpack.tp2" 3 BEGIN
+		match_probability1=24
+	 END ELSE BEGIN
+		match_probability1=25
+	 END
+	 LPF ALTER_EFFECT INT_VAR match_probability1 probability1=14 save_vs_spell=0 save_vs_polymorph=1 savebonus="-4" END  // reduce stun chance, change saving throw
      PATCH_IF enhanced_edition BEGIN
          LPF ALTER_EFFECT INT_VAR match_opcode=12 save_for_half=1 save_vs_spell=1 savebonus="-4" END
      END ELSE BEGIN

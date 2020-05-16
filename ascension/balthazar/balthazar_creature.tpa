@@ -62,7 +62,9 @@ COPY "%workspace%/balth.cre" "override/balth2.cre"
         LPF polymorph_immunity END
         LPF fear_immunity END
         LPF poison_immunity END
-        LPF devour_brain_immunity END
+        LPF devour_brain_immunity END      
+		LPF immunity_to_opcode INT_VAR value STR_VAR arguments=32 END // immunity to resurrection (avoid edge-case bug where the Rod of Resurrection is used at the same time as he dies)
+
 BUT_ONLY
 
 END

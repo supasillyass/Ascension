@@ -282,6 +282,7 @@ COPY_EXISTING "finsarev.cre" "override/finsare2.cre"
                            dialog=finsare2
                            script_override=finsare2
      END
+	 LPF immunity_to_opcode INT_VAR value STR_VAR arguments=32 END // immunity to resurrection (avoid edge-case bug where the Rod of Resurrection is used at the same time as he dies)
      PATCH_IF enhanced_edition BEGIN
          WRITE_BYTE 0x12 ((BYTE_AT 0x12) BOR 0b01000000)  // ignore nightmare mode
      END

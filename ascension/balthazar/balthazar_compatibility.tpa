@@ -1,25 +1,10 @@
 DEFINE_ACTION_FUNCTION balthazar_compatibility BEGIN
 
-   // Iylos - banter with Balth (a bit tricky to identify the exact block)
 
-   ACTION_IF MOD_IS_INSTALLED "iylos.tp2" 0 BEGIN
-      LAF FIND_DLG_BLOCK
-                STR_VAR dialog=finsol01
-                        match=~dw_balth_happy_id~
-                RET solar_block=block_number
-      END
-      LAF FIND_DLG_BLOCK
-                STR_VAR dialog=balth2
-                        match="EXTERN ~FINSOL01~ %solar_block%"
-                RET iylos_balth2_2=block_number
-      END
-      WITH_TRA "iylos/translations/english/ascension.tra" "iylos/translations/%LANGUAGE%/ascension.tra " BEGIN
-         COMPILE "%MOD_FOLDER%/balthazar/compat/iylos.d" EVALUATE_BUFFER
-      END
-   END
    
    // Imoen romance
    
+   /* probably not needed now
    COPY_EXISTING "finsol01.dlg" override
        DECOMPILE_AND_PATCH BEGIN
 			REPLACE_TEXTUALLY "\(%TAB%\|%LNL%\|%MNL%\|%WNL%\)" " "
@@ -37,21 +22,8 @@ DEFINE_ACTION_FUNCTION balthazar_compatibility BEGIN
 		END
     END
    BUT_ONLY
-   
+   */
 
-   // strip identifier blocks
-   // actually, don't - leave them for others' use
-   /*
-  
-   ACTION_FOR_EACH dialog IN finsol01 BEGIN
-    COPY_EXISTING "%dialog%.dlg" override
-      DECOMPILE_AND_PATCH BEGIN
-           REPLACE_TEXTUALLY ~Global("dw_[^"]*_id",[^)]*)~ ~~
-      END
-    BUT_ONLY
-   END
-
-	*/
 
 
 

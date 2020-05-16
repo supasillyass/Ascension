@@ -37,6 +37,7 @@ COPY "%iren_bodhi_loc%/finbodh.cre" override
     LPF CRE_second_level_immunity END
     LPF CRE_regeneration INT_VAR value=10 END
     LPF ADD_CRE_EFFECT INT_VAR opcode=50 target=1 timing=0 duration=2 parameter1=(400*0x10000 + 93*0x1000000) parameter2=(25*0x10000) END
+	LPF immunity_to_opcode INT_VAR value STR_VAR arguments=32 END // immunity to resurrection (avoid edge-case bug where the Rod of Resurrection is used at the same time as she dies)
 
 // BUT_ONLY
 

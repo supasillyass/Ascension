@@ -40,7 +40,7 @@ SAY @581
 IF ~~ THEN EXTERN balth2 balth_renounce_taint
 END
 
-IF ~Global("dw_balth_happy_id","GLOBAL",1)~ THEN BEGIN balth_happy
+IF ~~ THEN BEGIN balth_happy
 SAY @584
 IF ~InParty("Imoen2")!Dead("Imoen2")~ THEN GOTO imoens_turn
 IF ~OR(2)!InParty("Imoen2")Dead("Imoen2")~ THEN GOTO 5

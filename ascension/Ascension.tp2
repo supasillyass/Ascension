@@ -5,7 +5,7 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://www.gibberlings3.net/forums/forum/207-ascension/"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0.10~
+VERSION ~2.0.11~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"
@@ -87,6 +87,8 @@ BEGIN @104001 DESIGNATED 0 GROUP @101000 LABEL Ascension-RewrittenFinalChapterOf
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 	INCLUDE ~ascension/ascensionmain/ascension_main.tpa~
         LAF ascension_main END
@@ -101,6 +103,8 @@ BEGIN @104009 DESIGNATED 10 GROUP @101000 LABEL Ascension-BalthazarCanBeRedeemed
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE ~ascension/balthazar/redeemable_balthazar.tpa~
@@ -116,6 +120,8 @@ BEGIN @104002 DESIGNATED 20 GROUP @101000 LABEL Ascension-ImprovedSarevokPlayerI
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE ~ascension/npc/sarevok_npc.tpa~
@@ -131,6 +137,8 @@ BEGIN @104003 DESIGNATED 30 GROUP @101000 LABEL Ascension-ImprovedImoenPlayerInt
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE ~ascension/npc/imoen_npc.tpa~
@@ -146,6 +154,8 @@ BEGIN @104000 DESIGNATED 40 GROUP @101000 LABEL Ascension-RestoredBhaalspawnPowe
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
 	INCLUDE ~ascension/powers/bhaalspawn_powers.tpa~
@@ -161,6 +171,8 @@ BEGIN @104010 DESIGNATED 50 GROUP @101000 LABEL Ascension-ImprovedSlayerTransfor
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
 	INCLUDE ~ascension/powers/improved_slayer_powers.tpa~
@@ -178,6 +190,8 @@ BEGIN @104005 DESIGNATED 60 GROUP @101000 SUBCOMPONENT @104004 LABEL Ascension-D
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/npc/epilogues.tpa"
@@ -207,6 +221,8 @@ BEGIN @102100 DESIGNATED 1000 GROUP @102000 LABEL Ascension-TougherAbazigal
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/tougher/abazigal.tpa"
@@ -222,6 +238,8 @@ BEGIN @102600 DESIGNATED 1100 GROUP @102000 LABEL Ascension-TougherBalthazar
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/balthazar/tougher_balthazar.tpa"
@@ -237,6 +255,8 @@ BEGIN @102200 DESIGNATED 1200 GROUP @102000 LABEL Ascension-TougherDemogorgon
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/tougher/demogorgon.tpa"
@@ -252,6 +272,8 @@ BEGIN @102300 DESIGNATED 1300 GROUP @102000 LABEL Ascension-TougherGromnir
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/tougher/gromnir.tpa"
@@ -267,6 +289,8 @@ BEGIN @102400 DESIGNATED 1400 GROUP @102000 LABEL Ascension-TougherIllasera
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/tougher/illasera.tpa"
@@ -282,6 +306,8 @@ BEGIN @102500 DESIGNATED 1500 GROUP @102000 LABEL Ascension-TougherYagaShura
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
 
         INCLUDE "ascension/tougher/yagashura.tpa"
@@ -303,6 +329,8 @@ BEGIN @103010 DESIGNATED 2000 GROUP @103000 LABEL Ascension-FullbodyPortraitForB
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
         LAF portrait_npc STR_VAR source=abodhi source_path="%MOD_FOLDER%/ascport/altbodhi" destination=nbodhi END
 
@@ -316,6 +344,8 @@ BEGIN @103020 DESIGNATED 2100 GROUP @103000 LABEL Ascension-AlternateBalthazarPo
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
         LAF portrait_npc STR_VAR source=cbaltha source_path="%MOD_FOLDER%/ascport/cuvbalth" destination=balthaz END
 
@@ -329,6 +359,8 @@ BEGIN @105200 DESIGNATED 2200 GROUP @103000 LABEL Ascension-ExtendedEpiloguesFor
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
 
@@ -345,6 +377,8 @@ BEGIN @105210 DESIGNATED 2300 GROUP @103000 LABEL Ascension-SharperPortraitsAbaz
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
       	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
 
@@ -362,8 +396,8 @@ BEGIN @105230 DESIGNATED 2400 GROUP @103000 LABEL Ascension-SlightlyImprovedCuts
         FORBID_COMPONENT ~setup-spell_rev.tp2~ ~0~ @101004
         FORBID_COMPONENT ~setup-stratagems.tp2~ ~5900~ @101005
         FORBID_COMPONENT ~setup-wheels.tp2~ ~0~ @101006
-
-      	REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @105220
+		FORBID_COMPONENT ~iylos.tp2~ ~0~ @101007
+		FORBID_COMPONENT ~setup-spell_rev.tp2~ 0 @101008
 
         INCLUDE "%MOD_FOLDER%/cutscenes/dw_cutscenes.tpa"
         LAF dw_cutscenes END

@@ -76,7 +76,7 @@ IF
   !Range([NEUTRAL],10)
 THEN
   RESPONSE #100
-    SetGlobal("ForceTalk1","LOCALS",2)
+    // SetGlobal("ForceTalk1","LOCALS",2) - removed on Jastey's advice
     Interact(Player1)
 END
 
@@ -91,7 +91,7 @@ IF
   !Range([NEUTRAL],10)
 THEN
   RESPONSE #100
-    SetGlobal("ForceTalk2","LOCALS",2)
+    // SetGlobal("ForceTalk2","LOCALS",2)- removed on Jastey's advice
     Interact(Player1)
 END
 
@@ -106,7 +106,7 @@ IF
   !Range([NEUTRAL],10)
 THEN
   RESPONSE #100
-    SetGlobal("ForceTalk3","LOCALS",2)
+    // SetGlobal("ForceTalk3","LOCALS",2) - removed on Jastey's advice
     Interact(Player1)
 END
 
