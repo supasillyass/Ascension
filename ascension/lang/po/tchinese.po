@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-05-18 14:14+0000\n"
+"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://tra.bgforge.net/projects/"
+"infinity-engine/ascension/tchinese/>\n"
+"Language: tchinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: bgforge_po v.1.0.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
 msgid "Babau"
@@ -588,7 +590,7 @@ msgstr "我希望自己可以因這個計劃而留名﹐<CHARNAME>﹐不過說�
 #: balth.tra:1072
 msgid ""
 "You won't be the first to try and kill me... and probably not the last!"
-msgstr "你不是第一個想殺我的人﹐也不會是最後一個﹗"
+msgstr "你不是第一個想殺我的人﹐也不會是最後一個!"
 
 #: balth.tra:1074
 #, fuzzy
@@ -712,7 +714,7 @@ msgstr ""
 
 #: balth.tra:1083
 msgid "Are you implying that you are somehow different, Balthazar?"
-msgstr "你是說我們有所不同麼﹖巴爾撒扎﹖"
+msgstr "你是說我們有所不同麼﹖巴爾撒扎?"
 
 #: balth.tra:1084
 msgid "I have only ever acted when it was necessary, in self-defense."
@@ -722,7 +724,7 @@ msgstr ""
 msgid ""
 "You would make us out to be victims of circumstance rather than masters of "
 "our own destiny."
-msgstr "你的意思是﹕事情能改變人﹐而人改變不了事情﹖"
+msgstr ""
 
 #: balth.tra:1086
 #, fuzzy
@@ -836,7 +838,7 @@ msgstr ".我們沒必要這樣﹐巴爾撒扎。"
 msgid ""
 "You don't honestly see yourself as the force of righteousness in all this, "
 "do you?"
-msgstr "你覺得自己完全是正義的化身麼﹖"
+msgstr "你覺得自己完全是正義的化身麼?"
 
 #: balth.tra:1096
 #, fuzzy
@@ -916,7 +918,7 @@ msgstr "算了吧﹐毫無意義﹐讓我們把這件事結束吧。"
 
 #: balth.tra:1104
 msgid "Fight her together?"
-msgstr "一起去對付她﹖"
+msgstr "一起去對付她?"
 
 #: balth.tra:1105
 #, fuzzy
@@ -1023,7 +1025,7 @@ msgstr ""
 
 #: balth.tra:1116
 msgid "I cannot, <CHARNAME>."
-msgstr "我不能﹐<CHARNAME>"
+msgstr "我不能﹐<CHARNAME>."
 
 #: balth.tra:1117
 #, fuzzy
@@ -2728,13 +2730,13 @@ msgstr ""
 
 #: dream_solar.tra:242
 msgid "But... Melissan is part of the Five, isn't she?"
-msgstr "但是......梅麗珊是五人組的一員﹐不是麼﹖"
+msgstr "但是......梅麗珊是五人組的一員﹐不是麼?"
 
 #: dream_solar.tra:243
 msgid ""
 "So Melissan has not collected enough of the essence, yet, to resurrect "
 "Bhaal, right?"
-msgstr "因此梅麗珊還沒有得到全部的天賦來復活巴爾﹐是麼﹖"
+msgstr "因此梅麗珊還沒有得到全部的天賦來復活巴爾﹐是麼?"
 
 #: dream_solar.tra:244
 #, fuzzy
@@ -3251,7 +3253,7 @@ msgstr "但我簡直不相信我聽到了什麼﹗‘要殺她就殺吧’﹖我
 
 #: imoen_after.tra:479
 msgid "I was trying to convince Melissan to leave you alone, Imoen!"
-msgstr "我在試圖說服她放棄傷害你﹐愛蒙﹗"
+msgstr "我在試圖說服她放棄傷害你﹐愛蒙!"
 
 #: imoen_after.tra:480
 #, fuzzy
@@ -3469,7 +3471,7 @@ msgstr "仍然被他控制著麼﹖你就不能有點自己的主意﹖"
 #: iren_bodhi.tra:37
 msgid ""
 "Why don't you go jump on a stake and spare us both the tedium of battle?"
-msgstr "怎麼又是你﹐我已經厭倦了﹐你還是自己找一個木樁插上吧。"
+msgstr "怎麼又是你﹐我已經厭倦了﹐你還是自己找一個木樁插上吧?"
 
 #: iren_bodhi.tra:38
 #, fuzzy
@@ -5444,7 +5446,7 @@ msgstr "那你就會再死一次﹐很不錯。"
 
 #: the_five.tra:29
 msgid "You're a fool, Sarevok, if you think you'll make any difference."
-msgstr "你是個笨蛋﹐沙洛弗克﹐你認為你能造成什麼區別麼﹖"
+msgstr "你是個笨蛋﹐沙洛弗克﹐你認為你能造成什麼區別麼."
 
 #: the_five.tra:30
 #, fuzzy
