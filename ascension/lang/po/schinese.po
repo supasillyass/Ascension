@@ -5640,7 +5640,7 @@ msgid ""
 "Finally, swollen with pride and divine favor, Dorn was felled by a most "
 "unlikely alliance between the desperate Cyricists and the Order of the "
 "Radiant Heart. But it is said that since that day, a dark shadow stands "
-"vigilant beside the Throne of Blood…"
+"vigilant beside the Throne of Blood..."
 msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5005
