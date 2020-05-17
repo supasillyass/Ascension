@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-05-17 18:34+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-17 18:40+0000\n"
+"Last-Translator: Alex <alex021998@gmail.com>\n"
 "Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/ru/>\n"
 "Language: russian\n"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr "Потрясение"
+msgstr "Ошеломление"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
@@ -128,7 +128,7 @@ msgstr "В захвате"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr "Возвращены силы Баала"
+msgstr "Силы Баала возвращены"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
