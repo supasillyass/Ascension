@@ -5,6 +5,8 @@
 @101004 = ~Ascension must be installed BEFORE Spell Revisions. Uninstall Spell Revisions, install Ascension, then reinstall Spell Revisions.~
 @101005 = ~Ascension must be installed BEFORE Sword Coast Stratagems. Uninstall Sword Coast Stratagems, install Ascension, then reinstall Sword Coast Stratagems.~
 @101006 = ~Ascension must be installed BEFORE Wheels of Prophecy. Uninstall Wheels of Prophecy, install Ascension, then reinstall Wheels of Prophecy.~
+@101007 = ~Ascension must be installed BEFORE Iylos. Uninstall Iylos, install Ascension, then reinstall Iylos.~
+@101008 = ~Ascension must be installed BEFORE Spell Revisions. Uninstall Spell Revisions, install Ascension, then reinstall Spell Revisions.~
 @102000 = ~Tougher Throne of Bhaal battles~
 @102100 = ~Tougher Abazigal~
 @102200 = ~Tougher Demogorgon~

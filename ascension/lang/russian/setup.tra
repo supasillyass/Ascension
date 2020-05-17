@@ -5,6 +5,8 @@
 @101004 = ~Ascension должен быть установлен ПЕРЕД Spell Revisions. Удалите Spell Revisions, установите Ascension, затем установите Spell Revisions снова.~
 @101005 = ~Ascension должен быть установлен ПЕРЕД Sword Coast Stratagems. Удалите Sword Coast Stratagems, установите Ascension, затем установите Sword Coast Stratagems снова.~
 @101006 = ~Ascension должен быть установлен ПЕРЕД Wheels of Prophecy. Удалите Wheels of Prophecy, установите Ascension, затем установите Wheels of Prophecy снова.~
+@101007 = ~Ascension должен быть установлен ПЕРЕД Iylos. Удалите Iylos, установите Ascension, затем установите Iylos снова.~
+@101008 = ~Ascension должен быть установлен ПЕРЕД Spell Revisions. Удалите Spell Revisions, установите Ascension, затем установите Spell Revisions снова.~
 @102000 = ~Усложнение битв в Троне Баала~
 @102100 = ~Усиленный Абазигал~
 @102200 = ~Усиленный Демогоргон~
@@ -19,12 +21,12 @@
 @104001 = ~Переписанная последняя глава Трона Баала~
 @104002 = ~Улучшенное взаимодействие между Саревоком и персонажем игрока~
 @104003 = ~Улучшенное взаимодействие между Имоен и персонажем игрока в Троне Баала~
-@104004 = ~Expanded Epilogues for Bioware NPCs~
+@104004 = ~Переработанные эпилоги для NPC от Bioware~
 @104005 = ~Расширенные эпилоги для оригинальных персонажей Bioware от David Gaider~
 @104006 = ~Альтернативные эпилоги от Shawne~
 @104009 = ~Возможность спасти Балтазара~
-@104010 = ~Улучшаемое Превращение в Губителя~
-@105200 = ~Extended Epilogues for additional Beamdog NPCs, by shawne~
-@105210 = ~Sharper portraits of Abazigal and Gromnir for the Enhanced Edition, by DavidW~
-@105220 = ~This component is only for BG2:EE or EET~
-@105230 = ~Slightly improved cutscenes, by DavidW~
+@104010 = ~Улучшаемое Превращение в Убийцу~
+@105200 = ~Расширенные эпилоги для NPC Beamdog, от shawne~
+@105210 = ~Измененные портреты Абазигала и Громнира от DavidW~
+@105220 = ~Этот компонент только для BG2:EE или EET~
+@105230 = ~Немного улучшенные катсцены, от DavidW~
