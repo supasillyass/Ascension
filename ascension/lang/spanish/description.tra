@@ -152,9 +152,15 @@ Duración: Instantáneo
 Tirada de salvación: 1/2 + especial
 
 La habilidad de "Liberar" os permite soltar vuestro poder interior hacia un objetivo que este dentro del rango de contacto, golpeándole con un DICENUMBER_PLACEHOLDERd12 puntos de daño mágico (la mitad si supera una tirada de salvación contra muerte a -4) y le envía volando en dirección contraria a vos, e incluso puede dejarlo inconsciente durante un corto periodo de tiempo. Esta habilidad sólo deberíais usarla una vez cada treinta segundos... y después de usarla los hijos de Bhaal se fatigan enormemente y tienen un 25% de errar conjuro en todos los hechizos durante 2 turnos. Debido a la cantidad de esencia divina usada, la forma del Asesino no estará disponible durante treinta segundos.~
-@18 = ~Nuevo poder adquirido: "Concentración"
+@18 = ~Focus
 
-Esta habilidad permite a los hijos de Bhaal centrar su energía interior en ellos para resistir los efectos de algunos hechizos. Durante 30 segundos, el hijo de Bhaal es inmune a los hechizos de Petrificación, Desintegrar y Detener el tiempo. Todos los hechizos de primer hasta tercer nivel tampoco le afectarán. Esta habilidad sólo puede ser usada una vez por minuto.~
+Range: 0
+Casting Time: 1
+Duration: 5 rounds
+Area of Effect: Caster
+Saving Throw: None
+
+This ability allows the Bhaalspawn to focus <PRO_HISHER> energy within <PRO_HIMHER> to resist spell effects from without. For a 30-second duration, the Bhaalspawn becomes immune to the spells Flesh to Stone, Disintegration and Time Stop. All minor spells of 1st through 3rd level will also not affect the Bhaalspawn. This ability is useable once per minute.~
 @19 = ~Dimension Door
 
 Range: Infinite
@@ -167,20 +173,16 @@ The Bhaalspawn may now move freely through space and the planes. This teleportat
 @20 = ~Shapeshift: Bat
 
 This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Poderes de Engendro de Bhaal
+@21 = ~Divine Gift
+(Invocation)
 
-<CHARNAME> ha obtenido la aptitud, utilizable una vez por día: 
+Range: 0
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
 
-Invocar al poder sagrado (Invocación)
-Alcance: 0
-Duración: 1 turno
-Tiempo de lanzamiento: 1
-Área de efecto: El lanzador
-Tirada de salvación: No
-
-DESCRIPCIÓN:
-
-El Engendro de Bhaal llama al poder de su sangre para darle poder durante un corto período. Cuando haga esto, su fuerza, constitución y destreza serán elevadas en 1 punto por cada 3 niveles del lanzador. Un lanzador de tercer nivel elevaría sus características en 1, mientras que un lanzador de nivel 12 elevaría sus características en 4.~
+The Bhaalspawn calls upon the might of <PRO_HISHER> blood to grant <PRO_HIMHER> power for a short period. When <PRO_HESHE> does this, <PRO_HISHER> Strength, Constitution, and Dexterity all are raised to 25.~
 @22 = ~Flip Resistances
 
 Range: 0
