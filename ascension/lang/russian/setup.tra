@@ -1,5 +1,5 @@
-@101000 = ~Вознесение~
-@101001 = ~Ascension требует BG2:ToB или BG2: Enhanced Edition.~
+@101000 = ~Ascension~
+@101001 = ~You must have ToB installed or use Enhanced Edition to install the Ascension mod.~
 @101002 = ~Требует основной компонент Ascension.~
 @101003 = ~Эта версия Ascension требует BG2Fixpack или BG2: Enhanced Edition.~
 @101004 = ~Ascension должен быть установлен ПЕРЕД Spell Revisions. Удалите Spell Revisions, установите Ascension, затем установите Spell Revisions снова.~
@@ -29,4 +29,4 @@
 @105200 = ~Extended Epilogues for additional Beamdog NPCs, by shawne~
 @105210 = ~Измененные портреты Абазигала и Громнира от DavidW~
 @105220 = ~Этот компонент только для BG2:EE или EET~
-@105230 = ~Немного улучшенные катсцены, от DavidW~
+@105230 = ~Slightly improved cutscenes, by DavidW~
