@@ -1,13 +1,13 @@
 
 	// initialise
 
-        OUTER_SPRINT MOD_VERSION "2.0.3" // in due course WEIDU will do this automatically
+        OUTER_SPRINT MOD_VERSION "2.0.12" // in due course WEIDU will do this automatically
         OUTER_SET always_initialised=1
 
         // include function libraries (note that 'sfo_lite' also builds and sets a few SFO files/variables)
 
-	INCLUDE ~ascension/lib/sfo_lite.tph~ // fragments of DavidW's function library, tweaked a bit for Ascension. Live code here
-	INCLUDE ~ascension/lib/ascension_function_library.tph~ // functions built just for Ascension. No live code.
+		INCLUDE ~ascension/lib/sfo_lite.tph~ // fragments of DavidW's function library, tweaked a bit for Ascension. Live code here
+		INCLUDE ~ascension/lib/ascension_function_library.tph~ // functions built just for Ascension. No live code.
         INCLUDE "ascension/lib/alter_effect.tpa"  // edited version of Cam's DELETE/ALTER/CLONE_EFFECT suite; no live code
         INCLUDE "ascension/lib/alter_script.tpa"  // DavidW's family of script-editing functions; no live code.
         INCLUDE "ascension/lib/alter_dlg.tpa"  // DavidW's family of dialog-editing functions; no live code.
@@ -127,7 +127,8 @@ HARDEST	0	        0
 	
 	SILENT
 	LAF check_ini STR_VAR ini=force_tra_rebuild RET force_tra_rebuild=value END
-        LAF handle_charsets_immutably INT_VAR force_tra_rebuild STR_VAR tra_base=lang RET ascension_tra_loc=scs_tra_loc END
+        LAF handle_charsets_immutably INT_VAR force_tra_rebuild STR_VAR tra_base=lang RET scs_tra_loc END
+		OUTER_SPRINT ascension_tra_loc "%scs_tra_loc%"
 
 	// collect a list of markers
 	

@@ -1,11 +1,12 @@
 ///////////////////////////////////////////////////////////////
 /// Fragments of DavidW's SFO function library, or tweaked bits
 /// of it with reduced dependence
+///
 ///////////////////////////////////////////////////////////////
 
-ACTION_IF !VARIABLE_IS_SET installed_SFO BEGIN
+ACTION_IF !VARIABLE_IS_SET installed_SFO_lite BEGIN
 
-OUTER_SET installed_SFO=1
+OUTER_SET installed_SFO_lite=1
 
 ////// Blank file
 
@@ -20,21 +21,23 @@ OUTER_SPRINT workspace "%external_loc%/workspace"
 MKDIR "%workspace%"
 OUTER_SPRINT marker_loc "%external_loc%/markers"
 MKDIR "%marker_loc%"
-OUTER_SPRINT data_loc "%external_loc%/data/ascension"
+OUTER_SPRINT data_loc "%external_loc%/data/%MOD_FOLDER%"
 MKDIR "%data_loc%"
 
 OUTER_SPRINT percentage "%"
 
 OUTER_SPRINT scsroot "%MOD_FOLDER%"
 
-ACTION_IF GAME_IS "bg2ee eet" BEGIN
+ACTION_IF GAME_IS "bgee bg2ee iwdee eet" BEGIN
    OUTER_SET enhanced_edition=1
 END ELSE BEGIN
    OUTER_SET enhanced_edition=0
 END
 
 OUTER_SPRINT ext_lang_loc "%external_loc%/lang/%scsroot%"
+OUTER_SPRINT ext_audio_loc "%external_loc%/audio/%scsroot%"
 
+ACTION_IF FILE_EXISTS "%MOD_FOLDER%/lib/build_patches.tpa" BEGIN
 INCLUDE "%MOD_FOLDER%/lib/build_patches.tpa"
 ACTION_IF !FILE_EXISTS "%MOD_FOLDER%/lib/cre_patch.tpa" BEGIN // in live use, this shouldn't need to run
    LAF build_cre_patch END
@@ -42,8 +45,13 @@ END
 ACTION_IF !FILE_EXISTS "%MOD_FOLDER%/lib/spl_patch.tpa" BEGIN // in live use, this shouldn't need to run
    LAF build_spl_patch END
 END
-INCLUDE "%MOD_FOLDER%/lib/cre_patch.tpa"
-INCLUDE "%MOD_FOLDER%/lib/spl_patch.tpa"
+END
+
+ACTION_FOR_EACH file IN "cre_patch.tpa" "spl_patch.tpa" "cre_patch_resources.tph" BEGIN
+	ACTION_IF FILE_EXISTS "%MOD_FOLDER%/lib/%file%" BEGIN
+		INCLUDE "%MOD_FOLDER%/lib/%file%"
+	END
+END
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -72,7 +80,6 @@ DEFINE_ACTION_FUNCTION handle_charsets_immutably
                iconv_path=""
        RET     scs_tra_loc
 BEGIN
-   // guess scsroot and workspace if not set
    // do conversions (ee only)
    ACTION_IF enhanced_edition BEGIN
        OUTER_INNER_PATCH_SAVE versionstring "%MOD_VERSION%" BEGIN
@@ -105,6 +112,53 @@ BEGIN
       OUTER_SPRINT scs_tra_loc "%scsroot%/%tra_base%"
    END
 END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////    immutable version of HANDLE_AUDIO
+////////////
+////////////    Assumes "ext_music_loc" and "ext_audio_loc" have been set appropriately
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION handle_audio_immutably
+	INT_VAR force_audio_rebuild=0
+			music=0
+	STR_VAR	oggdec_path="%MOD_FOLDER%/audio"
+			sox_path="%MOD_FOLDER%/audio"
+			audio_path="%MOD_FOLDER%/audio"
+BEGIN
+	OUTER_SET new_files=0
+	ACTION_IF music BEGIN
+		ACTION_IF !VARIABLE_IS_SET ext_music_loc BEGIN
+			OUTER_SPRINT ext_music_loc "weidu_external/music/%MOD_FOLDER%"
+		END
+		OUTER_SPRINT new_audio_path "%ext_music_loc%"
+	END ELSE BEGIN
+		ACTION_IF !VARIABLE_IS_SET ext_audio_loc BEGIN
+			OUTER_SPRINT ext_audio_loc "weidu_external/audio/%MOD_FOLDER%"
+		END
+		OUTER_SPRINT new_audio_path "%ext_audio_loc%"	
+	END
+	MKDIR "%new_audio_path%"
+	// copy everything over
+	ACTION_BASH_FOR "%audio_path%" ".*\.ogg" BEGIN
+		ACTION_IF !FILE_EXISTS "%new_audio_path%/%BASH_FOR_FILE%" BEGIN
+			OUTER_SET new_files=1
+			COPY_LARGE "%audio_path%/%BASH_FOR_FILE%" "%new_audio_path%"
+		END
+	END
+	ACTION_IF new_files BEGIN
+	PRINT "handling audio"
+		LAF HANDLE_AUDIO INT_VAR music STR_VAR audio_path="%new_audio_path%" oggdec_path sox_path END
+	
+	
+	END
+
+
+END
+
+
 
 /////////////////////////////////////////////////////
 /// Regeneration (because this is a largish change,
@@ -1215,3 +1269,355 @@ BEGIN
    BUT_ONLY
 END
 
+///////////////////////////////////////////////////////////////////////////////
+////Lightweight version of extend_area_script and friends
+////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////               gets the area script (and allocates one if needed)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+DEFINE_ACTION_FUNCTION get_area_script
+    STR_VAR area=""
+    RET script
+BEGIN
+   COPY_EXISTING ~%area%.are~ ~override~
+       READ_ASCII 0x94 script
+       PATCH_IF (~%script%~ STRING_EQUAL_CASE ~none~ || ~%script%~ STRING_EQUAL_CASE ~~) BEGIN
+          INNER_PATCH_SAVE ~script~ ~%area%~ BEGIN
+             READ_ASCII 0x0 fwcheck (2)
+             PATCH_IF ~%fwcheck%~ STRING_EQUAL_CASE ~FW~ BEGIN
+                INSERT_BYTES 0x0 1
+                WRITE_ASCII 0x0 ~_AR~
+             END
+          END
+          WRITE_ASCIIE 0x94 "%script%" (8)
+       END
+   BUT_ONLY
+   ACTION_IF !FILE_EXISTS_IN_GAME ~%script%.bcs~ BEGIN
+                <<<<<<<< %script%.baf
+                >>>>>>>>
+                COMPILE ~%script%.baf~
+   END
+
+END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////               extends the area script
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION extend_area_script
+   STR_VAR area=""
+           top=""
+           bottom=""
+           location=""
+           variables=""
+           inline="no"
+BEGIN
+   ACTION_IF ~%area%~ STRING_COMPARE ~~ BEGIN
+    ACTION_IF "%top%%bottom%" STRING_EQUAL "" BEGIN
+         LAF warning STR_VAR warning="extend_area_script called on area %area% with empty argument" END
+    END
+    LAF return_first_entry STR_VAR list= ~%area%~ RET entry=entry area=list END
+    LAF get_area_script STR_VAR area= ~%entry%~ RET file=script END
+    OUTER_SPRINT top_true ""
+	OUTER_SPRINT bottom_true ""
+	ACTION_FOR_EACH loc IN top bottom BEGIN
+	 ACTION_IF EVAL "%%loc%%" STRING_COMPARE "" BEGIN
+	   ACTION_IF "%inline%" STRING_EQUAL_CASE "yes" BEGIN
+			OUTER_SPRINT "%loc%_true" EVAL ".../stratagems-inline/%%loc%%.baf"
+	   END ELSE	 
+	   ACTION_IF "%location%" STRING_COMPARE "" AND FILE_EXISTS "%scsroot%/%component_loc%/%location%/%%loc%%.baf" BEGIN
+		OUTER_SPRINT "%loc%_true" EVAL "%scsroot%/%component_loc%/%location%/%%loc%%.baf"
+	   END ELSE
+       ACTION_IF FILE_EXISTS "%scsroot%/%component_loc%/%%loc%%.baf" BEGIN
+		OUTER_SPRINT "%loc%_true" EVAL "%scsroot%/%component_loc%/%%loc%%.baf"	  
+	   END ELSE 
+	   ACTION_IF FILE_EXISTS "%%loc%%" BEGIN
+		OUTER_SPRINT "%loc%_true" EVAL "%%loc%%"	  	  
+	   END ELSE BEGIN
+	    OUTER_SPRINT loc_actual EVAL "%%loc%%"
+	    WARN "extend_area_script called with %loc% set to %loc_actual%, but I can't find that script"
+	   END
+	 END
+	END
+	ACTION_IF "%top_true%" STRING_COMPARE "" BEGIN
+		EXTEND_TOP "%file%.bcs" "%top_true%" EVALUATE_BUFFER
+	END 
+	ACTION_IF "%bottom_true%" STRING_COMPARE "" BEGIN
+		EXTEND_BOTTOM "%file%.bcs" "%bottom_true%" EVALUATE_BUFFER
+	END
+    LAF extend_area_script STR_VAR area top bottom location inline ssl variables END
+   END
+END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////               returns a valid deathvar
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION resolve_dv
+	STR_VAR creature="" default="" 
+	RET dv
+BEGIN
+	ACTION_IF "%default%" STRING_EQUAL "" BEGIN
+		OUTER_SPRINT default "%creature%"
+	END
+	COPY_EXISTING "%creature%.cre" override
+		READ_ASCII DEATHVAR dv
+		PATCH_MATCH "%dv%" WITH none null "" BEGIN
+			SPRINT dv "%default%"
+			WRITE_ASCIIE DEATHVAR "%dv%" (0x20)
+		END
+		DEFAULT
+		END
+	BUT_ONLY
+
+
+END
+
+
+/////////////////////////////////////////////////////
+//// Compile a dialog file with its tra file
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION compile_dialog
+   STR_VAR dialog=""
+           root=""
+		   locbase=""
+		   location="" // SCS-style, not used in baseline Ascension
+		   tra=""
+		   
+BEGIN
+   ACTION_IF "%root%" STRING_EQUAL_CASE "" BEGIN
+		ACTION_IF "%locbase%" STRING_COMPARE_CASE "" BEGIN
+			OUTER_SPRINT component_loc "%locbase%"
+		END
+		OUTER_SPRINT root "%MOD_FOLDER%/%component_loc%/%location%"
+   END
+	ACTION_IF "%tra%" STRING_EQUAL_CASE "" BEGIN
+      COMPILE "%root%/%dialog%.d" EVALUATE_BUFFER USING "%ascension_tra_loc%/%s/%dialog%.tra" 
+	END ELSE BEGIN
+      COMPILE "%root%/%dialog%.d" EVALUATE_BUFFER USING "%ascension_tra_loc%/%s/%dialog%.tra" "%ascension_tra_loc%/%s/%tra%.tra"
+	END
+END
+
+/////////////////////////////////////////////////////
+//// Create a dialog file if it doesn't exist already
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION make_dialog
+   STR_VAR dialog=""
+BEGIN
+<<<<<<<< .../stratagems-inline/make_dialog.d
+BEGIN "%dialog%"
+>>>>>>>>
+   ACTION_IF !FILE_EXISTS_IN_GAME "%dialog%.dlg" BEGIN
+       COMPILE ".../stratagems-inline/make_dialog.d" EVALUATE_BUFFER
+   END
+END
+
+
+
+/////////////////////////////////////////////////////
+//// Set up an epilogue textscreen
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION edit_epilogue
+   INT_VAR text_tra_ref="-1"
+           require_old="-1"
+   STR_VAR file=""
+           portrait=""
+           text=""
+BEGIN
+   ACTION_IF text_tra_ref>0 BEGIN
+      OUTER_SPRINT text (AT text_tra_ref)
+   END
+   ACTION_IF "%text%" STRING_COMPARE "" BEGIN
+       OUTER_SET strref=RESOLVE_STR_REF ("%text%")
+   END ELSE BEGIN
+       OUTER_SET strref="-1"
+   END
+   ACTION_IF !FILE_EXISTS_IN_GAME "%file%.2da" BEGIN
+      COPY_EXISTING "anomend1.2da" "override/%file%.2da"
+      ACTION_IF "%portrait%" STRING_EQUAL "" BEGIN
+         WARN "Making epilogue file %file%; this is a new file, but no portrait has been defined"
+      END
+      ACTION_IF strref<0 BEGIN
+          WARN "making epilogue file %file%, but no epilogue text has been defined"
+      END
+   END
+   COPY_EXISTING "%file%.2da" override
+         PATCH_IF strref>=0 BEGIN
+            READ_2DA_ENTRY 1 2 3 current
+            PATCH_IF (current=require_old || require_old<0) BEGIN
+                SET_2DA_ENTRY 1 2 3 strref
+            END
+         END
+         PATCH_IF "%portrait%" STRING_COMPARE "" BEGIN
+            REPLACE_TEXTUALLY "\*.*$" "*%portrait%"
+         END
+   BUT_ONLY
+END
+
+/////////////////////////////////////////////////////
+//// Insert a new epilogue at the start of the relevant
+//// bit of AR6200 script
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION insert_epilogue 
+         STR_VAR guard=""
+                 var=""
+                 textscreen=""
+BEGIN
+
+<<<<<<<< .../stratagems-inline/epilogue.baf
+IF
+	Global("StartEndBios","AR6200",1)
+	%guard%
+	Global("%var%","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("%var%","GLOBAL",1)
+		TextScreen("%textscreen%")
+		SmallWait(1)
+		Continue()
+END
+>>>>>>>>
+
+     LAF INSERT_SCRIPT_BLOCK 
+           INT_VAR insert_above=1 
+                   only_once=1
+           STR_VAR insert=".../stratagems-inline/epilogue.baf"
+                   script=ar6200
+                   match1="StartEndBios"
+                   match2="TextScreen"
+     END
+END
+
+/////////////////////////////////////////////////////
+//// Add an actor (mostly a wrap for fj_are_struct)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+  ADD_ARE_ACTOR
+      INT_VAR loc_x="-1"
+              loc_y="-1"
+              dest_x ="-1"
+              dest_y ="-1"
+              animation=57376
+          STR_VAR name=""
+                  resref=""
+                  orientation="S"
+BEGIN
+   PATCH_IF dest_x<0 BEGIN
+      SET dest_x=loc_x
+   END
+   PATCH_IF dest_y<0 BEGIN
+      SET dest_y=loc_y
+   END
+   LPF fj_are_structure
+       INT_VAR fj_loc_x=loc_x
+               fj_loc_y=loc_y
+               fj_dest_x=dest_x
+               fj_dest_y=dest_y
+               fj_animation=animation
+               fj_orientation=IDS_OF_SYMBOL(dir "%orientation%")
+       STR_VAR
+               fj_cre_resref="%resref%"
+               fj_name="%name%"
+               fj_structure_type=actor
+   END
+END
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+// make and set markers
+//
+// don't use for install checks, only to know if some task has been done already
+//////////////////////////////////////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION set_marker 
+   STR_VAR marker=""
+BEGIN
+   COPY_EXISTING "sw1h01.itm" "%marker_loc%/%marker%.mrk"
+END
+
+DEFINE_ACTION_FUNCTION check_marker
+   INT_VAR sanity_check=1
+   STR_VAR marker=""
+   RET value 
+BEGIN
+   ACTION_IF FILE_EXISTS "%marker_loc%/%marker%.mrk" BEGIN
+      OUTER_SET value=1
+   END ELSE BEGIN
+      OUTER_SET value=0
+   END
+   ACTION_IF sanity_check BEGIN
+    ACTION_IF !VARIABLE_IS_SET $marker_list("%marker%") BEGIN
+      WARN "marker %marker% is checked but not set"
+    END
+   END
+END
+
+DEFINE_PATCH_FUNCTION check_marker
+   STR_VAR marker=""
+   RET value 
+BEGIN
+   INNER_ACTION BEGIN
+      LAF check_marker STR_VAR marker RET value END
+   END
+END
+
+/////////////////////////////////////////////////////
+// if marker 'blah' isn't set, set it and run 'blah'
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION run_once
+  STR_VAR function=""
+BEGIN
+  OUTER_SPRINT marker "fin_%function%"
+  LAF check_marker INT_VAR sanity_check=0 STR_VAR marker RET value END
+  ACTION_IF !value BEGIN
+     LAF "%function%" END
+     LAF set_marker STR_VAR marker END
+  END
+END
+
+/////////////////////////////////////////////////////
+// Install NPC portraits
+//
+// This is a minor variant on CamDawg's 'cd_portrait_npc'
+// allowing for the fact that the EEs hot-scale their
+// images, so that they might as well be included at the
+// largest resolution
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION portrait_npc // used to copy new portraits for mod npcs
+  STR_VAR 
+    source = ""
+    destination = ""
+    source_path = "%MOD_FOLDER%/portraits"
+BEGIN
+
+  ACTION_IF ("%destination%" STRING_COMPARE_CASE "" = 0) BEGIN OUTER_SPRINT destination "%source%" END
+
+  COPY ~%source_path%/%source%_330.bmp~ ~override/%destination%l.bmp~ 
+  
+  ACTION_IF GAME_IS ~bgee bg2ee eet iwdee pstee~ BEGIN // EEs
+    COPY ~%source_path%/%source%_330.bmp~ ~override/%destination%m.bmp~
+    COPY ~%source_path%/%source%_330.bmp~  ~override/%destination%s.bmp~
+  END ELSE BEGIN	
+    COPY ~%source_path%/%source%_170.bmp~ ~override/%destination%m.bmp~
+    COPY ~%source_path%/%source%_60.bmp~  ~override/%destination%s.bmp~ 
+  END	    
+
+END  // end function define
