@@ -71,7 +71,7 @@ DEFINE_PATCH_FUNCTION
         charm_immunity
    INT_VAR value=1
 BEGIN
-   LPF immunity_to_string INT_VAR value STR_VAR arguments="14007 17427" END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14780 14672 8364" END
    LPF immunity_to_opcode INT_VAR value STR_VAR arguments=5 END
    LPF immunity_to_icon INT_VAR value STR_VAR arguments="0 1 43" END
    LPF immunity_to_animation INT_VAR value STR_VAR arguments="SPFLAYER SPNWCHRM" END
@@ -85,7 +85,7 @@ DEFINE_PATCH_FUNCTION
         fear_immunity
    INT_VAR value=1
 BEGIN
-   LPF immunity_to_string INT_VAR value STR_VAR arguments="14780 14672 8364" END
+   LPF immunity_to_string INT_VAR value STR_VAR arguments="14007 17427" END
    LPF immunity_to_opcode INT_VAR value STR_VAR arguments="24" END
    LPF DELETE_EFFECT STR_VAR match_function="opcode_is(23 106 161)" END
    PATCH_IF value BEGIN

@@ -155,3 +155,95 @@ DEFINE_PATCH_FUNCTION handle_awkward_ds BEGIN
    ""
   END
 END
+
+/////////////////////////////////////////////////////
+/// Regeneration (because this is a largish change,
+/// even though it's a fix, there is an INI override)
+/////////////////////////////////////////////////////
+
+DEFINE_PATCH_FUNCTION
+      CRE_regeneration
+      INT_VAR arguments=0
+              type=2
+BEGIN
+  LPF DELETE_EFFECT INT_VAR match_opcode=98 END // tidy up by removing any residual effect
+  PATCH_IF arguments>0 BEGIN
+    LPF check_ini STR_VAR ini=skip_regeneration_fix RET value END
+    PATCH_IF !value BEGIN
+    // if type isn't 2, we just patch it in
+     PATCH_IF !(type=2) BEGIN
+       LPF ADD_CRE_EFFECT INT_VAR opcode=98 target=2 timing=1 duration=999999 parameter1=arguments parameter2=type END
+     END ELSE BEGIN
+       LPF check_ini STR_VAR ini=regeneration_difficulty_minimum RET minimum=value END
+       PATCH_IF minimum<=1 BEGIN // if it's always required, just patch the CRE file
+          LPF ADD_CRE_EFFECT INT_VAR opcode=98 target=2 timing=1 duration=999999 parameter1=arguments parameter2=2 END
+       END ELSE BEGIN
+          // work out the name of the spell and script associated with this level of regeneration
+          PATCH_IF arguments<10 BEGIN
+             SPRINT resource "finrg0%arguments%"
+          END ELSE BEGIN
+             SPRINT resource "finrg%arguments%"
+          END
+          // make the resources if they don't exist already
+          PATCH_IF !FILE_EXISTS_IN_GAME "%resource%.bcs" BEGIN
+             INNER_ACTION BEGIN
+              LAF regeneration_resource_builder INT_VAR rate=arguments minimum STR_VAR resource END
+             END
+          END
+          // patch in the script
+          LPF insert_script STR_VAR script="%resource%" END
+       END
+     END
+    END
+  END
+END
+
+/////////////////////////////////////////////////////
+/// Helper function: builds script and spell
+/////////////////////////////////////////////////////
+
+DEFINE_ACTION_FUNCTION regeneration_resource_builder
+   INT_VAR rate=0
+           minimum=0
+   STR_VAR resource=""
+BEGIN
+   // resolve the new sectype
+   LAF add_silent_sectype STR_VAR sectype=regeneration RET sectype_value END
+   // make the original deleter if needed
+   ACTION_IF !FILE_EXISTS_IN_GAME "finrg00.spl" BEGIN
+      LAF create_basic_spell STR_VAR spell=finrg00 END
+      COPY_EXISTING finrg00.spl override
+           LPF ADD_SPELL_EFFECT INT_VAR opcode=221 target=1 timing=1 parameter1=10 parameter2=sectype_value END
+      BUT_ONLY
+   END
+   // make the item that applies the regeneration opcode
+   COPY_EXISTING "finrg00.spl" "override/%resource%.spl"
+        WRITE_BYTE 0x27 sectype_value
+        LPF ADD_SPELL_EFFECT INT_VAR opcode=98 target=1 timing=0 duration=999999 parameter1=rate parameter2=2 END
+   BUT_ONLY
+   // make the script
+<<<<<<<< .../ascension-inline/regen_base.baf
+IF
+  DifficultyLT(%minimum%)
+  Global("regeneration_on","LOCALS",1)
+THEN
+    RESPONSE #100
+             SetGlobal("regeneration_off","LOCALS",0)
+             ApplySpellRES("finrg00",Myself)
+             Continue()
+END
+
+IF
+  !DifficultyLT(%minimum%)
+  Global("regeneration_on","LOCALS",0)
+THEN
+    RESPONSE #100
+             SetGlobal("regeneration_off","LOCALS",1)
+             ApplySpellRES("%resource%",Myself)
+             Continue()
+END
+>>>>>>>>
+    COPY ".../ascension-inline/regen_base.baf" "override/%resource%.bcs" EVALUATE_BUFFER  COMPILE_BAF_TO_BCS
+
+END
+

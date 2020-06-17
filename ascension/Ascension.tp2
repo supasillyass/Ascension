@@ -12,6 +12,8 @@ README "ascension/doc/readme-ascension.html"
 
 ALWAYS
    OUTER_SPRINT MOD_FOLDER ascension // overriding baseline, since we do an immutable install
+   OUTER_SPRINT MOD_VERSION "2.0.12"
+   OUTER_SPRINT MOD_PREFIX fin
    INCLUDE "ascension/lib/always.tpa"
 END
 

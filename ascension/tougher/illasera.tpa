@@ -68,7 +68,7 @@ DEFINE_ACTION_FUNCTION illasera_allies BEGIN
 /// grouping: two fighters (zilfgt01,zilfgt02), a mage (zilmag01),
 /// an archer (zilarc01).
 /// But the actual files appear completely rewritten (e.g., zilarc is now
-/// a cleric) and so we might as well use the new ones. One needs a minor fi.
+/// a cleric) and so we might as well use the new ones. One needs a minor fix.
 /////////////////////////////////////////////////
 
    COPY "%illa_loc%/zilfgt01.cre" override
