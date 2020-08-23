@@ -5,14 +5,14 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://www.gibberlings3.net/forums/forum/207-ascension/"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0.12~
+VERSION ~2.0.13~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"
 
 ALWAYS
    OUTER_SPRINT MOD_FOLDER ascension // overriding baseline, since we do an immutable install
-   OUTER_SPRINT MOD_VERSION "2.0.12"
+   OUTER_SPRINT MOD_VERSION "2.0.13"
    OUTER_SPRINT MOD_PREFIX fin
    INCLUDE "ascension/lib/always.tpa"
 END

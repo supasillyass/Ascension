@@ -411,7 +411,7 @@ END
 
    COPY_EXISTING "finslgr.spl" "override/finslgd.spl" 
      LPF ALTER_EFFECT INT_VAR timing=4 duration=180 END
-     LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=0 duration=179 opcode=318 STR_VAR resource=finslg2 END // Unleash's grant ability
+     LPF ADD_SPELL_EFFECT INT_VAR target=2 timing=0 duration=179 opcode=206 STR_VAR resource=finslg2 END // Unleash's grant ability
 
 
    COPY_EXISTING "%SLAYER_CHANGE_TWO%.spl" override
