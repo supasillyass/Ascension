@@ -122,7 +122,7 @@ END
 IF
 	OR(2)
 		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
-		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 THEN
 	RESPONSE #100
 		Continue()
@@ -131,7 +131,7 @@ END
 IF
 	OR(2)
 		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
-		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 THEN
 	RESPONSE #100
 		Continue()
@@ -140,7 +140,7 @@ END
 IF
 	OR(2)
 		See(NearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
-		See(NearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 THEN
 	RESPONSE #100
 		Continue()

@@ -57,7 +57,7 @@ BEGIN
    balth balth2 finbodh finmel01 finsarev finsol01 imoen25j
    imoen25p irenic2 meliss01 player1 ppguy02 sarev25j solar
    BEGIN
-        OUTER_SPRINT file_spec "%MOD_FOLDER%/tra/%language%/%file%.tra"
+        OUTER_SPRINT file_spec "%MOD_FOLDER%/tra/%LANGUAGE%/%file%.tra"
         ACTION_IF FILE_EXISTS "%file_spec%" BEGIN
            COPY "%file_spec%" "%workspace%"
                   REPLACE_EVALUATE "%atsymbol%\([0-9]+\) *= *~\([^~]*\)~"

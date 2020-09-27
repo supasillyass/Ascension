@@ -95,7 +95,7 @@ IF
 	!HasBounceEffects(Myself)
 	OR(3)
 		See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
-		See(NearestEnemyOfType([PC.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([PC.0.0.MAGE_ALL]))
 		See(NearestEnemyOfType([PC.0.0.SORCERER]))
 	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
 	RandomNum(2,1)
@@ -147,7 +147,7 @@ END
 
 IF
 	OR(2)
-		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 		See(ThirdNearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
 	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -158,7 +158,7 @@ END
 
 IF
 	OR(2)
-		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 		See(SecondNearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
 	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -169,7 +169,7 @@ END
 
 IF
 	OR(2)
-		See(NearestEnemyOfType([GOODCUTOFF.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([GOODCUTOFF.0.0.MAGE_ALL]))
 		See(NearestEnemyOfType([GOODCUTOFF.0.0.SORCERER]))
 	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -391,7 +391,7 @@ IF
 		Class(LastSeenBy(Myself),DRUID_ALL)
 		Class(LastSeenBy(Myself),CLERIC_ALL)
 		Class(LastSeenBy(Myself),BARD_ALL)
-		Class(LastSeenBy(Myself),LONG_BOW)
+		Class(LastSeenBy(Myself),MAGE_ALL)
 		Class(LastSeenBy(Myself),SORCERER)
 	!StateCheck(LastSeenBy(Myself),STATE_SILENCED)
 	RandomNum(3,1)

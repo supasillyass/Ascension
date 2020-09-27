@@ -21,7 +21,7 @@ IF
 		See(NearestEnemyOfType([PC.0.0.BARD_ALL]))
 		See(NearestEnemyOfType([PC.0.0.DRUID_ALL]))
 		See(NearestEnemyOfType([PC.0.0.CLERIC_ALL]))
-		See(NearestEnemyOfType([PC.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([PC.0.0.MAGE_ALL]))
 		See(NearestEnemyOfType([PC.0.0.SORCERER]))
 	Global("SpellTrigger1","LOCALS",0)
 THEN

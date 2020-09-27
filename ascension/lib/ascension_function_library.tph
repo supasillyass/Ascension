@@ -9,9 +9,9 @@
 DEFINE_ACTION_MACRO load_ascension_tras
 BEGIN
  ACTION_IF !VARIABLE_IS_SET asc_tras_loaded BEGIN
-   LOAD_TRA "%ascension_tra_loc%/english/ascension.tra" "%ascension_tra_loc%/%language%/ascension.tra"
+   LOAD_TRA "%ascension_tra_loc%/english/ascension.tra" "%ascension_tra_loc%/%LANGUAGE%/ascension.tra"
    ACTION_IF enhanced_edition BEGIN
-        LOAD_TRA "%ascension_tra_loc%/english/ee.tra" "%ascension_tra_loc%/%language%/ee.tra"  // ee-style descriptions for two items
+        LOAD_TRA "%ascension_tra_loc%/english/ee.tra" "%ascension_tra_loc%/%LANGUAGE%/ee.tra"  // ee-style descriptions for two items
    END
    OUTER_SET asc_tras_loaded=1
  END

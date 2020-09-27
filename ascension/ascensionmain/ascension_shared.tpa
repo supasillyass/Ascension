@@ -8,7 +8,7 @@
 DEFINE_ACTION_FUNCTION ascension_misc_resources BEGIN
 
      LAM load_ascension_tras
-     LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra" // doesn't clash with ascension.tra, non-overlapping namespace
+     LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%LANGUAGE%/description.tra" // doesn't clash with ascension.tra, non-overlapping namespace
 
 ///////////////////////////////////////////////////////////////////////////
 /// Copy across a couple of purely cosmetic spells used in the cutscenes

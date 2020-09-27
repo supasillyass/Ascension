@@ -516,7 +516,7 @@ END
 
 DEFINE_ACTION_FUNCTION slayer_upgrade_documentation BEGIN
 
-   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra"
+   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%LANGUAGE%/description.tra"
 
    // make the copies
    COPY_EXISTING "%SLAYER_START%.spl" "override"

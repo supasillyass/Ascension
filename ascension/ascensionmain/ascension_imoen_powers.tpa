@@ -1,6 +1,6 @@
 DEFINE_ACTION_FUNCTION ascension_imoen_powers BEGIN
 
-   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%language%/description.tra"
+   LOAD_TRA "%ascension_tra_loc%/english/description.tra" "%ascension_tra_loc%/%LANGUAGE%/description.tra"
 
 
    //////////////////////////////////////
