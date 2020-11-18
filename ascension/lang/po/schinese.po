@@ -4,9 +4,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-05-18 14:14+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: Chinese (Simplified) <https://tra.bgforge.net/projects/infinity-engine/ascension/schinese/>\n"
+"PO-Revision-Date: 2020-11-18 20:09+0000\n"
+"Last-Translator: Qiao Liang <saladinqiao@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://tra.bgforge.net/projects/"
+"infinity-engine/ascension/schinese/>\n"
 "Language: schinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr "冲击波"
 
 #: ascension.tra:1007 tougher.tra:10
 msgid "Lightning Aura"
-msgstr "闪电光环"
+msgstr "闪电灵光"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
@@ -64,7 +65,7 @@ msgstr "驱役恶魔"
 
 #: ascension.tra:1020
 msgid "Banish"
-msgstr "放逐"
+msgstr "放逐术"
 
 #: ascension.tra:1022
 msgid "Unleash"
@@ -84,7 +85,7 @@ msgstr "非凡净化"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr "麻痹光环"
+msgstr "麻痹灵光"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
@@ -96,7 +97,7 @@ msgstr "缓慢法印"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
-msgstr "变身毁灭者"
+msgstr "变身终结者"
 
 #: ascension.tra:1038
 msgid "Melissan: Command the Minions of the Abyss"
