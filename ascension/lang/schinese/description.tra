@@ -3,9 +3,9 @@
 爱蒙解除了梅丽珊造成的杀戮者状态，不过看起来爱蒙的天赋力量也因此而增强，她现在可以像我在禁魔监狱里那样随心转变成杀戮者形态，而且获的了新能力“虚无灵体”，使得她可以进入灵界一段时间。
 爱蒙的新能力“虚无灵体”
 爱蒙现在可以在短期内进入灵界，每十轮可以使用一次此能力，并且在十轮内爱蒙无法变成杀戮者。使用后在开始的一轮内，爱蒙处于隐形状态并免疫一切伤害，但无法使用任何法术及特殊能力。接下来的两轮内，爱蒙处于半位移状态，一半处于主物质界，一半处于灵界，隐形且对所有伤害都有一半的免疫能力，但有十分之一的施法失败几率。在这三轮内，她能看到所有隐形的目标。~
-@6 = ~End Slayer Change
+@6 = ~结束杀戮者变身
 
-This ability allows Imoen to cancel her transformation and return to her usual form.~
+该能力使得爱蒙能停止她的杀戮者变身并变回人形。~
 @7 = ~巴尔之子的新能力
 <CHARNAME>获得了这个能力，每天可以使用一次: 
 再生（死灵系） 
@@ -25,110 +25,107 @@ This ability allows Imoen to cancel her transformation and return to her usual f
 有效范围：被触摸生物
 豁免鉴定：无
 类似第七级神术复兴，这个能力同样可以将死去的队友以最佳状态带回人世。~
-@9 = ~Slayer Change
+@9 = ~变身杀戮者
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+当你使用这个能力的时候，你会显现出巴尔的残忍本质：一只狂暴、强大、满是利爪和尖牙的生物。使用这个能力会降低你的声望1点，因为即使是没有亲眼目睹这情况的人也能感受到把你自己交给杀戮本能的堕落。
 
-The Slayer form grants the following benefits:
+杀戮者形态获得下列特性：
+－力量和敏捷设为25
+－基础防御等级设为-9
+－魔法抗力设为40%
+－所有豁免值设为2
+－攻击：攻击次数设为4，+5天生武器（1d8挥砍伤害，+2寒冷伤害）
+－零级命中值设为0
+－增加100点生命值
+－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠和远程攻击
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (1d8 crushing, 2 cold)
-- THAC0 set to 0
-- PLUS_SIGN_PLACEHOLDER 100 Hit Points
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+杀戮者形态非常难以控制：在变身的第一轮之后，每一轮你都有10%的几率（并在之后每轮都会递增10%）失去自我达一轮。~
+@10 = ~变身杀戮者
 
-The Slayer can be difficult to control: after the first round, you have a 10% cumulative chance per round of losing control of yourself for a round.~
-@10 = ~Slayer Change
+当你使用这个能力的时候，你会显现出巴尔的残忍本质：一只狂暴、强大、满是利爪和尖牙的生物。使用这个能力会降低你的声望1点，因为即使是没有亲眼目睹这情况的人也能感受到把你自己交给杀戮本能的堕落。
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+杀戮者形态已随你内在权能的强化而强化，现在将获得下列特性：
+－力量和敏捷设为25
+－基础防御等级设为-9
+－魔法抗力设为50%
+－所有物理伤害抗性设为15%
+－所有元素伤害抗性设为30%
+－所有豁免值设为2
+－攻击：攻击次数设为4，+5天生武器（2d6挥砍伤害，+4寒冷伤害）
+－零级命中值设为-4
+－再生：每秒回复2点生命值
+－增加150点生命值
+－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠和远程攻击
 
-The Slayer form has increased in power with your own, and now grants the following benefits:
-
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 50%
-- Resistance to physical damage set to 15%
-- Resistance to elemental damage set to 30%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d6 crushing, 4 cold)
-- THAC0 set to -4
-- PLUS_SIGN_PLACEHOLDER 150 Hit Points
-- Regenerate 2 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
-- Chance of losing control: 10%, plus a cumulative 5% per round
+你对杀戮者形态的控制得以改善：在变身的第一轮之后，每一轮你都有10%的几率（并在之后每轮都会递增5%）失去自我达一轮。
 ~
-@11 = ~Slayer Change
+@11 = ~变身杀戮者
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by two points, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+当你使用这个能力的时候，你会显现出巴尔的残忍本质：一只狂暴、强大、满是利爪和尖牙的生物。使用这个能力会降低你的声望1点，因为即使是没有亲眼目睹这情况的人也能感受到把你自己交给杀戮本能的堕落。
 
-The Slayer form has increased in power with your own, and now grants the following benefits:
+杀戮者形态已随你内在权能的强化而强化，现在将获得下列特性：
+－力量和敏捷设为25
+－基础防御等级设为-9
+－魔法抗力设为60%
+－所有物理伤害抗性设为30%
+－所有元素伤害抗性设为40%
+－所有豁免值设为2
+－攻击：攻击次数设为4，+5天生武器（2d8挥砍伤害，+8寒冷伤害）
+－每次命中时有10%的几率对目标施展解除魔法并降低其魔法抗力
+－零级命中值设为-8
+－增加200点生命值
+－再生：每秒回复3点生命值
+－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠、患病、中毒和远程攻击
+－自由行动
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 60%
-- Resistance to physical damage set to 30%
-- Resistance to elemental damage set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d8 crushing, 8 cold)
-- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
-- THAC0 set to -8
-- PLUS_SIGN_PLACEHOLDER 200 Hit Points
-- Regenerate 3 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
-- Free action
-- Chance of losing control: a cumulative 5% per two rounds~
-@12 = ~Ravager Change
+你对杀戮者形态的控制得以改善：在变身的第二轮之后，每两轮你都有5%的几率（并在之后每两轮都会递增5%）失去自我达一轮~
+@12 = ~变身终结者
 
-You now have the ability to take on the form either of the Slayer, or of the Ravager - a terrible manifestation of Bhaal. Using this ability reduces your reputation by two points for the Slayer, or a full three points for the Ravager.
+现在你可以选择是变身为杀戮者，还是更强悍的“终结者”——巴尔的一种狰狞神相。使用该能力变身为杀戮者会降低你的声望2点，变身为终结者则会降低你的声望3点。
 
-As the Slayer, you have the following benefits:
+如果你变身为杀戮者，将获得下列特性：
+－力量和敏捷设为25
+－基础防御等级设为-9
+－魔法抗力设为60%
+－所有物理伤害抗性设为30%
+－所有元素伤害抗性设为50%
+－所有豁免值设为2
+－所有豁免值设为2
+－攻击：攻击次数设为4，+5天生武器（2d8挥砍伤害，+8寒冷伤害）
+－每次命中时有10%的几率对目标施展解除魔法并降低其魔法抗力
+－零级命中值设为-8
+－增加200点生命值
+－再生：每秒回复3点生命值
+－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠、患病、中毒和远程攻击
+－自由行动
+－在变身的第二轮之后，每两轮你都有5%的几率（并在之后每两轮都会递增5%）失去自我达一轮。
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 60%
-- Resistance to physical damage set to 30%
-- Resistance to elemental damage set to 50%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d8 crushing, 8 cold)
-- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
-- THAC0 set to -8
-- PLUS_SIGN_PLACEHOLDER 200 Hit Points
-- Regenerate 3 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
-- Free action
-- Chance of losing control: a cumulative 5% per two rounds
+如果你变身为终结者，将额外获得下列特性，取代上述杀戮者的对应特性：
+－魔法抗力设为75%
+－所有物理伤害抗性设为50%
+－所有元素伤害抗性设为50%
+－魔法能量伤害抗性设为50%
+－攻击：攻击次数设为5，+5天生武器（3d8挥砍伤害，+8寒冷伤害）
+－每次命中时有20%的几率对目标施展解除魔法并降低其魔法抗力
+－零级命中值设为-12
+－增加250点生命值
+－再生：每秒回复5点生命值
+－在变身的第一轮之后，你将有40%的几率（并在之后每轮都会递增10%）失去自我达一轮~
+@13 = ~变身杀戮者
 
-As the Ravager, you get the following additional benefits:
+当爱蒙使用这个能力的时候，她会显现出巴尔的残忍本质：一只狂暴、强大、满是利爪和尖牙的生物。
 
-- Magic Resistance set to 75%
-- Resistance to physical damage set to 50%
-- Resistance to elemental damage set to 50%
-- Resistance to magic damage set to 50%
-- Attacks per round set to 5 (3d8 crushing, 8 cold)
-- Chance of dispelling on hit increases to 20%
-- THAC0 set to -12
-- PLUS_SIGN_PLACEHOLDER 250 hit points
-- Regenerate 5 Hit Points per second
-- Chance of losing control increases to 40% plus a cumulative 10% chance per round~
-@13 = ~Slayer Change
+杀戮者形态获得下列特性：
+－力量和敏捷设为25
+－基础防御等级设为-9
+－魔法抗力设为40%
+－所有豁免值设为2
+－攻击：攻击次数设为4，+5天生武器（1d8挥砍伤害，+2寒冷伤害）
+－零级命中值设为0
+－增加100点生命值
+－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠和远程攻击
 
-When Imoen uses this ability, she takes on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws.
-
-The Slayer form grants the following benefits:
-
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (1d8 crushing, 2 cold)
-- THAC0 set to 0
-- PLUS_SIGN_PLACEHOLDER 100 Hit Points
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
-
-Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
+或许是因为爱蒙拥有的巴尔本质比<CHARNAME>更少——又或许是爱蒙从梅丽珊强行控制她的本质的行为中学到的知识，她能更好地控制杀戮者的力量，在杀戮者形态下她不会失去自我。~
 @14 = ~Bhaalspawn powers granted~
 @15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
 @16 = ~
