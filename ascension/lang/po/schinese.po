@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-11-22 14:14+0000\n"
+"PO-Revision-Date: 2020-11-23 14:13+0000\n"
 "Last-Translator: RomancingSugar <saladinqiao@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://tra.bgforge.net/projects/"
 "infinity-engine/ascension/schinese/>\n"
@@ -723,7 +723,7 @@ msgid ""
 "I thought you were going to kill yourself after I was dead. Sure you won't "
 "see some more evil once Melissan is dead, too? You'd probably make a "
 "promising Lord of Murder, you know..."
-msgstr "你可能是想在我死之后自杀，以为这样就不会有任何邪恶存世了？你在造就另一个谋杀之神……"
+msgstr "你可能是想在我死之后自杀，以为这样就不会有任何邪恶存世了？你在造就另一个谋杀之王……"
 
 #: balth.tra:1103
 msgid "Forget it. This is pointless. Let's just get this over with."
@@ -745,11 +745,11 @@ msgid ""
 "I had thought when this moment arrived, I would hold clearly to my purpose. "
 "We must... end this, <CHARNAME>. I wish this to be over with, one way or the"
 " other."
-msgstr "我想过，真到了那个时候，我会坚守我的信念。我们必须……让一切结束，<CHARNAME>，你或者我。"
+msgstr "我想过，真到了那个时候，我会坚守我的信念。我们必须……让这一切结束，<CHARNAME>，你或者我。"
 
 #: balth.tra:1107
 msgid "Alright, Balthazar. If that's what you want... let's end this now."
-msgstr "好吧，巴萨札，这就是你想要的……让我们现在就结束这一切吧。"
+msgstr "好吧，巴萨札，如果这就是你想要的……让我们现在就结束这一切吧。"
 
 #: balth.tra:1108
 msgid ""
@@ -770,7 +770,7 @@ msgstr "我不知道，巴萨札，但我不想和你打。"
 
 #: balth.tra:1111
 msgid "Let us fight, then, if it must be. Let me give you some peace at last."
-msgstr "如果必要的话，那我们就一决胜负吧。就让我来使你安息。"
+msgstr "如果必要的话，那我们就一决胜负吧。就让我来赐你安息。"
 
 #: balth.tra:1112
 msgid ""
@@ -787,7 +787,7 @@ msgid ""
 "Very well, then, <CHARNAME>. I will join you. You are a worthy "
 "<PRO_MANWOMAN>. Perhaps even worthy of turning Bhaal's dark taint and making"
 " something better of it. I do not know. But I will take that chance."
-msgstr "很好，<CHARNAME>，我会加入你。你是个值得信赖的人，也许把巴尔的邪恶天赋用在正确的地方比消灭它更好。也许吧，但我至少会试一试。"
+msgstr "很好，<CHARNAME>，我会加入你。你是个值得信赖的人，也许把巴尔的秽魂用在正确的地方比消灭它更好。也许吧，但我至少会试一试。"
 
 #: balth.tra:1115
 msgid ""
@@ -796,11 +796,12 @@ msgid ""
 "to hold out against us both. I have preparations to make, <CHARNAME>. Go to "
 "the Throne of Bhaal. When the time comes, I will be there."
 msgstr ""
-"让梅丽珊颤抖吧，我们会让她得到应得的下场。就算巴尔复活了，他也对付不了咱们俩。我还有些准备工作要做，<CHARNAME>，我会在巴尔王座那里跟你碰面。"
+"让梅丽珊颤抖吧，我们会让她得到应得的下场。就算巴尔复活了，他也对付不了咱们俩。我还有些准备工作要做，<CHARNAME>，一旦时机成熟，我会在巴尔王座那里"
+"跟你碰面。"
 
 #: balth.tra:1116
 msgid "I cannot, <CHARNAME>."
-msgstr "我不能，<CHARNAME>."
+msgstr "我不能，<CHARNAME>。"
 
 #: balth.tra:1117
 msgid ""
@@ -813,13 +814,13 @@ msgid ""
 "realize that. Promise me you will turn it away."
 msgstr ""
 "你必须跟梅丽珊去做最后的决战。亲眼见证巴尔的遗产在此时此地终结是你的宿命。但是你必须向我保证，<CHARNAME>，不要被力量所诱惑。当你击败了梅丽珊，那"
-"股力量终归于你之后，一定要拒绝……到那时你会面临和现在一样同自身的抗争，即便你只拥有一丝秽魂也无法幸免。那是连神都会为之所诱惑的力量，<CHARNAME>"
-"，你必须要清楚这一点。答应我，不要接受。"
+"股力量终归于你之后，一定要拒绝……彼时你会面临同现在一样与自身的抗争，并且那时你拥有的秽魂的量远非现在的一小部分可比。那是连神都会为之所诱惑的力量，<CH"
+"ARNAME>，你必须要清楚这一点。答应我，不要接受。"
 
 #: balth.tra:1118
 msgid ""
 "If I am given the option, Balthazar... I will refuse the taint. I swear it."
-msgstr "如果我有机会选择的话，巴萨札，我会拒绝。我发誓。"
+msgstr "如果我有机会选择的话，巴萨札……我会拒绝。我发誓。"
 
 #: balth.tra:1119
 msgid ""
@@ -845,146 +846,90 @@ msgid ""
 msgstr "那我就必须杀了你，很……抱歉，<PRO_BROTHERSISTER>。我本希望会有互相残杀之外的结局的。"
 
 #: balth.tra:1123
-#, fuzzy
-#| msgid ""
-#| "And I cannot trust that you will turn aside the power when it is offered to "
-#| "you.  You have experienced the struggle even a sliver of Bhaal's taint has "
-#| "brought you, yet I cannot believe that you would turn it aside.  I... I am "
-#| "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgid ""
 "And I cannot trust that you will turn aside the power when it is offered to "
 "you. You have experienced the struggle even a sliver of Bhaal's taint has "
 "brought you, yet I cannot believe that you would turn it aside. I... I am "
 "sorry, <PRO_BROTHERSISTER>...but I have no choice."
 msgstr ""
-"我不相信你能拒绝这股力量，你知道那一小部分力量都很难控制，我没法相信你能拒绝，很抱歉，<PRO_BROTHERSISTER>，但我没别的选择了。"
+"我不相信当那力量摆在你面前时你能拒绝。你很清楚即便是巴尔秽魂的一小部分都很难控制，我没法相信你能拒绝。很……抱歉，<PRO_BROTHERSISTER>，"
+"但我别无选择。"
 
 #: balth.tra:1124
-#, fuzzy
-#| msgid "So be it.  Come, my pupils... may the gods help us all."
 msgid "So be it. Come, my pupils... may the gods help us all."
-msgstr "那......就来吧，希望神保佑我们。"
+msgstr "那就如此吧。来吧，我的弟子们……愿诸神保佑我们。"
 
 #: balth.tra:1125
-#, fuzzy
-#| msgid ""
-#| "No.  Further dialogue is pointless.  Let us end this now, <CHARNAME>...and "
-#| "may the gods have pity on us all."
 msgid ""
 "No. Further dialogue is pointless. Let us end this now, <CHARNAME>...and may"
 " the gods have pity on us all."
-msgstr "不，再谈下去也没什么意义了，让我们结束这件事吧，<CHARNAME>.....希望神明白咱们的苦衷。"
+msgstr "不，再谈下去也没什么意义了。让我们结束这一切吧，<CHARNAME>……..愿诸神宽恕我们。"
 
 #: balth.tra:1126
-#, fuzzy
-#| msgid ""
-#| "Perhaps what you are saying holds merit.  But what if I died during the "
-#| "battle?  What if I was weakened, in the end... you might find yourself... "
-#| "tempted.  How could I trust you?"
 msgid ""
 "Perhaps what you are saying holds merit. But what if I died during the "
 "battle? What if I was weakened, in the end... you might find yourself... "
 "tempted. How could I trust you?"
-msgstr "也许你说的是对的，但我如果在战斗中死了，或者被削弱了，而你又被那种力量所诱惑，我怎么相信你？"
+msgstr "也许你说的有点道理，但如果我在战斗中死了，或者被削弱了，而你又被那种力量所诱惑，那又当如何？我怎么相信你？"
 
 #: balth.tra:1128
-#, fuzzy
-#| msgid ""
-#| "I don't know how to explain it, exactly, but she must have used you!  She "
-#| "used everyone else!  I didn't trust her and she even got me to do what she "
-#| "wanted!"
 msgid ""
 "I don't know how to explain it, exactly, but she must have used you! She "
 "used everyone else! I didn't trust her and she even got me to do what she "
 "wanted!"
-msgstr "我不知道怎么解释，但是她必然要利用你，她利用了每个人，即使我从开始就不信任她，她还是利用我达到了她的目的。"
+msgstr "我不知道怎么解释，但是她必然要利用你！她利用了每个人！即使我从开始就不信任她，她还是利用我达到了她的目的！"
 
 #: balth.tra:1129
-#, fuzzy
-#| msgid ""
-#| "Think about it, Balthazar!  You honestly think she didn't know what your "
-#| "plans were?  Do you think you took her by surprise?  Even I saw it coming, "
-#| "and there was nothing I could do to stop it!"
 msgid ""
 "Think about it, Balthazar! You honestly think she didn't know what your "
 "plans were? Do you think you took her by surprise? Even I saw it coming, and"
 " there was nothing I could do to stop it!"
-msgstr "仔细想想吧，巴尔撒扎！你认为她真不知道你的计划么？你认为你真能给她个惊喜么？连我都想到了，但我却无法阻止这件事的到来！"
+msgstr "仔细想想吧，巴萨札！你真认为她不知道你的计划？你认为你真能给她个惊喜？我眼睁睁地看着她一步步实现她的计划，但我却无法阻止这件事的到来！"
 
 #: balth.tra:1130
-#, fuzzy
-#| msgid ""
-#| "She used you to get rid of the other Bhaalspawn, obviously.  Think about it!"
-#| "  She knew what you were planning all along.  She wanted all the Bhaalspawn "
-#| "dead... and she wants us to fight!  She *wants* this to happen!!"
 msgid ""
 "She used you to get rid of the other Bhaalspawn, obviously. Think about it! "
 "She knew what you were planning all along. She wanted all the Bhaalspawn "
 "dead... and she wants us to fight! She *wants* this to happen!"
-msgstr "她利用你除去其他的巴尔之子，仔细想想，他了解你的计划，她想杀掉所有的巴尔之子......她想让咱们自相残杀！她希望这件事情发生！"
+msgstr ""
+"很显然，她在利用你除去其他的巴尔之子。仔细想想，她从头到尾都了解你的计划。她想杀掉所有的巴尔之子……她想让咱们自相残杀！她*渴望*事态如此发展！"
 
 #: balth.tra:1131
-#, fuzzy
-#| msgid ""
-#| "Of course she used me, <CHARNAME>.  And no doubt she knew my plans as well "
-#| "as I knew hers.  This changes nothing."
 msgid ""
 "Of course she used me, <CHARNAME>. And no doubt she knew my plans as well as"
 " I knew hers. This changes nothing."
-msgstr "当然，她利用了我，<CHARNAME>，而且毫无疑问，她也知道我的计划，但这改变不了什么。"
+msgstr "当然，她利用了我，<CHARNAME>。而且毫无疑问，她知道我的计划——正如我也清楚她想干什么，但这改变不了什么。"
 
 #: balth.tra:1132
-#, fuzzy
-#| msgid ""
-#| "You... may be right, <CHARNAME>.  But that does not mean that my plan will "
-#| "fail.  Melissan underestimates me, I am sure of that... just as she "
-#| "underestimates you."
 msgid ""
 "You... may be right, <CHARNAME>. But that does not mean that my plan will "
 "fail. Melissan underestimates me, I am sure of that... just as she "
 "underestimates you."
-msgstr ""
-"你......也许是对的，<CHARNAME>，但这不意味着我的计划就会失败，她低估了我......就像她低估了你一样......我很确定这一点。"
+msgstr "你……也许是对的，<CHARNAME>。但这不意味着我的计划就会失败。梅丽珊低估了我……就像她低估了你一样，我很确定这一点。"
 
 #: balth.tra:1133
-#, fuzzy
-#| msgid ""
-#| "I... perhaps you are right, <CHARNAME>.  I see the wisdom of your words.  "
-#| "Still... this does not mean my plan is doomed to failure.  Or is it?"
 msgid ""
 "I... perhaps you are right, <CHARNAME>. I see the wisdom of your words. "
 "Still... this does not mean my plan is doomed to failure. Or is it?"
-msgstr "我......也许你是对的，我能从你的话里感受到你的智慧。但我的计划会失败么？"
+msgstr "我……也许你是对的，<CHARNAME>。我能从你的话里感受到你的智慧。但……这也未必代表着我的计划注定失败。难道这真的行不通？"
 
 #: balth.tra:1134
-#, fuzzy
-#| msgid "I must resist it.  I will.  I have no choice."
 msgid "I must resist it. I will. I have no choice."
-msgstr "我必须抵抗它，我会的，我没有选择。"
+msgstr "我一定会抵抗它。我会的，我没有选择。"
 
 #: balth.tra:1135
-#, fuzzy
-#| msgid ""
-#| "But... you have shown great willpower, as well.  Despite the taint in your "
-#| "soul, you have struggled against it just as I have.  What makes me more "
-#| "worthy...?  No, I must not question myself!  Not now!"
 msgid ""
 "But... you have shown great willpower, as well. Despite the taint in your "
 "soul, you have struggled against it just as I have. What makes me more "
 "worthy...? No, I must not question myself! Not now!"
-msgstr "但是你已经展现了强大的意志力，你跟我一样，一直在抵抗自己的心魔，那我比你强到哪儿呢？不，现在不是怀疑自己的时候！现在不行！"
+msgstr "但是……你已经展现了强大的意志力。你和我一样，一直坚持抵抗自己的秽魂。那我比你强在哪儿呢？不，现在不是怀疑自己的时候！现在不行！"
 
 #: balth.tra:1136
-#, fuzzy
-#| msgid ""
-#| "You are certainly no better a candidate for resisting such temptation, "
-#| "<CHARNAME>.  I would trust myself far more than I would trust you.  To send "
-#| "you to the Throne would be to give up everything I have believed in."
 msgid ""
 "You are certainly no better a candidate for resisting such temptation, "
 "<CHARNAME>. I would trust myself far more than I would trust you. To send "
 "you to the Throne would be to give up everything I have believed in."
-msgstr "你也未必能够抵抗住这种诱惑，<CHARNAME>，我非常相信自己的判断，让你进入巴尔的王座就意味着放弃我的信念。"
+msgstr "显然你未必能够抵抗得了这种诱惑，<CHARNAME>。我更相信自身的判断而非你的。让你进入巴尔王座就意味着放弃我的信念。"
 
 #: balth.tra:1137
 #, fuzzy
@@ -2192,7 +2137,7 @@ msgstr ""
 "－再生：每秒回复3点生命值\n"
 "－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠、患病、中毒和远程攻击\n"
 "－自由行动\n"
-"－在变身的第二轮之后，每两轮你都有5%的几率（并在之后每两轮都会递增5%）失去自我达一轮。\n"
+"－在变身的第二轮之后，每两轮你都有5%的几率（并在之后每两轮都会递增5%）失去自我达两轮\n"
 "\n"
 "如果你变身为终结者，将额外获得下列特性，取代上述杀戮者的对应特性：\n"
 "－魔法抗力设为75%\n"
