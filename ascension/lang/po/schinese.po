@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-11-19 14:14+0000\n"
+"PO-Revision-Date: 2020-11-22 14:14+0000\n"
 "Last-Translator: RomancingSugar <saladinqiao@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://tra.bgforge.net/projects/"
 "infinity-engine/ascension/schinese/>\n"
@@ -752,95 +752,57 @@ msgid "Alright, Balthazar. If that's what you want... let's end this now."
 msgstr "好吧，巴萨札，这就是你想要的……让我们现在就结束这一切吧。"
 
 #: balth.tra:1108
-#, fuzzy
-#| msgid ""
-#| "I am at a loss, <CHARNAME>.  You question me, and I have no good answers for"
-#| " you.  My heart tells me that you must be killed, but I am not sure if I "
-#| "should listen to it.  What... what would you have me do?"
 msgid ""
 "I am at a loss, <CHARNAME>. You question me, and I have no good answers for "
 "you. My heart tells me that you must be killed, but I am not sure if I "
 "should listen to it. What... what would you have me do?"
-msgstr "我有些迷茫了，你问住了我，我却没法给你甚至我自己一个满意的回答。我心里知道你必须被杀，但不知道该不该那么做。..."
+msgstr "我有些迷茫了，你问住了我，我却没法给你甚至我自己一个满意的回答。我心里清楚你必须被杀，但却在犹豫该不该那么做。你……你觉得我该怎么做？"
 
 #: balth.tra:1109
-#, fuzzy
-#| msgid ""
-#| "Join me, Balthazar.  Let us fight Melissan together, instead of doing what "
-#| "she wants us to."
 msgid ""
 "Join me, Balthazar. Let us fight Melissan together, instead of doing what "
 "she wants us to."
-msgstr "加入我，巴尔撒扎，让我们一起对付梅丽珊，而不是做她想让我们做的。"
+msgstr "加入我吧，巴萨札，让我们一起对付梅丽珊，而不是做她想让我们做的。"
 
 #: balth.tra:1110
-#, fuzzy
-#| msgid "I don't know, Balthazar.  But I don't want to fight you."
 msgid "I don't know, Balthazar. But I don't want to fight you."
-msgstr "我不知道，巴尔撒扎，但我不想和你打。"
+msgstr "我不知道，巴萨札，但我不想和你打。"
 
 #: balth.tra:1111
-#, fuzzy
-#| msgid ""
-#| "Let us fight, then, if it must be.  Let me give you some peace at last."
 msgid "Let us fight, then, if it must be. Let me give you some peace at last."
-msgstr "让我们决出一个胜负吧，如果必要的话，这至少会让你感到平静一些。"
+msgstr "如果必要的话，那我们就一决胜负吧。就让我来使你安息。"
 
 #: balth.tra:1112
-#, fuzzy
-#| msgid ""
-#| "You're a weaker fool then I thought.  Let's just end this now, shall we?  I "
-#| "have an appointment with god-hood."
 msgid ""
 "You're a bigger fool than I thought. Let's just end this now, shall we? I "
 "have an appointment with god-hood."
-msgstr "你比我想的还要笨，现在决出个胜负吧，我跟AO还有些业务需要处理。"
+msgstr "你比我想的还蠢。现在让我们结束这一切吧，如何？我跟艾欧还有些业务需要处理。"
 
 #: balth.tra:1113
 msgid "Yes... you are right."
 msgstr "嗯...你是对的。"
 
 #: balth.tra:1114
-#, fuzzy
-#| msgid ""
-#| "Very well, then, <CHARNAME>.  I will join you.  You are a worthy "
-#| "<PRO_MANWOMAN>.  Perhaps even worthy of turning Bhaal's dark taint and "
-#| "making something better of it.  I do not know.  But I will take that chance."
 msgid ""
 "Very well, then, <CHARNAME>. I will join you. You are a worthy "
 "<PRO_MANWOMAN>. Perhaps even worthy of turning Bhaal's dark taint and making"
 " something better of it. I do not know. But I will take that chance."
-msgstr "很好，<CHARNAME>，我会加入你，你是个值得信赖的人，也许把巴尔的邪恶天赋用在正确的地方比消灭它更好，也许吧，但我至少会试一试。"
+msgstr "很好，<CHARNAME>，我会加入你。你是个值得信赖的人，也许把巴尔的邪恶天赋用在正确的地方比消灭它更好。也许吧，但我至少会试一试。"
 
 #: balth.tra:1115
-#, fuzzy
-#| msgid ""
-#| "Let Melissan tremble when she sees us together, and we shall strike her down"
-#| " as she deserves.  Even if Bhaal himself is resurrected, he will not be able"
-#| " to hold out against us both.  I have preparations to make, <CHARNAME>.  Go "
-#| "to the Throne of Bhaal.  When the time comes, I will be there."
 msgid ""
 "Let Melissan tremble when she sees us together, and we shall strike her down"
 " as she deserves. Even if Bhaal himself is resurrected, he will not be able "
 "to hold out against us both. I have preparations to make, <CHARNAME>. Go to "
 "the Throne of Bhaal. When the time comes, I will be there."
 msgstr ""
-"让梅丽珊颤抖吧，我们会让她得到应得的下场，就算巴尔复活了，他也对付不了咱们两人。我还有些准备工作要做，<CHARNAME>，我会在巴尔王座那里跟你碰面。"
+"让梅丽珊颤抖吧，我们会让她得到应得的下场。就算巴尔复活了，他也对付不了咱们俩。我还有些准备工作要做，<CHARNAME>，我会在巴尔王座那里跟你碰面。"
 
 #: balth.tra:1116
 msgid "I cannot, <CHARNAME>."
 msgstr "我不能，<CHARNAME>."
 
 #: balth.tra:1117
-#, fuzzy
-#| msgid ""
-#| "You must take the battle to Melissan.  It is your destiny to see that "
-#| "Bhaal's legacy ends here and now.  But you must promise me, <CHARNAME>...you"
-#| " must promise me that you will not give into the temptation.  Should you "
-#| "defeat Melissan and the power become available to you, you must turn away "
-#| "from it... you have seen your struggle as it is now, with only a sliver of "
-#| "that taint.  Do not take it, <CHARNAME>...even a god can be tempted, you "
-#| "must realize that.  Promise me you will turn it away."
 msgid ""
 "You must take the battle to Melissan. It is your destiny to see that Bhaal's"
 " legacy ends here and now. But you must promise me, <CHARNAME>...you must "
@@ -850,53 +812,37 @@ msgid ""
 "taint. Do not take it, <CHARNAME>...even a god can be tempted, you must "
 "realize that. Promise me you will turn it away."
 msgstr ""
-"你必须跟梅丽珊去做最后的决战，如果你认为这是你的宿命的话，但是答应我，不要被力量所诱惑，当你击败了她之后，一定要拒绝那种力量，<CHARNAME>，神都会为之所诱惑，答应我，不要接受。"
+"你必须跟梅丽珊去做最后的决战。亲眼见证巴尔的遗产在此时此地终结是你的宿命。但是你必须向我保证，<CHARNAME>，不要被力量所诱惑。当你击败了梅丽珊，那"
+"股力量终归于你之后，一定要拒绝……到那时你会面临和现在一样同自身的抗争，即便你只拥有一丝秽魂也无法幸免。那是连神都会为之所诱惑的力量，<CHARNAME>"
+"，你必须要清楚这一点。答应我，不要接受。"
 
 #: balth.tra:1118
-#, fuzzy
-#| msgid ""
-#| "If I am given the option, Balthazar... I will refuse the taint.  I swear it."
 msgid ""
 "If I am given the option, Balthazar... I will refuse the taint. I swear it."
-msgstr "如果我有机会选择的话，我答应你。"
+msgstr "如果我有机会选择的话，巴萨札，我会拒绝。我发誓。"
 
 #: balth.tra:1119
-#, fuzzy
-#| msgid ""
-#| "No.  I will swear nothing of the kind.  Great good could come out of that "
-#| "power, you don't know otherwise any better than I."
 msgid ""
 "No. I will swear nothing of the kind. Great good could come out of that "
 "power, you don't know otherwise any better than I."
-msgstr "不，我不会答应这样的事，那股力量也可以成为强大的正义，我会比任何人做的都好。"
+msgstr "不，我不会答应这样的事。那股力量也可以成为强大的正义，我会比任何人做的都好。"
 
 #: balth.tra:1120
-#, fuzzy
-#| msgid "Forget it!  I'll do no such thing!"
 msgid "Forget it! I'll do no such thing!"
 msgstr "算了吧，我才不会那么做呢！"
 
 #: balth.tra:1121
-#, fuzzy
-#| msgid ""
-#| "Then I am satisfied.  The essence of our sire ends with me... and with you."
-#| "  May the gods forgive me.  May you... may you forgive me, "
-#| "<PRO_BROTHERSISTER>..."
 msgid ""
 "Then I am satisfied. The essence of our sire ends with me... and with you. "
 "May the gods forgive me. May you... may you forgive me, "
 "<PRO_BROTHERSISTER>..."
-msgstr "那我就放心了，我的天赋结束了，希望神原谅我，希望你也能原谅我，<PRO_BROTHERSISTER>"
+msgstr "那我就放心了。我们的神性本质将在我……还有你的手里终结。希望诸神原谅我，也希望你能原谅我，<PRO_BROTHERSISTER>……"
 
 #: balth.tra:1122
-#, fuzzy
-#| msgid ""
-#| "Then we must do battle.  I... I am sorry, <PRO_BROTHERSISTER>.  I had hoped "
-#| "this would be otherwise."
 msgid ""
 "Then we must do battle. I... I am sorry, <PRO_BROTHERSISTER>. I had hoped "
 "this would be otherwise."
-msgstr "那我就必须杀了你，很...很抱歉，<PRO_BROTHERSISTER>，我希望这会有个较为愉快的结局。"
+msgstr "那我就必须杀了你，很……抱歉，<PRO_BROTHERSISTER>。我本希望会有互相残杀之外的结局的。"
 
 #: balth.tra:1123
 #, fuzzy
@@ -2097,7 +2043,7 @@ msgstr ""
 "－基础防御等级设为-9\n"
 "－魔法抗力设为40%\n"
 "－所有豁免值设为2\n"
-"－攻击：攻击次数设为4，+5天生武器（1d8挥砍伤害，+2寒冷伤害）\n"
+"－攻击：攻击次数设为4，+5天生武器（1d8钝击伤害，+2寒冷伤害）\n"
 "－零级命中值设为0\n"
 "－增加100点生命值\n"
 "－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠和远程攻击\n"
@@ -2137,7 +2083,7 @@ msgstr ""
 "－所有物理伤害抗性设为15%\n"
 "－所有元素伤害抗性设为30%\n"
 "－所有豁免值设为2\n"
-"－攻击：攻击次数设为4，+5天生武器（2d6挥砍伤害，+4寒冷伤害）\n"
+"－攻击：攻击次数设为4，+5天生武器（2d6钝击伤害，+4寒冷伤害）\n"
 "－零级命中值设为-4\n"
 "－再生：每秒回复2点生命值\n"
 "－增加150点生命值\n"
@@ -2180,7 +2126,7 @@ msgstr ""
 "－所有物理伤害抗性设为30%\n"
 "－所有元素伤害抗性设为40%\n"
 "－所有豁免值设为2\n"
-"－攻击：攻击次数设为4，+5天生武器（2d8挥砍伤害，+8寒冷伤害）\n"
+"－攻击：攻击次数设为4，+5天生武器（2d8钝击伤害，+8寒冷伤害）\n"
 "－每次命中时有10%的几率对目标施展解除魔法并降低其魔法抗力\n"
 "－零级命中值设为-8\n"
 "－增加200点生命值\n"
@@ -2239,7 +2185,7 @@ msgstr ""
 "－所有元素伤害抗性设为50%\n"
 "－所有豁免值设为2\n"
 "－所有豁免值设为2\n"
-"－攻击：攻击次数设为4，+5天生武器（2d8挥砍伤害，+8寒冷伤害）\n"
+"－攻击：攻击次数设为4，+5天生武器（2d8钝击伤害，+8寒冷伤害）\n"
 "－每次命中时有10%的几率对目标施展解除魔法并降低其魔法抗力\n"
 "－零级命中值设为-8\n"
 "－增加200点生命值\n"
@@ -2253,7 +2199,7 @@ msgstr ""
 "－所有物理伤害抗性设为50%\n"
 "－所有元素伤害抗性设为50%\n"
 "－魔法能量伤害抗性设为50%\n"
-"－攻击：攻击次数设为5，+5天生武器（3d8挥砍伤害，+8寒冷伤害）\n"
+"－攻击：攻击次数设为5，+5天生武器（3d8钝击伤害，+8寒冷伤害）\n"
 "－每次命中时有20%的几率对目标施展解除魔法并降低其魔法抗力\n"
 "－零级命中值设为-12\n"
 "－增加250点生命值\n"
@@ -2288,7 +2234,7 @@ msgstr ""
 "－基础防御等级设为-9\n"
 "－魔法抗力设为40%\n"
 "－所有豁免值设为2\n"
-"－攻击：攻击次数设为4，+5天生武器（1d8挥砍伤害，+2寒冷伤害）\n"
+"－攻击：攻击次数设为4，+5天生武器（1d8钝击伤害，+2寒冷伤害）\n"
 "－零级命中值设为0\n"
 "－增加100点生命值\n"
 "－免疫禁锢、等级吸取、震慑、恐惧、魅惑、困惑、睡眠和远程攻击\n"
