@@ -4,46 +4,49 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-02-11 14:13+0000\n"
+"Last-Translator: Felipe <felipefplzx@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://tra.bgforge.net/projects/"
+"infinity-engine/ascension/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: bgforge_po v.1.0.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
+#, fuzzy
 msgid "Babau"
-msgstr ""
+msgstr "Babau"
 
 #: ascension.tra:1003
 msgid "Transform Into Bat"
-msgstr ""
+msgstr "Transformar em Morcego"
 
 #: ascension.tra:1006 tougher.tra:9
 msgid "Shockwave"
-msgstr ""
+msgstr "Onda de Choque"
 
 #: ascension.tra:1007 tougher.tra:10
 msgid "Lightning Aura"
-msgstr ""
+msgstr "Aura de Raio"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
-msgstr ""
+msgstr "Telecinese"
 
 #: ascension.tra:1012
 msgid "Flip Resistances"
-msgstr ""
+msgstr "Trocar Resistências"
 
 #: ascension.tra:1013
 msgid "Control Demon"
-msgstr ""
+msgstr "Controlar Demônio"
 
 #: ascension.tra:1014
 msgid "Focus"
-msgstr ""
+msgstr "Foco"
 
 #: ascension.tra:1016
 msgid "Divine Mantle"
@@ -51,47 +54,48 @@ msgstr ""
 
 #: ascension.tra:1017
 msgid "Draw Power"
-msgstr ""
+msgstr "Extrair Poder"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr ""
+msgstr "Feitiço do Escudo Divino"
 
 #: ascension.tra:1019
 msgid "Command Demon"
-msgstr ""
+msgstr "Comandar Demônio"
 
 #: ascension.tra:1020
 msgid "Banish"
-msgstr ""
+msgstr "Banir"
 
 #: ascension.tra:1022
 msgid "Unleash"
 msgstr ""
 
 #: ascension.tra:1024
+#, fuzzy
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: ascension.tra:1025
 msgid "Divine Restoration"
-msgstr ""
+msgstr "Restauração Divina"
 
 #: ascension.tra:1026
 msgid "Divine Cleansing"
-msgstr ""
+msgstr "Limpeza Divina"
 
 #: ascension.tra:1027
 msgid "Paralyzation Aura"
-msgstr ""
+msgstr "Aura de Paralização"
 
 #: ascension.tra:1029
 msgid "Lava Bomb"
-msgstr ""
+msgstr "Bomba de Lava"
 
 #: ascension.tra:1031
 msgid "Symbol, Slow"
-msgstr ""
+msgstr "Símbolo, Lento"
 
 #: ascension.tra:1037
 msgid "Ravager Change"
@@ -111,7 +115,7 @@ msgstr ""
 
 #: ascension.tra:1041
 msgid "Transfixed"
-msgstr ""
+msgstr "Transfixado"
 
 #: ascension.tra:1042
 msgid "Weapons weakened by Babau slime"
@@ -119,43 +123,43 @@ msgstr ""
 
 #: ascension.tra:1043
 msgid "Grabbed"
-msgstr ""
+msgstr "Agarrado"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "Recupera os poderes de Bhaal"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
-msgstr ""
+msgstr "Você recuperou o controle por agora."
 
 #: ascension.tra:1046 ascension.tra:1047
 msgid "Magic Resistance lowered by 5%"
-msgstr ""
+msgstr "Resistência mágina diminuída em 5%"
 
 #: ascension.tra:1048
 msgid "Slayer transformation enhanced"
-msgstr ""
+msgstr "Transformação no assassino melhorada"
 
 #: ascension.tra:1049
 msgid "The demon bows to your will"
-msgstr ""
+msgstr "O demônio se curva a sua vontade"
 
 #: ascension.tra:1050
 msgid "The demon defies your will"
-msgstr ""
+msgstr "O demônio desafia sua vontade"
 
 #: ascension.tra:1051
 msgid "This power only affects demons"
-msgstr ""
+msgstr "Este poder só afeta demônios"
 
 #: ascension.tra:1052
 msgid "The demon bows to Melissan's will"
-msgstr ""
+msgstr "O demônio se curva a vontade de Melissan"
 
 #: ascension.tra:1053
 msgid "The demon defies Melissan's will"
-msgstr ""
+msgstr "O demônio desafia a vontade de Melissan"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
@@ -191,27 +195,27 @@ msgstr ""
 
 #: ascension.tra:1062
 msgid "Divine Gift"
-msgstr ""
+msgstr "Dom Divino"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
-msgstr ""
+msgstr "Resistência Mágica Restaurada"
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr ""
+msgstr "Proteções Antimágicas Removidas"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
-msgstr ""
+msgstr "Proteções de Combate Removidas"
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr ""
+msgstr "IA desativada"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr ""
+msgstr "IA ativada"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
@@ -340,11 +344,11 @@ msgstr ""
 
 #: ascension.tra:2008
 msgid "Slayer Change ability improved"
-msgstr ""
+msgstr "Habilidade de mudança do Assassino melhorada"
 
 #: ascension.tra:3000
 msgid "Sarevok's Sword of Chaos +4"
-msgstr ""
+msgstr "Espada do Caos do Sarevok +4"
 
 #: ascension.tra:3001
 msgid ""
@@ -378,7 +382,7 @@ msgstr ""
 
 #: ascension.tra:3002
 msgid "Sendai's Potion"
-msgstr ""
+msgstr "Poção da Sendai"
 
 #: ascension.tra:3003
 msgid ""
@@ -396,6 +400,7 @@ msgstr ""
 msgid ""
 "You won't be the first to try and kill me... and probably not the last!"
 msgstr ""
+"Você não será o primeiro a tentar me matar... e provavelmente não o último!"
 
 #: balth.tra:1074
 msgid ""
@@ -466,11 +471,11 @@ msgstr ""
 
 #: balth.tra:1083
 msgid "Are you implying that you are somehow different, Balthazar?"
-msgstr ""
+msgstr "Você está implicando que você é de algum modo diferente, Balthazar?"
 
 #: balth.tra:1084
 msgid "I have only ever acted when it was necessary, in self-defense."
-msgstr ""
+msgstr "Eu só agi quando foi necessário, em auto-defesa."
 
 #: balth.tra:1085
 msgid ""
