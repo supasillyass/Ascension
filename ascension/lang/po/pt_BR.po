@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2021-02-11 14:13+0000\n"
+"PO-Revision-Date: 2021-02-12 14:13+0000\n"
 "Last-Translator: Felipe <felipefplzx@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://tra.bgforge.net/projects/"
 "infinity-engine/ascension/pt_BR/>\n"
@@ -482,16 +482,20 @@ msgid ""
 "You would make us out to be victims of circumstance rather than masters of "
 "our own destiny."
 msgstr ""
+"Você nos tornaria vítimas da circunstância ao invés de mestres do nosso "
+"próprio destino."
 
 #: balth.tra:1086
 msgid "I deny nothing. Death comes for all who stand in my way."
-msgstr ""
+msgstr "Eu não nego nada. A morte vem pra todos que ficam no meu caminho."
 
 #: balth.tra:1087
 msgid ""
 "I am death incarnate, fool! Not some weak fool wrapped in denial like "
 "yourself!"
 msgstr ""
+"Eu sou a morte encarnada, tolo! Não algum tolo fraco coberto de negação como "
+"você!"
 
 #: balth.tra:1088
 msgid ""
@@ -539,27 +543,34 @@ msgid ""
 "And what becomes of Melissan, then? Is she free to raise Bhaal and complete "
 "her plans?"
 msgstr ""
+"E o que se torna da Melissan então? Ela está livre pra ressucitar Bhaal e "
+"completar os planos dela?"
 
 #: balth.tra:1094
 msgid ""
 "You don't have to do this, Balthazar. We don't have to fight each other."
 msgstr ""
+"Você não tem que fazer isto Balthazar. Nós não temos que lutar um contra o "
+"outro."
 
 #: balth.tra:1095
 msgid ""
 "You don't honestly see yourself as the force of righteousness in all this, "
 "do you?"
 msgstr ""
+"Você honestamente não se vê como a força da retidão em tudo isto, se vê?"
 
 #: balth.tra:1096
 msgid "Enough talk, then. Let's get this over with."
-msgstr ""
+msgstr "Basta de conversa então. Vamos acabar com isto."
 
 #: balth.tra:1097
 msgid ""
 "Of course not. It is she that holds the key to Bhaal's resurrection. After "
 "you are dead, she too must be destroyed."
 msgstr ""
+"Claro que não. É ela que tem a chave pra ressurreição de Bhaal. Após você "
+"ser morta ela também deve ser destruída."
 
 #: balth.tra:1098
 msgid ""
@@ -991,7 +1002,7 @@ msgstr ""
 
 #: balth.tra:1166
 msgid "Then let's get this over with. I'm tired of talking."
-msgstr ""
+msgstr "Então vamos acabar com isso. Eu estou cansado de falar."
 
 #: balth.tra:1167
 msgid ""
@@ -1155,11 +1166,11 @@ msgstr ""
 
 #: balth_finsol.tra:585
 msgid "Now there is but one other sibling who must also make her choice."
-msgstr ""
+msgstr "Agora há uma outra irmã que deve fazer sua escolha também."
 
 #: balth_finsol.tra:1009
 msgid "You... you are so beautiful. I... had no idea..."
-msgstr ""
+msgstr "Você... você é tão bonita. Eu... não fazia idéia..."
 
 #: balth_finsol.tra:1010
 msgid "Choose? You mean... I may rid myself of the taint on my soul forever?"
@@ -4063,4 +4074,4 @@ msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
-msgstr ""
+msgstr "Clérigo de Yaga-Shura"
