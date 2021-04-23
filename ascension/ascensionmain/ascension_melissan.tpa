@@ -277,7 +277,7 @@ COPY_EXISTING "%WIZARD_GREATER_MALISON%.spl" "override/melspl07.spl"
     LPF ALTER_EFFECT INT_VAR match_duration=84 duration=90 END
     LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_GREATER_MALISON%" resource=melspl07 END // clone any 206/321 resource, one of which should already be present
     LPF CLONE_EFFECT STR_VAR match_resource="%WIZARD_GREATER_MALISON%" resource=balth07 END
-    LPF CLONE_EFFECT STR_VAR match_resource=magres resource=wonder END // extra graphical overlay on target
+    // LPF CLONE_EFFECT STR_VAR match_resource=magres resource=wonder END // extra graphical overlay on target
 // BUT_ONLY
 
 COPY_EXISTING "%WIZARD_GREATER_MALISON%.spl" override
