@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <script type="module" > document.getElementById("latestVersion").innerText = (document.getElementById('versionHistory').getElementsByTagName("p"))[(document.getElementById('versionHistory').getElementsByTagName("p")).length-1].innerText </script>
     <div id="container">
         <div class="ribbon_menu">
             <ul>
@@ -38,7 +39,7 @@
                 <a href="https://www.gibberlings3.net/profile/1067-davidw/">DavidW</a>
                 <!--</p>-->
                 <p>
-                    <strong>Version: 2.0.15</a></strong><br />
+                    <strong>Version: <span id="latestVersion"></a></strong><br />
                     <strong>Languages: </strong>Chinese, Czech, English, French, German, Italian, Polish, Russian,
                     Spanish<br />
                     <strong>Platforms: </strong>Windows, Linux, macOS
@@ -931,8 +932,8 @@
             </div>
             <div class="ribbon_triangle_h2-l"></div>
             <div class="ribbon_triangle_h2-r"></div>
-            <div class="section">
-                <p>2.0.0 2 June 2019</p>
+            <div class="section" id="versionHistory">
+                <p>2.0.0 - 2 June 2019</p>
                 <ul>
                     <li>Original release of v2</li>
                 </ul>
@@ -1028,6 +1029,11 @@
                 <p>2.0.15 - 28 September 2020</p>
 				<ul>
 					<li>VERSION keyword has proper number</li>
+				</ul>
+                <p>2.0.16 - 23 April 2020</p>
+				<ul>
+					<li>fixed patch 2.6 warrings by morpheus562</li>
+                    <li>updated Chinese translation</li>
 				</ul>
             </div>
             <div class="ribbon_rectangle_h3">
