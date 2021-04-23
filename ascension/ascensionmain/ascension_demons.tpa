@@ -121,12 +121,12 @@ COPY_EXISTING "%CLERIC_AURA_OF_FLAMING_DEATH%.spl" "override/finbalor.spl"
     WRITE_LONG NAME1 "-1"
     WRITE_BYTE 0x27 0       // zero sectype
     LPF DELETE_SPELL_HEADER INT_VAR min_level=2 END  // remove all but the first header
-    PATCH_FOR_EACH match_opcode IN 30 84 142 174 0 120 328 318 233 BEGIN // get rid of all Aura of FD effects except the cosmetics and cast-on-condition
+    PATCH_FOR_EACH match_opcode IN 30 84 142 174 0 120 328 233 BEGIN // get rid of all Aura of FD effects except the cosmetics and cast-on-condition
        LPF DELETE_EFFECT INT_VAR match_opcode END
     END
     LPF ALTER_EFFECT INT_VAR resist_dispel=0 END
     LPF ALTER_EFFECT INT_VAR match_timing=0 duration=0 timing=1 END         // make permanent and nonmagical
-    LPF ALTER_EFFECT INT_VAR match_opcode=232 STR_VAR resource=balaura END  // patch in new payload
+    LPF ADD_SPELL_EFFECT INT_VAR opcode=232 STR_VAR resource=balaura END  // patch in new payload
 // BUT_ONLY
 
 COPY_EXISTING "%CLERIC_AURA_OF_FLAMING_DEATH%d.spl" "override/balaura.spl"
