@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2020-05-17 18:31+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/ascension/pl/>\n"
+"PO-Revision-Date: 2021-05-19 14:13+0000\n"
+"Last-Translator: Małgorzata Caban <maugorzata.caban@gmail.com>\n"
+"Language-Team: Polish <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/pl/>\n"
 "Language: polish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
@@ -28,7 +30,7 @@ msgstr "Fala uderzeniowa"
 
 #: ascension.tra:1007 tougher.tra:10
 msgid "Lightning Aura"
-msgstr "Oświecająca aura"
+msgstr "Aura błyskawic"
 
 #: ascension.tra:1009
 msgid "Telekinesis"
@@ -36,7 +38,7 @@ msgstr "Telekineza"
 
 #: ascension.tra:1012
 msgid "Flip Resistances"
-msgstr "Odwrócone odporności"
+msgstr "Odwrócenie odporności"
 
 #: ascension.tra:1013
 msgid "Control Demon"
@@ -48,15 +50,15 @@ msgstr "Skupienie"
 
 #: ascension.tra:1016
 msgid "Divine Mantle"
-msgstr "Boski płaszcz"
+msgstr "Boska opończa"
 
 #: ascension.tra:1017
 msgid "Draw Power"
-msgstr "Wyciągnięcie mocy"
+msgstr "Czerpanie mocy"
 
 #: ascension.tra:1018
 msgid "Divine Spell Shield"
-msgstr "Duchowa tarcza czarów"
+msgstr "Boska tarcza przeciw czarom"
 
 #: ascension.tra:1019
 msgid "Command Demon"
@@ -68,11 +70,11 @@ msgstr "Wygnanie"
 
 #: ascension.tra:1022
 msgid "Unleash"
-msgstr "Wypuszczenie"
+msgstr "Upust"
 
 #: ascension.tra:1024
 msgid "Feedback"
-msgstr "Sprzężenie zwrotne"
+msgstr "Informacja zwrotna"
 
 #: ascension.tra:1025
 msgid "Divine Restoration"
@@ -104,11 +106,11 @@ msgstr "Melissana: Rozkazywanie sługom Otchłani"
 
 #: ascension.tra:1039
 msgid "Bhaalspawn Power gained: Immunity to Energy Drain"
-msgstr "Zyskano moc Bhaala: Odporność na Wysączenie Energii"
+msgstr "Uzyskano moc pomiotu Bhaala: Niewrażliwość na Wyssanie energii"
 
 #: ascension.tra:1040
 msgid "Bhaalspawn Power gained: 25% physical damage resistance"
-msgstr "Zyskano moc Bhaala: 25% odporności na obrażenia fizyczne"
+msgstr "Uzyskano moc pomiotu Bhaala: 25% odporności na obrażenia fizyczne"
 
 #: ascension.tra:1041
 msgid "Transfixed"
@@ -160,35 +162,35 @@ msgstr "Demon opiera się woli Melissany"
 
 #: ascension.tra:1054
 msgid "Bhaalspawn Power gained: Unleash"
-msgstr "Zyskano moc Bhaala: Uwolnienie"
+msgstr "Uzyskano moc pomiotu Bhaala: Upust"
 
 #: ascension.tra:1055
 msgid "Bhaalspawn Power gained: immunity to death magic"
-msgstr "Zyskano moc Bhaala: Odporność na magię śmierci"
+msgstr "Uzyskano moc pomiotu Bhaala: Niewrażliwość na magię śmierci"
 
 #: ascension.tra:1056
 msgid "Bhaalspawn Power gained: immunity to vorpal effects"
-msgstr "Zyskano moc Bhaala: Odporność na mordercze ostrza"
+msgstr "Uzyskano moc pomiotu Bhaala: Niewrażliwość na uderzenia worpalne"
 
 #: ascension.tra:1057
 msgid "Bhaalspawn Power gained: Dimension Door"
-msgstr "Zyskano moc Bhaala: Drzwi poprzez wymiary"
+msgstr "Uzyskano moc pomiotu Bhaala: Drzwi przez wymiary"
 
 #: ascension.tra:1058
 msgid "Bhaalspawn Power gained: Control Demons"
-msgstr "Zyskano moc Bhaala: Kontrola demonów"
+msgstr "Uzyskano moc pomiotu Bhaala: Kontrolowanie demonów"
 
 #: ascension.tra:1059
 msgid "Bhaalspawn Power gained: immunity to Maze and Imprisonment"
-msgstr "Zyskano moc Bhaala: Odporność na Labirynt i Uwięzienie"
+msgstr "Uzyskano moc pomiotu Bhaala: Niewrażliwość na Labirynt i Uwięzienie"
 
 #: ascension.tra:1060
 msgid "Bhaalspawn Power gained: Focus"
-msgstr "Zyskano moc Bhaala: Skupienie"
+msgstr "Uzyskano moc pomiotu Bhaala: Skupienie"
 
 #: ascension.tra:1061
 msgid "Bhaalspawn Power gained: immunity to Taint of the Slayer"
-msgstr "Zyskano moc Bhaala: Odporność na Skazę Zabójcy"
+msgstr "Uzyskano moc pomiotu Bhaala: Niewrażliwość na Skazę Zabójcy"
 
 #: ascension.tra:1062
 msgid "Divine Gift"
@@ -196,27 +198,27 @@ msgstr "Boski Dar"
 
 #: ascension.tra:1063
 msgid "Magic Resistance Restored"
-msgstr "Przywrócono Odporność Magiczną"
+msgstr "Przywrócono odporność na magię"
 
 #: ascension.tra:1064
 msgid "Antimagic Protections Removed"
-msgstr "Usunięto Odporności Antymagiczne"
+msgstr "Usunięto osłony antymagiczne"
 
 #: ascension.tra:1065
 msgid "Combat Protections Removed"
-msgstr "Usunięto Odporności Bojowe"
+msgstr "Usunięto bojowe zaklęcia ochronne"
 
 #: ascension.tra:1066
 msgid "AI deactivated"
-msgstr "AI wyłączone"
+msgstr "SI wyłączona"
 
 #: ascension.tra:1067
 msgid "AI activated"
-msgstr "AI włączone"
+msgstr "SI włączona"
 
 #: ascension.tra:1068
 msgid "Lunar Malison"
-msgstr "Księżycowe Przekleństwo"
+msgstr "Księżycowe osłabienie"
 
 #: ascension.tra:2000
 msgid ""
