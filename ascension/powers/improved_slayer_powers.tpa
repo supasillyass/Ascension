@@ -159,7 +159,12 @@ DEFINE_ACTION_FUNCTION slayer_weapon_enhancements BEGIN
 
 
     COPY_EXISTING slayerw3.itm "override/finslay2.itm"
-       LPF item_power_patch INT_VAR thac0="-4" resist_elemental=30 resist_physical=15 resist_magic=50 END // general patch
+	   PATCH_IF !enhanced_edition BEGIN 
+	     LPF item_power_patch INT_VAR thac0="0" resist_elemental=30 resist_physical=15 resist_magic=50 END // general patch
+	     LPF CLONE_EFFECT INT_VAR match_opcode = 54 opcode=278 parameter1 = 4 parameter2 = 0 END	
+	   END ELSE BEGIN
+	     LPF item_power_patch INT_VAR thac0="-4" resist_elemental=30 resist_physical=15 resist_magic=50 END // general patch
+       END
        LPF ALTER_EFFECT INT_VAR parameter1=150 parameter2=hp_param2 match_opcode=17 END // hit points
        LPF ALTER_EFFECT INT_VAR parameter1=150 parameter2=hp_param2 match_opcode=18 END // hit points
        LPF ALTER_EFFECT INT_VAR match_opcode=12 parameter1=4 END // cold damage
@@ -193,7 +198,12 @@ DEFINE_ACTION_FUNCTION slayer_weapon_enhancements BEGIN
 
 
    COPY_EXISTING slayerw3.itm "override/finslay3.itm"
-       LPF item_power_patch INT_VAR thac0="-8" resist_elemental=50 resist_physical=30 resist_magic=60 END // general patch
+	   PATCH_IF !enhanced_edition BEGIN 
+	     LPF item_power_patch INT_VAR thac0="0" resist_elemental=50 resist_physical=30 resist_magic=60 END // general patch
+	     LPF CLONE_EFFECT INT_VAR match_opcode = 54 opcode=278 parameter1 = 8 parameter2 = 0 END	
+	   END ELSE BEGIN
+	     LPF item_power_patch INT_VAR thac0="-8" resist_elemental=50 resist_physical=30 resist_magic=60 END // general patch
+       END 
        LPF ALTER_EFFECT INT_VAR parameter1=200 parameter2=hp_param2 match_opcode=17  END // hit points
        LPF ALTER_EFFECT INT_VAR parameter1=200 parameter2=hp_param2 match_opcode=18  END // hit points
        LPF ALTER_EFFECT INT_VAR match_opcode=12 parameter1=8 END // cold damage
@@ -244,7 +254,12 @@ DEFINE_ACTION_FUNCTION slayer_weapon_enhancements BEGIN
    // here we use finslay3 as a baseline
 
    COPY_EXISTING finslay3.itm "override/finslay4.itm"
-        LPF item_power_patch INT_VAR thac0="-12" resist_magic_damage=50 resist_magic=75 resist_physical=50 attacks=5 END
+	   PATCH_IF !enhanced_edition BEGIN 
+	     LPF item_power_patch INT_VAR thac0="0" resist_magic_damage=50 resist_magic=75 resist_physical=50 attacks=5 END // general patch
+	     LPF ALTER_EFFECT INT_VAR match_opcode = 278 parameter1 = 12 END	
+	   END ELSE BEGIN
+	     LPF item_power_patch INT_VAR thac0="-12" resist_magic_damage=50 resist_magic=75 resist_physical=50 attacks=5 END // general patch
+       END  
        LPF ALTER_EFFECT INT_VAR parameter1=250 parameter2=hp_param2 match_opcode=17  END // hit points
        LPF ALTER_EFFECT INT_VAR parameter1=250 parameter2=hp_param2 match_opcode=18  END // hit points
         LPF ALTER_ITEM_HEADER INT_VAR dicenumber=3 END // hit damage
