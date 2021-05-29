@@ -691,8 +691,8 @@ msgstr "我並未期望我的<PRO_BROTHERSISTER>會給我一個不同的回答�
 #| "depraved existence exists to fight against evil in this world, then you "
 #| "expect far too much."
 msgid ""
-"Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
-"depraved existence exists to fight against evil in this world, then you "
+"Do not make me laugh, <CHARNAME>. If you expect me to believe that the "
+"reason for your depraved existence is to fight evil in this world, you "
 "expect far too much."
 msgstr "別逗我了﹐<CHARNAME>﹐你認為我會相信你麼﹖你的存在是為了打擊世上的邪惡﹖你想的可真遠啊。"
 

@@ -598,9 +598,14 @@ msgstr ""
 "我从未期望我的<PRO_BROTHERSISTER>会带给我任何不同的答案。来自我们父亲的血脉将招致对死亡与杀戮的崇拜。我对此已深有所感，甚至对你们这些杀戮之王的奴隶深感同情。"
 
 #: balth.tra:1081
+#, fuzzy
+#| msgid ""
+#| "Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
+#| "depraved existence exists to fight against evil in this world, then you "
+#| "expect far too much."
 msgid ""
-"Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
-"depraved existence exists to fight against evil in this world, then you "
+"Do not make me laugh, <CHARNAME>. If you expect me to believe that the "
+"reason for your depraved existence is to fight evil in this world, you "
 "expect far too much."
 msgstr "你太可笑了，<CHARNAME>。你真想让我相信你这早已腐化的存在能够对抗这世间的所有邪恶么？你这是在白费力气。"
 

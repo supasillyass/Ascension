@@ -451,8 +451,8 @@ msgstr ""
 
 #: balth.tra:1081
 msgid ""
-"Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
-"depraved existence exists to fight against evil in this world, then you "
+"Do not make me laugh, <CHARNAME>. If you expect me to believe that the "
+"reason for your depraved existence is to fight evil in this world, you "
 "expect far too much."
 msgstr ""
 

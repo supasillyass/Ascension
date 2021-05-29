@@ -626,9 +626,14 @@ msgstr ""
 "pero a duras penas... Compadezco a los que son esclavos de ella."
 
 #: balth.tra:1081
+#, fuzzy
+#| msgid ""
+#| "Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
+#| "depraved existence exists to fight against evil in this world, then you "
+#| "expect far too much."
 msgid ""
-"Do not make me laugh, <CHARNAME>. If you expect me to believe that your "
-"depraved existence exists to fight against evil in this world, then you "
+"Do not make me laugh, <CHARNAME>. If you expect me to believe that the "
+"reason for your depraved existence is to fight evil in this world, you "
 "expect far too much."
 msgstr ""
 "No me hagáis reir, <CHARNAME>. Si esperáis que me crea que vuestra depravada"
