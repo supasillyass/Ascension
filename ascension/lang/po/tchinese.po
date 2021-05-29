@@ -793,9 +793,9 @@ msgstr "不錯﹐很多死亡與毀滅的確是因我而來到這片土地上﹐
 #| "to preventing it."
 msgid ""
 "I have mastered the power within me and held the evil in check, but I know "
-"as well... if not better... then most of my brethren the threat that it "
-"holds for all of Faerun. I will not allow this. I have dedicated my life to "
-"preventing it."
+"just as well... if not better... than most of my brethren the threat that it"
+" holds for all of Faerun. I will not allow this. I have dedicated my life to"
+" preventing it."
 msgstr "我控制了這種力量也抑制了裡面的邪惡﹐但是其他的兄弟姐妹正在用它威脅這個世界﹐我不會允許這種情況發生﹐我會用生命來阻止你們。"
 
 #: balth.tra:1092

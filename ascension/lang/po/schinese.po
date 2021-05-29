@@ -670,11 +670,17 @@ msgstr ""
 "不。虽然我确实为这片土地带来了杀戮与毁灭，但我仍在为了一个更大的目标而奋斗……我要彻底抹杀巴尔复活的任何可能，并把他所留下的痕迹从这块土地上彻底清除。"
 
 #: balth.tra:1091
+#, fuzzy
+#| msgid ""
+#| "I have mastered the power within me and held the evil in check, but I know "
+#| "as well... if not better... then most of my brethren the threat that it "
+#| "holds for all of Faerun. I will not allow this. I have dedicated my life to "
+#| "preventing it."
 msgid ""
 "I have mastered the power within me and held the evil in check, but I know "
-"as well... if not better... then most of my brethren the threat that it "
-"holds for all of Faerun. I will not allow this. I have dedicated my life to "
-"preventing it."
+"just as well... if not better... than most of my brethren the threat that it"
+" holds for all of Faerun. I will not allow this. I have dedicated my life to"
+" preventing it."
 msgstr "我控制了这种力量并抑制了其中的邪恶，但是其他的兄弟姐妹们仍在依靠它威胁着这个世界。我不会允许这种情况发生，我会用生命来阻止此事。"
 
 #: balth.tra:1092
