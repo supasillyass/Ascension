@@ -54,14 +54,14 @@
 
 <CHARNAME> uzyska³<PRO_HESHE> zdolnoœæ, której mo¿e u¿yæ raz dziennie: 
 
-Grupowe leczenie (Nekromancja)
+Grupowe uzdrowienie (Nekromancja)
 Zasiêg: pole widzenia rzucaj¹cego czar
 Czas dzia³ania: sta³y
 Czas rzucania: 1
 Obszar dzia³ania: w promieniu 10 metrów
 Rzut obronny: brak
 
-U¿ywaj¹c tej zdolnoœci, pomiot Bhaala musi wyobraziæ sobie dok³adnie oblicza swych towarzyszy i skupiæ siê na jednoœci ca³ej dru¿yny. Kiedy ca³y rytua³ dobiegnie koñca, wszyscy cz³onkowie dru¿yny, znajduj¹cy siê w promieniu 10 metrów odzyskuj¹ 2k8 + 2 punkty ¿ycia/poziom. Uleczone zostaj¹ tak¿e inne negatywne efekty: zmêczenie, otrucie, choroba, œlepota i g³uchota.~
+U¿ywaj¹c tej zdolnoœci, pomiot Bhaala musi wyobraziæ sobie dok³adnie oblicza swych towarzyszy i skupiæ siê na jednoœci ca³ej dru¿yny. Kiedy ca³y rytua³ dobiegnie koñca, wszyscy cz³onkowie dru¿yny, znajduj¹cy siê w promieniu 10 metrów odzyskuj¹ 2k8 + 2 punkty ¿ycia/poziom. Wyleczeni zostaj¹ tak¿e z innych negatywnych efektów: zmêczenia, zatrucia, choroby, œlepoty i g³uchoty.~
 @2001 = ~Moce pomiotu Bhaala
 
 <CHARNAME> uzyska³<PRO_HESHE> zdolnoœæ, której mo¿e u¿yæ raz dziennie:
@@ -90,7 +90,7 @@ Rzut obronny: brak
 Pomiot Bhaala przywo³ujê potêgê zaklêt¹ w swojej krwi, dziêki czemu otrzymuje na krótki czas cz¹stkê niebiañskiej mocy. Po rzuceniu tego czaru jego Si³a, Kondycja i Zrêcznoœæ wzrastaj¹ o 1 na ka¿de trzy poziomy. Tak wiêc cechy rzucaj¹cego z 3. poziomu zwiêksz¹ siê o 1, a postaci z 12. poziomu – o 4.~
 @2003 = ~Moce pomiotu Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> zdolnoœæ, której mo¿e u¿ywaæ raz dziennie: 
+<CHARNAME> uzyska³<PRO_HESHE> zdolnoœæ, której mo¿e u¿yæ raz dziennie: 
 
 Mroczna skaza (Nekromancja)
 Zasiêg: 6 metrów
@@ -125,9 +125,9 @@ Po przywo³aniu przez pomiot Bhaala tej mocy ka¿dy cios zadany przezeñ dowoln¹ br
 20. poziom: 4 rundy, 8 dodatkowych obra¿eñ, leczy 8 punktów ¿ycia
 25. poziom: 5 rund, 10 dodatkowych obra¿eñ, leczy 10 punktów ¿ycia
 30. poziom: 6 rund, 12 dodatkowych obra¿eñ, leczy 12 punktów ¿ycia~
-@2006 = ~Moce Bhaala
+@2006 = ~Moce pomiotu Bhaala
 
-<CHARNAME> uzyska³<PRO_HESHE> tê zdolnoœæ, mog¹c jej u¿ywaæ raz dziennie: 
+<CHARNAME> uzyska³<PRO_HESHE> zdolnoœæ, której mo¿e u¿yæ raz dziennie: 
 
 Zmartwychwstanie (Nekromancja)
 Zasiêg: dotyk
@@ -142,24 +142,52 @@ Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ 
 <CHARNAME> uzyska³<PRO_HESHE> 25% odpornoœci na obra¿enia fizyczne (tj. sieczne, k³ute, obuchowe oraz od pocisków).~
 @2008 = ~Umiejêtnoœæ przemiany w Zabójcê zosta³a udoskonalona~
 @3000 = ~Miecz chaosu Sarevoka +4~
-@3001 = ~Miecz Chaosu Sarevoka
-Sarevok i <CHARNAME> byli onegdaj rodzeñstwem. Tej w³aœnie klingi dobywa³ Sarevok, gdy starli siê ze sob¹ w odleg³ych Wrotach Baldura. Wówczas <CHARNAME> zwyciê¿y³<PRO_HESHE>, grzebi¹c plany Sarevoka i ratuj¹c Wybrze¿e Mieczy przed zbli¿aj¹c¹ siê nieuchronnie wojn¹. Teraz gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazwa³ swój miecz Zwiastunem Œmierci, uwalniaj¹c przy tym niektóre z jego dawnych zdolnoœci. Niestety, ze wzglêdu na brak esencji Bhaala, ³¹cz¹cej niegdyœ w³aœciciela z jego ostrzem, broñ nie uzyska³a mocy, jak¹ posiada³a dawniej. Mimo to miecz nadal stanowi niebezpieczn¹ broñ... choæ Sarevok ostrzeg³, ¿e nie³atwo ni¹ bêdzie w³adaæ komuœ, kto nie by³ wczeœniej Zwiastunem Œmierci.
+@3001 = ~Miecz chaosu Sarevoka
+Tego oto miecza dobywa³ Sarevok, kiedy star³ siê ze swoim bratem w odleg³ych Wrotach Baldura. Jednak¿e to w³aœnie jego brat, <CHARNAME>, zwyciê¿y³, obracaj¹c wniwecz plany Sarevoka i ratuj¹c Wybrze¿e Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazywa je ostrzem Zwiastuna Œmierci, uda³o mu siê równie¿ przywróciæ mu czêœæ jego dawnej mocy. Mimo to, odk¹d nie przenika go esencja Bhaala, miecz nie mo¿e odzyskaæ pe³ni swej niegdysiejszej potêgi. Wci¹¿ pozostaje on jednak niebywale groŸn¹ broni¹… któr¹, wed³ug Sarevoka, nie zdo³a w³adaæ nikt inny ni¿ Zwiastun Œmierci.
+
 
 PARAMETRY:
 
-Obra¿enia: 1K10 +4
+Obra¿enia: 1k10 +4
 TraK0: +4
 Specjalne:
- Ka¿de trafienie wysysa od jednego do piêciu punktów ¿ycia od celu, przekazuj¹c je dzier¿¹cemu broñ. Nie spowoduje to 
- jednak wzrostu iloœci punktów ¿ycia powy¿ej maksymalnej wartoœci.
+ Ka¿de trafienie wysysa z ofiary od jednego do piêciu punktów ¿ycia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
+ ¿ycia nie przekrocz¹ jednak maksymalnej liczby punktów dzier¿¹cego miecz.
  10% odpornoœci na magiê kiedy jest w u¿yciu
 Typ obra¿eñ: sieczne
 Waga: 10
 OpóŸnienie: 8
 Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
-Wymagana si³a: 14
-Wymagana kondycja: 18
+Wymagania:
+– Si³a: 14
+– Kondycja: 18
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Paladyn
+ £owca
+ Druid
+ Postaæ o charakterze innym ni¿ chaotyczny~ ~Miecz chaosu Sarevoka
+Tego oto miecza dobywa³ Sarevok, kiedy star³ siê ze swoj¹ siostr¹ w odleg³ych Wrotach Baldura. Jednak¿e to w³aœnie jego siostra, <CHARNAME>, zwyciê¿y³a, obracaj¹c wniwecz plany Sarevoka i ratuj¹c Wybrze¿e Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazywa je ostrzem Zwiastuna Œmierci, uda³o mu siê równie¿ przywróciæ mu czêœæ jego dawnej mocy. Mimo to, odk¹d nie przenika go esencja Bhaala, miecz nie mo¿e odzyskaæ pe³ni swej niegdysiejszej potêgi. Wci¹¿ pozostaje on jednak niebywale groŸn¹ broni¹… któr¹, wed³ug Sarevoka, nie zdo³a w³adaæ nikt inny ni¿ Zwiastun Œmierci.
+
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +4
+TraK0: +4
+Specjalne:
+ Ka¿de trafienie wysysa z ofiary od jednego do piêciu punktów ¿ycia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
+ ¿ycia nie przekrocz¹ jednak maksymalnej liczby punktów dzier¿¹cego miecz.
+ 10% odpornoœci na magiê kiedy jest w u¿yciu
+Typ obra¿eñ: sieczne
+Waga: 10
+OpóŸnienie: 8
+Rodzaj bieg³oœci: miecz oburêczny
+Typ broni: 2-rêczna
+Wymagana: 
+– Si³a: 14
+– Kondycja: 18
 Nie mo¿e u¿ywaæ:
  Kap³an
  Mag
