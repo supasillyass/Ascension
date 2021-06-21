@@ -1,13 +1,36 @@
-@3001 = ~Sarevok i <CHARNAME> byli onegdaj rodzeństwem. Tej właśnie klingi dobywał Sarevok, gdy starli się ze sobą w odległych Wrotach Baldura. Wówczas <CHARNAME> zwyciężył<PRO_HESHE>, grzebiąc plany Sarevoka i ratując Wybrzeże Mieczy przed zbliżającą się nieuchronnie wojną. Teraz gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazwał swój miecz Zwiastunem śmierci, uwalniając przy tym niektóre z jego dawnych zdolności. Niestety, ze względu na brak esencji Bhaala, łączącej niegdyś właściciela z jego ostrzem, broń nie uzyskała mocy, jaką posiadała dawniej. Mimo to miecz nadal stanowi niebezpieczną broń... choć Sarevok ostrzegł, że niełatwo nią będzie władać komuś, kto nie był wcześniej zwiastunem śmierci.
+@3001 = ~Tego oto miecza dobywał Sarevok, kiedy starł się ze swoim bratem w odległych Wrotach Baldura. Jednakże to właśnie jego brat, <CHARNAME>, zwyciężył, obracając wniwecz plany Sarevoka i ratując Wybrzeże Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazywa je ostrzem Zwiastuna Śmierci, udało mu się również przywrócić mu część jego dawnej mocy. Mimo to, odkąd nie przenika go esencja Bhaala, miecz nie może odzyskać pełni swej niegdysiejszej potęgi. Wciąż pozostaje on jednak niebywale groźną bronią… którą, według Sarevoka, nie zdoła władać nikt inny niż Zwiastun Śmierci.
+
 
 PARAMETRY:
 
 Specjalne:
-– Każde trafienie wysysa od jednego do pięciu punktów życia od celu, przekazując je dzierżącemu broń. Nie spowoduje to jednak wzrostu ilości punktów życia powyżej maksymalnej wartości.
+–  Każde trafienie wysysa z ofiary od jednego do pięciu punktów życia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
+ życia nie przekroczą jednak maksymalnej liczby punktów dzierżącego miecz.
 – Odporność na magię: 10%
 
-Obrażenia: 1k10 +4
 TraK0: +4
+Obrażenia: 1k10 +4
+Typ obrażeń: sieczne
+Opóźnienie: 8
+Rodzaj biegłości: miecz oburęczny
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 14
+– Kondycja: 18
+
+Waga: 10~ ~Tego oto miecza dobywał Sarevok, kiedy starł się ze swoją siostrą w odległych Wrotach Baldura. Jednakże to właśnie jego siostra, <CHARNAME>, zwyciężyła, obracając wniwecz plany Sarevoka i ratując Wybrzeże Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazywa je ostrzem Zwiastuna Śmierci, udało mu się również przywrócić mu część jego dawnej mocy. Mimo to, odkąd nie przenika go esencja Bhaala, miecz nie może odzyskać pełni swej niegdysiejszej potęgi. Wciąż pozostaje on jednak niebywale groźną bronią… którą, według Sarevoka, nie zdoła władać nikt inny niż Zwiastun Śmierci.
+
+
+PARAMETRY:
+
+Specjalne:
+–  Każde trafienie wysysa z ofiary od jednego do pięciu punktów życia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
+ życia nie przekroczą jednak maksymalnej liczby punktów dzierżącego miecz.
+– Odporność na magię: 10%
+
+TraK0: +4
+Obrażenia: 1k10 +4
 Typ obrażeń: sieczne
 Opóźnienie: 8
 Rodzaj biegłości: miecz oburęczny

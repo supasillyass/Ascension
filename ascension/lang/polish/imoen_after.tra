@@ -1,27 +1,27 @@
-@477 = ~To... to minê³o... znów jestem cz³owiekiem. Ohhhh, teraz ju¿ wiem przez co musia³eœ przejœæ, <CHARNAME>! Nie wiem czy chcia³abym przejœæ przez to ponownie!~
-@478 = ~Nie mogê uwierzyæ w to co powiedzia³eœ! 'Dalej, zabij j¹'? Po tym wszystkim co razem przeszliœmy, to wszystko co przysz³o ci do g³owy?!~
-@479 = ~Próbowa³em przekonaæ Melissanê by zostawi³a ciê w spokoju, Imoen!~
-@480 = ~WeŸ siê w garœæ, ma³a dziewczynko. Nigdy ciê nie prosi³em o pomoc, czy¿ nie?~
-@481 = ~Nie mamy czasu ¿eby teraz o tym rozmawiaæ, Imoen! Znajdujemy siê w œrodku walki!~
-@482 = ~Có¿... tak przypuszczam. Przekona³eœ bardziej mnie ni¿ j¹. Ja... cieszê siê, ¿e nie zrobi³am wiêcej szkód jako zabójca. Nie mam pojêcia jak mo¿esz to kontrolowaæ. Dziêkujê ci... ¿e mnie nie zabi³eœ.~
-@483 = ~Nie... nie mogê tu zostaæ. To nie dla mnie ta zabawa. ¯yczê ci powodzenia, <CHARNAME>, i mam nadziejê, ¿e ciê jeszcze zobaczê. Mo¿e znów w Candlekeep, co ty na to? W ka¿dym razie... powodzenia...~
-@484 = ~Czy chcesz, ¿ebym znów do ciebie do³¹czy³a? Mog³abym... opuœciæ Tron, tak myœlê... myœlê, ¿e mam teraz tak¹ sam¹ moc jak ty. Ale bêdê walczyæ u twego boku jeœli chcesz.~
+@477 = ~To... to minê³o... Znów jestem cz³owiekiem. Oooch, teraz ju¿ wiem, przez co musia³eœ przejœæ, <CHARNAME>! Nie wiem, czy kiedykolwiek chcia³abym doœwiadczyæ tego ponownie!~ ~To... to minê³o... Znów jestem cz³owiekiem. Oooch, teraz ju¿ wiem, przez co musia³aœ przejœæ, <CHARNAME>! Nie wiem, czy kiedykolwiek chcia³abym doœwiadczyæ tego ponownie!~
+@478 = ~Ale nie mogê uwierzyæ w to, co powiedzia³eœ! „Dalej, zabij j¹?” Po tym wszystkim, co razem przeszliœmy, tylko tyle masz do powiedzenia, by mnie broniæ?!~ ~Ale nie mogê uwierzyæ w to, co powiedzia³aœ! „Dalej, zabij j¹?” Po tym wszystkim, co razem przeszliœmy, tylko tyle masz do powiedzenia, by mnie broniæ?!~
+@479 = ~Próbowa³em przekonaæ Melissanê, by zostawi³a ciê w spokoju, Imoen!~ ~Próbowa³am przekonaæ Melissanê, by zostawi³a ciê w spokoju, Imoen!~
+@480 = ~Za kogo ty siê masz, smarkulo? Nie zaprasza³em ciê tutaj, nieprawda¿?~ ~Za kogo ty siê masz, smarkulo? Nie zaprasza³am ciê tutaj, nieprawda¿?~
+@481 = ~Nie mamy czasu na takie pogawêdki, Imoen! Znajdujemy siê w œrodku walki!~
+@482 = ~Có¿... mo¿e i tak. Ewidentnie przekona³eœ mnie bardziej ni¿ j¹. Ja... cieszê siê, ¿e jako Zabójca nie wyrz¹dzi³am wiêcej szkód. Nie mam pojêcia, jak sobie z tym poradzi³eœ. Dziêkujê... ¿e mnie nie zabi³eœ.~ ~Có¿... mo¿e i tak. Ewidentnie przekona³aœ mnie bardziej ni¿ j¹. Ja... cieszê siê, ¿e jako Zabójca nie wyrz¹dzi³am wiêcej szkód. Nie mam pojêcia, jak sobie z tym poradzi³aœ. Dziêkujê... ¿e mnie nie zabi³aœ.~
+@483 = ~Nie... nie mogê tu zostaæ. To za wysokie progi jak na moje nogi. ¯yczê ci szczêœcia, <CHARNAME>, i mam nadziejê, ¿e ciê jeszcze zobaczê. Mo¿e znów w Candlekeep, co? W ka¿dym razie... powodzenia...~
+@484 = ~Czy chcesz, ¿ebym znów do ciebie do³¹czy³a? Jestem w stanie... opuœciæ Tron, tak myœlê... Myœlê, ¿e mam teraz tak¹ moc, podobnie jak i ty. Ale bêdê walczyæ u twego boku, jeœli zechcesz.~
 @485 = ~Imoen prze¿y³a
 
-Imoen uda³o siê prze¿yæ próbê Melissany polegaj¹cej na wejœcie zamianie w Zabócjê. Zdaje siê, ¿e czyni¹c to nieumyœlnie znacznie przyspieszy³a rozwój mocy Imoen. Dziêki temu mo¿e nie tylko zmieniaæ siê tak jak ja w Zabójcê... ale równie¿ uzyska³a zdolnoœæ stania siê eteryczn¹ na pewien okres czasu.
+Imoen uda³o siê przetrwaæ próbê Melissany, która chcia³a przemieniæ j¹ w Zabójcê ogarniêtego berserkerskim sza³em. Zdaje siê, ¿e dziêki temu moc skazy Imoen przybra³a na sile. Teraz mo¿e ona  zmieniaæ siê w Zabójcê, tak jak i ja mogê to robiæ od wydarzeñ w Czarowiêzach... Oprócz tego uzyska³a te¿ zdolnoœæ stania siê eteryczn¹ na pewien czas.
 
-Eterycznoœæ
+Eteryczna
 ---------------
-Imoen mo¿e teraz wejœæ w Eteryczn¹ Sferê na pewien okres czasu. Mo¿e u¿ywaæ tej zdolnoœci co minutê, a jej u¿ycie zapobiega równie¿ przemianie Imoen w formê Zabójcy. Imoen mo¿e pozostaæ w pe³ni eteryczna i niedotykalna przez pe³n¹ rundê... w tym czasie jest tak¿e niewidzialna i ca³kowicie odporna na ataki. Podczas tej rundy nie mo¿e tak¿e rzucaæ czarów i u¿ywaæ innych zdolnoœci.
-Przez kolejne dwie rundy, Imoen mo¿e pozostaæ 'pó³-eteryczna'... czêœciowo znajduj¹c siê w jednej i drugiej sferze. Wci¹¿ jest niewidzialna, ale mo¿e odnieœæ po³owê obra¿eñ. W tym stanie istnieje te¿ ma³e prawdopodobieñstwo na nieudane rzucenie czaru (10% szansa). Przez wszystkie trzy rundy jest w stanie wykryæ ka¿d¹ niewidzialn¹ istotê.~
+Imoen mo¿e teraz wchodziæ w Sferê Eteryczn¹ na krótkie chwile. Z tej zdolnoœci mo¿na korzystaæ raz na minutê, a jej u¿ycie uniemo¿liwia Imoen przemianê w Zabójcê, równie¿ na minutê. Imoen mo¿e pozostaæ ca³kowicie eteryczna i nietykalna dla si³ z tej sfery przez pe³n¹ rundê. W tym czasie jest tak¿e niewidzialna i ca³kowicie niewra¿liwa na ataki. Podczas tej rundy nie mo¿e ona równie¿ rzucaæ czarów i u¿ywaæ innych zdolnoœci.
+Przez kolejne dwie rundy Imoen pozostaje „pó³-eteryczna”, czêœciowo znajduj¹c siê w jednej i drugiej sferze. Wci¹¿ jest ona niewidzialna, ale mo¿e odnieœæ po³owê obra¿eñ ze wszystkich Ÿróde³. W tym stanie istnieje te¿ niewielka szansa (10%) na nieudane rzucenie czaru. Przez wszystkie trzy rundy Imoen jest w stanie wykryæ ka¿d¹ niewidzialn¹ istotê.~
 @486 = ~Pewnie. Do³¹cz do mnie.~
-@487 = ~Nie... uciekaj st¹d póki mo¿esz, Imoen.~
-@488 = ~¯yczê ci powodzenia, <CHARNAME>, i mam nadziejê, ¿e ciê jeszcze zobaczê. Mo¿e znów w Candlekeep, co ty na to? W ka¿dym razie... powodzenia...~
-@489 = ~Tak, pewnie. Rób co musisz, <CHARNAME>. Ja... ja uciekam st¹d najdalej jak to mo¿liwe. Do widzenia!~
-@490 = ~Nie, z pewnoœci¹ nie. Dziêki za nic. Rób co musisz, <CHARNAME>. Ja... ja uciekam st¹d najdalej jak to mo¿liwe. Do widzenia!~
-@491 = ~Ja... cieszê siê, ¿e nie wyrz¹dzi³am nikomu krzywdy, kiedy by³am... kiedy ja... och, po prostu nie mam pojêcia jak sobie z tym poradzi³eœ w Czarowiêzach. Dziêkujê ci... za to, ¿e mnie nie zabi³eœ, dobrze?~
-@492 = ~Och, a wiêc tak! Czy potrzebujesz mnie w swej dru¿ynie? Mogê... opuœciæ Tron, tak mi siê wydaje... mam jednak teraz tak¹ sam¹ moc jak ty. Bêdê walczyæ u twego boku jeœli chcesz.~
-@493 = ~Widzê, ¿e walka nadal trwa. Czy potrzebujesz mnie w swej dru¿ynie? Mogê... opuœciæ Tron, tak mi siê wydaje... mam jednak teraz tak¹ sam¹ moc jak ty. Bêdê walczyæ u twego boku jeœli chcesz.~
-@494 = ~Przestañ zawracaæ mi g³owê w po³owie walki! Wracaj do dru¿yny!~
-@495 = ~Tak <PRO_SIRMAAM>! (chichocz¹c) Czas skopaæ kilka ty³ków, czy¿ nie?~
-@1000 = ~Uzyskano moce Bhaala~
+@487 = ~Nie... Uciekaj st¹d, póki mo¿esz, Imoen.~
+@488 = ~¯yczê ci szczêœcia, <CHARNAME>, i mam nadziejê, ¿e ciê jeszcze zobaczê. Mo¿e znów w Candlekeep, co? W ka¿dym razie... powodzenia...~
+@489 = ~Tak, pewnie. Rób, co musisz, <CHARNAME>. Ja... Ja uciekam st¹d najdalej, jak to mo¿liwe. ¯egnaj!~
+@490 = ~Nie, zdecydowanie nie. Dziêki za nic. Rób, co musisz, <CHARNAME>. Ja... Ja uciekam st¹d najdalej, jak to mo¿liwe. ¯egnaj!~
+@491 = ~Ja... Cieszê siê tylko, ¿e nie zrobi³am nic gorszego, kiedy by³am... kiedy ja... Och, po prostu nie mam pojêcia, jak ty sobie z tym poradzi³eœ w Czarowiêzach. Dziêkujê ci... ¿e mnie nie zabi³eœ, hmm?~ ~Ja... Cieszê siê tylko, ¿e nie zrobi³am nic gorszego, kiedy by³am... kiedy ja... Och, po prostu nie mam pojêcia, jak ty sobie z tym poradzi³aœ w Czarowiêzach. Dziêkujê ci... ¿e mnie nie zabi³aœ, hmm?~
+@492 = ~Och, a wiêc tak to jest! Czy potrzebujesz mnie w swej dru¿ynie? Mogê... opuœciæ Tron, tak mi siê wydaje... Chyba mam teraz tak¹ moc, tak jak i ty. Ale bêdê walczyæ u twego boku, jeœli zechcesz.~
+@493 = ~Widzê, ¿e walka nadal trwa. Czy potrzebujesz mnie w swej dru¿ynie? Mogê... opuœciæ Tron, tak mi siê wydaje... Chyba mam teraz tak¹ moc, tak jak i ty. Ale te¿, tak samo jak ty, chcia³abym to dokoñczyæ.~
+@494 = ~Nie rozpraszaj mnie w trakcie walki! Wracaj do dru¿yny!~
+@495 = ~Tak jest! *chichocze* Pora skopaæ czyjœ ty³ek, co nie?~
+@1000 = ~Uzyskano moce pomiotu Bhaala~
