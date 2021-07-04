@@ -1694,7 +1694,7 @@ msgid ""
 "Area of Effect: Balthazar\n"
 "Saving Throw: Special\n"
 "\n"
-"Through combining his Ki with his Bhaalspawn essence, all of Balthazar's attacks for one round are automatic critical hits. For the first three second after he activates the power, anyone hit drops dead (save vs. spells to negate).\n"
+"Through combining his ki with his Bhaalspawn essence, all of Balthazar's attacks for one round are automatic critical hits. For the first three second after he activates the power, anyone hit drops dead (save vs. spells to negate).\n"
 "\n"
 "This power can be used once per three rounds."
 msgstr ""
@@ -2011,7 +2011,7 @@ msgstr ""
 #: epilogues.tra:4008
 msgid ""
 "And what of Imoen, the eternal child? She had been through much during her travels with <CHARNAME>, things that she would refuse to discuss later in life, but her spirit had never been broken. She parted ways from her companions to seek her own destiny, out from under the shadow of her <PRO_BROTHERSISTER>. She returned to Candlekeep for a short time, her formidable skill in magic granting her a greater appreciation for its tomes. Here she could remember simpler times with <CHARNAME> and Gorion, and feel glad that she had followed in her foster-father's footsteps. Though asked to remain, Imoen eventually decided that Candlekeep was much smaller than she remembered and left to pursue adventures abroad.\n"
-"Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunson and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across Faerun for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
+"Many are the tales of the archmage that Imoen became. She wore many other names throughout her life, some mysterious and foreboding while others odd and quirky considering the power this great woman possessed. Anyone who had known Imoen in her youth would immediately recognize her despite any name, however... no amount of age or wisdom could disguise the mischievious twinkle in her eyes or the ready grin to greet a friend. She became the confidante of Khelben \"Blackstaff\" Arunsun and was oft-associated with a tale involving the great Elminster, supposedly picking the sage's pocket one day and then leading him on a merry magical chase across Faerun for four months. The exact truth of the tale is unknown... though it's certainly not unlike Imoen to encourage an old codger to not be such a stick-in-the-mud, and her later friendship with Elminster is well-documented. Later tales say Imoen founded a thieves guild that operated all the way to Neverwinter, sparred with the Shadow Thieves and the Zhentarim and even duelled a dragon because (so the story goes) \"he was rude\". At times, Imoen was known to think back on her old friend, <CHARNAME>, and smile sadly... and then immediately be possessed with a wickedly funny thought that would propel her onto her next scheme. It seems that some people, thankfully, will never change."
 msgstr ""
 
 #: epilogues.tra:4009
@@ -2035,7 +2035,7 @@ msgid ""
 "voice of wisdom and sense in the organization. She became renown as a great "
 "heroine and mediator, although no-one was surprised when she would leave for"
 " great spans of time to travel with <CHARNAME> to some distant corner of the"
-" Realms. The pair were sighted in Neverwinter, Rashemon, the great southern "
+" Realms. The pair were sighted in Neverwinter, Rashemen, the great southern "
 "steppes and even the jungles of Chult. Eventually Jaheira left the Harpers "
 "over a dispute, relieved to be done with them and dedicating herself to the "
 "raising of <CHARNAME>'s new son. <CHARNAME> visited often, reveling in the "
@@ -2159,8 +2159,8 @@ msgstr ""
 
 #: epilogues.tra:4021
 msgid ""
-"Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands any longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.\n"
-"What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessalar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessalar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessalar forever. Viconia was never reported seen again..."
+"Upon parting paths with <CHARNAME>, Viconia wandered for a great deal of time. She still met with ignorance and hatred from those who knew of her kind, but Viconia was determined now more than ever to establish herself as seperate from the legacy of the dark elves. She had been to the deepest planes of hell and fought side-by-side with <CHARNAME> as <PRO_HESHE> became a God... and she would hide her face from the surface lands no longer. Even when Shar, her goddess of darkness and loss, abandoned her completely Viconia was unrepetant. Tales of her grew as she made her presence felt in one land after another... often as a savior, only to be thanklessly driven out by suspicion and fear. Still Viconia traveled on, refusing the company of fellow travelers and adventurers and never finding anywhere that she could truly name a home. Her destiny was her own, and she would seek it on her own terms.\n"
+"What eventually become of Viconia is unknown. Her greatest legend is also the most unlikely, although its persistence gives it some credit. It is said that Viconia saved the elves of Suldanessallar from a Zhentarim plot, fighting valiantly against the organization's agents... and in the end placing herself in harm's way to save Queen Ellesime from a deadly arrow. Upon being revived, Viconia was surprised to discover that this last act had prompted the Suldanessallar elves to finally accept and forgive their drow sister. Queen Ellesime granted the highest honors of the Seldarine to Viconia, the first drow ever honored so, and even invited Viconia to find a home in the Tree of Life once again. Viconia was obviously moved by the gesture... and while she considered the Queen's offer, it is said she eventually merely bowed deeply to Ellesime and silently left Suldanessallar forever. Viconia was never reported seen again..."
 msgstr ""
 
 #: epilogues.tra:4022
@@ -2268,7 +2268,7 @@ msgstr ""
 #: imoen_after.tra:482
 msgid ""
 "Well... I suppose. You convinced me more than her, obviously. I... I'm just "
-"glad I didn't do more damage as the slayer. I don't know how you handled it."
+"glad I didn't do more damage as the Slayer. I don't know how you handled it."
 " Thank you for... for not killing me."
 msgstr ""
 
@@ -2879,7 +2879,7 @@ msgstr ""
 #: mel_iren_imoen.tra:437
 msgid ""
 "You told her how to influence me, didn't you? And you told her I was in "
-"Suldanessalar."
+"Suldanessallar."
 msgstr ""
 
 #: mel_iren_imoen.tra:438
@@ -3646,7 +3646,7 @@ msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5001
 msgid ""
-"With no one to temper his wrath, it was inevitable that Dorn il-Khan would "
+"With no one to temper his wrath, it was inevitable that Dorn Il-Khan would "
 "come to a bad end. Though he had escaped the fury of the gods, there were "
 "others whose retribution could not be avoided. Hunted down and captured by "
 "the \"Freelance Jurist\" Mercy Whitedove, Dorn was taken back to Luskan to "
@@ -3654,16 +3654,16 @@ msgid ""
 "and child in the village of Barrow, where his dark path began. Sentenced to "
 "death, Dorn broke free of the prison on three occasions before the sentence "
 "could be carried out. Twice, he was tracked down by Whitedove and returned. "
-"When they met for the third and last time, Dorn’s patron commanded him to "
+"When they met for the third and last time, Dornï¿½s patron commanded him to "
 "stand his ground, forcing Whitedove to slay the so-called \"Butcher of "
-"Barrow\". Tales of Dorn il-Khan were told for decades afterwards, both by "
+"Barrow\". Tales of Dorn Il-Khan were told for decades afterwards, both by "
 "parents with unruly children in need of discipline and by those vile men and"
 " women who admired the half-orc's deeds."
 msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5002
 msgid ""
-"With no one to temper his wrath, it was inevitable Dorn il-Khan would come "
+"With no one to temper his wrath, it was inevitable Dorn Il-Khan would come "
 "to a bad end. Though he had escaped the fury of the gods, there were others "
 "whose retribution could not be avoided. Hunted down and captured by a "
 "\"Freelance Jurist\", Mercy Whitedove, the former blackguard was taken back "
@@ -3681,7 +3681,7 @@ msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5003
 msgid ""
-"To this day, tales of Dorn il-Khan and <CHARNAME> are told both by parents "
+"To this day, tales of Dorn Il-Khan and <CHARNAME> are told both by parents "
 "whose unruly children need discipline and those vile men and women who "
 "admired the deeds of the malevolent pair. Their relationship was "
 "tempestuous, each vying to control the other at every turn. Though they had "
@@ -3698,7 +3698,7 @@ msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5004
 msgid ""
-"For six days after <CHARNAME>'s ascension, Dorn il-Khan raged across "
+"For six days after <CHARNAME>'s ascension, Dorn Il-Khan raged across "
 "southern Tethyr, convinced his lover had betrayed him. But on the seventh "
 "dawn, as he awoke surrounded by the carnage of the previous night, the half-"
 "orc felt a power burning inside him that he had never known before. The new "
@@ -3722,7 +3722,7 @@ msgid ""
 "sought a new purpose, and they saw in her a leader who would value them as "
 "more than just tools. Combining her undead powers with her knowledge of "
 "long-forgotten Chultan traditions, Hexxat came to be revered as queen of the"
-" city’s underworld."
+" cityï¿½s underworld."
 msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5006
@@ -3832,25 +3832,25 @@ msgstr ""
 msgid ""
 "Slayer Ability Changed\n"
 "\n"
-"It appears my ability to control the transformation to the slayer has increased. The slayer form itself is stronger, deadlier... and I am able to maintain it for longer. The chances of going berserk while in the form have also decreased."
+"It appears my ability to control the transformation to the Slayer has increased. The slayer form itself is stronger, deadlier... and I am able to maintain it for longer. The chances of going berserk while in the form have also decreased."
 msgstr ""
 
 #: slayer_dialog.tra:315
 msgid ""
 "Slayer Ability Changed Again\n"
 "\n"
-"My control over the slayer transformation continues to increase. The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects. Even the slayer's claws now sometimes rip through magical effects and defenses."
+"My control over the Slayer transformation continues to increase. The slayer has become incredibly immune to harm and most magics, and it appears it is now immune to most diseases, poisons as well as any slow or hasting effects. Even the Slayer's claws now sometimes rip through magical effects and defenses."
 msgstr ""
 
 #: slayer_dialog.tra:316
 msgid ""
 "The Ravager Form\n"
 "\n"
-"I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the ravager... optionally. Although incredibly powerful... the ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the ravager is difficult for me to control and may be a danger to those nearby."
+"I am not sure if this is a good thing or not... but my ability to control my transformation has progressed to the point where I can now become the Ravager... optionally. Although incredibly powerful... the Ravager receives half damage from most attacks, is immune to any kind of immobilization or buffeting attack... the Ravager is difficult for me to control and may be a danger to those nearby."
 msgstr ""
 
 #: slayer_dialog.tra:317
-msgid "I choose to turn into the ravager."
+msgid "I choose to turn into the Ravager."
 msgstr ""
 
 #: the_five.tra:26
