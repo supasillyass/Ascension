@@ -3736,7 +3736,7 @@ msgid ""
 "sought a new purpose, and they saw in her a leader who would value them as "
 "more than just tools. Combining her undead powers with her knowledge of "
 "long-forgotten Chultan traditions, Hexxat came to be revered as queen of the"
-" cityï¿½s underworld."
+" city's underworld."
 msgstr ""
 
 #: shawnesepilogues_eenpc.tra:5006
