@@ -61,57 +61,6 @@ Nalia powróciła do Amn i swojego domu rodzinnego, Twierdzy De'Arnise. Okazało
 "No! You have listened to nothing I have said! It *is* that way because there is no choice for us! You would have me forget all the murders I have committed with my own hands, all the wrongs I have done in the name of the greater good... I cannot forget! I will not forgive myself and I will *not* allow others to be afflicted with the taint I possess!","Nie! W ogóle mnie nie słuchałaś! JEST właśnie tak, ponieważ nie mamy wyboru! Chcesz, bym zapomniał o wszystkich morderstwach, które popełniłem, o wszelkich niegodziwościach uczynionych w imię wyższego dobra... Nie mogę o tym zapomnieć! Nie mogę sobie tego wybaczyć i NIE pozwolę, by inni mieli styczność z moją skazą!"
 "No. How could I trust you? What if we were to vanquish Melissan, I would be weakened... you could end my life there and everything I have been working towards will be for nothing.","Nie. Jak mógłbym ci zaufać? Co jeżeli zwyciężylibyśmy Melissanę, a ja byłbym osłabiony... Mogłabyś łatwo zakończyć moje życie i wszystko, o co walczyłem, poszłoby na marne."
 "Oh Child of Bhaal, such a game you play. You think to trick me, but I shall not be fooled so easily. I know you to be ever so desperate to do 'good' and this would not bode well for me. No, this ends here.","Och, Dziecię Bhaala, cóż to za gierki. Myślałaś, że możesz mnie zwieść, ale mnie niełatwo oszukać. Wiem, że zawsze usilnie będziesz czynić „dobro”, a to nie wróży mi nic dobrego. Nasze porachunki musimy zakończyć tutaj."
-"Sarevok's Sword of Chaos
-The blade of Sarevok, brother of <CHARNAME>, used in the battle they fought in faraway Baldur's Gate. <CHARNAME> prevailed, destroying Sarevok's plans and rescuing the Sword Coast from the brink of war. Now Sarevok has joined with <CHARNAME>'s cause and his blade has been restored to him. Sarevok describes the weapon as a Deathbringer blade and has restored some of the weapon's old power. Without his Bhaalspawn essence to channel through the sword, however, it cannot achieve the power it once had. Still, however, it is a formidable weapon...and one that Sarevok warns would become increasingly difficult to wield in the hands of one who was not a Deathbringer, if they could use it at all.
-
-STATISTICS:
-
-Combat abilities:
-- Each hit drains one to five Hit Points from the target and transfers it to the wielder. This will not heal beyond the wielder's maximum.
-
-Equipped abilities:
-- Magic Resistance: +10%
-
-Damage: 1D10 +4
-THAC0: +4 bonus
-Damage type: slashing
-Speed Factor: 8
-Proficiency Type: Two Handed sword
-Type: 2-handed
-Requires: 14 Strength, 18 Constitution
-Weight: 10
-Not Usable By:
-Cleric
-Mage
-Paladin
-Ranger
-Druid
-non-Chaotic aligned","Miecz chaosu Sarevoka
-Tego oto miecza dobywał Sarevok, kiedy starł się ze swoją siostrą w odległych Wrotach Baldura. Jednakże to właśnie jego siostra, <CHARNAME>, zwyciężyła, obracając wniwecz plany Sarevoka i ratując Wybrzeże Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walczą ramię w ramię, ostrze powróciło do prawowitego właściciela. Sarevok nazywa je ostrzem Zwiastuna Śmierci, udało mu się również przywrócić mu część jego dawnej mocy. Mimo to, odkąd nie przenika go esencja Bhaala, miecz nie może odzyskać pełni swej niegdysiejszej potęgi. Wciąż pozostaje on jednak niebywale groźną bronią… którą, według Sarevoka, nie zdoła władać nikt inny niż Zwiastun Śmierci.
-
-PARAMETRY:
-
-Obrażenia: 1k10 +4
-TraK0: +4
-Specjalne:
- Każde trafienie wysysa z ofiary od jednego do pięciu punktów życia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
- życia nie przekroczą jednak maksymalnej liczby punktów dzierżącego miecz.
- 10% odporności na magię kiedy jest w użyciu
-Typ obrażeń: sieczne
-Waga: 10
-Opóźnienie: 8
-Rodzaj biegłości: miecz oburęczny
-Typ broni: 2-ręczna
-Wymagana: 
-– Siła: 14
-– Kondycja: 18
-Nie może używać:
- Kapłan
- Mag
- Paladyn
- Łowca
- Druid
- Postać o charakterze innym niż chaotyczny"
 "So I see. How absolutely delicious to let me in on your little play with the Bhaalspawn again, brother dear. And how are you, <CHARNAME>? I do so hope you are as... healthy... as I remember. Shall we continue our merry dance?","Ach tak. Jakże to wybornie z twojej strony, aby pozwolić mi przyłączyć się do twojej zabawy z pomiotem Bhaala, drogi bracie. Jak się miewasz, <CHARNAME>? Mam nadzieję, że jesteś tak... zdrowa... jak pamiętam. Czy zatańczymy raz jeszcze?"
 "So you have betrayed me, <CHARNAME>. It would seem that working together was never our true calling.","A więc zdradziłaś mnie, <CHARNAME>. Wygląda na to, że współpraca nigdy nie była naszym prawdziwym powołaniem."
 "Strength is nothing, <CHARNAME>. You may vanquish me with your might, and you may even vanquish Melissan. But you will never vanquish yourself. Might will bring you no peace... this I know. And this is why I must be the last.","Siła jest niczym, <CHARNAME>. Możesz zwyciężyć mnie swoją potęgą, możesz nawet zwyciężyć Melissanę. Ale nigdy nie podołasz samej sobie. Potęga nie przyniesie ci spokoju... tego jestem pewien. I to jest powód, dla którego to ja muszę być ostatni."
