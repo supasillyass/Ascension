@@ -35,7 +35,7 @@ BEGIN
   
   // copy over non-d files
   
-  ACTION_FOR_EACH file IN ascension setup shawnesepilogues shawnesepilogues_eenpc ee BEGIN
+  ACTION_FOR_EACH file IN ascension setup shawnesepilogues shawnesepilogues_eenpc items-ee BEGIN
      ACTION_PHP_EACH language_list AS language=>null BEGIN
         OUTER_SPRINT filename "%MOD_FOLDER%/tra/%language%/%file%.tra"
         ACTION_IF FILE_EXISTS "%filename%" BEGIN
