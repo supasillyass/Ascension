@@ -1,25 +1,25 @@
 @3001 = ~Lame du Chaos de Sarevok
-Il s'agit de l'arme de Sarevok, frÃ¨re de <CHARNAME>, qui fut utilisÃ©e dans la bataille de la Porte de Baldur. <CHARNAME> a gagnÃ©, ruinant ainsi les plans de Sarevok, et sauvant la CÃ´te des EpÃ©es de la guerre. Maintenant, Sarevok s'est joint Ã  la cause de <CHARNAME> et son Ã©pÃ©e lui a Ã©tÃ© rendue. Sarevok dÃ©crit cette arme comme une Lame Fatale et a restaurÃ© une partie des anciens pouvoirs de cet objet. Cependant, sans son essence d'Enfant de Bhaal pour nourrir l'Ã©pÃ©e, il n'a pu lui rendre la totalitÃ© du pouvoir qu'elle possÃ©dait autrefois. Quoiqu'il en soit, elle reste une arme formidable... et Sarevok prÃ©vient qu'elle deviendrait trÃ¨s difficile Ã  utiliser dans les mains de quelqu'un qui ne fÃ»t pas un Porteur de Mort, voire impossible Ã  utiliser.
+Il s'agit de l'arme de Sarevok, frère de <CHARNAME>, qui fut utilisée dans la bataille de la Porte de Baldur. <CHARNAME> a gagné, ruinant ainsi les plans de Sarevok, et sauvant la Côte des Epées de la guerre. Maintenant, Sarevok s'est joint à la cause de <CHARNAME> et son épée lui a été rendue. Sarevok décrit cette arme comme une Lame Fatale et a restauré une partie des anciens pouvoirs de cet objet. Cependant, sans son essence d'Enfant de Bhaal pour nourrir l'épée, il n'a pu lui rendre la totalité du pouvoir qu'elle possédait autrefois. Quoiqu'il en soit, elle reste une arme formidable... et Sarevok prévient qu'elle deviendrait très difficile à utiliser dans les mains de quelqu'un qui ne fût pas un Porteur de Mort, voire impossible à utiliser.
 
 PARAMETRES :
 
-CapacitÃ©s de combat : chaque coup portÃ© draine de 1 Ã  5 points de vie de la cible et les transfÃ¨re au porteur (qui ne peut pas dÃ©passer son maximum).
+Capacités de combat : chaque coup porté draine de 1 à 5 points de vie de la cible et les transfère au porteur (qui ne peut pas dépasser son maximum).
 
-La lame procure Ã©galement +10% de RÃ©sistance Ã  la Magie lorsqu'elle est Ã©quipÃ©e.
+La lame procure également +10% de Résistance à la Magie lorsqu'elle est équipée.
 
-DÃ©gÃ¢ts : 1D10 +4
+Dégâts : 1D10 +4
 TAC0 : +4
-Type de dÃ©gÃ¢ts : tranchant
+Type de dégâts : tranchant
 Poids : 10
 Facteur de Vitesse : 8
-Type de compÃ©tence : EpÃ©e Ã  2 mains
-Type :  Ã  2 mains
-PrÃ©requis : 14 en Force, 18 en Constitution
+Type de compétence : Epée à 2 mains
+Type :  à 2 mains
+Prérequis : 14 en Force, 18 en Constitution
 Inutilisable par :
 Clerc
 Mage
 Paladin
-RÃ´deur
+Rôdeur
 Druide
 Personnages d'alignement Non Chaotiques~
 @3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.

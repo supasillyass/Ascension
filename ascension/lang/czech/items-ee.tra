@@ -1,26 +1,26 @@
-@3001 = ~ObouruÄnÃ­ meÄ +4: SarevokÅ¯v meÄ Chaosu 
+@3001 = ~Obouruèní meè +4: Sarevokùv meè Chaosu 
 
-ÄŒepel Sarevoka, bratra <CHARNAME>, pouÅ¾itÃ¡ v bitvÄ›, kterou spolu bojovali ve vzdÃ¡lenÃ© BaldurovÄ› BrÃ¡nÄ›.  <CHARNAME> zvÃ­tÄ›zila, zniÄila Sarevokovy plÃ¡ny a zachrÃ¡nila MeÄovÃ© pobÅ™eÅ¾Ã­ na pokraji vÃ¡lky.  NynÃ­ se Sarevok pÅ™ipojil k <CHARNAME> a jeho Äepel mu byla navrÃ¡cena.
-Sarevok popisuje zbraÅˆ jako SmrtonoÅ¡ovu Äepel a obnovil jejÃ­ starou sÃ­lu.  Bez esence Bhaalova zplozence, proudÃ­cÃ­ skrze meÄ, nemÅ¯Å¾e dosÃ¡hnout tÃ© sÃ­ly, co mÄ›la.  LeÄ stÃ¡le je to straÅ¡livÃ¡ zbraÅˆ... a Sarevok varuje, Å¾e kdyÅ¾ se pokusÃ­ pouÅ¾Ã­t zbraÅˆ nÄ›kdo, kdo nenÃ­ SmrtonoÅ¡em, tak bude mÃ­t snÃ­Å¾enou schopnost ovlÃ¡dat zbraÅˆ.
+Èepel Sarevoka, bratra <CHARNAME>, pouitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì.  <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeí na pokraji války.  Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena.
+Sarevok popisuje zbraò jako Smrtonošovu èepel a obnovil její starou sílu.  Bez esence Bhaalova zplozence, proudící skrze meè, nemùe dosáhnout té síly, co mìla.  Leè stále je to strašlivá zbraò... a Sarevok varuje, e kdy se pokusí pouít zbraò nìkdo, kdo není Smrtonošem, tak bude mít sníenou schopnost ovládat zbraò.
 
 VLASTNOSTI:
 
 Schopnost v boji:
-â€“ KaÅ¾dÃ½ zÃ¡sah vysaje z cÃ­le 1 aÅ¾ 5 bodÅ¯ Å¾ivota a pÅ™emÃ­stÃ­ jej k vlastnÃ­kovi. TÃ­mto nenÃ­ moÅ¾nÃ© se uzdravit nad maximÃ¡lnÃ­ hranici Å¾ivotÅ¯ vlastnÃ­ka.
+– Kadı zásah vysaje z cíle 1 a 5 bodù ivota a pøemístí jej k vlastníkovi. Tímto není moné se uzdravit nad maximální hranici ivotù vlastníka.
 
-PÅ™i vybavenÃ­:
-- MagickÃ¡ odolnost: +10%
+Pøi vybavení:
+- Magická odolnost: +10%
 
 THAC0: +4
-ZranÄ›nÃ­: 1K10 +4 (seÄnÃ©)
+Zranìní: 1K10 +4 (seèné)
 Rychlost: 8
-Druh dovednosti: obouruÄnÃ­ meÄ
-Druh: obouruÄnÃ­
-VyÅ¾aduje:
-SÃ­la 14
+Druh dovednosti: obouruèní meè
+Druh: obouruèní
+Vyaduje:
+Síla 14
 Odolnost 18
 
-VÃ¡ha: 10~
+Váha: 10~
 @3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
 
 STATISTICS:
