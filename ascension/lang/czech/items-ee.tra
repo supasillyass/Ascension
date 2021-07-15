@@ -1,12 +1,10 @@
-@3001 = ~Obouruèní meè +4: Sarevokùv meè Chaosu 
-
-Èepel Sarevoka, bratra <CHARNAME>, použitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì.  <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeží na pokraji války.  Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena.
+@3001 = ~Èepel Sarevoka, bratra <CHARNAME>, použitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì.  <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeží na pokraji války.  Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena.
 Sarevok popisuje zbraò jako Smrtonošovu èepel a obnovil její starou sílu.  Bez esence Bhaalova zplozence, proudící skrze meè, nemùže dosáhnout té síly, co mìla.  Leè stále je to strašlivá zbraò... a Sarevok varuje, že když se pokusí použít zbraò nìkdo, kdo není Smrtonošem, tak bude mít sníženou schopnost ovládat zbraò.
 
 VLASTNOSTI:
 
 Schopnost v boji:
-– Každý zásah vysaje z cíle 1 až 5 bodù života a pøemístí jej k vlastníkovi. Tímto není možné se uzdravit nad maximální hranici životù vlastníka.
+- Každý zásah vysaje z cíle 1 až 5 bodù života a pøemístí jej k vlastníkovi. Tímto není možné se uzdravit nad maximální hranici životù vlastníka.
 
 Pøi vybavení:
 - Magická odolnost: +10%

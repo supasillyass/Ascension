@@ -144,8 +144,7 @@ Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ 
 <CHARNAME> uzyska³<PRO_HESHE> 25% odpornoœci na obra¿enia fizyczne (tj. sieczne, k³ute, obuchowe oraz od pocisków).~
 @2008 = ~Umiejêtnoœæ przemiany w Zabójcê zosta³a udoskonalona~
 @3000 = ~Miecz chaosu Sarevoka +4~
-@3001 = ~Miecz chaosu Sarevoka
-Tego oto miecza dobywa³ Sarevok, kiedy star³ siê ze swoim bratem w odleg³ych Wrotach Baldura. Jednak¿e to w³aœnie jego brat, <CHARNAME>, zwyciê¿y³, obracaj¹c wniwecz plany Sarevoka i ratuj¹c Wybrze¿e Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazywa je ostrzem Zwiastuna Œmierci, uda³o mu siê równie¿ przywróciæ mu czêœæ jego dawnej mocy. Mimo to, odk¹d nie przenika go esencja Bhaala, miecz nie mo¿e odzyskaæ pe³ni swej niegdysiejszej potêgi. Wci¹¿ pozostaje on jednak niebywale groŸn¹ broni¹… któr¹, wed³ug Sarevoka, nie zdo³a w³adaæ nikt inny ni¿ Zwiastun Œmierci.
+@3001 = ~Tego oto miecza dobywa³ Sarevok, kiedy star³ siê ze swoim bratem w odleg³ych Wrotach Baldura. Jednak¿e to w³aœnie jego brat, <CHARNAME>, zwyciê¿y³, obracaj¹c wniwecz plany Sarevoka i ratuj¹c Wybrze¿e Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazywa je ostrzem Zwiastuna Œmierci, uda³o mu siê równie¿ przywróciæ mu czêœæ jego dawnej mocy. Mimo to, odk¹d nie przenika go esencja Bhaala, miecz nie mo¿e odzyskaæ pe³ni swej niegdysiejszej potêgi. Wci¹¿ pozostaje on jednak niebywale groŸn¹ broni¹… któr¹, wed³ug Sarevoka, nie zdo³a w³adaæ nikt inny ni¿ Zwiastun Œmierci.
 
 PARAMETRY:
 
@@ -161,31 +160,6 @@ OpóŸnienie: 8
 Rodzaj bieg³oœci: miecz oburêczny
 Typ broni: 2-rêczna
 Wymagania:
-– Si³a: 14
-– Kondycja: 18
-Nie mo¿e u¿ywaæ:
- Kap³an
- Mag
- Paladyn
- £owca
- Druid
- Postaæ o charakterze innym ni¿ chaotyczny~ ~Miecz chaosu Sarevoka
-Tego oto miecza dobywa³ Sarevok, kiedy star³ siê ze swoj¹ siostr¹ w odleg³ych Wrotach Baldura. Jednak¿e to w³aœnie jego siostra, <CHARNAME>, zwyciê¿y³a, obracaj¹c wniwecz plany Sarevoka i ratuj¹c Wybrze¿e Mieczy od nieuchronnej wojny. Teraz, gdy Sarevok i <CHARNAME> walcz¹ ramiê w ramiê, ostrze powróci³o do prawowitego w³aœciciela. Sarevok nazywa je ostrzem Zwiastuna Œmierci, uda³o mu siê równie¿ przywróciæ mu czêœæ jego dawnej mocy. Mimo to, odk¹d nie przenika go esencja Bhaala, miecz nie mo¿e odzyskaæ pe³ni swej niegdysiejszej potêgi. Wci¹¿ pozostaje on jednak niebywale groŸn¹ broni¹… któr¹, wed³ug Sarevoka, nie zdo³a w³adaæ nikt inny ni¿ Zwiastun Œmierci.
-
-PARAMETRY:
-
-Obra¿enia: 1k10 +4
-TraK0: +4
-Specjalne:
- Ka¿de trafienie wysysa z ofiary od jednego do piêciu punktów ¿ycia i przekazuje je posiadaczowi miecza. Zgromadzone w ten sposób punkty 
- ¿ycia nie przekrocz¹ jednak maksymalnej liczby punktów dzier¿¹cego miecz.
- 10% odpornoœci na magiê kiedy jest w u¿yciu
-Typ obra¿eñ: sieczne
-Waga: 10
-OpóŸnienie: 8
-Rodzaj bieg³oœci: miecz oburêczny
-Typ broni: 2-rêczna
-Wymagana: 
 – Si³a: 14
 – Kondycja: 18
 Nie mo¿e u¿ywaæ:
