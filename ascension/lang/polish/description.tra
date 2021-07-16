@@ -30,17 +30,16 @@ Podobnie jak czar 5. poziomu o nazwie Wskrzeszenie, zaklêcie to mo¿e przywróciæ 
 
 Po u¿yciu tej zdolnoœci przyjmujesz postaæ potê¿nej istoty posiadaj¹cej niezliczon¹ liczbê k³ów i pazurów, stanowi¹c¹ brutaln¹ esencjê samego Bhaala. Przemiana obni¿a twoj¹ reputacjê o jeden punkt, albowiem nawet ci, którzy nie byli œwiadkami tego zdarzenia, potrafi¹ wyczuæ charakterystyczn¹ woñ zepsucia, gdy poddajesz siê pierwotnym instynktom.
 
-
 Przemiana w Zabójcê zapewnia nastêpuj¹ce korzyœci:
 
-– Si³a i Zrêcznoœæ wzrastaj¹ do 25
-– Rzeczywista wartoœæ KP wynosi -9
-– Odpornoœæ na magiê wynosi 40%
-– Rzuty obronne wynosz¹ 2
-– Liczba ataków na rundê wynosi 4 (1k8 obra¿eñ obuchowych, 2 obra¿enia od zimna)
-– TraK0 wynosi 0
-– PLUS_SIGN_PLACEHOLDER 100 punktów ¿ycia
-– Niewra¿liwoœæ na uwiêzienie, wyssanie poziomów, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
+- Si³a i Zrêcznoœæ wzrastaj¹ do 25
+- Rzeczywista wartoœæ KP wynosi -9
+- Odpornoœæ na magiê wynosi 40%
+- Rzuty obronne wynosz¹ 2
+- Liczba ataków na rundê wynosi 4 (1k8 obra¿eñ obuchowych, 2 obra¿enia od zimna)
+- TraK0 wynosi 0
+- PLUS_SIGN_PLACEHOLDER 100 punktów ¿ycia
+- Niewra¿liwoœæ na uwiêzienie, wyssanie poziomów, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
 
 Zabójcê mo¿e byæ trudno do kontrolowaæ: po pierwszej rundzie masz ³¹cznie 10% szans na rundê na utratê panowania nad sob¹ na jedn¹ rundê.~
 @10 = ~Przemiana w Zabójcê
@@ -49,87 +48,86 @@ Po u¿yciu tej zdolnoœci przyjmujesz postaæ potê¿nej istoty posiadaj¹cej niezlicz
 
 Postaæ Zabójcy staje siê silniejsza wraz ze wzrostem twojej mocy i teraz zapewnia nastêpuj¹ce korzyœci:
 
-– Si³a i Zrêcznoœæ wzrastaj¹ do 25
-– Rzeczywista wartoœæ KP wynosi -9
-– Odpornoœæ na magiê wynosi 50%
-– Odpornoœæ na obra¿enia fizyczne wynosi 15%
-– Odpornoœæ na obra¿enia od ¿ywio³ów wynosi 30% 
-– Rzuty obronne wynosz¹ 2
-– Liczba ataków na rundê wynosi 4 (2k6 obra¿eñ obuchowych, 4 obra¿enia od zimna)
-– TraK0 wynosi -4
-– PLUS_SIGN_PLACEHOLDER 150 punktów ¿ycia
-– Niewra¿liwoœæ na uwiêzienie, wyssanie poziomów, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
-– Szansa na utratê kontroli: 10%, plus ³¹cznie 5% na ka¿d¹ rundê
-~
+- Si³a i Zrêcznoœæ wzrastaj¹ do 25
+- Rzeczywista wartoœæ KP wynosi -9
+- Odpornoœæ na magiê wynosi 50%
+- Odpornoœæ na obra¿enia fizyczne wynosi 15%
+- Odpornoœæ na obra¿enia od ¿ywio³ów wynosi 30% 
+- Rzuty obronne wynosz¹ 2
+- Liczba ataków na rundê wynosi 4 (2k6 obra¿eñ obuchowych, 4 obra¿enia od zimna)
+- TraK0 wynosi -4
+- PLUS_SIGN_PLACEHOLDER 150 punktów ¿ycia
+- Niewra¿liwoœæ na uwiêzienie, wyssanie poziomów, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
+- Szansa na utratê kontroli: 10%, plus ³¹cznie 5% na ka¿d¹ rundê~
 @11 = ~Przemiana w Zabójcê
 
 Po u¿yciu tej zdolnoœci przyjmujesz postaæ potê¿nej istoty posiadaj¹cej niezliczon¹ liczbê k³ów i pazurów, stanowi¹c¹ brutaln¹ esencjê samego Bhaala. Przemiana obni¿a twoj¹ reputacjê o dwa punkty, albowiem nawet ci, którzy nie byli œwiadkami tego zdarzenia, potrafi¹ wyczuæ charakterystyczn¹ woñ zepsucia, gdy poddajesz siê pierwotnym instynktom.
 
 Postaæ Zabójcy staje siê silniejsza wraz ze wzrostem twojej mocy i teraz zapewnia nastêpuj¹ce korzyœci:
 
-– Si³a i Zrêcznoœæ wzrastaj¹ do 25
-– Rzeczywista wartoœæ KP wynosi -9
-– Odpornoœæ na magiê wynosi 60%
-– Odpornoœæ na obra¿enia fizyczne wynosi 30%
-– Odpornoœæ na obra¿enia od ¿ywio³ów 40% 
-– Rzuty obronne wynosz¹ 2
-– Liczba ataków na rundê wynosi 4 (2k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
-– TraK0 wynosi -8
-– PLUS_SIGN_PLACEHOLDER 200 punktów ¿ycia
-– Regeneracja 3 punktów ¿ycia na sekundê
-– Niewra¿liwoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
-– Swoboda dzia³ania
-– Szansa na utratê kontroli: ³¹cznie 5% na ka¿de dwie rundy~
+- Si³a i Zrêcznoœæ wzrastaj¹ do 25
+- Rzeczywista wartoœæ KP wynosi -9
+- Odpornoœæ na magiê wynosi 60%
+- Odpornoœæ na obra¿enia fizyczne wynosi 30%
+- Odpornoœæ na obra¿enia od ¿ywio³ów 40% 
+- Rzuty obronne wynosz¹ 2
+- Liczba ataków na rundê wynosi 4 (2k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
+- TraK0 wynosi -8
+- PLUS_SIGN_PLACEHOLDER 200 punktów ¿ycia
+- Regeneracja 3 punktów ¿ycia na sekundê
+- Niewra¿liwoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
+- Swoboda dzia³ania
+- Szansa na utratê kontroli: ³¹cznie 5% na ka¿de dwie rundy~
 @12 = ~Przemiana w Pustoszyciela
 
-Mo¿esz teraz przybraæ postaæ Zabójcy lub Pustoszyciela – straszliwej manifestacji Bhaala. U¿ycie tej zdolnoœci obni¿¹ twoj¹ reputacjê o dwa punkty dla Zabójcy albo o pe³ne trzy punkty dla Pustoszyciela.
+Mo¿esz teraz przybraæ postaæ Zabójcy lub Pustoszyciela - straszliwej manifestacji Bhaala. U¿ycie tej zdolnoœci obni¿¹ twoj¹ reputacjê o dwa punkty dla Zabójcy albo o pe³ne trzy punkty dla Pustoszyciela.
 
 Jako Zabójca uzyskujesz nastêpuj¹ce korzyœci:
 
-– Si³a i Zrêcznoœæ wzrastaj¹ do 25
-– Rzeczywista wartoœæ KP wynosi -9
-– Odpornoœæ na magiê wynosi 60%
-– Odpornoœæ na obra¿enia fizyczne wynosi 30%
-– Odpornoœæ na obra¿enia od ¿ywio³ów 50% 
-– Rzuty obronne wynosz¹ 2
-– Liczba ataków na rundê wynosi 4 (2k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
-– 10% szans przy ka¿dym ataku na rzucenie Rozproszenia magii i obni¿enie odpornoœci na magiê
-– TraK0 wynosi -8
-– PLUS_SIGN_PLACEHOLDER 200 punktów ¿ycia
-– Regeneracja 3 punktów ¿ycia na sekundê
-– Niewra¿liwoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
-– Swoboda dzia³ania
-– Szansa na utratê kontroli: ³¹cznie 5% na ka¿de dwie rundy
+- Si³a i Zrêcznoœæ wzrastaj¹ do 25
+- Rzeczywista wartoœæ KP wynosi -9
+- Odpornoœæ na magiê wynosi 60%
+- Odpornoœæ na obra¿enia fizyczne wynosi 30%
+- Odpornoœæ na obra¿enia od ¿ywio³ów 50% 
+- Rzuty obronne wynosz¹ 2
+- Liczba ataków na rundê wynosi 4 (2k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
+- 10% szans przy ka¿dym ataku na rzucenie Rozproszenia magii i obni¿enie odpornoœci na magiê
+- TraK0 wynosi -8
+- PLUS_SIGN_PLACEHOLDER 200 punktów ¿ycia
+- Regeneracja 3 punktów ¿ycia na sekundê
+- Niewra¿liwoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
+- Swoboda dzia³ania
+- Szansa na utratê kontroli: ³¹cznie 5% na ka¿de dwie rundy
 
 Jako Pustoszyciel uzyskujesz nastêpuj¹ce korzyœci:
 
-– Odpornoœæ na magiê wynosi 75%
-– Odpornoœæ na obra¿enia fizyczne wynosi 50%
-– Odpornoœæ na obra¿enia od ¿ywio³ów wynosi 50% 
-– Odpornoœæ na obra¿enia od magii wynosi na 50% 
-– Liczba ataków na rundê wynosi 5 (3k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
-– Szansa rozproszenia przy ka¿dym trafieniu zwiêksza siê do 20%
-– TraK0 wynosi -12
-– PLUS_SIGN_PLACEHOLDER 250 punktów ¿ycia
-– Regeneracja 5 punktów ¿ycia na sekundê
-– Szansa na utratê kontroli zwiêksza siê do 40% plus ³¹cznie 10% na rundê~
+- Odpornoœæ na magiê wynosi 75%
+- Odpornoœæ na obra¿enia fizyczne wynosi 50%
+- Odpornoœæ na obra¿enia od ¿ywio³ów wynosi 50% 
+- Odpornoœæ na obra¿enia od magii wynosi na 50% 
+- Liczba ataków na rundê wynosi 5 (3k8 obra¿eñ obuchowych, 8 obra¿eñ od zimna)
+- Szansa rozproszenia przy ka¿dym trafieniu zwiêksza siê do 20%
+- TraK0 wynosi -12
+- PLUS_SIGN_PLACEHOLDER 250 punktów ¿ycia
+- Regeneracja 5 punktów ¿ycia na sekundê
+- Szansa na utratê kontroli zwiêksza siê do 40% plus ³¹cznie 10% na rundê~
 @13 = ~Przemiana w Zabójcê
 
 Po u¿yciu tej zdolnoœci Imoen przyjmuje postaæ potê¿nej istoty posiadaj¹cej niezliczon¹ liczbê k³ów i pazurów, stanowi¹c¹ brutaln¹ esencjê samego Bhaala.
 
 Przemiana w Zabójcê przynosi nastêpuj¹ce korzyœci:
 
-– Si³a i Zrêcznoœæ wzrastaj¹ do 25
-– Rzeczywista wartoœæ KP wynosi -9
-– Odpornoœæ na magiê wynosi 40%
-– Rzuty obronne wynosz¹ 2
-– Liczba ataków na rundê wynosi 4 (1k8 obra¿eñ obuchowych, 2 obra¿enia od zimna)
-– TraK0 wynosi 0
-– PLUS_SIGN_PLACEHOLDER 100 punktów ¿ycia
-– Regeneracja 3 punktów ¿ycia na sekundê
-– Odpornoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
+- Si³a i Zrêcznoœæ wzrastaj¹ do 25
+- Rzeczywista wartoœæ KP wynosi -9
+- Odpornoœæ na magiê wynosi 40%
+- Rzuty obronne wynosz¹ 2
+- Liczba ataków na rundê wynosi 4 (1k8 obra¿eñ obuchowych, 2 obra¿enia od zimna)
+- TraK0 wynosi 0
+- PLUS_SIGN_PLACEHOLDER 100 punktów ¿ycia
+- Regeneracja 3 punktów ¿ycia na sekundê
+- Odpornoœæ na uwiêzienie, wyssanie poziomu, og³uszenie, strach, zauroczenie, zamêt, uœpienie oraz pociski
 
-Byæ mo¿e dlatego, ¿e Imoen ma w sobie mniej esencji Bhaala ni¿ <CHARNAME> – albo dziêki temu, czego nauczy³a siê po tym, jak Melissana przywo³a³a jej esencjê – jest ona w stanie w wiêkszym stopniu panowaæ nad moc¹ Zabójcy i nie grozi jej utrata kontroli, kiedy przybiera jego postaæ.~
+Byæ mo¿e dlatego, ¿e Imoen ma w sobie mniej esencji Bhaala ni¿ <CHARNAME> - albo dziêki temu, czego nauczy³a siê po tym, jak Melissana przywo³a³a jej esencjê - jest ona w stanie w wiêkszym stopniu panowaæ nad moc¹ Zabójcy i nie grozi jej utrata kontroli, kiedy przybiera jego postaæ.~
 @14 = ~Uzyskano moce pomiotu Bhaala~
 @15 = ~Imoen mo¿e teraz przemieniaæ siê w Zabójcê, kiedy tylko zapragnie, jak równie¿ wstêpowaæ do Sfery Eterycznej raz na minutê~
 @16 = ~Kontrolowanie demona
