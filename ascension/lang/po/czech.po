@@ -88,7 +88,7 @@ msgstr "Božská očista"
 msgid "Paralyzation Aura"
 msgstr "Aura ochromení"
 
-#: ascension.tra:1029
+#: ascension.tra:1029 tougher.tra:8
 msgid "Lava Bomb"
 msgstr "Lávová bomba"
 
@@ -7914,6 +7914,34 @@ msgid ""
 msgstr ""
 "Jsi blázen, Melissan. Měla sis ponechat božskou energii pro sebe a né ji "
 "plýtvat na své poskoky. Tohle zpečetí tvůj osud."
+
+#: tougher.tra:1
+msgid "Minotaur Battle Priest"
+msgstr ""
+
+#: tougher.tra:2
+msgid "Il-Khan Medusa"
+msgstr ""
+
+#: tougher.tra:3
+msgid "Fire Drake"
+msgstr ""
+
+#: tougher.tra:4
+msgid "Shadow Drake"
+msgstr ""
+
+#: tougher.tra:5
+msgid "Ice Drake"
+msgstr ""
+
+#: tougher.tra:6
+msgid "Earth Drake"
+msgstr ""
+
+#: tougher.tra:7
+msgid "Summon the Abyssal Host"
+msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"

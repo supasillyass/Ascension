@@ -86,7 +86,7 @@ msgstr "Божественное Искупление"
 msgid "Paralyzation Aura"
 msgstr "Парализующая аура"
 
-#: ascension.tra:1029
+#: ascension.tra:1029 tougher.tra:8
 msgid "Lava Bomb"
 msgstr "Лавовая бомба"
 
@@ -6061,6 +6061,34 @@ msgstr ""
 "Ты - дура, Мелиссан. Ты должна была сохранить божественную энергию внутри "
 "себя и не разбрасывать ее среди своих прислужников. Это приблизит твою "
 "погибель."
+
+#: tougher.tra:1
+msgid "Minotaur Battle Priest"
+msgstr ""
+
+#: tougher.tra:2
+msgid "Il-Khan Medusa"
+msgstr ""
+
+#: tougher.tra:3
+msgid "Fire Drake"
+msgstr ""
+
+#: tougher.tra:4
+msgid "Shadow Drake"
+msgstr ""
+
+#: tougher.tra:5
+msgid "Ice Drake"
+msgstr ""
+
+#: tougher.tra:6
+msgid "Earth Drake"
+msgstr ""
+
+#: tougher.tra:7
+msgid "Summon the Abyssal Host"
+msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"

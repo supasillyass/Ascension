@@ -86,7 +86,7 @@ msgstr "非凡净化"
 msgid "Paralyzation Aura"
 msgstr "麻痹灵光"
 
-#: ascension.tra:1029
+#: ascension.tra:1029 tougher.tra:8
 msgid "Lava Bomb"
 msgstr "熔岩炸弹"
 
@@ -6199,6 +6199,34 @@ msgid ""
 "for yourself and not spread it amongst such servants. It will prove your "
 "doom."
 msgstr "你是个笨蛋，梅丽珊，你应该把这些能量都留给自己，分给其他人就注定了你的灭亡。"
+
+#: tougher.tra:1
+msgid "Minotaur Battle Priest"
+msgstr ""
+
+#: tougher.tra:2
+msgid "Il-Khan Medusa"
+msgstr ""
+
+#: tougher.tra:3
+msgid "Fire Drake"
+msgstr ""
+
+#: tougher.tra:4
+msgid "Shadow Drake"
+msgstr ""
+
+#: tougher.tra:5
+msgid "Ice Drake"
+msgstr ""
+
+#: tougher.tra:6
+msgid "Earth Drake"
+msgstr ""
+
+#: tougher.tra:7
+msgid "Summon the Abyssal Host"
+msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"

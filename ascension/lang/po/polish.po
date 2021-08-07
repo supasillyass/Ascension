@@ -86,7 +86,7 @@ msgstr "Boskie oczyszczenie"
 msgid "Paralyzation Aura"
 msgstr "Paraliżująca aura"
 
-#: ascension.tra:1029
+#: ascension.tra:1029 tougher.tra:8
 msgid "Lava Bomb"
 msgstr "Wybuch lawy"
 
@@ -6165,6 +6165,34 @@ msgid ""
 msgstr ""
 "Jesteś głupia, Melissano. Powinnaś była zachować dla siebie boską energię, "
 "zamiast roztrwaniać ją na takie sługi. To przypieczętuje twoją zgubę."
+
+#: tougher.tra:1
+msgid "Minotaur Battle Priest"
+msgstr ""
+
+#: tougher.tra:2
+msgid "Il-Khan Medusa"
+msgstr ""
+
+#: tougher.tra:3
+msgid "Fire Drake"
+msgstr ""
+
+#: tougher.tra:4
+msgid "Shadow Drake"
+msgstr ""
+
+#: tougher.tra:5
+msgid "Ice Drake"
+msgstr ""
+
+#: tougher.tra:6
+msgid "Earth Drake"
+msgstr ""
+
+#: tougher.tra:7
+msgid "Summon the Abyssal Host"
+msgstr ""
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
