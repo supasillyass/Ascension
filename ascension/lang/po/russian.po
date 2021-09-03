@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2021-07-16 14:21+0000\n"
+"PO-Revision-Date: 2021-09-03 20:46+0000\n"
 "Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/ascension/ru/>\n"
+"Language-Team: Russian <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/ru/>\n"
 "Language: russian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.1.1\n"
 
 #: ascension.tra:500
@@ -6064,31 +6066,31 @@ msgstr ""
 
 #: tougher.tra:1
 msgid "Minotaur Battle Priest"
-msgstr ""
+msgstr "Боевой минотавр жрец"
 
 #: tougher.tra:2
 msgid "Il-Khan Medusa"
-msgstr ""
+msgstr "Медуза Ил-Хан"
 
 #: tougher.tra:3
 msgid "Fire Drake"
-msgstr ""
+msgstr "Огненный Дрейк"
 
 #: tougher.tra:4
 msgid "Shadow Drake"
-msgstr ""
+msgstr "Теневой Дрейк"
 
 #: tougher.tra:5
 msgid "Ice Drake"
-msgstr ""
+msgstr "Ледяной Дрейк"
 
 #: tougher.tra:6
 msgid "Earth Drake"
-msgstr ""
+msgstr "Земляной Дрейк"
 
 #: tougher.tra:7
 msgid "Summon the Abyssal Host"
-msgstr ""
+msgstr "Призвать хозяина Бездны"
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
