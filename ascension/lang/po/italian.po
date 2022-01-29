@@ -4,9 +4,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2021-07-14 20:28+0000\n"
-"Last-Translator: ALIENQuake <alienquake@hotmail.com>\n"
-"Language-Team: Italian <https://tra.bgforge.net/projects/infinity-engine/ascension/it/>\n"
+"PO-Revision-Date: 2022-01-29 09:10+0000\n"
+"Last-Translator: Davide Rossini <davidewmilan@alice.it>\n"
+"Language-Team: Italian <https://tra.bgforge.net/projects/infinity-engine/"
+"ascension/it/>\n"
 "Language: italian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -6177,31 +6178,31 @@ msgstr ""
 
 #: tougher.tra:1
 msgid "Minotaur Battle Priest"
-msgstr ""
+msgstr "Mago da Battaglia Minotauro"
 
 #: tougher.tra:2
 msgid "Il-Khan Medusa"
-msgstr ""
+msgstr "Il-Khan Medusa"
 
 #: tougher.tra:3
 msgid "Fire Drake"
-msgstr ""
+msgstr "Drago del Fuoco"
 
 #: tougher.tra:4
 msgid "Shadow Drake"
-msgstr ""
+msgstr "Drago dell'Ombra"
 
 #: tougher.tra:5
 msgid "Ice Drake"
-msgstr ""
+msgstr "Drago del Ghiaccio"
 
 #: tougher.tra:6
 msgid "Earth Drake"
-msgstr ""
+msgstr "Drago della Terra"
 
 #: tougher.tra:7
 msgid "Summon the Abyssal Host"
-msgstr ""
+msgstr "Evoca l'Ospite Abissale"
 
 #: tougher.tra:11
 msgid "Yaga-Shura Cleric"
