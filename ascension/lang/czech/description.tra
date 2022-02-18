@@ -1,305 +1,308 @@
-@1 = ~Imoen pøeila
+@1 = ~Étherická forma
 
-Imoen se podaøilo pøeít útok Melissan, pøi kterém ji vnutila podobu zabijáka. Zdá se, e to probodilo její skrytı potenciál. Nejen, e se teï dokáe promìnit ve stejnou formu zabijáka, ve kterého jsem se zaèal v Èarotvrzi promìòovat... ale také získala schopnost, pomocí které se mùe stát na chvíli éterickou.
+Imoen na èas vstoupí do Étherické sféry. Tuto schopnost mùe pouít jednou za minut a bìhem jejího trvaní není schopná vzít na sebe podobu Zabijáka. Étherickou formu si udrí po jedno kolo a bìhem té doby je neviditelná a není moné ji ádnım zpùsobem zranit. Nebude ale schopná pouívat zbranì, zvláštní schopnosti ani kouzla.
 
-Éterická
--------------
-Imoen je teï na chvíli schopná vstoupit do éterické sféry. Schopnost je pouitelná jednou po kadou minutu a hodí se pro zamezení její promìny v zabijáka, která také trvá minutu. Imoen zùstane jedno kolo úplnì éterickou a nezasaitelnou silou této sféry... v jeho prùbìhu je neviditelná a zcela imunní na poškození. V prùbìhu tohoto kola však nemùe kouzlit, nebo pouívat speciální schopnosti.  
-Pozdìji, za další dvì kola, zùstává v "polofázi". Je èásteènì éterickou a èásteènì v této sféøe. Poøád je neviditelná, pøesto obdrí polovinu poškození ze všech zdrojù. V tomto stadiu je malá šance (10%), e se jí nepovede seslat kouzlo. Imoen je také po všechna tøi kola schopna uvidìt jakıkoliv neviditelnı cíl.~
-@6 = ~End Slayer Change
+Jakmile toto kolo uplyne, vstoupí do polo-étherické fáze, kdy je kadou nohou v jiné sféøe. Je stále neviditelná a veškeré zranìní které obdrí je sníeno o 50%. Mùe ale normálnì vykonávat všechny èinnosti, aèkoliv má malou šanci (10%) e její kouzla selou. V obou fázích je schopna vidìt všechny neviditelné bytosti.~
+@6 = ~Ukonèit promìnu v Zabijáka
 
-This ability allows Imoen to cancel her transformation and return to her usual form.~
-@7 = ~Schopnosti Bhaalova zplozence
+Tato schopnost ukonèí Imoeninu transformaci a navrátí ji do její normální podoby.~
+@7 = ~Regenerace 
 
-<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
-
-Regenerace 
-(Nekromancie) 
-
-Dosah: dotyk
+Dosah: dotek
 Trvání: 1 kolo/2 úrovnì
 Doba sesílání: 7
 Oblast pùsobení: dotknutá bytost
 Záchrannı hod: není 
 
-Tato mocná schopnost umoòuje Bhaalovu zplozenci pøedat 1 bytosti schopnost regenerace.  Tato regenerace zahojí rány a vdy obnoví ztracené konèetiny.  Ovlivnìná bytost získá 3 ivoty za sekundu.  Úèinek trvá 1 kolo za kadé 2 úrovnì sesilatele, nebo do rozptılení kouzla.  Napøíklad postava 14. úrovnì regeneruje 18 ivotù za kolo po dobu 7 kol.~
-@8 = ~Schopnosti Bhaalova zplozence
+Tato mocná schopnost umoòuje Bhaalovu zplozenci naplnit jednu bytost schopností regenerace. Tato regenerace zahojí všechny rány a dokonce obnoví i ztracené konèetiny. Zvolené bytosti se zaènou obnovovat 3 ivoty kadou sekundu. Úèinek trvá 1 kolo za kadé 2 úrovnì sesilatele, nebo do rozptılení kouzla. Napøíklad postavì 14. úrovnì se bude regenerovat 18 ivotù za kolo po dobu 7 kol.~
+@8 = ~Vzkøíšení 
 
-<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
-
-Vzkøíšení 
-(Nekromancie)
-
-Dosah: dotyk
+Dosah: dotek
 Trvání: trvale
 Doba sesílání: 1
 Oblast pùsobení: dotknutá bytost
 Záchrannı hod: není
 
-Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot jedné postavì.  Avšak Vzkøíšení ji také vyléèí, take je pøipravena na další dobrodruství.~
-@9 = ~Slayer Change
+Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot zvolené postavì. Avšak Vzkøíšení ji také úplnì vyléèí, take je ihned pøipravena na další dobrodruství.~
+@9 = ~Promìna v Zabijáka
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+Kdy pouiješ tuto schopnost, vezmeš na sebe formu Avatára samotného Bhaala. Násilnou a mocnou zrùdu s dlouhımi zuby a drápy. Pouití této schopnosti sníí tvou reputaci o jeden bod, protoe i ti kteøí nevidí tvou hrùzostrašnou promìnu dokáí vycítit èisté zlo, které ulpí na tvé auøe.
 
-The Slayer form grants the following benefits:
+Promìna v Zabijáka poskytuje následující vıhody:
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (1d8 crushing, 2 cold)
-- THAC0 set to 0
-- PLUS_SIGN_PLACEHOLDER 100 Hit Points
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 40%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 4 (1k8 drtivé + 2 chladem)
+- THAC0 je nastaveno na 0
+- PLUS_SIGN_PLACEHOLDER 100 ivotù
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, spánku a bìnım støelám
 
-The Slayer can be difficult to control: after the first round, you have a 10% cumulative chance per round of losing control of yourself for a round.~
-@10 = ~Slayer Change
+Forma Zabijáka se tìko ovládá. Po uplynutí prvního kola je zde 10% šance e ztratíš kontrolu. Tato šance se zvıší o dalších 10%, kadé následující kolo. Pokud ztratíš kontrolu, budeš po dobu jednoho kola bezhlavì útoèít na kadého ve své blízkosti.~
+@10 = ~Promìna v Zabijáka
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by one point, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+Kdy pouiješ tuto schopnost, vezmeš na sebe formu Avatára samotného Bhaala. Násilnou a mocnou zrùdu s dlouhımi zuby a drápy. Pouití této schopnosti sníí tvou reputaci o jeden bod, protoe i ti kteøí nevidí tvou hrùzostrašnou tranformaci dokáí vycítit èisté zlo, které ulpí na tvé auøe.
 
-The Slayer form has increased in power with your own, and now grants the following benefits:
+Jak se zvìtšuje tvá síla, Zabiják se stává stále mocnìjším. 
+Promìna nyní poskytuje následující vıhody:
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 50%
-- Resistance to physical damage set to 15%
-- Resistance to elemental damage set to 30%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d6 crushing, 4 cold)
-- THAC0 set to -4
-- PLUS_SIGN_PLACEHOLDER 150 Hit Points
-- Regenerate 2 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
-- Chance of losing control: 10%, plus a cumulative 5% per round
-~
-@11 = ~Slayer Change
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 50%
+- Odolnost vùèi fyzickému zranìní je nastavena na 15%
+- Odolnost vùèi elementálnímu zranìní je nastavena na 30%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 4 (2k6 drtivé + 4 chladem)
+- THAC0 je nastaveno na -4
+- PLUS_SIGN_PLACEHOLDER 150 ivotù
+- Regeneruješ si 2 body zdraví za vteøinu
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, spánku a bìnım støelám
+- Šance na ztrátu kontroly: 10% plus kumulativní šance 5% za kadé další kolo~
+@11 = ~Promìna v Zabijáka
 
-When you use this ability, you take on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws. Using this ability reduces your reputation by two points, as even those who do not witness the event can sense the corruption caused by giving yourself over to instinct.
+Kdy pouiješ tuto schopnost, vezmeš na sebe formu Avatára samotného Bhaala. Násilnou a mocnou zrùdu s dlouhımi zuby a drápy. Pouití této schopnosti sníí tvou reputaci o dva body, protoe i ti kteøí nevidí tvou hrùzostrašnou tranformaci dokáí vycítit èisté zlo, které ulpí na tvé auøe.
 
-The Slayer form has increased in power with your own, and now grants the following benefits:
+Jak se zvìtšuje tvá síla, Zabiják se stává stále mocnìjším. 
+Promìna nyní poskytuje následující vıhody:
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 60%
-- Resistance to physical damage set to 30%
-- Resistance to elemental damage set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d8 crushing, 8 cold)
-- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
-- THAC0 set to -8
-- PLUS_SIGN_PLACEHOLDER 200 Hit Points
-- Regenerate 3 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
-- Free action
-- Chance of losing control: a cumulative 5% per two rounds~
-@12 = ~Ravager Change
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 60%
+- Odolnost vùèi fyzickému zranìní je nastavena na 30%
+- Odolnost vùèi elementálnímu zranìní je nastavena na 40%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 4 (2k8 drtivé + 8 chladem)
+- Útok má 10% šanci e rozptıli ze zasaeného cíle magii a sníí mu magickou odolnost
+- THAC0 je nastaveno na -8
+- PLUS_SIGN_PLACEHOLDER 200 ivotù
+- Regeneruješ si 3 body zdraví za vteøinu
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, spánku a bìnım støelám
+- Poskytuje efekt "Volné akce"
+- Šance na ztrátu kontroly: 5% za kadé dvì kola~
+@12 = ~Promìna v Nièitele
 
-You now have the ability to take on the form either of the Slayer, or of the Ravager - a terrible manifestation of Bhaal. Using this ability reduces your reputation by two points for the Slayer, or a full three points for the Ravager.
+Nyní na sebe dokáeš vzít formu Zabijáka i formu Nièitele - Bhaalova nejstrašlivìjšího a nejmocnìjšího vtìlení. 
+Promìna zabijáka sníí tvou reputaci o dva body.
+Promìna v Nièitele sníí tvou reputaci o tøi body.
 
-As the Slayer, you have the following benefits:
+Forma Zabijáka poskytuje následující vıhody:
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 60%
-- Resistance to physical damage set to 30%
-- Resistance to elemental damage set to 50%
-- Saving Throws set to 2
-- Attacks per round set to 4 (2d8 crushing, 8 cold)
-- Attacks have a 10% chance of casting Dispel Magic and of lowering Magic Resistance
-- THAC0 set to -8
-- PLUS_SIGN_PLACEHOLDER 200 Hit Points
-- Regenerate 3 Hit Points per second
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, disease, poison, and missile attacks
-- Free action
-- Chance of losing control: a cumulative 5% per two rounds
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 60%
+- Odolnost vùèi fyzickému zranìní je nastavena na 30%
+- Odolnost vùèi elementálnímu zranìní je nastavena na 50%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 4 (2k8 drtivé + 8 chladem)
+- Útok má 10% šanci e rozptıli ze zasaeného cíle magii a sníí mu magickou odolnost
+- THAC0 je nastaveno na -8
+- PLUS_SIGN_PLACEHOLDER 200 ivotù
+- Regeneruješ si 3 body zdraví za vteøinu
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, zmatku, spánku, nemocem, jedu a bìnım støelám
+- Poskytuje efekt "Volné akce"
+- Šance na ztrátu kontroly: 5% za kadé dvì kola
 
-As the Ravager, you get the following additional benefits:
+Forma Nièitele poskytuje tyto vıhody:
 
-- Magic Resistance set to 75%
-- Resistance to physical damage set to 50%
-- Resistance to elemental damage set to 50%
-- Resistance to magic damage set to 50%
-- Attacks per round set to 5 (3d8 crushing, 8 cold)
-- Chance of dispelling on hit increases to 20%
-- THAC0 set to -12
-- PLUS_SIGN_PLACEHOLDER 250 hit points
-- Regenerate 5 Hit Points per second
-- Chance of losing control increases to 40% plus a cumulative 10% chance per round~
-@13 = ~Slayer Change
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 75%
+- Odolnost vùèi fyzickému zranìní je nastavena na 50%
+- Odolnost vùèi elementálnímu zranìní je nastavena na 50%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 5 (3k8 drtivé + 8 chladem)
+- Útok má 20% šanci e rozptıli ze zasaeného cíle magii a sníí mu magickou odolnost
+- THAC0 je nastaveno na -12
+- PLUS_SIGN_PLACEHOLDER 250 ivotù
+- Regeneruješ si 5 bodù zdraví za vteøinu
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, zmatku, spánku, nemocem, jedu a bìnım støelám
+- Poskytuje efekt "Volné akce"
+- Šance na ztrátu kontroly: 40% plus kumulativní šance 10% za kadé další kolo~
+@13 = ~Promìna v Zabijáka
 
-When Imoen uses this ability, she takes on the form of the brutal essence of Bhaal: a violent, powerful creature made of teeth and claws.
+Kdy Imoen pouije tuto schopnost, vezme na sebe formu Avatára samotného Bhaala. Násilnou a mocnou zrùdu s dlouhımi zuby a drápy.
 
-The Slayer form grants the following benefits:
+Forma Zabijáka poskytuje následující vıhody:
 
-- Strength and Dexterity set to 25
-- Effective AC set to -9
-- Magic Resistance set to 40%
-- Saving Throws set to 2
-- Attacks per round set to 4 (1d8 crushing, 2 cold)
-- THAC0 set to 0
-- PLUS_SIGN_PLACEHOLDER 100 Hit Points
-- Immunity to imprisonment, level drain, stun, fear, charm, confusion, sleep, and missile attacks
+- Síla a Obratnost je nastavena na 25
+- Obranné èíslo je nastaveno na -9
+- Magická odolnost je nastavena na 40%
+- Záchranné hody jsou nastaveny 2
+- Poèet útokù za kolo je nastaven na 4 (1k8 drtivé + 2 chladem)
+- THAC0 je nastaveno na 0
+- PLUS_SIGN_PLACEHOLDER 100 ivotù
+- Imunita na uvìznìní, vysátí úrovnì, ochromení, strachu, ovládnutí, spánku a bìnım støelám
 
-Perhaps because Imoen has less of Bhaal's essence than <CHARNAME> - or perhaps because of what she learned after Melissan called forth her essence - she is more able to contain the Slayer's power, and has no chance of losing control while in Slayer form.~
-@14 = ~Bhaalspawn powers granted~
-@15 = ~Imoen can now change into the Slayer at will, and can enter the Ethereal plane once per minute~
-@16 = ~Získána nová schopnost: "Ovládnutí démona"
+Moná e je to tím, e Imoen má mnohem ménì esence ne <CHARNAME>, ale faktem zùstává, e její kontrola nad touto formou je absolutní a proto nad ní nikdy neztratí kontrolu.~
+@14 = ~Získány schopnosti Bhaalova zplozence~
+@15 = ~Imoen na sebe nyní mùe bez omezení brát formu Zabijáka a jednou za minutu na sebe vzít Étherickou formu~
+@16 = ~Ovládání Démonù
 
-Tato schopnost Bhaalovu zplozenci umoní ovládnout démony, kteøí jsou od Melissan vzdáleni a uèinit z nich spojence. V duševním souboji, kterı trvá 1 kolo, zamìstná Bhaalùv zplozenec démona, kterı se tak mùe stát na konci kola jeho spojencem. Nicménì není pod jeho pøímou kontrolou. Tato schopnost mùe bıt pouita kadé 3 kola.
+Dosah: dohled sesilatele
+Doba sesílání: 1
+Trvání: speciální
+Oblast pùsobení: 1 démon
+Záchrannı hod: není
 
-Získána nová schopnost: "Dimenzionální dveøe"
+Tato schopnost umoní zplozeci vøevzít kontrolu nad démony které Melissa vyvovala. S vybranım démone se utkáš v mentální bitvì po dobu DURATION_PLACEHOLDER vteøin. Po ulynutí této doby je zde SUCCESS_CHANCE_PLACEHOLDER% e se z démona stane tvùj spojenec. Neexistuje zde ádnı záchrannı hod nebo odolnost. Démon není pod tvou pøímou kontrolou, ale bude bojovat na tvé stranì. Tuto schopnost mùeš pouít jednou za 3 kola.~
+@17 = ~Utrení ze øetìzu
 
-Nyní se mùe Bhaalùv zplozenec volnì pohybovat mezi prostorem a sférami. Tato teleportaèní síla je pouitelná jednou za kolo.~
-@17 = ~Získána nová schopnost: "Utrení ze øetìzu"
+Dosah: 3 metry
+Doba sesílání: 1
+Trvání: Instant
+Oblast pùsobení: 1 bytost
+Záchrannı hod: 1/2 + speciální
 
-Schopnost "Utrení ze øetìzu" vrhne na cíl tvou vnitøní sílu s dosahem boje na blízko, zasáhne jej 10k12 magickım zranìním (polovina pøi úspìšné záchranì proti smrti), odhodí jej zpìt a obèas na chvíli zpùsobí bezvìdomí. Tato schopnost mùe bıt pouita kadıch 30 sekund. Po jejím pouití se Bhaalùv zplozenec cítí neuvìøitelnì unavenì a po 2 kola obdrí 25% šanci na selhání kouzla. Pøemìna v zabijáka není moná po 30 sekund, vzhledem k mnoství pouité boské esence.~
-@18 = ~"Ohnisko"
+Schopnost "Utrení ze øetìzu" umoòuje vypustit tvou vniøní energii na nepøátele v tvé bezprostøední a zpùsobit jim magické zranìní ve vıši DICENUMBER_PLACEHOLDERk12 (polovinu, pokud uspìjí v záchranném hodu proti smrti s postihem -4) a odhodí je od tebe (je zde šance, e po odhození budou na chvíli v bezvìdomí). Tuto schopnost je moné pouít jednou za 30 vteøin. Po jejím pouití jsi extrémnì unavenı a máš 25% šanci e seleš pøi sesílání kouzla po dobu dvou kol. Jeliko vyuíváš extrémnì velké mnoství esence, podoby Zabijáka a Nièitele nebudou následujících 30 vteøin dostupné.~
+@18 = ~Ohnisko
 
-Tato schopnost umoní Bhaalovu zplozenci soustøedit svoji energii, aby odolal kouzlùm, které pùsobí na venkovní prostor. Po dobu 30 sekund se Bhaalùv zplozenec stává imunním na kouzla Maso na kámen, Rozloení a Zastav èas. Všechna kouzla 1. - 3. úrovnì nebudou mít na Bhaalova zplozence vliv. Tahle schopnost je pouitelná jednou za minutu.~
-@19 = ~Dimension Door
+Dosah: 0
+Doba sesílání: 1
+Trvání: 5 kol
+Oblast pùsobení: sesilatel
+Záchrannı hod: není
 
-Range: Infinite
-Casting Time: 0
-Duration: Instant
-Area of Effect: Caster
-Saving Throw: None
+Tato schopnost umoòuje zplozenci soustøedit svou energii smìrem dovnitø a odolat tak velkému mnoství kouzel. Po dobu 30 vteøin se stane imunní na kouzla jako je "Kámen na maso", "Desintegrace" a "Zastav èas". Zároveò mùe naprosto ignorovat všechny kouzla 1-3 úrovnì. Tuto schopnost je moné pouít jednou za minutu.~
+@19 = ~Dimenzionální dveøe
 
-The Bhaalspawn may now move freely through space and the planes. This teleportation power is useable once per round.~
-@20 = ~Shapeshift: Bat
+Dosah: neomezenı
+Doba sesílání: 0
+Trvání: okamité
+Oblast pùsobení: sesilatel
+Záchrannı hod: není
 
-This ability allows Bodhi to shapeshift into bat form.~
-@21 = ~Schopnosti Bhaalova zplozence
+Zplozenec se mùe zcela volnì pohybovat v prostoru a mezi sférami. Teleportaci mùe pouít jednou za kolo.~
+@20 = ~Promìna v netopıra
 
-<CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
+Tato schopnost umoòuje Bodhi promìnit se v netopıra.~
+@21 = ~Boskı dar
 
-Posílení svatou mocí 
-(Vzıvání) 
-
-Dosah: 0 
+Dosah: 0
 Trvání: 1 tah
 Doba sesílání: 1
-Oblast pùsobení: sesilatel 
-Záchrannı hod: není 
+Oblast pùsobení: sesilatel
+Záchrannı hod: není
 
-Bhaalùv zplozenec povolá moc své krve, aby mu poskytla na krátkou dobu moc.  Kdy tak uèiní, jeho síla, odolnost a obratnost se zvıší o 1 bod za kadé 3 úrovnì sesilatele.  Sesilateli na 3. úrovni se zvıší schopnosti o 1, zatímco sesilateli na 12. úrovni se zvıší schopnosti o 4.~
-@22 = ~Flip Resistances
+Zplozenec vyvolá sílu své krve, co mu na krátkı èas propùjèí obrovskou moc. Síla, obratnost a odolnost budou zvıšeny na 25.~
+@22 = ~Otoè odolnosti
 
-Range: 0
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: 0
+Trvání: trvalé
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage increases to 90%; his normal 90% resistance to magic, magic damage and elemental damage drops to 10%.
+Pomocí této schopnosti mùe Balthazar libovolnì otáèet svou pøirozenou odolnost. Jeho odolnost vùèi fyzickému zranìní se zvıší z 10% na 90% a jeho odolnost vùèi magii a elementálnímu zranìní se sníí z 90% na 10%.
 
-Balthazar may flip his resistances at will.~
-@23 = ~Flip Resistances
+Balthazar mùe své odolnosti otáèet kdykoliv se mu zachce.~
+@23 = ~Otoè odolnosti
 
-Range: 0
-Duration: Permanent
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: 0
+Trvání: trvalé
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-With this ability, Balthazar inverts his innate resistances. His normal 10% resistance to physical damage is restored; so is his normal 90% resistance to magic, magic damage and elemental damage.
+Pomocí této schopnosti mùe Balthazar libovolnì otáèet svou pøirozenou odolnost. Jeho odolnost vùèi fyzickému zranìní se sníí z 90% na 10% a jeho odolnost vùèi magii a elementálnímu zranìní se zvıší z 10% na 90%.
 
-Balthazar may flip his resistances at will.~
-@24 = ~Solar Stance
+Balthazar mùe své odolnosti otáèet kdykoliv se mu zachce.~
+@24 = ~Postoj Slunce
 
-Range: 0
-Duration: 3 hours
-Casting Time: 1
-Area of Effect: Balthazar, plus any creatures within 30ft
-Saving Throw: None
+Dosah: 0
+Trvání: 3 hodiny
+Doba sesílání: 1
+Oblast pùsobení: Balthazar a všechny bytosti v okruhu 10 metrù
+Záchrannı hod: není
 
-By entering the Solar Stance, Balthazar calls on the power of the sun to enhance his mystical abilities. He gains 127% resistance to fire (even when using Flip Resistance) and all of his attacks deal an additional 1d10 fire damage; this damage actually heals Balthazar. Upon entering the Solar Stance, Balthazar releases a blast of flame which deals 12d6 fire damage (save vs. spell for 1/2) and 1d8 crushing damage to all with 30ft, blasting any nearby creatures away from him.
+Pokud Balthazar zaujme postoj slunce, vylepší tím své mystické schopnosti. Získá 127% odolnost vùèi ohni (bez ohledu na to, jestli má otoèené odolnosti) a všechny jeho útoky pùsobí dodateèné zranìní ohnìm 1k10; a zároveò Balthazarovi léèí zdraví o stejné vıši. Jakmile vstoupí do postoje slunce, vypustí Blathazar vlnu plamenù, které zpùsobí 12k6 zranìní ohnìm (polovinu, pøi úspìšné záchranì proti kouzlu) a 1k8 drtivého zranìní všem, co se nechází v okruhu 10 m od nìj. Všichni jsou zároveò i odhozeni.
 
-Balthazar can have only one stance active at a time: entering the Solar Stance cancels all other stances. The Solar Stance can be removed by effects such as Breach.~
-@25 = ~Lunar Stance
+Balthazar mùe najednou vyuívat pouze jeden postoj. Vstup do tohoto postoje zruší všechny pøedchozí. Postoj slunce mùe bıt zrušen kouzly jako je "Zlom".~
+@25 = ~Postoj Mìsíce
 
-Range: 0
-Duration: 3 hours
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: 0
+Trvání: 3 hodiny
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-By entering the Lunar Stance, Balthazar calls on the power of the moon to enhance his mystical abilities. While in the Lunar Stance, Balthazar is immune to energy drain, Imprisonment and Time Stop, and receives one use of the Lunar Malison ability. Upon entering the Lunar Stance, all enemies adjacent to Balthazar are blinded for four rounds (save vs. spells to avoid).
+Pokud Balthazar zaujme postoj mìsíce, vylepší tím své mystické schopnosti. Získá imunitu na Vysátí energie, Uvìznìní, Zastavení èasu a mùe jednou pouít Kletbu mìsíce. Jakmile vstoupí do tohoto postoje, všichni nepøátelé v jeho okolí jsou na 4 kola oslepeni (záchrana proti kouzlu ruší úèinek).
 
-Balthazar can have only one stance active at a time: entering the Lunar Stance cancels all other stances. The Lunar Stance can be removed by effects such as Breach.~
-@26 = ~Shadow Stance
+Balthazar mùe najednou vyuívat pouze jeden postoj. Vstup do tohoto postoje zruší všechny pøedchozí. Postoj mìsíce mùe bıt zrušen kouzly jako je "Zlom".~
+@26 = ~Stínovı postoj
 
-Range: 0
-Duration: 3 hours
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: 0
+Trvání: 3 hodiny
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-By entering the Shadow Stance, Balthazar calls on the power of the Plane of Shadow to enhance his mystical abilities. While in the Shadow Stance, Balthazar is protected by Improved Invisibility (and is completely invisible for the first 15 seconds, or until he attacks). In addition to the already-significant defensive advantages of Improved Invisibility, the cloak of shadows grants Balthazar an additional +6 bonus to Armor Class.
+Pokud Balthazar zaujme stínovı postoj, vylepší tím své mystické schopnosti. Moc stínù mu propùjèí úplnou neviditelnost (stejné jako kouzlo "Vylepšená neviditelnost"). Mimo to, mu ochrannı stínovı pláš zvyšuje obranné èíslo o dalších 6 bodù.
 
-Balthazar can have only one stance active at a time: entering the Shadow Stance cancels all other stances. The Shadow Stance can be removed by effects such as Oracle or True Sight.~
-@27 = ~Faster than the Eye
+Balthazar mùe najednou vyuívat pouze jeden postoj. Vstup do tohoto postoje zruší všechny pøedchozí. Stínovı postoj mùe bıt zrušen kouzly jako je "Pravdivé vidìní" nebo "Orákulum".~
+@27 = ~Rychlejší ne oko
 
-Range: Sight
-Duration: Instant
-Casting Time: 0
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: dohled sesilatele
+Trvání: okamité
+Doba sesílání: 0
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-In the blink of an eye, Balthazar transports himself anywhere in sight.
+Pouhım mrknutím oka se Balthazar mùe pøesunout kamkoliv dohlédne.
 
-This power can be used once per two rounds.~
-@28 = ~Dragon Fist
+Tato schopnost mùe bıt pouita jednou za 2 kola.~
+@28 = ~Draèí pìst
 
-Range: Touch
-Duration: Special
-Casting Time: 0
-Area of Effect: Creature hit
-Saving Throw: None
+Dosah: dotek
+Trvání: speciální
+Doba sesílání: 0
+Oblast pùsobení: zasaená bytost
+Záchrannı hod: není
 
-By channeling ki energy into a blow, Balthazar rips through his opponent's magical defenses. The Dragon Fist has a 25% chance of destroying all combat protections and boosts below 9th level, a 25% chance of destroying all antimagic effects below 9th level, and a 50% chance of destroying both. It also slows its target (causing a -4 penalty to AC and attack rolls) for two rounds.
+Soustøedìním KI do svého úderu, mùe Balthazar prorazit nepøátelské magické ochrany. Draèí pìst má 25% šanci na znièení všech bojovıch ochran a posílení úrovnì niší ne 9 a 25% šanci na znièení antimagickıch efektù a ochran úrovnì niší ne 9. Zároveò má 50% šanci na znièení obojího. Tento úder navíc zpomalí (-4 k šanci na zásah a obranì) zasaenı cíl na 2 kola.
 
-This power can be used once per three rounds.~
-@29 = ~Tiger Strike
+Tato schopnost mùe bıt pouita jednou za 3 kola.~
+@29 = ~Technika tygra
 
-Range: 0
-Duration: 2 rounds
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: None
+Dosah: 0
+Trvání: 2 kola
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: není
 
-While Tiger Strike is active, Balthazar has a 50% chance per hit of a critical hit; in addition, any hit sends its victim flying backwards, stunning them for 1 round.
+Pokud pouívá techniku tigra, má Balthazar 50% šanci na kritickı útok; všechny jeho údery navíc odhazují nepøátele a nechávají je omráèené po dobu jednoho kola.
 
-This power can be used once per four rounds.~
-@30 = ~Hand of Murder
+Tato schopnost mùe bıt pouita jednou za 4 kola.~
+@30 = ~Smrtící ruka
 
-Range: 0
-Duration: 1 round
-Casting Time: 1
-Area of Effect: Balthazar
-Saving Throw: Special
+Dosah: 0
+Trvání: 1 kolo
+Doba sesílání: 1
+Oblast pùsobení: Balthazar
+Záchrannı hod: speciální
 
-Through combining his ki with his Bhaalspawn essence, all of Balthazar's attacks for one round are automatic critical hits. For the first three second after he activates the power, anyone hit drops dead (save vs. spells to negate).
+Pokud Balthazar spojí své KI s esencí Bhaalova zplozence, vznikne vskutku smrtící kombinace. Po dobu jednoho kola jsou všechny jeho útoky automaticky kritické zásahy a bìhem prvních 3 vteøin po aktivaci, jsou všichni zasaení nepøátelé automaticky zabiti (záchrana proti kouzlu ruší úèinek).
 
-This power can be used once per three rounds.~
-@31 = ~Shadowless Kick
+Tato schopnost mùe bıt pouita jednou za 3 kola.~
+@31 = ~Stínovı kop
 
-Range: Touch
-Duration: 4 seconds
-Casting Time: 0
-Area of Effect: Creature kicked
-Saving Throw: None
+Dosah: dotek
+Trvání: 4 vteøiny
+Doba sesílání: 0
+Oblast pùsobení: zasaená bytost
+Záchrannı hod: není
 
-With a powerful kick, Balthazar knocks his opponent away, sending them flying; they take 4d8 damage from the impact and are knocked unconscious for a few seconds.
+Pomocí mocného kopu odhodí Balthazar zasaeného neøítele a zpùsobí mu 4k8 drtivého zranìní. Odhození nepøátele jsou na pár vteøin omráèeni.
 
-This power can be used once per two rounds.~
-@32 = ~Lunar Malison
+Tato schopnost mùe bıt pouita jednou za 2 kola.~
+@32 = ~Kletba Mìsíce
 
-Range: 30 ft.
-Duration: special
-Casting Time: 1
-Area of Effect: 1 creature
-Saving Throw: Special
+Dosah: 10 metrù
+Trvání: speciální
+Doba sesílání: 1
+Oblast pùsobení: 1 bytost
+Záchrannı hod: speciální
 
-The creature affected by Lunar Malison suffers a -4 penalty to all saving throws for a period of 40 rounds. Additionally, they must save vs. spells at a -2 penalty or be slowed (taking a -4 penalty to AC and attack rolls) for 2 rounds.
+Bytost, která je zasaená Kletbou mìsíce obdrí postih -4 ke všem záchrannım hodùm po dobu 40 kol. Dále musí uspìt v záchranì proti kouzlu s postihem -2, nebo bude zpomalena (-4 k šanci na zásah a obranì) na 2 kola.
 
-Balthazar receives one use of this ability whenever he enters the Lunar Stance.~
+Balthazar získá jedno pouití této schopnosti kdykoliv vstoupí do Postoje mìsíce.~

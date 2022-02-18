@@ -1,15 +1,15 @@
 @500 = ~Babau~
 @1003 = ~Promìna v netopıra~
 @1006 = ~Úderná vlna~
-@1007 = ~Aura bleskù~
+@1007 = ~Blesková aura~
 @1009 = ~Telekinenze~
-@1012 = ~Odolnost na otoèky~
-@1013 = ~Ovládnutí démona~
+@1012 = ~Otoè odolnosti~
+@1013 = ~Ovládání démonù~
 @1014 = ~Ohnisko~
 @1016 = ~Boskı pláš~
 @1017 = ~Èerpání síly~
 @1018 = ~Boskı kouzelnı štít~
-@1019 = ~Pøíkaz démonu~
+@1019 = ~Porouèej démonùm~
 @1020 = ~Vyhoštìní~
 @1022 = ~Utrení ze øetìzu~
 @1024 = ~Zpìtná vazba~
@@ -18,38 +18,38 @@
 @1027 = ~Aura ochromení~
 @1029 = ~Lávová bomba~
 @1031 = ~Symbol moci: Zpomal~
-@1037 = ~Promìna v nièitele~
+@1037 = ~Promìna v Nièitele~
 @1038 = ~Melissan: Vláda nad pøisluhovaèi Propasti~
-@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
-@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
-@1041 = ~Transfixed~
-@1042 = ~Weapons weakened by Babau slime~
-@1043 = ~Grabbed~
-@1044 = ~Regains Bhaal powers~
-@1045 = ~You have regained control for now.~
-@1046 = ~Magic Resistance lowered by 5%~
-@1047 = ~Magic Resistance lowered by 5%~
-@1048 = ~Slayer transformation enhanced~
-@1049 = ~The demon bows to your will~
-@1050 = ~The demon defies your will~
-@1051 = ~This power only affects demons~
-@1052 = ~The demon bows to Melissan's will~
-@1053 = ~The demon defies Melissan's will~
-@1054 = ~Bhaalspawn Power gained: Unleash~
-@1055 = ~Bhaalspawn Power gained: immunity to death magic~
-@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
-@1057 = ~Bhaalspawn Power gained: Dimension Door~
-@1058 = ~Bhaalspawn Power gained: Control Demons~
-@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
-@1060 = ~Bhaalspawn Power gained: Focus~
-@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
-@1062 = ~Boskı pláš~
-@1063 = ~Magic Resistance Restored~
-@1064 = ~Antimagic Protections Removed~
-@1065 = ~Combat Protections Removed~
-@1066 = ~AI deactivated~
-@1067 = ~AI activated~
-@1068 = ~Lunar Malison~
+@1039 = ~Získána schopnost Bhaalova zplozence: Ochrana pøed negativní sférou~
+@1040 = ~Získána schopnost Bhaalova zplozence: 25% odolnost na fyzické zranìní~
+@1041 = ~Zadren~
+@1042 = ~Zbranì byly oslabenmy slizem Babau~
+@1043 = ~Popadnut~
+@1044 = ~Znovuzískání schopností Bhaalova zplozence~
+@1045 = ~Prozatím jsi získal kontrolu.~
+@1046 = ~Magická odolnost byla sníena o 5%~
+@1047 = ~Magická odolnost byla sníena o 5%~
+@1048 = ~Promìna v Zabijáka byla vylepšena~
+@1049 = ~Démon se podøizuje tvojí vùli~
+@1050 = ~Démon odolává tvojí vùli~
+@1051 = ~Tuto schopnost lez pouít pouze na démony~
+@1052 = ~Démon se podøizuje vùli Melissan~
+@1053 = ~Démon odolává vùli Melissan~
+@1054 = ~Získána schopnost Bhaalova zplozence: Utrení ze øetìzu~
+@1055 = ~Získána schopnost Bhaalova zplozence: Imunita na smrtící magii~
+@1056 = ~Získána schopnost Bhaalova zplozence: Imunita na automatické zabití~
+@1057 = ~Získána schopnost Bhaalova zplozence: Dimenzionální dveøe~
+@1058 = ~Získána schopnost Bhaalova zplozence: Ovládání démonù~
+@1059 = ~Získána schopnost Bhaalova zplozence: Imunita na Bludištì a Uvìznìní~
+@1060 = ~Získána schopnost Bhaalova zplozence: Ohnisko~
+@1061 = ~Získána schopnost Bhaalova zplozence: Imunita na poskvrnu Zabijáka~
+@1062 = ~Boskı dar~
+@1063 = ~Magická odolnost obnovena~
+@1064 = ~Ochrana pøed magií byla zrušena~
+@1065 = ~Ochrana pøed fyzickım zranìním byla zrušena~
+@1066 = ~AI deaktivována~
+@1067 = ~AI aktivivána~
+@1068 = ~Kletba mìsíce~
 @2000 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
@@ -63,8 +63,7 @@ Doba sesílání: 1
 Oblast pùsobení: polomìr 30 m
 Záchrannı hod: není 
 
-Pøi pouití této schopnosti si musí Bhaalùv zplozenec jasnì pøedstavit tváøe svıch spoleèníkù a soustøedit se na jednotu druiny.
-Po dokonèení jsou všichni èlenové druiny v okruhu 30 metrù od sesílajícího uzdraveni o 2k8 + 2/úroveò ivotù.  Jsou vyléèeny i další nepøíjemnosti: únava, otrava, nákaza, slepota a hluchota.~
+Pøi pouití této schopnosti si musí Bhaalùv zplozenec jasnì pøedstavit tváøe svıch spoleèníkù a soustøedit se na jednotu druiny. Po dokonèení jsou všichni èlenové druiny v okruhu 30 metrù od sesílajícího uzdraveni o 2k8 + 2/úroveò ivotù. Jsou vyléèeny i další nepøíjemnosti: únava, otrava, nákaza, slepota a hluchota.~
 @2001 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
@@ -78,7 +77,7 @@ Doba sesílání: 7
 Oblast pùsobení: dotknutá bytost
 Záchrannı hod: není 
 
-Tato mocná schopnost umoòuje Bhaalovu zplozenci pøedat 1 bytosti schopnost regenerace.  Tato regenerace zahojí rány a vdy obnoví ztracené konèetiny.  Ovlivnìná bytost získá 3 ivoty za sekundu.  Úèinek trvá 1 kolo za kadé 2 úrovnì sesilatele, nebo do rozptılení kouzla.  Napøíklad postava 14. úrovnì regeneruje 18 ivotù za kolo po dobu 7 kol.~
+Tato mocná schopnost umoòuje Bhaalovu zplozenci pøedat 1 bytosti schopnost regenerace. Tato regenerace zahojí rány a vdy obnoví ztracené konèetiny. Ovlivnìná bytost získá 3 ivoty za sekundu. Úèinek trvá 1 kolo za kadé 2 úrovnì sesilatele, nebo do rozptılení kouzla. Napøíklad postava 14. úrovnì regeneruje 18 ivotù za kolo po dobu 7 kol.~
 @2002 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má vrozenou schopnost, pouitelnou jednou dennì: 
@@ -149,16 +148,15 @@ Doba sesílání: 1
 Oblast pùsobení: dotknutá bytost
 Záchrannı hod: není
 
-Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot jedné postavì.  Avšak Vzkøíšení ji také vyléèí, take je pøipravena na další dobrodruství.~
+Podobnì jako kouzlo 5. úrovnì Oiv mrtvého, i Vzkøíšení vrátí ivot jedné postavì. Avšak Vzkøíšení ji také vyléèí, take je pøipravena na další dobrodruství.~
 @2007 = ~Schopnosti Bhaalova zplozence
 
 <CHARNAME> má 25% odolnost na fyzická zranìní (seèná, bodná, drtivá a støelná).~
-@2008 = ~Slayer Change ability improved~
-@3000 = ~Meè Chaosu~
+@2008 = ~Schopnost zmìny v Zabijáka se zlepšila~
+@3000 = ~Sarevokùv meè Chaosu~
 @3001 = ~Obouruèní meè +4: Sarevokùv meè Chaosu 
 
-Èepel Sarevoka, bratra <CHARNAME>, pouitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì.  <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeí na pokraji války.  Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena.
-Sarevok popisuje zbraò jako Smrtonošovu èepel a obnovil její starou sílu.  Bez esence Bhaalova zplozence, proudící skrze meè, nemùe dosáhnout té síly, co mìla.  Leè stále je to strašlivá zbraò... a Sarevok varuje, e kdy se pokusí pouít zbraò nìkdo, kdo není Smrtonošem, tak bude mít sníenou schopnost ovládat zbraò.
+Èepel Sarevoka, bratra <CHARNAME>, pouitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì. <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeí na pokraji války. Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena. Sarevok popisuje zbraò jako Smrtonošovu èepel a obnovil její starou sílu. Bez esence Bhaalova zplozence, proudící skrze meè, nemùe dosáhnout té síly, co mìla. Leè stále je to strašlivá zbraò... a Sarevok varuje, e kdy se pokusí pouít zbraò nìkdo, kdo není Smrtonošem, tak bude mít sníenou schopnost ovládat zbraò.
 
 VLASTNOSTI:
 
@@ -180,4 +178,8 @@ Odolnost 18
 Váha: 10~
 @3002 = ~Lektvar Sendai~
 @3003 = ~Lektvar Sendai
-Tohle je neuvìøitelnì silnı hojivı lektvar, kterı moná uvaøila samotná Sendai.  Je schopnı úplnì obnovit ivoty toho, kdo jej pouije.~
+Tento léèivı lektvar je tak silnı, e dokáe úplnì uzdravit kohokoliv kdo jej vypije. Musí se jednat o Sendainu osobní várku.
+
+VLASTNOSTI:
+
+Váha: 1~
