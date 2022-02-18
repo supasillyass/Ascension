@@ -5,7 +5,7 @@ BACKUP ~weidu_external/backup/ascension~
 SUPPORT "https://www.gibberlings3.net/forums/forum/207-ascension/"
 
 // use Semantic Versioning - http://semver.org
-VERSION ~2.0.21~
+VERSION ~2.0.22~
 
 AUTO_EVAL_STRINGS
 README "ascension/doc/readme-ascension.html"
@@ -55,7 +55,7 @@ LANGUAGE ~Russian (Pilferer, Serdrick, Aerie.ru)~
          ~russian~
          ~ascension/lang/russian/setup.tra~
 
-LANGUAGE ~Cesky jazyk (Landor, Pan Baca)~
+LANGUAGE ~Cesky jazyk (Landor, Pan Baca, Edvin)~
          ~czech~
          ~ascension/lang/czech/setup.tra~
 
