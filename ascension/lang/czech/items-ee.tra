@@ -1,10 +1,11 @@
-@3001 = ~Èepel Sarevoka, bratra <CHARNAME>, použitá v bitvì, kterou spolu bojovali ve vzdálené Baldurovì Bránì.  <CHARNAME> zvítìzila, znièila Sarevokovy plány a zachránila Meèové pobøeží na pokraji války.  Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena.
-Sarevok popisuje zbraò jako Smrtonošovu èepel a obnovil její starou sílu.  Bez esence Bhaalova zplozence, proudící skrze meè, nemùže dosáhnout té síly, co mìla.  Leè stále je to strašlivá zbraò... a Sarevok varuje, že když se pokusí použít zbraò nìkdo, kdo není Smrtonošem, tak bude mít sníženou schopnost ovládat zbraò.
+@3001 = ~Obouruèní meè +4: Sarevokùv meè Chaosu 
+
+Èepel Sarevoka, bratra <CHARNAME>, použitá v bitvì, kterou spolu bojovali v podzemí vzdálené Baldurovy Brány. <CHARNAME> zvítìzil, znièil Sarevokovy plány a zachránil Meèové pobøeží, které bylo na pokraji války. Nyní se Sarevok pøipojil k <CHARNAME> a jeho èepel mu byla navrácena. Sarevok nazývá zbraò Smrtonošovou èepelí a obnovil vìtšinu její staré sílu. Bez esence Bhaalova zplozence, proudící skrze meè, však nemùže dosáhnout plné moci. Leè stále je to strašlivá zbraò... a Sarevok varuje, že když se pokusí použít zbraò nìkdo, kdo není Smrtonošem, moc zbranì bude omezená.
 
 VLASTNOSTI:
 
 Schopnost v boji:
-- Každý zásah vysaje z cíle 1 až 5 bodù života a pøemístí jej k vlastníkovi. Tímto není možné se uzdravit nad maximální hranici životù vlastníka.
+– Každý zásah vysaje z cíle 1 až 5 bodù života a pøemístí jej k vlastníkovi. Tímto není možné se uzdravit nad maximální hranici životù vlastníka.
 
 Pøi vybavení:
 - Magická odolnost: +10%
@@ -14,13 +15,10 @@ Zranìní: 1K10 +4 (seèné)
 Rychlost: 8
 Druh dovednosti: obouruèní meè
 Druh: obouruèní
-Vyžaduje:
-Síla 14
-Odolnost 18
 
 Váha: 10~
-@3003 = ~Possibly a brew of Sendai's own, this is an incredibly potent healing potion capable of fully restoring the hit points of any who use it.
+@3003 = ~Tento léèivý lektvar je tak silný, že dokáže úplnì uzdravit kohokoliv kdo jej vypije. Musí se jednat o Sendainu osobní várku.
 
-STATISTICS:
+VLASTNOSTI:
 
-Weight: 1~
+Váha: 1~
