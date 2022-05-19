@@ -1,0 +1,19 @@
+name: Poify/Unpoify
+on:
+  push:
+    paths:
+      - "ascension/lang/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Poify/Unpoify
+        uses: BGforgeNet/msg2po@master
+        with:
+          poify: "true"
+          unpoify: "true"
+          push: "true"
+          dir2msgstr: "true"
