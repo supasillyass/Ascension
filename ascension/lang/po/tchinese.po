@@ -35,8 +35,6 @@ msgid "Telekinesis"
 msgstr "劈空取物"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Flip Resistances"
 msgid "Flip Resistances"
 msgstr "防禦投射"
 

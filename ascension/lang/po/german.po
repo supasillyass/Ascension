@@ -35,8 +35,6 @@ msgid "Telekinesis"
 msgstr "Telekinese"
 
 #: ascension.tra:1012
-#, fuzzy
-#| msgid "Flip Resistances"
 msgid "Flip Resistances"
 msgstr "Resistenzen wechseln"
 
