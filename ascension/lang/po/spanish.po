@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1970-1-01 00:00+0000\n"
-"PO-Revision-Date: 2022-05-21 10:02+0000\n"
+"PO-Revision-Date: 2022-05-21 10:05+0000\n"
 "Last-Translator: Magus <magus@bgforge.net>\n"
 "Language-Team: Spanish <https://tra.bgforge.net/projects/infinity-engine/"
 "ascension/es/>\n"
@@ -126,7 +126,7 @@ msgstr "Agarrado"
 
 #: ascension.tra:1044
 msgid "Regains Bhaal powers"
-msgstr ""
+msgstr "Recupera los poderes de Bhaal"
 
 #: ascension.tra:1045
 msgid "You have regained control for now."
