@@ -46,7 +46,6 @@
 *.tpa text
 *.tph text
 *.tpp text
-*.tra text
 *.vef binary
 *.vvc binary
 *.wav binary
